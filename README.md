@@ -9,17 +9,17 @@
 > **Note:** The Filecoin Project is still under active development, and the Filecoin network has not yet launched. You can see updates about major project milestones on [the Filecoin blog](https://filecoin.io/blog).
 
 - [🥅 Goals of Filecoin Devgrants](#-goals-of-filecoin-devgrants)
-- [🔎 What we fund](#what-we-fund)
+- [🔎 What we fund](#-what-we-fund)
   - [Types of grants](#types-of-grants)
   - [Categories](#categories)
-- [📋 How to apply](#how-to-apply)
+- [📋 How to apply](#-how-to-apply)
   - [Timing and Deadlines](#timing-and-deadlines)
   - [Eligibility](#eligibility)
   - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
   - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
-- [⌛ After you apply](#after-you-apply)
-- [🎟️ Submit an RFP](#submit-an-rfp)
-- [ℹ️ Help](#help)
+- [⌛ After you apply](#-after-you-apply)
+- [🎟️ Submit an RFP](#-submit-an-rfp)
+- [ℹ️ Help](#-help)
 - [License](#license)
 
 ## 🥅 Goals of Filecoin Devgrants 
