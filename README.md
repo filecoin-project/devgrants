@@ -14,6 +14,7 @@
   - [Categories](#categories)
 - 📋 [How to apply](#how-to-apply)
   - [Timing and Deadlines](#timing-and-deadlines)
+  - [Eligibility](#eligibility)
   - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
   - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
 - ⌛ [After you apply](#after-you-apply)
@@ -65,6 +66,12 @@ Concretely, here are the deadlines for waves 1 and 2:
 After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within 2 weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
 
 Note that there is a chance (but no guarantee) your proposal will be reviewed earlier than the wave deadline. Because grants are awarded on a rolling basis, strong proposals that are submitted early might have a slight advantage on the off-chance we review before the wave deadline. Of course, there is no guarantee that we will review proposals before the deadline, so it's up to you whether you want to submit well before the deadline or not!
+
+### Eligibility
+
+- All projects must be open-sourced
+- All projects must be dual-licensed under MIT and APACHE2 licenses
+- All teams must be self-managed
 
 ### Submit a proposal for an RFP
 
