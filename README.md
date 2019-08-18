@@ -109,7 +109,7 @@ After you submit your proposal -- assuming you get it in by the deadline -- you 
 
 ## 🎟️ Submit an RFP
 
-> This section only applies to individuals and organizations that are willing to fund RFPs. Currently, this mainly applies to projects supported by Protocol Labs, but will expand to work with other organizations very soon!
+> This section only applies to individuals and organizations that are willing to fund RFPs. As a result, this currently applies primarily to Protocol Labs, but we will eventually expand to work with other organizations very soon!
 
 If you would like to propose an RFP for the Filecoin ecosystem, you've come to the right place! Here, we provide instructions for how to submit and iterate on an RFP for the Filecoin Dev Grants program. Note that all proposals submitted to your RFP should be reviewed along the same timeframe as is listed in [Timing and Deadlines](#timing-and-deadlines). If you submit an RFP, you will be responsible for making sure all relevant proposals are reviewed on time. Before you start, make sure you can build a strong case for why this grant will increase the utility of the Filecoin ecosystem. If you're convinced that it will, please proceed!
 
@@ -119,7 +119,8 @@ If you would like to propose an RFP for the Filecoin ecosystem, you've come to t
     - Also please add the [`rfp-idea`](https://github.com/filecoin-project/devgrants/labels/rfp-idea) tag
 3. We will review the RFP idea, providing comments and suggestions. If there is an opportunity to cofund the RFP, we will also identify that opportunity (note: not relevant for RFPs suggested by other Protocol Labs projects). Eventually, the RFP idea will either be accepted or rejected.
 4. If the RFP idea is accepted, it will be merged into the `rfps` folder, and collaborators can begin submitting proposals. Please remember that there is no obligation to begin reviewing these proposals before the wave deadline. Of course, if you would like to begin reviewing proposals early, you may! However, it IS required for RFP owners to review all proposals within 2-weeks after the wave has closed.
-5. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
+5. Create an issue with the appropriate Category tag and a link to the merged RFP doc. This is where community members will have discussions, ask you questions, and more, so please monitor this thread!
+6. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
 
 Please contact [@pooja](https://github.com/pooja) for any questions.
 
