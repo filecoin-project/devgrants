@@ -40,34 +40,34 @@ Sum up the total requested budget across all milestones, and include that figure
 
 Specify your team's long-term plans to maintain this software and upgrade it over time.
 
-## Team
+# Team
 
-### Team Members
+## Team Members
 
 - Team Member 1
 - Team Member 2
 - Team Member 3
 - ...
 
-### Team Member LinkedIn Profiles
+## Team Member LinkedIn Profiles
 
 - Team Member 1 LinkedIn profile
 - Team Member 2 LinkedIn profile
 - Team Member 3 LinkedIn profile
 - ...
 
-### Team Website
+## Team Website
 
 Please link to your team's website here (make sure it's `https`)
 
-### Relevant Experience
+## Relevant Experience
 
 Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
 
-### Team code repositories
+## Team code repositories
 
 Please provide links to your team's prior code repos for similar or related projects.
 
-## Additional Information
+# Additional Information
 
 Please include any additional information that you think would be useful in helping us to evaluate your grant application.
