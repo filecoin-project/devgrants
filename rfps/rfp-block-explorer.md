@@ -54,7 +54,7 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 	- Best Block (or in Filecoin’s case, “Best Tipset”) (i.e., [a summary overview of stats](https://ethstats.net/))
 	- Prioritized Block Stats including some, perhaps not all, of the following:
 		- Tipset Height
-		- # of blocks in tipset: Number of blocks in the current best tipset. A tipset is a set of blocks at the same height that share the same parent set.
+		- Number of blocks in tipset: Number of blocks in the current best tipset. A tipset is a set of blocks at the same height that share the same parent set.
 		- Hash of each parent block in a tipset
 		- Time since last block: Time since a miner last created a block
 		- Avg. block time: Average time between blocks that are created / mined
@@ -63,7 +63,7 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 		- Storage Power (%): The probability that a storage miner will win the ability to mine the next block. Miners gain power by storing data, sealing it, and proving they still have it (i.e., providing a Proof-of-Spacetime).
 		- Ticket
 		- Stateroot
-		- # Messages in each block
+		- Number of messages in each block
 		- Block Size (GB)
 		- Block Reward
 		- Clicking on the block height number will bring you to a different view that provides detailed block metadata (see Block Metadata list below)
