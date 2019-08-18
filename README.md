@@ -18,8 +18,8 @@
   - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
   - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
 - [⌛ After you apply](#-after-you-apply)
-- [🎟️ Submit an RFP](#-submit-an-rfp)
-- [ℹ️ Help](#-help)
+- [🎟️ Submit an RFP](#%EF%B8%8F-submit-an-rfp)
+- [ℹ️ Help](#ℹ️-help)
 - [License](#license)
 
 ## 🥅 Goals of Filecoin Devgrants 
