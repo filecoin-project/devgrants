@@ -14,6 +14,7 @@
   - [Categories](#categories)
 - 📋 [How to apply](#how-to-apply)
   - [Timing and Deadlines](#timing-and-deadlines)
+  - [Eligibility](#eligibility)
   - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
   - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
 - ⌛ [After you apply](#after-you-apply)
@@ -66,6 +67,12 @@ After the wave deadline, we will spend a few weeks reviewing proposals on GitHub
 
 Note that there is a chance (but no guarantee) your proposal will be reviewed earlier than the wave deadline. Because grants are awarded on a rolling basis, strong proposals that are submitted early might have a slight advantage on the off-chance we review before the wave deadline. Of course, there is no guarantee that we will review proposals before the deadline, so it's up to you whether you want to submit well before the deadline or not!
 
+### Eligibility
+
+- All projects must be open-sourced
+- All projects must be dual-licensed under MIT and APACHE2 licenses
+- All teams must be self-managed
+
 ### Submit a proposal for an RFP
 
 All of our currently open RFPs are listed in the [`rfps` folder](rfps/).
@@ -101,11 +108,12 @@ After you submit your proposal -- assuming you get it in by the deadline -- you 
 
 ## ℹ️ Help
 
-Check out [these resources](https://filecoin.io/resources/) to get learn more about Filecoin.
+If you have any questions, please ask them!
+- File an issue in this repo
+- Ask on our [community forum](https://discuss.filecoin.io/c/devgrants)
+- Join our [community chat](https://github.com/filecoin-project/community#chat)
 
-Join the conversation at
-- Our [community forum](https://discuss.filecoin.io/c/devgrants). Ask your questions here first!
-- [Community chat](https://github.com/filecoin-project/community#chat)
+Additionally, check out [these resources](https://filecoin.io/resources/) to learn more about Filecoin.
 
 ## License
 

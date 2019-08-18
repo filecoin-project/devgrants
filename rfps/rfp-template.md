@@ -18,6 +18,10 @@ This section should be 2-3 paragraphs long.
 
 What are you expecting the proposer to deliver at the completion of this project? An ordered or unordered list should suffice for this section.
 
+## Recommended Team
+
+List the skillsets and experience you are looking for. Teams with this background might be a better fit for this project.
+
 ## Detailed Requirements & Constraints
 
 You can use this section to detail requirements that the deliverables must include.
