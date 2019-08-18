@@ -1,6 +1,6 @@
 # devgrants
 
-<img src="https://github.com/filecoin-project/devgrants/blob/master/img/filecoin-logo.png" width=0.3>
+<img src="https://github.com/filecoin-project/devgrants/blob/master/img/filecoin-logo.png" width=0.3></img>
 
 ![Filecoin logo](img/filecoin-logo.png){height="30%" width="30%"}
 
