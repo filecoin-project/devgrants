@@ -101,11 +101,12 @@ After you submit your proposal -- assuming you get it in by the deadline -- you 
 
 ## ℹ️ Help
 
-Check out [these resources](https://filecoin.io/resources/) to get learn more about Filecoin.
+If you have any questions, please ask them!
+- File an issue in this repo
+- Ask on our [community forum](https://discuss.filecoin.io/c/devgrants)
+- Join our [community chat](https://github.com/filecoin-project/community#chat)
 
-Join the conversation at
-- Our [community forum](https://discuss.filecoin.io/c/devgrants). Ask your questions here first!
-- [Community chat](https://github.com/filecoin-project/community#chat)
+Additionally, check out [these resources](https://filecoin.io/resources/) to get learn more about Filecoin.
 
 ## License
 
