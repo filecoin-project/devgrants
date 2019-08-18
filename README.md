@@ -109,7 +109,7 @@ After you submit your proposal -- assuming you get it in by the deadline -- you 
 
 ## 🎟️ Submit an RFP
 
-> This section only applies to individuals and organizations that are willing to fund RFPs. Currently, this mainly applies to projects supported by Protocol Labs, but will expand to work with other organizations very soon!
+> This section only applies to individuals and organizations that are willing to fund RFPs. As a result, this currently applies primarily to Protocol Labs, but we will eventually expand to work with other organizations very soon!
 
 If you would like to propose an RFP for the Filecoin ecosystem, you've come to the right place! Here, we provide instructions for how to submit and iterate on an RFP for the Filecoin Dev Grants program. Note that all proposals submitted to your RFP should be reviewed along the same timeframe as is listed in [Timing and Deadlines](#timing-and-deadlines). If you submit an RFP, you will be responsible for making sure all relevant proposals are reviewed on time. Before you start, make sure you can build a strong case for why this grant will increase the utility of the Filecoin ecosystem. If you're convinced that it will, please proceed!
 
