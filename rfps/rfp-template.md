@@ -14,6 +14,10 @@ Please fill in details about this project. What are you asking for someone to bu
 
 This section should be 2-3 paragraphs long.
 
+## Value
+
+Please describe why the work that will come out of this RFP is valuable for the Filecoin ecosystem.
+
 ## Deliverables
 
 What are you expecting the proposer to deliver at the completion of this project? An ordered or unordered list should suffice for this section.
