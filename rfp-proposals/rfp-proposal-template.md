@@ -14,10 +14,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Project Description
 
-Please describe exactly what you are planning to build. Make sure to include the following:
-- Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
-- Please describe why this is valuable for the Filecoin ecosystem.
-- Please describe 
+Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
 
 This section should be 2-3 paragraphs long.
 
