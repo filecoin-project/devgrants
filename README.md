@@ -1,8 +1,6 @@
 # devgrants
 
-<center>
-  <img src="https://github.com/filecoin-project/devgrants/blob/master/img/filecoin-logo.png" width=300>
-</center>
+![Filecoin logo](img/filecoin-logo.png {width=300px})
 
 Hello and welcome to the home page of the Filecoin Dev Grants program! If you haven't already checked it out, you can read more about the motivations behind the program on [the Filecoin website](https://filecoin.io/grants).
 
