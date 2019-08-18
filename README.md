@@ -18,6 +18,7 @@
   - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
   - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
 - ⌛ [After you apply](#after-you-apply)
+- 🎟️ [Submit an RFP](#submit-an-rfp)
 - ℹ️ [Help](#help)
 - [License](#license)
 
@@ -105,6 +106,22 @@ After you submit your proposal -- assuming you get it in by the deadline -- you 
 - During the discussion and review phase, our team will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
 - If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement (TODO link), which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant (whether it's an RFP or open grant), we may stop funding your team for further development work.
 - We aim to complete all review within 2 weeks after the wave deadline, so please stay vigilant on GitHub. If we don't hear back from you when we ask you a question or request changes on your proposal, it's very unlikely that your proposal will be accepted!
+
+## 🎟️ Submit an RFP
+
+> This section only applies to individuals and organizations that are willing to fund RFPs. Currently, this mainly applies to projects supported by Protocol Labs, but will expand to work with other organizations very soon!
+
+If you would like to propose an RFP for the Filecoin ecosystem, you've come to the right place! Here, we provide instructions for how to submit and iterate on an RFP for the Filecoin Dev Grants program. Note that all proposals submitted to your RFP should be reviewed along the same timeframe as is listed in [Timing and Deadlines](#timing-and-deadlines). If you submit an RFP, you will be responsible for making sure all relevant proposals are reviewed on time. Before you start, make sure you can build a strong case for why this grant will increase the utility of the Filecoin ecosystem. If you're convinced that it will, please proceed!
+
+1. Submit a PR against the [`rfp-template.md` file]() in the [`rfps` folder]() of this repo. Make sure to fill in all the categories of the RFP template, including the source of funding. Name this file `rfp-project-title.md`, replacing `project-title` with the name of the project you'd like to fund.
+2. Tag your PR with the appropriate tags:
+    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`
+    - Also please add the [`rfp-idea`](https://github.com/filecoin-project/devgrants/labels/rfp-idea) tag
+3. We will review the RFP idea, providing comments and suggestions. If there is an opportunity to cofund the RFP, we will also identify that opportunity (note: not relevant for RFPs suggested by other Protocol Labs projects). Eventually, the RFP idea will either be accepted or rejected.
+4. If the RFP idea is accepted, it will be merged into the `rfps` folder, and collaborators can begin submitting proposals. Please remember that there is no obligation to begin reviewing these proposals before the wave deadline. Of course, if you would like to begin reviewing proposals early, you may! However, it IS required for RFP owners to review all proposals within 2-weeks after the wave has closed.
+5. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
+
+Please contact [@pooja](https://github.com/pooja) for any questions.
 
 ## ℹ️ Help
 
