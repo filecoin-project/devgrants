@@ -111,7 +111,7 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | High-fidelity design mockups, development Gantt chart, staging site with some UI elements implemented | TBD | 4 weeks |
+| 1 | High-fidelity design mockups, running staging site with some UI elements implemented | TBD | 4 weeks |
 | 2 | Completed implementation of block explorer | TBD | 6 weeks |
 | 3 | All project deliverables are completed and added to the [Filecoin Shipyard](https://github.com/filecoin-shipyard) (website, documentation, codebase) | TBD | 2 weeks |
 
@@ -122,6 +122,7 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 - Mockups must include several of the features listed above in the Detailed Requirements and thoughtfully display these features in a visually compelling and logical way
 - Mockups must represent a functionally complete block explorer. Having drastic areas of missing functionality will not qualify as having completed the milestone.
 - Mockups must be visually compelling and demostrate that the final app will be easy to use.
+- The staging site must be hosted and running on your suggested front and back end systems. Site page structure and most UI elements are implemented, although some UI elements might be "placeholders" that are not necessarily "hooked in" or capturing real-time data from the Filecoin network yet
 
 **Acceptance criteria for milestone 2: Completed implementation of block explorer**:
 - Block explorer must display activity from the [Filecoin user devnet](https://github.com/filecoin-project/go-filecoin/wiki/Devnets#user). You can join the Filecoin community chat in order to ask more questions about how this should work, or poke around other products such as the [network stats dashboard](https://stats.kittyhawk.wtf).
@@ -129,6 +130,7 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 - The block explorer design must match the designs accepted for milestone 1.
 
 **Acceptance criteria for milestone 3: All project deliverables (website, documentation, codebase)**:
+- The codebase must be added to the [Filecoin Shipyard](https://github.com/filecoin-shipyard)
 - The codebase must be open-sourced and dual-licensed under MIT and APACHE2 licenses
 - The codebase must be well-documented and human-readable (bonus points if it's modularly architected)
 - There should be documentation so anyone can spin up the block explorer locally against a local filecoin network or any other filecoin network (including the user devnet).
