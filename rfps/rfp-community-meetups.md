@@ -19,7 +19,7 @@ Some ideas for community events that we would be happy to fund include:
 - Workshops specializing in how to build an app on Filecoin
 - And more!
 
-In order to apply for this project, please do not use the generic RFP proposal template. Instead, please use the [RFP Community Proposal Template](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md). Please follow the same general instructions as described in the [README for the general RFP proposals](https://github.com/filecoin-project/devgrants#submit-a-proposal-for-an-rfp) (i.e. submit a PR, tag it properly, etc.).
+In order to apply for this project, please do not use the generic RFP proposal template. Instead, please use the [RFP Community Proposal Template](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-community-proposal-template.md). Please follow the same general instructions as described in the [README for the general RFP proposals](https://github.com/filecoin-project/devgrants#submit-a-proposal-for-an-rfp) (i.e. submit a PR, tag it properly, etc.).
 
 ## Value
 
