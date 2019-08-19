@@ -1,6 +1,6 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
 
-# RFP Proposal: `Project Title`
+# RFP Proposal: `FIL Your Blocks`
 
 **FIL Your Block:**
 
