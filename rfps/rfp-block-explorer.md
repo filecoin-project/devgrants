@@ -111,9 +111,9 @@ We anticipate a homepage showing summary statistics, with the ability to click f
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | High-fidelity design mockups | TBD | 4 weeks |
+| 1 | High-fidelity design mockups, development Gantt chart, staging site with some UI elements implemented | TBD | 4 weeks |
 | 2 | Completed implementation of block explorer | TBD | 6 weeks |
-| 3 | All project deliverables (website, documentation, codebase) | TBD | 2 weeks |
+| 3 | All project deliverables are completed and added to the [Filecoin Shipyard](https://github.com/filecoin-shipyard) (website, documentation, codebase) | TBD | 2 weeks |
 
 ## Acceptance Criteria
 
