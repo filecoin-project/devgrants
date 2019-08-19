@@ -10,7 +10,7 @@
 
 As the number of storage miners increases on the network, knowing the quality and reputability of miners on the network becomes an unscalable task for any specific participant. Understanding the quality of any given miner can be especially important for storage clients, who may have different requirements about the types of miners with whom they might wish to store their data.
 
-To address this open challenge, we seek proposals for the development of a reputation system - whereby storage clients and network participants may submit substantiated feedback on storage miners to create a reliable source of truth on the quality of miners offering storage on the Filecoin network.
+To address this open challenge, we seek proposals for the development of a reputation system - whereby storage clients and network participants may submit substantiated feedback on storage miners to create a reliable source of truth on the quality of miners offering storage on the Filecoin network. In your proposal, please specify how you would approach building this sort of project, i.e. general architectural choices, feature scope, and other related details.
 
 ## Deliverables
 
@@ -29,10 +29,15 @@ To address this open challenge, we seek proposals for the development of a reput
 While we aim to leave the specifics of the reputation system to the reputation system, proposals in this space should conform to the following high level requirements: 
 
 - Network participants should be able to query available miners and get back a response that includes (but not limited to): 
-  - Successful deals with no penalties
-  - Number of slashed contracts
-  - Number of dropped contracts
-- Feedback provided to the network about a specific miner should be substantiated via actions on the network - the proposed solution should verify claims about reputation via queries to the Filecoin Network. 
+  - Number and % (where applicable) of deals with no penalties
+  - Number and % (where applicable) of slashed contracts
+  - Number and % (where applicable) of dropped contracts
+  - Number and % of failed deals (if possible) -- i.e. the number of deals that were attempted but failed, possibly due to this miner having spotty connectivity
+  - % of retrieval requests successfully fulfilled
+  - Number of files retrieved
+  - Lifetime data stored
+  - Lifetime data retrieved
+- Feedback provided to the network about a specific miner should be substantiated via actions on the network - the proposed solution should verify claims about reputation via queries to the Filecoin Network (e.g. by verifying deal state on the Filecoin network).
 - This service should be accessible via a CLI commands, thoughtfully integrated with the workflow required by the go-filecoin network for storage of data.
 - In addition, this service should be extensible such that additional information about the miner might be captured and included over time.
 
@@ -46,15 +51,15 @@ Total Funding Amount: TBD. Please propose a budget in your proposal.
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | Workflow design and architectural scoping | TBD | 2 weeks |
+| 1 | Finalize scope, workflow design, and architectural design | TBD | 2 weeks |
 | 2 | Service implementation | TBD | 6-8 weeks |
 | 3 | Sample web application demonstrating interoperability of go-filecoin and the proposed service | TBD | 2-4 weeks |
 | 4 | All project deliverables (website, documentation, codebase) | TBD | 2-3 weeks |
 
 ## Acceptance Criteria
 
-**Acceptance criteria for workflow design and architectural scoping**:
-- These designs and architecture must represent the final design of the service and its intended interoperability with the go-filecoin commands. 
+**Acceptance criteria for: Finalize scope, workflow design, and architectural design**:
+- This milestone's deliverables must represent the final design of the service and its intended interoperability with the go-filecoin API and functionality.
 - The workflow design should address the core challenge proposed in the description of this brief, with a focus on the storage client experience.
 
 **Acceptance criteria for service implementation**:
@@ -64,7 +69,7 @@ Total Funding Amount: TBD. Please propose a budget in your proposal.
 
 **Acceptance criteria for sample application**:
 - The sample application must use the proposed service and go-filecoin network to present a view of miners and their current reputation scores. 
-- The sample application must to view, search, and filter miners based on their reputation scores. 
+- The sample application must be able to view, search, and filter miners based on their reputation scores. 
 
 **Acceptance criteria for All project deliverables**:
 - All of the criteria above have been met.
