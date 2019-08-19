@@ -6,7 +6,7 @@
 
 **RFP Category:** `app-dev`
 
-**Proposer:** @anish-agnihotri
+**Proposer:** [@anish-agnihotri](https://github.com/anish-agnihotri)
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
@@ -48,18 +48,19 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 
 ## Team Members
 
-- Anish Agnihotri
+- [Anish Agnihotri](https://github.com/anish-agnihotri)
 
 ## Team Member LinkedIn Profiles
 
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
-- ...
+- Anish Agnihotri prefers not to use a LinkedIn profile. Rather, links to relevant information can be found through his personal website [here (https link)](https://anishagnihotri.com). Specifically, the following profiles are of particular relevance to this RFP:
+	- [Github (https link)](https://github.com/anish-agnihotri). Anish's Github features his open-source contributions to blockchain projects, and provides insight into his code style and proficiency. He has contributed to various blockchain projects, including, but not limited to: [Gitcoin (https link)](https://github.com/gitcoinco/web), [DAppNode (https link)](https://github.com/dappnode?type=source), and the [Fellowship of Ethereum Magicians (FEM)](https://github.com/FEMBusinessModelsRing).
+	- [Gitcoin (https link)](https://gitcoin.co/profile/anish-agnihotri). Anish is an active Gitcoin contributor, completing bounties posted by large open-source blockchain projects. To date, he has helped contribute to the core Gitcoin platform, and tens of other bounties across various organizations.
+	- [Devpost (https link)](https://devpost.com/348712712). Anish is a quick prototyper, as is evident from his Devpost profile. Over the course of six hackathons, Anish has successfully developed various decentralized applications, with a >100% success rate (11 prizes over 6 hackathons). He is very involved in the blockchain community, with his next hackathon being ETHBoston in September.
+	- [Twitter (https link)](https://twitter.com/_anishagnihotri). Anish's Twitter speaks for his passion for blockchain.
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+Since this is an application by an individual, a personal portfolio can be found [here](https://anishagnihotri.com).
 
 ## Relevant Experience
 
