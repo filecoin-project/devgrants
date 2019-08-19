@@ -1,5 +1,4 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
-
+# Contact: `futjrn@herc.one`
 # RFP Proposal: `FIL Your Blocks`
 
 **FIL Your Block:**
@@ -32,24 +31,30 @@ For each milestone, please describe:
 M1:
 - UI and Staging under an https:// to tool around in. Will be built in React and Node so as to be available on both desktop and mobile envs. 
 - 1 project manager, 1 designer, and 2 developers (front & back end)
-- Our proposed budget for Milestone 1 is 65,000 Euro which can be paid in BTC, ETH, or Wire.
+- Our proposed budget for Milestone 1 is 96,000€ which can be paid in BTC, ETH, or Wire.
 - With a funds cleared for Milestone 1 we can assume this task will take 1 month and 2 weeks to bring to the standard requested in the RFP. Any scope time will be carried into Milestone 2 whereas time is applicable when FIL leaders approve of the UI in staging.
 M2: 
 - Work will begin on Milestone 2 when the Milestone 1 UI is approved and finalized. We will get the front end on a real site (thinking https://filyourblock) with real / dev network data populating the fields. This will be functional with associated code in the designated repository.
 - We will need 1 project manager and 3 developers during Milestone 2 to stay within scope time.
-- To compensate our proposed budget for Milestone 2 is 75,000 Euro paid in BTC, ETH, or Wire.
+- To compensate our proposed budget for Milestone 2 is 154,000€ paid in BTC, ETH, or Wire. This is in the adjustment of 150$/ ho
 - With funds cleared for Milestone 2 we can assume this task will take 1 month 3 weeks to finalize the standard requested in the RFP. Any scope creep will be carried into Milestone 3.
 M3:
 - Finalize documentation, finalize scope of RFP, finalize agreement for post work 
 - We will need 1 developer and 1 project manager during Milestone 3 to stay within scope time. An executive business developer will handle the post build maintenance agreement.
-- To compensate our proposed budget for Milestone 3 is 20,000 Euro paid in BTC, ETH, or Wire.
+- To compensate our proposed budget for Milestone 3 is 40,000€ paid in BTC, ETH, or Wire.
 - With funds cleared for Milestone 3 we can assume this task will take roughly 1 month with finalized testing. 
 
 If approved Milestone 1 through Milestone 3 should take 4 months an 1 week if all proposed budget is paid in a timely manner with FIL leadership available for day-to-day checkups and approval of design and measure. 
 
 ## Total Budget Requested
+Work days = 8 hours
+Work weeks = 40 hours
+Work months = 160 hours
+Developers= 150€/hour
+Designer = 100€/ hour 
+Project Manager = 100€/hour 
 
-170,000 Euro paid in BTC, ETH, or Wire.
+290,000€ paid in BTC, ETH, or Wire.
 
 ## Maintenance and Upgrade Plans
 
@@ -78,8 +83,14 @@ We'd like to continue to build with the FIL leadership and community and can com
 
 ## Team Website
 
-https://herc.one 
-^ our launched project , we pick up stuff like this for fun :) 
+- https://herc.one 
+^ our launched product
+- https://anthemgold.com
+^ our launched product
+- https://anthemvault.com
+^ our launched product 
+- https://amagimetals.com
+^ our launched product 
 
 ## Relevant Experience
 
