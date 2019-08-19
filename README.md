@@ -50,6 +50,7 @@ All of our RFPs and open grants fund work in a few core categories. Over time, t
 - **Developer tools and libraries**: We are always looking for ways to make the lives of Filecoin developers easier. This includes developer tools and libraries for both core protocol developers and application developers. Dev tools at all layers of the stack are invaluable! Relevant proposals will be labeled [`category:devtools-libraries`](https://github.com/filecoin-project/devgrants/labels/category%3Adevtools-libraries).
 - **Technical design**: The Filecoin protocol will continue to evolve over time. Several planned protocol upgrades are already being researched, but we want to find the best technical designs for these planned upgrades and for ideas that aren't currently on our radar. This type of technical design work can be improvements to our core storage protocol, cryptoeconomics design, and more! Relevant proposals will be labeled [`category:technical-design`](https://github.com/filecoin-project/devgrants/labels/category%3Atechnical-design).
 - **Documentation**: Having great documentation is crucial for any open-source project and development platform. This category includes how-to guides, protocol concepts, API docs, and more. If you think we need to create or improve existing documentation, please submit a proposal or apply to one of our open docs RFPs! Relevant proposals will be labeled [`category:docs`](https://github.com/filecoin-project/devgrants/labels/category%3Adocs).
+- **Community**: We would like to support community initiatives throughout the global Filecoin ecosystem. We have a standing RFP for hosting community meetups, and are generally excited to hear about all sorts of community initiatives you might have! Relevant proposals will be labeled [`category:community`](https://github.com/filecoin-project/devgrants/labels/category%3Acommunity).
 
 ## 📋 How to apply
 
@@ -82,7 +83,7 @@ Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
 3. Tag your PR with the appropriate tags:
-    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`
+    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
     - Grant type tag: Since this proposal is in response to an RFP, tag your PR with the `proposal-type:rfp` tag.
 
 **Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (at which point, the RFP might be closed).**
@@ -92,7 +93,7 @@ Here are the steps to submit a proposal against one of the listed RFPs!
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
 2. Tag your PR with the appropriate tags:
-    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`
+    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
     - Grant type tag: Since this proposal is in the open grants category, tag your PR with the `proposal-type:open` tag.
 
 **Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (which means a 3-month delay in review for your proposal).**
@@ -115,7 +116,7 @@ If you would like to propose an RFP for the Filecoin ecosystem, you've come to t
 
 1. Submit a PR against the [`rfp-template.md` file]() in the [`rfps` folder]() of this repo. Make sure to fill in all the categories of the RFP template, including the source of funding. Name this file `rfp-project-title.md`, replacing `project-title` with the name of the project you'd like to fund.
 2. Tag your PR with the appropriate tags:
-    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`
+    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
     - Also please add the [`rfp-idea`](https://github.com/filecoin-project/devgrants/labels/rfp-idea) tag
 3. We will review the RFP idea, providing comments and suggestions. If there is an opportunity to cofund the RFP, we will also identify that opportunity (note: not relevant for RFPs suggested by other Protocol Labs projects). Eventually, the RFP idea will either be accepted or rejected.
 4. If the RFP idea is accepted, it will be merged into the `rfps` folder, and collaborators can begin submitting proposals. Please remember that there is no obligation to begin reviewing these proposals before the wave deadline. Of course, if you would like to begin reviewing proposals early, you may! However, it IS required for RFP owners to review all proposals within 2-weeks after the wave has closed.
