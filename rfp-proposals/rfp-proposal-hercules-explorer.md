@@ -47,14 +47,14 @@ M3:
 If approved Milestone 1 through Milestone 3 should take 4 months an 1 week if all proposed budget is paid in a timely manner with FIL leadership available for day-to-day checkups and approval of design and measure. 
 
 ## Total Budget Requested
-Work days = 8 hours
-Work weeks = 40 hours
-Work months = 160 hours
-Developers= 150€/hour
-Designer = 100€/ hour 
-Project Manager = 100€/hour 
+- Work days = 8 hours
+- Work weeks = 40 hours
+- Work months = 160 hours
+- Developers= 150€/hour
+- Designer = 100€/ hour 
+- Project Manager = 100€/hour 
 
-290,000€ paid in BTC, ETH, or Wire.
+> - # Total Budget 290,000€ paid in BTC, ETH, or Wire.
 
 ## Maintenance and Upgrade Plans
 
