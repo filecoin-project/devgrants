@@ -25,18 +25,18 @@ Besides this, the scope provided in the RFP has been fully realized and understo
 
 Final deliverables will include:
 
-* Fully functional block explorer website, built with Preact and NodeJS.
+* Fully functional block explorer website built with Preact and NodeJS.
 	* Secured with a Let's Encrypt SSL certificate to ensure `https://` protocol compliancy.
 	* Mobile-responsive design via media queries, real-time metric updating with 0.5s polling for front-end (rather than a WebSocket implementation), aesthetically pleasing and easy to use layout.
 	* Hosted in a North American datacenter via OVH with European, Asia, and Oceania CDNs to ensure speed in loading static content across region.
-		* Specifically for hosting, two instances will be used (SSD3, SSD2). One for hosting the main application front-end and back-end. The second for hosting the MongoDB server and documentation.
+		* Specifically, for hosting, two instances will be used (SSD3, SSD2). One for hosting the main application front-end and back-end. The second for hosting the MongoDB server and documentation.
 * Open-sourced Github repo containing sub repos for each component of the platform (licensed accordingly with both MIT and Apache specifications):
 	* Sub-repo for front-end in Preact (Preact-core, Preact router, Axios)
 	* Sub-repo for back-end in Express (NodeJS, Axios)
 	* Sub-repo for Filecoin to MongoDB bridge (NodeJS)
 	* Sub-repo for documentation and milestone tracking
 * Well-documented codebase hosted on SSD2 instance using [MkDocs](https://www.mkdocs.org/).
-* User-facing documentation (hosted on seperate subdomain running MkDocs), and contributing guidelines + good first issues to promote future open-source contributions from the community.
+* User-facing documentation (hosted on separate subdomain running MkDocs), and contributing guidelines + good first issues to promote future open-source contributions from the community.
 
 ## Development Roadmap
 
@@ -51,11 +51,11 @@ The following milestones describe the development outline of filexplorer.org. Pl
 
 
 #### Phase 1
-The first phase involves a few things. This involves multiple submilestones:
+The first phase involves a few things. This involves multiple sub-milestones:
 
 1. Procuring domain name and hosting (setting up load balancing, static asset CDN, SSL certificate via Let's Encrypt)
 2. Setting up Github organization, appropriate licensing for each sub-repo, and integration with Github Actions to automatically deploy to staging and development environments on commit.
-3. High-fidelity design mockups in Adobe XD. These will include finalized top level summary page mockups, and somewhat finalized secondary page mockups. Secondary page mockups are not set in stone since I'd like to iterate and continue to add upon the displayed metrics and their styling as I work.
+3. High-fidelity design mock-ups in Adobe XD. These will include finalized top level summary page mock-ups, and somewhat finalized secondary page mock-ups. Secondary page mock-ups are not set in stone since I'd like to iterate and continue to add upon the displayed metrics and their styling as I work.
 4. Work-in-progress staging site deployed with:
 	1. Working basic data retrieval via back-end and MongoDB.
 	2. Fully implemented, responsive, header, footer, and CSS framework.
@@ -66,7 +66,7 @@ For the time being, I am planning on developing with a Preact front-end, which i
 #### Phase 2
 Phase 2 is the largest portion of the project since it involves:
 1. Back-end completion.
-	1. During Phase 2, the back-end must be completed up to spec in Express with completed and deployed endpoints in use by the front-end. In specific, the following metrics are being targetted for the time being, although more may be added as development progresses: 
+	1. During Phase 2, the back-end must be completed up to spec in Express with completed and deployed endpoints in use by the front-end. In specific, the following metrics are being targeted for the time being, although more may be added as development progresses: 
 		1. Top level:
 			1. Block stats
 				1. Tipset Height
@@ -85,7 +85,7 @@ Phase 2 is the largest portion of the project since it involves:
 				2. Actors:
 					1. Node latency
 2. Exposed API completion.
-	1. The exposed API will be a simple Express outgoing endpoint available at api.filexplorer.org which brings commonly used developer metrics. It will allow: 
+	1. The exposed API will be a simple Express outgoing endpoint available at api.filexplorer.org which serves commonly used developer metrics. It will allow: 
 		1. GET requests for commonly used metrics (think: high-level deal data)
 		2. POST requests to retrieve messages, block information, transaction details.
 3. Filecoin node to MongoDB script completion.
@@ -100,7 +100,7 @@ Phase 3 is relatively simpler compared to Phase 1 & 2, but equally important. Du
 
 1. I will expand on the comments throughout the code base. 
 2. Setup two documentation portals (one for development, and one for a user to easily spin up their own instance of filexplorer.org)
-3. Setup an API experiment ground where users can poll the API without a REST client or code.
+3. Setup an API experiment ground where users can poll the API without a REST client or writing code.
 4. Migrate repositories to the Filecoin Shipyard:
 	1. This will be a multi-step process involving: 
 		1. Merging each of the sub-repos into one linked monorepo.
@@ -115,7 +115,7 @@ The last phase focuses on continual maintenance and upgrades:
 	1. Using the additional funds, I'll be throwing up a few bounties on Gitcoin to develop with the filexplorer.org API. This will help gain insight into the developer flow, while also encouraging development growth on Filecoin through the block explorer.
 	2. Additionally, the funds will be used to make continual updates to the platform, rated at a few hours (think 4-5, to ensure website stays on top of any protocol changes, plus adding new metrics) of dedicated development per month.
 4. Documentation
-	1. This phase will also focus on making it as easy as possible for new contributors to pick up with development. I'll be writing good first issues, contributors guide, styling guides, and additional documentation to support community development input.
+	1. This phase will also focus on making it as easy as possible for new contributors to pick up with development. I'll be writing good first issues, contributors guide, styling guides, and additional documentation to support community development.
 
 
 ## Total Budget Requested
@@ -124,7 +124,7 @@ The total budget requested for this RFP response is `$3,500`.
 
 ## Maintenance and Upgrade Plans
 
-As referenced in the development roadmap, `$750` is allotted to long-term maintenance, support, and continued development over nine months. Please see *Phase 4* roadmap for more information.
+As referenced in the development roadmap, `$750` is allotted to long-term maintenance, support, and continued development over nine months. Please see *Phase 4* of the roadmap for more information.
 
 # Team
 
@@ -146,7 +146,7 @@ Since this is an RFP response by an individual, a personal website can be found 
 
 ## Relevant Experience
 
-Anish brings relavent blockchain experience and proven delivery track-record. He is proficient with the necessary web technologies (mainly JavaScript), and has completed both bounties and hackathons in the industry.
+Anish brings relevant blockchain experience and proven delivery track-record. He is proficient with the necessary web technologies (mainly JavaScript), and has completed both bounties and hackathons in the industry.
 
 He has strong design and development skills. For web he is proficient with: 
 
@@ -175,4 +175,6 @@ Uniquely, though, he brings past experience building block explorers of such a s
 
 # Additional Information
 
-Although this RFP requested for completion by a team, I am applying as an individual developer. I would be more than happy to hop onto a call and discuss my thought process to justify taking on a project of this size as an individual developer, and why I believe it would provide more transperancy and insight.
+Although this RFP requested for completion by a team, I am applying as an individual developer. I would be more than happy to hop onto a call and discuss my thought process to justify taking on a project of this size as an individual developer, and why I believe it would provide more transparency and insight.
+
+Additionally, I would be more than happy to prepare a few mock-ups of proposed explorer design if there is significant interest.
