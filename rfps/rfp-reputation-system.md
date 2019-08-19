@@ -38,7 +38,8 @@ While we aim to leave the specifics of the reputation system to the reputation s
   - Lifetime data stored
   - Lifetime data retrieved
 - Feedback provided to the network about a specific miner should be substantiated via actions on the network - the proposed solution should verify claims about reputation via queries to the Filecoin Network (e.g. by verifying deal state on the Filecoin network).
-- This service should be accessible via a CLI commands, thoughtfully integrated with the workflow required by the go-filecoin network for storage of data.
+- Calls to this service should be well scoped, such that this service might be easily integrated into other libraries that might more broadly focus on creating a seamless storage experience.
+- Functionality of this service should be thoughtfully integrated into the storage workflow for the Filecoin Network.
 - In addition, this service should be extensible such that additional information about the miner might be captured and included over time.
 
 ## Recommended Team
