@@ -60,16 +60,23 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 
 ## Team Website
 
-Since this is an application by an individual, a personal portfolio can be found [here](https://anishagnihotri.com).
+Since this is an RFP response by an individual, a personal website can be found [here](https://anishagnihotri.com).
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+Anish brings relavent blockchain experience and proven delivery track-record. He is proficient with the necessary web technologies (mainly JavaScript), and has completed both bounties and hackathons in the industry.
+
+Uniquely, though, he brings past experience building block explorers of such a scale. He is currently working on a block explorer for Facebook's Libra currency (see: similar projects repository) which is user and developer friendly, streamlined, and easy to use. He would be more than happy to deploy a live testing environment and provide further insight if deemed necessary.
 
 ## Team code repositories
 
-Please provide links to your team's prior code repos for similar or related projects.
+### Similar projects:
+* [Librasearch](https://github.com/librasearch) is an open-source, transparent, and reliable explorer and metrics platform for Facebook's Libra currency under development by Anish. It is developed with a Preact front-end, WebSocket communication layer, and Express + FeathersJS (NodeJS) back-end.
+
+### Related projects:
+* [SignRecord](https://github.com/Anish-Agnihotri/SignRecord) and [Encrypton](https://github.com/Anish-Agnihotri/Encrypton) are publicly verifiable document record and credentialization platforms backed by IPFS.
+* [UEscrow](https://github.com/Anish-Agnihotri/UEscrow) is an escrow platform built for the UCash ERC-20 token.
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
+Although this RFP requested for completion by a team, I am applying as an individual developer. I would be more than happy to hop onto a call and discuss my thought process to justify taking on a project of this size as an individual developer, and why I believe it would provide more transperancy and insight.
