@@ -97,12 +97,12 @@ We have been building in blockchain for 8+ years. We have been using IPFS for th
 
 ## Team code repositories
 
-> - Github.com/hercone
-> - Github.com/anthemgold
-> - Github.com/herchackathon
-> - Github.com/julianapeace
-> - Github.com/linux08
-> - Github.com/daxdax89
+> - https://Github.com/hercone
+> - https://Github.com/anthemgold
+> - https://Github.com/herchackathon
+> - https://Github.com/julianapeace
+> - https://Github.com/linux08
+> - https://Github.com/daxdax89
 
 # Additional Information
 
