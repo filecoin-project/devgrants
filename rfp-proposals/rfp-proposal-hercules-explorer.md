@@ -25,40 +25,40 @@ A fully functional Block Explorer as described in the `app-dev` RFP.
 
 ## Development Roadmap
 
-M1:
-- UI Mocks, Approval, Design and Front End Implementation to Staging under an https://staging.filyourblock.com to tool around in. Will be built in React and Node so as to be available on both desktop and mobile envs. 
-- 1 project manager, 1 designer, and 2 developers (front & back end)
-- Our proposed budget for Milestone 1 is 168,000€ which can be paid in BTC, ETH, or Wire.
-- With funds cleared for Milestone 1 we can assume this task will take 1 month and 2 weeks to bring to the standard requested in the RFP. Any scope time will be carried into Milestone 2 whereas time is applicable when FIL leaders approve of the UI in staging.
-M2: 
-- Work will begin on Milestone 2 when the Milestone 1 UI is approved and finalized. We will get the front end on a real site (thinking https://filyourblock.com) with real / dev network data populating the fields. This will be functional with associated code in the designated repository.
-- We will need 1 project manager and 3 developers during Milestone 2 to stay within scope time.
-- To compensate our proposed budget for Milestone 2 is 210,000€ paid in BTC, ETH, or Wire.
-- With funds cleared for Milestone 2 we can assume this task will take 1 month 3 weeks to finalize the standard requested in the RFP. Any scope creep will be carried into Milestone 3.
-M3:
-- Finalize documentation, finalize scope of RFP, finalize agreement for post work 
-- We will need 1 developer and 1 project manager during Milestone 3 to stay within scope time. An executive business developer will handle the post build maintenance agreement.
-- To compensate our proposed budget for Milestone 3 is 72,000€ paid in BTC, ETH, or Wire.h
-- With funds cleared for Milestone 3 we can assume this task will take roughly 1 month with finalized testing. 
+# M1:
+> - UI Mocks, Approval, Design and Front End Implementation to Staging under an https://staging.filyourblock.com to tool around in. Will be built in React and Node so as to be available on both desktop and mobile envs. 
+> - 1 project manager, 1 designer, and 2 developers (front & back end)
+> - Our proposed budget for Milestone 1 is 168,000€ which can be paid in BTC, ETH, or Wire.
+> - With funds cleared for Milestone 1 we can assume this task will take 1 month and 2 weeks to bring to the standard requested in the RFP. Any scope time will be carried into Milestone 2 whereas time is applicable when FIL leaders approve of the UI in staging.
+# M2: 
+> - Work will begin on Milestone 2 when the Milestone 1 UI is approved and finalized. We will get the front end on a real site (thinking https://filyourblock.com) with real / dev network data populating the fields. This will be functional with associated code in the designated repository.
+> - We will need 1 project manager and 3 developers during Milestone 2 to stay within scope time.
+> -  To compensate our proposed budget for Milestone 2 is 210,000€ paid in BTC, ETH, or Wire.
+> - With funds cleared for Milestone 2 we can assume this task will take 1 month 3 weeks to finalize the standard requested in the RFP. Any scope creep will be carried into Milestone 3.
+# M3:
+> - Finalize documentation, finalize scope of RFP, finalize agreement for post work 
+> - We will need 1 developer and 1 project manager during Milestone 3 to stay within scope time. An executive business developer will handle the post build maintenance agreement.
+> - To compensate our proposed budget for Milestone 3 is 72,000€ paid in BTC, ETH, or Wire.h
+> - With funds cleared for Milestone 3 we can assume this task will take roughly 1 month with finalized testing. 
 
-If approved Milestone 1 through Milestone 3 should take 4 months an 1 week if all proposed budget is paid in a timely manner with FIL leadership available for day-to-day checkups and approval of design and measure. 
+`If approved Milestone 1 through Milestone 3 should take 4 months an 1 week if all proposed budget is paid in a timely manner with FIL leadership available for day-to-day checkups and approval of design and measure.` 
 
 ## Total Budget Requested
-- Work days = 8 hours
-- Work weeks = 40 hours
-- Work months = 160 hours
-- Developers= 250€/hour
-- Designer = 200€/ hour 
-- Project Manager = 200€/hour 
+> - Work days = 8 hours
+> - Work weeks = 40 hours
+> - Work months = 160 hours
+> - Developers= 250€/hour
+> - Designer = 200€/ hour 
+> - Project Manager = 200€/hour 
 
-> - # Total Proposed Budget 506,000€ paid in BTC, ETH, or Wire.
+## Total Proposed Budget 506,000€ paid in BTC, ETH, or Wire.
 
 > - Hourly figures as seen in https://www.fullstacklabs.co/blog/2019-software-development-price-guide-and-hourly-rate-comparison
 
 # Maintenance and Upgrade Plans
 
-We plan to have our SVP handle the post maintenance agreement. 
-We'd like to continue to build with the FIL leadership and community and can come to negotiable terms post build that benefit everyone.
+`We plan to have our SVP handle the post maintenance agreement. 
+We'd like to continue to build with the FIL leadership and community and can come to negotiable terms post build that benefit everyone.`
 
 # Team
 
@@ -66,34 +66,35 @@ We'd like to continue to build with the FIL leadership and community and can com
 
 ## Team Members
 
-- Futjrn (Project Manager)
-- Chance Cordelia (back end dev)
-- DaxDax (network dev)
-- Linux08 (front end dev)
-- Ibrahim (design)
+> - Futjrn (Project Manager)
+> - Chance Cordelia (back end dev)
+> - DaxDax (network dev)
+> - Linux08 (front end dev)
+> - Ibrahim (design)
 
 ## Team Member LinkedIn Profiles
 
-- https://www.linkedin.com/in/logan-ryan-golema-b0161190 
-- https://www.linkedin.com/in/julianamei
-- https://www.linkedin.com/in/daxdax89
-- https://www.linkedin.com/in/linux08
+> - https://www.linkedin.com/in/logan-ryan-golema-b0161190 
+> - https://www.linkedin.com/in/julianamei
+> - https://www.linkedin.com/in/daxdax89
+> - https://www.linkedin.com/in/linux08
 
 
 ## Team Website
 
-- https://herc.one 
-^ our launched product
-- https://anthemgold.com
-^ our launched product
-- https://anthemvault.com
-^ our launched product 
-- https://amagimetals.com
-^ our launched product 
+> - https://herc.one 
+ (our launched product)
+> - https://anthemgold.com
+ (our launched product)
+> - https://anthemvault.com
+ (our launched product)
+> - https://amagimetals.com
+ (our launched product) 
+> - View our History: https://anthemgold.com/history
 
 ## Relevant Experience
 
-We have been building in blockchain for 8+ years. We have been using IPFS for the length of our current project. Explorers are really about organization and delivery of content and we'd like to be a part of building yours :) 
+`We have been building in blockchain for 8+ years. We have been using IPFS for the length of our current project. Explorers are really about organization and delivery of content and we'd like to be a part of building yours :)` 
 
 ## Team code repositories
 
@@ -106,4 +107,4 @@ We have been building in blockchain for 8+ years. We have been using IPFS for th
 
 # Additional Information
 
-Pick us! We love being organized and explorers are the epitome of organization. As a use case of IPFS we'll use this just as much as you do and plan on building it to be amazing for Storage Use Cases, traders, and Miners alike! 
+`Pick us! We love being organized and explorers are the epitome of organization. As a use case of IPFS we'll use this just as much as you do and plan on building it to be amazing for Storage Use Cases, traders, and Miners alike!`
