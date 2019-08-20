@@ -1,4 +1,4 @@
-# Contact: `futjrn@herc.one`
+# Contact: `CTO: futjrn@herc.one`
 # RFP Proposal: `FIL Your Blocks`
 
 **FIL Your Block:**
@@ -38,7 +38,7 @@ A fully functional Block Explorer as described in the `app-dev` RFP.
 # M3:
 > - Finalize documentation, finalize scope of RFP, finalize agreement for post work 
 > - We will need 1 developer and 1 project manager during Milestone 3 to stay within scope time. An executive business developer will handle the post build maintenance agreement.
-> - To compensate our proposed budget for Milestone 3 is 72,000€ paid in BTC, ETH, or Wire.h
+> - To compensate our proposed budget for Milestone 3 is 72,000€ paid in BTC, ETH, or Wire.
 > - With funds cleared for Milestone 3 we can assume this task will take roughly 1 month with finalized testing. 
 
 `If approved Milestone 1 through Milestone 3 should take 4 months an 1 week if all proposed budget is paid in a timely manner with FIL leadership available for day-to-day checkups and approval of design and measure.` 
