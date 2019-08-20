@@ -31,7 +31,7 @@ M1:
 - Our proposed budget for Milestone 1 is 168,000€ which can be paid in BTC, ETH, or Wire.
 - With funds cleared for Milestone 1 we can assume this task will take 1 month and 2 weeks to bring to the standard requested in the RFP. Any scope time will be carried into Milestone 2 whereas time is applicable when FIL leaders approve of the UI in staging.
 M2: 
-- Work will begin on Milestone 2 when the Milestone 1 UI is approved and finalized. We will get the front end on a real site (thinking https://filyourblock) with real / dev network data populating the fields. This will be functional with associated code in the designated repository.
+- Work will begin on Milestone 2 when the Milestone 1 UI is approved and finalized. We will get the front end on a real site (thinking https://filyourblock.com) with real / dev network data populating the fields. This will be functional with associated code in the designated repository.
 - We will need 1 project manager and 3 developers during Milestone 2 to stay within scope time.
 - To compensate our proposed budget for Milestone 2 is 210,000€ paid in BTC, ETH, or Wire.
 - With funds cleared for Milestone 2 we can assume this task will take 1 month 3 weeks to finalize the standard requested in the RFP. Any scope creep will be carried into Milestone 3.
