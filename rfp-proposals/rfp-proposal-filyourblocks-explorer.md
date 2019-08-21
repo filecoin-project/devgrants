@@ -131,7 +131,7 @@ We anticipate being able to provide a homepage showing summary statistics, with 
 > - Designer = $200/ hour 
 > - Project Manager = $200/hour 
 
-## Total Proposed Budget 506,000€ paid in BTC, ETH, or Wire.
+## Total Proposed Budget $506,000 paid in BTC, ETH, or Wire.
 
 > - Hourly figures as seen in https://www.fullstacklabs.co/blog/2019-software-development-price-guide-and-hourly-rate-comparison
 
