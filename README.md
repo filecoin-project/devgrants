@@ -1,7 +1,7 @@
 # Filecoin Devgrants
 
 <p align="center">
-  <img src="https://github.com/filecoin-project/devgrants/blob/master/img/filecoin-grants-logo.svg">
+  <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
 </p>
 
 > Hello and welcome to the home page of the Filecoin Dev Grants program! If you haven't already checked it out, you can read more about the motivations behind the program on [the Filecoin website](https://filecoin.io/grants).
