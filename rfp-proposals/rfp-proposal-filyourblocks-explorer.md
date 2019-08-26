@@ -184,7 +184,7 @@ If a milestone is not satisfactorily met, we may not continue to fund your team 
 > - https://www.linkedin.com/in/julianamei
 > - https://www.linkedin.com/in/daxdax89
 > - https://www.linkedin.com/in/linux08
-
+> - https://www.linkedin.com/in/paul-aubert-32723b88/
 
 ## Team Website
 
