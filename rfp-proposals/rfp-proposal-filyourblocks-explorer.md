@@ -1,5 +1,5 @@
 # Contact: `CTO: futjrn@herc.one`
-# RFP Proposal: `FIL Your Blocks`
+# RFP Proposal: `FIL Your Blocks Explorer`
 
 **FIL Your Block:**
 
@@ -16,24 +16,24 @@
 Hi there, we're the Hercules Development team. We've been enjoying IPFS for sometime and would like to be a part of this jounrey as it scales. We plan to have our designer whip up some really sleek UI for a Block Explorer we would use (as devs and a use case) as well as one that others interested in the FIL ecosystem would enjoy and understand intuitively.
 - For Milestone 1 we will have the mocks and the basic ui on a staging environment, and hopefully if the FIL docs are good we'll have basic realtime dev data from the FIL network populating the fields. 
 - For Milestone 2 we'd like to work closely with those in charge to ensure Milestone 1 is behind us while improving the useability and complete functionality of the explorer. 
-- For Milestone 3 we'll have everything documented appropiately so anyone can build it while deciding an appropiate maintainence agreement post build. 
+- For Milestone 3 we'll have everything documented appropiately so anyone can pick up and build it while deciding an appropiate maintainence agreement post build. 
 
 
 ## Deliverables
 
-- Fully functional block explorer website, hosted/maintained/managed by your team. Publicly accessible via a `https://filyourblocks.org` site.
-  - Will also work on mobile and react to different mobile ratios. 
-  - Real-time updates based on changes in the network
-  - Fast to load
-  - Good UX and visual design
-- Open-sourced repo for block explorer codebase, dual-licensed under [LICENSE-MIT](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-MIT) and [LICENSE-APACHE](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-APACHE) (see this [License section](https://github.com/filecoin-project/devgrants#license) for how it can look)
-- Well-documented codebase so anyone can learn from your application development process
-- User-facing documentation for anyone to spin up your block explorer locally
+- Fully functional block explorer website, hosted/maintained/managed by your team. Publicly accessible via a `https://filexplorer.org` site.
+  - Amazon EC2 Hosted Instance for Cloud Compute & CloudFlare for DDOS Protection
+  - Good UX and visual design for both Mobile & Desktop 
+  - Real-time updates based on changes in the network (dev / production)
+  - Fast to load across any region
+  - Open-sourced repo for block explorer codebase, dual-licensed under MIT & Apache 2.0
+  - Well-documented codebase so anyone can learn from the application development process (ReadtheDocs)
+  - User-facing documentation for anyone to spin up the fil explorer locally
 
 
 ## Detailed Requirements & Constraints
 
-### User Flows
+### User Flows `Brought in For Team's Convienence`
 This tool will most often be used by Filecoin developers, token holders, clients, and miners to investigate transactions, debug their nodes, or generally explore the chain. We have done some thinking about the user needs we would like this tool to satisfy. You can use this as a starting point or take this in a totally new direction. Some example user stories:
 
 - *Prospective Client*: I am considering using Filecoin for my data storage needs. I decide to visit the Filecoin block explorer to get a pulse on important storage contract parameters before using the network.
@@ -106,6 +106,8 @@ We anticipate being able to provide a homepage showing summary statistics, with 
 ## Development Roadmap
 
 # M1:
+> - Procurment of Domain with Route53 SSL hosting
+> - Set up of [Github Repo](https://github.com/herchackathon/Fil-Explorer) and inclusion of CircleCI
 > - UI Mocks, Approval, Design and Front End Implementation to Staging under an https://staging.filyourblock.com to tool around in. Will be built in React and Node so as to be available on both desktop and mobile envs. 
 > - 1 project manager, 1 designer, and 2 developers (front & back end)
 > - Our proposed budget for Milestone 1 is $168,000 which can be paid in BTC, ETH, or Wire.
@@ -165,15 +167,16 @@ If a milestone is not satisfactorily met, we may not continue to fund your team 
 
 # Team
 
-`Hercules SEZC`
+`You will engage the AnthemHoldings Company when making agreements.`
 
-## Team Members
+## Team Members for this RFP are
 
 > - Futjrn (Project Manager)
 > - Chance Cordelia (back end dev)
 > - DaxDax (network dev)
 > - Linux08 (front end dev)
-> - Ibrahim (design)
+> - Ibrahim (tentative designer) 
+> - [Paul Aubert](paul@anthemgold.com) (SVP & GC for Agreements) 
 
 ## Team Member LinkedIn Profiles
 
