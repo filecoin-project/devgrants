@@ -13,7 +13,7 @@
 
 # Project Description
 
-Hi there, we're the Hercules Development team. We've been enjoying IPFS for sometime and would like to be a part of this jounrey as it scales. We plan to have our designer whip up some really sleek UI for a Block Explorer we would use (as devs and a use case) as well as one that others interested in the FIL ecosystem would enjoy and understand intuitively.
+Hi there, we're the AHC Development team. We've been enjoying IPFS for sometime and would like to be a part of this jounrey as it scales. We plan to have our designer whip up some really sleek UI for a Block Explorer we would use (as devs and a use case) as well as one that others interested in the FIL ecosystem would enjoy and understand intuitively.
 - For Milestone 1 we will have the mocks and the basic ui on a staging environment, and hopefully if the FIL docs are good we'll have basic realtime dev data from the FIL network populating the fields. 
 - For Milestone 2 we'd like to work closely with those in charge to ensure Milestone 1 is behind us while improving the useability and complete functionality of the explorer. 
 - For Milestone 3 we'll have everything documented appropiately so anyone can pick up and build it while deciding an appropiate maintainence agreement post build. 
