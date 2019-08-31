@@ -1,7 +1,7 @@
 # Contact: `CTO: futjrn@herc.one`
-# RFP Proposal: `FIL Your Blocks Explorer`
+# RFP Proposal: `FILExplorer`
 
-**FIL Your Block:**
+**FILExplorer.org: ![Proof of Ownership](https://github.com/herchackathon/devgrants/blob/rfp-filexplorer-AHCteam/rfp-proposals/filexplorer.png) 
 
 **Link to RFP:** [Explorer](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-block-explorer.md)
 
