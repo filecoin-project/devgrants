@@ -3,7 +3,7 @@
 
 **FIL Your Block:**
 
-**Link to RFP:** Please link to the RFP that you are submitting a proposal for.
+**Link to RFP:** [Explorer](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-block-explorer.md)
 
 **RFP Category:** `app-dev`
 
