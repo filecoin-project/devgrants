@@ -2,23 +2,23 @@
  
  **Name of Project:** Filscan
  
- **Link to RFP:** [rfp-block-explorer.md](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-block-explorer.md).
+ **Link to RFP:**  *[rfp-block-explorer.md](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-block-explorer.md)*
  
- **RFP Category:**  app-dev
+ **RFP Category:**  `app-dev`
  
- **Proposer:**  [IPFS-FORCE](https://github.com/orgs/ipfs-force-community)
+ **Proposer:**   *[IPFS-FORCE](https://github.com/orgs/ipfs-force-community)*
  
- **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
+ **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:**  `Yes`
  
  # Project Description
  
- Hi Labs, we are IPFS-Force team from China with several years' development experience in Blockchain Industry and deep understanding of Blockchain Activities and Actors. With solid experience, we are capable to dive and analyze multidimensional data from blockchain raw data and displayed in creative visualization.
+Hi Labs, we are IPFS-Force team from China with several years' development experience in Blockchain Industry and deep understanding of Blockchain Activities and Actors. With solid experience, we are capable to dive and analyze multidimensional data from blockchain raw data and displayed in creative visualization.
  
- FilScan is a customized blockchain engine for Filecoin with searchable and analyzed data that allows all the actors to explore the valuable information in a faster and easier way. It could be accessible by standard web browsers and responsive on mobile from anywhere in the world.
+FilScan is a customized blockchain engine for Filecoin with searchable and analyzed data that allows all the actors to explore the valuable information in a fast and easy way. It could be accessible by standard web browsers and responsive on mobile from anywhere in the world.
  
- The project will include the following sections: 
+The project will include the following sections: 
  
- 1. Homepage: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
+ 1. Dashboard: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
  
  2. Blockchain Page: Real-time and detailed Blockchain data with browse and retrieval function.
  
@@ -38,7 +38,7 @@
  
  ### Milestone 1
  
- 1. UI/UX Design: Homepage, Blockchain Page and Mining Page.
+ 1. UI/UX Design: Dashboard, Blockchain Page and Mining Page
  
  2. Solution Design: Interface, Database, System Structure
  
@@ -51,7 +51,7 @@
  ### Milestone 2
  
  1. Implementation:
-  Homepage: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
+  Dashboard: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
  
     *The data to display includes and is not limited to the scope of Top Level in the RFP. API optimization and requirement details need further discussion.*
  
@@ -102,15 +102,15 @@
           
  # Team
           
-          IPFS-Force, China Top 5 Decentralized Storage Technology Company.
+   IPFS-Force, China Top Decentralized Storage Technology Company.
+          
  ## Team Members
- - Architect Steven Li
-          
- - Project Manager Katrina Liu
- - Product Owner Yu Da 
- - Full-stack Dev Feng Li
- - Backend Dev Stone Shi
- - Backend Dev Caesar Wang
+ - Architect: Steven Li
+ - Project Manager: Katrina Liu
+ - Product Owner: Yu Da 
+ - Full-stack Dev: Feng Li
+ - Backend Dev: Stone Shi
+ - Backend Dev: Caesar Wang
  
  ## Team Member LinkedIn Profiles
     Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
@@ -130,7 +130,7 @@
  [https://ipfser.org](https://ipfser.org)
           
  ## Relevant Experience
-Our team constantly demonstrate the professionalism on the research of protocol and distributed file system and positively participate in several Lab seminars of FIL ecosystem. Since Feb 2019, we have contributed 1 PR, 8 issues and 20 comments for go-filecoin program. Especially our Arch and Dev have full experience and knowledge of Blockchain project, such as decentralized storage project, Ethereum, etc.. 
+Our team constantly demonstrate the professionalism on the research of protocol and distributed storage system and actively participate in several Lab seminars of FIL ecosystem. Since Feb 2019, when the Filecoin is open-sourced, several team engineers have been diving into Filecoin studying, coding, and eco-system development. The team have contributed code for several projects in go-filecoin program with tens of PRs, while we pro-actively participate in devnet testing, issues submitting, and discussion of design. IPFS-Force is one of the most active communities in Filecoin eco-system everybody could see from github and slack channel. We have developed several libs and tools which could support FilScan development, that's why the whole schedule could be defined tightly. In addition, our Arch and Devs have seasoned experience of Blockchain and Storage projects, such as High-density Cloud Object Storage, Ethereum, Ulord, aside from Filecoin and IPFS.  
           
  ## Team code repositories
  Steven Li:[https://github.com/steven004](https://github.com/steven004)
