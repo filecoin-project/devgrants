@@ -1,4 +1,4 @@
- **# RFP Proposal: Block Explorer
+ # RFP Proposal: Block Explorer
  
  **Name of Project:** Filscan
  
@@ -51,14 +51,13 @@
  ### Milestone 2
  
  1. Implementation:
+  Homepage: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
  
- 1.  Homepage: Real-time Blockchain summary statistics, Search Bar(Keywords: Best Block, Peer ID and Wallet Address), Navigation Bar, Top 10 Tipset and Top-10 Message.
+    *The data to display includes and is not limited to the scope of Top Level in the RFP. API optimization and requirement details need further discussion.*
  
- *The data to display includes and is not limited to the scope of Top Level in the RFP. API optimization and requirement details need further discussion.*
+    Tipset Detail Page(Node Type, Block Detail Page, Message Detail Page.
  
- Tipset Detail Page(Node Type, Block Detail Page, Message Detail Page.
- 
- *The data to display includes and is not limited to the scope of Secondary Views in the RFP.*
+    *The data to display includes and is not limited to the scope of Secondary Views in the RFP.*
  
  2. Documentation: Project Plan and User Guide
  
@@ -66,7 +65,7 @@
  
  - 240hrs
  
- ###Milestone 3
+ ### Milestone 3
  
  1. Implementation: Mining Page includes Miner Page, Proven Power Metrics and Dynamic Dashboard.
  
@@ -94,57 +93,50 @@
  
  2. Website Maintenance
  
-    - Bug Fixing on demand
+    - Bug Fixing on demand
     
-       - Maintenance including domain name, security certificate and 1-year website service operation
+    - Maintenance including domain name, security certificate and 1-year website service operation
        
  3.  Upgrade Plan
-       
-          - Quarterly upgrade version
+     - Quarterly upgrade version
           
-          # Team
+ # Team
           
           IPFS-Force, China Top 5 Decentralized Storage Technology Company.
+ ## Team Members
+ - Architect Steven Li
           
-          ## Team Members
+ - Project Manager Katrina Liu
+ - Product Owner Yu Da 
+ - Full-stack Dev Feng Li
+ - Backend Dev Stone Shi
+ - Backend Dev Caesar Wang
+ 
+ ## Team Member LinkedIn Profiles
+    Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
+
+    Katrina Liu: [https://www.linkedin.com/in/katrina-liu-a16a84127](https://www.linkedin.com/in/katrina-liu-a16a84127)
+
+    Yu Da: [https://www.linkedin.com/in/宇-达-219519103/](https://www.linkedin.com/in/)
+
+    Feng Li: [https://www.linkedin.com/in/felixlee20190908](https://www.linkedin.com/in/felixlee20190908)
+
+    Stone Shi: [https://www.linkedin.com/in/taoshengshi/](https://www.linkedin.com/in/taoshengshi/)
+ 
+    Caesar Wang: [https://www.linkedin.com/in/麟-王-97a836149/](https://www.linkedin.com/in/%E9%BA%9F-%E7%8E%8B-97a836149/)
           
-          - Architect Steven Li
-          
-          - Project Manager Katrina Liu
-          
-          - Product Owner Yu Da 
-          
-          - Full-stack Dev Feng Li
-          
-          - Backend Dev Stone Shi
-          
-          - Backend Dev Caesar Wang
-          
-          ## Team Member LinkedIn Profiles
-          
-          Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
-          
-          Katrina Liu: [https://www.linkedin.com/in/katrina-liu-a16a84127](https://www.linkedin.com/in/katrina-liu-a16a84127)
-          
-          Yu Da: [https://www.linkedin.com/in/宇-达-219519103/](https://www.linkedin.com/in/)
-          
-          Feng Li: [https://www.linkedin.com/in/felixlee20190908](https://www.linkedin.com/in/felixlee20190908)
-          
-          Stone Shi: [https://www.linkedin.com/in/taoshengshi/](https://www.linkedin.com/in/taoshengshi/)
-          
-          Caesar Wang: [https://www.linkedin.com/in/麟-王-97a836149/](https://www.linkedin.com/in/%E9%BA%9F-%E7%8E%8B-97a836149/)
-          
-          ## Team Website
+ ## Team Website
           
           Please link to your team's website here (make sure it's `https`)
           
-          ## Relevant Experience
+ ## Relevant Experience
           
           Our team constantly demonstrate the professionalism on the research of protocol and distributed file system and positively participate in several Lab seminars of FIL ecosystem. Since Feb 2019, we have contributed 1 PR, 8 issues and 20 comments for go-filecoin program. Especially our Arch and Dev have full experience and knowledge of Blockchain project, such as decentralized storage project, Ethereum, etc.. 
           
-          ## Team code repositories
-          
-          Steven Li:[https://github.com/steven004](https://github.com/steven004)
-          Stone Shi: [https://github.com/taoshengshi](https://github.com/taoshengshi)
-          Caesar Wang:[https://github.com/dtynn](https://github.com/dtynn)
+ ## Team code repositories
+ Steven Li:[https://github.com/steven004](https://github.com/steven004)
+
+ Stone Shi: [https://github.com/taoshengshi](https://github.com/taoshengshi)
+
+ Caesar Wang:[https://github.com/dtynn](https://github.com/dtynn)
           
