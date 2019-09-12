@@ -22,6 +22,8 @@
 - [ℹ️ Help](#ℹ️-help)
 - [License](#license)
 
+> This page is also available in [Chinese (中文)](./README-Chinese.md).
+
 ## 🥅 Goals of Filecoin Devgrants 
 
 To date, the Filecoin project has focused primarily on research, specification and implementation of a decentralized storage network protocol. Throughout this process we have been fortunate to work with incredible community members and contributors. Some are already building tools on the budding network in active development.
