@@ -1,7 +1,11 @@
 # Open Grant Proposal: Filecoin-Wallet
+
 **Name of Project:** Filecoin-Wallet
+
 **Proposal Category:** app-dev
+
 **Proposer:** [IPFS-FORCE](https://github.com/orgs/ipfs-force-community)
+
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
 # Project Description
@@ -37,7 +41,7 @@ Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wal
 
 ### Milestone 1
 
-1. UI/UX Design: include mnemonic view ,transfer view, balance and transfer records view, etc.
+1. UI/UX Design: include mnemonic view ,transfer view, balance and transfer records view, etc.
 
 2. Solution Research and Design: Interface, Message Data Struct, Business Process
 
@@ -49,7 +53,7 @@ Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wal
 
 ### Milestone 2
 
-1. Implementation: npm js package which can provide  mnemonic, transfer message and sign function
+1. Implementation: npm js package which can provide  mnemonic, transfer message and sign function
 
 2. Documentation: Project Management Document, User Guide
 
@@ -62,7 +66,7 @@ Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wal
 1. Implementation:A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
 ![mnemonic page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/mnemonic.jpeg)
 ![wallet page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/wallet.jpeg)
-[transfer page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/transfer.jpeg)
+![transfer page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/transfer.jpeg)
 2. Documentation: Codebase, User Guide
 
 - 1 Dev, 0.5 PM
@@ -92,48 +96,50 @@ Total Budget: $23,200.00
 
 ## Maintenance and Upgrade Plans
 
-1. Adjust Filecoin interface on demand
+1. Adjust Filecoin interface on demand
 
 2. Website Maintenance
 
-   - Bug Fixing on demand
+- Bug Fixing on demand
+- Maintenance including domain name, security certificate and 1-year website service operation
    
-   - Maintenance including domain name, security certificate and 1-year website service operation
+3. Upgrade Plan
+
+- Quarterly upgrade version
    
-   3. Upgrade Plan
+# Team
+IPFS-Force, China Top Decentralized Storage Technology Company.
+
+## Team Members
+- Architect                 Steven Li
+- Project Manager     Katrina Liu
+- Product Owner        Yu Da 
+- UX                 TBD
+- Full-stack Dev: Feng Li
+- Backend Dev        Caesar Wang
    
-   - Quarterly upgrade version
+## Team Member LinkedIn Profiles
    
-   # Team
+Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
+
+Katrina Liu: [https://www.linkedin.com/in/katrina-liu-a16a84127](https://www.linkedin.com/in/katrina-liu-a16a84127)
+
+Yu Da: [https://www.linkedin.com/in/宇-达-219519103/](https://www.linkedin.com/in/)
+
+Feng Li: [https://www.linkedin.com/in/felixlee20190908](https://www.linkedin.com/in/felixlee20190908)
+
+Caesar Wang: [https://www.linkedin.com/in/麟-王-97a836149/](https://www.linkedin.com/in/%E9%BA%9F-%E7%8E%8B-97a836149/)
    
-   IPFS-Force, China Top Decentralized Storage Technology Company.
+## Team Website
    
-   ## Team Members
+[https://ipfser.org](https://ipfser.org)
    
-   - Architect                 Steven Li
-   - Project Manager     Katrina Liu
-   - Product Owner        Yu Da 
-   - UX                 TBD
-   - Full-stack Dev: Feng Li
-   - Backend Dev        Caesar Wang
-   
-   ## Team Member LinkedIn Profiles
-   
-   Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
-   Katrina Liu: [https://www.linkedin.com/in/katrina-liu-a16a84127](https://www.linkedin.com/in/katrina-liu-a16a84127)
-   Yu Da: [https://www.linkedin.com/in/宇-达-219519103/](https://www.linkedin.com/in/)
-   Feng Li: [https://www.linkedin.com/in/felixlee20190908](https://www.linkedin.com/in/felixlee20190908)
-   Caesar Wang: [https://www.linkedin.com/in/麟-王-97a836149/](https://www.linkedin.com/in/%E9%BA%9F-%E7%8E%8B-97a836149/)
-   
-   ## Team Website
-   
-   [https://ipfser.org](https://ipfser.org)
-   
-   ## Relevant Experience
+## Relevant Experience
    
    Our team constantly demonstrate the professionalism on the research of protocol and distributed storage system and actively participate in several Lab seminars of FIL ecosystem. Since Feb 2019, when the Filecoin is open-sourced, several team engineers have been diving into Filecoin studying, coding, and eco-system development. The team have contributed code for several projects in go-filecoin program with tens of PRs, while we pro-actively participate in devnet testing, issues submitting, and discussion of design. IPFS-Force is one of the most active communities in Filecoin eco-system everybody could see from github and slack channel. We have developed several libs and tools which could support FilScan development, that's why the whole schedule could be defined tightly. In addition, our Arch and Devs have seasoned experience of Blockchain and Storage projects, such as High-density Cloud Object Storage, Ethereum, Ulord, aside from Filecoin and IPFS.
    
-   ## Team code repositories
+## Team code repositories
    
-   Steven Li:[https://github.com/steven004](https://github.com/steven004)
-   Caesar Wang:[https://github.com/dtynn](https://github.com/dtynn)
+Steven Li:[https://github.com/steven004](https://github.com/steven004)
+
+Caesar Wang:[https://github.com/dtynn](https://github.com/dtynn)
