@@ -1,41 +1,42 @@
 # Open Grant Proposal: Filecoin-Wallet
 
-**Name of Project:** Filecoin-Wallet
+**Name of Project:** `Filecoin-Wallet`
 
-**Proposal Category:** app-dev
+**Proposal Category:** `app-dev`
 
-**Proposer:** [IPFS-FORCE](https://github.com/orgs/ipfs-force-community)
+**Proposer:** *[IPFS-FORCE](https://github.com/orgs/ipfs-force-community)*
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 # Project Description
 
 Hi Labs, we are IPFS-Force team from China with several years' development experience in Blockchain Industry and deep understanding of Blockchain Activities and Actors. With solid experience, we are capable to dive and analyze multidimensional data from blockchain raw data and displayed in creative visualization.
+
 Here’s the new proposal named “Filecoin-Wallet”.
 
-Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wallet, that enables to implement FIL transfer function and display the transaction records. For wallet’s security, it will be capable to generate random mnemonics and private key with import and export function. To avoid data leakage and transaction security, the private key will be stored locally.
+Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wallet, that enables Filecoin user to transfer FIL and display the transaction records. For wallet’s security, it will be capable to generate random mnemonics and private keys with import and export function. To avoid data leakage and transaction security, the private keys will be stored locally.
 
 ## Value
-- Easy to use, the light wallet only needs to manage the private key and send the signature message without complicated functions.
+- Easy to use, the light wallet only needs to manage the private key and send signed messages without complicated functions.
 - Light wallet do not have to wait for a long time to synchronize the data on the chain, and take up a lot of resources.
 - Light wallets are an important part of the ecosystem.
 
-#### challenges: We are going to resolve
--  detail message struct
--  get nonce from filecoin
--  get gaslimit from filecoin
--  send offline message to filecoin
+#### Challenges: We are going to resolve
+-  Detail message struct
+-  Get nonce from filecoin
+-  Get gaslimit from filecoin
+-  Send offline message to filecoin
 
-*Some function require filecoin API support. At present, we have provided a set of temporary service, which can be used for everyone to test the transfer function. API optimization and requirement details need further discussion.*
+*Some functions require filecoin API support. At present, we have provided a set of temporary services with a miner server, which can be used for everyone to test the transfer function. API optimization and requirement details need further discussion.*
 
 ## Deliverables
-*   A full function Browser Filecoin-wallet via a https://(include mnemonic view ,transfer view, balance and transfer records view).
+*  A full function Browser Filecoin-wallet via a https://(include mnemonic view ,transfer view, balance and transfer records view).
 
-*   A npm package for wallet function tools which can build a filecoin wallet in browser. (mnemonic function, build transfer message function and sign)
+*  An npm package for wallet function tools which can build a filecoin wallet in browser. (mnemonic function, build transfer message function and sign)
 
-*   A  wallet function tools library for Android and iOS to build mobile wallet.(mnemonic function, build transfer message function and sign)
-* The codebase is open-sourced and dual-licensed under MIT and APACHE2 licenses.
-* Well-documented Deployment Document, API Document and User-Guide.
+*  A  wallet function tools library for Android and iOS to build mobile wallet.(mnemonic function, build transfer message function and sign)
+*  The codebase is open-sourced and dual-licensed under MIT and APACHE2 licenses.
+*  Well-documented Deployment Document, API Document and User-Guide.
 
 ## Development Roadmap
 
@@ -63,10 +64,16 @@ Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wal
 
 ### Milestone 3
 
-1. Implementation:A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
-![mnemonic page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/mnemonic.jpeg)
-![wallet page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/wallet.jpeg)
-![transfer page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/transfer.jpeg)
+1. Implementation: A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
+
+ - Design page examples: 1) mnemonic phases page; 2) wallet page; 3) transfer page
+
+<p align="center">
+  <img width="250" hspace="10" border="2" src="filecoin-wallet-img/mnemonic.jpeg">
+  <img width="250" hspace="10" src="filecoin-wallet-img/wallet.jpeg"> 
+  <img width="250" hspace="10" src="filecoin-wallet-img/transfer.jpeg">
+</p>
+
 1. Documentation: Codebase, User Guide
 
 - 1 Dev, 0.5 PM
@@ -114,8 +121,8 @@ IPFS-Force, China Top Decentralized Storage Technology Company.
 - Architect                 Steven Li
 - Project Manager     Katrina Liu
 - Product Owner        Yu Da 
-- UX                 TBD
-- Full-stack Dev: Feng Li
+- UX                    TBD
+- Full-stack Dev     Feng Li
 - Backend Dev        Caesar Wang
    
 ## Team Member LinkedIn Profiles
