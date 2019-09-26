@@ -85,7 +85,7 @@ Please link to your team's website here (make sure it's `https`)
 1. Adapted ethereum to dynamic shard blockchains and reached 2000 tps with 64 shards, because of PoW, it was much vulnerable when sharded(2018)
 
 
- 2. In 2019, we have developed ESWARM - a decentralized storage and distribution network, running on thousands of nodes in China, and served several customs. ESWARM is based on ethereum’s swarm, and optimized for video, especially for apples m3u8 stream. With compacted peer-to-peer receipts, ESWARM can record and calculate data transactions between billions of nodes.
+ 2. In 2019, we have developed ESWARM - a decentralized storage and distribution network, running on thousands of nodes in China, and served several customs. ESWARM is based on ethereum’s swarm, and optimized for video, especially for apples m3u8 stream. With zipped peer-to-peer receipts, ESWARM can record and calculate data transactions between millions of nodes--we have deployed thousands of full nodes and served millions of light(client) nodes.
 
 
 
@@ -104,4 +104,4 @@ Please link to your team's website here (make sure it's `https`)
 
 # Additional Information
 
-Other RFP's, such as zippable receipts for data traffic， player sdk with mixed-CDN will be proposed next 
+Other RFP's, such as zippable receipts for data traffic， player sdk with mixed-CDN will be proposed next
