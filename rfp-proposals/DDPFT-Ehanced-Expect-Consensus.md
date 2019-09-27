@@ -4,7 +4,7 @@
 
 **Link to RFP:** Please link to the RFP that you are submitting a proposal for.
 
-**RFP Category:**  `technical-design`,`core-dev`
+**RFP Category:**  `technical-design`
 
 **Proposer:** [@plotozhu](https://github.com/plotozhu)
 
@@ -78,7 +78,7 @@ This algrorithm and its implementation will be open source, and will be designed
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+
 
 ## Relevant Experience
 
