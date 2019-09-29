@@ -77,7 +77,7 @@ The whole team has over 80 years of experience in both IT industry and music ind
 
 ## Team code repositories
 
-https://github.com/musicoin
+https://github.com/musicoin/desktop
 
 # Additional Information
 
