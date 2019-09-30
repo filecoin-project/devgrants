@@ -49,6 +49,7 @@ total budget: 30K+150K+250K = 430K USD
 
 We've been working on this project since 2017 and proved the concept in the past two years. We will continue our commitment with our big community members(mostly content creators) to maintain and upgrade the project to a decade or even longer.
 
+Out goal in 5 years is to include 8 million musicians with up to 50 million musical works online, serving over 50 billion streams/year.  
 
 # Team
 
