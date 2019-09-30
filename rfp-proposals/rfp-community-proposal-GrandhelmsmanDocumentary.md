@@ -53,8 +53,11 @@ We hope that the IPFS official protocol laboratory can provide learning material
 Please describe the high-level budget for this event and how it will be spent across different categories of expense.
 
 **Total cost:** $5000
+
 **Interview cost:** $1000
+
 **Post-production:** $1,500
+
 **Other:** $2500
 
 # Organizing Team
