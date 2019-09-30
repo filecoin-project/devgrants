@@ -36,7 +36,6 @@ AddPiece(file): add file to the dag. return one MetaData object.
 AddPieces(folder, filter): add files by regular filtering to the dag, return list of MetaData object.
 ```
 
-
 - **Get files**: get file from filecoin network.
 
 ```
@@ -123,15 +122,14 @@ We will maintenance and upgrade with go-filecoin upgrade.
 
 ## Team Member LinkedIn Profiles
 
-- github.com/deaswang
+- https://github.com/deaswang
 - 
 - 
 - 
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
-
+[FilCloud](https://github.com/filcloud)
 
 ## Relevant Experience
 
@@ -142,5 +140,3 @@ Our team have develop one [test tool](https://github.com/filcloud/filutil) for g
 Our team have develop one [test tool](https://github.com/filcloud/filutil) for go-filecoin storage.
 
 # Additional Information
-
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
