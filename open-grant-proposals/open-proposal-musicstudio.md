@@ -1,7 +1,7 @@
 
-# Open Grant Proposal: `Musicoin`
+# Open Grant Proposal: `Music Studio`
 
-**Name of Project: Musicoin Project**
+**Name of Project: Music Studio**
 
 **Proposal Category:** `app-dev`
 
@@ -11,7 +11,7 @@
 
 # Project Description
 
-Musicoin Project is to enable global indie musicians to manage and release their musical works and offer distributed content sharing and delivering to music listeners like Airbnb for music.
+Music Studio is based on the established Musicoin Project to enable global indie musicians to manage and release their musical works and offer distributed content sharing and delivering to music listeners like Airbnb for music.
 
 Today's music industry has failed both musicians and listeners for its single pay-wall model requiring music consumers to subscribe monthly but leaving 90% of Internet users can't share the excellent works excluded by major music labels. Eventually the monopoly of the big industry players siphon over 88% of profit in the industry, leaving only 12% of profit to  musicians, however, only 2% of musicians get really well paid(top commercial ones).
 
@@ -19,13 +19,18 @@ Today's music industry has failed both musicians and listeners for its single pa
 
 ## Value
 
-We use IPFS from the first day on but didn't fully utilize its potential until Filecoin offers a grander vision that makes it more possible.
+Previously we used IPFS but didn't fully utilize its potential until Filecoin offers a grander vision that makes it more possible.
 
-Once musicians download our studio app(with Filecoin node built-in), they can not only serve their own content but also being a solid( more trust-able) node of the whole network with real utility. Generally, every musician will offer 50-100 high-definition media files for themselves, whilst its possible to store and sync more content from other peers. With this basic assurance, musical content can be a super showcase of the Filecoin ecosystem.
+Once musicians download our studio app(with Filecoin node built-in), they can not only serve their own content but also being a solid( more trust-able) node of the whole network with real utility. Generally, every musician will offer 50-100 high-definition media files for themselves, whilst its possible to store and sync more content from other peers. Additionally, musicians can early Filecoin if they'd love to contribute their spaces. 
+
+![architecture](music_studio_filecoin.png "")
+
 
 The concern of Filecoin for musicians is on its redundancy because we are now serving content with private IPFS nodes, but if we open it to the whole network of Filecoin, we don't know if there are any potential problems which we never tested before.  
 
 Convincing musicians to adopt Filecoin is a challenge, but it's not as much as other projects since there are already over 5000+ musicians from 27 countries, who are quite familiar with our web-based studio tools.
+
+With this basic assurance, musical content can be a perfect showcase of the Filecoin ecosystem.
 
 ## Deliverables
 
