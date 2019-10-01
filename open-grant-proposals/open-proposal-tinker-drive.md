@@ -2,7 +2,7 @@
 
 **Name of Project:** tinker drive - Native file syncing on Filecoin via unixfs-datastore
 
-**Proposal Category:** `devtools-libraries`
+**Proposal Category:** `core-dev` / `app-dev`
 
 **Proposer:** [@requilence](https://github.com/requilence)
 
