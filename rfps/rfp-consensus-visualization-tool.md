@@ -4,6 +4,8 @@
 
 **Proposal Category:** `app-dev`
 
+**Proposer:**  @eshon
+
 ## Project Description
 
 We are seeking proposals for an open source blockchain consensus visualization tool that demonstrates Filecoin's Expected Consensus process. There is currently a chain visualizer at http://user.kittyhawk.wtf:8000/ that visualizes chain activity on the go-filecoin User Devnet. However, it only shows the heaviest (main) chain and does not include potential chain forks. We are specifically looking for a visualization tool that shows the main chain and also other forks.
@@ -12,7 +14,7 @@ We are seeking proposals for an open source blockchain consensus visualization t
 
 Expected Consensus is different from blockchain consensus algorithms like Proof of Work and somewhat different from Proof of Stake. It based on the heaviest weighted chain which tracks the most total storage power.
 
-A miner's odds of being elected to produce a block in Expected Consensus is proportional to their storage power in the network, or proven storage in active use. Blocks are produced tracking proven storage in the network. Total proven storage in use is how chains are weighted, and the network eventually converges around the heaviest chain.
+A miner's odds of being elected to produce a block in Expected Consensus is proportional to their storage power in the network, or proven storage in active use. As blocks collect transactions and storage proofs are posted to the network, heavier chains track the most proven storage in the network. Total proven storage in use is how chains are weighted, and the network eventually converges around the heaviest chain.
 
 Regarding forks in EC, from the Filecoin Specification:
 

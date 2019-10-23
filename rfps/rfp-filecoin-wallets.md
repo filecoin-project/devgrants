@@ -4,6 +4,8 @@
 
 **Proposal Category:** `app-dev`, `devtools-libraries`
 
+**Proposers:**  @eshon, @jnthnvctr
+
 ## Project Description
 
 This RFP has 2 possible tracks:
