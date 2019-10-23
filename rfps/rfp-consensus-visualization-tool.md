@@ -42,7 +42,7 @@ An open-sourced, dual-licensed (under MIT and APACHE2) implementation that:
 - or alternatively, a proposal to extend and enhance the existing explorer at [http://user.kittyhawk.wtf:8000](http://user.kittyhawk.wtf:8000/) ([Github repo](https://github.com/filecoin-project/filecoin-explorer))
 - displays new messages, blocks, tipsets, ancestors, forks, miners and related information via live updates
 - visualizes what is happening as messages are pooled into blocks forming Tipsets that extend Parent and GrandParent Tipsets as consensus is formed or forks occur
-- shows when natural and bad forks occur
+- shows when natural and bad forks occur (e.g. >51% malicous attack)
 - provides explainers for what is happening and a glossary of terms
 
 

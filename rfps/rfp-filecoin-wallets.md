@@ -17,7 +17,7 @@ We are seeking proposals for an open source, self-hosted Filecoin wallet applica
 
 > NOTE: Nodes have wallet CLIs and APIs that will be further developed to meet the Filecoin Spec (e.g. Multisig wallets). A reference tool for signing raw transactions outside of a node will also be created by the Filecoin team.
 
-The goal of an enhanced open source wallet are to:
+The goals of an enhanced open source wallet are to:
 
 - provide the community with an open source implementation that has better UX for non-technical end-users
 - ensure good node API coverage for wallet functionality
@@ -79,7 +79,7 @@ for Track 2:
 for both Tracks:
 
 - has a well-documented API
-- works with a Filecoin node API (local or remote) to perform the intended workflow
+- works with a Filecoin node API (lotus and/or go-filecoin, local or remote) to perform the intended workflow
 - has tutorials with demo usage
 - is written in a mainstream language to ensure wider adoption, future interoperability and re-use
 - has a well-documented, human-readable codebase
