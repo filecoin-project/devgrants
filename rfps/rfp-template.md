@@ -46,7 +46,7 @@ Also include any relevant constraints that the implementer should be aware of be
 
 ## Acceptance Criteria
 
-What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible, as they will be used to determine whether or not a grantee will receive payment for work completed for a milestone. 
+What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone. 
 
 ## Resources
 
