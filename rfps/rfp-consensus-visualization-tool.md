@@ -51,12 +51,12 @@ An open-sourced, dual-licensed (under MIT and APACHE2) implementation that:
 And also:
 
 - has a well-documented, human-readable codebase
-- works with a Filecoin node API (local or remote) and database or cache if needed to perform the intended workflow
+- works with a Filecoin node API (lotus* and/or go-filecoin, local or remote) and database or cache if needed to perform the intended workflow (* starting with the lotus API is recommended)
 - has tutorials with demo usage
 - can be in any mainstream language with a preference for ones that ensure easy long-term maintenance
 - is well-tested and usable by a large audience during Testnet and Mainnet
 
-> NOTE: Node API improvements are likely between now, Testnet and Mainnet. We will work with node implementers to document relevant API calls and provide coordinated opportunities for questions and feedback. A filecoin-api-client npm library also exists but is currently out of date.
+> NOTE: Node API improvements are likely between now, Testnet and Mainnet. We will work with node implementers to document relevant API calls and provide coordinated opportunities for questions and feedback and recommend starting with the lotus API.
 
 ## Recommended Team
 
@@ -68,7 +68,7 @@ And also:
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | Finalize scope, a list of node API endpoints to be used, UI mockups + feedback rounds with the DevGrants team, architectural design | TBD | 2-3 weeks |
+| 1 | Finalize scope, a list of node API endpoints to be used, UI mockups + feedback rounds with the Filecoin DevGrants team, architectural design | TBD | 2-3 weeks |
 | 2 | Implementation interoperable with a Filecoin node and User tested | TBD | 4 weeks |
 | 3 | All project deliverables are completed and added to the [Filecoin Shipyard](https://github.com/filecoin-shipyard) (website, documentation, codebase) | TBD | 2 weeks |
 | 4 | Maintenance and Upgrades during Testnet and Mainnet | TBD | 2 weeks |
@@ -112,7 +112,7 @@ go-filecoin User Devnet
 
 > NOTE: A DevGrant RFP for a comprehensive Filecoin Block Explorer with full search has been awarded to a team in wave 1. In contrast, this RFP is specifically about exploring ways to explain and visualize Expected Consensus in Filecoin.
 
-#### Staging Devnet
+#### Additional References
 
 In addition to those listed in the [Related Tools](#Related-Tools) section above:
 

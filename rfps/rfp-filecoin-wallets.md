@@ -17,7 +17,9 @@ This RFP has 2 possible tracks:
 --------------------------------
 We are seeking proposals for an open source, self-hosted Filecoin wallet application that supports receiving, storing and sending FIL, shows when transactions are confirmed by the network and helps users safely manage their keys.
 
-> NOTE: Nodes have wallet CLIs and APIs that will be further developed to meet the Filecoin Spec (e.g. Multisig wallets). A reference tool for signing raw transactions outside of a node will also be created by the Filecoin team.
+> NOTE: Nodes have wallet CLIs and APIs that will be further developed to meet the Filecoin Spec (e.g. Multisig wallets). A reference tool for creating and signing raw transactions outside of a node will also be created by the Filecoin team soon. We don't yet have exact timing for this functionality, but you can assume their existence if that is helpful to you in development.
+
+We don't yet have exact timing for this functionality, but you can assume their existence if that is helpful to you in development.
 
 The goals of an enhanced open source wallet are to:
 
