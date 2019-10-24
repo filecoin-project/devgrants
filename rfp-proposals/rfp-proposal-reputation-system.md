@@ -57,9 +57,9 @@ a reputation system include:
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | Finalize scope, workflow design, and architectural design | 10000 | 2 weeks |
-| 2 | Service implementation | 30000 | 6-8 weeks |
-| 3 | Sample web application demonstrating interoperability of go-filecoin and the proposed service | 10000 | 2-4 weeks |
+| 1 | Finalize scope, workflow design, and architectural design. reputation calculate formula, database design, backend API design, frontend design | 10000 | 2 weeks |
+| 2 | Service implementation, database deploy, frontend/backend implementation | 30000 | 6-8 weeks |
+| 3 | Sample web application demonstrating interoperability of go-filecoin and the proposed service, unit test and system test | 10000 | 2-4 weeks |
 | 4 | All project deliverables (website, documentation, codebase) | 10000 | 2-3 weeks |
 
 ## Total Budget Requested
