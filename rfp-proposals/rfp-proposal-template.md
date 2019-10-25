@@ -44,7 +44,7 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 
 ## Contact Info
 
-Provide us with contact details so we can communicate our selection decision to you directly.
+Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
 
 ## Team Members
 
