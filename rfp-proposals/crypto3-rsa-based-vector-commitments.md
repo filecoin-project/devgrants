@@ -1,4 +1,4 @@
-# RFP Proposal: `Crypto3 RSA Vector Commitments`
+# RFP Proposal: `RSA-based Vector Commitments`
 
 **Name of Project:** =nil; Foundation's Crypto3 RSA Vector Commitments
 
