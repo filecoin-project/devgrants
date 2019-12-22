@@ -323,8 +323,8 @@ https://crypto3.nil.foundation or https://nil.foundation
 
 * Mikhail Komarov. 10+ years experience in designing and developing databse 
   management systems (so-called blockchains are included in such a classification). 
-  Most of them were done with C++. Ex-[Steemit](https://steemit.com)(less),
-  ex-[Golos](https://golos.io)(more) developer. Founded 
+  Most of them were done with C++. Ex-[Steemit](https://steemit.com)(less) developer,
+  ex-[Golos](https://golos.io)(more) CTO. Founded 
   [=nil; Foundation](https://nil.foundation), which intention is to develop and
   standartize database and cryptography-related specifications. Designed and 
   developed =nil; Foundation's crypto3 modern cryptographiy suite, partially 
