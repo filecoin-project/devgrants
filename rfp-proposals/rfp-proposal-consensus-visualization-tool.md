@@ -143,7 +143,7 @@ You can checkout all the completed and ongoing projects and project repositories
 
 ## Team Website
 
-[The Vantage Proeject](https://www.thevantageproject.com/buidl/)
+[The Vantage Project](https://www.thevantageproject.com/buidl/)
 
 ## Team Members
 
