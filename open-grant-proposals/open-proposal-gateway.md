@@ -32,16 +32,21 @@ IPFS-Force is an IPFS/Filecoin community focusing on IPFS ecosystem and Filecoin
 
 **Filecoin gateway for access to bloXroute BDN.**
 
+1. The fully functional gateway software which could be directly installed.
+2. The codebase is open-sourced and dual-licensed under MIT and APACHE2 licenses.
+3. Well-documented Deployment Document, User-Guide.
+
+
 The work involves the following:
 
-    - Integration with p2p protocol of Filecoin blockchain;
-    - Conversion of messages from Filecoin p2p protocol to bloXroute BDN p2p protocol;
-    - Block compression and faster propagation;
-    - Faster transaction propagation;
-    - Testing;
-    - Docker container to run software in docker environment;
-    - PyPi package for software install using `pip` package manager;
-    - Documentation.
+- Integration with p2p protocol of Filecoin blockchain;
+- Conversion of messages from Filecoin p2p protocol to bloXroute BDN open-sourced p2p protocol;
+- Block compression and faster propagation;
+- Faster transaction propagation;
+- Testing;
+- Docker container to run software in docker environment;
+- PyPi package for software install using `pip` package manager;
+- Documentation.
 
 ## Development Roadmap
 
