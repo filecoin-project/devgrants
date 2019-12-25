@@ -71,9 +71,9 @@ Support filecoin node management.
 ### Milestone 3
 
 1. Implementation:A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
-![mnemonic page](https://github.com/ipfs-force-community/devgrants/blob/master/rpf-proposals/filecoin-wallet-img/mnemonic.jpeg)
-![wallet page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/wallet.jpeg)
-[transfer page](https://github.com/ipfs-force-community/devgrants/blob/master/open-grant-proposals/filecoin-wallet-img/transfer.jpeg)
+![mnemonic page](https://github.com/ipfs-force-community/devgrants/blob/master/rpf-proposals/filecoin_wallet/filecoin-wallet-img/mnemonic.jpeg)
+![wallet page](https://github.com/ipfs-force-community/devgrants/blob/master/rpf-proposals/filecoin_wallet/filecoin-wallet-img/wallet.jpeg)
+[transfer page](https://github.com/ipfs-force-community/devgrants/blob/master/rpf-proposals/filecoin_wallet/filecoin-wallet-img/transfer.jpeg)
 2. Documentation: Codebase, User Guide
 
 - 1 Dev, 0.5 PM
