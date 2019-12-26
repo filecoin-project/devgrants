@@ -29,7 +29,7 @@ Wallet features:
 
 For `Track2`:
 
-Tool 1: js package
+Tool: Filecoin wallet  js package
 
 This package provides HD wallet functions based on secp256k1 and BLS, make it easy for developers to customize their wallet functions with this package.
 
@@ -81,11 +81,10 @@ Total Budget: $23,200.00
 
 | Role | Rate/Hr | HC | Man-Hour | Man-Week | Price |
 |------|--------|----|------------|------------|------|
-| Arch | $80 | 1 | 80 | 2 | $6,400.00 |
+| Arch | $80 | 1 | 40 | 1 | $3,200.00 |
 | PM | $60 | 1 | 80 | 2 | $4,800.00 |
 | PO | $50 | 1 | 40 | 1 | $2,000.00 |
-| UI-Dev | $50 | 1 | 120 | 3 | $6,000.00 |
-| Full-stack Dev | $50 | 1 | 80 | 5 | $4,000.00 |
+| Full-stack Dev | $70 | 1 | 120 | 3 | $8,400.00 |
 
 ## Maintenance and Upgrade Plans
 
@@ -111,9 +110,13 @@ IPFS-Force, China Top Decentralized Storage Technology Company.
 ## Team Member LinkedIn Profiles
 
 Steven Li: [https://www.linkedin.com/in/xinlee/](https://www.linkedin.com/in/xinlee/)
+
 Katrina Liu: [https://www.linkedin.com/in/katrina-liu-a16a84127](https://www.linkedin.com/in/katrina-liu-a16a84127)
+
 Yu Da: [https://www.linkedin.com/in/宇-达-219519103/](https://www.linkedin.com/in/)
+
 Feng Li: [https://www.linkedin.com/in/felixlee20190908](https://www.linkedin.com/in/felixlee20190908)
+
 Caesar Wang: [https://www.linkedin.com/in/麟-王-97a836149/](https://www.linkedin.com/in/%E9%BA%9F-%E7%8E%8B-97a836149/)
 
 ## Team Website
