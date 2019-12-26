@@ -24,7 +24,7 @@ We plan to develop cross-platform wallet service using Golang. The wallet is run
 Wallet features:
 - HD wallet that support both secp256k1 and BLS multiple addresses from a mnemonic seed.
 - Safe and friendly private key management: use AES to encrypt private key which can be  import and export , as welle as mnemonic .
-- Support transfer, balance inquiry and transaction status inquiry
+- Support transfer, balance inquiry, transaction status inquiry, transaction records list.
 - Support node management for easy access to multiple nodes.
 
 For `Track2`:
@@ -38,16 +38,6 @@ Features:
 - Support for constructing transfer messages
 - Support message secp256k1 or BLS signature
 
-<br>
-Tool 2: Unified filecoin wallet web API service
-
-Provide wallet functions for various light wallets, and support data query (address, balance, transaction status, transaction records) on the wallet related chain. The service includes filecoin node management, chain data synchronization, transaction data query, user status query and other functions.
-
-Features:
-- Provide data query such as nonce value required for transaction messages.
-- Send signed messages and track transfer status.
-- Get all transaction records related to the address.
-- Support filecoin node management.
 
 
 ## Development Roadmap
@@ -81,16 +71,9 @@ Resources Requirement:
 </p>
 
 Resources Requirement:
-- 1 Dev, 0.5 PM
+- 2 Dev, 0.5 PM
 - 2 weeks
 
-### Milestone 4
-1. Implementation: A  wallet function tools library for Android and iOS to build mobile wallet.(mnemonic function, build transfer message function and sign)
-2. Documentation: Project Management Document, User Guide
-
-Resources Requirement:
-- 1 Dev, 1 PM
-- 2 weeks
 
 ## Total Budget Requested
 
@@ -102,7 +85,7 @@ Total Budget: $23,200.00
 | PM | $60 | 1 | 80 | 2 | $4,800.00 |
 | PO | $50 | 1 | 40 | 1 | $2,000.00 |
 | UI-Dev | $50 | 1 | 120 | 3 | $6,000.00 |
-| Backend Dev | $50 | 1 | 80 | 2 | $4,000.00 |
+| Full-stack Dev | $50 | 1 | 80 | 5 | $4,000.00 |
 
 ## Maintenance and Upgrade Plans
 
@@ -122,7 +105,6 @@ IPFS-Force, China Top Decentralized Storage Technology Company.
 - Architect           Steven Li
 - Project Manager     Katrina Liu
 - Product Owner        Yu Da 
-- UX                 TBD
 - Full-stack Dev: Feng Li
 - Backend Dev        Caesar Wang
 
