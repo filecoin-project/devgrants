@@ -77,7 +77,7 @@ Resources Requirement:
 
 ## Total Budget Requested
 
-Total Budget: $23,200.00
+Total Budget: $18,400.00
 
 | Role | Rate/Hr | HC | Man-Hour | Man-Week | Price |
 |------|--------|----|------------|------------|------|
