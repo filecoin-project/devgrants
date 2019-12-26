@@ -4,7 +4,7 @@
 
 **Proposal Category:** `core-dev`
 
-**Proposer:** [IPFS-Force](https://github.com/ipfs-force-community) & [bloXroute](https://github.com/bloXroute-Labs/)
+**Proposer:** [bloXroute](https://github.com/bloXroute-Labs/) & [IPFS-Force](https://github.com/ipfs-force-community) 
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
@@ -30,7 +30,7 @@ IPFS-Force is an IPFS/Filecoin community focusing on IPFS ecosystem and Filecoin
 
 ## Value
 
-1. Filecoin nodes could sustain some countries's complex network environment;
+1. Filecoin nodes could sustain under different countries's complex network environment;
 2. Filecoin nodes will be able to propagate and hear blocks and transactions faster;
 3. Filecoin blockchain will be allowed to increase the block size and decrease block interval to increase TPS without facing fork problems(if they want);
 4. Filecoin will be able to achieve the above without any changes to existing protocol and at low deployment cost.
@@ -105,13 +105,13 @@ __Resources__ :
 
 ## Total Budget Requested
 
-Total Budget: $37,000.00    
+Total Budget: $38,500.00    
 please review the above milestone and we can settle down the budget accordingly. 
  
  | Role | Rate/Hr | HC | Man-Hour | Man-Week | Price |
  |-----|---------|----|-----------|-------------|------|
- | Architect | $100 | 1 | 40 | 1 | $4,000.00|
- | PO | $50 | 1 | 20 | 1 | $1,000.00|
+ | Architect | $100 | 1 | 60 | 1 | $6,000.00|
+ | PO | $50 | 1 | 10 | 1 | $500.00|
  | PM | $50 | 1 | 20 | 1 | $1,000.00|
  | Developers| $60 | 2 | 490 | 12 | $29,400.00 |
  | QA| $40 | 1 | 40 | 1 | $1,600.00 |
