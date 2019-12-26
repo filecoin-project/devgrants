@@ -73,10 +73,12 @@ Resources Requirement:
 ### Milestone 3
 
 1. Implementation:A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
-![mnemonic page](filecoin-wallet-img/mnemonic.jpeg)
-![wallet page](filecoin-wallet-img/wallet.jpeg)
-[transfer page](filecoin-wallet-img/transfer.jpeg)
-2. Documentation: Codebase, User Guide
+    - Design page examples: 1) mnemonic phases page; 2) wallet page; 3) transfer page
+<p align="center">
+  <img width="250" hspace="10" border="2" src="filecoin-wallet-img/mnemonic.jpeg">
+  <img width="250" hspace="10" src="filecoin-wallet-img/wallet.jpeg"> 
+  <img width="250" hspace="10" src="filecoin-wallet-img/transfer.jpeg">
+</p>
 
 Resources Requirement:
 - 1 Dev, 0.5 PM
