@@ -1,93 +1,94 @@
 # RFP Proposal: Filecoin Wallet
-**Name of Project:** Filecoin Wallet & Tools
+**Name of Project:** `Filecoin Wallet & Tools`
+
 **Link to RFP:** [rfp-filecoin-wallets.md](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-filecoin-wallets.md).
-**RFP Category:**  app-dev, devtools-libraries
- **Proposer:**  [IPFS-FORCE](https://github.com/orgs/ipfs-force-community)
+
+**RFP Category:**  `app-dev`, `devtools-libraries`
+
+**Proposer:**  [IPFS-FORCE](https://github.com/orgs/ipfs-force-community)
  
- **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 
 # Project Description
 
 Hi Labs, we are IPFS-Force team from China with several years' development experience in Blockchain Industry and deep understanding of Blockchain Activities and Actors. With solid experience, we are capable to dive and analyze multidimensional data from blockchain raw data and displayed in creative visualization.
 
-Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wallet, that enables to implement FIL transfer function and display the transaction records. For wallet’s security, it will be capable to generate random mnemonics and private key with import and export function. To avoid data leakage and transaction security, the private key will be stored locally.
+Filecoin-Wallet is a secure, convenient, professional and web-based Filecoin wallet, that implements FIL transfer function and display the transaction records. For wallet’s security, it will be capable to generate random mnemonics and private key with import and export function. To avoid data leakage and transaction security, the private key will be stored locally.
 
 ## Deliverables
-for Track1
-We plan to use Go to develop a cross-platform wallet service at local that can connect any filecoin node by socket(currently support the lotus node), and user can use the wallet service through a browser.
+For `Track1`:
+
+We plan to develop cross-platform wallet service using Golang. The wallet is run at local that can connect any filecoin node by socket (currently support the lotus node), and user can use wallet services through a browser.
 
 Wallet features:
-HD wallet that support both secp256k1 and BLS multiple addresses from a mnemonic seed.
-Safe and friendly private key management: use AES to encrypt private key which can be  import and export , as welle as mnemonic .
-Support transfer, balance inquiry and transaction status inquiry
-Support node management for easy access to multiple nodes.
+- HD wallet that support both secp256k1 and BLS multiple addresses from a mnemonic seed.
+- Safe and friendly private key management: use AES to encrypt private key which can be  import and export , as welle as mnemonic .
+- Support transfer, balance inquiry and transaction status inquiry
+- Support node management for easy access to multiple nodes.
 
-for Track2
-Tool 1:
-js package .
+For `Track2`:
+
+Tool 1: js package
+
 This package provides HD wallet functions based on secp256k1 and BLS, make it easy for developers to customize their wallet functions with this package.
 
 Features:
-Support HD key generation of secp256k1 and BLS
-Support for constructing transfer messages
-Support message secp256k1 or BLS signature
+- Support HD key generation of secp256k1 and BLS
+- Support for constructing transfer messages
+- Support message secp256k1 or BLS signature
 
-Tool 2:
-Unified filecoin wallet web API service
+<br>
+Tool 2: Unified filecoin wallet web API service
+
 Provide wallet functions for various light wallets, and support data query (address, balance, transaction status, transaction records) on the wallet related chain. The service includes filecoin node management, chain data synchronization, transaction data query, user status query and other functions.
 
 Features:
-Provide data query such as nonce value required for transaction messages.
-Send signed messages and track transfer status.
-Get all transaction records related to the address.
-Support filecoin node management.
+- Provide data query such as nonce value required for transaction messages.
+- Send signed messages and track transfer status.
+- Get all transaction records related to the address.
+- Support filecoin node management.
 
 
 ## Development Roadmap
-
 ### Milestone 1
 
-1. UI/UX Design: include mnemonic view ,transfer view, balance and transfer records view, etc.
-
+1. UI/UX Design: include mnemonic view ,transfer view, balance and transfer records view, etc.
 2. Solution Research and Design: Interface, Message Data Struct, Business Process
-
 3. Design Doc
 
+Resources Requirement:
 - 1 Arch, 1 PO
-
 - 2 weeks
 
 ### Milestone 2
 
-1. Implementation: npm js package which can provide  mnemonic, transfer message and sign function
-
+1. Implementation: npm js package which can provide  mnemonic, transfer message and sign function
 2. Documentation: Project Management Document, User Guide
 
+Resources Requirement:
 - 1 Dev, 0.5 PM
-
 - 1 weeks
 
 ### Milestone 3
 
 1. Implementation:A full function Browser Filecoin-wallet, include mnemonic view ,import and export private key, transfer view, balance and transfer records view.
-![mnemonic page](https://github.com/ipfs-force-community/devgrants/blob/wallet/rfp-proposals/filecoin_wallet/filecoin-wallet-img/mnemonic.jpeg)
-![wallet page](https://github.com/ipfs-force-community/devgrants/blob/wallet/rfp-proposals/filecoin_wallet/filecoin-wallet-img/wallet.jpeg)
-[transfer page](https://github.com/ipfs-force-community/devgrants/tree/wallet/rfp-proposals/filecoin_wallet/filecoin-wallet-img/transfer.jpeg)
+![mnemonic page](filecoin-wallet-img/mnemonic.jpeg)
+![wallet page](filecoin-wallet-img/wallet.jpeg)
+[transfer page](filecoin-wallet-img/transfer.jpeg)
 2. Documentation: Codebase, User Guide
 
+Resources Requirement:
 - 1 Dev, 0.5 PM
-
 - 2 weeks
 
 ### Milestone 4
-1. Implementation: A  wallet function tools library for Android and iOS to build mobile wallet.(mnemonic function, build transfer message function and sign)
-
+1. Implementation: A  wallet function tools library for Android and iOS to build mobile wallet.(mnemonic function, build transfer message function and sign)
 2. Documentation: Project Management Document, User Guide
 
-*   1 Dev, 1 PM
-
-*   2 weeks
+Resources Requirement:
+- 1 Dev, 1 PM
+- 2 weeks
 
 ## Total Budget Requested
 
@@ -103,17 +104,12 @@ Total Budget: $23,200.00
 
 ## Maintenance and Upgrade Plans
 
-1. Adjust Filecoin interface on demand
-
+1. Adjust Filecoin interface on demand
 2. Website Maintenance
-
-   - Bug Fixing on demand
-
-   - Maintenance including domain name, security certificate and 1-year website service operation
-
+   - Bug Fixing on demand
+   - Maintenance including domain name, security certificate and 1-year website service operation
 3. Upgrade Plan
-
-   - Quarterly upgrade version
+   - Quarterly upgrade version
 
 # Team
 
@@ -121,7 +117,7 @@ IPFS-Force, China Top Decentralized Storage Technology Company.
 
 ## Team Members
 
-- Architect                 Steven Li
+- Architect           Steven Li
 - Project Manager     Katrina Liu
 - Product Owner        Yu Da 
 - UX                 TBD
