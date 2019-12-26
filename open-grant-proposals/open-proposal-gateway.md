@@ -4,17 +4,17 @@
 
 **Proposal Category:** `core-dev`
 
-**Proposer:** [bloXroute](https://github.com/bloXroute-Labs/) & [IPFS-Force](https://github.com/ipfs-force-community) 
+**Proposer:**  [IPFS-Force](https://github.com/ipfs-force-community) & [bloXroute](https://github.com/bloXroute-Labs/)
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 # Project Description
 
-The goal of this project is to spead up Filecoin blocks and messages propagation via gateways which could be deployed in backbone network with block agnostic software for transparently and neutrality exchanging Filecoin network information. The gateway design is to leverage the current [IPLD](https://github.com/ipfs/go-ipld-cbor) & [libp2p](https://github.com/libp2p/go-libp2p-pubsub) & [IPFS](https://github.com/ipfs/go-ipfs-blockstore) solution, but also integrate the technology and lesson learned from bloXroute's Blockchain Distribution Network (BDN),to play a role as a high-throughput high-speed relay node for the network.
+The goal of this project is to spead up Filecoin blocks and messages propagation via gateways which could be deployed in backbone network with block agnostic software for transparently and neutrality exchanging Filecoin network information. The gateway design is to leverage the current [IPLD](https://github.com/ipfs/go-ipld-cbor) & [libp2p](https://github.com/libp2p/go-libp2p-pubsub) & [IPFS](https://github.com/ipfs/go-ipfs-blockstore) solution, but also integrate the technology and lesson learned from bloXroute's Blockchain Distribution Network (BDN), to play a role as a high-throughput high-speed relay node for the network.
 
-To achieve business & technology neutrality, This gateway will be open-sourced; and could be deployed in a normal linux system and operated/deployed by third party(or any entity) in a BDN. With the agility of IPFS software stack, the gateway could scale to support other blockchains to avoid locking in risk.
+To achieve business & technology neutrality, this gateway will be open-sourced; and could be deployed in a normal linux system and operated/deployed by third party (or any entity) in a BDN. With the agility of IPFS software stack, the gateway could scale to support other blockchains to avoid locking in risk.
 
-The gateway could run in a standalone way,also could be integrated with any BDN on demand,bloXroute BDN is an option.
+The gateway could run in a standalone way, also could be integrated with any BDN on demand, bloXroute BDN is an option.
 
 This project will be developed by a collaboration team of bloXroute and IPFS-Force.
 
@@ -32,7 +32,7 @@ IPFS-Force is an IPFS/Filecoin community focusing on IPFS ecosystem and Filecoin
 
 1. Filecoin nodes could sustain under different countries's complex network environment;
 2. Filecoin nodes will be able to propagate and hear blocks and transactions faster;
-3. Filecoin blockchain will be allowed to increase the block size and decrease block interval to increase TPS without facing fork problems(if they want);
+3. Filecoin blockchain will be allowed to increase the block size and decrease block interval to increase TPS without facing fork problems (if they want);
 4. Filecoin will be able to achieve the above without any changes to existing protocol and at low deployment cost.
 
 ## Deliverables
@@ -63,7 +63,7 @@ The work involves the following:
 ### Milestone 1
 
 * libp2p protocol and bloXroute p2p protocol analysis
-* Architecture design (joint team with bloXroute,filecoin and ipfsforce)
+* Architecture design (joint team with bloXroute, filecoin and ipfsforce)
 * Design Doc
 
 __Resources__ :
@@ -125,38 +125,32 @@ Maintenance provided by the team will include the following:
 1. Documentation updates as software evolves.
 
 # Team
-This is a collaboration project, to be developed by [bloXroute](https://github.com/bloXroute-Labs/) and [IPFS-Force](https://ipfser.org/)
+This is a collaboration project, to be developed by [IPFS-Force](https://ipfser.org/) and [bloXroute](https://github.com/bloXroute-Labs/)
 
 ## Team Members
 
-- Sponser: Eyal Markovich, Steven Li
-- Architect: Sergey Ilin(bloXroute),Steven Li(ipfsforce),?(filecoin)
+- Sponser: Steven Li, Eyal Markovich
+- Architect: Steven Li(ipfsforce), Sergey Ilin(bloXroute), ?(filecoin)
 - Project Manager: Katrina Liu
 - Product Owner: Taosheng Shi (Stone)
-- Developer: Sergey Ilin, Caesar Wang
+- Developer: Caesar Wang, Sergey Ilin
 - QA: Yunrui Duan
 
 ## Team Member LinkedIn Profiles
 
-- Eyal Markovich: https://www.linkedin.com/in/eyalmarkovich/
 - Steven Li: https://www.linkedin.com/in/xinlee/
-- Sergey Ilin: https://www.linkedin.com/in/sergeyilinn/
+- Eyal Markovich: https://www.linkedin.com/in/eyalmarkovich/
 - Katrina Liu: https://www.linkedin.com/in/katrina-liu-a16a84127
 - Taosheng Shi(Stone): https://www.linkedin.com/in/taoshengshi/ 
 - Caesar Wang: https://www.linkedin.com/in/麟-王-97a836149/   
+- Sergey Ilin: https://www.linkedin.com/in/sergeyilinn/
 
 ## Team Website
 
-- [bloXroute](https://bloxroute.com/)
 - [IPFS-Force](https://ipfser.org/)
+- [bloXroute](https://bloxroute.com/)
 
 ## Relevant Experience
-
-Example of gateways for Ethereum and Bitcoin:
-
-- GitHub: https://github.com/bloXroute-Labs/bxgateway
-- Docker Hub: https://hub.docker.com/r/bloxroute/bxgateway
-- PyPi: https://pypi.org/project/bloxroute-gateway/
 
 Filecoin relevant resource:
 - IPFS: https://ipfs.io/   
@@ -164,6 +158,13 @@ Filecoin relevant resource:
 - libp2p: https://libp2p.io/   
 - filecoin lotus: https://github.com/filecoin-project/lotus
 
+Example of gateways for Ethereum and Bitcoin:
+
+- GitHub: https://github.com/bloXroute-Labs/bxgateway
+- Docker Hub: https://hub.docker.com/r/bloxroute/bxgateway
+- PyPi: https://pypi.org/project/bloxroute-gateway/
+
 ## Team code repositories
 
+Filecoin lotus: https://github.com/filecoin-project/lotus
 Example of gateways for Ethereum and Bitcoin - [bloXroute Gateway repository](https://github.com/bloXroute-Labs/bxgateway)
