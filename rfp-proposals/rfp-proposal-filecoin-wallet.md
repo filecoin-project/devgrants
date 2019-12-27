@@ -48,7 +48,7 @@ Features:
 3. Design Doc
 
 Resources Requirement:
-- 1 Arch, 1 PO
+- 1 Arch, 0.5 PO
 - 2 weeks
 
 ### Milestone 2
@@ -57,7 +57,7 @@ Resources Requirement:
 2. Documentation: Project Management Document, User Guide
 
 Resources Requirement:
-- 1 Dev, 0.5 PM
+- 1 Dev, 1 PM
 - 1 weeks
 
 ### Milestone 3
@@ -71,7 +71,7 @@ Resources Requirement:
 </p>
 
 Resources Requirement:
-- 2 Dev, 0.5 PM
+- 1 Dev, 1 PM
 - 2 weeks
 
 
@@ -130,4 +130,5 @@ Our team constantly demonstrate the professionalism on the research of protocol 
 ## Team code repositories
 
 Steven Li:[https://github.com/steven004](https://github.com/steven004)
+
 Caesar Wang:[https://github.com/dtynn](https://github.com/dtynn)
