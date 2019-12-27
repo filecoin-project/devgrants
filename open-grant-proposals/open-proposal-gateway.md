@@ -16,7 +16,7 @@ To achieve business & technology neutrality, this gateway will be open-sourced; 
 
 The gateway could run in a standalone way, also could be integrated with any BDN on demand, bloXroute BDN is an option.
 
-This project will be developed by a collaboration team of bloXroute and IPFS-Force.
+This project will be developed by a collaboration team of IPFS-Force and bloXroute.
 
 bloXroute is a network-layer based blockchain scalability solution that allows blockchains to scale on-chain, *without protocol changes*. bloXroute solves the network scalability bottleneck by addressing the substantial time required for all nodes to synchronize when having many widely spread nodes and handling large volumes of TPS. Most importantly, bloXroute by design does this in a neutral way.
 
@@ -130,10 +130,10 @@ This is a collaboration project, to be developed by [IPFS-Force](https://ipfser.
 ## Team Members
 
 - Sponser: Steven Li, Eyal Markovich
-- Architect: Steven Li(ipfsforce), Sergey Ilin(bloXroute), ?(filecoin)
+- Architect: Steven Li (ipfsforce), Sergey Ilin (bloXroute), ?(filecoin)
 - Project Manager: Katrina Liu
 - Product Owner: Taosheng Shi (Stone)
-- Developer: Caesar Wang, Sergey Ilin
+- Developer: Caesar Wang, Karol Stolarski
 - QA: Yunrui Duan
 
 ## Team Member LinkedIn Profiles
@@ -144,6 +144,7 @@ This is a collaboration project, to be developed by [IPFS-Force](https://ipfser.
 - Taosheng Shi(Stone): https://www.linkedin.com/in/taoshengshi/ 
 - Caesar Wang: https://www.linkedin.com/in/麟-王-97a836149/   
 - Sergey Ilin: https://www.linkedin.com/in/sergeyilinn/
+- Karol Stolarski: https://www.linkedin.com/in/karol-stolarski/
 
 ## Team Website
 
