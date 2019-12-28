@@ -9,7 +9,7 @@ Consensus Visualization Tool
 **RFP Category:** 
 `app-dev`
 
-**Proposer:** `@thevantageproject`
+**Proposer:** `thevantageproject`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** 
 Yes
@@ -18,39 +18,124 @@ Yes
 
 # Project Description
 
-This proposal aims to deliver an open source blockchain consensus visualization tool that specifically demonstrates Filecoin’s Expected Consensus process.
+This proposal aims to deliver an open source blockchain consensus visualization tool that specifically demonstrates [Filecoin’s Expected Consensus process](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-consensus-visualization-tool.md#about-expected-consensus-ec) as well as visualizes bad forks occurring in the system. 
 
-Specific things we are going to work on:
-1) Provide an interactive visualization of Filecoin consensus viewable in web browsers
-2) Provide live information updates of the following:
-New messages
-Blocks
-Miners
-Tipsets
-Ancestors
-Forks
-3) Visualize the formation of Blocks
-4) Visualize the formation of Tipsets
-5) Depict miner related information
-6) Show the list of probable miners (according to their storage power)
+#### Outcomes to achieve: 
+The tool is aimed to: 
+1. educate newcomers about the novelty of Filecoin. 👶
+2. give powers users means to investigate the organic evolution in network activity.  🕵️‍♀️
 
-**Context:**
+## Deliverables
+
+Main deliverable: Provide an interactive visualization of Filecoin consensus viewable in web browser that achieves the [above mentioned outcomes](https://hackmd.io/9NyGrfzXRfGU-VTpjPaLqw?both#Outcomes-to-achieve). 
 
 
-Filecoin is a decentralized storage network that turns cloud storage into an algorithmic market. The market runs on a blockchain with a native protocol token (“Filecoin”) , which miners earn by providing storage to clients. Conversely, clients spend Filecoin hiring miners to store or distribute data.
 
-Filecoin uses the **Expected Consensus** protocol:
-
-Expected Consensus is based on the heaviest weighted chain which tracks the most total storage power.
-A miner’s odds of being elected to produce a block in Expected Consensus is proportional to their storage power in the network, or proven storage in active use. As blocks collect transactions and storage proofs are posted to the network, heavier chains track the most proven storage in the network.
-Total proven storage in use is how chains are weighted, and the network eventually converges around the heaviest chain.
-
-We aim to visualize what is happening in this process so that it becomes easier for a layman to understand it.
-
-## Deliverables + Mockups(WIP, will soon be updating with the figma prototypes as soon as we final the design)
+Specifics: 
 
 
-#### Messages Visualization:
+### 1. Visualization Specifics: 
+
+    1. Provide live information updates of the following:
+        1. New messages
+        2. Blocks
+        3. Miners
+        4. Tipsets
+        5. Ancestors
+        6. Forks
+
+    2. Visualize the formation of: 
+        1. Blocks
+        2. Tipsets. 
+        3. Forks. 
+
+    3. Show the list of probable miners (according to their storage power)
+
+### 2. Support User's Journey:
+
+Provides explainers for what is happening and a glossary of terms by providing users: 
+1. Website with an FAQ section. 
+2. Tutorials with demo usage. An [example](https://discourse.foam.space/t/introducing-foamviz-foam-developer-grants/1047/4?u=prastut) we have tried with visualization tools.  
+
+### 3. Reduce cognitive load for Filecoin community
+We will try our best to keep these metrics a priority + work with Filecoin core team to do what's best for the community: 
+
+1. A well-documented, human-readable codebase
+2. work with a Filecoin node API starting with the lotus API as recommended. 
+3. well-tested and usable by a large audience during Testnet and Mainnet
+
+## Development Roadmap
+
+| Milestone No. | Milestone Description | Funding | Estimated Timeframe |
+| --- | --- | --- | --- |
+| 1 | Finalize scope, a list of node API endpoints to be used, UI mockups + feedback rounds with the Filecoin DevGrants team, architectural design | TBD | 2-3 weeks |
+| 2 | Implementation interoperable with a Filecoin node and User tested | TBD | 4 weeks |
+| 3 | All project deliverables are completed and added to the [Filecoin Shipyard](https://github.com/filecoin-shipyard) (website, documentation, codebase) | TBD | 2 weeks |
+| 4 | Maintenance and Upgrades during Testnet and Mainnet | TBD | 2 weeks |
+
+
+Specifics details: 
+
+### Milestone 1: Finalize Scope. 
+We imagine an extensive collaborative exercise between FileCoin Dev Grants team and our team. 
+
+We will try to ensure that we ask researched questions and reduce cognitive load for your team. 
+
+Specifics: 
+
+1. Get feedback on the direction + [low fidelity mockups we have been able to create so far](https://hackmd.io/9NyGrfzXRfGU-VTpjPaLqw?both#Fork-Visualization). 
+2. Integrate feedback -> converted low fidelity prototypes into high fidelity design mockups in Figma which will be shared. 
+3. Again get feedback. 
+4. After closure on design, our team will continue our research in getting further clarity on where the data will come for to render the design. 
+
+People Involved: 
+1. 
+Timeline: 2-3 weeks. 
+
+### Milestone 2: 🏗 stage. 
+
+#### #buidl:
+1. Front-End: static components containing all the specs will be developed.
+2. Back-End: will be be completed up to spec in with completed endpoints in consume by the front-end team. 
+
+
+#### Integration:
+Both deliverables from the above stage will be integrated. 
+
+
+
+### Milestone 3: 🎁 stage.
+
+1. MVP deployed live and shared with the community. 
+2. Feedback excersise started around the MVP. 
+    * Here we will involve Filecoin Dev Grants Team to give us feedback + point us to people with whom we can schedule user feedback calls with. 
+    * These feedback calls will enable us to understand kinks in the user experience of the implementation as well as the level of clarity that would be required to write/record explainers and FAQ's . 
+
+
+### Milestone 4: 🧐 + 🛠 stage. 
+Q/A to ensure robustness.  
+
+
+
+## Pre-Proposal Stage: 
+
+We believe that the outcome of the first milestone is to gain clarity on scope and get Filecoin Dev Grants team and our team on the same page of what would be the tool look like. 
+
+What we have been able to do so far: 
+1. Created low fidelity mockups for some parts of the tool. 
+2. Started gaining awareness on the list of node API endpoints that will be used to fetch data for the tool. 
+
+### 1. Created Low Fidelity Mockups: 
+Note: We will soon be updating with the figma prototypes as soon as we finalize the design on our end. 
+
+
+##### Fork Visualization:
+* A simple list of the history of all the forks created(Height, Parent, Children, current weight) will be shown.
+
+![](https://i.imgur.com/ilvGFbb.jpg)
+![](https://i.imgur.com/2CU8G8Y.png)
+
+##### Messages Visualization:
 * Whenever a new message arrives, we drop it onto an existing heap of the pending pool of messages.
 * The set of messages that form the next block disappear and the remaining heap re-shapes itself, i.e. , remaining blocks fall to take up the empty space (We have the concept of **gravity** in mind !).
 * The newly created block is displayed on the side of the heap. It will be interactive, i.e. , its corresponding details would be shown when clicked.
@@ -60,7 +145,7 @@ We aim to visualize what is happening in this process so that it becomes easier 
 
 ![](https://i.imgur.com/IGbj6jz.jpg)
 
-#### Miner Visualization:
+##### Miner Visualization:
 * We will display the list of active miners with the most storage power along with their probability to mine next (Their SP / Total SP).
 * We will also display the probability of fork occurrence (Formula proposed in pic).
 * We can use circles to depict active miners in decreasing order of their storage powers. Greater the radius of a circle, larger that miner's storage power.
@@ -70,8 +155,8 @@ We aim to visualize what is happening in this process so that it becomes easier 
 ![](https://i.imgur.com/C6zY27a.jpg)
 
 
-#### Chain Visualization:
-* This page will show the filecoin chain.
+##### Chain Visualization:
+* This will show the filecoin chain.
 * By default, the main chain will be displayed.
 * We will add a **zoom slider** which will be used to display the forks created.
 * 100% zoom -> main chain
@@ -79,54 +164,44 @@ We aim to visualize what is happening in this process so that it becomes easier 
 * 0% zoom -> the complete set of forks (if possible)
 * We can also show the forks created by showing the fork links with a different colour.
 
-#### Tipset Visualization:
+##### Tipset Visualization:
 * We will show the history of the Tipsets created using a list.
 * We will also display the 3 latest tipsets with their complete details (height, parent, children, current chain weight).
 
-#### Fork Visualization:
-* A simple list of the history of all the forks created(Height, Parent, Children, current weight) will be shown.
-
-![](https://i.imgur.com/ilvGFbb.jpg)
-![](https://i.imgur.com/2CU8G8Y.png)
 
 
-### Show when natural and bad forks occur (e.g. >51% malicous attack)
+##### Show when natural and bad forks occur (e.g. >51% malicous attack)
 WIP
 
 
-Our implementation will:
+### 2. Node API endpoints Research
 
-- have a well-documented, human-readable codebase
-- work with a Filecoin node API (lotus* and/or go-filecoin, local or remote) and database or cache if needed to perform the intended workflow (* starting with the lotus API is recommended)
-- have tutorials with demo usage
-- possibly be in any mainstream language with a preference for ones that ensure easy long-term maintenance
-- be well-tested and usable by a large audience during Testnet and Mainnet
-
-#### We will also provide video tutorials explaining different components around the visualization.
-(similar to as we did on FOAMVIz : https://discourse.foam.space/t/introducing-foamviz-foam-developer-grants/1047/4?u=prastut)
-
----
+We are documenting our endpoint research on this [google doc.](https://docs.google.com/document/d/1zaUlGd-gceihqrr1AQ_dEZaTbnTGR6LkAzZICRhIUpo/edit?usp=sharing)
 
 
+<br><br>
 
-#### Node API endpoints:
-https://docs.google.com/document/d/1zaUlGd-gceihqrr1AQ_dEZaTbnTGR6LkAzZICRhIUpo/edit?usp=sharing
+## Maintenance and Upgrade Plans
+* Maintaining the system actively for the next 3 months. That means bug fixes if any with the specs mentioned in the current proposal.
+* For 1 year: support if the system goes down.
+
+
 
 
 ## Total Budget Requested
 
-Total Budget: $25,100 - $29,800
+Total Budget: $15,500 - $19,000
  
  | Role | Rate/Hr | HC | Man-Hour | Man-Week | Price |
  |-----|---------|----|-----------|-------------|------|
- | PM | $60 | 1 | 60-80| 2| $3,600 - $4,800|
  | Design | $50 | 1| 30-40 | 1 | $1,500 - $2,000 |
- | Front-Dev | $50 | 1 | 100 - 120 | 3 | $5,000 - $6,000 |
- | Back-Dev| $50 | 2 | 300 - 340 | 4 | $15,000 - $17,000 |
-## Maintenance and Upgrade Plans
-* Maintaining the system actively for the next 6 months. That means bug fixes if any with the specs mentioned in the current proposal.
-* For 1 year: support if the system goes down.
+ | Front-Dev | $50 | 1 | 80 - 100 | 3 | $4,000 - $5,000 |
+ | Back-Dev| $50 | 2 | 200 - 300 | 4 | $10,000 - $12,000 |
 
+
+Since this will be our first contribution to the Filecoin Community, in a gesture of good faith project management costs would be free of charge.
+
+Also, after research we noticed that currently there is no working filecoin api client which can be used by developers to build applications on Filecoin. Let us know if this is something community needs help with. 
 
 # Team
 The Vantage Project
@@ -147,19 +222,26 @@ You can checkout all the completed and ongoing projects and project repositories
 
 ## Team Members
 
-* Prastut - Currently a partner @ The Vantage Project. Comes from a UX, product management & full stack background.
+About our team: 
 
-    * Co-founder, Designer, Frontend Developer for [Centify](https://centify.surge.sh/) (2018). Built the entire frontend data visualization stack. 
-    * Data Visualization Research Associate at Information Design Lab, IIT Bombay (2017). [Work documentation](https://prastut.github.io/dataviz ).  
- [Github](https://github.com/prastut), [CV](https://drive.google.com/file/d/15_oS6XtO_DRlITjG6WyTAEavaiSnBsdL/view).
 
-* Aviral - Backend development and Data engineering background. Research Associate(SDE) and Masters (Thesis) Student at Boston University. [Website](http://aviralsrivastava.com/), [Github](https://github.com/kebab-mai-haddi), [CV](http://aviralsrivastava.com/assets/documents/Aviral_Srivastava_CV.pdf).
+* Back-Dev: Sahil [Github](https://github.com/sahilnanda1995)
+* PM- Prastut [Github](https://github.com/prastut)
+* Back-Dev: [Aviral](http://aviralsrivastava.com/) [Github](https://github.com/kebab-mai-haddi)
+* Design: Saumya [Github](https://github.com/saumyakaran)
+* Front-Dev: Bhaskar [Github](https://github.com/bhaskarSingh) 
 
-* Bhaskar - Google Certified Mobile Web Specialist. [Github](https://github.com/bhaskarSingh), [Linkedin](https://www.linkedin.com/in/bhaskar-singh-55a535b9/)
+## Team Member LinkedIn Profiles
 
-* Sahil - Problem Solver @ The Vantage Project. [Github](https://github.com/sahilnanda1995), [Linkedin](https://www.linkedin.com/in/sahil-nanda-8b1b88143/)
+* Sahil: https://www.linkedin.com/in/sahil-nanda-8b1b88143/
+* Prastut: https://www.linkedin.com/in/prastut/
+* Aviral: https://www.linkedin.com/in/sriavi/
+* Saumya: https://www.linkedin.com/in/skrn/
+* Bhaskar: https://www.linkedin.com/in/bhaskar-singh-55a535b9/
 
-# Additional Information
+
+
+## Additional Information
 
 #### How do we report on project’s progress?
 Filecoin Riot/Slack channel. 
