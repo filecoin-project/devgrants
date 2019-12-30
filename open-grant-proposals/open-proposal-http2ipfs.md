@@ -8,15 +8,14 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Proposer:** `voidao`
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 # Project Description
 
-Please describe exactly what you are planning to build. Make sure to include the following:
-- Start with the need or problem you are trying to solve with this project.
-- Describe why your solution is going to adequately solve this problem.
-
-This section should be 2-3 paragraphs long.
+*Support the transition from HTTP to IPFS:*
+- During the transition(HTTP2IPFS), there's tremendous need to transport(transform maybe) existing content from the HTTP-based web to the IPFS-based web.
+- Standing on the giants of all kinds of great tools such as [youtube-dl](https://github.com/ytdl-org/youtube-dl), and further integrating them properly, the solution works.
+- Do appreciated the solid foundation by IPFS and FileCoin!  <3
 
 ## Value
 
