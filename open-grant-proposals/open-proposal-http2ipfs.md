@@ -1,14 +1,14 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
 
-# Open Grant Proposal: `Project Title`
+# Open Grant Proposal: `HTTP2IPFS`
 
-**Name of Project:**
+**Name of Project:**  HTTP2IPFS
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**Proposal Category:** `devtools-libraries`
 
-**Proposer:** `replace with your GitHub username`
+**Proposer:** `voidao`
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
 # Project Description
 
