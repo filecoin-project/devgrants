@@ -10,21 +10,26 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
-# Project Description
+## Project Description
 
-*Support the transition from HTTP to IPFS:*
+***Support the transition from HTTP to IPFS:***
+
 - During the transition(HTTP2IPFS), there's tremendous need to transport(transform maybe) existing content from the HTTP-based web to the IPFS-based web.
+
 - Standing on the giants of all kinds of great tools such as [youtube-dl](https://github.com/ytdl-org/youtube-dl), and further integrating them properly, the solution works.
-- Do appreciated the solid foundation by IPFS and FileCoin!  <3
+
+- Do appreciated the solid foundation by IPFS and Filecoin!  <3
 
 ## Value
 
-Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
 - What are the benefits to getting this right?
-- What are the risks if you don't get it right?
-- What are the risks that will make executing on this project difficult?
+*A:It largely improves the applicability/accessibility of IPFS/Filecoin via better serving people with valuable content.*
 
-This section should be 1-3 paragraphs long.
+- What are the risks if you don't get it right?
+*A:The deployment process of IPFS/Filecoin probably would not reach a reasonable speed as it ought to be.*
+
+- What are the risks that will make executing on this project difficult?
+*A:Talents for Engineering, Funding, Incentives, ...*
 
 ## Deliverables
 
