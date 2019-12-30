@@ -24,15 +24,15 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 - What are the benefits to getting this right?
 
-> *A:It largely improves the applicability/accessibility of IPFS/Filecoin via better serving people with valuable content.*
+> *It largely improves the applicability/accessibility of IPFS/Filecoin via better serving people with valuable content.*
 
 - What are the risks if you don't get it right?
 
-> *A:The deployment process of IPFS/Filecoin probably would not reach a reasonable speed as it ought to be.*
+> *The deployment process of IPFS/Filecoin probably would not reach a reasonable speed as it ought to be.*
 
 - What are the risks that will make executing on this project difficult?
 
-> *A:Talents for Engineering, Funding, Incentives, ...*
+> *Talents for Engineering, Funding, Incentives, ...*
 
 ## Deliverables
 
