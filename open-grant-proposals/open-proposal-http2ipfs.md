@@ -55,6 +55,8 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 ## Team Members
 
 - [voidao](https://github.com/voidao)
+- [xbkaishui](https://github.com/xbkaishui)
+- [formalin](https://github.com/formalin14)
 - [wqfeng](https://github.com/wqfeng)
 - [ewangchong](https://github.com/ewangchong)
 - ...
@@ -62,7 +64,9 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 ## Team Member LinkedIn Profiles
 
 - [Henry Ma](https://www.linkedin.com/in/haofeng-ma)
-- [Qunfeng Wang]()
+- [Bing Xing](https://www.linkedin.com/in/bing-xing-40545263/)
+- [Achilles Xu](https://www.linkedin.com/in/achilles-xu-5748374b/)
+- [Qunfeng Wang](https://www.linkedin.com/in/wang-qunfeng-bb33014)
 - [Bob Wang](https://www.linkedin.com/in/iamchongwang)
 - ...
 
