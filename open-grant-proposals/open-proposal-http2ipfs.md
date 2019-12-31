@@ -78,7 +78,15 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+Here are some links for our relevant experience:
+
+- [IPFS and Distributed World in General](https://mhf.edening.net/2019/02/12/IPFS@DW.html)
+- [IBIPFS: In-browser IPFS](https://github.com/ibipfs)
+- [WAY(Working As Yourself): Facilitating Flexible Working](https://github.com/Edening/WAY)
+
+**Our ultimate vision is the *iMemex*:**
+![]()
+***Which means we have strong driving force and solid foundation from end-user scenarios.***
 
 ## Team code repositories
 
@@ -86,4 +94,5 @@ Please describe (in words) your team's relevant experience, and why you think yo
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
+
+***I would like to suggest that we meet in person for a deep conversation. Appreciate with <3  ：）***
