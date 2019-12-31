@@ -55,15 +55,15 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 ## Team Members
 
 - [voidao](https://github.com/voidao)
-- Team Member 2
-- Team Member 3
+- [wqfeng](https://github.com/wqfeng)
+- [ewangchong](https://github.com/ewangchong)
 - ...
 
 ## Team Member LinkedIn Profiles
 
 - [Henry Ma](https://www.linkedin.com/in/haofeng-ma)
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
+- [Qunfeng Wang]()
+- [Bob Wang](https://www.linkedin.com/in/iamchongwang)
 - ...
 
 ## Team Website
