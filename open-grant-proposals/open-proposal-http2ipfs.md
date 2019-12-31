@@ -36,21 +36,15 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 ## Deliverables
 
-Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.
+*I would like to suggest that we meet in person for a deep conversation. Thanks!*
 
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
-
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the specification you outlined in the Deliverables.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
+*I would like to suggest that we meet in person for a deep conversation. Thanks!*
 
 ## Total Budget Requested
 
-Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds.
+*I would like to suggest that we meet in person for a deep conversation. Thanks!*
 
 ## Maintenance and Upgrade Plans
 
