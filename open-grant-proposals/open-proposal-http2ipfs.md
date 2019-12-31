@@ -1,8 +1,8 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
 
-# Open Grant Proposal: `HTTP2IPFS`
+# Open Grant Proposal: `C2D-aka-HTTP2IPFS`
 
-**Name of Project:**  HTTP2IPFS
+**Name of Project:**  C2D-aka-HTTP2IPFS
 
 **Proposal Category:** `devtools-libraries`
 
@@ -12,7 +12,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 ## Project Description
 
-***Support the transition from HTTP to IPFS:***
+***Facilitating the web to transcend from centralized HTTP to distributed IPFS:***
 
 - During the transition(HTTP2IPFS), there's tremendous need to transport(transform maybe) existing content from the HTTP-based web to the IPFS-based web.
 
