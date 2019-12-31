@@ -60,21 +60,21 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 
 ## Team Members
 
-- Team Member 1
+- [voidao](https://github.com/voidao)
 - Team Member 2
 - Team Member 3
 - ...
 
 ## Team Member LinkedIn Profiles
 
-- Team Member 1 LinkedIn profile
+- [Henry Ma](https://www.linkedin.com/in/haofeng-ma)
 - Team Member 2 LinkedIn profile
 - Team Member 3 LinkedIn profile
 - ...
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+[Henry Ma's Website](https://mhf.edening.net/)
 
 ## Relevant Experience
 
@@ -82,7 +82,7 @@ Please describe (in words) your team's relevant experience, and why you think yo
 
 ## Team code repositories
 
-Please provide links to your team's prior code repos for similar or related projects.
+[C2D-aka-HTTP2IPFS](https://github.com/C2D-aka-HTTP2IPFS)
 
 # Additional Information
 
