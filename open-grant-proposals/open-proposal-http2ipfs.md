@@ -85,7 +85,8 @@ Here are some links for our relevant experience:
 - [WAY(Working As Yourself): Facilitating Flexible Working](https://github.com/Edening/WAY)
 
 **Our ultimate vision is the *iMemex*:**
-![]()
+![iMemex.png](https://github.com/C2D-aka-HTTP2IPFS/devgrants/blob/master/iMemex.png)
+
 ***Which means we have strong driving force and solid foundation from end-user scenarios.***
 
 ## Team code repositories
