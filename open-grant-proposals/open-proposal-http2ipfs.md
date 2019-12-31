@@ -18,7 +18,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 - Standing on the giants of all kinds of great tools such as [youtube-dl](https://github.com/ytdl-org/youtube-dl), and further integrating them properly, the solution works.
 
-- Do appreciated the solid foundation by IPFS and Filecoin!  <3
+- Do appreciate the solid foundation by IPFS and Filecoin!  <3
 
 ## Value
 
