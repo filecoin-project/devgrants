@@ -8,9 +8,9 @@
 
 # Event Details
 
-**Name of Event:**: `Filecoin Mining Lecture`
+**Name of Event:** `Filecoin Mining Lecture`
 
-**Event City:**: Shanghai, Hangzhou, Chengdu (3 events in 3 cities)
+**Event City:** Shanghai, Hangzhou, Chengdu (3 events in 3 cities)
 
 **Event Venue:** 
 1. A-2802 Caohejing International Incubation Center, 418 Guiping Road, Xuhui District, Shanghai
@@ -86,6 +86,8 @@ Total budget：$1500
 - Tea break food: $150
 - Gift: $150
 - Travel expenses: $600
+
+Some Filecoin T-shirts and stickers if available. 
 
 
 # Organizing Team
