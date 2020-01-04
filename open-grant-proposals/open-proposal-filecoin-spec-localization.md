@@ -10,18 +10,18 @@
 
 # Project Description
 
-Our team feels that it is necessary to create a Chinese version of the spec. In addition, we also plan to generate 
+Our team feels that it is necessary to create a Chinese version of the Filecoin Spec. In addition, we also plan to generate 
 multilingual versions of `filecoin-project-specs`, including but not limited to Chinese and English.
 ## Value
 
 We find that Chinese miners and researchers account for the majority of the filecoin market, and most of them cannot 
 fully understand the `Filecoin Specification` due to their inadequate English proficiency. Chinese developers are often distressed by some 
 simple theoretical knowledge, which is shown in slack and other communities. We always see Chinese users asking 
-questions that can be easily found in the spec. 
+questions that can be easily found in the Spec. 
 
 ## Deliverables
 
-- Adding a language toggle button to the spec page
+- Adding a language toggle button to the Spec page
 - Adding language packs for the source code of `filecoin-project-specs`
 
 ## Budget
