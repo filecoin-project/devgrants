@@ -1,5 +1,7 @@
 # Filecoin Devgrants
 
+> **The Wave 2 proposal deadline has been extended to January 15, 2020.**
+
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
 </p>
