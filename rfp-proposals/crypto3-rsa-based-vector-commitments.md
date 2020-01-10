@@ -1,6 +1,6 @@
 # RFP Proposal: `RSA-based Vector Commitments`
 
-**Name of Project:** =nil; Foundation's Crypto3 RSA Vector Commitments
+**Name of Project:** =nil; Crypto3's Crypto3 RSA Vector Commitments
 
 **Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-rsa-vector-commitments.md.
 
@@ -12,8 +12,8 @@
 
 # Project Description
 
-=nil; Foundation's cryptography team intends to implement RSA vector commitments
-as a part of its' cryptography suite called "[crypto3](https://crypto3.nil.foundation)".
+=nil; Crypto3 team intends to implement RSA vector commitments as a part of 
+=nil; Foundation's cryptography suite called "[crypto3](https://crypto3.nil.foundation)".
 Still in heavy development, lacks of documentation somewhere, but moves forward
 rapidly. Better [look](https://github.com/nilfoundation/vdf)
 [at](https://github.com/nilfoundation/hash) the 
@@ -326,12 +326,14 @@ https://crypto3.nil.foundation or https://nil.foundation
   Most of them were done with C++. Ex-[Steemit](https://steemit.com)(less) developer,
   ex-[Golos](https://golos.io)(more) CTO. Founded 
   [=nil; Foundation](https://nil.foundation), which intention is to develop and
-  standartize database and cryptography-related specifications. Designed and 
-  developed =nil; Foundation's crypto3 modern cryptographiy suite, partially 
-  intended to be included in [Boost](https://boost.org) and partially to provide
-  architecturally clean and type-safe modern cryptography suite (mostly for
-  internal foundation's usage, but some modules were made opensouce) with no 
-  (or very small amount of) heap allocations.
+  standartize database and cryptography-related specifications. Founded [=nil;
+  Crypto3](https://crypto3.nil.foundation) cryptography team currently incubated
+  within =nil; Foundation. Designed and developed =nil; Foundation's crypto3 
+  modern cryptographiy suite, partially intended to be included in 
+  [Boost](https://boost.org), to become a foundation for C++ STL cryptography
+  proposal and partially to provide architecturally clean and type-safe modern 
+  cryptography suite (mostly for internal Foundation's usage, but some modules 
+  were made opensouce) with no (or very small amount of) heap allocations.
 * Alexey Moskvin. 5+ years experience in developing security-related C++ software. 
   Assembly superoptimizations fan. Developing =nil; Foundation's crypto3 for last
   two years.
