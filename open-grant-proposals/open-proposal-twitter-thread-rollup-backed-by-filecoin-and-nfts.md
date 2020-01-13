@@ -20,7 +20,7 @@
     - Creating a source of revenue to maintain the tweeter bot and its Filecoin storage costs - we could possible charge $1-2 for 
     creating the NFT as well as enabling treading on OpenSea with a secondary sales commission of 2% which will then go back
      into maintain the Filecoin storage
-    - Popularising Filecoin in general on NFT platforms - often MFTs use IPFS but in theory should be migrating to a 
+    - Popularising Filecoin in general on NFT platforms - often NFTs use IPFS but in theory should be migrating to a 
     Filecoin solution with a proper incentivisation layer - this would be a good candidate to test this out and popularise its use
 
 ## Value
