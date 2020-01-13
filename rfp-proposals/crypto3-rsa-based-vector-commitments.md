@@ -1,6 +1,6 @@
 # RFP Proposal: `RSA-based Vector Commitments`
 
-**Name of Project:** =nil; Crypto3's Crypto3 RSA Vector Commitments
+**Name of Project:** =nil; Crypto3 RSA Vector Commitments
 
 **Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-rsa-vector-commitments.md.
 
