@@ -1,8 +1,6 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+# Open Grant Proposal: `Twitter Thread Rollup backed by Filecoin and NFTs`
 
-# Open Grant Proposal: `Filecoin Twitter Thread Rollup backed by NFTs`
-
-**Name of Project:** FilecoinRollup
+**Name of Project:** NFTShapshot
 
 **Proposal Category:** `app-dev`, `docs`
 
@@ -13,14 +11,17 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 # Project Description
 
 - Twitter thread rollup and timestamp bots are not a new thing, however what they currently dont do it utilise distributed,
- decentralised storage, such as the Filecoin network. and then allow the creator to turn them into a tradeable NFT 
+ decentralised storage, such as the Filecoin network and then allow the creator to turn them into a tradeable NFTs. 
 
 - Existing bots/solution relay on centralised storage and are limited in the what can be done with the thread whats its snapshot'd.
 
 - The creation of a NFT off the back of the timestamped, Filecoin stored rollup will enable bring two new things to the party:
     - Facilitating trading of the thread - popular, viral or controversial threads may gain in value 
-    - Creating a source of revenue to maintain the tweeter bot and its Filecoin storage costs - we could possible charge $1-2 for creating the NFT as well as enabling treading on OpenSea with a secondary sales commission of 2% which will then go back into maintain the Filecoin storage
-    - Popularising Filecoin in general on NFT platforms - often MFTs use IPFS but in theory should be migrating to a Filecoin solution with a proper incentivisation layer - this would be a good candidate to test this out and popularise its use
+    - Creating a source of revenue to maintain the tweeter bot and its Filecoin storage costs - we could possible charge $1-2 for 
+    creating the NFT as well as enabling treading on OpenSea with a secondary sales commission of 2% which will then go back
+     into maintain the Filecoin storage
+    - Popularising Filecoin in general on NFT platforms - often MFTs use IPFS but in theory should be migrating to a 
+    Filecoin solution with a proper incentivisation layer - this would be a good candidate to test this out and popularise its use
 
 ## Value
 
