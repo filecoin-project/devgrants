@@ -10,18 +10,15 @@
 
 # Project Description
 
-- Twitter thread rollup and timestamp bots are not a new thing, however what they currently dont do it utilise distributed,
- decentralised storage, such as the Filecoin network and then allow the creator to turn them into a tradeable NFTs. 
+- Twitter thread rollup and timestamp bots are not a new thing, however what they currently do not utilise distributed, decentralised storage, such as the Filecoin network and then allow the creator to turn them into a tradeable NFTs (non-fungible tokens). 
 
-- Existing bots/solution relay on centralised storage and are limited in the what can be done with the thread whats its snapshot'd.
+- Existing bots/solutions traditionally rely on centralised (hidden) storage and therefore limited in the what can be done with the thread that is snapshot'd.
 
-- The creation of a NFT off the back of the timestamped, Filecoin stored rollup will enable bring two new things to the party:
+- The creation of a NFT derived from the timestamped twitter thread combined with a Filecoin stored rollup will bring two new things to the party:
     - Facilitating trading of the thread - popular, viral or controversial threads may gain in value 
-    - Creating a source of revenue to maintain the tweeter bot and its Filecoin storage costs - we could possible charge $1-2 for 
-    creating the NFT as well as enabling treading on OpenSea with a secondary sales commission of 2% which will then go back
-     into maintain the Filecoin storage
+    - Creating a source of revenue to maintain the tweeter bot and its Filecoin storage costs - we could possible charge $1-2 for creating the NFT as well as enabling trading on OpenSea with a secondary sales commission of 2% which will then go back into maintain the Filecoin storage
     - Popularising Filecoin in general on NFT platforms - often NFTs use IPFS but in theory should be migrating to a 
-    Filecoin solution with a proper incentivisation layer - this would be a good candidate to test this out and popularise its use
+    Filecoin solution with a proper incentivisation layer - this would be a perfect candidate to test this out theory and popularise its usage
 
 ## Value
 
@@ -29,7 +26,7 @@
 
 * An example of how to use Filecoin in an NFT (popular future usecase) and an open source Github demo project
 * Promote the use of Filecoin in the twitter sphere in general
-* Provide a simple and related tool which can be used by many and demonstrates Filecoin
+* Provide a simple toolset that can be forked and used by many and demonstrates Filecoin
 
 - What are the risks if you don't get it right?
 
@@ -37,12 +34,9 @@
 
 - What are the risks that will make executing on this project difficult?
 
-I believe the technologies is not the hard part at least for ourselves, we have good experience in IPFS, building webapps and NFTs however
-there may be a problem in the incentivisation model in that supporting the file storage may become costly overtime. One option to avoid this is snapshot the
-thread and store centrally, only pushing to filecoin when an NFT is created and the small fee is paid. 
+I believe the technologies is not the hard part at least for ourselves, we have good experience in IPFS, building webapps and NFTs however there may be a problem in the incentivisation model in that supporting the file storage may become costly overtime. One option to avoid this is to snapshot the thread and store centrally, only pushing to filecoin when an NFT is created and the small fee is paid. 
  
-Filecoin is still emerging and the APIs may change in the short/medium term - keeping up to date may become probalatic but i think its a fairly simply setup
-so this shouldn't be seen a huge risk in my mind.
+Filecoin is still emerging and the APIs may change in the short/medium term - keeping up to date may become probalatic but after review we think it is a fairly simply setup so this shouldn't be seen a huge risk right now.
 
 ## Deliverables
 
@@ -97,7 +91,7 @@ The deliverable for the project will be as follows:
 
 ## Maintenance and Upgrade Plans
 
-Long term this can be a community driven initiative and in theory wont need huge amounts of support/upgrades. 
+Long term this can be a community driven initiative and in theory will not need huge amounts of support/upgrades. 
 
 Once running it should in theory also provide enough fees to support the Filecoin storage.
 
