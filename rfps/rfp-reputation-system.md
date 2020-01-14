@@ -1,3 +1,5 @@
+> This Wave 1 RFP is open to additional proposals.
+
 # RFP: `Reputation System`
 
 **Name of Project:** Reputation System
