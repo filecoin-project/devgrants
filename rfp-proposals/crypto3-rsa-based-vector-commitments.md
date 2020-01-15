@@ -343,7 +343,8 @@ https://crypto3.nil.foundation or https://nil.foundation
 
 ## Team code repositories
 
-https://github.com/nilfoundation/
+=nil; Foundation's Github organisation: https://github.com/nilfoundation
+=nil; Crypto3's Github organisation: https://github.com/nilcrypto3
 
 # Additional Information
 
