@@ -212,7 +212,7 @@ People Involved:
 * Lead Developer.
 * Filecoin Researcher. 
 
-Milestone Completion ETA: 1st May, 2020 
+Milestone Completion ETA: 21st May, 2020 
 Duration: 2 weeks. 
 Funding Required: $1,500
 
