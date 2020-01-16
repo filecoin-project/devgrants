@@ -302,7 +302,7 @@ Mikhail Komarov: nemo@nil.foundation
 
 ## Team Members
 
-- Mikhail Komarov. Team Leader.
+- Mikhail Komarov (https://github.com/nemothenoone). Team Leader.
 - Alexey Moskvin. Developer 1.
 - Nikita Kaskov. Developer 2. 
 
