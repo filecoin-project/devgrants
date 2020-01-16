@@ -209,7 +209,7 @@ Mikhail Komarov: nemo@nil.foundation
 
 ## Team Members
 
-- Mikhail Komarov. Team Leader.
+- Mikhail Komarov (https://github.com/nemothenoone). Team Leader.
 - Ilya Shirobokov. Researcher.
 - Alisa Cherniaeva. Researcher.
 
