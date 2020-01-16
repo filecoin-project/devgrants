@@ -21,8 +21,8 @@ As the number of storage miners increases on the network, knowing the quality an
 Understanding the quality of any given miner can be especially important for storage clients, who may have different requirements about the types of miners with whom they might wish to store their data.
 
 To solve the above problem, we envision a platform that lets people make informed decisions for themselves based on high-quality, free, public information. The platform should:
-1. standardize miner's subjective reputation and quality into objective variables that can be analysed. The standards will be evolving based on: 
-    * storage clients needs and requirements. 
+1. standardize miner's subjective reputation and quality into objective variables that can be analyzed. The standards will be evolving based on: 
+    * storage client's needs and requirements. 
     * market forces. 
 2. incentivizes radical transparency from miners. 
 
@@ -59,7 +59,7 @@ The users will be able to query the following for a particular miner:
     * Lifetime data retrieved
 * Metrics that we have thought of: 
     * Collateral: 
-        * Reason: Over collateralization may signal more skin in the game fr. 
+        * Reason: Over collateralization may signal more skin in the game from the miner. 
     * Storage Price (in FIL/byte/block): 
         * % deviation of storage price from: 
             * mean of all storage prices on the network. 
@@ -67,11 +67,11 @@ The users will be able to query the following for a particular miner:
         * Reason: Some miners may be overpricing/underpricing their storage with respect to the market. 
     * % of miner storage being used.  
         * Formula = used storage/total storage. 
-        * Reason: Miners hovering around > 80% consistently may signal more trust-worthyness. 
+        * Reason: Miners consistently hovering around > 80% may signal more trustworthiness. 
     * Uptime:
-        * Reason: This is a more generic metric to track then failed deals. A miner may be up consistently but not getting any deals do to other reasons. 
+        * Reason: This is a more generic metric to track then failed deals. A miner may be up consistently but not getting any deals due to other reasons. 
     * Miner Proactiveness: 
-        * Delta of time since filecoin published a new version and the minder updated itself. 
+        * Delta of time since Filecoin published an upgrade for node software and the miner updated itself. 
         * Reason: 
             * Smaller the delta, the more proactive the miner. 
             * Miners who don't update are risky. 
@@ -114,7 +114,7 @@ Displaying  list of miners currently providing space for allocation with the fol
         *  %  of slashed and dropped contracts
         * etc
 
-* Comparison with storage miners with same score:
+* Comparison with storage miners with the same score:
     * Storage price
     * Collateral
     * Est. uptime
@@ -128,7 +128,7 @@ Displaying  list of miners currently providing space for allocation with the fol
         * Choose check event:
         * Comment/feedback
         * Submit
-        * Post if event is verified.
+        * Post if the event is verified.
 
 
 ![](https://i.imgur.com/zDz75Bd.png)
@@ -167,11 +167,11 @@ Funding Required: $10,000
 
 1. Setting up the sync progress from Filecoin Node to DB. 
 2. Writing API's + code for users to: 
-    * query the miner metrics above.
+    * query miner metrics above.
     * submit claims: 
         * that get verified via data that is contextual to the claim. 
         * if verification succeeds: claims would get stored. 
-        * if verification fails: claim context will get stored and relevant response will be sent back. 
+        * if verification fails: claim context will get stored, and relevant response will be sent back. 
 
 
 People Involved: 
@@ -190,7 +190,7 @@ Funding Required: $20,000
 via building a simple web app that has the following screens: 
 1. Home page: 
     * display tabular list of miners with current reputation score. 
-    * able to view, search, filter miners based on reputation score. 
+    * be able to view, search, filter miners based on reputation score. 
 3. Specific Miner Page: querying miner details from the service. 
 
 
@@ -233,7 +233,7 @@ Funding Required: $1,500
 ## Maintenance and Upgrade Plans
 
 Maintenance: 
-* After project completion, maintaining and iterating on user feedback on the system actively for the T+3 months. Bug fixes if any. 
+* After project completion, maintaining and iterating on user feedback on the system actively for the next 3 months. Bug fixes, if any. 
 * For 1 year: support if the system goes down.
 
 Upgrade Plans:
@@ -269,7 +269,7 @@ Email: sahil@thevantageproject.com
 
 ## Relevant Experience
 
-Our team is currently deep diving into understanding incentives for participation for core actors involved in upcoming projects that use PoS. Filecoin is one the biggest projects to launch in this year and would provide a lot of exciting opportunities to understand user adoption and the challenges they face while operating in such a novel paradigm. 
+Our team is currently deep diving into understanding incentives for participation for core actors involved in upcoming projects that use PoS. Filecoin is one of the most ambitious projects to launch in this year and would provide a lot of exciting opportunities to understand user adoption and the challenges they face while operating in such a novel paradigm. 
 
 We see this proposal as an opportunity to observe the network evolution more closely by building tools that we ourselves would use + helping the community at large. 
 
@@ -280,7 +280,7 @@ Brief info about the team members:
     * [GitHub](https://github.com/kebab-mai-haddi), [Website](http://aviralsrivastava.com/).
 
 * Filecoin Researcher: Sahil  
-   * Budding Filecoin Researcher + Go Developer. 
+   * Budding Filecoin protocol researcher + Go Developer. 
    * Built [PolkaViz](https://polkavizproject.surge.sh/). Before that built algorithmic trading strategies for a crypto hedge fund.
    * [GitHub](https://github.com/sahilnanda1995)
 
