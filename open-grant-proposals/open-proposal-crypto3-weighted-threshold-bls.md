@@ -211,13 +211,13 @@ Mikhail Komarov: nemo@nil.foundation
 
 - Mikhail Komarov. Team Leader.
 - Ilya Shirobokov. Researcher.
-- Alisa Cherniaeva. Researcher.
+- Alisa Chernyaeva. Researcher.
 
 ## Team Member LinkedIn Profiles
 
 - Mikhail Komarov: https://www.linkedin.com/in/mikhail-komarov-7084a9139/
 - Ilya Shirobokov: https://www.linkedin.com/in/ilya-shirobokov-963466162/
-- Alisa Cherniaeva: https://www.linkedin.com/in/alisa-chernyaeva-83b8b4184/
+- Alisa Chernyaeva: https://www.linkedin.com/in/alisa-chernyaeva-83b8b4184/
 
 ## Team Website
 
