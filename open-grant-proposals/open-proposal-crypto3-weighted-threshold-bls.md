@@ -210,14 +210,14 @@ Mikhail Komarov: nemo@nil.foundation
 ## Team Members
 
 - Mikhail Komarov (https://github.com/nemothenoone). Team Leader.
-- Ilya Shirobokov. Researcher.
-- Alisa Chernyaeva. Researcher.
+- Ilia Shirobokov. Researcher.
+- Alisa Cherniaeva. Researcher.
 
 ## Team Member LinkedIn Profiles
 
 - Mikhail Komarov: https://www.linkedin.com/in/mikhail-komarov-7084a9139/
-- Ilya Shirobokov: https://www.linkedin.com/in/ilya-shirobokov-963466162/
-- Alisa Chernyaeva: https://www.linkedin.com/in/alisa-chernyaeva-83b8b4184/
+- Ilia Shirobokov: https://www.linkedin.com/in/ilia-shirobokov-963466162/
+- Alisa Cherniaeva: https://www.linkedin.com/in/alisa-cherniaeva-83b8b4184/
 
 ## Team Website
 
