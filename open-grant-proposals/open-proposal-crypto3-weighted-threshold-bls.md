@@ -228,11 +228,11 @@ https://crypto3.nil.foundation
 * Mikhail Komarov. MS in Mathematics at Moscow State University. 
   Developing and designing cryptography schemes and implementations from 2013. 
   Founded [=nil; Foundation](https://nil.foundation), which intention 
-  is to develop and standartize database and cryptography-related 
+  is to promote and standartize database and cryptography-related 
   specifications. Founded [=nil; Crypto3](https://crypto3.nil.foundation) 
   cryptography team currently incubated within =nil; Foundation. Designed and 
   developed =nil; Foundation's crypto3 
-  modern cryptographiy suite, partially intended to be included in 
+  modern cryptography suite, partially intended to be included in 
   [Boost](https://boost.org), to become a foundation for C++ STL cryptography
   proposal and partially to provide architecturally clean and type-safe modern 
   cryptography suite (mostly for internal Foundation's usage, but some modules 
