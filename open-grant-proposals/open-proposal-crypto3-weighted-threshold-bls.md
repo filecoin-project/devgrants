@@ -239,7 +239,7 @@ https://crypto3.nil.foundation
   were made opensouce) with no (or very small amount of) heap allocations.
   Designed several (for internal Foundation's usage at the moment, 
   unfortunately, but the time to share will come soon) threshold signature 
-  (e.g. ecdsa) and encryption schemes. 
+  (e.g. faster ecdsa threshold modification) and encryption schemes. 
 * Ilya Shirobokov. MS in Applied Mathematics, specialization in applied
   cryptography. Performs designing and analysis of cryptography schemes for the
   last 3 years in teams related to =nil; Foundation (e.g. corestar.io). Joined
