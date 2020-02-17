@@ -1,6 +1,6 @@
 # Filecoin Devgrants
 
-> **The Wave 2 proposal deadline has been extended to January 15, 2020.**
+> **The Wave 3 grant proposal deadline will be March 31, 2020.**
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
@@ -67,7 +67,9 @@ Concretely, here are the deadlines for waves 1 and 2:
 | Wave No. | Wave Opens | Wave Deadline |
 | --- | --- | --- |
 | 1 | August 19, 2019 | September 30, 2019, 11:59PM PT |
-| 2 | October 1, 2019 | December 31, 2019, 11:59PM PT |
+| 2 | October 1, 2019 | January 15, 2020, 11:59PM PT |
+| 3 | January 16, 2020 | March 31, 2020, 11:59PM PT |
+| 4 | April 1, 2020 | June 30, 2020, 11:59PM PT |
 
 After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within 2 weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
 
