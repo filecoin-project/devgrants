@@ -333,7 +333,10 @@ https://crypto3.nil.foundation or https://nil.foundation
   [Boost](https://boost.org), to become a foundation for C++ STL cryptography
   proposal and partially to provide architecturally clean and type-safe modern 
   cryptography suite (mostly for internal Foundation's usage, but some modules 
-  were made opensouce) with no (or very small amount of) heap allocations.
+  were made opensouce) with no (or very small amount of) heap allocations. Won
+  Chia Network Proof-Of-Space competition with =nil; Crypto3 block ciphers and
+  hashes implementation. Took 2-nd place at Chia Network VDF competition with
+  =nil; Crypto3 VDF library.
 * Alexey Moskvin. 5+ years experience in developing security-related C++ software. 
   Assembly superoptimizations fan. Developing =nil; Foundation's crypto3 for last
   two years.
