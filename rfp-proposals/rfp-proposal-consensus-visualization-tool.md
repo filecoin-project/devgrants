@@ -247,7 +247,7 @@ Email: sahil@thevantageproject.com
 
 ## Team Website
 
-[The Vantage Project](https://www.thevantageproject.com/buidl/)
+[BUIDL Labs](https://buidllabs.io/)
 
 
 ## Relevant Experience
@@ -293,11 +293,11 @@ Brief info about the team members:
 
 Similar projects Github repo links: 
 
-1. [PolkaAnalytics](https://github.com/thevantageproject/PolkaAnalytics)
-2. [PolkaViz](https://github.com/thevantageproject/polkaviz)
-3. [FOAMViz](https://github.com/thevantageproject/foamviz)
+1. [PolkaAnalytics](https://github.com/buidl-labs/PolkaAnalytics)
+2. [PolkaViz](https://github.com/buidl-labs/polkaviz)
+3. [FOAMViz](https://github.com/buidl-labs/foamviz)
 
-You can check out our[ Github profile](https://github.com/thevantageproject/) as well. 
+You can check out our[ Github profile](https://github.com/buidl-labs) as well. 
 
 # Additional Information
 
