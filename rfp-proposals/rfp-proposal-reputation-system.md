@@ -264,7 +264,7 @@ Email: sahil@thevantageproject.com
 
 ## Team Website
 
-[The Vantage Project](https://www.thevantageproject.com/buidl/)
+[BUIDL Labs](https://buidllabs.io/)
 
 
 ## Relevant Experience
@@ -304,10 +304,10 @@ Brief info about the team members:
 
 Similar projects Github repo links: 
 
-1. [PolkaAnalytics](https://github.com/thevantageproject/PolkaAnalytics)
-2. [ZCash Service Status Dashboard](https://github.com/thevantageproject/zcash_service_status_dashboard)
+1. [PolkaAnalytics](https://github.com/buidl-labs/PolkaAnalytics)
+2. [Zcash Service Status Dashboard](https://github.com/buidl-labs/zcash_service_status_dashboard)
 
-You can check out our[ Github profile](https://github.com/thevantageproject/) as well. 
+You can check out our[ Github profile](https://github.com/buidl-labs) as well. 
 
 # Additional Information
 [Research Document](https://docs.google.com/document/d/119CDu2hU5ArRvdt2rDoqKQAuuux1_37Z4c_lb8OXNak/edit?usp=sharing)
