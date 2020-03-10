@@ -10,8 +10,6 @@
 
 # Project Description
 
-Please describe exactly what you are planning to build. Make sure to include the following:
-
 The Starling Framework for Data Integrity has three modules: capture, storage and verification. With this grant we propose to complete the third module, verify, to allow researchers to validate and publish data with end-to-end features:
 
 - *Link*
