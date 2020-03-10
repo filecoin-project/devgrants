@@ -118,18 +118,19 @@ Please describe (in words) your team's relevant experience, and why you think yo
 
 Hala Systems completed a similar proof of concept with Consensys in September 2018 of a data visualizer and DTL publishing mechanism. See a [detailed post](https://media.consensys.net/holding-war-criminals-accountable-with-the-ethereum-blockchain-6b12471a7cdd) on the ConsenSys Social Impact blog.
 
-**Background**
+### Background
+
 Hala Systems saves lives in conflict zones. Hala created an early warning system for airstrikes against civilians in Syria that reaches 2.3 million civilians, has saved hundreds of lives, and has prevented thousands of injuries. Sentry Syria ("Al-Rased"), as the system is called, was developed with and for the Nobel-nominated White Helmets and provides 7-10 minutes of warning on average. Sentry reduces casualties from airstrikes by an estimated 20%-30%. Furthermore, with over 180,000 documented aircraft observations, Hala has the most comprehensive picture of the air war over Western Syria that exists outside of a classified environment.
 
 Hala’s founders are a former US diplomat who specialized in stabilization in Syria and a former McKinsey consultant specializing in tech-driven social enterprise – each of whom has more than 15 years of experience. The team includes four PhDs, and members hail from institutions such as Stanford, Harvard, Yale, Princeton, Oxford, Cambridge, Imperial, Wharton, Amazon, Airbnb, Deloitte, MIT-Lincoln Laboratory, the UN, DFID, Oxfam, and the World Bank. Hala’s staff operate from Turkey, Portugal, the UK, Germany, the US, and Canada. Teams include: Software Engineering, Hardware Engineering, Product Management, Data Science & AI, Field Operations, and Finance & Business Operations. Team members are 60% women and people of color; 50% from developing countries; 40% technical staff (e.g., engineers, data scientists, product development); 30% refugee/asylee; and 7% LGBTQ.
 
 Sentry has five components:
 
-1. Sensing: The system is built on three pillars for gathering information: i) trained human observers who use a secure, Hala-produced mobile app to report aircraft observations; ii) news and social media gathered via machine-learning (ML) algorithms; and iii) remote sensors that detect the sounds of aircraft.
-2. Preserving: Data is hashed to provide an immutable record for war crimes investigators.
-3. Validating: We validate data by vetting and training observers, monitoring their performance, and cross referencing information from independent sources.
-4. Analyzing: We use ML algorithms to determine relevant data points and predict threatened areas in real-time.
-5. Sharing: Within seconds, Sentry sends warnings to civilians via air raid sirens, visual warning systems in medical facilities, social media (Telegram, Facebook Messenger bot), radio, and audible messages for the visually impaired. Hala works with 47 members of the White Helmets to ensure warnings reach women, children, hospitals, internally displaced persons camps, besieged communities, and first responders.
+1. *Sensing:* The system is built on three pillars for gathering information: i) trained human observers who use a secure, Hala-produced mobile app to report aircraft observations; ii) news and social media gathered via machine-learning (ML) algorithms; and iii) remote sensors that detect the sounds of aircraft.
+2. *Preserving:* Data is hashed to provide an immutable record for war crimes investigators.
+3. *Validating:* We validate data by vetting and training observers, monitoring their performance, and cross referencing information from independent sources.
+4. *Analyzing:* We use ML algorithms to determine relevant data points and predict threatened areas in real-time.
+5. *Sharing:* Within seconds, Sentry sends warnings to civilians via air raid sirens, visual warning systems in medical facilities, social media (Telegram, Facebook Messenger bot), radio, and audible messages for the visually impaired. Hala works with 47 members of the White Helmets to ensure warnings reach women, children, hospitals, internally displaced persons camps, besieged communities, and first responders.
 
 Hala designed and built IoT devices to connect over 100 of the White Helmets’ air raid sirens to the internet, enabling automatic activation. Moreover, Hala provided the White Helmets with IoT devices to activate sirens manually and remotely. This allows them to deactivate the sirens to control for warning fatigue, and to activate the sirens during ground attacks (rockets, mortars). Hundreds of Hala-built IoT devices also connect 60 medical facilities to Sentry via warning lights, often activated in buildings located deep underground. We’re now installing visual warning systems in 60 additional medical facilities.
 
