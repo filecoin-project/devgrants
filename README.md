@@ -1,6 +1,6 @@
 # Filecoin Devgrants
 
-> **The Wave 3 grant proposal deadline will be March 31, 2020.**
+> **The Wave 3 grant proposal deadline has been extended to April 15, 2020 at 23:59 pm PDT.**
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
