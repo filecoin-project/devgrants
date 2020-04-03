@@ -40,19 +40,16 @@ Test plans can optionally also include ways to benchmark your operation with res
 
 - Benchmarking tools
   - (open sourcing any custom tools you use would be greatly appreciated and may make your proposal more competitive)
-<br>
 - Hardware configurations
 	- CPU, GPU, RAM, SSD and HDDs, Switches if any
 	- Performance-based BIOS changes if any
 	- Sample metrics: 
       - performance and usage over time
       - any cooling requirements and failure rates
-<br>
 - Networking topology, bandwidth and throughput metrics
 	- Description of the network topology
 	- libp2p metrics, any relays, etc.
 	- Number of peers seen over time
-<br>
 - Filecoin software configurations
   - Sector builder and sizes under test (we are especially interested in 32GB sectors)
   - Sector loss monitoring
@@ -70,7 +67,6 @@ Test plans can optionally also include ways to benchmark your operation with res
   - Queuing strategies if any
   - Caching strategies if any
   - Any software modifications made or additional logging tools
-<br>
 - Supporting software configurations 
 	- Storage layer management (we are especially interested in this)
   - e.g. RAIDs, filesystems, any software-defined storage, NAS, SAN 
@@ -81,10 +77,8 @@ Test plans can optionally also include ways to benchmark your operation with res
 	- networking configurations and tools
    - (e.g. DDOS sentry, multi-node to multiaddr reverse proxy, etc.)
   - Any additional tools used
-<br>
 - Any other relevant metrics that may be useful
 	- e.g. data center, location, comparisons to any other networks you may run
-<br>
 - Finally, we are also interested in financial models such as:
   - cost of mining, broken down by capital expenditure, power costs, datacenter costs, etc
   - profitability assuming fixed FIL price
@@ -99,7 +93,7 @@ Test plans can optionally also include ways to benchmark your operation with res
 
 The goal of this grant is to incentivize sharing testing knowledge and test results to benefit the mining community and understanding how the protocol works at scale. We will keep any proprietary or personal information confidential but will aim to share general knowledge and results with the wider community.
 
-We are not sure how many miners will apply and have a capped budget so will decide how to dispense funds as fairly as we can once all applications have been submitted.
+We are not sure how many miners will apply and have a capped budget for this grant so will decide how to dispense funds fairly once all proposals have been submitted and reviewed.
 
 Multiple teams may be accepted based on the quality of your proposal and verification of your storage capacity. Please also include the geographic location of your operation in the proposal.
 
@@ -135,7 +129,6 @@ Deliverables can be emailed to devgrants@filecoin.org or published in a Github r
 
 If a milestone is not satisfactorily met, we may not continue to fund your team for this project.
 
-----
 
 **Questions about this RFP?**
 
