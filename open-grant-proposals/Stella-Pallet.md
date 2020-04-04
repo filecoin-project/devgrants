@@ -2,9 +2,9 @@
 
 **Name of the Project**: Stella Pallet
 
-**RFP Category**: app-dev, devtools-libraries, technical-design
+**RFP Category**: `app-dev`, `devtools-libraries`, `technical-design`
 
-**Proposer:**: @yangwao
+**Proposer:**: `yangwao`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
@@ -70,68 +70,68 @@ Well-documented, human-readable codebase
 
 ### Milestone 1 - Project Initialisation and technical design
 
-Team
+### Team
 
 2 Engineers & 1 Product Manager 
 
-Work
+### Work
 
-Engineering
+**Engineering**
 
 - Project initialisation and setting up presence in digital space.
-- Research Storage market deals in deep and be aware of possibilities.
+- Research Storage market deals in deep and be aware of future possibilities.
 - Research on recent trends with [developing Custom Pallet](https://substrate.dev/docs/en/tutorials/build-a-dapp/pallet)
 - Learn best practices from [Substrate recipes cookbook](https://substrate.dev/recipes/)
-- Basic reputation model research and development
+- Basic reputation model research and development for data quality.
 
-Product Management & Research
+**Product Management & Research**
 
 - Creating detailed flowchart of pallet communication
 - Communication across research teams between Substrate and Filecoin for best approaches
 - Diagrams as blueprints for visualisation and building
 - Engineering guidance
 
-Time
+### Time
 
 4 weeks
 
 ### Milestone 2 - Implementing technical design
 
-Team
+### Team
 
 3 Engineers & 1 Product Manager
 
-Work
+### Work
 
-Engineering
+**Engineering**
 
 - Implementation of proof of connecting with Storage markets interaction
-- Create a simple credit based system
-- Creating basic smart contract within [!ink](https://substrate.dev/docs/en/development/contracts/ink#__docusaurus) as default example.
+- Create a simple credit based system on Substrate side
+- Creating basic smart contract within [!ink](https://substrate.dev/docs/en/development/contracts/ink#__docusaurus) as default example for sealing deals.
 - Implementation of node roles (Store, Fetch, Inspector)
-- Implementation of basic reputation system layer (Honest nodes)
+- Implementation of basic reputation system layer for data quality (Honest nodes)
 - Creating UI for interaction with default extrinsics to KodaDot
 - Docker containers for setup and deployment scripts
 
-Product Management
+**Product Management**
 
 - Communication across research teams between Substrate and Filecoin for best approaches
 - Engineering guidance
 - Write down lessons learned during development for future iterations
 
-Time 
+### Time 
 
 6 weeks
 
 ### Milestone 3  - Smoketests, Testing & Benchmarks
 
-Team
+### Team
 
 2 Engineers & 1 Product Manager
 
-Work
+### Work
 
-Engineering
+**Engineering**
 
 - One full week of smoketests
 - One full week of sanity tests
@@ -139,23 +139,28 @@ Engineering
 - Docker container and deployment scripts for easier use for developers
 - Fix found bugs and iterate for first wide-usable alpha pallet version
 
-Product Management
+**Product Management**
 
 - Putting documentation together
 - We will record a screencast that explains how a user can spin up one of those Substrate nodes with Stella Pallet
 - Write tutorial with explanation on design
 
-Time
+### Time
 
 4 weeks
 
 ## Total Budget Requested
 
-The requested budget is 45000USD. M1 15000, M2 16000, M3 14000
+The requested budget is 45000 USD. 
+* Milestone 1: 15000 USD 
+* Milestone 2: 16000 USD 
+* Milestone 3: 14000 USD
 
-The grant will partially fund the development costs and fully cover technical design.
+The grant will partially fund the development costs, fully cover technical design and research for basic reputation model.
 
 Note that the whole project management everyday costs are free of charge due to the good faith of our team.
+
+We are open to partially take FIL.
 
 ## Maintenance and Upgrade Plans
 
@@ -205,7 +210,10 @@ Matej and Arseny met at [EthCapetown in winning Dtok team](https://devpost.com/s
 
 ![stella_draft](https://github.com/starmesh/stella/raw/master/stella_v0.1.png)
 
-Regarding Milestone 2, we are thinking to [embed DEX](https://github.com/alexxuyang/substrate-dex) for exchanging Asset ↔ FIL, not sure right in time of grant application, we will evaluate along the way.
+Regarding Milestone 2, we are thinking to [embed DEX](https://github.com/alexxuyang/substrate-dex) for exchanging chain native Asset ↔ FIL, not sure right in time of grant application, we will evaluate along the way.
+Regarding chunking, we are aware of limit 256M per file and no-native encryption. This might involve during development. Depends if other teams will delivery something usable in our horizon.
+
+We are open to discuss further questions as this proposal doesn't answer all possible questions.
 
 [What is Pallet?](https://substrate.dev/docs/en/development/module/#what-is-a-pallet)
 
