@@ -9,11 +9,6 @@ As Filecoin gets ready for mainnet launch in a [few months](https://filecoin.io/
 
 Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
 
-See our [Proposal Guidelines](#proposal-guidelines) below about how to apply.
-
-*Have a question about any of these RFPs? Email devgrants@filecoin.org*
-
-
 ## RFP Ideas
 
 - High Priority
@@ -40,7 +35,12 @@ See our [Proposal Guidelines](#proposal-guidelines) below about how to apply.
   - [Expert use of large data archives](#expert-use-of-large-data-archives)
 
 
-We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. See the [Open Proposal template](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) for more info.
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea.
+
+See our [Proposal Guidelines](#proposal-guidelines) below about how to apply.
+
+*Have a question about any of these RFPs? Email devgrants@filecoin.org*
+
 
 &nbsp;
 
@@ -89,17 +89,19 @@ Also see [Filecoin community resources](https://github.com/filecoin-project/docs
 
 **Project Description**
 
-A website and API service that can list all CIDs along with their current status in the latest state tree. The page could also support queries by CID or miner. One option would be to build 1 long table that shows each miner x sectors they are storing x state as a colored indicator:
+A website and API service that can list all CIDs along with their current status in the latest state tree.
+
+The page could also support queries by CID or miner. One option would be to build 1 long table that shows each miner x sectors they are storing x state as a colored indicator:
 
 green - good
 grey - capacity
 red - failing
 
 Benefits:
-This site and API could be used as an oracle of storage status that anyone can run alongside a full node.
-For retrieval miners, this indexes from which storage miners they can retrieve requested CIDs.
-For storage miners, this indexes redundant copies being stored with other storage miners, in case they need to retrieve data cheaply due to data corruption or loss.
-Also see this [Slack discussion](https://filecoinproject.slack.com/archives/CEHHJNJS3/p1585159620012300).
+- This site and API could be used as an oracle of storage status that anyone can run alongside a full node.
+- For retrieval miners, this indexes from which storage miners they can retrieve requested CIDs.
+- For storage miners, this indexes redundant copies being stored with other storage miners, in case they need to retrieve data cheaply due to data corruption or loss.
+- Also see this [Slack discussion](https://filecoinproject.slack.com/archives/CEHHJNJS3/p1585159620012300).
 
 &nbsp;
 
@@ -166,7 +168,7 @@ To learn more see https://filecoin-project.github.io/specs/#discovery.
 
 A browser extension that allows users to archive websites to IPFS and backup to Filecoin. This extension could also provide a Filecoin wallet so that users can pay for archival and as a way to keep track of what they have saved. 
 
-In the future this could be expanded to ways to collaborate on and share archived bookmarks in online communities or as bookmarking services (e.g. http://pinboard.in/, Pinterest, etc.)
+In the future this could be expanded to ways to collaborate on and share archived bookmarks in online communities or as bookmarking services (e.g. [Pinboard](https://pinboard.in), Pinterest, etc.)
 
 A Twitter bot such as the former [Link Archiver](https://twitter.com/LinkArchiver) could automatically archive websites from tweeted links.
 
@@ -230,7 +232,7 @@ End-to-end proof-of-concept of a white glove full service that extracts large vo
 
 In scientific and archival data communities, it is often more efficient to physically ship datasets via hard drives than send it over the Internet. [AWS Snowball](https://aws.amazon.com/snowball/) is an example service. In Filecoin offline deals are possible, where drives are shipped to miners via prior arrangement in an appropriate format and imported upon physical receipt as a new storage deal.
 
-One option is that a Shopify-like storefront for data on drives could be made to make it easy for interested storage miners to find datasets and clients that need hosting. Miners could initially pay logistics costs to ship (e.g. using a service like (Shippo](https://goshippo.com/)) so they can earn rewards later on the Filecoin network.
+One option is that a Shopify-like storefront for data on drives could be made to make it easy for interested storage miners to find datasets and clients that need hosting. Miners could initially pay logistics costs to ship (e.g. using a service like [Shippo](https://goshippo.com/)) so they can earn rewards later on the Filecoin network.
 
 Proposals for this project will have 2 phases:
 
@@ -343,6 +345,7 @@ We generally fund projects that can be built in a 2-3 month time frame and evalu
 
 Note that all proposals must be open sourced via MIT and Apache2 licenses.
 
+
 **Proposal Requirements**
 
 Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, a good amount of technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code and compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones.
@@ -358,6 +361,9 @@ Proposals should include the following sections:
 4. Team
    - Roles and Experience
        - Teams with a history of high-quality open source code repos and live applications and products are preferred.
+
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md)
+
 
 &nbsp;
 
