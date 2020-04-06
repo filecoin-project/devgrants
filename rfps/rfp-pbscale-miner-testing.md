@@ -27,6 +27,9 @@ We are seeking proposals for designing, implementing and running tests of mining
 
 We are especially interested in measuring the cost and performance of sealing per gigabyte-hour, so proposals that help us understand that metric are encouraged. We also invite additional proposals for more optimal configurations and other useful test plans.
 
+<sub>We are only seeking test plan _proposals_ for April 15th. Please do not purchase hardware at this time as there are upcoming changes to the proofs (PoSt and Actors) in progress before the final draft is ready. Also this proposal is unrelated to testnet phase 2.</sub>
+
+
 #### Application Requirements 
 
 1. Verification of your current capacity and throughput in the testnet storage power table (e.g. a signed message using the method described in [lotus PR #1292](https://github.com/filecoin-project/lotus/pull/1292))
