@@ -27,7 +27,7 @@ We are seeking proposals for designing, implementing and running tests of mining
 
 We are especially interested in measuring the cost and performance of sealing per gigabyte-hour, so proposals that help us understand that metric are encouraged. We also invite additional proposals for more optimal configurations and other useful test plans.
 
-<sub>We are only seeking test plan _proposals_ for April 15th, **not** verification of 5 PB capacity. Please do not purchase hardware at this time as there are upcoming changes to the proofs (PoSt and Actors) in progress before the final draft is ready. Also this proposal is unrelated to testnet phase 2.</sub>
+<sub>We are only seeking test plan _proposals_ for April 15th along with verification of any current capacity in the latest testnet storage power table, **not** verification of 5 PB capacity. Please do not purchase hardware at this time as there are upcoming changes to the proofs (PoSt and Actors) in progress before the final draft is ready. Also this proposal is unrelated to testnet phase 2.</sub>
 
 
 #### Application Requirements 
