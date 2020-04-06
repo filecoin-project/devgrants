@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/filecoin-project/devgrants/blob/master/img/triangles.png" width="80px">
+</p>
+
+
 # New RFP Ideas for Wave 3
 
 As Filecoin gets ready for mainnet launch in a [few months](https://filecoin.io/blog/roadmap-update-february-2020/) ([gantt chart](https://app.instagantt.com/shared/s/1152992274307505/latest)), we are seeking proposals for the following RFPs for Wave 3 of the Dev Grant program.
@@ -34,9 +39,17 @@ See our [Proposal Guidelines](#proposal-guidelines) below about how to apply.
   - [VM research - Improving state tries](#vm-research---improving-state-tries)
   - [Expert use of large data archives](#expert-use-of-large-data-archives)
 
+
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. See the [Open Proposal template](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) for more info.
+
+&nbsp;
+
 ------
 
+
 ## *High priority RFP ideas*
+
+&nbsp;
 
 ### Storage client application with erasure coding and basic PGP
 
@@ -56,17 +69,21 @@ A storage client application with an easy-to-understand interface and nice UX th
 
 Your proposal should provide examples of applications and user interfaces your team has built and links to their code repositories.
 
+&nbsp;
+
 ### Simple Storage webapps
 
 **Project Description**
 
 Single page apps that demonstrate using Filecoin to store and retrieve files. Example workflow: drag + drop a file, pay to store it, retrieve it. Show miner info, CIDs.
+
 One version could eli5 (explain-it-like-I'm-5) to new users as a tutorial or tour.
-Your proposal should provide examples of applications and interfaces your team has built and links to their code repositories.
 
-Helpful Resources: 
-[Filecoin community resources](https://github.com/filecoin-project/docs/wiki)
+Your proposal should provide examples of applications and interfaces your team has built and links to their code repos.
 
+Also see [Filecoin community resources](https://github.com/filecoin-project/docs/wiki) for an initial list of Filecoin developer tools.
+
+&nbsp;
 
 ### Filecoin CID Checker and Storage Oracle
 
@@ -84,6 +101,7 @@ For retrieval miners, this indexes from which storage miners they can retrieve r
 For storage miners, this indexes redundant copies being stored with other storage miners, in case they need to retrieve data cheaply due to data corruption or loss.
 Also see this [Slack discussion](https://filecoinproject.slack.com/archives/CEHHJNJS3/p1585159620012300).
 
+&nbsp;
 
 ### Filecoin Chain State Explorer
 
@@ -93,12 +111,14 @@ An interactive visual tool to dive into the Filecoin state trie would help proto
 
 Also see the RFP for Diagram the Filecoin blockchain
 
-Existing tools: 
-The lotus node implementation of Filecoin has a Postgres database tool called chainwatch on top of which a visual chain explorer has been built.
-Several block explorers for Filecoin (filscan.io, filscout.io, filplorer.com) have been developed
-Filecoin’s state trie is unique but this Ethereum state trie diagram provides an example of what may be involved
+Existing tools:
+- The lotus node implementation of Filecoin has a Postgres database tool called chainwatch on top of which a visual chain explorer has been built.
+- Several block explorers for Filecoin (filscan.io, filscout.io, filplorer.com) have been developed
+- Filecoin’s state trie is unique but this [Ethereum state trie diagram](https://i.stack.imgur.com/s6yKz.png) provides an example of what may be involved
 
 Preferred applicants should be able to work independently and learn how the Filecoin state trie is structured using the [Filecoin Specification](https://filecoin-project.github.io/specs/) and the various Filecoin node implementations.
+
+&nbsp;
 
 ### Resumable Data Uploads with GraphSync
 
@@ -110,18 +130,23 @@ GraphSync is a protocol for synchronizing IPLD graphs among peers. (For more inf
 
 Preferred applicants should have a solid understanding of underlying IPFS data structures and should invest time in learning about GraphySync and how Graphsync currently works in Filecoin.
 
+&nbsp;
+
 -------
 
-## Additional RFP Ideas
+## *Additional RFP Ideas*
+
+&nbsp;
 
 ### Diagram the Filecoin Blockchain
 
 **Project Description**
 
-Diagrams of the Filecoin blockchain at the level of detail and visual quality of Lee Thomas’ [diagram of the Ethereum Yellow paper](https://i.stack.imgur.com/afWDt.jpg) and [state trie](https://i.stack.imgur.com/s6yKz.png) [[Source](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)]
+Diagrams of the Filecoin blockchain at the level of detail and visual quality of Lee Thomas’ [diagram of the Ethereum Yellow paper](https://i.stack.imgur.com/afWDt.jpg) and [state trie](https://i.stack.imgur.com/s6yKz.png) [[Source](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)].
+
 Preferred applicants should be able to work independently and learn how the Filecoin blockchain is structured using the [Filecoin Specification](https://filecoin-project.github.io/specs/) and the various Filecoin node implementations.
 
-
+&nbsp;
 
 ### Storage and Retrieval Market Order Books
 
@@ -130,7 +155,9 @@ Preferred applicants should be able to work independently and learn how the File
 Although storage deals are on chain, storage market asks in which miners create price offers for their storage are off chain in Filecoin. Order books could aggregate storage and retrieval asks as a convenience to storage clients seeking to make deals and improve global awareness of pricing. 
 
 Order books may be decentralized protocols or single-operator services.
-To learn more see https://filecoin-project.github.io/specs/#discovery 
+To learn more see https://filecoin-project.github.io/specs/#discovery.
+
+&nbsp;
 
 
 ### Web archiving browser extension or Twitter bot
@@ -145,6 +172,7 @@ A Twitter bot such as the former [Link Archiver](https://twitter.com/LinkArchive
 
 This project would need to explore the required infrastructure for these services.
 
+&nbsp;
 
 ### SDKs in various mainstream programming languages
 
@@ -162,6 +190,7 @@ Proposals that will also provide useful sample applications built with the SDK a
 
 Applicants should have open source examples of SDKs and APIs they have created that are very well documented, easy to understand and well-used by developers.
 
+&nbsp;
 
 ### S3 (Glacier) API for Filecoin
 
@@ -173,6 +202,7 @@ Proposals should include an initial analysis of the most common and logical API 
 
 Applicants should demonstrate prior experience using the S3 (Glacier) API in an application and have open source examples of SDKs or APIs they have created that are very well documented, easy to understand and used by other developers as well as understanding of IPFS data structures.
 
+&nbsp;
 
 ### Proxy re-encryption library and service
 
@@ -190,6 +220,7 @@ Use cases:
 - Groups and orgs sharing access
 - Advanced storage clients
 
+&nbsp;
 
 ### FLOPy AWS Snowball-like hard drive service
 
@@ -211,6 +242,7 @@ A team with UX researchers + data specialists + developers could explore a workf
 
 We are especially interested in collaborating with University student groups and University archival groups and scientific labs with large datasets that need backup. 
 
+&nbsp;
 
 ### Ganache-like UI or improved tooling for running a FIlecoin Devnet
 
@@ -218,6 +250,7 @@ We are especially interested in collaborating with University student groups and
 
 So that developers new to Filecoin can easily run a local Filecoin devnet for prototyping and learn what's important to know about the Filecoin network when building dapps. e.g. https://www.trufflesuite.com/ganache
 
+&nbsp;
 
 ### GraphQL API for lotus-chainwatch
 
@@ -227,9 +260,20 @@ Allows dapp developers to use a GraphQL API interface to explore Filecoin chain 
 
 The Filecoin lotus client offers a Postgres database chain data import tool called lotus chainwatch. This database schema could be improved and a GraphQL API could be added to this.
 
-Optionally subgraphs could also be created for specific dapps and deals like [TheGraph](https://thegraph.com/explorer/).
+Optionally subgraphs could also be created for specific dapps and deals like [TheGraph](https://thegraph.com/explorer/) or related dapp smart-contract and transaction monitoring tools such as [VulcanizeDB](https://github.com/vulcanize/vulcanizedb) and [Quickblocks](https://quickblocks.io/docs/introduction.html#architecture).
 
-Related dapp smart-contract and transaction monitoring tools in addition to the [TheGraph](https://thegraph.com/explorer/) include [VulcanizeDB](https://github.com/vulcanize/vulcanizedb) and [Quickblocks](https://quickblocks.io/docs/introduction.html#architecture).
+&nbsp;
+
+
+### Expert Postgres tuning of lotus-chainwatch
+
+**Project Description**
+
+We are interested in tuning of the Postgres chain database that the Filecoin lotus client offers called lotus chainwatch to improve its efficiency, flexibility and speed.
+
+Preferred aplicants should have experience tuning blockchain databases and understand the various use cases for how these databases may be used.
+
+&nbsp;
 
 ### Storage Workflow User Research
 
@@ -241,15 +285,19 @@ Deliverables should produce well-written UX briefs including user journey maps s
 
 Applicants should demonstrate knowledge of user research best practices and confirm collaboration from the use case partner.
 
+&nbsp;
+
 ### Cross chain integrations
 
 **Project Description**
 
-User-defined smart contracts will not be available in Filecoin at mainnet launch but are on the Filecoin roadmap. We are generally interested in proposals for cross chain integrations that can make Filecoin programmatically usable from other popular blockchains. 
+User-defined smart contracts will not be available in Filecoin at mainnet launch but are on the Filecoin roadmap. We are generally interested in proposals for cross chain integrations that can make Filecoin programmatically usable from other popular blockchains.
 
 To be considered, proposals should provide as much detail as possible about what type of integration is possible and reasonable to build in the near-term on the Filecoin side.
 
 Applicants should have a good understanding of protocol-level integrations and be willing to do some early exploration of how the Filecoin protocol is designed.
+
+&nbsp;
 
 ### VM research - verifiable subsets of WASM-able languages
 
@@ -260,20 +308,28 @@ Explore what subset of a WASMable language can be formally verified to help with
 User-defined smart contracts in Filecoin are a roadmap item for post-mainnet.
  
 
+&nbsp;
+
 ### VM research - Improving state tries
 
 **Project Description**
 
 Improving execution of VMs on chain with space-saving enhancements to state tries.
+
 A number of space-saving enhancements to state tries have been proposed in the blockchain research community. We are interested in research proposals that could lead to a viable VM space savings.
 
+&nbsp;
 
 ### Expert use of large data archives
 
 **Project Description**
 
-We invite data analysts and experts from different domains (public health, GIS, etc.) to produce tutorials and visualizations that demonstrate how to work with large data archives that can be stored on Filecoin and various open source tools to produce analysis. Help showcase important human use cases of large data archives and why saving certain datasets is so important.
+We invite data analysts and experts from different domains (public health, GIS, etc.) to produce tutorials and visualizations that demonstrate how to work with large data archives that can be stored on Filecoin and various open source tools to produce analysis.
 
+Help showcase important human use cases of large data archives and why saving certain datasets is so important.
+
+
+&nbsp;
 
 ----
 
@@ -302,6 +358,8 @@ Proposals should include the following sections:
 4. Team
    - Roles and Experience
        - Teams with a history of high-quality open source code repos and live applications and products are preferred.
+
+&nbsp;
 
 ---
 
