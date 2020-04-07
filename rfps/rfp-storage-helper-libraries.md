@@ -1,3 +1,5 @@
+> Proposals for this were funded in Wave 1 but this RFP is still open for additional proposals.
+
 # RFP: Storage Helper Libraries
 
 **Name of Project:** Storage Helper Libraries

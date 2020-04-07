@@ -1,3 +1,5 @@
+> This Wave 1 RFP is open to additional proposals.
+
 # RFP: Hosting Community Meetups
 
 **Name of Project:** Hosting Community Meetups

@@ -1,3 +1,5 @@
+> A proposal for this RFP was funded in Wave 1. New proposals are much less likely to be funded compared to other open RFPs.
+
 # RFP: Block Explorer
 
 **Name of Project:** Block Explorer
