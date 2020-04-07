@@ -48,7 +48,7 @@ We are especially interested in measuring the cost and performance of sealing pe
 #### Application Requirements(应用需求) 
 
 1. Verification of your current capacity and throughput in the testnet storage power table (e.g. a signed message using the method described in [lotus PR #1292](https://github.com/filecoin-project/lotus/pull/1292))
-1. 在testnet存储能力表中验证您当前的容量和吞吐量（例如，使用[lotus PR#1292](https://github.com/filecoin project/lotus/pull/1292)中描述的方法的签名消息）
+1. 在testnet存储能力表中验证您当前的容量和吞吐量（例如，使用[lotus PR#1292](https://github.com/filecoin-project/lotus/pull/1292)中描述的方法的签名消息）
 2. A general test plan description involving lotus or go-filecoin 
 2. 包含lotus或go-filecoin的通用测试计划描述
 3. A description of your 5 PB+ mining operation topology under test (including geographic location)
@@ -157,6 +157,7 @@ Test plans can optionally also include ways to benchmark your operation with res
   - 任何其他有助于我们理解财务问题的信息
 
  *Based on initial results we may ask for additional tests.*
+
  *根据初步结果，我们可能要求进行额外的测试。*
 
 
