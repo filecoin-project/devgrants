@@ -19,6 +19,7 @@ We are seeking proposals for designing, implementing and running tests of mining
 如果您正在5 PB或更大范围内运行挖掘操作，我们正在寻求设计、实现和运行大规模挖掘和存储硬件测试的建议。
 
   <sub>*Proposals can be emailed directly to devgrants@filecoin.org and your operation's details will be kept confidential.*</sub>
+
   <sub>*建议可以直接发送到devgrants@filecoin.org，您的操作细节将保密。*</sub>
 
 **The main goal is to understand(主要目的是了解):**
@@ -41,6 +42,7 @@ We are especially interested in measuring the cost and performance of sealing pe
 我们对测量GB-小时的密封成本和性能特别感兴趣，因此鼓励提出有助于我们理解这一指标的建议。我们还邀请更多的建议，为更优化的配置和其他有用的测试计划。
 
 <sub>We are only seeking test plan _proposals_ for April 15th along with verification of any current capacity in the latest testnet storage power table, **not** verification of 5 PB capacity. Please do not purchase hardware at this time as there are upcoming changes to the proofs (PoSt and Actors) in progress before the final draft is ready. Also this proposal is unrelated to testnet phase 2.</sub>
+
 <sub>我们只寻求4月15日的测试计划 _提案_，并在最新的testnet存力表中验证任何当前容量，**而不是** 验证5 PB容量。请不要在这个时候购买硬件，因为在最终草案准备好之前，正在对校样（PoSt和Actors）进行更改。此外，这个提案与testnet第2阶段无关。</sub>
 
 #### Application Requirements(应用需求) 
