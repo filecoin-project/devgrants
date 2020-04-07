@@ -301,6 +301,20 @@ Applicants should have a good understanding of protocol-level integrations and b
 
 &nbsp;
 
+### Snarks as a Service
+
+**Project Description**
+
+Filecoin has two core proofs of storage, Proof of Replication and the election-based Proof of Spacetime (PoRep and ePoSt). Each also involve compression using SNARKs into succinct proofs for the chain. SNARKs are generally best processed by GPUs so that these proofs can be submitted within a block time epoch window. Miners not elected to produce proofs in an epoch may also have GPU cycles to spare.
+
+We are seeking proposals for an efficient way to provide Snarks as a Service as a market offering to miners who wish to be less reliant on GPUs.
+
+Preferred applicants should have a good understanding of Filecoin's core proofs, familiarity with SNARKs and OpenCL and evidence of being able to build computation-bound services at scale.
+
+<sub>* *Note that the Filecoin proofs will be updated shortly. Waiting for these updates to be published before starting research on this is recommended. Also proofs like PoRep are likely to be updated in the future to ensure network security, for efficiency improvements, and to add features.*</sub>
+
+&nbsp;
+
 ### VM research - verifiable subsets of WASM-able languages
 
 **Project Description**
