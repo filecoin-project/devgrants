@@ -250,7 +250,7 @@ We are especially interested in collaborating with University student groups and
 
 **Project Description**
 
-So that developers new to Filecoin can easily run a local Filecoin devnet for prototyping and learn what's important to know about the Filecoin network when building dapps. e.g. https://www.trufflesuite.com/ganache
+So that developers new to Filecoin can easily run a local Filecoin devnet for prototyping and learn what's important to know about the Filecoin network when building dapps. Examples: [Truffle Framework's Ganache](https://www.trufflesuite.com/ganache) and [Lightning Network's Polar](https://lightningpolar.com/)
 
 &nbsp;
 
