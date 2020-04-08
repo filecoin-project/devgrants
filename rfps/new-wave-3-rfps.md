@@ -65,7 +65,7 @@ A storage client application with an easy-to-understand interface and nice UX th
 - can range from a simple single-page webapp with a simple drag n’ drop interface to a desktop application
 - decentralized application or dapp although it can assume public hosted Filecoin node JSON RPC API endpoints exist
 - optionally can also split larger files into smaller pieces
-- optionally can also use [this Filecoin signing tools library](https://github.com/zondax/filecoin-rs) or the Filecoin JS API (both are currently WIP)
+- optionally can also use [this Filecoin signing tools library](https://github.com/zondax/filecoin-rs) or [the Filecoin JS API](https://github.com/filecoin-shipyard/js-lotus-client) (both are currently WIP)
 
 Your proposal should provide examples of applications and user interfaces your team has built and links to their code repositories.
 
