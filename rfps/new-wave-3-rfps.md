@@ -30,6 +30,7 @@ Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
   - [GraphQL API for lotus-chainwatch](#graphql-api-for-lotus-chainwatch)
   - [Storage Workflow User Research](#storage-workflow-user-research)
   - [Cross chain integrations](#cross-chain-integrations)
+  - [Snarks as a Service](#snarks-as-a-service)
   - [VM research - verifiable subsets of WASM-able languages](#vm-research---verifiable-subsets-of-wasm-able-languages)
   - [VM research - Improving state tries](#vm-research---improving-state-tries)
   - [Expert use of large data archives](#expert-use-of-large-data-archives)
