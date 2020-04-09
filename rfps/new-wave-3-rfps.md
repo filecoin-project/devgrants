@@ -378,6 +378,7 @@ Proposals should include the following sections:
 
 We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md)
 
+To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by April 15th 23:59 PDT.
 
 &nbsp;
 
