@@ -4,7 +4,7 @@
 
 **Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-3-rfps.md#proxy-re-encryption-library-and-service.
 
-**RFP Category:** `core-dev`
+**RFP Category:** `app-dev`
 
 **Proposer:** @nemothenoone 
 
