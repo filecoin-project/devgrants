@@ -13,7 +13,7 @@
 # Project Description
 
 =nil; Crypto3 team intends to implement proxy re-encryption library as a part of 
-[=nil; Crypto3 C++ Cryptography Suite](https://crypto3.nil.foundation/projects/crypto3)" 
+[=nil; Crypto3 C++ Cryptography Suite](https://crypto3.nil.foundation/projects/crypto3) 
 and then implement JSON-RPC service based on actor model-implementation library
 [=nil; Actor](https://github.com/nilfoundation/actor) and it's 
 [networking module](https://github.com/nilfoundation/actor-network).
