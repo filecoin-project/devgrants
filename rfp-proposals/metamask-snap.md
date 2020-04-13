@@ -12,10 +12,6 @@
 
 # Project Description
 
-Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
-
-This section should be 2-3 paragraphs long.
-
 Recently most famous Ethereum web wallet [MetaMask](http://metamask.io) has introduced a plugin system called [snaps](https://github.com/MetaMask/metamask-snaps-beta/wiki). Snaps are therefore plugins that can be developed and used by (decentralized) applications with custom MetaMask behavior. This enables a opportunity to connect MetaMask to another blockchain networks such as Filecoin and easily onboard existing Ethereum users into Filecoin. 
 
 We want to build a snap for Filecoin network where existing Ethereum users could get Filecoin addresses and therefore have a wallet that can:
@@ -44,14 +40,6 @@ and have API methods exposed for dapps to be able to:
 7. Demo video.
 
 ## Development Roadmap
-
-Please break up your development work into a clear set of milestones. You can use the milestones suggested in the RFP or create your own. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
-
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
