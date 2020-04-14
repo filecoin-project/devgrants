@@ -28,13 +28,13 @@ This wallet also has the characteristics of distributed, can generate wallet loc
 
 ### Data to Display
 - Users can create wallets on local clients, support secp256k1 and BLS, and can also use HD wallets with multiple addresses in mnemonic seed.<br>
-![image text](../img/filecoin_wallet1.png)<br>
+<img src="../img/filecoin_storage1.png" width="300" height="550" /><br>
 - The wallet does not need to pass through the network, and is encrypted locally. It can guarantee the storage and transfer security of assets by signature encryption technology. It can improve the security of users' assets by combining the backup anti loss mechanism such as mnemonic and keystore;<br>
-![image text](../img/filecoin_wallet2.png)<br>
+<img src="../img/filecoin_storage2.png" width="300" height="550" /><br>
 - Users can create many wallets or HD (Hierarchical Deterministic) signatures with one wallet. <br>
-![image text](../img/filecoin_wallet3.png)<br>
+<img src="../img/filecoin_storage3.png" width="300" height="550" /><br>
 - Users can query the balance of wallet and details of each account through the node; <br>
-![image text](../img/filecoin_wallet4.png)<br>
+<img src="../img/filecoin_storage4.png" width="300" height="550" />
 
 ## Milestones & Funding
 **Total Funding Amount:** 16000$<br>
