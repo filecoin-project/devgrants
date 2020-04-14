@@ -34,7 +34,7 @@ This wallet also has the characteristics of distributed, can generate wallet loc
 - Users can create many wallets or HD (Hierarchical Deterministic) signatures with one wallet. <br>
 ![image text](../img/filecoin_wallet3.png)<br>
 - Users can query the balance of wallet and details of each account through the node; <br>
-![image text](../img/filecoin_wallet4.png)
+![image text](../img/filecoin_wallet4.png)<br>
 
 ## Milestones & Funding
 **Total Funding Amount:** 16000$<br>
