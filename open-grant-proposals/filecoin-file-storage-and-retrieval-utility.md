@@ -22,7 +22,6 @@ This tool is to quickly understand the decentralized application tools of fileco
 
 ## Deliverables
 - 1.A web application tool, full-featured file upload (support breakpoint continuation), file retrieval, file encryption, etc.
-- -Available at http://film-tools.grandhelmsman.com/;
 - -File upload, support breakpoint renewal;
 - -File encryption;
 - -Multiple copies;
