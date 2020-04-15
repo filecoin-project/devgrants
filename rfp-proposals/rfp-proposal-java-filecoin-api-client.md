@@ -13,8 +13,9 @@
 # Project Description
 
 Filecoin aims to create a global, distributed file storage network that provides decentralized storage services for applications.
-The `java-filecoin-api-client` is a very useful tool for the developers who wants to develop applications on the Filecoin storage network.
 However, currently there is very few well-wrappered Filecoin client http api libraries developed with Java.
+
+The `java-filecoin-api-client` is a very useful tool for the developers who wants to develop applications on the Filecoin storage network.
 Java has a large number of developers. 
 This tool will bring great convenience for Java developers to develop to develop DApps based on Filecoin.
 
@@ -30,30 +31,30 @@ This tool will bring great convenience for Java developers to develop to develop
 1. Project Design: Project architecture, technology selection.
 2. Complete wrapping apis for `chain` and `syncer` module.
 3. Development: 
- * 1 Arch, 1 Dev
- * 48hrs
+    * 1 Arch, 1 Dev
+    * 48hrs
 
 
 ### milestones 2
 1. Complete wrapping apis for `messages`, `wallet` and `client` module.
 2. Development: 
- * 1 Dev
- * 40hrs
+    * 1 Dev
+    * 40hrs
 
 ### milestones 3
 1. Complete wrapping apis for `state` and `payment` module.
 2. Development: 
- * 1 Dev
- * 40 hrs
+    * 1 Dev
+    * 40 hrs
 
 ## Total Budget Requested
 
 Total Budget: $6,640.00
 
- | Role            | Rate/Hr | HC  | Man-Hour | Man-Week | Price     |
- | --------------- | ------- | --- | -------- | -------- | --------- |
- | Arch            | $80     | 1   | 8        | 1        | $640.00   |
- | senior engineer | $50     | 1   | 120      | 3        | $4,800.00 |
+ | Role            | Rate/Hr | HC  | Man-Hour | Man-Week | Price    |
+ | --------------- | ------- | --- | -------- | -------- | -------- |
+ | Arch            | $80     | 1   | 8        | 1        | $640.00  |
+ | senior engineer | $50     | 1   | 120      | 3        | $6000.00 |
 
 ## Maintenance and Upgrade Plans
 
@@ -66,12 +67,13 @@ Total Budget: $6,640.00
 
 ## Team Members
 
-- Architect: Lion
-- Full-Stack Dev: Rock
+* Architect: Lion
+* Full-Stack Dev: Rock
 
 ## Team Member LinkedIn Profiles
-- Lion: [https://www.linkedin.com/in/chan-lion-327b28101/](https://www.linkedin.com/in/chan-lion-327b28101/)
-- Rock: [https://www.linkedin.com/in/rockyang/](https://www.linkedin.com/in/rockyang/)
+
+* Lion: [https://www.linkedin.com/in/chan-lion-327b28101/](https://www.linkedin.com/in/chan-lion-327b28101/)
+* Rock: [https://www.linkedin.com/in/rockyang/](https://www.linkedin.com/in/rockyang/)
 
 ## Team Website
 
@@ -96,7 +98,7 @@ decentralized storage services in the future and have always been working hard f
 # Additional Information
 
 The project `java-filecoin-api-client` is open source in [Filecoin Shipyard](https://github.com/filecoin-shipyard/java-filecoin-api-client).
-We had already develop an web wallet with this lib and also open source it.[filecoin-wallet](https://github.com/filecoin-shipyard/filecoin-wallet)   
+We had already develop an web wallet([filecoin-wallet](https://github.com/filecoin-shipyard/filecoin-wallet) ) with this lib and also open source it.  
 
 
 
