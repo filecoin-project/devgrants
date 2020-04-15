@@ -11,7 +11,7 @@
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
 # Project Description
-Cdot network team intends to build a [Substrate](https://github.com/paritytech/substrate) runtime module (pallet) and a relayer to enable Filecoin as storage layer for any blockchain developed by Substrate. In addition to pure file storage, an implementation that enables storing smart contract code in Filecoin and executing the code upon request will also be developed.
+Cdot network team intends to build a [Substrate](https://github.com/paritytech/substrate) runtime module (pallet) and a relayer to enable Filecoin as storage layer for any blockchain developed by Substrate. In addition to pure file storage, a preliminary implementation that enables storing smart contract code in Filecoin and executing the code upon request will also be developed.
 
 ## Value to the Filecoin ecosystem
 Currently, storing some states (or files) on a public blockchain like Ethereum only costs a transaction fee. Although storing huge files is super expensive and sometimes impossible (due to the block gas limit), due to the free rent, the state of these public blockchains are becoming a burden for full nodes. There are researches about charging rent fees, and current rent-free model won't last long.
@@ -33,7 +33,7 @@ The current cross chain model, which relies a relayer to interact between Substr
 ## Deliverables
 * A relayer to interact between Substrate and Filecoin
 * A reusable Substrate runtime module (pallet) that enables interaction with Filecoin
-* A Substrate node that enables calling WASM inside runtime
+* A Substrate node that enables preliminary WASM call inside runtime
 * Full documentation about the relayer and the pallet
 * A deployed web front end that enables the public to try this system and its corresponding tutorial
 * A demo video
@@ -60,7 +60,7 @@ People Involved:
 
 ### Milestone 2: Advanced Substrate and full functioning relayer
 Specifics:
-- Substrate runtime can jump to execute a WASM blob (smart contract) uploaded
+- Substrate runtime can jump to execute some specific WASM blob (smart contract) uploaded
 - Relayer can call relevant functions and hear and parse the returned events on the Substrate side, and can store and retrieve file on the Filecoin side, with correct communications.
 
 People Involved:
