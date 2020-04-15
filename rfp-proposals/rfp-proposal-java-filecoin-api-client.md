@@ -51,10 +51,10 @@ This tool will bring great convenience for Java developers to develop to develop
 
 Total Budget: $6,640.00
 
- | Role            | Rate/Hr | HC  | Man-Hour | Man-Week | Price    |
- | --------------- | ------- | --- | -------- | -------- | -------- |
- | Arch            | $80     | 1   | 8        | 1        | $640.00  |
- | senior engineer | $50     | 1   | 120      | 3        | $6000.00 |
+ | Role           | Rate/Hr | HC  | Man-Hour | Man-Week | Price    |
+ | -------------- | ------- | --- | -------- | -------- | -------- |
+ | Arch           | $80     | 1   | 8        | 1        | $640.00  |
+ | Full-Stack Dev | $50     | 1   | 120      | 3        | $6000.00 |
 
 ## Maintenance and Upgrade Plans
 
