@@ -63,7 +63,7 @@ People Involved:
 Specifics:
 - Substrate runtime can jump to execute some specific WASM blob (smart contract) uploaded
 - Relayer can call relevant functions and hear and parse the returned events on the Substrate side, and can store and retrieve file on the Filecoin side, with correct communications.
-- Relayer's Filecoin side is implemented as a Rust RPC client that enables file storage and retrieval. Therefore, the relayer's implementaton can be pure Rust.
+- Relayer's Filecoin side is implemented as a Rust RPC client that enables file storage and retrieval. Therefore, the relayer's implementation can be pure Rust.
 
 People Involved:
 3 Development Engineer
