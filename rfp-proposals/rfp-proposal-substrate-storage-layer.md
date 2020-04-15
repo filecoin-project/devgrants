@@ -33,6 +33,7 @@ The current cross chain model, which relies a relayer to interact between Substr
 ## Deliverables
 * A relayer to interact between Substrate and Filecoin
 * A reusable Substrate runtime module (pallet) that enables interaction with Filecoin
+* A rust RPC client that enables basic file storage and retrieval. This may become the first step for a fully functioning rust RPC client implementation.
 * A Substrate node that enables preliminary WASM call inside runtime
 * Full documentation about the relayer and the pallet
 * A deployed web front end that enables the public to try this system and its corresponding tutorial
@@ -41,13 +42,13 @@ The current cross chain model, which relies a relayer to interact between Substr
 
 
 ## Development Roadmap
-**Total Funding Amount:** $33000
+**Total Funding Amount:** $39000
 
 **Milestones:** 
 | Milestone No. | Milestone Description                           | Funding | Timeframe |
 |---------------|-------------------------------------------------|---------|-----------|
 | 1             | Substrate pallet and basic relayer              | $10000  |  3 weeks  |
-| 2             | Advanced Substrate and full functioning relayer | $10000  |  4 weeks  |
+| 2             | Advanced Substrate and full functioning relayer | $16000  |  5 weeks  |
 | 3             | Frontend website, documentations and testing    | $13000  |  3 weeks  |
 
 ### Milestone 1: Substrate pallet and basic relayer
@@ -62,9 +63,10 @@ People Involved:
 Specifics:
 - Substrate runtime can jump to execute some specific WASM blob (smart contract) uploaded
 - Relayer can call relevant functions and hear and parse the returned events on the Substrate side, and can store and retrieve file on the Filecoin side, with correct communications.
+- Relayer's Filecoin side is implemented as a rust RPC client that enables file storage and retrieval.
 
 People Involved:
-2 Development Engineer
+3 Development Engineer
 
 ### Milestone 3: Frontend website, documentations and testing
 Specifics:
