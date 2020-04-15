@@ -42,14 +42,14 @@ The current cross chain model, which relies a relayer to interact between Substr
 
 
 ## Development Roadmap
-**Total Funding Amount:** $39000
+**Total Funding Amount:** $35000
 
 **Milestones:** 
 | Milestone No. | Milestone Description                           | Funding | Timeframe |
 |---------------|-------------------------------------------------|---------|-----------|
 | 1             | Substrate pallet and basic relayer              | $10000  |  3 weeks  |
 | 2             | Advanced Substrate and full functioning relayer | $16000  |  5 weeks  |
-| 3             | Frontend website, documentations and testing    | $13000  |  3 weeks  |
+| 3             | Frontend website, documentations and testing    | $9000   |  3 weeks  |
 
 ### Milestone 1: Substrate pallet and basic relayer
 Specifics:
@@ -75,7 +75,7 @@ Specifics:
 - Integration test of the whole system
 
 People Involved:
-2 Development Engineer, 1 Test Engineer, 1 Product Manager
+1 Development Engineer, 1 Test Engineer, 1 Product Manager
 
 ## Maintenance and Upgrade Plans
 
