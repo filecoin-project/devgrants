@@ -100,6 +100,9 @@ decentralized storage services in the future and have always been working hard f
 The project `java-filecoin-api-client` is open source in [Filecoin Shipyard](https://github.com/filecoin-shipyard/java-filecoin-api-client).
 We had already develop an web wallet([filecoin-wallet](https://github.com/filecoin-shipyard/filecoin-wallet) ) with this lib and also open source it.  
 
+The Wallet demo address: [https://wallet.gamma.xjxh.pro/](https://wallet.gamma.xjxh.pro/)
+
+
 
 
 
