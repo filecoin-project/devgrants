@@ -7,7 +7,7 @@
 
 **RFP Category:** `app-dev`
 
-**Proposer:** `@sahilnanda1995`
+**Proposer:** `@prastut`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:**
 Yes!
@@ -144,7 +144,7 @@ As we approach mainnet launch, feedback from storage clients will help us better
 
 ## Contact Info
 
-Email: sahil@buidllabs.io
+Email: prastut@buidllabs.io
 
 ## Team Members
 
@@ -156,9 +156,11 @@ Email: sahil@buidllabs.io
 ## Team Member LinkedIn Profiles
 
 - Sahil: https://www.linkedin.com/in/sahil-nanda-8b1b88143
-- Saumay:
+- Saumay: https://www.linkedin.com/in/saumayagrawal/
 - Bhaskar: https://www.linkedin.com/in/bhaskar-singh-55a535b9/
 - JP: https://www.linkedin.com/in/jayprakashjp/
+
+Note: all LinkedIn profiles linked above lately become outdated and are missing BUIDL labs reference. Going to be updated soon.
 
 ## Team Website
 
