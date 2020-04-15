@@ -215,6 +215,14 @@ https://github.com/protofire
 
 # Additional Information
 
-## Sample Mockups from other similar tools in the market
+## Sample Mockups
 
-These screenshots have been taken from https://play.temporal.cloud/uploads.
+The following pictures are screenshots taken from https://play.temporal.cloud/uploads which can give an high level idea of the simplicity we are looking for for similar features provided by a solution that runs on top of IPFS.
+
+![](./rfp-proposal-simple-storage-web-application/01_upload.png)
+
+![](./rfp-proposal-simple-storage-web-application/02_download.png)
+
+![](./rfp-proposal-simple-storage-web-application/03_download_hashes.png)
+
+![](rfp-proposal-simple-storage-web-application/04_detailed_information.png)
