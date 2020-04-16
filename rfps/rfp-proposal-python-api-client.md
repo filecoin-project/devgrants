@@ -14,9 +14,9 @@ We (KJ Planet) have closely followed the updates of the Filecoin project ever si
 
 There are two parts of our proposal which are as the following:
 
-Part 1：We plan to develop a lotus standard library with python, which will be published on github.com under the MIT and Apache open source agreement. This is the most convenient way for Python developers to use Filecoin. Introducing this open source library into the code gives it the ability to call Filecoin functions, including network, storage, wallet, and other Filecoin functions. It must be mentioned that transactions and signatures are important parts of the blockchain system and also a matter of user privacy, so they must be kept private. With that in mind, we will use python to implement a function to build and sign transactions. But this is not a python version of lotus. It still needs to connect to a node to communicate with the Filecoin network.
+Part 1: We plan to develop a lotus standard library with python, which will be published on github.com under the MIT and Apache open source agreement. This is the most convenient way for Python developers to use Filecoin. Introducing this open source library into the code gives it the ability to call Filecoin functions, including network, storage, wallet, and other Filecoin functions. It must be mentioned that transactions and signatures are important parts of the blockchain system and also a matter of user privacy, so they must be kept private. With that in mind, we will use python to implement a function to build and sign transactions. But this is not a python version of lotus. It still needs to connect to a node to communicate with the Filecoin network.
 
-Part 2:We plan to develop a file storage tool based on the Python standard library of lotus which will be published on github.com under the open source agreement of MIT and Apache. The goal is to make this tool user-friendly and easy to use through the UX interface. The tool supports storage transactions, upload resume through breakpoints, redundant calculations, file encryption, file lists, and file downloads. Users will be able to access the WEB UI through the browser to log in to this tool and temporarily store their files to the server. After redundancy and encryption process, the data will then be stored in the network through the Filecoin nodes. All operations and privacy are completely in the hands of the users. We do not save any private data of the users and do not enforce encryption of the data. We are exploring a user identification method that does not require registration(to further protect user privacy). The plan is that the users will provide a private key signature as identification. Once a user is identified, a file list will be displayed and a file download function will be provided. Developers can freely modify and deploy this project to add features or meet certain personalized needs.They could also choose to allow or restrict public access.
+Part 2: We plan to develop a file storage tool based on the Python standard library of lotus which will be published on github.com under the open source agreement of MIT and Apache. The goal is to make this tool user-friendly and easy to use through the UX interface. The tool supports storage transactions, upload resume through breakpoints, redundant calculations, file encryption, file lists, and file download. Users will be able to access the WEB UI through the browser to log in to this tool and temporarily store their files to the server. After redundancy and encryption process, the data will then be stored in the network through the Filecoin nodes. All operations and privacy are completely in the hands of the users. We do not save any private data of the users and do not enforce encryption of the data. We are exploring a user identification method that does not require registration (to further protect user privacy). The plan is that the users will provide a private key signature as identification. Once a user is identified, a file list will be displayed and a file download function will be provided. Developers can freely modify and deploy this project to add features or meet certain personalized needs.They could also choose to allow or restrict public access.
  
 Help needed: since the Filecoin project is still under development, we would need to communicate with your team to understand what changes there might be in the future that could potentially impact the design and definition of storage and user data.
 
@@ -24,11 +24,11 @@ Help needed: since the Filecoin project is still under development, we would nee
 
 **Python Standard Library**
 
-python standard library provides a channel for developers in the ecosyste to easily connect to Filecoin. Even for python developers who are not familiar with Golang or in lack of an overall understanding of Filecoin, with the help of this library, they could work on Filecoin without having to spend too much time on basic knowledge. We believe that as Filecoin continuously develops, it will attract more and more python developers to join and grow the ecosystem. Therefore, the python standard library is a must. 
+python standard library provides a channel for developers in the ecosystem to easily connect to Filecoin. Even for python developers who are not familiar with Golang or in lack of an overall understanding of Filecoin, with the help of this library, they could work on Filecoin without having to spend too much time on basic knowledge. We believe that as Filecoin continuously develops, it will attract more and more python developers to join and grow the ecosystem. Therefore, the python standard library is a must. 
 
 **File Storage Tool**
 
-File storage tool is a client for ordinary users. It creates a convenient and user-friendly file storage channel to for users to store data on Filecoin network. Easy operation, rich functions and high-level privacy provides users with safe and reliable services. The tool will be maintained by the development teeam. Users could also host and make improvements as they feel like.
+File storage tool is a client for ordinary users. It creates a convenient and user-friendly file storage channel for users to store data on Filecoin network. Easy operation, rich functions and high-level privacy provides users with safe and reliable services. The tool will be maintained by the development team. Users could also host and make improvements as they feel like.
 
 ## Deliverables
 
@@ -47,7 +47,7 @@ File storage tool is a client for ordinary users. It creates a convenient and us
 * A complete UI design document including prototype drawing and effect drawing.
 * A complete user manual in PDF and github.com MD format.
 * A complete RPC development manual in PDF and github.com MD format.
-* Complete codes and public github repository
+* Complete codes and public github repository.
 * A complete test document including test case and reports.
 * Unit tests with a coverage rate of 85%.
 
@@ -66,16 +66,15 @@ File storage tool is a client for ordinary users. It creates a convenient and us
 
 **Python Standard Library**
 
-Python standard library is a package for lotus's HTTP interface. Developers are faced with python functions that call filecoin functions in the simplest way. The lotus standard library follows the RPC standard request mode of filecoin. The parameters of the function are passed to the lotus node through HTTP Post requests and wait for the data returned by the node.
+Python standard library is a package for lotus' HTTP interface. Developers are faced with python functions that call filecoin functions in the simplest way. The lotus standard library follows the RPC standard request mode of filecoin. The parameters of the function are passed to the lotus node through HTTP Post requests and wait for the data returned by the node.
 
 Module List
 
-* General public modules including http client, logs, commen error handling and other tool definitions.
+* General public modules including http client, logs, common error handling and other tool definitions.
 * Comm API:common APIs are defined corresponding to lotus api_comm.
 * Full API:the APIs of a full node is defined corresponding to lotus api_full and are used to perform the funtions of a full node. They can be used to develop softwares related to blockchains, wallets and trasactions.
 * Storage API: the APIs of storage miner are defined corresponding to api_storage and are used to perform the functions of storage miners. They can be used to develop APPs on miner management, operation and maintenence and other monitoring softwares.
-* Construction of signing of storage trades: this module will not depend on the functions of lotus node. Instead complete trades will be constructed and then broadcast over Filecoin network through lotus nodes.
-
+* Construction of signing of storage trades: this module will not depend on the functions of lotus node. Instead, complete trades will be constructed and then broadcast over Filecoin network through lotus nodes.
 * General configuration
 
 Items:
@@ -96,11 +95,11 @@ Funtion list
 
 * User verification, currently we are considering using a private key signature to verify a user's identity and to obtain the user's file list and other data. At the same time, if the user login function is turned on, each user only needs to complete the signature verification at the very first time.
 * User registration：disabled by default
-* User login:login with valid user name and password. disabled by default. This function is designed for those who would like to make a private/limited service with this tool instead of making it public. For example, an enterprise might set up this tool and only provide the service to its staff and clients. Anyone without an assigned and valid account will not be able to access the service. 
+* User login: login with valid user name and password. disabled by default. This function is designed for those who would like to make a private/limited service with this tool instead of making it public. For example, an enterprise might set up this tool and only provide the service to its staff and clients. Anyone without an assigned and valid account will not be able to access the service. 
 * User registration restriction: service providers could decide to enable or disable new user registration function. 
 * User login restriction: service providers could decide to enable or disable user login function. 
-* User memory: users could choose to record encrypted local data in the browser and recover the data through certain forms of password(such as public key, user address, etc) so that users do not have to provide identity verification data repeatedly in a rather short time period. 
-* File upload:users select the files they would like to be stored from the current device and click the upload button to transfer the data to the server. It supports the file breakpoint resume function to avoid repeated transmission of large files due to network failure or other possible reasons.
+* Remember Me: users could choose to record encrypted local data in the browser and recover the data through certain forms of password(such as public key, user address, etc) so that users do not have to provide identity verification data repeatedly in a rather short time period. 
+* File upload: users select the files they would like to be stored from the current device and click the upload button to transfer the data to the server. It supports the file breakpoint resume function to avoid repeated transmission of large files due to network failure or other possible reasons.
 * List of stored files: shows the files that the current user has stored on Filecoin network including key information such as file name, size, storage duration, cost, redundancy method, encryption method, etc.
 * The list of unstored files: shows the list of files currently stored in the server but not yet stored on the filecoin network, including key information such as file name, size, and temporary storage period.
 * File storage: upon users' choice, the system will divide, encrypt, and calculate redundantof their files. A storage trade will be initiated based on the storage agreement reached by filecoin storage miners. The temporary files will be deleted from the file system according to the configuration parameters after the storage trade is verified to be valid. A storage operation may generate multiple storage transactions and match one or more miners. The storage operation may take a few minutes or longer, so we need another program to monitor whether all storage transactions have been completed to ensure that the files are correctly stored on the filecoin network.
@@ -133,17 +132,35 @@ Configuration:
 
 ## Milestones & Funding
 
-**Total Funding Amount:** TBD
+**Total Funding Amount:** $43480
+
+Total Budget Requested for Part 1:
+
+| Role| Rate/Hr | Man-Hour | Man-Week | Price |
+| --- | --- | --- | --- | --- |
+| Arch | $60 | 64 | <2 | $3840 |
+| Dev | $40 | 360 | 9 | $14400 |
+
+Total Budget Requested for Part 2:
+
+| Role| Rate/Hr | Man-Hour | Man-Week | Price |
+| --- | --- | --- | --- | --- |
+| Arch | $60 | 160 | 4 | $9600 |
+| UX | $25 | 40 | 1 | $1000 |
+| Front-end Dev | $35 | 80 | 2 | $2800 |
+| Back-end Dev | $40 | 560 | 14 | $22400 |
+| Test | $20 | 120 | 3 | $2400 |
+
+
 
 **Milestones:** 
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | completion of design document | TBD | 3 weeks |
-| 2 | completion of python standard library | TBD | 4 weeks |
-| 3 | completion of file storage tool development | TBD | 6 weeks |
-| 4 | Final delivery| TBD | 2 weeks |
-
+| 1 | completion of design document | 20% | 3 weeks |
+| 2 | completion of python standard library | 25% | 4 weeks |
+| 3 | completion of file storage tool development | 40% | 6 weeks |
+| 4 | Final delivery| 15% | 2 weeks |
 ## Acceptance Criteria
 
 **Acceptance criteria for milestone 1:completion of design document**
@@ -157,13 +174,13 @@ Configuration:
 * Unit tesets with a coverage rate of 85%
 
 
-**Acceptance criteria for milestone 2:completion of file storage tool development**
+**Acceptance criteria for milestone 3:completion of file storage tool development**
 
 * complete source codes; open-source github repository
 * A complete test document including test cases and reports.
 
 
-**Acceptance criteria for milestone 2:final delivery**
+**Acceptance criteria for milestone 4:final delivery**
 
 * A complete development manual of python standard library.
 * Complete test cases and reports of python standard library.
