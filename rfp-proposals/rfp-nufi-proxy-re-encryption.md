@@ -131,9 +131,9 @@ https://www.nucypher.com/
 
 Why we are the right team to build this proposal:
 
-* Mission and Values: We believe that unconditional privacy is a fundamental human right, and NuCypher was founded to empower individuals to assert that right in the digital age. See our “mission and values” statement (https://blog.nucypher.com/nucypher-s-mission---values/)
-Expertise: Our team has extensive experience in cryptographic engineering. We have created NuCypher Network, a decentralized access control service based on proxy re-encryption, as well its core cryptographic library, `pyUmbral`.
-* Solid engineering: Development of our major building blocks (the `pyUmbral` threshold proxy re-encryption library and the `nucypher` software) has been audited by major security firms such as Trail of Bits and NCC, and no major issues have been found.
+* Mission and Values: We believe that unconditional privacy is a fundamental human right, and NuCypher was founded to empower individuals to assert that right in the digital age. See our [“mission and values” statement](https://blog.nucypher.com/nucypher-s-mission---values/).
+* Expertise: Our team has extensive experience in cryptographic engineering. We have created NuCypher Network, a decentralized access control service based on proxy re-encryption, as well its core cryptographic library, `pyUmbral`.
+* Solid engineering: Development of our major building blocks (the `pyUmbral` threshold proxy re-encryption library and the `nucypher` software) has been audited by major security firms such as Trail of Bits and NCC, and no major issues have been found. See [here](https://blog.nucypher.com/security-audits--round-1--3/) for more information.
 * Open source: All of our projects are released under open source licenses.
 
 Individually:
@@ -144,6 +144,7 @@ Individually:
 * John Pacific: Not a whole lot about John, either. A former cyberpunk warlord, John has navigated the intricacies of cyberspace, including the dark corners of cryptography and information security. With their newfound knowledge, John found theirself in a position of power and has yet to be defeated. John likes to write Python, Rust, and Go, among other languages. They also like really complex problems and immersing themselves in them to find interesting solutions.
 * Damon Ciarelli had a career in computer graphics and visual effects before being seduced by the Internet.  His suitability for projects like this has been very astutely assessed in [this blog post](https://blog.nucypher.com/welcoming-my-friend-damon-ciarelli-to-nucypher/) detailing the painful hiring conundrum that led him to be employed at NuCypher.
 * Arjun works on product and network protocol development at NuCypher. Previously, he built NLP products at an anti-fake news org, and ran product at a large crowdfunding platform. Arjun studied physics at Imperial College London and published energy policy research whilst at Kyoto University.
+* Kieran is a former volunteer firefighter and python educator turned passionate engineer with a diverse background ranging from front-end design through distributed systems. Inspired by the recent surge of interest around a budding decentralization movement, Kieran now is a full-time contributor to NuCypher expressing his best technology optimism.
 
 
 ## Team code repositories
