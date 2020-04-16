@@ -111,8 +111,10 @@ NuCypher’s mandate is to implement the cryptographic primitives of today and r
 	* https://github.com/cygnusv
 * Derek Pierre: Business Development and engineer
 	* https://www.linkedin.com/in/derek-pierre/
+	* https://github.com/derekpierre
 * Justin Holmes: Involuntary Time Traveler
 	* http://justinholmes.com
+	* https://github.com/jmyles
 * John Pacific: Cryptography Engineer
 	* https://github.com/tuxxy/
 * Kieran Prasch: Software Engineer
