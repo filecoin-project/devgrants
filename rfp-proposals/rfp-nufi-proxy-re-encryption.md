@@ -13,7 +13,7 @@
 
 # Project Description
 
-Data stored in the Filecoin network is securely encrypted, but it can’t be shared easily since only the data owner knows the secret key. The data owner would have to either share their secret key with intended recipients or encrypt their data specifically for each recipient (e.g. using the recipient's key). These options are impractical regarding privacy and scalability; this is a classic problem of secure storage solutions based on symmetric encryption. To mitigate this shortcoming, we propose `nufi`, an integration of Filecoin with the NuCypher Network, a decentralized access control service based on proxy re-encryption that allows data owners to securely and scalably share encrypted data with recipients of their choice without exposing their secret key. Its decentralized nature ensures that it is permissionless and censorship-resistant. One of the main advantages of NuCypher’s PRE-based solution for data sharing is that encryption of data is independent from the data sharing decision; that is, data can be encrypted with the ability to grant access to anyone at a later date, without having to encrypt it again.
+Data stored in the Filecoin network is securely encrypted, but it can’t be shared easily since only the data owner knows the secret key. The data owner would have to either share their secret key with intended recipients or encrypt their data specifically for each recipient (e.g. using the recipient's key). These options are impractical regarding privacy and scalability; this is a classic problem of secure storage solutions based on symmetric encryption. To mitigate this shortcoming, we propose `nufi`, an integration of Filecoin with the [NuCypher Network](https://github.com/nucypher/nucypher), a decentralized access control service based on proxy re-encryption that allows data owners to securely and scalably share encrypted data with recipients of their choice without exposing their secret key. Its decentralized nature ensures that it is permissionless and censorship-resistant. One of the main advantages of NuCypher’s PRE-based solution for data sharing is that encryption of data is independent from the data sharing decision; that is, data can be encrypted with the ability to grant access to anyone at a later date, without having to encrypt it again.
 
 The NuCypher Network is storage-agnostic since it exclusively manages access rights and does not store any data; it works with data stored locally or remotely (cloud storage providers, IPFS, etc). Instead, it is an application layer that is only engaged when data owners grant or revoke access to data and when access rights need to be enforced when data is retrieved. The data is shared in an end-to-end encrypted fashion, without the network ever having access to secret keys or the data. Data owners can issue sharing policies to the network for any number of recipients, and the recipients can subsequently have the data re-encrypted for them by the network. We have also added functionality to sharing policies to facilitate re-encryption thresholds (`m-of-n` scheme) where `m` nodes are needed for re-encryption, and an expiry date/time after which the sharing policy is voided and data will no longer be re-encrypted for the corresponding recipient. 
 
@@ -107,27 +107,27 @@ NuCypher’s mandate is to implement the cryptographic primitives of today and r
 ## Team Members
 
 * David Núñez: Cryptographer and engineer
-	* https://www.linkedin.com/in/davidnunezmontanez/
-	* https://github.com/cygnusv
+	* <https://www.linkedin.com/in/davidnunezmontanez/>
+	* <https://github.com/cygnusv>
 * Derek Pierre: Business Development and engineer
-	* https://www.linkedin.com/in/derek-pierre/
-	* https://github.com/derekpierre
+	* <https://www.linkedin.com/in/derek-pierre/>
+	* <https://github.com/derekpierre>
 * Justin Holmes: Involuntary Time Traveler
-	* http://justinholmes.com
-	* https://github.com/jmyles
+	* <http://justinholmes.com>
+	* <https://github.com/jmyles>
 * John Pacific: Cryptography Engineer
-	* https://github.com/tuxxy/
+	* <https://github.com/tuxxy/>
 * Kieran Prasch: Software Engineer
-	* https://github.com/kprasch/
+	* <https://github.com/kprasch/>
 * Damon Ciarelli: Engineer
-	* https://github.com/vepkenez
+	* <https://github.com/vepkenez>
 * Arjun Hassard: Product & Protocol
-	* https://www.linkedin.com/in/arjhaz/
+	* <https://www.linkedin.com/in/arjhaz/>
 
 
 ## Team Website
 
-https://www.nucypher.com/
+<https://www.nucypher.com/>
 
 ## Relevant Experience
 
@@ -152,9 +152,9 @@ Individually:
 ## Team code repositories
 
 * `pyUmbral`, our reference implementation of the Umbral proxy re-encryption scheme
-   * https://github.com/nucypher/pyUmbral
+   * <https://github.com/nucypher/pyUmbral>
 * `nucypher`, the software platform for the NuCypher network
-   * https://github.com/nucypher/nucypher/
+   * <https://github.com/nucypher/nucypher/>
 
 
 # Additional Information
