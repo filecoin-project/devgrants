@@ -23,7 +23,7 @@ Though a read of the spec, John have identified at least three parts to cover: w
 
 ## Deliverables
 - Diagrams of Filecoin Blockchain including the whole life cycle, storage and retrieval cycle, state trie and other necessary parts at the level of detail and visual quality of Lee Thomas’ [diagram of the Ethereum Yellow paper](https://i.stack.imgur.com/afWDt.jpg) and [state trie](https://i.stack.imgur.com/s6yKz.png) [[Source](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)]
-- Articles introducing Filecoin and its architecture in the Community
+- Two articles and a talk introducing Filecoin and its architecture in the Community
 
 ## Development Roadmap
 **Total Funding Amount:** $1800
@@ -59,6 +59,7 @@ John
 Specifics:
 - Diagrams delivery
 - An article summarizing the journey of the project
+- An online talk in Chinese community explaining Filecoin blockchain using the delivered diagrams 
 Plotting and refining time.
 
 People Involved:
