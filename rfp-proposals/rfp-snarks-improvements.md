@@ -59,8 +59,9 @@ following optimizations:
 
 - Several superoptimisation cases similar to ones which allowed us to 
   [take 2-nd place at Chia Network VDF contest](https://github.com/Chia-Network/vdfcontest2results).
-  We've managed to achieve up to 2x performance increase with such
-  superoptimisations.
+  We've managed to achieve up to 4x performance increase with proper allocations
+  management, memory locality increase and superoptimisations. And, yes, we have
+  reviewed what folks have currently done within Filecoin Slack.
 
 ## Deliverables
 
