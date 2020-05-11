@@ -16,24 +16,26 @@ Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
   - [Simple Storage webapps](#simple-storage-webapps)
   - [Filecoin CID Checker and Storage Oracle](#filecoin-cid-checker-and-storage-oracle)
   - [Filecoin Chain State Explorer](#filecoin-chain-state-explorer)
-  - [Resumable Data Uploads with GraphSync](#resumable-data-uploads-with-graphsync)
+  - [Resumable Data Uploads with GraphSync](#resumable-data-uploads-with-graphsync) *
 
 - Other Ideas
   - [Diagram the Filecoin Blockchain](#diagram-the-filecoin-blockchain)
-  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books)
+  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books) *
   - [Web archiving browser extension or Twitter bot](#web-archiving-browser-extension-or-twitter-bot)
   - [SDKs in various mainstream programming languages](#sdks-in-various-mainstream-programming-languages)
-  - [S3 (Glacier) API for Filecoin](#s3-glacier-api-for-filecoin)
+  - [S3 (Glacier) API for Filecoin](#s3-glacier-api-for-filecoin) *
   - [Proxy re-encryption library and service](#proxy-re-encryption-library-and-service)
   - [FLOPy AWS Snowball-like hard drive service](#flopy-aws-snowball-like-hard-drive-service)
   - [Ganache-like UI or improved tooling for running a FIlecoin Devnet](#ganache-like-ui-or-improved-tooling-for-running-a-filecoin-devnet)
   - [GraphQL API for lotus-chainwatch](#graphql-api-for-lotus-chainwatch)
   - [Storage Workflow User Research](#storage-workflow-user-research)
+  - [Snarks as a Service](#snarks-as-a-service) *
   - [Cross chain integrations](#cross-chain-integrations)
   - [VM research - verifiable subsets of WASM-able languages](#vm-research---verifiable-subsets-of-wasm-able-languages)
   - [VM research - Improving state tries](#vm-research---improving-state-tries)
   - [Expert use of large data archives](#expert-use-of-large-data-archives)
 
+still open *
 
 We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea.
 
