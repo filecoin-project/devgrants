@@ -16,7 +16,7 @@ Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
   - [Simple Storage webapps](#simple-storage-webapps)
   - [Filecoin CID Checker and Storage Oracle](#filecoin-cid-checker-and-storage-oracle)
   - [Filecoin Chain State Explorer](#filecoin-chain-state-explorer)
-  - [Resumable Data Uploads with GraphSync](#resumable-data-uploads-with-graphsync) *
+  - [Resumable Data Uploads with GraphSync](#resumable-data-uploads-with-graphsync)
 
 - Other Ideas
   - [Diagram the Filecoin Blockchain](#diagram-the-filecoin-blockchain)
