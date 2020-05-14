@@ -28,6 +28,7 @@ Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
   - [FLOPy AWS Snowball-like hard drive service](#flopy-aws-snowball-like-hard-drive-service)
   - [Ganache-like UI or improved tooling for running a FIlecoin Devnet](#ganache-like-ui-or-improved-tooling-for-running-a-filecoin-devnet)
   - [GraphQL API for lotus-chainwatch](#graphql-api-for-lotus-chainwatch)
+  - [Expert Postgres tuning of lotus-chainwatch](#expert-postgres-tuning-of-lotus-chainwatch)
   - [Storage Workflow User Research](#storage-workflow-user-research)
   - [Snarks as a Service](#snarks-as-a-service) *
   - [Cross chain integrations](#cross-chain-integrations)
