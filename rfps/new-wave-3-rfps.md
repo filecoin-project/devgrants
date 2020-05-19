@@ -20,7 +20,7 @@ Deadline for Wave 3 proposals: **April 15th, 2020 23:59 PDT**
 
 - Other Ideas
   - [Diagram the Filecoin Blockchain](#diagram-the-filecoin-blockchain)
-  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books) *
+  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books)
   - [Web archiving browser extension or Twitter bot](#web-archiving-browser-extension-or-twitter-bot)
   - [SDKs in various mainstream programming languages](#sdks-in-various-mainstream-programming-languages)
   - [S3 (Glacier) API for Filecoin](#s3-glacier-api-for-filecoin) *
