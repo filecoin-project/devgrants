@@ -121,15 +121,18 @@ The API calls listed are currently in the [lotus JSON RPC API](https://github.co
 
 1. Miner worker keys need to be BLS
 2. Slashing checks for not signing blocks at the same height
-- double sign protection in the HSM (in case node has been hacked)
+    - double sign protection in the HSM (in case node has been hacked)
 3. Whitelisting withdrawal addresses
 4. Load balancer for using multiple HSMs
 5. RPC calls
 6. VPN / TLS tunnel to the node (Wireguard)
 7. 5 signatures within 25s block epoch time / a few signatures per second
 
-- The Remote Signer Module can be a small Docker.
+*Other notes*
+- The Remote Signer module can be a small Docker.
 - Node keys for storage deals are out of scope.
+
+Support for a various HSMs will be considered as this increases security biodiversity e.g. Ledger Nano X, YubiHSM2, USB Armory, iMX8, etc. PCIe and rack HSMs integrations may be considered but they are expensive options for miners.)
 
 &nbsp;
 
