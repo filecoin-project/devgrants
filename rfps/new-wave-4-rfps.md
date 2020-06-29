@@ -103,9 +103,9 @@ Also see [Filecoin community resources](https://github.com/filecoin-project/docs
 
 **Project Description**
 
-lotus Filecoin currently supports Arch Linux, Ubuntu, Fedora and MacOS. Golang can also be cross-compiled to Windows, so Windows support for lotus could be added as described in [lotus issue 2133](https://github.com/filecoin-project/lotus/issues/2133). This project would provide basic support for a running a fullnode on Windows. It will also also require compiling the rust-fil-proofs library in Rust for Windows.
+lotus Filecoin currently supports Arch Linux, Ubuntu, Fedora and MacOS. Golang can also be cross-compiled to Windows, so Windows support for lotus could be added as described in [lotus issue 2133](https://github.com/filecoin-project/lotus/issues/2133). This project would provide basic support for running a full node on Windows. It will also also require compiling the rust-fil-proofs library in Rust.
 
-Use cases to support to start would include reading from the chain, submitting transactions, and participating in storage deals. Support for mining on Windows may be more complicated and is not required for to fulfill this RFP.
+Use cases to support include reading from the chain, submitting transactions and participating in storage deals. Support for mining on Windows may be more complicated and is not required for to fulfill this RFP.
 
 &nbsp;
 
@@ -113,26 +113,26 @@ Use cases to support to start would include reading from the chain, submitting t
 
 **Project Description**
 
-A pluggable remote signing module that supports HSMs would allow Filecoin miners to secure their private keys used to participate in block signing and consensus. [lotus issue 2016](https://github.com/filecoin-project/lotus/issues/2016) describes an API interface for remote signers that can “secure a miner’s worker key, which is required to be used every epoch period (25s) to perform around 5 signing operations.”
+A pluggable remote signing module that supports HSMs would allow Filecoin miners to secure their private keys used to participate in block signing and consensus.
 
-The API calls listed are currently in the [lotus JSON RPC API](https://github.com/filecoin-project/lotus/blob/master/api/api_full.go#L160), the ExternalBackends endpoint may need to be added to lotus.
+[lotus issue 2016](https://github.com/filecoin-project/lotus/issues/2016) describes an API interface for remote signers that can “secure a miner’s worker key, which is required to be used every epoch period (25s) to perform around 5 signing operations.” The API calls listed are currently in the [lotus JSON RPC API](https://github.com/filecoin-project/lotus/blob/master/api/api_full.go#L160), the ExternalBackends endpoint may need to be added to lotus.
 
 *Requirements*
 
-1. Miner worker keys need to be BLS
+1. Miner worker keys are BLS
 2. Slashing checks for not signing blocks at the same height
-    - double sign protection in the HSM (e.g. if node is compromised)
+    - double sign protection in the HSM (e.g. if a node is compromised)
 3. Whitelisting withdrawal addresses
-4. Load balancer for using multiple HSMs
+4. Load balancer for using multiple HSMs (e.g. multiple USBs)
 5. RPC calls
-6. VPN / TLS tunnel to the node (Wireguard)
-7. 5 signatures within 25s block epoch time / a few signatures per second
+6. VPN / TLS tunnel to the node
+7. 5 signatures within a 25s block epoch time / a few signatures per second
 
 *Other notes*
 - The Remote Signer module can be a small Docker.
-- Node keys for storage deals are out of scope.
+- Node keys for storage deals are out of scope (but could be added).
 
-Support for a various HSMs will be considered as this increases security biodiversity e.g. Ledger Nano X, YubiHSM2, USB Armory, iMX8, etc. PCIe and rack HSMs integrations may be considered but they are expensive options for miners.)
+Support for a various HSMs will be considered as this increases security biodiversity e.g. Ledger Nano X, YubiHSM2, USB Armory, iMX8, cloud vaults, etc. PCIe and rack HSMs integrations may be considered but they are expensive options for miners.)
 
 &nbsp;
 
@@ -140,9 +140,11 @@ Support for a various HSMs will be considered as this increases security biodive
 
 **Project Description**
 
-A description of how to set up a shared Filecoin Devnet has been shared [here](https://gist.github.com/travisperson/c04b0ed8058a31bc5cc119bde9bac3a3). We are interested in proposals to automate this process so shared Devnets that developers can use become easier to deploy. Via an open source Kubernetes script or Helm chart would be an ideal automation script.
+A description of how to set up a shared Filecoin Devnet has been shared [here](https://gist.github.com/travisperson/c04b0ed8058a31bc5cc119bde9bac3a3). We are interested in proposals to automate this process so shared Devnets become easier to deploy. Via an open source Kubernetes script or Helm chart would be an ideal automation script.
 
 Basic Devnet features should include setting up a faucet, bootstrapper nodes and a genesis miner, smaller sector sizes to speed up developer workflows and testing, dedicated storage miners, some ideas on how to prevent Devnet attacks.
+
+The intent is to support developers who want to use shared devnets for faster development, testing and collaboration, similar to the various testnets available for live blockchain networks.
 
 &nbsp;
 
@@ -150,33 +152,33 @@ Basic Devnet features should include setting up a faucet, bootstrapper nodes and
 
 **Project Description**
 
-Minimum viable infra proposed for crosschain integration with Filecoin is an Event Listener for another chain + a Filecoin Storage or Pinning Service. We are seeking proposals for infrastructure and dapp demos that can demonstrate early integrations between another blockchain and Filecoin.
+We are seeking proposals for infrastructure and dapp demos that can demonstrate early integrations between another blockchain and Filecoin. One example of infrastructure proposed for crosschain integration with Filecoin is a smart contract event listener on another chain + a Filecoin storage or pinning service.
 
-Dapps on can directly use Filecoin at the client dapp level. For deeper integration, user-defined smart contracts are a roadmap feature in Filecoin, therefore protocol-level cross chain bridges are also roadmap.
+Dapps can directly store to Filecoin at the client dapp level using an existing JS API. For deeper integration, user-defined smart contracts are a roadmap feature in Filecoin, likely for next year, therefore protocol-level cross chain bridges are also roadmap.
 
-To support Filecoin storage at the smart contract level, interim cross chain tooling could be built for now that can help make Filecoin storage programmatic from Substrate smart contracts/runtimes.
+To support Filecoin storage at the smart contract level, interim cross chain tooling could be built for now that can help make Filecoin storage programmatic from Substrate smart contracts and runtimes.
 
 *Triggering Storage to Filecoin*
 
 There are currently 3 main ways for developers to use Filecoin:
 
-1. [Filecoin lotus blockchain node API](https://lotu.sh/en+api) - requires interacting with the Filecoin storage market and storage deal lifecycle management. A JS convenience library for it is being developed.
-2. [Powergate on top of Filecoin](https://docs.textile.io/powergate/) - a sidecar to a Filecoin node that provides a deal agent plus fast retrieval (using IPFS for hot storage) plus other convenience features for developers so less storage market management is required. Has a JS library as well.
-3. [Filecoin-backed IPFS Pinning Services](https://ipfs.io/ipfs/QmeGwRiy1MBiH7vBgvVawpFMc5bWLL1iiqmLmaJp3LyaZ6) - will expose a simplified Pinning API for storing and retrieving data, may use Powergate under the hood (currently in development).
+1. [Filecoin node JSON RPC API](https://lotu.sh/en+api) - requires interacting with the Filecoin storage market and storage deal lifecycle management. A JS convenience library for this is development.
+2. [Powergate on top of Filecoin](https://docs.textile.io/powergate/) - a sidecar to a Filecoin node that provides a deal agent, fast retrieval (using IPFS for hot storage), node keys mapped to sets of wallets, plus other convenience features for developers so less storage market management is required. Has a JS library as well.
+3. [Filecoin-backed IPFS Pinning Services](https://ipfs.io/ipfs/QmeGwRiy1MBiH7vBgvVawpFMc5bWLL1iiqmLmaJp3LyaZ6) - will expose a simplified Pinning API for storing and retrieving data, may use Powergate under the hood. (Currently in development.)
 
-For native IPFS users, Filecoin currently also offers ways to [pull data from IPFS nodes](https://github.com/filecoin-project/lotus/pull/1843).
+For native IPFS users, Filecoin currently also offers ways to [pull data from remote IPFS nodes](https://github.com/filecoin-project/lotus/pull/1843).
 
-*Example from Substrate*
+*Examples from Substrate*
 
-Pinning APIs are likely the easiest cross chain infra to start and could be used with a [Substrate Offchain Worker](https://substrate.dev/docs/en/knowledgebase/learn-substrate/off-chain-workers#docsNav) (also see the [offchain Rust ipfs project](https://github.com/w3f/General-Grants-Program/pull/283). A later step could be a parachain that talks to Filecoin.
+Pinning APIs are likely the easiest cross chain infra to start and could be used with a [Substrate Offchain Worker](https://substrate.dev/docs/en/knowledgebase/learn-substrate/off-chain-workers#docsNav) (also see the [offchain Rust IPFS project](https://github.com/w3f/General-Grants-Program/pull/283)). A later step could be a parachain that talks to Filecoin.
 
 *Example from Ethereum*
 
-A similar prior example is an Ethereum smart contract event listener that triggers an IPFS Pinning API like [Quasar](https://github.com/openworklabs/quasar/blob/primary/docs/howQuasarWorks.md#under-the-hood), a project explored by the Aragon community for IPFS.
+A prior example is an Ethereum smart contract event listener that triggers an IPFS Pinning API like [Quasar](https://github.com/openworklabs/quasar/blob/primary/docs/howQuasarWorks.md#under-the-hood), a project explored by the Aragon community for IPFS Cluster, or later Aragon integration with an IPFS pinning service.
 
 *Confirming Storage Status*
 
-A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-3-rfps.md#filecoin-cid-checker-and-storage-oracle) is being built that can serve as a storage oracle via API of the status of a specific data CID on Filecoin.
+A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-3-rfps.md#filecoin-cid-checker-and-storage-oracle) is being built that can serve as a storage oracle via API of the status of a specific data CID on Filecoin, pulled from the latest state.
 
 &nbsp;
 
@@ -184,11 +186,13 @@ A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob
 
 **Project Description**
 
-Last year a simple Filecoin block explorer was built for early the go-filecoin node implementation. It was updated for lotus Filecoin for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer). We would like to see this simple explorer updated to a current lotus node and testnet / mainnet. Enhancements can be made to improve it's performance and the information displayed.
+Last year, a simple Filecoin block explorer was built for an earlier go-filecoin node implementation. It was updated for the lotus Filecoin node for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer).
 
-This explorer originally demonstrated details about Filecoin actors (core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, and blocks. ([Screenshots are available here](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W).)
+We would like to see this simple explorer updated to the current lotus API and testnet / mainnet. Enhancements can be made to improve performance and the information displayed.
 
-This explorer may also make a great tutorial on interacting with the Filecoin JSON RPC API and if interested please add that to your proposal.
+This explorer originally presented details about Filecoin actors (current core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, as well as information contained in blocks. ([Screenshots are available here](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W).)
+
+This explorer can make a great tutorial on interacting with the Filecoin JSON RPC API. If interested, please add that to your proposal.
 
 &nbsp;
 
@@ -196,6 +200,7 @@ This explorer may also make a great tutorial on interacting with the Filecoin JS
 
 Additional RFPs can be found in the [Wave 3 RFP list](https://github.com/filecoin-project/devgrants).
 
+&nbsp;
 
 ----
 
@@ -212,16 +217,19 @@ Note that all proposals must be open sourced via MIT and Apache2 licenses.
 
 **Proposal Requirements**
 
-Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, a good amount of technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code and compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones.
+Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code, compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones. Here's a [good sample proposal](https://github.com/ipfs/devgrants/blob/master/targeted-grants/IPFS-mobile-design-research.md).
 
-Proposals should include the following sections:
+Proposals should include:
 
 1. Project Description
+   - Brief description
    - Value to the Filecoin ecosystem
-   - An explanation of your technical solution and architecture
-       - Imagine that experienced software developers and project managers will evaluate your proposal.
 2. Deliverables
-3. Milestones & Funding
+   - An explanation of your technical solution and architecture
+      - Imagine that an experienced software developer will evaluate your proposal
+3. Milestones & Funding requested
+   - Most projects have at least 4 milestones
+   - Budget and estimated timeframe for each milestone
 4. Team
    - Roles and Experience
        - Teams with a history of high-quality open source code repos and live applications and products are preferred.
