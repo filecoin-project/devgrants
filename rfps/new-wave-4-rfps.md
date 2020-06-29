@@ -1,0 +1,234 @@
+# RFP Ideas for Wave 4
+
+Filecoin will be launching mainnet in about 2 months: [current gantt chart](https://app.instagantt.com/shared/s/1152992274307505/latest).
+
+We are seeking proposals for the following RFPs for Wave 4 of the Dev Grant program.
+
+Deadline for Wave 4 proposals: **July 1st, 2020 23:59 PDT**
+
+## RFP Ideas
+
+- Priority
+  - [go-filecoin Community Maintainership](#go-filecoin-maintainership)
+  - [Storage client application with erasure coding and basic PGP](#storage-client-application-with-erasure-coding-and-basic-pgp)
+  - [Simple Storage webapps](#simple-storage-webapps)
+  - [Windows support for lotus](#windows-support-for-lotus)
+  - [Remote HSM Signer support](#remote-hsm-signer-support)
+  - [Devnet scripts](#devnet-scripts)
+  - [Crosschain integrations](#crosschain-integrations)
+  - [Simple lotus block explorer update](#simple-lotus-block-explorer-update)
+
+- Other Ideas
+  
+  (Details on these below can be found in the [Wave 3 RFP list](https://github.com/filecoin-project/devgrants))
+ 
+  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books)
+  - [Web archiving browser extension or Twitter bot](#web-archiving-browser-extension-or-twitter-bot)
+  - [S3 (Glacier) API for Filecoin](#s3-glacier-api-for-filecoin)
+  - [FLOPy AWS Snowball-like hard drive service](#flopy-aws-snowball-like-hard-drive-service)
+  - [GraphQL API for lotus-chainwatch](#graphql-api-for-lotus-chainwatch)
+  - [Storage Workflow User Research](#storage-workflow-user-research)
+  - [Snarks as a Service](#snarks-as-a-service)
+  - [VM research - verifiable subsets of WASM-able languages](#vm-research---verifiable-subsets-of-wasm-able-languages)
+  - [VM research - Improving state tries](#vm-research---improving-state-tries)
+  - [Expert use of large data archives](#expert-use-of-large-data-archives)
+
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea.
+
+*Teams that applied for any of the above RFPs in Wave 3 who did not receive grants will be reconsidered for Wave 4.*
+
+See our [Proposal Guidelines](#proposal-guidelines) below about how to apply.
+
+*Have a question about any of these RFPs? Email devgrants@filecoin.org*
+
+&nbsp;
+
+## *Priority RFP ideas*
+
+&nbsp;
+
+### go-filecoin Maintainership
+
+**Project Description**
+
+We are looking for teams interested in stewarding and improving [go-filecoin](http://github.com/filecoin-project/go-filecoin), one of the [4 current Filecoin implementations](https://filecoin.io/blog/announcing-filecoin-implementations-in-rust-and-c++/). go-filecoin is nearly feature-complete, so you will be starting from a very strong foundation. lotus and go-filecoin achieved interoperability in April 2020, but go-filecoin will need to be updated to bring it back to an interoperable state and to feature-completeness for mainnet launch. 
+
+As the implementation graduates to community maintainership, we are looking for community members able to actively maintain compatibility with the other Filecoin implementations, run and optimize this implementation in live deployments, and ensure go-filecoin continues to be a fully-functional implementation. This is a great opportunity for teams to become strong stakeholders and stewards in the Filecoin ecosystem by building their expertise and engagement. This grant builds on the [previous RFP for protocol implementation teams](https://github.com/filecoin-project/devgrants/issues/43) (see the [full grant specification](https://docs.google.com/document/d/1L7ZZOC4cms3SZNyx7u1Hr0H_XFDUI8FYA2W8dXWBGsY/edit) for details).
+
+In particular, we’re looking for teams that are interested in differentiating the go-filecoin implementation from other Filecoin implementations to drive adoption. Some examples include:
+- Making the implementation highly optimized for mining operations
+- Building services around the core go-filecoin implementation, e.g. hosting go-filecoin nodes as a service
+- Involving the greater Filecoin community in completing the implementation
+- We’d love to hear any other direction you think is compelling as well
+
+Please drop any questions in the [go-filecoin maintainership issue](https://github.com/filecoin-project/devgrants/rfp-go-filecoin-maintainership.md).
+
+&nbsp;
+
+### Storage client application with erasure coding and basic PGP
+
+**Project Description**
+
+A storage client application with an easy-to-understand interface and nice UX that has support for basic file encryption and erasure coding to suggest an ideal number of redundant storage deals. The application should allow users to encrypt data, enter into storage deals with several miners, retrieve and decrypt the data.
+
+**Proposed Features**
+
+- encrypts and decrypts a file using basic PGP (e.g. [Keybase example](https://keybase.io/encrypt) or with MetaMask keys or other options)
+- calculates recommended redundancy using a good erasure coding library (e.g. [zfec](https://github.com/tahoe-lafs/zfec)) and can reconstruct data if a copy cannot be retrieved
+- enters into a recommended number of storage deals
+- can range from a simple single-page webapp with a simple drag n’ drop interface to a desktop application
+- decentralized application or dapp although it can assume public hosted Filecoin node JSON RPC API endpoints exist
+- optionally can also split larger files into smaller pieces
+- optionally can also use [this Filecoin signing tools library](https://github.com/zondax/filecoin-rs) or [the Filecoin JS API](https://github.com/filecoin-shipyard/js-lotus-client) (both are currently WIP)
+
+Your proposal should provide examples of applications and user interfaces your team has built and links to their code repositories.
+
+&nbsp;
+
+### Simple Storage webapps
+
+**Project Description**
+
+Single page apps that demonstrate using Filecoin to store and retrieve files. Example workflow: drag + drop a file, pay to store it, retrieve it. Show miner info, CIDs.
+
+One version could eli5 (explain-it-like-I'm-5) to new users as a tutorial or tour.
+
+Your proposal should provide examples of applications and interfaces your team has built and links to their code repos.
+
+Also see [Filecoin community resources](https://github.com/filecoin-project/docs/wiki) for an initial list of Filecoin developer tools.
+
+&nbsp;
+
+### Windows support for lotus
+
+**Project Description**
+
+lotus Filecoin currently supports Arch Linux, Ubuntu, Fedora and MacOS. Golang can also be cross-compiled to Windows, so Windows support for lotus could be added as described in [lotus issue 2133](https://github.com/filecoin-project/lotus/issues/2133). This project would provide basic support for a running a fullnode on Windows. It will also also require compiling the rust-fil-proofs library in Rust for Windows.
+
+Use cases to support to start would include reading from the chain, submitting transactions, and participating in storage deals. Support for mining on Windows may be more complicated and is not required for to fulfill this RFP.
+
+&nbsp;
+
+### Remote HSM signer support
+
+**Project Description**
+
+A pluggable remote signing module that supports HSMs would allow Filecoin miners to secure their private keys used to participate in block signing and consensus. [lotus issue 2016](https://github.com/filecoin-project/lotus/issues/2016) describes an API interface for remote signers that can “secure a miner’s worker key, which is required to be used every epoch period (25s) to perform around 5 signing operations.”
+
+The API calls listed are currently in the [lotus JSON RPC API](https://github.com/filecoin-project/lotus/blob/master/api/api_full.go#L160), the ExternalBackends endpoint may need to be added to lotus.
+
+*Requirements*
+
+1. Miner worker keys need to be BLS
+2. Slashing checks for not signing blocks at the same height
+- double sign protection in the HSM (in case node has been hacked)
+3. Whitelisting withdrawal addresses
+4. Load balancer for using multiple HSMs
+5. RPC calls
+6. VPN / TLS tunnel to the node (Wireguard)
+7. 5 signatures within 25s block epoch time / a few signatures per second
+
+- The Remote Signer Module can be a small Docker.
+- Node keys for storage deals are out of scope.
+
+&nbsp;
+
+### Devnet Scripts
+
+**Project Description**
+
+A description of how to set up a shared Filecoin Devnet has been shared [here](https://gist.github.com/travisperson/c04b0ed8058a31bc5cc119bde9bac3a3). We are interested in proposals to automate this process so shared Devnets that developers can use become easier to deploy. Via an open source Kubernetes script or Helm chart would be an ideal automation script.
+
+Basic Devnet features should include setting up a faucet, bootstrapper nodes and a genesis miner, smaller sector sizes to speed up developer workflows and testing, dedicated storage miners, some ideas on how to prevent Devnet attacks.
+
+&nbsp;
+
+### Crosschain integrations
+
+**Project Description**
+
+Minimum viable infra proposed for crosschain integration with Filecoin is an Event Listener for another chain + a Filecoin Storage or Pinning Service. We are seeking proposals for infrastructure and dapp demos that can demonstrate early integrations between another blockchain and Filecoin.
+
+Dapps on can directly use Filecoin at the client dapp level. For deeper integration, user-defined smart contracts are a roadmap feature in Filecoin, therefore protocol-level cross chain bridges are also roadmap.
+
+To support Filecoin storage at the smart contract level, interim cross chain tooling could be built for now that can help make Filecoin storage programmatic from Substrate smart contracts/runtimes.
+
+*Triggering Storage to Filecoin*
+
+There are currently 3 main ways for developers to use Filecoin:
+
+1. [Filecoin lotus blockchain node API](https://lotu.sh/en+api) - requires interacting with the Filecoin storage market and storage deal lifecycle management. A JS convenience library for it is being developed.
+2. [Powergate on top of Filecoin](https://docs.textile.io/powergate/) - a sidecar to a Filecoin node that provides a deal agent plus fast retrieval (using IPFS for hot storage) plus other convenience features for developers so less storage market management is required. Has a JS library as well.
+3. [Filecoin-backed IPFS Pinning Services](https://ipfs.io/ipfs/QmeGwRiy1MBiH7vBgvVawpFMc5bWLL1iiqmLmaJp3LyaZ6) - will expose a simplified Pinning API for storing and retrieving data, may use Powergate under the hood (currently in development).
+
+For native IPFS users, Filecoin currently also offers ways to [pull data from IPFS nodes](https://github.com/filecoin-project/lotus/pull/1843).
+
+*Example from Substrate*
+
+Pinning APIs are likely the easiest cross chain infra to start and could be used with a [Substrate Offchain Worker](https://substrate.dev/docs/en/knowledgebase/learn-substrate/off-chain-workers#docsNav) (also see the [offchain Rust ipfs project](https://github.com/w3f/General-Grants-Program/pull/283). A later step could be a parachain that talks to Filecoin.
+
+*Example from Ethereum*
+
+A similar prior example is an Ethereum smart contract event listener that triggers an IPFS Pinning API like [Quasar](https://github.com/openworklabs/quasar/blob/primary/docs/howQuasarWorks.md#under-the-hood), a project explored by the Aragon community for IPFS.
+
+*Confirming Storage Status*
+
+A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-3-rfps.md#filecoin-cid-checker-and-storage-oracle) is being built that can serve as a storage oracle via API of the status of a specific data CID on Filecoin.
+
+&nbsp;
+
+### Simple lotus block explorer update
+
+**Project Description**
+
+Last year a simple Filecoin block explorer was built for early the go-filecoin node implementation. It was updated for lotus Filecoin for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer). We would like to see this simple explorer updated to a current lotus node and testnet / mainnet. Enhancements can be made to improve it's performance and the information displayed.
+
+This explorer originally demonstrated details about Filecoin actors (core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, and blocks. ([Screenshots are available here](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W).)
+
+This explorer may also make a great tutorial on interacting with the Filecoin JSON RPC API and if interested please add that to your proposal.
+
+&nbsp;
+
+### Additional RFPs
+
+Additional RFPs can be found in the [Wave 3 RFP list](https://github.com/filecoin-project/devgrants).
+
+
+----
+
+## Proposal Guidelines
+
+We generally fund projects that can be built in a 2 month time frame and evaluate proposals based on:
+
+- The quality of the proposal and near-term value to the Filecoin ecosystem
+- Your team’s technical experience, open source contributions and interest in diving into how Filecoin works
+- Likelihood that your team will continue to support the Filecoin ecosystem long-term and commitment to maintaining your project for one year
+
+Note that all proposals must be open sourced via MIT and Apache2 licenses.
+
+
+**Proposal Requirements**
+
+Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, a good amount of technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code and compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones.
+
+Proposals should include the following sections:
+
+1. Project Description
+   - Value to the Filecoin ecosystem
+   - An explanation of your technical solution and architecture
+       - Imagine that experienced software developers and project managers will evaluate your proposal.
+2. Deliverables
+3. Milestones & Funding
+4. Team
+   - Roles and Experience
+       - Teams with a history of high-quality open source code repos and live applications and products are preferred.
+
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md)
+
+To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by July 1st 23:59 PDT.
+
+&nbsp;
+
+---
+
+*Have a question about any of these RFPs? Email devgrants@filecoin.org*
