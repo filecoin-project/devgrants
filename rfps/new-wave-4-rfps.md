@@ -121,7 +121,7 @@ The API calls listed are currently in the [lotus JSON RPC API](https://github.co
 
 1. Miner worker keys need to be BLS
 2. Slashing checks for not signing blocks at the same height
-    - double sign protection in the HSM (in case node has been hacked)
+    - double sign protection in the HSM (e.g. if node is compromised)
 3. Whitelisting withdrawal addresses
 4. Load balancer for using multiple HSMs
 5. RPC calls
