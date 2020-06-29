@@ -20,18 +20,18 @@ Deadline for Wave 4 proposals: **July 1st, 2020 23:59 PDT**
 
 - Other Ideas
   
-  (Details on these below can be found in the [Wave 3 RFP list](https://github.com/filecoin-project/devgrants))
+  (Details on these below can be found in the [Wave 3 RFP list](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md))
  
-  - [Storage and Retrieval Market Order Books](#storage-and-retrieval-market-order-books)
-  - [Web archiving browser extension or Twitter bot](#web-archiving-browser-extension-or-twitter-bot)
-  - [S3 (Glacier) API for Filecoin](#s3-glacier-api-for-filecoin)
-  - [FLOPy AWS Snowball-like hard drive service](#flopy-aws-snowball-like-hard-drive-service)
-  - [GraphQL API for lotus-chainwatch](#graphql-api-for-lotus-chainwatch)
-  - [Storage Workflow User Research](#storage-workflow-user-research)
-  - [Snarks as a Service](#snarks-as-a-service)
-  - [VM research - verifiable subsets of WASM-able languages](#vm-research---verifiable-subsets-of-wasm-able-languages)
-  - [VM research - Improving state tries](#vm-research---improving-state-tries)
-  - [Expert use of large data archives](#expert-use-of-large-data-archives)
+  - [Storage and Retrieval Market Order Books](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#storage-and-retrieval-market-order-books)
+  - [Web archiving browser extension or Twitter bot](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#web-archiving-browser-extension-or-twitter-bot)
+  - [S3 (Glacier) API for Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#s3-glacier-api-for-filecoin)
+  - [FLOPy AWS Snowball-like hard drive service](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#flopy-aws-snowball-like-hard-drive-service)
+  - [GraphQL API for lotus-chainwatch](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#graphql-api-for-lotus-chainwatch)
+  - [Storage Workflow User Research](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#storage-workflow-user-research)
+  - [Snarks as a Service](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#snarks-as-a-service)
+  - [VM research - verifiable subsets of WASM-able languages](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#vm-research---verifiable-subsets-of-wasm-able-languages)
+  - [VM research - Improving state tries](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#vm-research---improving-state-tries)
+  - [Expert use of large data archives](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#expert-use-of-large-data-archives)
 
 We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea.
 
