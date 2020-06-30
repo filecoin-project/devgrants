@@ -30,7 +30,7 @@ The purpose of this proposal is to create a web application that simulates the s
  
 - Objectives:
    - Clear definition of project scope between OpenBound and Filecoin teams
-   - Conduct analysis of Testnet
+   - Conduct analysis of filecoin's specification
 - Outcomes:
    - UI Wireframes
    - Requirements & Scope Specification
@@ -42,7 +42,7 @@ The purpose of this proposal is to create a web application that simulates the s
  
 - Objectives:
    - Implement GUI from mockups
-   - Accurate protrayl of file transfer on filecoin network
+   - Accurate portrayal of file transfer on filecoin network
 - Outcomes:
    - Web application with fully functional GUI
    - Test ready application
