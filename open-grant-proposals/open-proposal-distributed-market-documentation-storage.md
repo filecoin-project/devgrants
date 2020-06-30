@@ -24,10 +24,13 @@ Expansion of distributed exchanges from tokens to tokenized general goods and se
 
 ## Deliverables
 
-Deliverable 1: (a) An api enabling storage purchase for description documents bound to buy or sell offers in a public market.
-               (b) A browser ui talking to the (a).
-Deliverable 2: Colocated Filecoin server requesting storage offers and executing available deals under cli control.
-Deliverable 3: Revision of user experience based on learnings in 1 & 2.
+|Deliverable 1|(a) An api enabling storage purchase for description documents bound to buy or sell offers in a public market|
+|---|---|
+||(b) A browser ui talking to the (a)|
+|---|---|
+|Deliverable 2|Colocated Filecoin server requesting storage offers and executing available deals under cli control|
+|---|---|
+|Deliverable 3|Revision of user experience based on learnings in 1 & 2|
 
 ## Development Roadmap
 
