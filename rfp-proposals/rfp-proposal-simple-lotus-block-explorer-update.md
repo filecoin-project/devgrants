@@ -1,8 +1,8 @@
-# RFP Proposal: `Lotus Desktop`
+# RFP Proposal: `Simple lotus block explorer update`
 
-**Name of Project: Lotus Desktop**
+**Name of Project: Simple lotus block explorer update**
 
-**Link to RFP:** Please link to the RFP that you are submitting a proposal for.
+**Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md#simple-lotus-block-explorer-update
 
 **RFP Category:** `app-dev`
 
@@ -36,7 +36,7 @@ Sum up the total requested budget across all milestones, and include that figure
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+The OpenBound team will provide 3 monthes of moderate to critical bug maintainance after the delivery of the product. OpenBound is open to further grants in regards to future upgrades and maintainence.
 
 # Team
 
@@ -46,10 +46,10 @@ openboundcontact@gmail.com
 
 ## Team Members
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
-- ...
+- Matt Belford: Team Lead / PM
+    - Responsible for overseeing the development and design process, as well as production of reqspecs and diagrams. Additionally, will assist with software development.
+- Rolin Buckoke: Full Stack Software Engineer
+    - Resonsible for the development of front and back end systems.
 
 ## Team Member LinkedIn Profiles
 
@@ -62,7 +62,7 @@ https://openbound.github.io
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+Both members of OpenBound have experience as Full Stack Software Engineers developing large scale web applications as well as DevOps. Furthermore, OpenBound member are all highly proficient in the production of technical documents, diagrams, and specifications.
 
 ## Team code repositories
 
@@ -71,7 +71,3 @@ the past on various projects. Their github profiles are linked below.
 
 https://github.com/mattbford
 https://github.com/rolinb
-
-# Additional Information
-
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
