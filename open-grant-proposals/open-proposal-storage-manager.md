@@ -1,6 +1,8 @@
-# Open Grant Proposal: `Storage Manager`
+# RFP Proposal: `Storage Manager`
 
 **Name of Project:** Storage Manager
+
+**Link to RFP:** [Storage client with erasure coding and basic PGP](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md#storage-client-application-with-erasure-coding-and-basic-pgp)
 
 **Proposal Category:** `app-dev`
 
