@@ -208,6 +208,8 @@ lotus Filecoin has added the ability for miners to create blocklists of content 
 
 This RFP is for a way for blocklists to be shared by the community, potentially with some basic metadata around the reasons for blocklisting. A way for community members to propose CIDs to blocklist would also be useful.
 
+Related projects in IPFS have proposed a [content-decider framework](https://github.com/ianjdarrow/content-decider) and [DNR lists](https://github.com/ipfs/camp/blob/master/DEEP_DIVES/25-do-not-replicate-lists-dnr.md#do-not-replicate-lists---dnr).
+
 
 
 &nbsp;
