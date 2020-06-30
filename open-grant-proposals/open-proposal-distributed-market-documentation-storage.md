@@ -83,4 +83,4 @@ Here's a wannabe wysiwig text editor that outputs html, which I've integrated to
 
 # Additional Information
 
-I serve everything I mention out of IPFS.  It isn't ready to live in the wild yet.  If you want to see it, I'll show you everything I mention operating and you're more than welcome to see my repos in development.
+I serve everything I mention out of IPFS.  It isn't ready to live in the wild yet.  If you want to see it, I'll show you everything I mention operating and you're more than welcome to monitor my repos during developments you fund.
