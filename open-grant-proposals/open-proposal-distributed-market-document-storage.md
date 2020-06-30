@@ -35,7 +35,7 @@ Expansion of distributed exchanges from tokens to tokenized general goods and se
 
 I'm sorry, but this is too much to ask at this stage.   I would like instead to make a couple cautionary remarks.  I love Filecoin with most of the fibers of my heart, for its proof of *useful* work.  Its retrieval spec however may threaten uptake; it's too early to tell.
 
-I offer to sell a hamburger, but a prospective hamburger buyer near me has to wait two minutes if they click on the link for the hamburger's description?  What kind of ux can I make so the user comes back to the market when they want to buy a pizza?  Nothing occurs to me at this point.  I'm more likely to find an answer once I dirty my hands.
+I offer to sell a hamburger, but a prospective hamburger buyer near me has to wait two minutes if they click on the link for the hamburger's description, what kind of ux can I make so the user comes back to the market when they want to buy a pizza?  Nothing occurs to me at this point.  I'm more likely to find an answer once I dirty my hands.
 
 I solved a similar problem for myself with ipns.  DNS demands faster resolution than a page load.  The name binding I mentioned second paragraph of this Project Description exists because I could not wait for ipns to resolve names.  Mine works really fast and is served from any blockchain node.  If Filecoin in fact exhibits excessive retrieval time, I might propose workarounds for that too.
 
