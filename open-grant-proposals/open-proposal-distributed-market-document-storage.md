@@ -10,7 +10,7 @@
 
 # Project Description
 
-Marketplaces comprise significant use of the internet.  Decentralized exchanges offer advantages, such as maintaining custody of one's funds while trading, and the ability to trade a broad assortment of assets an exchange is not prepared to process.  Flexible centralized marketplaces, like Amazon, are expensive to develop.  Unless a token has already become well known, discovering what a given offer signifies can be arduous and error prone.  Neither is it easy for a token issuer to link published information about their offer to a market asset.
+Internet users expect to find markets at their fingertips.  Decentralized exchanges offer advantages, such as maintaining custody of one's funds while trading, and the ability to trade a broad assortment of assets an exchange is not prepared to process.  Unless a token has already become well known, discovering what a given offer signifies can be arduous and error prone.  Neither is it easy for a token issuer to bind published information to a market asset.
 
 To address those issues I write documentation pertaining to tokens trading on a blockchain's marketplace, into IPFS.  Required documentation of the token includes its unique offer ID.  The IPFS hash is written indelibly in a signed blockchain transaction which enters the offer into exchange.   A similar operation binds statements of identity, also stored in IPFS, to public keys, thus binding identifying documents of both participants and wares in a distributed market/exchange.  The process is very simple for users, promising use of distributed exchanges for transaction in a wide variety of goods and services.
 
