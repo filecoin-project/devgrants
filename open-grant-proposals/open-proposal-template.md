@@ -69,9 +69,8 @@ I've already covered quite a bit of this.
 
 ## Team code repositories
 
-Here's a wannabe wysiwig text editor that generages html, which I've integrated to an IPFS backend:
-https://rocketgit.com/user/brianebert/editor
+Here's a wannabe wysiwig text editor that outputs html, which I've integrated to an IPFS backend.  Integration is split between index.html and ckeIpfs.js: https://rocketgit.com/user/brianebert/editor
 
 # Additional Information
 
-I serve everything I mention out of IPFS.  I'm not ready to live in the wild yet.  If you ask I'll show you everything operating.
+I serve everything I mention out of IPFS.  It isn't ready to live in the wild yet.  If you want to see it, I'll show you everything I mention operating.
