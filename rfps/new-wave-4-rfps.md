@@ -165,7 +165,7 @@ To support Filecoin storage at the smart contract level, interim cross chain too
 There are currently 3 main ways for developers to use Filecoin:
 
 1. [Filecoin node JSON RPC API](https://lotu.sh/en+api) - requires interacting with the Filecoin storage market and storage deal lifecycle management. A JS convenience library for this is development.
-2. [Powergate on top of Filecoin](https://docs.textile.io/powergate/) - a sidecar to a Filecoin node that provides a deal agent, fast retrieval (using IPFS for hot storage), node keys mapped to sets of wallets, plus other convenience features for developers so less storage market management is required. Has a JS library as well.
+2. [Powergate on top of Filecoin](https://docs.textile.io/powergate/) - a sidecar to a Filecoin node that provides a deal agent, fast retrieval (using IPFS for hot storage), node keys (required for storage deals) mapped to multi-tenant sets of wallets, plus other convenience features for developers so less storage market management is required. Has a JS library as well.
 3. [Filecoin-backed IPFS Pinning Services](https://ipfs.io/ipfs/QmeGwRiy1MBiH7vBgvVawpFMc5bWLL1iiqmLmaJp3LyaZ6) - will expose a simplified Pinning API for storing and retrieving data, may use Powergate under the hood. (Currently in development.)
 
 For native IPFS users, Filecoin currently also offers ways to [pull data from remote IPFS nodes](https://github.com/filecoin-project/lotus/pull/1843).
