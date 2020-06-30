@@ -17,6 +17,7 @@ Deadline for Wave 4 proposals: **July 1st, 2020 23:59 PDT**
   - [Devnet scripts](#devnet-scripts)
   - [Crosschain integrations](#crosschain-integrations)
   - [Simple lotus block explorer update](#simple-lotus-block-explorer-update)
+  - [Shared Blocklists of content CIDs](#shared-blocklists-of-content-cids)
 
 - Other Ideas
   
@@ -131,6 +132,7 @@ A pluggable remote signing module that supports HSMs would allow Filecoin miners
 *Other notes*
 - The Remote Signer module can be a small Docker.
 - Node keys for storage deals are out of scope (but could be added).
+- [Filecoin signing tools](https://github.com/zondax/filecoin-rs) is an existing standalone library that includes BLS signing and can be a locus for a remote signer / KMS.
 
 Support for a various HSMs will be considered as this increases security biodiversity e.g. Ledger Nano X, YubiHSM2, USB Armory, iMX8, cloud vaults, etc. PCIe and rack HSMs integrations may be considered but they are expensive options for miners.)
 
@@ -178,7 +180,11 @@ A prior example is an Ethereum smart contract event listener that triggers an IP
 
 *Confirming Storage Status*
 
-A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-3-rfps.md#filecoin-cid-checker-and-storage-oracle) is being built that can serve as a storage oracle via API of the status of a specific data CID on Filecoin, pulled from the latest state.
+A [Filecoin data CID checker](https://github.com/filecoin-project/devgrants/blob/master/rfps/wave-3-rfps.md#filecoin-cid-checker-and-storage-oracle) is being built that can serve as a storage oracle via API of the status of a specific data CID on Filecoin, pulled from the latest state.
+
+*Payments*
+
+How crosschain payments should work is an ongoing question. This could be solved by an infrastructure service provider in the near-term. We expect payments and micropayments for infrastructure services to be an interesting area to explore in the future after launch.
 
 &nbsp;
 
@@ -193,6 +199,16 @@ We would like to see this simple explorer updated to the current lotus API and t
 This explorer originally presented details about Filecoin actors (current core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, as well as information contained in blocks. ([Screenshots are available here](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W).)
 
 This explorer can make a great tutorial on interacting with the Filecoin JSON RPC API. If interested, please add that to your proposal.
+
+&nbsp;
+
+### Shared Blocklists of Content CIDs
+
+lotus Filecoin has added the ability for miners to create blocklists of content piece CIDs they do not want to store or serve retrieval requests for (See [lotus PR 2069](https://github.com/filecoin-project/lotus/pull/2069)). This may be required for miners to comply with local law enforcement requests (which lists to respect and which items to block are entirely up to the miner operator).
+
+This RFP is for a way for blocklists to be shared by the community, potentially with some basic metadata around the reasons for blocklisting. A way for community members to propose CIDs to blocklist would also be useful.
+
+
 
 &nbsp;
 
