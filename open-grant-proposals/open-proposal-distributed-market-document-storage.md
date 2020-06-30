@@ -1,6 +1,6 @@
-# Open Grant Proposal: distributed market documentation
+# Open Grant Proposal: distributed market document storage
 
-**Name of Project:**  distributed market documentation storage
+**Name of Project:**  distributed market document storage
 
 **Proposal Category:** Choose one of `app-dev`
 
