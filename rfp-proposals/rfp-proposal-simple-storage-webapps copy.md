@@ -14,9 +14,7 @@
  
 The RFP states that Filecoin would like single page apps that demonstrate how to use Filecoin to store and retrieve files. These apps would act as visual tutorials to new users and lessen the difficulty of entry.
  
-The purpose of this proposal is to create a web application that simulates the storage and retrieval of files in filecoin. This will be achieved by building a simple and user friendly web application that interfaces with filecoin's testnet.
- 
-By using the testnet, OpenBound can create an application that will accurately simulate file transfer over the filecoin network.
+The purpose of this proposal is to create a web application that simulates the storage and retrieval of files in filecoin. This will be achieved by building a simple and user friendly web application that is compliant with filecoins specification.
  
  
 ## Deliverables
@@ -77,7 +75,7 @@ By using the testnet, OpenBound can create an application that will accurately s
  
 ## Maintenance and Upgrade Plans
  
-The OpenBound team will provide 3 months of moderate to critical bug maintenance after the delivery of the product. OpenBound is open to further grants in regards to future upgrades and maintenance.
+The OpenBound team will provide 2 months of moderate to critical bug maintenance after the delivery of the product. OpenBound is open to further grants in regards to future upgrades and maintenance.
  
 # Team
  
