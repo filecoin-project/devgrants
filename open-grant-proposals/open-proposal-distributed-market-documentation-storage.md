@@ -26,10 +26,10 @@ Expansion of distributed exchanges from tokens to tokenized general goods and se
 
 |Deliverable|description|
 |:---:|---|
-|Deliverable 1|(a) An api enabling storage purchase for description documents bound to buy or sell offers in a public market|
+|1|(a) An api enabling storage purchase for description documents bound to buy or sell offers in a public market|
 ||(b) A browser ui talking to the (a)|
-|Deliverable 2|Colocated Filecoin server requesting storage offers and executing available deals under cli control|
-|Deliverable 3|Revision of user experience based on learnings in 1 & 2|
+|2|Colocated Filecoin server requesting storage offers and executing available deals under cli control|
+|3|Revision of user experience based on learnings in 1 & 2|
 
 ## Development Roadmap
 
@@ -46,13 +46,12 @@ Since this is the roadmap section, I'll finish by mentioning that blockchain alg
 
 ## Total Budget Requested
 
-Deliverable Time(mo) Cost($K)
-  1             1       5
-  2             1       5
-  3             2       10
-  
-  Total elapsed time: 4 mos
-  Total cost:         $20K
+|Deliverable|Time(mo)|Cost($K)|
+|:---:|:---:|---:|
+|1|1|5|
+|2|1|5|
+|3|2|10|
+|total|4|$20|
 
 I would appreciate early payments corresponding with any early delivery.
 
