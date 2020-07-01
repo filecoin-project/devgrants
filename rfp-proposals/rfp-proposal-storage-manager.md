@@ -175,14 +175,14 @@ We are a team of six with expertise in providing different full-stack blockchain
 Visit this [link](https://drive.google.com/drive/folders/1DicTvie0funiP_MDhOjwwvxqVGDt5702?usp=sharing) to see our relevant UI portfolio screenshots from multiple projects.
 
 ## Team code repositories
-[sourcify](https://github.com/ethereum/sourcify/pull/201) - new UI (PR in progress, images in comments)
-[source-verify](https://github.com/ethereum/source-verify) - utility to check integrity of deployed smart contracts on Ethereum blockchain (same project as sourcify, just above is the UI that you can take a look from design perspective)
-[ZoKrates](https://github.com/Zokrates/ZoKrates) - a toolbox for zkSNARKs on Ethereum
-[ink-remix-plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) - plugin for Remix IDE used for creating and building ink polkadot smart contracts straight from browser. It uses a websocket connection to the backend and controls ink cli while showing real time updates in the plugin.
-[zokrates-remix-plugin](https://github.com/blockchain-it-hr/zokrates-remix-plugin) - frontend implementation of ZoKrates
-[remixd](https://github.com/blockchain-it-hr/remixd) - service for Remix IDE that allows file manager access to local storage
-[shardlabs](https://github.com/Shard-Labs/) - company repository
-[blockchainit](https://github.com/blockchain-it-hr/) - company repository before rebranding
+[sourcify](https://github.com/ethereum/sourcify/pull/201) - new UI (PR in progress, images in comments)  
+[source-verify](https://github.com/ethereum/source-verify) - utility to check integrity of deployed smart contracts on Ethereum blockchain (same project as sourcify, just above is the UI that you can take a look from design perspective)  
+[ZoKrates](https://github.com/Zokrates/ZoKrates) - a toolbox for zkSNARKs on Ethereum  
+[ink-remix-plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) - plugin for Remix IDE used for creating and building ink polkadot smart contracts straight from browser. It uses a websocket connection to the backend and controls ink cli while showing real time updates in the plugin.  
+[zokrates-remix-plugin](https://github.com/blockchain-it-hr/zokrates-remix-plugin) - frontend implementation of ZoKrates  
+[remixd](https://github.com/blockchain-it-hr/remixd) - service for Remix IDE that allows file manager access to local storage  
+[shardlabs](https://github.com/Shard-Labs/) - company repository  
+[blockchainit](https://github.com/blockchain-it-hr/) - company repository before rebranding  
 
 # Additional Information
 
