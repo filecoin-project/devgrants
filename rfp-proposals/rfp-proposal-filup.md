@@ -1,14 +1,14 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
 
-# RFP Proposal: `Project Title`
+# RFP Proposal: `FilUp`
 
 **Name of Project:**
 
 **Link to RFP:** Please link to the RFP that you are submitting a proposal for.
 
-**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`
+**RFP Category:** Choose one of `devtools-libraries`
 
-**Proposer:** `replace with your GitHub username`
+**Proposer:** `vvkio`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
@@ -38,39 +38,39 @@ Sum up the total requested budget across all milestones, and include that figure
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+We have started minefilecoin.io with the mission to support miners and developers with tools that will allow Filecoin to achieve the necessary QoS to be a viable replacemet for the current internet infrastrcture, this is just one of the efforts that will be required to get to that point and we will happly maintain it as we will be users of the same.
 
 # Team
 
 ## Contact Info
 
-Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
+io@vvk.io
 
 ## Team Members
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
+- Vukasin Vukoje
+- Igor Svilenkov Božić
 - ...
 
 ## Team Member LinkedIn Profiles
 
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
-- ...
+- [Vukašin Vukoje](http://linkedin.com/in/vvkio/)
+- [Igor Svilenkov Božić](https://ipfs.io/ipfs/QmYmxjToxg4fKeTqsXAfWigRTXBJK2YDxxFncVFJLpnxB8)
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+[minefilecoin.io](https://minefilecoin.io)
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+I was founder of Tenderly, a smart contracts development tools platform where I spent the last 2 years developing infrastructure that helps Ethereum developers build smart contract more effectivelly, this included monitoring, alerts, gas profilers, analytics and debugging functionalities. I also competed in several ETHGlobal hackathons where I was winner of (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo].
 
 ## Team code repositories
 
-Please provide links to your team's prior code repos for similar or related projects.
+Some of my previous work/experiences
+(Smart Contracts explorer)[dashboard.tenderly.co]
+(Smart Contracts alerting ETH Berlin 2018 Winner)[https://devpost.com/software/smart-alert-s5p1zw]
+(Hot module reload for solidity)[https://devpost.com/software/zippo]
 
 # Additional Information
 
