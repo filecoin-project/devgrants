@@ -4,7 +4,7 @@ Filecoin will be launching mainnet in about 2 months: [current gantt chart](http
 
 We are seeking proposals for the following RFPs for Wave 4 of the Dev Grant program.
 
-Deadline for Wave 4 proposals: **July 1st, 2020 23:59 PDT**
+The deadline for Wave 4 proposals is **July 1st, 2020 at 23:59 PDT** for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.
 
 ## RFP Ideas
 
@@ -254,7 +254,7 @@ Proposals should include:
 
 We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md)
 
-To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by July 1st 23:59 PDT.
+To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by July 1st 23:59 PDT (for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.)
 
 &nbsp;
 

@@ -1,6 +1,8 @@
 # Filecoin Devgrants
 
-> **The Wave 4 grant proposal deadline is July 1, 2020 at 23:59 PDT.**
+> **The Wave 4 grant proposal deadline is July 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.**
+
+> **Wave 5 proposals will be due October 1st.**
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
@@ -10,23 +12,25 @@
 
 > **Note:** The Filecoin Project is still under active development, and the Filecoin network has not yet launched. You can see updates about major project milestones on [the Filecoin blog](https://filecoin.io/blog).
 
-- [🥅 Goals of Filecoin Devgrants](#-goals-of-filecoin-devgrants)
-- [🔎 What we fund](#-what-we-fund)
-  - [Types of grants](#types-of-grants)
-  - [Categories](#categories)
-- [📋 How to apply](#-how-to-apply)
-  - [Timing and Deadlines](#timing-and-deadlines)
-  - [Eligibility](#eligibility)
-  - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
-  - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
-- [⌛ After you apply](#-after-you-apply)
-- [🎟️ Submit an RFP](#%EF%B8%8F-submit-an-rfp)
-- [ℹ️ Help](#ℹ️-help)
-- [License](#license)
+- [Filecoin Devgrants](#filecoin-devgrants)
+  - [🥅 Goals of Filecoin Devgrants](#-goals-of-filecoin-devgrants)
+  - [🔎 What we fund](#-what-we-fund)
+    - [Types of grants](#types-of-grants)
+    - [Categories](#categories)
+      - [Technical Areas](#technical-areas)
+  - [📋 How to apply](#-how-to-apply)
+    - [Timing and Deadlines](#timing-and-deadlines)
+    - [Eligibility](#eligibility)
+    - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
+    - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
+  - [⌛ After you apply](#-after-you-apply)
+  - [🎟️ Submit an RFP](#️-submit-an-rfp)
+  - [ℹ️ Help](#ℹ️-help)
+  - [License](#license)
 
 > This page is also available in [Chinese (中文)](./README-Chinese.md).
 
-## 🥅 Goals of Filecoin Devgrants 
+## 🥅 Goals of Filecoin Devgrants
 
 To date, the Filecoin project has focused primarily on research, specification and implementation of a decentralized storage network protocol. Throughout this process we have been fortunate to work with incredible community members and contributors. Some are already building tools on the budding network in active development.
 
@@ -37,7 +41,7 @@ We created the Filecoin Dev Grants program to:
 
 We’re looking to fund talented and eager teams that want to work with us to build a more robust, efficient, and decentralized web.
 
-## 🔎 What we fund 
+## 🔎 What we fund
 
 ### Types of grants
 
