@@ -38,47 +38,50 @@ This project is independent, however it can also be seen as phase 2 of a larger 
 
 Expense estimate $30,000 USD
 
-OCR services
-H2O.ai license
-Cloud Provisioning
-Full Time engineer
-Supplemental Engineer
-Project Mgr Supplemental Expenses
-Crowdwork Budget (Mechanical Turk)
-International Federation of Library Associations and Institutions (IFLA) Membership
-Website
-ML Classifier based on 4 countries, 1 classifier set per country
-ML Libraries, training classifiers:
-Website build backed by database
+- OCR services
+- H2O.ai license
+- Cloud Provisioning
+- Full Time engineer
+- Supplemental Engineer
+- Project Mgr Supplemental Expenses
+- Crowdwork Budget (Mechanical Turk)
+- International Federation of Library Associations and Institutions (IFLA) Membership
+- Website
+- ML Classifier based on 4 countries, 1 classifier set per country
+- ML Libraries, training classifiers:
+- Website build & research database
 
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+This proposal is to collect and host the legislative reports from only 4 countries. Once completed we will accept funding from private practises that wish to be associated with the content and provide them with recognition, and consider partnerships with academic and archival institutions including archive.org and public.resource.org and the yet to be formed UN library lab.
 
 # Team
 
 ## Team Members
 
+- Bill Marczak
 - Antoine McGrath
 
 ## Team Member LinkedIn Profiles
 
+- https://www.linkedin.com/in/bill-marczak-46535456
 - https://www.linkedin.com/in/antoinemcgrath/
 
 ## Team Website
 
-https://antoinemcgrath.com/Gov_Research_Services_Help.html
+- https://www.Congress.ai
+- https://antoinemcgrath.com/Gov_Research_Services_Help.html
 
 ## Relevant Experience
 
-Post Internet Archive I designed a related workflow to Congress.ai for the US congressional research service which resulted in CRSReports.com This resource was profiled in the Washington Post and has become a cited resource by more than a dozen law libraries and internally by several US government agencies.
+Post Internet Archive Antoine designed a related workflow to Congress.ai for the US congressional research service which resulted in CRSReports.com This resource was profiled in the Washington Post and has become a cited resource by more than a dozen law libraries and internally by several US government agencies. Bill co-creator of CRSReports.com is a Postdoctoral Researcher at UC Berkeley, where he received a PhD in Computer Science. Bill is a Senior Research Fellow at Citizen Lab, a co-founder of Bahrain Watch. His focus is on novel technological threats to Internet freedom, including new censorship and surveillance tools. His expertise in Internet scanning and conducting digital investigations has been featured in Vanity Fair, the New York Times, the Washington Post, on CNN, and on Larry King.
 
 
 ## Team code repositories
 
-https://crsreports.com/
-https://github.com/antoinemcgrath?tab=repositories
+- https://crsreports.com/
+- https://github.com/antoinemcgrath?tab=repositories
 
 # Additional Information
 
