@@ -133,7 +133,7 @@ Project duration: 9 weeks
 
 ## Maintenance and Upgrade Plans
 
-Any updates needed to ensure the Devnet Scripts work for a latest implementation of Filecoin network should be performed at no additional cost unless Filecoin nodes or Filecoin Network have undergone significant changes since Protofire’s commencement of the project. In this case, Protofire will request additional funding should the changes implementation require more than 10 hours/month.
+Any updates needed to ensure the Devnet Scripts work for a latest implementation of Filecoin network should be performed at no additional cost unless Filecoin nodes or Filecoin Network have undergone significant changes since Altoros’s commencement of the project. In this case, Altoros will request additional funding should the changes implementation require more than 10 hours/month.
 
 
 # Team
