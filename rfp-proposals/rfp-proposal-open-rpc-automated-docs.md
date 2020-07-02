@@ -61,7 +61,7 @@ We will provide guidance and help spinning any of these up for you.
  Founder) (@belfordz)
 - Zane Starr (ETCLabs , Formerly Technical Lead of
     Cellarius at Consensys)(@zcstarr)
-- Shane Jonas (Advisor - Tooling Team Co-Lead - ETCLabs - OpenRPC Founder )(@shanejonas)
+- Shane Jonas (Tooling Team Co-Lead - ETCLabs - OpenRPC Founder )(@shanejonas)
 
 ## Team Website
 https://etccore.io/
