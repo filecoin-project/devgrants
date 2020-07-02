@@ -12,7 +12,27 @@
 
 # Project Description
 
-WIP... will commit a bit later.
+The goal of this project is to create registry for sharing CID block lists on Substrate.
+
+We are going to keep the list of blocked CIDs in Substrate runtime storage.
+This will allow blockchain logic of Substrate modules (pallets) and smart contracts access the block lists
+and make their own decision whether they want to accept the CIDs that are blocked here or there.
+
+Such blocking functionality need specific extrinsics (transaction functions in terms of Substrate) to manage the lists of CIDs:
+- block_cids(space_id, cids)
+- unblock_cids(space_id, cids)
+- how many times has CID been blocked?
+- get the list of space ids that blocked this CID
+
+Additionally I would implement a management of trust list of CIDs.
+For example there could be some authorities that represent law enforcement of a country
+and maybe they will come up with decisions on some controversial CIDs.
+Then they would be able to add those CIDs to their space and others could refer to the trust lists when they are unsure about the CID.
+
+I would also make it possible to use an enum to specify a block reason: Spam, Child abuse, Hate speech, etc.
+Only having this info about trusted/blocked CIDs on chain would allow to use them in blockchain logic or in smart contracts on Substrate.
+
+Also we have created flexible Roles and Permissions modules where the space owner can specify what account could manage block lists. This is also an essential feature because it allows to create for example "Content Moderator" role, grant it to some accounts and they will be able to block and/or unblock and/or make trusted CIDs.
 
 ## Deliverables
 
@@ -51,12 +71,15 @@ https://github.com/dappforce/dappforce-subsocial-runtime/commits?author=F3Joule
 
 [Alex Siman](https://www.linkedin.com/in/alexsiman/)
 
+Oleh and Vlad don't have LinkedIn accounts.
+
 ## Team Website
 
 [DappForce dev team](https://github.com/dappforce)
 
 ## Relevant Experience
 
+Alex Siman (the author of this proposal) is a founder and CTO of [Subsocial](http://subsocial.network/) – an open protocol for decentralized censorship-resistant social networks built with Substrate and IPFS. Our development is supported by **Web3 Foundation** grants program and we are particiapant of **Substrate Builders Program** from Parity. We already use IPFS in our architecture: when people write posts and comments, first, their content get stored in IPFS and then we create the entry for every post/comment in Substrate with provided IPFS CID of their content.
 
 ## Team code repositories
 
