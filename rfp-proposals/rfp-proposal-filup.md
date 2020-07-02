@@ -1,10 +1,10 @@
-# RFP Proposal: `FilUp`
+# RFP Proposal: `Devnet Scripts - FilUp` 
 
-**Name of Project:**
+**Name of Project:** FilUp
 
 **Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md#devnet-scripts
 
-**RFP Category:** Choose one of `devtools-libraries`
+**RFP Category:** `devtools-libraries`
 
 **Proposers:** `vvkio`, `svilenkov` 
 
@@ -79,15 +79,15 @@ io@vvk.io
 
 ## Relevant Experience
 
-I was a founder of Tenderly, a smart contracts development platform where I spent the last 2 years developing infrastructure that helps Ethereum developers build smart contracts more effectively, this included monitoring, alerts, gas profilers, analytics and debugging functionalities. I also competed in several ETHGlobal hackathons where I was winner of (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo]. Our team was also an early user of Docker and Kubernetes and held (several talks)[https://www.youtube.com/watch?v=S8Oo5Db4bsA] back in 2015.
+I was a founder of Tenderly, a smart contracts development platform where I spent the last 2 years developing infrastructure that helps Ethereum developers build smart contracts more effectively, this included monitoring, alerts, gas profilers, analytics and debugging functionalities. I also competed in several ETHGlobal hackathons where I was winner of [ETHBerlin 2018](https://devpost.com/software/smart-alert-s5p1zw) and [ETHParis](https://devpost.com/software/zippo). Our team was also an early user of Docker and Kubernetes and held several [talks](https://www.youtube.com/watch?v=S8Oo5Db4bsA) back in 2015.
 
 ## Team code repositories
 
 Some of the previous products/hacks members of our team has worked on:
-- (Smart Contracts explorer)[dashboard.tenderly.co]
-- (Smart Contracts alerting ETH Berlin 2018 Winner)[https://devpost.com/software/smart-alert-s5p1zw]
-- (Hot module reload for solidity)[https://devpost.com/software/zippo]
+- [Smart Contracts explorer](dashboard.tenderly.co)
+- [Smart Contracts alerting ETH Berlin 2018 Winner](https://devpost.com/software/smart-alert-s5p1zw)
+- [Hot module reload for solidity](https://devpost.com/software/zippo)
 
 # Additional Information
 
-Our team has worked on a similar project for (deploying Binance Chain)[https://www.youtube.com/watch?v=T5bkXKNd1MM]
+Our team has worked on a similar project for [deploying Binance Chain](https://www.youtube.com/watch?v=T5bkXKNd1MM)
