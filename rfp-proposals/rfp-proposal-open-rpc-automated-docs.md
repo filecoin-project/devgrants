@@ -2,7 +2,7 @@
 
 ### Proposal Category: devtools-libraries, docs
 
-### Proposer: @zcstarr
+### Proposers: @zcstarr , @meowbits, @shanejonas, @belfordz
 
 ## Abstract
 ### What is this?
