@@ -1,8 +1,6 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+# Open Grant Proposal: `CID Commenting`
 
-# Open Grant Proposal: `Project Title`
-
-**Name of Project:**
+**Name of Project:** CID Commenting
 
 **Proposal Category:** `app-dev`
 
