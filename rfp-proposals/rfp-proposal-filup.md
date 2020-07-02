@@ -1,44 +1,61 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
-
 # RFP Proposal: `FilUp`
 
 **Name of Project:**
 
-**Link to RFP:** Please link to the RFP that you are submitting a proposal for.
+**Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md#devnet-scripts
 
 **RFP Category:** Choose one of `devtools-libraries`
 
-**Proposer:** `vvkio`
+**Proposers:** `vvkio`, `svilenkov` 
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** YES
 
 # Project Description
 
-Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
-
-This section should be 2-3 paragraphs long.
+Automation of Devnet deployment, providing a tool for developers to start building Apps on Filecoin with minimal friction. For this use case we propose to build automation with Docker compose as there is a high number of developers that do not have a k8s cluster at their disposal. 
 
 ## Deliverables
-
-Please describe in details what your final deliverable for this project will be.
+ - Allow users to setup a Devnet with docker compose (nodes,  genesis miner, explorer)
+ - Configure parameters
 
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. You can use the milestones suggested in the RFP or create your own. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
+ ### Milestone 1 - Docs and preparation
 
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
+ 	 * 1 team member
+ 	 * 1 week
+ 	 * 1000$
+
+Goal: Write docs and prepare for development
+
+ ### Milestone 2 - Docker compose automation 
+ 
+ 	* 2 team members
+ 	* 3 week
+ 	* 6000$  
+
+Goal: Configuration files for: bootstrap, faucet, miner and explorer nodes.
+
+
+ ### Milestone 3 - Configuration and improved development experience
+ 
+ 	* 1 team members
+ 	* 2 week
+ 	* 2000$  
+
+Goals: Develop CLI for configuration of the automation scripts:
 
 ## Total Budget Requested
 
-Sum up the total requested budget across all milestones, and include that figure here. Ensure that it does not exceed the total funding limit on the RFP.
+ - Milestone 1: $1,000
+ - Milestone 2: $6,000
+ - Milestone 3: $2,000
+
+ Total: $9,000
 
 ## Maintenance and Upgrade Plans
 
-We have started minefilecoin.io with the mission to support miners and developers with tools that will allow Filecoin to achieve the necessary QoS to be a viable replacemet for the current internet infrastrcture, this is just one of the efforts that will be required to get to that point and we will happly maintain it as we will be users of the same.
+We have started minefilecoin.io with the mission to support miners and developers with tools that will allow our community to build a reliable network, with the necessary QoS to be a become widely spread, this is one of the core efforts required to get to that point, we will happily keep maintaining it as we will heavy users of it.
 
 # Team
 
@@ -50,7 +67,6 @@ io@vvk.io
 
 - Vukasin Vukoje
 - Igor Svilenkov Božić
-- ...
 
 ## Team Member LinkedIn Profiles
 
@@ -63,15 +79,15 @@ io@vvk.io
 
 ## Relevant Experience
 
-I was founder of Tenderly, a smart contracts development tools platform where I spent the last 2 years developing infrastructure that helps Ethereum developers build smart contract more effectivelly, this included monitoring, alerts, gas profilers, analytics and debugging functionalities. I also competed in several ETHGlobal hackathons where I was winner of (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo].
+I was a founder of Tenderly, a smart contracts development platform where I spent the last 2 years developing infrastructure that helps Ethereum developers build smart contracts more effectively, this included monitoring, alerts, gas profilers, analytics and debugging functionalities. I also competed in several ETHGlobal hackathons where I was winner of (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo]. Our team was also an early user of Docker and Kubernetes and held (several talks)[https://www.youtube.com/watch?v=S8Oo5Db4bsA] back in 2015.
 
 ## Team code repositories
 
-Some of my previous work/experiences
-(Smart Contracts explorer)[dashboard.tenderly.co]
-(Smart Contracts alerting ETH Berlin 2018 Winner)[https://devpost.com/software/smart-alert-s5p1zw]
-(Hot module reload for solidity)[https://devpost.com/software/zippo]
+Some of the previous products/hacks members of our team has worked on:
+- (Smart Contracts explorer)[dashboard.tenderly.co]
+- (Smart Contracts alerting ETH Berlin 2018 Winner)[https://devpost.com/software/smart-alert-s5p1zw]
+- (Hot module reload for solidity)[https://devpost.com/software/zippo]
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
+Our team has worked on a similar project for (deploying Binance Chain)[https://www.youtube.com/watch?v=T5bkXKNd1MM]
