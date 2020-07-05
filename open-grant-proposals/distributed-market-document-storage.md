@@ -2,7 +2,7 @@
 
 **Name of Project:**  distributed market document storage
 
-**Proposal Category:** Choose one of `app-dev`
+**Proposal Category:** `app-dev`
 
 **Proposer:** brianebert
 
