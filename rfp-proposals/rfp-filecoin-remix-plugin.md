@@ -1,78 +1,132 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
+# RFP Proposal: `Lighthouse`
 
-# RFP Proposal: `Project Title`
+**Name of Project:** Lighthouse
 
-**Name of Project:**
+**Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md#crosschain-integrations
 
-**Link to RFP:** Please link to the RFP that you are submitting a proposal for.
+**RFP Category:** `devtools-libraries`
 
-**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`
+**Proposer:** [@vasa-develop](https://github.com/vasa-develop)
 
-**Proposer:** `replace with your GitHub username`
-
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
-Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
+Inspired by the [Quasar](https://github.com/openworklabs/quasar) project, we propose "Lighthouse", a smart contract based FPS storage.
 
-This section should be 2-3 paragraphs long.
+We will also provide a [Remix Plugin](https://github.com/ethereum/remix-plugin) which will act as an UI interface for Lighthouse.
+
+### How Lighthouse Works?
+
+Below is an overview of how Lighthouse will work:
+
+![Lighthouse Architecture](https://i.pinimg.com/originals/71/d1/51/71d151494d2c787d05e08267ca0f4026.png)
+
+1. Lighthouse listens to [smart contracts](#contracts) events for the CIDs that a user wants to be stored.
+
+2. The events are then indexed using [Graph Protocol](https://thegraph.com/).
+
+3. The indexed CIDs will then be stored using [Filecoin-backed IPFS pinning service(s) or (FPS)](https://docs.google.com/document/d/1CcNWIPp-xQr-21W2buN_ZUN7aOA4kWrPFgsUYY0cfuI/edit).
+
+### Contracts
+
+We will have following 4 contracts:
+
+1. `FpsRegistryInterface.sol`: Defines basic functions that should be supported by the `FpsRegistry.sol` contract.
+2. `FpsRegistry.sol`: Manages a list of `Fps.sol` contracts. In other words, you can register your FPS in `FpsRegistry.sol`
+3. `FpsInterface.sol`: Defines the basic functions that should be supported by the `Fps.sol` contract.
+4. `Fps.sol`: Provides functions that augument the functionality of a FPS via the smart contract functions. This includes functions like `addCID`, `listCIDs`, etc.
+
+### Event Indexing
+
+Lighthouse will use Graph nodes to listen for the contract events and index the relevant inforamtion (like CIDs, FPS config, etc.) that will be used by Lighthouse to store data on the FPS.
+
+### Data Storage
+
+Lighthouse will use the data indexed by the Graph nodes to store data with desired configuration in the selected FPS. As an example, we will register a [Textile Powergate](https://docs.textile.io/powergate/) as a FPS.
+
+Summing up, Lighthouse will consist of a Lighthouse node (preferably a Typescript project) and infrastructure (Graph node and Powergate FPS). The Lighthouse node will expose HTTP endpoints which can be used to access by a HTTP client node module (js-lighthouse) which can be used by the Front end applications (to access the Lighthouse HTTP endpoints).
+
+We will have a Remix Plugin that will act as an UI interface for the Lighthouse node.
 
 ## Deliverables
 
-Please describe in details what your final deliverable for this project will be.
+1. Smart Contracts that are listed above.
+2. A Graph node module that listens and indexes the smart contract events.
+3. A FPS module that stores data from inputs from the Graph node module.
+4. A Lighthouse node codebase written in TypeScript with unit tests (includes the above 3 components).
+5. A HTTP client for Lighthouse node (js-lighthouse).
+6. A Remix Plugin that serves as an interface for the Lighthouse node.
+7. Full Documentation for Lighthouse node.
+8. Full Documentation for Remix Plugin.
+9. Tutorial for Lighthouse node.
+10. Tutorial for Remix Plugin.
+11. Demo video for using Lighthouse node.
+12. Demo video for using Remix Plugin.
 
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. You can use the milestones suggested in the RFP or create your own. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
+| No. | Milestone                                                                                                     | Funding | Estimated Timeframe |
+| --- | ------------------------------------------------------------------------------------------------------------- | ------- | ------------------- |
+| 1   | Research Phase: Creating rough specs for the overall Lighthouse project and architecture                      | \$3,000 | 1 week              |
+| 2   | Creating Smart contracts and Graph node module                                                                | \$9,000 | 3 weeks             |
+| 3   | Creating a modular FPS module, that can support different FPS. For our implementation, we will use Powergate. | \$9,000 | 3 weeks             |
+| 4   | Integrating the Graph node module with FPS module, and, creating js-lighthouse.                               | \$6,000 | 2 weeks             |
+| 5   | Creating Remix Plugin, which talks to the Lighthouse node                                                     | \$6,000 | 2 weeks             |
+| 6   | Creating all documentation, tutorials, and videos                                                             | \$3,000 | 1 weeks             |
 
-For each milestone, please describe:
-
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
+During the course of the project, I (Vaibhav) will be the developer involved in the project. I will also act as the point of contact to the Filecoin devgrants team for updating them on the progress.
 
 ## Total Budget Requested
 
-Sum up the total requested budget across all milestones, and include that figure here. Ensure that it does not exceed the total funding limit on the RFP.
+\$36,000
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+I'm ready to maintain the implementation for this year through the mainnet launch (and through any future Filecoin/Ethereum network updates)
 
 # Team
 
 ## Contact Info
 
-Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
+Email: [vasa@dappkit.io](mailto:vasa@dappkit.io)
 
 ## Team Members
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
-- ...
+- [Vaibhav Saini (vasa)](https://github.com/vasa-develop)
 
 ## Team Member LinkedIn Profiles
 
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
-- ...
+- [Vaibhav Saini (vasa)](https://www.linkedin.com/in/vasadev/)
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+[dappkit.io](https://dappkit.io)
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+Vaibhav has been working in the DWeb space for 3 years. He has been running a startup ([Signy Advanced Technologies](https://signy.io)) since 2018, and multiple open-source projects involving projects like Ethereum, Quorum, Hashgraph, Stellar, IPFS, Filecoin, OrbitDB, and many more.
 
 ## Team code repositories
 
-Please provide links to your team's prior code repos for similar or related projects.
+- [ipfs-cluster/js-cluster-client](https://github.com/ipfs-cluster/js-cluster-client): Maintainer of official Javascript client library for the IPFS Cluster HTTP API.
 
-# Additional Information
+- [Filecoin Shipyard](https://github.com/filecoin-shipyard/): Built a few tutorials for Filecoin Docs.
 
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
+  - [powergate-pinning-service](https://github.com/filecoin-shipyard/powergate-pinning-service)
+  - [lotus-devnet](https://github.com/filecoin-shipyard/lotus-devnet)
+  - [filecoin-network-inspector](https://github.com/filecoin-shipyard/filecoin-network-inspector)
+  - [meme-marketplace](https://github.com/filecoin-shipyard/meme-marketplace)
+
+- [Cluster Labs](https://github.com/cluster-labs): A suite of open-source projects DWeb focussed on end users, including:
+
+  - [IPFS Cloud](https://github.com/cluster-labs/ipfscloud-web): Google drive using IPFS
+  - [Quasar](https://www.youtube.com/watch?v=4HaE7QKvoZM): Search engine for IPFS
+  - [IPFS Docs](https://github.com/cluster-labs/ipfscloud-web/tree/production/app/ipfsdocs): Google docs using IPFS
+  - [Horizon](https://github.com/cluster-labs/horizon): Dashboard for managing IPFS cluster
+
+- [Dappkit](https://github.com/cluster-labs): Firebase for Web 3.0. Tools, libraries, and infrastructure for Web 3.0 developers.
+
+  - [AvionDB](https://github.com/dappkit/aviondb): A distributed, MongoDB-like database
+
+- A lot of work related to Ethereum, Quorum, and other Blockchains, some of which is [open-sourced](https://github.com/vasa-develop?tab=repositories&q=eth&type=&language=), and some of which is proprietary.
