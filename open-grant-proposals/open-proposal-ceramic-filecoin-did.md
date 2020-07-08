@@ -40,7 +40,7 @@ The single risk I (`@ukstv`) see is inability to  [import key to Powergate](http
 
 ## Deliverables
 
-1. Expanded `3id-blockchain-utils` with support for Filecoin keys: `createLink`, `validateLink`, `authenticate` functions.
+1. Expanded `3id-blockchain-utils` with support for Filecoin keys: `createLink`, `validateLink`, `authenticate` functions. Handles signing through [filecoin-signing-tools](https://github.com/Zondax/filecoin-signing-tools).
 2. Linking client - CLI tool that accepts Filecoin key and links it to existing Ceramic DID using `3id-blockchain-utils` ; should cover:
    - accepting hex BLS, secp256k1 key,
    - accepting seed phrase,
