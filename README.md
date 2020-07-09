@@ -1,5 +1,9 @@
 # Filecoin Devgrants
 
+> **The Wave 4 grant proposal deadline is July 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.**
+
+> **Wave 5 proposals will be due October 1st.**
+
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
 </p>
@@ -8,21 +12,25 @@
 
 > **Note:** The Filecoin Project is still under active development, and the Filecoin network has not yet launched. You can see updates about major project milestones on [the Filecoin blog](https://filecoin.io/blog).
 
-- [🥅 Goals of Filecoin Devgrants](#-goals-of-filecoin-devgrants)
-- [🔎 What we fund](#-what-we-fund)
-  - [Types of grants](#types-of-grants)
-  - [Categories](#categories)
-- [📋 How to apply](#-how-to-apply)
-  - [Timing and Deadlines](#timing-and-deadlines)
-  - [Eligibility](#eligibility)
-  - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
-  - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
-- [⌛ After you apply](#-after-you-apply)
-- [🎟️ Submit an RFP](#%EF%B8%8F-submit-an-rfp)
-- [ℹ️ Help](#ℹ️-help)
-- [License](#license)
+- [Filecoin Devgrants](#filecoin-devgrants)
+  - [🥅 Goals of Filecoin Devgrants](#-goals-of-filecoin-devgrants)
+  - [🔎 What we fund](#-what-we-fund)
+    - [Types of grants](#types-of-grants)
+    - [Categories](#categories)
+      - [Technical Areas](#technical-areas)
+  - [📋 How to apply](#-how-to-apply)
+    - [Timing and Deadlines](#timing-and-deadlines)
+    - [Eligibility](#eligibility)
+    - [Submit a proposal for an RFP](#submit-a-proposal-for-an-rfp)
+    - [Submit a proposal for open grants](#submit-a-proposal-for-open-grants)
+  - [⌛ After you apply](#-after-you-apply)
+  - [🎟️ Submit an RFP](#️-submit-an-rfp)
+  - [ℹ️ Help](#ℹ️-help)
+  - [License](#license)
 
-## 🥅 Goals of Filecoin Devgrants 
+> This page is also available in [Chinese (中文)](./README-Chinese.md).
+
+## 🥅 Goals of Filecoin Devgrants
 
 To date, the Filecoin project has focused primarily on research, specification and implementation of a decentralized storage network protocol. Throughout this process we have been fortunate to work with incredible community members and contributors. Some are already building tools on the budding network in active development.
 
@@ -33,7 +41,7 @@ We created the Filecoin Dev Grants program to:
 
 We’re looking to fund talented and eager teams that want to work with us to build a more robust, efficient, and decentralized web.
 
-## 🔎 What we fund 
+## 🔎 What we fund
 
 ### Types of grants
 
@@ -51,6 +59,13 @@ All of our RFPs and open grants fund work in a few core categories. Over time, t
 - **Technical design**: The Filecoin protocol will continue to evolve over time. Several planned protocol upgrades are already being researched, but we want to find the best technical designs for these planned upgrades and for ideas that aren't currently on our radar. This type of technical design work can be improvements to our core storage protocol, cryptoeconomics design, and more! Relevant proposals will be labeled [`category:technical-design`](https://github.com/filecoin-project/devgrants/labels/category%3Atechnical-design).
 - **Documentation**: Having great documentation is crucial for any open-source project and development platform. This category includes how-to guides, protocol concepts, API docs, and more. If you think we need to create or improve existing documentation, please submit a proposal or apply to one of our open docs RFPs! Relevant proposals will be labeled [`category:docs`](https://github.com/filecoin-project/devgrants/labels/category%3Adocs).
 - **Community**: We would like to support community initiatives throughout the global Filecoin ecosystem. We have a standing RFP for hosting community meetups, and are generally excited to hear about all sorts of community initiatives you might have! Relevant proposals will be labeled [`category:community`](https://github.com/filecoin-project/devgrants/labels/category%3Acommunity).
+      
+#### Technical Areas
+
+<p align="center">
+  <img src="https://github.com/filecoin-project/devgrants/blob/master/img/filecoin-stack-devgrant-areas.jpg" width="75%">
+</p>
+
 
 ## 📋 How to apply
 
@@ -63,7 +78,11 @@ Concretely, here are the deadlines for waves 1 and 2:
 | Wave No. | Wave Opens | Wave Deadline |
 | --- | --- | --- |
 | 1 | August 19, 2019 | September 30, 2019, 11:59PM PT |
-| 2 | October 1, 2019 | December 31, 2019, 11:59PM PT |
+| 2 | October 1, 2019 | January 15, 2020, 11:59PM PT |
+| 3 | January 16, 2020 | April 15, 2020, 11:59PM PT |
+| 4 | April 16, 2020 | June 30, 2020, 11:59PM PT |
+| 5 | July 1, 2020 | September 30, 2020, 11:59PM PT |
+| 6 | October 1, 2020 | January 15, 2021, 11:59PM PT |
 
 After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within 2 weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
 
