@@ -192,7 +192,7 @@ How crosschain payments should work is an ongoing question. This could be solved
 
 **Project Description**
 
-Last year, a simple Filecoin block explorer was built for an earlier go-filecoin node implementation. It was updated for the lotus Filecoin node for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer).
+Last year, a [simple Filecoin block explorer](https://github.com/filecoin-project/filecoin-explorer) was built for an earlier go-filecoin node implementation. It was updated for the lotus Filecoin node for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer).
 
 We would like to see this simple explorer updated to the current lotus API and testnet / mainnet. Enhancements can be made to improve performance and the information displayed.
 
