@@ -22,7 +22,7 @@ most common. An OrbitDB user wants their data to persist in the distributed swar
 reliably, with minimal configuration and attention required.
 
 If this grant is funded, we will deliver a baseline Filecoin integration into OrbitDB,
-allowing users to integrate to any complaint Filecoin node via the HTTP APIs.
+allowing users to integrate to any complaint Filecoin node via the JSON RPC APIs.
 
 ## Value
 
@@ -70,7 +70,7 @@ each milestone, we will deliver the following:
 ### Milestone 1 - Planning and Implementation
 
 - A public repository with a working implementation of OrbitDB pinning using
-the Filecoin HTTP APIs
+the Filecoin / lotus JSON RPC APIs
 - Documentation, tests, and instructions
 
 ### Milestone 2 - Launch and Outreach
@@ -99,8 +99,8 @@ IPFS DAG, and is the cornerstone of [`ipfs-log`]. The grant team would repeat th
 pattern to create `orbit-db-filecoin-io` which would be similarly composable with
 [`ipfs-log`].
 
-`orbit-db-filecoin-io` would follow Filecoin standards and utilize the Filecoin
-HTTP API, allowing it to interface with any compliant Filecoin nodes, including remotely
+`orbit-db-filecoin-io` would follow Filecoin standards and utilize the Filecoin / lotus
+JSON RPC APIs, allowing it to interface with any compliant Filecoin nodes, including remotely
 hosted ones.
 
 [`orbit-db-io`]: https://github.com/orbitdb/orbit-db-io
