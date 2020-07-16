@@ -35,7 +35,7 @@ The benefits of this have so far been:
 1. Raising awareness of IPFS through its transitive use in OrbitDB
 2. Driving improvements in IPFS due to community demand and response to OrbitDB
 
-It follows, then, that Filecoin could enjoy similar, synergistic effects with OrbitDB. The process of
+It follows, then, that Filecoin could enjoy similar, synergistic effects with OrbitDB.
 This Filecoin integration, and its future users are very likely to provide valuable
 context and feedback to the Filecoin Project, and drive the project roadmap forward.
 
