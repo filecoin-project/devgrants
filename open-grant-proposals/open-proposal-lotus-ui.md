@@ -45,6 +45,9 @@ I personally don't have that much time available, and I don't have a lot of expe
 - The software will be able to install, update and manage a lotus miner node.
 - Detailed statistics and performance reports about sectors, mined blocks, CPU, GPU, storage and memory usage.
 
+Ideas:
+- Windows version as a simple packaged installer. Would allow people to run a lotus fullnode (or even miner) on their windows machine. Requires https://github.com/filecoin-project/lotus/issues/2133 to be fixed.
+
 ## Development Roadmap
 
 As of now, for each milestone, I (RobQuistNL) would be the only person working on it.
