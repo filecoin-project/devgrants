@@ -89,7 +89,7 @@ https://dukesoft.nl/
 ## Relevant Experience
 
 - Rob Quist
-12+ years of PHP experience - back-end developer in PHP. Currenty employed by Enrise. Currently working on an API serving around 1 million active mobile telecom customers. Experienced in (multiplayer) game development (Unreal Engine, GML, NodeJS, custom game engines), dev-ops, SQL-databases, CI / CD, embedded software development, some cryptocurrency mining experience. Some frontend experience.
+12+ years of PHP experience - back-end developer in PHP. Currenty employed by Enrise. Currently working on an API serving around 1 million active mobile telecom customers. Experienced in (multiplayer) game development (Unreal Engine, GML, NodeJS, custom game engines), dev-ops, SQL-databases, CI / CD, embedded software development, some cryptocurrency mining experience. Developer & maintainer of an open source package manager / coding standards guide for GameMaker (https://gamemakerhub.net). Some frontend experience. Home automation - also through a similar setup, using a Raspberry Pi with a custom web-interface controlling infrared devices (TV's), 433mhz RF controlled homebrew PCB's, weatherstations, dashboard on TV, voice recognition etc (https://github.com/RobQuistNL/PieStation). 
 
 ## Team code repositories
 
