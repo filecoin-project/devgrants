@@ -47,7 +47,7 @@ I personally don't have that much time available, and I don't have a lot of expe
 
 ## Development Roadmap
 
-As of know, for each milestone, I (RobQuistNL) would be the only person working on it.
+As of now, for each milestone, I (RobQuistNL) would be the only person working on it.
 
 - Simple dashboard on single machine, running both daemon and miner, with statistics about sectors pledged and resources used.
 - ETA: Already functional
@@ -61,13 +61,13 @@ Managing multiple nodes might be a long-term goal - depends on how difficult it 
 
 USD 2000 (?)
 
-Mainly as compensation for time spent on development. I already have hardware and software (IDE) in my posession to develop with. 
+Mainly as compensation for time spent on development. I already have hardware and software (IDE) in my posession to develop with - no real costs other than time.
 Regardless of the compensation, I will be working on this software as I would personally like to use it. Added a grant proposal as that
 was adviced. Any compensation received will probably go towards mining hardware :)
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+As far as I can tell now, my plan is to keep a miner around and manage it with this software. Will probably keep adding improvements as I see fit.
 
 # Team
 
