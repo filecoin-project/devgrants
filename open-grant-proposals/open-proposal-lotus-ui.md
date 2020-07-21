@@ -62,10 +62,9 @@ Managing multiple nodes might be a long-term goal - depends on how difficult it 
 
 ## Total Budget Requested
 
-USD 2000 (?)
+Not clear yet. So far I've spent about 30 hours of coding this software.
 
-Mainly as compensation for time spent on development. I already have hardware and software (IDE) in my posession to develop with - no real costs other than time.
-Regardless of the compensation, I will be working on this software as I would personally like to use it. Added a grant proposal as that
+Reason for a budget: Mainly as compensation for time spent on development. I already have hardware and software (IDE) in my posession to develop with - no real costs other than time. Regardless of the compensation, I will be working on this software as I would personally like to use it. Added a grant proposal as that
 was adviced. Any compensation received will probably go towards mining hardware :)
 
 ## Maintenance and Upgrade Plans
@@ -97,6 +96,6 @@ https://github.com/RobQuistNL
 
 # Additional Information
 
-Please note that I will be working on this software regardless of the grant. The initial plan is to release it under MIT license, allthough that might change if required for the devgrant. I've added this proposal on recommendation of @eshon, hoping to gain more attention and possibly help / feedback.
+Please note that I will be working on this software regardless of the grant. The devgrant might make it worth for me to release the software for free. I've added this proposal on recommendation of @eshon, hoping to gain more attention and possibly help / feedback.
 
 I've rushed this document - if you have any questions or notes, please let me know!
