@@ -39,37 +39,50 @@ I personally don't have that much time available, and I don't have a lot of expe
 
 ## Deliverables
 
-- Simple installation of the software (probably a single line `curl | sh`) on the desired machine
-- This installation will spawn a web-server through which the user can manage the next installation steps;
-- The software will be able to install, update and manage a lotus daemon node.
-- The software will be able to install, update and manage a lotus miner node.
-- Detailed statistics and performance reports about sectors, mined blocks, CPU, GPU, storage and memory usage.
+1) Detailed statistics and performance reports about sectors, mined blocks, CPU, GPU, storage and memory usage.
+2) Simple installation of the software (probably a single line `curl | sh`) on the desired machine
+3) This installation will spawn a web-server through which the user can manage and install a "full miner" (daemon + miner on single machine)
+  3a) Nice installation guide that checks hardware, gives tips, sets optimal settings, allows you to configure storage locations, bootstrap peers etc.
+4) Feature to automatically / easily update software (LotusUI, Lotus)
 
 Ideas:
 - Windows version as a simple packaged installer. Would allow people to run a lotus fullnode (or even miner) on their windows machine. Requires https://github.com/filecoin-project/lotus/issues/2133 to be fixed.
+- The software will be able to install, update and manage a lotus daemon node. (fullnode)
+- The software will be able to install, update and manage a lotus miner node. (seperate connection to daemon node)
+- The software will be able to install, update and manage a seal worker. (seperate connection to miner node)
+  - Can be setup to run one or more of PC1, PC2, Commit, Unseal
+- Ability to run benchmarks / tune hardware (maybe even automated?)
+- Ability to submit results + hardware information (opt-in ofcourse) so we have detailed hardware benchmarks available
+- Ability to manage contracts / view stats of those
+- Log information / notifications
 
 ## Development Roadmap
 
 As of now, for each milestone, I (RobQuistNL) would be the only person working on it.
 
-- Simple dashboard on single machine, running both daemon and miner, with statistics about sectors pledged and resources used.
-- ETA: Already functional
+- Deliverable 1
+  - ETA: Already functional
+- Deliverable 2
+  - ETA: end July 2020
+- Deliverable 3 & 3a
+  - ETA: (Currently in progress) August 2020
+- Deliverable 4
+  - ETA: August 2020
 
-- Installation tool for LotusUI - installing the Web UI, as well as the lotus binaries, and management thereof (including updates)
-- ETA: end July 2020
-
-Managing multiple nodes might be a long-term goal - depends on how difficult it will end up being. Right now I'm developing this software on a single machine that runs both the miner and the daemon. Will be adding a second machine shortly, and will try to add that in the dashboard too. My main target would be a simple overview of mining statistics.
+Managing multiple nodes might be a long-term goal - depends on how difficult it will end up being. Right now I'm developing this software on a single machine that runs both the miner and the daemon. Will be adding a second machine shortly, and will try to add that in the dashboard too. My main target would be a simple overview of mining statistics (basically all current deliverables).
 
 ## Total Budget Requested
 
-Not clear yet. So far I've spent about 30 hours of coding this software.
+USD 2500 for the first 4 deliverables.
+
+Other ideas are not on the roadmap / included in the budget. Depends on how things go and if the project takes off.
 
 Reason for a budget: Mainly as compensation for time spent on development. I already have hardware and software (IDE) in my posession to develop with - no real costs other than time. Regardless of the compensation, I will be working on this software as I would personally like to use it. Added a grant proposal as that
 was adviced. Any compensation received will probably go towards mining hardware :)
 
 ## Maintenance and Upgrade Plans
 
-As far as I can tell now, my plan is to keep a miner around and manage it with this software. Will probably keep adding improvements as I see fit.
+As far as I can tell now, my plan is to keep a miner around and manage it with this software. Will probably keep adding improvements as I see fit - and working out the idea's that are there.
 
 # Team
 
