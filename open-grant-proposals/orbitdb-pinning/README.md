@@ -62,23 +62,6 @@ running within its network.
 Also, as mentioned in the [value](#value) section above, the effort itself will raise awareness of
 Filecoin as well as help steer the roadmap based on real-world usage.
 
-## Deliverables
-
-We plan on breaking this work up into two smaller milestones, described in the next section. At
-each milestone, we will deliver the following:
-
-### Milestone 1 - Planning and Implementation
-
-- A public repository with a working implementation of OrbitDB pinning using
-the Filecoin / lotus JSON RPC APIs
-- Documentation, tests, and instructions
-
-### Milestone 2 - Launch and Outreach
-
-- One or more blog posts detailing the need and solution presented
-- Social marketing efforts like posts and chat room announcements
-- A docker image or reference implementation
-
 ## Development Roadmap
 
 As per the [Risks](#risks) section, this is subject to change as the project and Filecoin
@@ -90,18 +73,20 @@ result of many team members via more granular chunks of work.
 
 ### Milestone 1 - Implementation
 
-The implementation will be split into its back-end and front-end components.
+#### Deliverables
 
-#### Milestone 1a - Back-End Filecoin Network Implementation
+- A public repository with a working implementation of OrbitDB pinning using
+the Powergate APIs
+- Documentation, tests, and instructions
 
 [`orbit-db-io`] is an existing package that handles reading and writing data from the
 IPFS DAG, and is the cornerstone of [`ipfs-log`]. The grant team would repeat this
 pattern to create `orbit-db-filecoin-io` which would be similarly composable with
 [`ipfs-log`].
 
-`orbit-db-filecoin-io` would follow Filecoin standards and utilize the Filecoin / lotus
-JSON RPC APIs, allowing it to interface with any compliant Filecoin nodes, including remotely
-hosted ones.
+`orbit-db-powergate-io` would follow Filecoin standards and utilize the PowerGate APIs,
+allowing it to interface with the PowerGate service, allowing OrbitDB users to utilize
+the Filecoin functionalites that PowerGate exposes.
 
 [`orbit-db-io`]: https://github.com/orbitdb/orbit-db-io
 [`ipfs-log`]: https://github.com/orbitdb/ipfs-log
@@ -109,38 +94,24 @@ hosted ones.
 **Estimated duration:** 3 weeks<br />
 **Estimated cost:** 14,400€ / 16,172.14 USD
 
-#### Milestone 1b - Front-End UI Interface
+#### Pre-Addendum Research
 
-We will expand upon the [OrbitDB Control Center](https://github.com/orbitdb/orbit-db-control-center)
-project to build a UI to make it simple for users to take advantage of the pinning functionalities,
-and understand their own relationship in the context of the network - how much space they are
-providing, as well as how much space is available to them and their data.
+At this point, implementations of the Pinning API should be available and more robust, and we can more
+reliably plan and estimate work towards making OrbitDB compatible with the official IPFS Pinning API,
+meaning that any system that implements this API will be compatible with OrbitDB.
 
-**Estimated duration:** 2 weeks<br />
-**Estimated cost:** 9,600€ / 10,781.42 USD
+Since the state of the Pinning API implementations, and the Pinning. This next milestone is a planned
+addendum to this grant effort.
 
-### Milestone 2 - Launch and Outreach
-
-Once the repostitory is created and a suitable version is finalized, we will begin to seek
-users for testing and feedback. This will involve a number of non-technical efforts, as well as
-some additional technical endeavors:
-
-- Two blog posts (one at the beginning of this project and one at the end) detailing the plan and its outcome
-- Social media posts and attentive responses to comments and questions
-- A docker image that contains either the enhanced Filecoin+OrbitDB node or a working network with a few nodes
-- Additional technical support on chat platforms such as Gitter, Discord, and Matrix
-- Other optimizations and bug fixes that might arise during this period
-
-There may be additional items here based on community needs and feedback, such as mentoring, but
-these are more difficult to quantify.
-
-**Estimated duration:** 2 weeks<br />
-**Estimated cost:** 4,800€ / 5,390.71 USD
+Work during the addendum may include some, any, or none of the following items:
+- Implementing with existing pinning APIs that hosted services are using
+- Creating a shim between the Pinning API and PowerGate
+- Implementing our own version of the Pinning API (or the above shim) that OrbitDB users can self-host 
 
 ## Total Budget Requested
 
-- **Total estimated duration:** 7 weeks
-- **Total estimated cost:** 28,800€ / 32,540.26 USD
+**Total Estimated duration:** 3 weeks<br />
+**Total Estimated cost:** 14,400€ / 16,172.14 USD
 
 ## Maintenance and Upgrade Plans
 
