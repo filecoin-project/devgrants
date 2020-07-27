@@ -22,18 +22,11 @@ This project will also create simple examples of usage, first providing simple i
 Milestone | Hours | Cost
 --- | --- | ---
  Generic feasibility research. | 16 | £960
-Create .Net Standard RPC Api supporting all methods here:
-https://github.com/filecoin-project/lotus/blob/master/api/api_full.go
-Create Unit tests following the generic input / output:
-Example of input and output generated from the Lotus api. https://gist.github.com/jimpick/7c227fc9f8e7267634cf989dec8c0323
-| 80 | £4,800
-Create extra RPC Api supporting Unity coroutines (Support for older versions of Unity and WebGl)
-| 40 | £2,400
+Create .Net Standard RPC Api supporting all methods here: https://github.com/filecoin-project/lotus/blob/master/api/api_full.go Create Unit tests following the generic input / output: Example of input and output generated from the Lotus api. https://gist.github.com/jimpick/7c227fc9f8e7267634cf989dec8c0323 | 80 | £4,800
+Create extra RPC Api supporting Unity coroutines (Support for older versions of Unity and WebGl) | 40 | £2,400
  Create example of interaction in Unity (WalletBalance, WalletDefaultAddress, etc) | 24 | £1440
  | Create example workflow of submitting an asset (image) using the API, including User interface and loading it in Unity Ref: https://github.com/Nethereum/Unity3dSimpleSampleNet461 | 40 | £2,400
 | Create blog / readme documentation explaining the API usage and example | 20 |  £1200
-
-
 **Total** |  | 	**£13,200.00**
 
 ## Total Budget Requested
@@ -56,7 +49,7 @@ General support, bugs fixes will be provided as general maintenance for a period
 https://uk.linkedin.com/in/juanfranblanco
 
 ## Team Website
-
+http://nethereum.com
 ## Relevant Experience
 
 Founder and creator of Nethereum, Solidity vs code plugin, 20 years architect and senior .net developer.
