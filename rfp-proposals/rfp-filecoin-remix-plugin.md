@@ -20,13 +20,13 @@ We will also provide a [Remix Plugin](https://github.com/ethereum/remix-plugin) 
 
 Below is an overview of how Lighthouse will work:
 
-![Lighthouse Architecture](https://i.pinimg.com/originals/71/d1/51/71d151494d2c787d05e08267ca0f4026.png)
+![Lighthouse Architecture](https://i.pinimg.com/originals/1d/10/12/1d1012451e022c64133cfa5535116c5d.png)
 
-1. Lighthouse listens to [smart contracts](#contracts) events for the CIDs that a user wants to be stored.
+1. VulcanizeDB indexes all the smart contracts on any given network (for eg. Ethereum Mainnet)
 
-2. The events are then indexed using [Graph Protocol](https://thegraph.com/).
+2. Lighthouse listens to [smart contracts](#contracts) events for the CIDs that a user wants to be stored.
 
-3. The indexed CIDs will then be stored using [Filecoin-backed IPFS pinning service(s) or (FPS)](https://docs.google.com/document/d/1CcNWIPp-xQr-21W2buN_ZUN7aOA4kWrPFgsUYY0cfuI/edit).
+3. The indexed CIDs will then be stored to IPFS+Filecoin networks using [Filecoin-backed IPFS pinning service(s) or (FPS)](https://docs.google.com/document/d/1CcNWIPp-xQr-21W2buN_ZUN7aOA4kWrPFgsUYY0cfuI/edit).
 
 ### Contracts
 
@@ -39,23 +39,23 @@ We will have following 4 contracts:
 
 ### Event Indexing
 
-Lighthouse will use Graph nodes to listen for the contract events and index the relevant inforamtion (like CIDs, FPS config, etc.) that will be used by Lighthouse to store data on the FPS.
+Lighthouse will VulcanizeDB to listen for the contract events and index the relevant inforamtion (like CIDs, FPS config, etc.) that will be used by Lighthouse to store data on the FPS.
 
 ### Data Storage
 
-Lighthouse will use the data indexed by the Graph nodes to store data with desired configuration in the selected FPS. As an example, we will register a [Textile Powergate](https://docs.textile.io/powergate/) as a FPS.
+Lighthouse will use the data indexed by the VulcanizeDB to store data with desired configuration in the selected FPS. As an example, we will register a [Textile Powergate](https://docs.textile.io/powergate/) as a FPS.
 
-Summing up, Lighthouse will consist of a Lighthouse node (preferably a Typescript project) and infrastructure (Graph node and Powergate FPS). The Lighthouse node will expose HTTP endpoints which can be used to access by a HTTP client node module (js-lighthouse) which can be used by the Front end applications (to access the Lighthouse HTTP endpoints).
+Summing up, Lighthouse will consist of a Lighthouse node (preferably a Node.js or Typescript project) and infrastructure (VulcanizeDB and Powergate FPS). The Lighthouse node will expose HTTP/websocket endpoints which can be used to access by a HTTP/websocket client node module (js-lighthouse) which can be used by the front end applications (to access the Lighthouse HTTP endpoints).
 
 We will have a Remix Plugin that will act as an UI interface for the Lighthouse node.
 
 ## Deliverables
 
 1. Smart Contracts that are listed above.
-2. A Graph node module that listens and indexes the smart contract events.
-3. A FPS module that stores data from inputs from the Graph node module.
-4. A Lighthouse node codebase written in TypeScript with unit tests (includes the above 3 components).
-5. A HTTP client for Lighthouse node (js-lighthouse).
+2. VulcanizeDB infrastructure that listens and indexes the smart contract events. (Will be managed by VulcanizeDB team)
+3. A FPS module that stores data from inputs from the VulcanizeDB.
+4. A Lighthouse node codebase written in TypeScript/Node.js with unit tests.
+5. A HTTP/Websocket client for Lighthouse node (js-lighthouse).
 6. A Remix Plugin that serves as an interface for the Lighthouse node.
 7. Full Documentation for Lighthouse node.
 8. Full Documentation for Remix Plugin.
@@ -66,20 +66,21 @@ We will have a Remix Plugin that will act as an UI interface for the Lighthouse 
 
 ## Development Roadmap
 
-| No. | Milestone                                                                                                     | Funding | Estimated Timeframe |
-| --- | ------------------------------------------------------------------------------------------------------------- | ------- | ------------------- |
-| 1   | Research Phase: Creating rough specs for the overall Lighthouse project and architecture                      | \$3,000 | 1 week              |
-| 2   | Creating Smart contracts and Graph node module                                                                | \$9,000 | 3 weeks             |
-| 3   | Creating a modular FPS module, that can support different FPS. For our implementation, we will use Powergate. | \$9,000 | 3 weeks             |
-| 4   | Integrating the Graph node module with FPS module, and, creating js-lighthouse.                               | \$6,000 | 2 weeks             |
-| 5   | Creating Remix Plugin, which talks to the Lighthouse node                                                     | \$6,000 | 2 weeks             |
-| 6   | Creating all documentation, tutorials, and videos                                                             | \$3,000 | 1 weeks             |
+| No. | Milestone                                                                                              | Funding | Estimated Timeframe |
+| --- | ------------------------------------------------------------------------------------------------------ | ------- | ------------------- |
+| 1   | Writing Smart contracts                                                                                | \$3,000 | 1 week              |
+| 2   | Writing the core Lighthouse logic to capture and parse the events from smart contracts via VulcanizeDB | \$3,000 | 1 weeks             |
+| 3   | Payments integration                                                                                   | \$3,000 | 1 weeks             |
+| 4   | Connecting Lighthouse to Powergate instance                                                            | \$6,000 | 2 weeks             |
+| 5   | Testing on Ethereum testnet (mainnet-like) environment                                                 | \$3,000 | 1 weeks             |
+| 6   | Creating a remix plugin                                                                                | \$4,000 | 2 weeks             |
+| 7   | Documentation and Demos                                                                                | \$3,000 | 1 week              |
 
 During the course of the project, I (Vaibhav) will be the developer involved in the project. I will also act as the point of contact to the Filecoin devgrants team for updating them on the progress.
 
 ## Total Budget Requested
 
-\$36,000
+\$25,000
 
 ## Maintenance and Upgrade Plans
 
