@@ -69,18 +69,17 @@ We will have a Remix Plugin that will act as an UI interface for the Lighthouse 
 | No. | Milestone                                                                                              | Funding | Estimated Timeframe |
 | --- | ------------------------------------------------------------------------------------------------------ | ------- | ------------------- |
 | 1   | Writing Smart contracts                                                                                | \$3,000 | 1 week              |
-| 2   | Writing the core Lighthouse logic to capture and parse the events from smart contracts via VulcanizeDB | \$3,000 | 1 weeks             |
-| 3   | Payments integration                                                                                   | \$3,000 | 1 weeks             |
-| 4   | Connecting Lighthouse to Powergate instance                                                            | \$6,000 | 2 weeks             |
-| 5   | Testing on Ethereum testnet (mainnet-like) environment                                                 | \$3,000 | 1 weeks             |
-| 6   | Creating a remix plugin                                                                                | \$4,000 | 2 weeks             |
-| 7   | Documentation and Demos                                                                                | \$3,000 | 1 week              |
+| 2   | Writing the core Lighthouse logic to capture and parse the events from smart contracts via VulcanizeDB | \$3,000 | 1 week              |
+| 3   | Connecting Lighthouse to Powergate instance                                                            | \$6,000 | 2 weeks             |
+| 4   | Testing on Ethereum testnet (mainnet-like) environment                                                 | \$3,000 | 1 week              |
+| 5   | Creating a remix plugin                                                                                | \$4,000 | 2 weeks             |
+| 6   | Documentation and Demos                                                                                | \$3,000 | 1 week              |
 
 During the course of the project, I (Vaibhav) will be the developer involved in the project. I will also act as the point of contact to the Filecoin devgrants team for updating them on the progress.
 
 ## Total Budget Requested
 
-\$25,000
+\$22,000
 
 ## Maintenance and Upgrade Plans
 
