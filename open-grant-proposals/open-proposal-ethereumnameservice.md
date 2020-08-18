@@ -34,7 +34,7 @@ This project is low risk, as it is simply integrating Filecoin addresses and has
 
 4) We will check with wallets and browsers that support ENS and that add Filecoin to ensure their support works.
 
-5) We can add ENS functionality to a Filecoin client of your choosing.
+5) We can help you add ENS functionality to a Filecoin client of your choosing.
 
 6) Blog post on ENS blog regarding these new features.
 
@@ -56,7 +56,7 @@ Milestone 4: Check with wallets and browsers (2 weeks; $5k)
 
 We will check with multi-coin wallets that already support ENS and that add support for Filecoin to ensure they support everything correctly. We will also contact browsers that support ENS to offer help in upgrading to also support Filecoin hashes, although we can't guarantee that they will or, if they do, on what timeline.
 
-Milestone 5: Add ENS to Filecoin client (2 weeks; $10k)
+Milestone 5: Help you add ENS to Filecoin client (2 weeks; $1k)
 
 We can add ENS functionality to a Filecoin client of your choosing, if you'd like.
 
@@ -69,7 +69,7 @@ Totals: This should all be able to be accomplished in about two months and for $
 
 ## Total Budget Requested
 
-$30k. This will be spent on developer time.
+$21k. This will be spent on developer time.
 
 ## Maintenance and Upgrade Plans
 
