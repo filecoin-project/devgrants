@@ -73,7 +73,7 @@ We will have a Remix Plugin that will act as an UI interface for the Lighthouse 
 | 3   | Add Infura support and make Lighthouse configurable to use either Infura and/or VulcanizeDB            | \$3,000 | 1 week              |
 | 4   | Connecting Lighthouse to Powergate instance                                                            | \$6,000 | 2 weeks             |
 | 5   | Testing on Ethereum testnet (mainnet-like) environment                                                 | \$3,000 | 1 week              |
-| 6   | Creating a remix plugin                                                                                | \$4,000 | 2 weeks             |
+| 6   | Creating a Truffle Box                                                                                 | \$4,000 | 2 weeks             |
 | 7   | Documentation and Demos                                                                                | \$3,000 | 1 week              |
 
 During the course of the project, I (Vaibhav) will be the developer involved in the project. I will also act as the point of contact to the Filecoin devgrants team for updating them on the progress.
