@@ -1,4 +1,4 @@
-# Open Grant Proposal: `FileCoin Evm`
+# RFP Proposal:  `FileCoin Evm`
 
 **Name of Project:** FileCoin Evm
 
@@ -66,7 +66,7 @@ Email: [450595468@qq.com](450595468@qq.com)
 
 - jiyilanzhou: [github](https://github.com/wbqlove)
 - wbqlove: [github](https://github.com/wbqlove)
-- shuxunyer [github](https://github.com/shuxunyer)
+- iceming123 [github](https://github.com/iceming123)
 
 ## Team Website
 
@@ -74,13 +74,20 @@ Email: [450595468@qq.com](450595468@qq.com)
 
 ## Relevant Experience
 
-In 2018, we implemented the hybrid consensus with golang, and used the pow + pbft dual chain blockchain system. POW mining provides a decentralized verifier, and selects the members of the pbft Committee through the election algorithm, and the pbft is responsible for executing the transaction, which improves the TPS. When the main network is launched in 2019, the pbft consensus of tendermint is used. In March 2020, the consensus will be changed to POW + dpos, and EVM system contract will be used to realize the election of verifier and award. At the beginning of this year, we started to design cross chain, wrote a benchmarkchain with rust, used rust libp2p, and used VRF and pure POS to implement verifier out of block, which has not been completed yet.
+In 2018, we implemented the hybrid consensus with golang, and used the pow + pbft dual chain blockchain system. POW mining provides a decentralized verifier, and selects the members of the pbft Committee through the election algorithm, and the pbft is responsible for executing the transaction, which improves the TPS. When the main network is launched in 2019, the pbft consensus of tendermint is used. In March 2020, the consensus will be changed to POW + dpos, and EVM system contract will be used to realize the election of verifier and award. At the beginning of this year, we started to design cross chain, wrote a benchmark chain with rust, used rust libp2p, and used VRF and pure POS to implement verifier out of block, which has not been completed yet.
 
-jiyilanzhou: Proficient in Ethereum devpp2p network, node discovery, encrypted connection rlpx, network protocol has a deep understanding.Understand the EVM execution logic, and have a deep understanding of EVM testing and debugging. Participate in the development of three blockchain projects.
+jiyilanzhou: Golang and Rust development engineer, has more than seven years development experience, Proficient in Ethereum devpp2p network, node discovery, encrypted connection rlpx, implement fast and snail chain synchronise network protocol and a signer cli tool with rpc and hdwallet, a impawn cli with system contract call. in Map protocol implement libp2p with rust, Use libp2p send gossip message and data synchronization of the underlying point-to-point protocol is realized manually. Understand the EVM execution logic, and have a deep understanding of EVM testing and debugging. Participate in the development of three blockchain projects.
 This is [system contract](https://github.com/truechain/truechain-engineering-code/blob/master/core/vm/staking.go#L57) implement in evm.
+
+iceming123 : Golang development engineer, has more than 10 years of C/C ++ development experience, responsible for large projects, strong learning ability, has a complete real-time database products and digital currency trading platform product project experience，Is the architect of The Truechain, responsible for the Consensus module, which achieved the TenderMint Consensus on Truechain, the original DPOS consensus election and awards in the first half of this year.  
+
+wbqlove: Golang and Java development engineer, has more 10 seven years development experience, Proficient in Web and wallet development, Once implemented a million - level dating chat app. Have a deep understanding of blockchain consensus, proficient in Android mobile phone wallet. Led a payment stabilization program                                                                                                                                      
 
 ## Team code repositories
 * Public chain [truechain](https://github.com/truechain/truechain-engineering-code)
 * An alliance chain project participated in [taiyuechain](https://github.com/taiyuechain/taiyuechain)
 * A rust pos blockchain  [marcopolo](https://github.com/marcopoloprotocol/marcopolo)
 * This is [depoly uniswap](https://github.com/D-CDC/go-uniswap)
+
+## Additional Information
+We expect any developer who is interested in filecoin evm project, can join us and build efficient DeFi ecosystem and migrate Ethereum Dapp to Filecoin.
