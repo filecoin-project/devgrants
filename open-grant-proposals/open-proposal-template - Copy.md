@@ -111,6 +111,7 @@ Each milestone implements the corresponding deliverables.
 - Milestone 3: 5600 USD
 - Milestone 4: 3200 USD
 - Milestone 5: 3200 USD
+
 Total: 19200 USD
 
 ## Maintenance and Upgrade Plans
