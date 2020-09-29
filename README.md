@@ -1,8 +1,6 @@
 # Filecoin Devgrants
 
-> **The Wave 4 grant proposal deadline is July 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.**
-
-> **Wave 5 proposals will be due October 1st.**
+> **The Wave 5 grant proposal deadline is Oct 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.**
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
