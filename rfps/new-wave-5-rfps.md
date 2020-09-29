@@ -78,7 +78,7 @@ A tool to explain and analyze gas including base fees, fee cap (for each Tipset)
 
 Modeling current average gas costs can also help miners and developers better understand the current Mpool and why their transactions are not being mined, especially if their gas is too low compared to the network average.
 
-The EIP-1559 Gas Model was implemented in Filecoin [[Changelog](https://github.com/filecoin-project/lotus/blob/efd2dff0cac40934ec5b4472e48887ecbb2efe44/CHANGELOG.md#gas-changes)]([https://github.com/filecoin-project/lotus/blob/efd2dff0cac40934ec5b4472e48887ecbb2efe44/CHANGELOG.md#gas-changes](https://github.com/filecoin-project/lotus/blob/efd2dff0cac40934ec5b4472e48887ecbb2efe44/CHANGELOG.md#gas-changes)). A Lotus JSON RPC API call to estimate gas in Lotus is a todo [[Issue 3326](https://github.com/filecoin-project/lotus/issues/3326)](https://github.com/filecoin-project/lotus/issues/3326) and there is a [Gas Estimation function in Lotus here]([https://github.com/filecoin-project/lotus/blob/18c025f10e99b35cf7cd2eebe10de5163280378e/node/impl/full/gas.go#L189](https://github.com/filecoin-project/lotus/blob/18c025f10e99b35cf7cd2eebe10de5163280378e/node/impl/full/gas.go#L189)).
+The EIP-1559 Gas Model was implemented in Filecoin [Changelog](https://github.com/filecoin-project/lotus/blob/efd2dff0cac40934ec5b4472e48887ecbb2efe44/CHANGELOG.md#gas-changes). A Lotus JSON RPC API call to estimate gas in Lotus is a todo [Issue 3326](https://github.com/filecoin-project/lotus/issues/3326) and there is a [Gas Estimation function in Lotus here]([https://github.com/filecoin-project/lotus/blob/18c025f10e99b35cf7cd2eebe10de5163280378e/node/impl/full/gas.go#L189).
 
 ##
 
@@ -97,7 +97,7 @@ Storage miners who offer more information about data and sector status are likel
 4. Create a local index
 5. Then storage miners could share their CID index with a aggregator for community visibility
 
-Sectors miners have can also be observed at [https://spacegap.github.io](https://spacegap.github.io).
+Sectors miners have can also be observed at [spacegap.github.io](https://spacegap.github.io).
 
 Optionally this tool could also map pieceCIDs (used in CommP) to payload / data CIDs to support Retrieval Miners and Clients. [https://github.com/mgoelzer/cid_oracle](https://github.com/mgoelzer/cid_oracle) is a tool that scans the Filecoin blockchain for pieceCID to payload CID mappings.
 
@@ -105,51 +105,41 @@ Optionally this tool could also map pieceCIDs (used in CommP) to payload / data 
 
 **State Trie Explorer**
 
-Tools to walk the Filecoin State Tree, explain its structure and what data it keeps track of.
+A tool to walk the Filecoin State Tree, explain its structure and what data it keeps track of.
 
 Options:
 
-
-
-1. Simple Block Explorer with expandable State Trie HAMT
+1. A Simple Block Explorer
 
     In 2019, a [simple Filecoin block explorer](https://github.com/filecoin-project/filecoin-explorer) was built for an earlier go-filecoin node implementation. It was updated for the lotus Filecoin node for the 2019 December testnet launch [here](https://github.com/openworklabs/lotus-block-explorer).
 
-
     We would like to see this simple explorer updated to the current Lotus API and testnet. Enhancements can be made to improve performance and the information displayed.
 
+    This explorer originally presented details about Filecoin actors (current core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, as well as information contained in blocks. ([Screenshots](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W).)
 
-    This explorer originally presented details about Filecoin actors (current core smart contracts hardcoded in the protocol) such as the Storage Market actor, Miner actors, as well as information contained in blocks. ([Screenshots are available here]([https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W](https://filecoinproject.slack.com/archives/CFP9A2T7W/p1593095833249300?thread_ts=1593095710.249000&cid=CFP9A2T7W)).)
+2. or Build any tool with a current State Tree HAMT library
 
-2. Build any tool with a current State Tree HAMT library
+	A tool based on the current Filecoin State Trie is [spacegap.github.io](https://spacegap.github.io) which can show all sectors a miner currently has and proving deadlines.
 
-	A tool based on the current Filecoin State Trie is [spacegap.github.io]([https://spacegap.github.io](https://spacegap.github.io)) which can show all sectors a miner currently has and proving deadlines.
+    The State Tree is represented by a [HAMT](https://en.wikipedia.org/wiki/Hash_array_mapped_trie). There are currently 2 libraries that walk the HAMT to explore the Filecoin State Tree:
 
+    -  A JS tool here: [https://github.com/keyko-io/filecoin-verifier-tools/blob/master/hamt/hamt.js](https://github.com/keyko-io/filecoin-verifier-tools/blob/master/hamt/hamt.js)
 
-    The State Tree is represented by a [[HAMT](https://en.wikipedia.org/wiki/Hash_array_mapped_trie)](https://en.wikipedia.org/wiki/Hash_array_mapped_trie) and there are currently 2 libraries that explore the current Filecoin State Tree:
-
-
-    A JS tool here: [https://github.com/keyko-io/filecoin-verifier-tools/blob/master/hamt/hamt.js](https://github.com/keyko-io/filecoin-verifier-tools/blob/master/hamt/hamt.js)
-
-
-     \
-A Go state _diff_ tool here: [https://github.com/filecoin-project/statediff/](https://github.com/filecoin-project/statediff/) (live demo at [https://node.glif.io/space07/statediff/rpc](https://node.glif.io/space07/statediff/rpc)) and used by spacegap.github.io
+    - A Go state _diff_ tool here: [https://github.com/filecoin-project/statediff/](https://github.com/filecoin-project/statediff/) ([live demo here](https://node.glif.io/space07/statediff/rpc)) and used by spacegap.github.io
 
 
-    **_We are interested in other explorers or visualizations using these libraries because they are an interesting alternative to looping thru Lotus API calls or chain databases._** For example, you could track the status of miners and their current Storage Power or the status of all CIDs being stored on Filecoin. 
+    **_We are interested in other explorers or visualizations using these libraries because they are an interesting alternative to looping thru Node API calls for every miner or chain databases._** For example, you could track the status of miners and their current Storage Power or the status of all CIDs being stored on Filecoin. 
 
 
     Ethereum blocks can also be explored at [https://explore.ipld.io/](https://explore.ipld.io/) and a similar IPLD-inspired tool for Filecoin blocks is possible. Exploring the Filecoin blockchain this way would also be an interesting experiment.
 
 
-    Goals - help users:
+    Goals of the tool - help users:
 
-
-
-*   Explore Filecoin data structures
-*   How the Filecoin blockchain is set up
-*   Dive into Actors and Actor States
-*   What’s happening under the hood
-*   Offer users links like “Check out the state of this Actor right now”
-*   Have the ability to click thru different data structures
-*   Explore every block because in Filecoin it’s IPLD renderable as JSON
+	-   Explore Filecoin data structures
+	-   How the Filecoin blockchain is set up
+	-   Dive into Actors and Actor States
+	-   What’s happening under the hood
+	-   Offer users links like “Check out the state of this Actor right now”
+	-   Have the ability to click thru different data structures
+	-   Explore every block because in Filecoin it’s IPLD renderable as JSON
