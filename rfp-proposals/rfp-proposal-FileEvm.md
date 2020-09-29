@@ -14,7 +14,7 @@ Filecoin is a great design, but browsing the Lotus code reveals that there are n
 
 Currently, the DeFi on Ethereum is hot, and users holding Filecoin are not allowed to participate in DeFi. I would like to introduce an EVM virtual machine on the basis of Lotus, because there would be something on the market that would involve the ecology of Filecoin, which would involve a large number of programmers of using solidity. So we can both store and use things like UNiswap and YFI
 
-If EVM can be successfully implemented in Filecoin, filecoin ecology can be enriched. It is well known that Filecoin is a big ecology, and one project is still too few. If EVM is migrated, such as a number of stabilization coins, UNiswap, YFI, Sushiswap and USDT, DEX and DeFi will be migrated. More and more people will use and study Filecoin, which will greatly promote the promotion of Filecoin.
+If EVM can be successfully implemented in Filecoin, filecoin ecology can be enriched. It is well known that Filecoin is a big ecology, and one project is still too few. If EVM is migrated, such as a number of stabilization coins, UNiswap, YFI, Sushiswap and USDT, DEX and DeFi will be migrated. More and more people will use and study Filecoin, which will greatly promote the promotion of Filecoin, This can act as a filecoin two-layer network.
 
 The main implementation is to change the sector encapsulation verification and storage proof into EVM system contract, which can run solidy code or call the existing contract of filecoin. this is my update [vm update patch](https://github.com/truechain/truechain-engineering-code/commit/96ee22cfeb42f8afd29939276380d76fc29b8f8c).
 
