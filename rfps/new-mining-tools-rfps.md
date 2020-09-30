@@ -8,9 +8,9 @@ We are seeking proposals for the following RFPs for Mining Tools, Mining Tutoria
 
 **Gitcoin CLR Grant Funding**
 
-These proposals will also been posted to Gitcoin [*Link coming soon*] where community members can show their support by helping fund these projects.
+These proposals will also be posted to Gitcoin [*Link coming soon*] where community members can show their support by helping fund these projects.
 
-Your **Open Grant Proposals** can also be posted to Gitcoin. Suggest your own Filecoin project idea and seek crowdfunding from the commnunity.
+Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
 
 👉 Protocol Labs will match ALL community contributions by a **quadratic funding** formula used by Gitcoin CLR Grants.
 
@@ -42,6 +42,10 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
 
 &nbsp;
 
+*Thanks to @ribasushi, @charles, @RobQuistNL, @stuberman, @jennijuju and @hsanjuan for suggesting and giving feedback on all these initial ideas.*
+
+&nbsp;
+
 ### Monitoring Tool for Miners
 
 #### Overview
@@ -62,8 +66,6 @@ Options:
 1) *Lightweight monitoring for smaller miners* - to support smaller miners we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
 
 2) Dedicated server - miners with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
-
-*(originally proposed by @rob and @charles)*
 
 &nbsp;
 
@@ -91,8 +93,6 @@ For this grant we also welcome significantly useful PRs to Lotus:
 
 Contributors should have a solid understanding of the current Lotus FSM, hardware requirements and CPU/GPU optimization.
 
-*(originally proposed by @ribasushi)*
-
 &nbsp;
 
 ### Sector Checker
@@ -117,8 +117,6 @@ Example enhanced sector menu:
 4) Remove sector permanently
 ```
 
-*(originally proposed by @charles)*
-
 &nbsp;
 
 ### Auto-Add New Sectors based on Capacity
@@ -131,7 +129,6 @@ Adding new sectors is currently managed manually. The tool could evaluate at reg
 
 This tool can be external to Lotus.
 
-*(originally proposed by @charles)*
 
 &nbsp;
 
@@ -207,7 +204,6 @@ Notes
   
 </small>
 
-*(originally proposed by @ribasushi)*
 
 &nbsp;
 
@@ -247,7 +243,6 @@ We are particularly interested in Option 2. A discussion thread for this topic i
 	
 This grant could support a good FIP proposal or a proposed architecture + scheduler suggestions.
 
-*(originally proposed by @charles)*
 
 &nbsp;
 
@@ -329,11 +324,13 @@ All contributions will be judged based on quality and award amounts determined a
 
 - **Miner Video or Mining Tutorial** ($100 - $500) - Filecoin Miner Show and Tells ([No. 1](https://www.youtube.com/watch?v=jO5hJiwKAjA), [No. 2](https://www.youtube.com/watch?v=pHi85ZNs3AY), [No. 3](https://www.youtube.com/watch?v=jqbfETY3v6Q), [No. 4](https://www.youtube.com/watch?v=1JtQnhvxlVg)) have been popular with community members. We'd love to see more infomrative videos from community miners.
 
-*(originally proposed by @stuberman)*
+&nbsp;
+
+*Thanks to @ribasushi, @charles, @RobQuistNL, @stuberman, @jennijuju and @hsanjuan for suggesting and giving feedback on all these initial ideas.*
+
 
 &nbsp;
 
-&nbsp;
 
 -----
 
