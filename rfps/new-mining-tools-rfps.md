@@ -155,32 +155,34 @@ An [example Reference Architecture](https://filecoin.io/vintage/mining-hardware-
 
 Miners need to make sure they have enough funds in their wallets to support their storage mining and growth. They also want to understand their overall profits and losses over time. Tools to support this are of interest in this grant.
 
-1) Aggregate and explain the transaction history of a miner's earnings and fees.
+1) **Miner Transaction History** - Aggregate and explain the transaction history of a miner's earnings and fees.
 
-2) Based on a miner’s history (e.g. 1 month of past data), extrapolate into the future a miner’s potential earnings.
+2) **Earnings Predictor** - Based on a miner’s history (e.g. 1 month of past data), extrapolate into the future a miner’s potential earnings.
 
-#### 1. Description - Miner Transaction History
+#### Description
+
+##### 1. Miner Transaction History
 
 Improving how a miner’s income and expenses from storage mining are calculated over time can help them estimate the amount of funds they need to keep in reserve and also debug how well their miner is doing.
 
 The goal is to help miners better understand the history of all their incoming and outgoing transactions in terms of collateral pledged, rewards, penalties, gas costs ( over time), and any other relevant data.
 
-**Options**
+##### **Options**
 
-- One option is to explain the Transaction History for any given Storage Miner address and define the earnings and fees schedule.
+- Option 1. Explain the Transaction History for any given Storage Miner address and their earnings and fees schedule.
   - A miner’s transaction history can be hard to follow and group logically in current block explorers, especially for new miners
     <small>
     - [Miner t015903 on Filfox.io](https://filfox.info/en/address/t015903)
     - [Miner t015903 on Filscan.io](https://filscan.io/#/tipset/address-detail?address=t015903)</small>
 
 
-- Another option is to map every step of the storage mining process and explain how much each event costs. A sample [state machine for storage mining is here](https://github.com/filecoin-project/lotus/blob/b212368a70fee3db10eeb450ecb33a10b67b5f23/extern/storage-sealing/fsm.go#L211).
+- Option 2. Map every step of the storage mining process and explain how much each event costs. A sample [state machine for storage mining is here](https://github.com/filecoin-project/lotus/blob/b212368a70fee3db10eeb450ecb33a10b67b5f23/extern/storage-sealing/fsm.go#L211).
   - Explaining where a miner’s funds are going and when the miner will get them back would be very useful
 
-- PRs to improve official documentation on fees are also welcome. Useful descriptions will be awarded by the docs team after review.
+- Option 3. PRs to improve official documentation on fees are also welcome. Useful descriptions will be awarded at the discretion of the docs team after review.
 
 
-#### 2. Description - Earnings Predictor
+#### 2. Earnings Predictor
 
 Because miners have different hardware configurations, sealing rates and deal success rates, building an Earnings Predictor from day zero with no miner history can be fuzzy. However predicting earnings based on past and current miner performance may be tangible. [Also see the Basic Miner HW ROI calculator RFP].
 
