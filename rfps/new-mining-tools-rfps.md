@@ -59,9 +59,9 @@ Metrics could also include average time to process sectors, baselines for each s
 
 Options:
 
-1) Lightweight monitoring for smaller miners - we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
+1) *Lightweight monitoring for smaller miners* - to support smaller miners we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
 
-2) Dedicated server - Those with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
+2) Dedicated server - miners with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
 
 *(originally proposed by @rob and @charles)*
 
@@ -169,9 +169,9 @@ The goal is to help miners better understand the history of all their incoming a
 
 - One option is to explain the Transaction History for any given Storage Miner address and define the earnings and fees schedule.
   - A miner’s transaction history can be hard to follow and group logically in current block explorers, especially for new miners
-    <sub>
+    <small>
     - [Miner t015903 on Filfox.io](https://filfox.info/en/address/t015903)
-    - [Miner t015903 on Filscan.io](https://filscan.io/#/tipset/address-detail?address=t015903)</sub>
+    - [Miner t015903 on Filscan.io](https://filscan.io/#/tipset/address-detail?address=t015903)</small>
 
 
 - Another option is to map every step of the storage mining process and explain how much each event costs. A sample [state machine for storage mining is here](https://github.com/filecoin-project/lotus/blob/b212368a70fee3db10eeb450ecb33a10b67b5f23/extern/storage-sealing/fsm.go#L211).
@@ -196,14 +196,14 @@ Rewards are also based on dynamic network conditions, baseline assumptions could
 A scaffold of an earnings prediction calculator based on past performance could be useful to other miners. A spreadsheet model, Observable notebook or CLI tool or similar could be used and plotting could be kept in FIL.
 
 
-<sub>
+<small>
 Notes
 
 - Fees may range in units from FIL to nanoFIL (windowPost) to attoFIL (gas fees) and it would be nice for a fee schedule explainer to tally all costs over a given time period.
 - WindowPost may have several inputs and outputs, including gas and penalties.
 - Owner vs Worker account interactions are also of interest.
   
-</sub>
+</small>
 
 *(originally proposed by @ribasushi)*
 
