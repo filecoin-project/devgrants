@@ -4,7 +4,7 @@ Filecoin will be launching mainnet throughout the week of October 18th - 23rd: [
 
 We are seeking proposals for the following RFPs for the Wave 5 of the Dev Grant program. For more ideas see the [Wave 4 grant list here](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-4-rfps.md).
 
-The deadline for Wave 5 proposals is October 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.
+The deadline for Wave 5 proposals is October 1st, 2020 at 23:59 PDT for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows. However please keep in mind that **ideas are always rolling and if you are not considered for Wave 5 in-time your application will be rolled over to Wave 6.**
 
 We also accept Open Grant Proposals where you can suggest your own Filecoin project idea.
 
