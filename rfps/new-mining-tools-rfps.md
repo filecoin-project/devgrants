@@ -8,7 +8,7 @@ We are seeking proposals for the following RFPs for Mining Tools, Mining Tutoria
 
 **Gitcoin CLR Grant Funding**
 
-These proposals will also be posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
+These proposals are posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
 
 Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
 
@@ -32,7 +32,7 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
   - [Monitoring Tool for Miners](#monitoring-tool-for-miners)
   - [Sector Checker](#sector-checker)
   - [Auto-Add New Sectors based on Capacity](#auto-add-new-sectors-based-on-capacity)
-  - [Basic Miner HW ROI calculator](#basic-miner-hw-roi-calculator)
+  - [Miner HW ROI calculator](#basic-miner-hw-roi-calculator)
   - [Miner Transaction History and Earnings Predictor](#miner-transaction-history-and-earnings-predictor)
   - [Gas Tool and Guide](#gas-tool-and-guide)
   - [Mining Task Pool for Smaller Miners](#mining-task-pool-for-smaller-miners)
@@ -105,7 +105,7 @@ This tool can be external to Lotus.
 
 &nbsp;
 
-### Basic Miner HW ROI calculator
+### Miner HW ROI calculator
 
 A general calculator for *hardware* setup costs and how that impacts Sealing Rates.
 
@@ -308,9 +308,19 @@ All contributions will be judged based on quality and award amounts determined a
 
 -----
 
-### Gitcoin CLR Grants
+### Gitcoin CLR Grant Funding
 
-More info coming soon...
+These proposals are posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
+
+Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
+
+👉 Protocol Labs will match ALL community contributions by a **quadratic funding** formula used by Gitcoin CLR Grants.
+
+-----
+
+To apply for any RFPs see our [Proposal Guidelines](#proposal-guidelines) below for how to apply.
+
+*Have a question about any of these RFPs? Email devgrants@filecoin.org*
 
 
 -----
