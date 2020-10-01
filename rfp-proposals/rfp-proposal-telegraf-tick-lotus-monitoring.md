@@ -48,7 +48,7 @@ Also open to suggestions of what other metrics would be beneficial.
 
 ## Value
 
-By increasing the uptime of the individual miners the network reliability will increase and with that the overall quality of service.
+By increasing the uptime of the individual miners the network reliability will increase and with that the overall quality of the network.
 
 ## Development Roadmap
 
