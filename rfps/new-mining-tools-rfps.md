@@ -221,7 +221,7 @@ Miners regularly ask whether a mining pool is possible in Filecoin.
 
 2. Another area of research is to target the FSM scheduler to support farming tasks to smaller remote miners in the same geographic region as a worker pool, all behind a single node and miner id. Smaller miners could work together in this way to earn block rewards as a collective.
 
-We are particularly interested in Option 2. A discussion thread for this topic is also on Github is at https://github.com/filecoin-project/lotus/discussions/4005. Also see the RFP for ### FSM Scheduler Improvements.
+We are particularly interested in Option 2. A discussion thread for this topic is also on Github is at https://github.com/filecoin-project/lotus/discussions/4005. 
 	
 This grant could support a good FIP proposal or a proposed architecture + scheduler suggestions.
 
