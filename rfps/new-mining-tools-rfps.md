@@ -73,7 +73,7 @@ Options:
 
 #### Overview
 
-The current FSM Storage Scheduler is a primary version. It could be improved in terms of customizability, priority setting, predictions, opportunities for parallelization and better hardware and networking utilization, and visualization of what’s happening over time.
+The current FSM Storage Scheduler is relatively basic. It could be improved in terms of customizability, priority setting, predictions, opportunities for parallelization and better hardware and networking utilization, and visualization of what’s happening over time.
 
 #### Description
 
