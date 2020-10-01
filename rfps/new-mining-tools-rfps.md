@@ -54,7 +54,7 @@ A tool, script or tutorial to set up monitoring for miner GPU, CPU, memory and o
 
 #### Description
 
-The proposed tutorial, schema and/or script (including setup instructions) could help miners gather resource and performance snapshots from their system using a Prometheus metrics endpoint (or also Telegraf) and display them in a dashboard UI (like Grafana).
+This could help miners gather resource and performance snapshots from their system using a Prometheus metrics endpoint (or also Telegraf) and display them in a dashboard UI (like Grafana).
 
 Metrics could also include average time to process sectors, baselines for each storage mining phase, etc. A sample tool to implement this may include:
 
