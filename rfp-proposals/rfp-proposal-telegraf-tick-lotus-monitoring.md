@@ -10,11 +10,11 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Proposers:** `vvkio`, `svilenkov` 
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
 # Project Description
 
-The objective of this project is to give miners an easy way to set up monitoring and alerting for their clusters. With monitoring in place miners will be able to better understand their resource utilization which could potentially lead to better hardware utilization, also increasing the overall reliability of the setup. 
+The objective of this project is to give miners an easy way to set up monitoring and alerting for their clusters, using a [TICK stack](https://wiki.archlinux.org/index.php/TICK_stack). With monitoring in place miners will be able to better understand their resource utilization which could potentially lead to better hardware utilization, also increasing the overall reliability of the setup.
 
 Some of the metrics we wish to expose:
 
@@ -44,7 +44,7 @@ Alerts:
     - Low space on chain diks
     - Low Storage
     
-Also open to suggestions on what else could be useful. 
+Also open to suggestions of what other metrics would be beneficial.
 
 ## Value
 
@@ -61,7 +61,7 @@ Milestone | Hours | Cost
 Setup & planning | 8 | €560
 Lotus Telegraf Plugin development | 50 | €3,500.00		
 Telegraf host metrics configuration | 50 | €3,500.00
-TICK Stack setup and scripts | 20 | €1,400.00
+TICK Stack setup with scripts | 20 | €1,400.00
 Dashboards configurations | 20 | €1,400.00
 Alerts configurations | 20 | €1,400.00
 [Optional] Terraform configuration for DigitalOcean deploymennt | 20 | €1,400.00
@@ -92,4 +92,4 @@ https://filmine.io/
 
 ## Relevant Experience
 
-Former founder and CEO of (Tenderly)[https://tenderly.dev/] a smart contracts development platform where I spent two years developing Ethereum infrastructure that is today helping thousands of Solidity development build smart contracts more effectively with features like monitoring, alerting, gas profiling, contract analytics and debugging. I also competed and won several Ethereum Hackathons like (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo].
+Former founder and CEO of [Tenderly](https://tenderly.dev/) a smart contracts development platform where I spent two years developing Ethereum infrastructure that is today helping thousands of Solidity development build smart contracts more effectively with features like monitoring, alerting, gas profiling, contract analytics and debugging. I also competed and won several Ethereum Hackathons like [ETHBerlin 2018](https://devpost.com/software/smart-alert-s5p1zw) and [ETHParis](https://devpost.com/software/zippo).
