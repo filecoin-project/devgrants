@@ -32,7 +32,7 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
   - [Monitoring Tool for Miners](#monitoring-tool-for-miners)
   - [Sector Checker](#sector-checker)
   - [Auto-Add New Sectors based on Capacity](#auto-add-new-sectors-based-on-capacity)
-  - [Miner HW ROI calculator](#basic-miner-hw-roi-calculator)
+  - [Miner HW ROI calculator](#miner-hw-roi-calculator)
   - [Miner Transaction History and Earnings Predictor](#miner-transaction-history-and-earnings-predictor)
   - [Gas Tool and Guide](#gas-tool-and-guide)
   - [Mining Task Pool for Smaller Miners](#mining-task-pool-for-smaller-miners)
