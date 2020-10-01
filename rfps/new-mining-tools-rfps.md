@@ -8,7 +8,7 @@ We are seeking proposals for the following RFPs for Mining Tools, Mining Tutoria
 
 **Gitcoin CLR Grant Funding**
 
-These proposals are posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
+These proposals are posted to the **[Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?)** where community members can show their support and signal it's a valuable idea.
 
 Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
 
@@ -67,6 +67,8 @@ Options:
 2) Dedicated server - miners with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
 
 &nbsp;
+-----
+&nbsp;
 
 ### Sector Checker
 
@@ -91,6 +93,8 @@ Example enhanced sector menu:
 ```
 
 &nbsp;
+-----
+&nbsp;
 
 ### Auto-Add New Sectors based on Capacity
 
@@ -103,6 +107,8 @@ Adding new sectors is currently managed manually. The tool could evaluate at reg
 This tool can be external to Lotus.
 
 
+&nbsp;
+-----
 &nbsp;
 
 ### Miner HW ROI calculator
@@ -119,6 +125,8 @@ For all calculations, specific parameters may change but it helps to have the fo
 
 An [example Reference Architecture](https://filecoin.io/vintage/mining-hardware-config-testnet-v3.pdf) for a medium-sized miner is also available (from the [Filecoin Guide to Storage Mining](https://filecoin.io/blog/filecoin-guide-to-storage-mining/) blog post).
 
+&nbsp;
+-----
 &nbsp;
 
 ### Miner Transaction History and Earnings Predictor
@@ -177,7 +185,8 @@ Notes
   
 </small>
 
-
+&nbsp;
+-----
 &nbsp;
 
 ### Gas Tool and Guide
@@ -218,6 +227,8 @@ This grant could support a good FIP proposal or a proposed architecture + schedu
 
 
 &nbsp;
+-----
+&nbsp;
 
 ### CID Indexing Tool for Miners
 
@@ -241,6 +252,8 @@ Optionally this tool could also map pieceCIDs to payload / data CIDs (as used in
 
 (originally proposed by @jbenet)
 
+&nbsp;
+-----
 &nbsp;
 
 ### Miner Docs and Community Guides
@@ -310,7 +323,7 @@ All contributions will be judged based on quality and award amounts determined a
 
 ### Gitcoin CLR Grant Funding
 
-These proposals are posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
+These proposals are posted to the **[Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?)** where community members can show their support and signal it's a valuable idea.
 
 Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
 
