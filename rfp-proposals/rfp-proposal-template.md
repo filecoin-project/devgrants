@@ -1,77 +1,95 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
 
-# RFP Proposal: `Project Title`
+# RFP Proposal: `Telegraf plugin for Lotus & TICK stack setup`
 
 **Name of Project:**
 
-**Link to RFP:** Please link to the RFP that you are submitting a proposal for.
+**Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-mining-tools-rfps.md#monitoring-tool-for-miners
 
-**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`
+**RFP Category:** `mining-tools`
 
-**Proposer:** `replace with your GitHub username`
+**Proposers:** `vvkio`, `svilenkov` 
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
-Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
+The objective of this project is to give miners an easy way to set up monitoring and alerting for their clusters. With monitoring in place miners will be able to better understand their resource utilization which could potentially lead to better hardware utilization, also increasing the overall reliability of the setup. 
 
-This section should be 2-3 paragraphs long.
+Some of the metrics we wish to expose:
 
-## Deliverables
+- Sealing metrics
+    - Total sectors in phase (PC1, PC2, etc)
+- Storage
+    - Storage utilization
+    - NVMe cache utilization
+    - Chain size, disk space left
+    - VRAM
+- CPU
+    - Core utilization
+    - Temperature
+- Memory
+    - Utilization
+    - Swap
+    - Pressure
+- GPU metrics
+- Network
+    - Utilization
+    - Total daily bandwidth (avoid ISP caps)
+- Sync with the network
+    - Diff
+Alerts:
+  - Out of sync
+  - Low storage
+    - Low space on chain diks
+    - Low Storage
+    
+Also open to suggestions on what else could be useful. 
 
-Please describe in details what your final deliverable for this project will be.
+## Value
+
+By increasing the uptime of the individual miners the network reliability will increase and with that the overall quality of service.
 
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. You can use the milestones suggested in the RFP or create your own. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
+10 Oct 2020: Proposed start date
 
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
+20 Nov 2020: Proposed finish date
 
-## Total Budget Requested
+Milestone | Hours | Cost
+--- | --- | ---
+Setup & planning | 8 | €560
+Lotus Telegraf Plugin development | 50 | €3,500.00		
+Telegraf host metrics configuration | 50 | €3,500.00
+TICK Stack setup and scripts | 20 | €1,400.00
+Dashboards configurations | 20 | €1,400.00
+Alerts configurations | 20 | €1,400.00
+[Optional] Terraform configuration for DigitalOcean deploymennt | 20 | €1,400.00
+Documentation and video on how to setup | 6 | €420.00
+Blog post on how to setup monitoring | 4 | €280.00
 
-Sum up the total requested budget across all milestones, and include that figure here. Ensure that it does not exceed the total funding limit on the RFP.
+**Total** |  | 	**€13,860.00**
+
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+We are working on a hosted mining managment platform which will leverage some of the work proposed in this project, we plan to keep mantaining this project.
 
 # Team
 
 ## Contact Info
 
-Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
+vuk@filmine.io
 
-## Team Members
+## Team Members 
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
-- ...
-
-## Team Member LinkedIn Profiles
-
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
-- ...
+- [Vukašin Vukoje](http://linkedin.com/in/vvkio/)
+- [Igor Svilenkov Božić](https://ipfs.io/ipfs/QmYmxjToxg4fKeTqsXAfWigRTXBJK2YDxxFncVFJLpnxB8)
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+https://filmine.io/
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think would do a great job with this RFP. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
-
-## Team code repositories
-
-Please provide links to your team's prior code repos for similar or related projects.
-
-# Additional Information
-
-Please include any additional information that you think would be useful in helping us to evaluate your grant application.
+Former founder and CEO of (Tenderly)[https://tenderly.dev/] a smart contracts development platform where I spent two years developing Ethereum infrastructure that is today helping thousands of Solidity development build smart contracts more effectively with features like monitoring, alerting, gas profiling, contract analytics and debugging. I also competed and won several Ethereum Hackathons like (ETHBerlin 2018)[https://devpost.com/software/smart-alert-s5p1zw] and (ETHParis)[https://devpost.com/software/zippo].
