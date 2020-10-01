@@ -286,7 +286,7 @@ All contributions will be judged based on quality and grant award amounts determ
 
 #### Description - 1. Filecoin Miner Docs
 
-The mining docs at [docs.filecoin.io/mine](https://docs.filecoin.io/mine/) aim to be a canonical guide to mining and will use the [reference architecture](https://filecoin.io/vintage/mining-hardware-config-testnet-v3.pdf) shared in the [Filecoin Guide to Storage Mining](https://filecoin.io/blog/filecoin-guide-to-storage-mining) blog post.
+The mining docs at [docs.filecoin.io/mine](https://docs.filecoin.io/mine/) aim to be a canonical guide to mining that is growing. They include a guides like the  [example architectures](https://docs.filecoin.io/mine/mining-architectures/#protocol-labs-example-architecture), the [troubleshooting page](https://docs.filecoin.io/mine/lotus/miner-troubleshooting/) or any other that will benefit from contributions and feedback.
 
 #### Description - 2. Real-world Community Guides
 
@@ -297,22 +297,23 @@ If you have a successful storage miner - small, medium or large...
 🚴 *Or walk us through a full setup and all the additional steps you took whether it's Linux fu or networking tips or hardware optimizations or your storage layer redundancy strategy or outtage recovery strategy.*
 
 Here are some topics of interest:
-- How do you set up a rig??
-   - Partitioning drives?
-   - Aggregating sealed sectors?
-   - Which CPUs, GPUs, networking, types of drives, etc.
-   - Single Machine Miner vs Remote Workers
+- How did you set up a rig??
+   - Which CPUs, GPUs, networking, types of drives, etc. did you choose?
+   - How does your sealing pipeline look like and how are you distributing tasks between your miner and the workers?
 - Setup tricks for Lotus
-   - How to adjust prices
+   - How to dynamically adjust prices?
+   - What custom deal filters have you set up?
 - Redundancy Strategies
-   - e.g. ZFS, JBOD, RAID (what type?), Ceph, GlusterFS and what performance do you get
+   - How are you aggregating/safeguarding your storage?
+   - e.g. ZFS, JBOD, RAID (what type?), Ceph, GlusterFS and what performance do you get out of your solution?
    - SSD vs NVMe
 - Monitoring tools
    - from basic scripts to dashboards
    - monitor resources, detect failures
 - Disaster Recovery
+   - What are the failure cases? How do you recover from them?
 
-Guides on these sample topics can complement the Mining Docs with more real-world examples to help other miners get started and work through the trade-offs.
+Guides on these sample topics can complement the Mining Docs with more real-world examples to help other miners get started and work through the trade-offs. Content might be reviewed and included directly or indirectly in the official docs.
 
 #### Grant Award Ranges
 
