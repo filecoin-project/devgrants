@@ -8,7 +8,7 @@ We are seeking proposals for the following RFPs for Mining Tools, Mining Tutoria
 
 **Gitcoin CLR Grant Funding**
 
-These proposals will also be posted to Gitcoin [*Link coming soon*] where community members can show their support by helping fund these projects.
+These proposals will also be posted to the [Gitcoin Space-Race-2 category](https://gitcoin.co/grants/spacerace2?) where community members can show their support and signal it's a valuable idea.
 
 Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
 
