@@ -2,7 +2,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # RFP Proposal: `Telegraf plugin for Lotus & TICK stack setup`
 
-**Name of Project:**
+**Name of Project:** Telegraf TICK Lotus Monitoring
 
 **Link to RFP:** https://github.com/filecoin-project/devgrants/blob/master/rfps/new-mining-tools-rfps.md#monitoring-tool-for-miners
 
