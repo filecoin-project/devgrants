@@ -30,7 +30,6 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
 
 
   - [Monitoring Tool for Miners](#monitoring-tool-for-miners)
-  - [FSM Scheduler Improvements](#fsm-scheduler-improvements)
   - [Sector Checker](#sector-checker)
   - [Auto-Add New Sectors based on Capacity](#auto-add-new-sectors-based-on-capacity)
   - [Basic Miner HW ROI calculator](#basic-miner-hw-roi-calculator)
@@ -66,32 +65,6 @@ Options:
 1) *Lightweight monitoring for smaller miners* - to support smaller miners we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
 
 2) Dedicated server - miners with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
-
-&nbsp;
-
-### FSM Scheduler Improvements
-
-#### Overview
-
-The current FSM Storage Scheduler is relatively basic. It could be improved in terms of customizability, priority setting, predictions, opportunities for parallelization and better hardware and networking utilization, and visualization of what’s happening over time.
-
-#### Description
-
-Currently the Scheduler is optimized for using dedicated machines for each process. Many miners using a single machine must learn how to ensure sufficient resources for new storage deals and sealing operations alongside data management I/O tasks and the time windows for submitting storage proofs.
-
-This [Lotus Issue 3498](https://github.com/filecoin-project/lotus/issues/3498) has been collecting some improvement ideas and [this SpaceRace Lotus workshop video](https://www.youtube.com/watch?v=rwz8XIs6miE&t=803s) also discusses potential improvements.
-	
-Various approaches to helping miners improve their scheduling are welcome. For example, a smarter Scheduler could give tasks to a worker based on current resource utilization. Scheduling is said to be hard in GoLang and an optimal strategy can depend on your HW and network configuration. There may be no one-size-fits-all solution and various test scenarios could be supported.
-
-For this grant we also welcome significantly useful PRs to Lotus:
-
-1) Implementing current TODO's in Lotus related to FSM.go are also welcome - search for the term `TODO` inline in the code OR propose a new FSM optimization strategy.
-
-2) ***Create a new Issue first describing what you intend to solve*** so we can confirm your strategy is eligible for this grant (tag @eshon or @jennijuju).
-   - Please also state your improvement’s target miner size and target hardware configuration
-   - After Step (1) and *if your Issue is approved*, you can submit a PR with your implementation. (Not all Issue proposals may be accepted for this grant.)
-
-Contributors should have a solid understanding of the current Lotus FSM, hardware requirements and CPU/GPU optimization.
 
 &nbsp;
 
