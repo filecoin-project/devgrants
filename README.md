@@ -99,9 +99,9 @@ All of our currently open RFPs are listed in the [`rfps` folder](rfps/).
 Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
-3. Tag your PR with the appropriate tags:
-    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
-    - Grant type tag: Since this proposal is in response to an RFP, tag your PR with the `proposal-type:rfp` tag.
+3. Label your PR appropriately:
+    - Category label: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
+    - Grant type label: Since this proposal is in response to an RFP, tag your PR with the `proposal-type:rfp` tag.
 
 **Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (at which point, the RFP might be closed).**
 
@@ -109,9 +109,9 @@ Here are the steps to submit a proposal against one of the listed RFPs!
 
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
-2. Tag your PR with the appropriate tags:
-    - Category tag: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
-    - Grant type tag: Since this proposal is in the open grants category, tag your PR with the `proposal-type:open` tag.
+2. Label your PR appropriately:
+    - Category label: one of `category:core-dev`, `category:app-dev`, `category:devtools-libraries`, `category:technical-design`, `category:docs`, `category:community`
+    - Grant type label: Since this proposal is in the open grants category, tag your PR with the `proposal-type:open` tag.
 
 **Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (which means a 3-month delay in review for your proposal).**
 
