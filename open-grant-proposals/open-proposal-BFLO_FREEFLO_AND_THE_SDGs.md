@@ -125,4 +125,4 @@ Other repos of team members:
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
+We are participating in Apollo Fellowship and already have a POC using IPFS for the FREEFLO USA project and elements completed that relate to the Uygher project.
