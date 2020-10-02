@@ -77,8 +77,7 @@ QA & Bug repair - 2,500
 Other - 14,000
 
 ## Maintenance and Upgrade Plans
-
-After Filecoin mainnet launches, incorporate new code, storage costs, and storage terms
+Filecoin mainnet updates, incorporate new code, storage costs, and storage terms
 Our goal is for users of BFLO to input ongoing claims and over the next 6 months we will add to the commons whatever claims are made that are opted into the public BFLO Data Commons
 
 We anticipate with use there will be nuances and we will seek to refine as time and resources allow.
