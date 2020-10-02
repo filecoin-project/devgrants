@@ -41,25 +41,25 @@ This project shall include three phases:
 
 Week 1-3: 
 Create BFLO commons on IPFS
-System to input publicly optedin SDG claims and greivances to the BFLO commons on IPFS, include geotags and times stamps to all claims
-$30K
+Tie-in API for BFLO reporting
+Integrate with platform to input publicly opted in SDG claims and greivances to the BFLO commons on IPFS, include geotags and times stamps to all claims
+Implement the API of the UN Open Data Hub of global SDG claims into IPFS and test
+$30.5L
 
-Implement the API of the UN Open Data Hub of global SDG claims into IPFS
-$5K
-
-Week 4-5:
+Week 5:
 Indexing using The Graph or similar solution
 Geomap and other visualizations using technologies such as D3.js and google maps
-$30K
-
-Week 6:
-Create an SDK that includes API for others to input SDG claims to the BFLO commons on IPFS with BFLO and Filecoin
 $15K
 
-Other costs: $10K 
-software licenses, cloud implementation, gas and filecoin costs for users who can not afford to pay for gas and fees
+Week 6:
+Create an SDK that includes API for others to input SDG claims to the BFLO commons on IPFS
+Integrate BFLO API for claims and Filecoin storage costs
+$10K
 
-Project duration 6 weeks, accessible maintained for 6 months
+Other costs: $15K 
+Accessible maintained for 6 months, software licenses, cloud implementation, gas and filecoin costs for users who can not afford to pay for gas and fees
+
+Project duration 6 weeks, 
 
 ## Total Budget Requested
 
@@ -67,13 +67,14 @@ Budget breakdown: $90,000
 
 Design, UX UI - $14,500
 Software engineers - 40,000
-Project Management - $18,000 
+Project Lead - $18,000 
 Documentation - 5,000
 QA - 2,500
-Other - 10,000
+Other - 15,000
 
 ## Maintenance and Upgrade Plans
 
+After Filecoin mainnet launches, incorporate new code, storage costs, and storage terms
 Our goal is for users of BFLO to input ongoing claims and over the next 6 months we will add to the commons whatever claims are made that are opted into the public BFLO Data Commons
 
 We anticipate with use there will be nuances and we will seek to refine as time and resources allow.
