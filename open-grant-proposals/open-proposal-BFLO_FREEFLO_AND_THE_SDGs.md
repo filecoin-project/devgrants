@@ -15,15 +15,17 @@ Today, 30-40 million slaves suffer in the shadows of our lives -- in the clothin
 
 BFLO technology helps track, verify and manage sustainability claims for proof of reputation around business investment leveraging the Sustainable Development Goals (SDGs). 
 
-"BFLO, FREEFLO, AND THE SDGs" is our project to leverage BFLO technology and IPFS storage to store and map the world's SDG claims and public attestations to meeting the 17 SDGs. We wish leverage Filecoin as an incentivization mechanism to the community and enable the processing and indexing for clients of BFLO seeking to leverage our tools for reporting and verification of their claims.
+"BFLO, FREEFLO, AND THE SDGs" is our project to leverage BFLO technology and IPFS storage to store and map the world's SDG claims and public attestations to meeting the 17 SDGs. We wish leverage Filecoin as an incentivization mechanism to the community and enable the processing and indexing for users to leverage our tools for reporting and verification of their SDG claims.
 
 ## Value
 
-The United Nations adopted the SDGs as the framework to solve our greatest challenges and today over 14,000 governments, finance and business entities are agreeing to meet as a result of these clamering concerns, and the growing pressure of over $40T under wealth management being divested in favor of climate change and companies with positive Environment Social Governanve (ESG) scores. 
+The United Nations adopted the SDGs as the framework to solve our greatest challenges and today over 14,000 governments, finance and business entities are agreeing to meet the goals as a result of these clamering concerns and the growing pressure of 1/3 the world's wealth being divested from dirty investments in favor of those which support solving climate change and have positive Environment Social Governanve (ESG) scores. 
 
-The risks of us not solving climate change are thje suffering of our future generations. At present, humanity's added pressure of crumbling global democracies require we have anchors of truth amid a landscape of ever shifting information and "fake news", where pundits provide 35-65% of the false information, and our leaders removed vast libraries of environmental information. 
+While Nature will survive and reset, the risks of us not solving climate change points towards the suffering of future generations and countless species we rely on in our delicate web of life.  At present, humanity's added pressure of crumbling global democracies require we have anchors of truth amid a landscape of ever shifting information and "fake news", where pundits provide 35-65% of the false information, and our leaders are removing vast libraries of environmental information. 
 
-By creating a global repository for public attestations, both positive and negative, we can begin to see the truth behind this. We need entitites to be held accountable for their committments versus using these as a lever for branding. Since Filecoin stands for new paradigms of truth through information, value to Filecoin is to meet the organization's mission, and to provide meaningful collective intelligence that can help guide us toward the world we want to be in and rapidly scale solutions by providing the landscape map and transparency. 
+By creating a global repository for public attestations, both positive and negative, we can begin to see the truth behind the flow of respources, tanglible and intangible. We need entitites to be held accountable for their committments versus using these as a lever for branding. 
+
+Since Filecoin stands for new paradigms of truth through information, value to Filecoin is to meet the organization's mission, and to provide meaningful collective intelligence that can help guide us toward the world we want to be in and rapidly scale solutions by providing the landscape map and transparency. 
 
 ## Deliverables
 
