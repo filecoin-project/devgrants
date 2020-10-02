@@ -34,34 +34,36 @@ This project shall include three phases:
 
 1. Create the BFLO Commons on IPFS to include public attestation and SDG reporting currently in BFLO and enable users to push their public claims to BFLO Commons. Include FREEFLO the safeguard tool in BFLO for grievances by NGOs and citizens of the world across a variety of topics from environment and climate change to Black Lives Matter and voter suppression.
 
-2. Provide a map and data visualization to global the SDG public claims and grievances in the BFLO Data Commons. 
+2. Provide a map and data visualization to global SDG public claims and grievances in the BFLO Data Commons. 
 
-3. Implement Filecoin for users of BFLO who upload their public claims to the BFLO data commons as a mechanism to increase incentivization  around storing these claims. 
+3. Implement Filecoin as a mechanism to increase incentivization for users of BFLO who upload their public claims to the BFLO data commons to store these claims. 
 
 
 ## Development Roadmap
 
 Week 1-3: 
-Create BFLO commons on IPFS
-Tie-in API for BFLO reporting
-Integrate with platform to input publicly opted in SDG claims and greivances to the BFLO commons on IPFS, include geotags and times stamps to all claims
-Implement the API of the UN Open Data Hub of global SDG claims into IPFS and test
+Transition BFLO commons on IPFS from POC to MVP
+Tie-in API for BFLO reporting and mobile app for grievances
+Integrate with platform to input publicly opted in SDG claims and greivances to the BFLO commons on IPFS
+Include geotags and times stamps to all claims
+Implement the API of the UN Open Data Hub of global SDG claims into IPFS
 $32.5K
 
 Week 5:
-Indexing using The Graph or similar solution
-Geomap and other visualizations using technologies such as D3.js and google maps
+Index using The Graph or similar solution
+Geomap and data visualize for contextual relationships 
 $15.5K
 
 Week 6:
-Create an SDK that includes API for others to input SDG claims to the BFLO commons on IPFS
-Integrate BFLO API for claims and Filecoin storage costs
+Create an SDK that empowers others to input SDG claims to the BFLO commons on IPFS
+Integrate BFLO API for claims
+Integrate Filecoin storage costs
 $13K
 
 Other costs: $14K 
-Accessible maintained for 6 months, software licenses, cloud implementation, gas and filecoin costs for users who can not afford to pay for gas and fees
+Accessible and maintained for 6 months, software licenses, cloud implementation, some gas and filecoin costs for grievances 
 
-Project duration 6 weeks, 
+Project duration 6 weeks. 
 
 ## Total Budget Requested
 
