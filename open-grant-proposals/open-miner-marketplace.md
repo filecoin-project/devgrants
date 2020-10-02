@@ -5,7 +5,7 @@
 **Link to RFP’s:**
 
 - https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-5-rfps.md
-- https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-transaction-history-and-earnings-* predictor
+- https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-transaction-history-and-earnings-predictor
 - https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-hardware-profitability-calculator
 
 **Proposal Category:** `app-dev`
