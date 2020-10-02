@@ -46,33 +46,33 @@ Create BFLO commons on IPFS
 Tie-in API for BFLO reporting
 Integrate with platform to input publicly opted in SDG claims and greivances to the BFLO commons on IPFS, include geotags and times stamps to all claims
 Implement the API of the UN Open Data Hub of global SDG claims into IPFS and test
-$30.5L
+$32.5K
 
 Week 5:
 Indexing using The Graph or similar solution
 Geomap and other visualizations using technologies such as D3.js and google maps
-$15K
+$15.5K
 
 Week 6:
 Create an SDK that includes API for others to input SDG claims to the BFLO commons on IPFS
 Integrate BFLO API for claims and Filecoin storage costs
-$10K
+$13K
 
-Other costs: $15K 
+Other costs: $14K 
 Accessible maintained for 6 months, software licenses, cloud implementation, gas and filecoin costs for users who can not afford to pay for gas and fees
 
 Project duration 6 weeks, 
 
 ## Total Budget Requested
 
-Budget breakdown: $90,000
+Budget breakdown: $75,000
 
-Design, UX UI - $14,500
-Software engineers - 40,000
-Project Lead - $18,000 
-Documentation - 5,000
-QA - 2,500
-Other - 15,000
+Design, UX UI - $9,500
+Software engineers - 35,000
+Project Lead - $12,500 
+Documentation - 1,500
+QA &* Bug repair - 2,500
+Other - 14,000
 
 ## Maintenance and Upgrade Plans
 
