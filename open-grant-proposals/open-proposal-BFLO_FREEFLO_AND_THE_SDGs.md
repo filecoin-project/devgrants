@@ -119,7 +119,7 @@ Other technologist are on our team and can be referenced if need be.
 https://github.com/BFLOio
 We have not open sourced on our project as we are still building and some of our code involves other IP we are not able to open source. This project shall be.
 
-Other repos of team members:
+Other repos of team members are available.
 
 
 # Additional Information
