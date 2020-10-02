@@ -2,7 +2,7 @@
 
 **Name of Project:** Miner Marketplace
 
-**Link to RFP’s: **
+**Link to RFP’s:**
 
 - https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-5-rfps.md
 - https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-transaction-history-and-earnings-* predictor
@@ -14,8 +14,6 @@
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
-<br>
-<br>
 
 # Project Description
 
@@ -33,7 +31,7 @@ Miner marketplace will have these key components:
 
 Our vision: “Join the social network where people help you become a miner/client and answer your questions/concerns”
 
-<br>
+
 
 ## Deliverables
 
@@ -108,6 +106,8 @@ This may include the likes of:
   - Powergate Reputation Score
 
 [Note: The above list of attributes is not final. It’s just a suggestion at present. The list of attributes will be finalised via having discussions with the community members in the initial weeks of execution.]
+
+
 The following image is of our flagship product YieldScan. We intend to have a miner profile as close to this:
 
 ![Dashboard - Validator Profile](https://user-images.githubusercontent.com/10279686/94892491-63c4ff80-04a2-11eb-8529-6d2f5ca8302e.png)
@@ -198,7 +198,6 @@ Hence budget has not been finalized since scope of the final application needs t
 
 - Integration of https://sourcecred.io/ to measure and reward value creation among participants.
 
-<br>
 <br>
 
 # Team
