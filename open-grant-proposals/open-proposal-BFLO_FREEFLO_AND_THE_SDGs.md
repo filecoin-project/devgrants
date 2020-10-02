@@ -69,11 +69,11 @@ Project duration 6 weeks.
 
 Budget breakdown: $75,000
 
-Design, UX UI - $9,500
+Design, UX UI - 9,500
 Software engineers - 35,000
-Project Lead - $12,500 
+Project Lead - 12,500 
 Documentation - 1,500
-QA &* Bug repair - 2,500
+QA & Bug repair - 2,500
 Other - 14,000
 
 ## Maintenance and Upgrade Plans
