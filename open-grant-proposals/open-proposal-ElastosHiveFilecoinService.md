@@ -52,7 +52,7 @@ ALL DEVELOPMENT IS ON TESTNET FOR NOW
 	
 	- **File Upload** - Example flow: user escrows ELA on Elastos EVM chain, user calls smart contract with a file hash, oracle whitelist and renewal request, user uploads matching file, service will lock the escrow and sign the renewal request, service will pin the file using its own FIL balance, service will issue an oracle data request, service will request payment from the escrow address by submitting proof from CID checker to the smart contract.
 	- **Withdraw Escrow** - user decides they no longer want to pin a file, this signed request will 	have the service release its lock.
-	- **Failure Function** - if the service fails to renew a pin or is down during a critical renewal period the escrow lock automatically releases funds back to the user and the node's stake is slashed/rewarded to all users using that node.
+	- **Failure Function** - if the service fails to renew a pin or is down during a critical renewal period the escrow lock automatically allows the release of funds back to the user upon calling a special method for this and the node's stake is slashed/rewarded to all users using that node.
 
 4. **Front-End Web UI and Co-Marketing - Nov 30, 2020**
 
