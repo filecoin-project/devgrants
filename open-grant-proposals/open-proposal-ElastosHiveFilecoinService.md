@@ -92,7 +92,7 @@ My name is Clarence Liu and I'm a prominent executive at Elastos as well as the 
 
 ## Team code repositories
 
-https://github.com/elastosjs/elastosj
+https://github.com/elastosjs/elastosjs
 
 # Additional Information
 
