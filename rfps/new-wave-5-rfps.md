@@ -99,7 +99,7 @@ Storage miners who offer more information about data and sector status are likel
 
 Sectors miners have can also be observed at [spacegap.github.io](https://spacegap.github.io).
 
-Optionally this tool could also map pieceCIDs (used in CommP) to payload / data CIDs to support Retrieval Miners and Clients. [https://github.com/mgoelzer/cid_oracle](https://github.com/mgoelzer/cid_oracle) is a tool that scans the Filecoin blockchain for pieceCID to payload CID mappings.
+Optionally this tool could also map pieceCIDs (used in CommP) to payload / data CIDs to support Retrieval Miners and Clients. [filecoin.tools](https://filecoin.tools) and [https://github.com/mgoelzer/cid_oracle](https://github.com/mgoelzer/cid_oracle) are both tools that scan the Filecoin blockchain for pieceCID to payload CID mappings.
 
 ##
 
