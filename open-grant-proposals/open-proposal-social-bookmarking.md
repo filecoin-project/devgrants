@@ -116,7 +116,9 @@ Total: 19200 USD
 
 ## Maintenance and Upgrade Plans
 
-As soon as Ceramic document pinning is live on Filecoin mainnet, we will update our app to work with the new network.
+As soon as Ceramic document pinning is live on Filecoin mainnet, we will update our app to work with the new network. (Ceramic Network is planned to go live by end of this year, which will make our login flow interoperable with standard wallets like Metamask.)
+
+If changes in Ceramic or Filecoin brake our app or standards, we will continue to update those to make the app work again, in the scope of this grant.
 
 We will continue to develop doctype standards for different media formats as well as reputation data.
 
