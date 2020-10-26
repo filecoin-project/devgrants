@@ -34,14 +34,15 @@ Additionally the tools and practices we will develop and open-source as part of 
 All deliverables will be available for use, download, and use-case validation upon milestone completion.
 
 ### 1. Pygate gRPC python client for Textile Powergate
-- Continue maintenance of [Pygate](https://github.com/pygate/pygate-gRPC) for the wider benefit of the Filecoin and Powergate community and make new enhancements to meet Deplatformr requirements.
+- Continue maintenance of [Pygate](https://github.com/pygate/pygate-gRPC), the Python gRPC client, for the wider benefit of the Filecoin and Powergate community.  
+- Make new Pygate enhancements to meet Deplatformr requirements.
 ### 2. End user Filecoin and content management Web Application
 - Provide automated parsing, extraction, and upload of profile information and content collection from social media export files to Filecoin network. 
 - Provide a web interface to manage uploaded Facebook content and view Filecoin CID, replication, deal and wallet information.
 ### 3. Filecoin Management Service 
 - Manage Filecoin wallets, retrievals, hot cache layer management and pushing content to mobile apps, including a daily feed based on calendar date posts (e.g. “Your Memories”).  
 ### 4. Mobile application
-- A thin client to receive and re-push content from the Filecoin management service.
+- A thin client to receive and re-push content from the Filecoin Management Service.
 
 ### Use Case Demonstrations:
 1. Download the Facebook data backup.
@@ -58,7 +59,7 @@ All deliverables will be available for use, download, and use-case validation up
 4. User will receive files from the Filecoin network on their mobile client.
   * Filecoin Management Service will set encrypted files for download to IPFS.
   * Filecoin Management Service will pin files on behalf of the user.
-5. User will utilize the mobile application (cross platform) to share images to their existing social network (Whatsapp, iMessage, Facebook Groups, etc)
+5. User will utilize the mobile application (iOS and Android) to share images to their existing social network (Whatsapp, iMessage, Facebook Groups, etc)
   * Mobile client will download files and content metadata directly from IPFS.
   * Mobile client will decrypt files using encryption keys.
   * User will trigger sharing with their network via the mobile client.
@@ -98,7 +99,8 @@ B. Develop Filecoin Management Service to:
   * Report wallet balances.
   * Maintain list of trusted, verified miners, regional preferences.
   * Maintain market pricing information.
-  * Determine replication policy report on expiring storage deals and enable auto-renew.  
+  * Determine replication policy 
+  * Report on expiring storage deals and enable auto-renew.  
   
 C. Deploy and maintain Filecoin Management Service.
 
@@ -252,4 +254,4 @@ Our provisional developers **Hector Monsegur** and **Tony Wooster** are senior s
 # Additional Information
 Our project members have a long history with blockchain technology and are passionate about the decentralization movement. We've gelled into a cohesive, effective team over the course of HackFS, Gitcoin Apollo and the Slingshot Space Race. Our skills and personalities are very complementary and we enjoy each other's company. We balance technical expertise with strong organizational skills to achieve our goals on time and within scope. Breaking down complex problems and then executing on them is our strong point, which is why the milestones above are both ambitious as well as realistic.  
 
-As noted in the Development Roadmap, we plan on expanding our core team of three to include the help of two experienced developers who will help us push our project past the finish line. The wider Filecoin community stands to benefit from our project deliverables irrespective of the relative success of the Deplatformr vision. However, We are confident that we will launch Deplatformr to come out of this seed phase with a concrete FOSS product suite that we will successfully launch and evolve through active engagement with our user base and sponsors. We will deplatform social media captives and introduce them to Filecoin liberation!
+As noted in the Development Roadmap, we plan on expanding our core team of three to include the help of two experienced developers who will help us push our project past the finish line. The wider Filecoin community stands to benefit from our project deliverables irrespective of the relative success of the Deplatformr vision. However, We are confident that we will launch Deplatformr to come out of this seed phase with a concrete FOSS product suite that we will successfully launch and evolve through active engagement with our user base and sponsors. We will deplatform social media captives and lead the exodus to Filecoin decentralized storage!
