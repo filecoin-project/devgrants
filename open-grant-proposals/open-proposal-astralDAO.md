@@ -80,19 +80,16 @@ These codecs are where most of our value proposition will reside in regards to t
 
 The remainder of phase 1's roadmap entails the creation of the following Astral Protocol packages:
 
-**@astral-protocol-core DO WE REMOVE ANY REFERENCE TO LIBP2P and NETWORK FOR NOW ? WILL WE ACTUALLY NEED THIS TO ENABLE GEOLOCKER? JARED ?**
-The @astral-protocol-core package is the core package of the implementation. This is where we will develop the Astral Node Instance with the libp2p, modular network stack. The aim is create a distributed network of nodes that can handle network activity and gossip about the activity on the network. We hope to extend this further, to leverage the protocol negotiation system and the other distributed networking capabilities to optimize the network for specialized big data transport pipelines, similar to IPFS Cluster. In addition, the core package will contain a document handler that will be responsible for authenticating the DID Documents, making requests to read or update DID Documents, the anchoring of the DID Documents, and their state changes to the Verifiable Spatial Data Registry. The core package will also contain the Pinning API for both IPFS and Powergate, and the geo-did-resolver package.
+**@astral-protocol-core**
+The @astral-protocol-core package is the core package of the implementation. This is where we will develop the Astral Node Instance. It will contain a transformer, that will enable us to use existing tools for working with the STAC Spec, and be responsible for the transformation from STACs to GeoDIDs. In addition, the core package will contain a document handler that will be responsible for authenticating the DID Documents, making requests to read or update DID Documents, the anchoring of the DID Documents, and their state changes to the Verifiable Spatial Data Registry. The core package will also contain the Pinning API for both IPFS and Powergate, and the geo-did-resolver package.
 
-**@astral-protocol-client - SAME AS ABOVE ?**
+**@astral-protocol-client**
 
 The @astral-protocol-client package provides a way to interact with the Astral protocol without having to actually run the entire protocol locally. It delegates document validation to a remote Astral node (defined in the@astral-protocol-core package) , however the DID controllers can authorize updates to documents from the client, just as in @astral-protocol-core.
 
-**@astral-protocol-api - SAME AS ABOVE**
+**@astral-protocol-api**
 
 The @astral-protocol-api package will allow for the @astral-protocol-core and @astral-protocol-client packages to communicate to each other.
-
-**@astral-protocol-transformer**
-The @astral-protocol-transformer package is responsible for the transformation from STACs to GeoDIDs. We plan to make this package a standalone package that can be used by other developers to extend the usage of the GeoDIDs in their own packages, or to convert an existing GeoDID into a validated STAC object. This package will also be imported into @astral-protocol-core. The transformer will enable us to use existing tools for working with the STAC Spec, like the stac-node-validator, sat-utils etc.
 
 **@geo-did-resolver**
 The @geo-did-resolver package will contain our DID method specification and will be responsible for the creation and dereferencing of the GeoDID Documents. This library is intended to use Ethereum addresses as fully self managed Decentralized Identifiers and wrap them in a DID Document. It supports the proposed Decentralized Identifiers spec from the W3C Credentials Community Group. It requires the did-resolver library, which is the primary interface for resolving DIDs. This DID method relies on the geo-did-registry. This most likely will be an extension of the @ethr-did-resolver.
