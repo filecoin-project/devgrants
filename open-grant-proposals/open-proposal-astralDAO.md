@@ -81,14 +81,14 @@ These codecs are where most of our value proposition will reside in regards to t
 The remainder of phase 1's roadmap entails the creation of the following Astral Protocol packages:
 
 **@astral-protocol-core**
-The @astral-protocol-core package is the core package of the implementation. This is where we will develop the Astral Node Instance. It will contain a transformer, that will enable us to use existing tools for working with the STAC Spec, and be responsible for the transformation from STACs to GeoDIDs. In addition, the core package will contain a document handler that will listen for events from our smart contracts. These events will trigger actions for authenticating the DID Documents, making requests to read or update DID Documents, the anchoring of the DID Documents, and their state changes to the Verifiable Spatial Data Registry. The core package will also contain the Pinning API for both IPFS and Powergate, and the geo-did-resolver package.
+The @astral-protocol-core package is the core package of the implementation. This is where we will develop the Astral Node Instance. Within the instance it will contain a transformer, that will enable us to use existing tools for working with the STAC Spec, as well as the transformation from STACs to GeoDIDs. In addition, the core package will contain a document handler that will listen for events from our smart contracts. These events will trigger actions for authenticating the DID Documents, making requests to read or update DID Documents, the anchoring of the DID Documents, and their state changes to the Verifiable Data Registry. The core package will also contain the Pinning API for both IPFS and Powergate, and the geo-did-resolver package.
 
 **@astral-protocol-api**
 
-The @astral-protocol-api package will supply endpoints for the @astral-protocol-core for ease of access and integration in our mobile dapp.
+The @astral-protocol-api package will supply endpoints for the @astral-protocol-core. This will enable ease of access and integration in our mobile dapp.
 
 **@geo-did-resolver**
-The @geo-did-resolver package will contain our DID method specification and will be responsible for the creation and dereferencing of the GeoDID Documents. This library is intended to use Ethereum addresses as fully self managed Decentralized Identifiers and wrap them in a DID Document. It supports the proposed Decentralized Identifiers spec from the W3C Credentials Community Group. It requires the did-resolver library, which is the primary interface for resolving DIDs. This DID method relies on the minting of a ERC-1155 standard token, which will act as the registry. The relation will be a 1:1 relation from GeoDID to NFT.
+The @geo-did-resolver package will contain our DID method specification and will be responsible for the creation and dereferencing of the GeoDID Documents. This library is intended to use Ethereum addresses and NFT metadata as fully self managed Decentralized Identifiers and wrap them in a DID Document. It supports the proposed Decentralized Identifiers spec from the W3C Credentials Community Group. It requires the did-resolver library, which is the primary interface for resolving DIDs. In addition, the DID method relies on the minting of a ERC-1155 standard token, which will act as the registry. The relation will be a 1:1 relation from GeoDID to NFT.
 
 **@astral-protocol-contracts**
 The @astral-protocol-contracts package will act as the Verifiable Data Registry for the GeoDID Documents as well as the Ethereum contract code that allows a user to mint a GeoNFT. This contract code follows the [ERC-1155 standard](https://eips.ethereum.org/EIPS/eip-1155) which allows the the inclusion of any combination of fungible and non fungible tokens, all in a single deployed contract. 
@@ -189,7 +189,7 @@ Skills:
 - Big Data and Analytics
 - Experience in Decentralized Identifiers
 - Geo-Spatial Data Science + Analytics
-  - Encompasses Machine Learning and Deep Learning
+- Encompasses Machine Learning and Deep Learning
 
 ## Team code repositories
 
