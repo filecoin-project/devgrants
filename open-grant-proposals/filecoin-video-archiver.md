@@ -41,7 +41,7 @@ Advanced options:
 
 During this initial phase we will formalize design on how to mediate interactions with Filecoin, identity management, and encryption. A tentative architecture is shown below, which will be initially tested and iterated as necessary. While many of the components in the stack are well-defined, we must take care to ensure that identity management, file tracking, and encryption/decryption are clearly (and deterministically) defined to ensure backup robustness.
 
-![https://i.imgur.com/Neqv2uY.png](https://i.imgur.com/Neqv2uY.png)
+![https://raw.githubusercontent.com/insight-decentralized-consensus-lab/misc-static-files/575f4df8043d94e86003c788e38c62c1e04e5833/images/filecoin/video-archiver/arch_v1.png](https://raw.githubusercontent.com/insight-decentralized-consensus-lab/misc-static-files/575f4df8043d94e86003c788e38c62c1e04e5833/images/filecoin/video-archiver/arch_v1.png)
 
 _Execution time: 2 weeks. Contributor time: 2 weeks engineer + 1 week infrastructure architect + 0.5 week project manager_
 
@@ -52,14 +52,12 @@ Uploading at this stage encompasses pushing a local video to Filecoin. Downloadi
 
 _Execution time: 5 weeks. Contributor time: 5 weeks engineer_
 
-
 ### Milestone 3: Refine and refactor front-end for final product UI & UX
 There is no official Youtube/Google API for downloading videos, so the webapp will provide a guide for retrieving videos through YouTube studio or Google Takeout. This will include a video and documentation that introduces Filecoin and shows how to use it for video backup. This will cover the potential pricing for upload / download costs in Filecoin. A CSS framework to enhance the user interface (UI) and work on user experience (UI) in both webapp. During this phase we will also implement opt-out privacy features, leveraging existed symmetric encryption libraries for local encryption prior to upload (and decryption after download). Practical key management overhead will be minimized by deterministic generation.
 
 At this stage, the Web 3 side of the project will be functional for local-to-filecoin backups. The next stage expands Web 2 functionality and integration.
 
 _Execution time: 6 weeks. Contributor time: 6 weeks engineer + 1 week infrastructure architect + 1 week project manager_
-
 
 ### Milestone 4: Advanced features for enhancements
 During this phase we will implement Youtube login through Google’s OAuth. This would be to allow videographers to upload to Filecoin and Youtube simultaneously, providing web 2 convenience and web 3 censorship resistance. This should attract users from the massive Youtube community. At the same time we can use OpenID Connect (OAuth 2.0 +) for a web2 version of user authentication for login to our webapp. The benefit of this would be to be able to store a list of videos they have backed up and show other information pertinent to them in a more familiar way.
@@ -77,7 +75,6 @@ _Execution time: 2 weeks. Contributor time: 2 weeks engineer + 1 week project ma
 Write up documentation, and implement changes based on feedback. All project deliverables are completed and added to https://github.com/filecoin-shipyard or linked there via a new meta repo + README (website, documentation, codebase, tutorial).
 
 _Execution time: 2 weeks. Contributor time: 2 weeks engineer + 0.5 week project manager_
-
 
 ## Maintenance and Upgrade Plans
 Maintenance for 1 year guaranteed, including critical bug fixes on demand. We are always open to community suggestions to improve the project.
