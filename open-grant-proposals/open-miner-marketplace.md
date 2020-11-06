@@ -17,44 +17,139 @@
 
 # Project Description
 
-Miners are at the heart of the Filecoin network. They are a representative of the value that Filecoin strives to provide.
-Hence it becomes very important to gain awareness about the various miners present in the ecosystem.
 
-We want to solve the problem of information asymmetry surrounding the miners in the Filecoin ecosystem by curating relevant information about them and presenting it in the form of miner profiles. This will form the crux of a Miner marketplace & social network.
+### Problem Statement: 
 
-Miner marketplace will have these key components:
+Miners are at the heart of the Filecoin's decentralized storage network. They are a representative of the value that Filecoin strives to provide.
 
-- Standardized listing of all miners - that can be sorted and filtered by different attributes.
-- Miner Profile - that contains various details about the miner.
-- Client Profile - that contains various details about the client
-- Developing Miner<->Client relationships.
+Though we feel that problems of information asymmetry and lack of transparency are being faced by the Filecoin miner community - which hinders friction-less onboarding of new miners as well as keeping existing miners peace of mind. 
 
-Our vision: “Join the social network where people help you become a miner/client and answer your questions/concerns”
+We believe that Happy Miners = Happy Network! 
 
 
+#### Questions (by category) that we feel miners find difficult to get answers to:
 
-## Deliverables
+1. Information asymmetry in understanding returns:
+    * What is the yield that I can expect if I run a miner? 
+    * What are the overall profits and losses over the past X period since I have been running a miner? 
+    * What can be my future returns look like? 
+    * Who are the miners who are earning more than me and why?
+    
 
-- Miner Marketplace UI - Search + Listing of all the miners in the network.
-  - Miner profiles - clickable from the home page.
-  - Client profiles - like Amazon product reviewer profiles.
-    - Clients will also have an option to give ratings to the miners based on their interactions with the miner.
-  - Calculator View
-- Miner Marketplace API
-  - That can be polled by different interfaces like Slate to access the data related to interactions between Client and Miner.
+2. Lack of transparency causing risk mitigation problems:
+    * How can I make my value prop more trustworthy to potential storage clients?
+        * Suppose I am a small miner, how can I compete with larger miners?
+ 
+    * If all things are equal, how do I go about competing with other miners?  
 
-#### Search + Listing of all the miners in the network:
+#### Questions (by category) that we feel clients find difficult to get answers to:
 
-- Search via address
-- Listing all miners with their attributes.
-- This listing can be sorted based on attributes.
-- Click on miner -> leads to Miner profile.
 
-#### Miner Profile Details:
+1. Information asymmetry in selecting miners: 
+    * No standardized and objective way to compare miner's value prop. 
+   
 
-A miner profile would contain various details about the miner.
-Successful outcome: each miner ends up bookmarking their link to the profile and goes every other day to see how are they amassing social capital in the network.
-This may include the likes of:
+2. Lack of transparency causing risk mitigation problems:
+    * How can I go about minimizing risk when choosing a miner? 
+        * How do I find out how reliable a miner/miner company is?
+
+
+
+These above questions are intertwined in their nature as information asymmetry causes lack of transparency and vice versa. 
+
+This cyclic nature of these questions leads to compounding problems.
+
+
+<br>
+
+
+### User problem validation from the community: 
+
+
+1. Information asymmetry:
+    * Faced by Miners: 
+        * ![image](https://user-images.githubusercontent.com/10279686/98396712-2c8ad500-2084-11eb-99b5-3ba53cb5d441.png)
+
+    * Faced by Miners and Clients both: 
+        * ![image](https://user-images.githubusercontent.com/10279686/98397017-b20e8500-2084-11eb-947d-d59178dd5f7f.png)
+
+<br>
+<br>
+
+2. Lack of transparency causing risk mitigation problems:
+   * Faced by miners: 
+       * ![image](https://user-images.githubusercontent.com/10279686/98396882-78d61500-2084-11eb-8ed0-b2607690591a.png)
+       * Marketing get's lost in the void like this: ![image](https://user-images.githubusercontent.com/10279686/98397403-51337c80-2085-11eb-84a4-a8516164647d.png)
+
+   * Faced by clients: 
+       *  ![image](https://user-images.githubusercontent.com/10279686/98397085-ce122680-2084-11eb-9770-77e2d3065c96.png)
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+## Solution: 
+
+We want to build a resource center platform focusing on miners information that aims to: 
+* provide quantitative and qualitative data about miners’ performance. 
+* standardizes the above information so they are sortable and filterable. 
+
+We believe that this platform will kickstart helping the community answer the questions we had mentioned above. 
+
+
+We call this platform FindSignal (tentatively) - an open miner marketplace. 
+ 
+
+FindSignal will have these key components:
+
+1. Standardized listing of all miners - 
+    - that can be sorted and filtered by different attributes.
+    - Search via address
+
+2. Miner Profile - that contains various details about the miner.
+    - A miner can update their profile to boost their transparency. 
+    - A miner can at a glance see overall profits, losses. 
+
+3. Calculator View - that abstracts away network economics and provides miner key insights into profitability. 
+ 
+<br>
+<br>
+
+### Components in Detail: 
+
+#### 1. Standardized listing of all miners: 
+- On the lines of how bakers of Tezos are listed on [Baking Bad](https://baking-bad.org/)
+- A filtering mechanism similar to Baking Bad to empower community members to find high signal miners. 
+    - ![](https://i.imgur.com/TGY2a2a.png)
+- Global search via address
+- Click to view miner profile. 
+
+
+The following image is of one of our team's flagship product YieldScan and this is how we envision the listing: 
+
+![image](https://user-images.githubusercontent.com/10279686/98402108-b9d22780-208c-11eb-9ea5-e32653f6bde5.png)
+
+
+
+<br>
+<br>
+
+#### 2. Miner Profile: 
+
+A miner profile contains all possible information that can inform client about how the miner is performing. 
+
+We also envision miner using their **FindSignal profile links to market themselves on social media.**
+
+It would contain various details about the miner like:
 
 - Generic information about the miner. Eg:
 
@@ -84,100 +179,235 @@ This may include the likes of:
 
   - How many clients have trusted the miner with their data.
   - How much volume per client has been entrusted with the miner.
-  - Reviews by clients.
+  
 
-- General fee
+- Miner Transaction History:
 
-  - Deal fees
-  - Network transaction fees + Average priority fee
+  - A clean no-brainer jargon-free transaction history.
+      - We are inspired by Zerion style clean history which humanizes historical transaction flow. ([Sample](https://app.zerion.io/0x5b3ce67ebc795fe7e709815bc49d4300898e1b7b/history
+))
+     - It will help a miner understand the history of all their incoming and outgoing transactions in terms of collateral pledged, rewards, penalties, gas costs ( over time). 
+  - Tactical Features:  
+      - Aggregated earnings and losses over past X period. 
+          - No running through logs of transactions to understand what a miner is making. 
+          - This will also act as an attribute to the standardized listing. 
+      - UX that helps explain where miner's funds are going so a miner can follow through easily and troubleshoot their setup if needed. 
 
-- Miner Transaction History (TBD\*):
+  - Ref this [RFP](https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#1-miner-transaction-history) for more detail on the problem we intend to solve. 
 
-  - Problem: A miner’s transaction history can be hard to follow and group logically in current block explorers, especially for new miners.
-    - Ref: https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-transaction-history-and-earnings-predictor
-  - Solution: A clean no-brainer jargon-free transaction history.
-    - We are inspired by Zerion style clean history which humanizes historical transaction flow.
-    - Sample: https://app.zerion.io/0x5b3ce67ebc795fe7e709815bc49d4300898e1b7b/history
+
+- Miner Earnings Predictor: 
+    - Devising an algorithm to predict miner's earning over course of time. 
+        - Using history from on-chain data. 
+        - Baseline assumptions will be taken to give a speculative view.
+ 
+    - Ref this [RFP](https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#2-earnings-predictor) for more detail on the problem we intend to solve. 
+ 
+
+
+- Miner Transparency Score. 
+    - This is a gamification feature to incentivize miners to add more details to their profile. 
+    - The higher the transparency score, the higher you can get to rank in the overall listing. 
+
 
 - Other attributes
   - Location
   - Support for offline data transfer
   - Average client rating
   - Powergate Reputation Score
+      - Ref: Reputation Module [here](https://docs.textile.io/powergate/)
+ 
+<br>
+<br>
 
-[Note: The above list of attributes is not final. It’s just a suggestion at present. The list of attributes will be finalised via having discussions with the community members in the initial weeks of execution.]
+The following image is of our flagship product YieldScan. 
+
+* We intend to have a miner profile as close to this:
+    * ![Dashboard - Validator Profile](https://user-images.githubusercontent.com/10279686/94892491-63c4ff80-04a2-11eb-8529-6d2f5ca8302e.png)
+
+* Addition of incentivisations for miners: 
+    * We’ll develop a “transparency score” based on the amount of information (both on-chain and off-chain) that’s shared by the miners to promote transparency in identities. 
+    * Updating each attribute like display name, legal name, twitter handle, etc. will carry some points, which will be added to the transparency score (sample shown below)
+    * <img width="858" alt="Screenshot 2020-10-02 at 10 04 36 AM" src="https://user-images.githubusercontent.com/10279686/94892500-6b84a400-04a2-11eb-9947-8e1b508c8548.png">
 
 
-The following image is of our flagship product YieldScan. We intend to have a miner profile as close to this:
+<br>
+<br>
 
-![Dashboard - Validator Profile](https://user-images.githubusercontent.com/10279686/94892491-63c4ff80-04a2-11eb-8529-6d2f5ca8302e.png)
+Note: 
+* The above list of attributes is not precise. 
+* Basis how we get data from the chain and getting a better understanding of what would be valuable to a miner, we will optimize accordingly. 
+* Requesting the Filecoin Foundation for flexibility to allow us to design a superior end experience. 
 
-We also intend to add a transparency score to the mix so to provide gamification incentive for miners to update their data to their profiles:
 
-<img width="858" alt="Screenshot 2020-10-02 at 10 04 36 AM" src="https://user-images.githubusercontent.com/10279686/94892500-6b84a400-04a2-11eb-9947-8e1b508c8548.png">
 
-#### Client Profile Details:
+<br>
+<br>
 
-- Generic information about the client. Eg:
-- Name
-- Bio,
-- Contact details like email, twitter handle etc
 
-Attributes measuring client’s participation in the network:
-
-- How many storage deals did they make and with whom?
-- How much data are they storing in the network (top client leaderboard PoV)
-
-#### Both miner and client will use auth:
-
-- If possible auth using FIL wallet.
-- If not possible, via Keybase or Github will do until auth is possible using FIL wallet.
 
 #### Calculator View
 
-- Since this is a social network, this view will help new miners get answers to their questions like:
-- Why should I become a miner?
-- What will it take?
-- What is the amount of profit I will make? And over what period of time.
+* This view will abstract away problems statement listed in this [RFP](https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-hardware-profitability-calculator). 
+* The idea is to give a human friendly calculator that: 
+    * strips away all jargon. 
+    * connected to real-time on-chain data. 
+    * helps user enter data basis $ and calculate net return on investment in $. 
+        * Similar to what ETH2 ecosystem has done with this [spreadsheet](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=842896204). 
+ 
 
-Ref: https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-hardware-profitability-calculator
+These images are from one of our team's flagship product YieldScan and this is how envision solving this problem: 
+ * ![image](https://user-images.githubusercontent.com/10279686/98402312-159cb080-208d-11eb-84a0-6a890470c3b6.png)
+ * ![image](https://user-images.githubusercontent.com/10279686/98402599-9491e900-208d-11eb-9a4e-755e6b9cb30b.png)
 
-#### API Details:
 
-Such data is not only relevant for a client looking to make deals with the miners, but it’s also relevant for various other applications that are being built (or will be built) on top of the Filecoin network like Textile’s Powergate or Slate.
 
-Hence, the data collected about the miners will be made available via an API.
-
+<br>
+<br>
+<br>
 <br>
 
 ## Development Roadmap
 
-#### Milestone 1 - Finalisation of API Specsheet & UI (4 weeks)
+### Milestone 1 - Basic Miner Profile Live (4 weeks)
 
-- Discussion with the community to arrive at a final list of miner attributes relevant for being showcased on the marketplace application
-- Finalise the API specsheet based on miner attributes list
-- Arrive at high fidelity UI mockups via multiple sprints of community review
+The end outcome that the team will be working towards would be to: 
+1. render a frontend where you can **view basic miner profile** using the following methods: 
+    * Enter any address via a search bar to go to miner profile 
+    * or use findsignal.in/filecoin/miner/:address:
+2. algorithm spec for: 
+    * filtering and sorting mechanism. 
+    * processing all transaction history to output a clean, logically grouped list. 
+    * what attributes when filled increase transparency score and by how much. 
 
-#### Milestone 2 - Development Phase (4 weeks)
 
-- Deploying scripts to automate period collection of miner data from the network and dump that data into a DB
-- Implementation and deployment of the marketplace API
-- Implementation and deployment of the marketplace UI
+This will give us awareness on the: 
+ * kind of data challenges we will face. 
+ * kind of stability challenges we will face. 
+ 
+<br>
 
-#### Milestone 3 - Testing, Debugging and QA (4 weeks)
+Deliverables listed in a tabular form: 
 
-- Testing of the API and UI
-- Bug fixes, if found any
-- Updates based on the community reviews
-- Delivery of final codebase with robust documentation
-- Walkthrough/tutorials of the interface
+| Number | Deliverable | Specification | 
+| ------------- | ------------- | ------------- |
+| 1.  | Backend Setup  | Backend Setup comprises of: <ul><li>Chain Indexer - for fetching on-chain data</li><li>Database - for storing on-chain/off-chain data and aggregating results for the platform </li><li>API layer</li></ul> For chain indexers, we will be going through and basis what fits our usecase either work with the team or fork the project: <ul><li>https://github.com/filecoin-project/sentinel-visor</li><li>https://github.com/filecoin-project/filscan-backend</li><li>https://github.com/renproject/account-chain-indexer</li></ul> Database: Postgres (tentaively) |
+| 2. | Miner Profile | Basic profile rendered with: <ul><li>On-chain data</li><li>Other objective metrics</li><li>Transaction History</li><li>Aggregated profit and losses</li></ul> |
+| 3. | Algorithms Spec| Research team works on designing the following algorithms and publishing it's spec: <ul><li>Miner Filter and Sorting mechanism - on what attributes should the standardized list be filtered, what attributes would the user want to join and filter etc. </li><li>Miner Transaction History Processor - outputs a clean history that groups things logically</li><li>Miner Transparency Score - reward points weight to each attribute</li></ul> |
 
+<br>
+
+Resources that will be working + time allocation: 
+
+
+| Resource | Working Days | 
+| ------------- | ------------- |
+| Project Mananger | 8  | 
+| Full Stack Developer | 24  | 
+| Research/Lead Developer| 24  | 
+
+
+
+
+
+<br>
+<br>
+
+
+### Milestone 2 - Spectacular Miner Profile + Standardized Listing (4 weeks)
+
+The end outcome that the team will be working towards would be to: 
+1. finish high fidelity of miner profile. 
+3. finish the standardized listing with filter mechanism.  
+4. algorithm spec for: 
+    * predicting miner earnings. 
+    * profitability calculator basis hardware specs
+
+
+
+<br>
+
+Deliverables listed in a tabular form: 
+ Number | Deliverable | Specification | 
+| ------------- | ------------- | ------------- |
+| 1.  | High Fidelity Miner Profile Design + Implementation  | Design team will work on:  <ul><li>fork designs from YieldScan and tailor the experience to needs of the Filecoin community. </li><li>Design the aggregated viewing of on-chain data</li></ul> Dev team will work on: <ul><li> integrating auth for miner to add subjective metrics </li><li>adding subjective metrics to the profile</li></ul> |
+| 2.  | Standardized Listing + Filter Mechanism  | Design team will work on:  <ul><li>fork designs from YieldScan and tailor the experience to needs of the Filecoin community. </li><li>Design the UX of using multiple filters</li></ul> Dev team will work on: <ul><li> integrating standardized listing with miner profile</li></ul> |
+| 3. | Algorithms Spec| Research team works on designing the following algorithms and publishing it's spec: <ul><li>Miner Earnings Predictor - ingests on-chain data for the miner and outputs a speculative view on future earnings</li><li>Hardware Profitability Calculator</li></ul> |
+
+
+<br>
+
+Resources that will be working + time allocation: 
+
+| Resource | Working Days | 
+| ------------- | ------------- |
+| Project Mananger | 8  | 
+| Design Technologist | 24  | 
+| Full Stack Developer | 24 | 
+| Research/Lead Developer| 24  | 
+
+
+<br>
+<br>
+
+
+### Milestone 3 - Calculator View + Q/A (4 weeks)
+
+The end outcome that the team will be working towards would be to: 
+1. finish incorporating predictive earnings about miner to the miner profile. 
+2. finish the calculator view.  
+3. Q/A
+
+
+<br>
+
+Deliverables listed in a tabular form: 
+ Number | Deliverable | Specification | 
+| ------------- | ------------- | ------------- |
+| 1.  | Integrating Miner Earnings into the Miner Profile   | Design and dev teams collaborate on the spec given by research team. |
+| 2. | Implementing Calculator View| Design and dev teams collaborate on the spec given by the research team |
+| 3. | Q/A| Stress testing + internal beta testing of the entire platform. |
+
+
+<br>
+
+Resources that will be working + time allocation: 
+
+| Resource | Working Days | 
+| ------------- | ------------- |
+| Project Mananger | 8  | 
+| Design Technologist | 24  | 
+| Full Stack Developer | 24 | 
+| Research/Lead Developer| 12  | 
+
+
+<br>
+<br>
+
+### Milestone 4 - Beta Launch (2 weeks)
+
+The end outcome that the team will be working towards would be to: 
+1. onboarding miners with the help of the Filecoin community. 
+2. publishing launch collaterals to market the product. 
+3. integrating product feedback and solving bugs with the community. 
+
+
+Resources that will be working + time allocation: 
+
+| Resource | Working Days | 
+| ------------- | ------------- |
+| Project Mananger | 6  | 
+| Design Technologist | 6 | 
+| Full Stack Developer | 6 | 
+
+
+
+<br>
 <br>
 
 ## Total Budget Requested
 
-Based on discussions with Eshon, the core team was busy with the mainnet launch and we didn’t think it would be a good idea to bother teh team with our questions.
-Hence budget has not been finalized since scope of the final application needs to be discussed with the team.
+Sent via Google doc to the team. 
 
 <br>
 
@@ -191,10 +421,14 @@ Hence budget has not been finalized since scope of the final application needs t
 **Support**
 
 - We will be available to provide guidance and troubleshooting assistance to
-  - any team building on top of the API
   - any user facing hassle in the UI
 
 **Upgrade Plans**
+
+- Implementing support for storage clients: 
+    - there profiles. 
+    - a recommendation system that takes into input client's desires with the deal they want to make and suggests them miners to store with. 
+    - also helps making storage deal inside the platform itself. 
 
 - Integration of https://sourcecred.io/ to measure and reward value creation among participants.
 
@@ -208,16 +442,19 @@ saumay@buidllabs.io
 
 ## Team Members
 
-- Design: Abhinav
+- Design Technologist: Abhinav
 
   - Designer and Frontend developer
   - Designed YieldScan for Polkadot ecosystem chains and Crypto Code School for Tezos.
   - Have experience in designing HCI solutions especially in the domain of data analytics.
 
 - Researcher/Lead Developer: Rajdeep
-
   - Worked on infrastructure tools for various open source communities
   - Wrapping up the execution of Demux
+
+- Full Stack Developer: Sahil 
+    - Lead Backend dev for YieldScan. 
+    - Previously built strategies for algorithmic crypto hedge fund. 
 
 - Project Manger: Saumay
   - Has 3+ years of product-dev experience across multiple startups, research labs and companies
@@ -228,6 +465,7 @@ saumay@buidllabs.io
 
 - Abhinav - http://abhinavthukral.in/
 - Rajdeep - https://github.com/rajdeepbharati
+- Sahil - https://github.com/sahilnanda1995
 - Saumay - https://www.linkedin.com/in/saumayagrawal/
 
 ## Team Website
