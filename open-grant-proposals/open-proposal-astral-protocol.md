@@ -1,5 +1,3 @@
-Please keep the markdown format
-
 # Open Grant Proposal: `Astral Protocol`
 
 **Name of Project:** Astral Protocol
@@ -144,12 +142,12 @@ In sum, the roadmap will consider designing the GeoDID specification based on ST
 
 Time is spanning over a 3 month period after the grant start (placeholder date as the 16th of november of 2020). Some parts of the considered milestones will be developed in parallel within the team, hence the conflicting week spaces given:
 
-| Milestone                                                 | Time        | Cost       |
-| --------------------------------------------------------- | ----------- | ---------- |
-| IPLD-Encoded GeoTIFFs                                     | Weeks 1 - 6 | \$8,333.33 |
-| GeoDID Method Specification for raster and vector GeoDIDs | Week 1 - 4  | \$4166,66  |
-| @astral-protocol modules                                  | Week 6 - 12 | \$6,250.00 |
-| Filecoin GeoDID front-end browser                         | Week 6 - 12 | \$6,250.00 |
+| Milestone                                                 | Time         | Cost       |
+| --------------------------------------------------------- | ------------ | ---------- |
+| IPLD-Encoded GeoTIFFs                                     | Weeks 1 - 6  | \$8,333.33 |
+| GeoDID Method Specification for raster and vector GeoDIDs | Weeks 1 - 4  | \$4166,66  |
+| @astral-protocol modules                                  | Weeks 6 - 12 | \$6,250.00 |
+| Filecoin GeoDID front-end browser                         | Weeks 6 - 12 | \$6,250.00 |
 
 ## Total Budget Requested
 
