@@ -6,7 +6,6 @@
 
 - https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-5-rfps.md
 - https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-transaction-history-and-earnings-predictor
-- https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-hardware-profitability-calculator
 
 **Proposal Category:** `app-dev`
 
@@ -30,9 +29,8 @@ We believe that Happy Miners = Happy Network!
 #### Questions (by category) that we feel miners find difficult to get answers to:
 
 1. Information asymmetry in understanding returns:
-    * What is the yield that I can expect if I run a miner? 
     * What are the overall profits and losses over the past X period since I have been running a miner? 
-    * What can be my future returns look like? 
+    * What can be my future returns look like basis my past track record? 
     * Who are the miners who are earning more than me and why?
     
 
@@ -99,7 +97,7 @@ This cyclic nature of these questions leads to compounding problems.
 
 ## Solution: 
 
-We want to build a resource center platform focusing on miners information that aims to: 
+We want to build a platform focusing on miners information that aims to: 
 * provide quantitative and qualitative data about miners’ performance. 
 * standardizes the above information so they are sortable and filterable. 
 
@@ -109,17 +107,11 @@ We believe that this platform will kickstart helping the community answer the qu
 We call this platform FindSignal (tentatively) - an open miner marketplace. 
  
 
-FindSignal will have these key components:
+At the onset of FindSignal, it will have following two key components:
 
-1. Standardized listing of all miners - 
-    - that can be sorted and filtered by different attributes.
-    - Search via address
-
+1. Standardized listing of all miners
 2. Miner Profile - that contains various details about the miner.
-    - A miner can update their profile to boost their transparency. 
-    - A miner can at a glance see overall profits, losses. 
 
-3. Calculator View - that abstracts away network economics and provides miner key insights into profitability. 
  
 <br>
 <br>
@@ -236,29 +228,14 @@ The following image is of our flagship product YieldScan.
 
 Note: 
 * The above list of attributes is not precise. 
-* Basis how we get data from the chain and getting a better understanding of what would be valuable to a miner, we will optimize accordingly. 
+* Basis how we get data from the chain and getting a better understanding of what would be valuable to a miner and the overall ecosystem, we will optimize accordingly. 
 * Requesting the Filecoin Foundation for flexibility to allow us to design a superior end experience. 
 
 
 
-<br>
-<br>
 
 
 
-#### Calculator View
-
-* This view will abstract away problems statement listed in this [RFP](https://github.com/filecoin-project/devgrants/blob/a2981ff73ba43fde7e31db9ff9ed0b7ce4e84a14/rfps/new-mining-tools-rfps.md#miner-hardware-profitability-calculator). 
-* The idea is to give a human friendly calculator that: 
-    * strips away all jargon. 
-    * connected to real-time on-chain data. 
-    * helps user enter data basis $ and calculate net return on investment in $. 
-        * Similar to what ETH2 ecosystem has done with this [spreadsheet](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=842896204). 
- 
-
-These images are from one of our team's flagship product YieldScan and this is how envision solving this problem: 
- * ![image](https://user-images.githubusercontent.com/10279686/98402312-159cb080-208d-11eb-84a0-6a890470c3b6.png)
- * ![image](https://user-images.githubusercontent.com/10279686/98402599-9491e900-208d-11eb-9a4e-755e6b9cb30b.png)
 
 
 
@@ -302,7 +279,7 @@ Resources that will be working + time allocation:
 
 | Resource | Working Days | 
 | ------------- | ------------- |
-| Project Mananger | 8  | 
+| Project Manager | 8  | 
 | Full Stack Developer | 24  | 
 | Research/Lead Developer| 24  | 
 
@@ -321,8 +298,7 @@ The end outcome that the team will be working towards would be to:
 3. finish the standardized listing with filter mechanism.  
 4. algorithm spec for: 
     * predicting miner earnings. 
-    * profitability calculator basis hardware specs
-
+   
 
 
 <br>
@@ -332,9 +308,14 @@ Deliverables listed in a tabular form:
 | ------------- | ------------- | ------------- |
 | 1.  | High Fidelity Miner Profile Design + Implementation  | Design team will work on:  <ul><li>fork designs from YieldScan and tailor the experience to needs of the Filecoin community. </li><li>Design the aggregated viewing of on-chain data</li></ul> Dev team will work on: <ul><li> integrating auth for miner to add subjective metrics </li><li>adding subjective metrics to the profile</li></ul> |
 | 2.  | Standardized Listing + Filter Mechanism  | Design team will work on:  <ul><li>fork designs from YieldScan and tailor the experience to needs of the Filecoin community. </li><li>Design the UX of using multiple filters</li></ul> Dev team will work on: <ul><li> integrating standardized listing with miner profile</li></ul> |
-| 3. | Algorithms Spec| Research team works on designing the following algorithms and publishing it's spec: <ul><li>Miner Earnings Predictor - ingests on-chain data for the miner and outputs a speculative view on future earnings</li><li>Hardware Profitability Calculator</li></ul> |
+| 3. | Algorithms Spec| Research team works on designing the following algorithms and publishing it's spec: <ul><li>Miner Earnings Predictor - ingests historical on-chain data for the miner and outputs a speculative view on future earnings</li></ul> |
 
 
+Note around auth, we would be experimenting with the following approaches: 
+* Using the ledger login from https://wallet.glif.io/?network=f
+* Keybase/Github oAuth. 
+* Any other Filecoin wallet that can provide the same service. 
+    
 <br>
 
 Resources that will be working + time allocation: 
@@ -344,19 +325,22 @@ Resources that will be working + time allocation:
 | Project Mananger | 8  | 
 | Design Technologist | 24  | 
 | Full Stack Developer | 24 | 
-| Research/Lead Developer| 24  | 
+| Research/Lead Developer| 8  | 
 
 
 <br>
 <br>
 
 
-### Milestone 3 - Calculator View + Q/A (4 weeks)
+### Milestone 3 - Beta Launch + Q/A (4 weeks)
 
 The end outcome that the team will be working towards would be to: 
 1. finish incorporating predictive earnings about miner to the miner profile. 
-2. finish the calculator view.  
-3. Q/A
+2. Q/A
+3. beta launch: 
+    1. publishing launch collaterals to market the product. 
+    2. onboarding miners with the help of the Filecoin community.  
+
 
 
 <br>
@@ -365,8 +349,9 @@ Deliverables listed in a tabular form:
  Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1.  | Integrating Miner Earnings into the Miner Profile   | Design and dev teams collaborate on the spec given by research team. |
-| 2. | Implementing Calculator View| Design and dev teams collaborate on the spec given by the research team |
-| 3. | Q/A| Stress testing + internal beta testing of the entire platform. |
+| 2. | Q/A| Stress testing + internal beta testing of the entire platform. |
+| 3. | Beta Launch| Publishing launch collaterals (Medium + Twitter post), onboarding miners, getting feedback and squashing bugs. |
+
 
 
 <br>
@@ -376,29 +361,8 @@ Resources that will be working + time allocation:
 | Resource | Working Days | 
 | ------------- | ------------- |
 | Project Mananger | 8  | 
-| Design Technologist | 24  | 
-| Full Stack Developer | 24 | 
-| Research/Lead Developer| 12  | 
-
-
-<br>
-<br>
-
-### Milestone 4 - Beta Launch (2 weeks)
-
-The end outcome that the team will be working towards would be to: 
-1. onboarding miners with the help of the Filecoin community. 
-2. publishing launch collaterals to market the product. 
-3. integrating product feedback and solving bugs with the community. 
-
-
-Resources that will be working + time allocation: 
-
-| Resource | Working Days | 
-| ------------- | ------------- |
-| Project Mananger | 6  | 
-| Design Technologist | 6 | 
-| Full Stack Developer | 6 | 
+| Design Technologist | 12  | 
+| Full Stack Developer | 12 | 
 
 
 
@@ -425,6 +389,7 @@ Sent via Google doc to the team.
 
 **Upgrade Plans**
 
+- Implementing a hardware profitability calculator. 
 - Implementing support for storage clients: 
     - there profiles. 
     - a recommendation system that takes into input client's desires with the deal they want to make and suggests them miners to store with. 
@@ -489,5 +454,5 @@ Besides this, our team has also been actively working on a project in the Fileco
 ## Team code repositories
 
 - Livepeer pricing tool - https://github.com/buidl-labs/livepeer-pricing-tool
-- YieldScan - https://github.com/buidl-labs/YieldScan
+- YieldScan - https://github.com/buidl-labs/yieldscan-frontend
 - Demux - https://github.com/buidl-labs/Demux
