@@ -14,7 +14,7 @@ Spatial data contains information relevant to locations in the physical world. D
 
 To create decentralized applications that leverage spatial data and location information, we need to be able to store and access spatial data in ways that ensure it is simple and reliable for Web3 developers to work with. This is the purpose of the Astral Project: to create the bindings between Web3 and spatial data technologies.
 
-The Astral Project ecompasses the research and development of the GeoDID specification and IPLD encoded geoTIFFs. It will also include the development of the astral packages, which will implement the CRUD operations related to the GeoDID Documents, the pre-processing of the GeoTIFFs, and the development of a front-end explorer.
+The Astral Project encompasses the research and development of the GeoDID specification and IPLD encoded geoTIFFs. It will also include the development of the astral packages, which will implement the CRUD operations related to the GeoDID Documents, the pre-processing of the GeoTIFFs, and the development of a front-end explorer.
 
 The GeoDID specification will act as the default web3 specification for working with geo-spatial data sets. Each DID Document will contain several assets endpoints and its respective metadata. The IPLD encoded GeoTIFFs will be implemented through an IPLD codec that will encode the GeoTIFF and enable GET Range requests, by a byte serving technique that will query the proper bytes through IPLD selectors.
 
