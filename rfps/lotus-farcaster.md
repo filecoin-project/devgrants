@@ -79,8 +79,8 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 |Power        | OK          |                   |
 |Wallets      | OK          |                   |
 |Chain        | OK          |Head + Sync Status |
+|Deadlines    | OK          |                   |
 |Deals        | V2          |                   |
-|Deadlines    | V2          |                   |
 |Gas Price    | V2          |                   |
 |Won Blocks   | Roadmap     |                   |
 
@@ -90,22 +90,23 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 15 oct 2020 : Design / Specifications / Mockup
 20 oct 2020 : Presentation during [Filecoin Liftoff Week](https://www.youtube.com/watch?v=cyer6_gSv78&ab_channel=Filecoin) 
 26 oct 2020 : First release open to beta tester
-27 oct 2020 : Private GitHub repo, open to beta tester from PL and the community : @benjaminh83, @flyworker, @hsanjuan, @jennijuju, @ribasushi, @RobQuistNL, @std, @stuberman, @whyrusleeping
-
+27 oct 2020 : Private GitHub repo, open to beta tester from PL and the community : @benjaminh83, @flyworker, @hsanjuan, @jennijuju, @ribasushi, @RobQuistNL, @std, @stuberman, @whyrusleeping @Patrick - Factor8 Solutions @Phi-rjan 
+26 nov 2020 : Support lotus 1.2.1 + automatic installation script
 30 nov 2020 : first public release
 
-Milestone                                           |Hours| Cost
---------------------------------------------------- | --- | ---
-Collect needs from the community, design, planning  | 16  | €1,180.00
-Upskill on the different systems                    | 16  | € offered
-Studing Lotus API and reverse iengineering          | 4   | €  295.00
-Exporter development V1.0                           | 16  | €1,180.00		
-Dashboard development V1.0                          | 16  | €1,180.00
-Collect feedbacks from beta user  / bug fix and UI  | 5   | €  378.75
-V2.0 (Exporter + Dashboard)                         | 10  | €  737.50
-Launch support (community support / comm / bug fix  | 10  | €  735.50
-First year support + new features                   | 20  | € offered
-**Total Budget Requested**                          |     | **€ 5678.00**
+| Milestone                                                                              | Hours | Cost     |
+| -------------------------------------------------------------------------------------- | ----- | -------- |
+| Collect needs from the community, design, planning                                     | 16    | € 1 152  |
+| Upskill on the different systems                                                       | 16    | Offered  |
+| Studing Lotus API and reverse iengineering                                             | 24    | € 1 728  |
+| Exporter development (lotus V1.2.1)                                                    | 36    | € 2 592  |
+| Dashboard development (lotus V1.2.1)                                                   | 36    | € 2 592  |
+| Collect feedbacks from beta user / bug fix and UI                                      | 10    | € 720    |
+| Launch support (community support / comm / bug fix                                     | 20    | € 1 440  |
+| First year support (up to 36 hours)                                                    | 36    | € 2 592  |
+| **Total Budget Requested**                                                             |       | **€ 12 816** |
+|                                                                                        |       |          |
+| Option : Additionnal support per major update (start after included support consummed) | 10    | € 720    |
 
 No VAT charged 
 
