@@ -102,9 +102,10 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 | Exporter development (lotus V1.2.1)                                                    | 36    | € 2 592  |
 | Dashboard development (lotus V1.2.1)                                                   | 36    | € 2 592  |
 | Collect feedbacks from beta user / bug fix and UI                                      | 10    | € 720    |
-| Launch support (community support / comm / bug fix                                     | 20    | € 1 440  |
+| Launch support (community support / comm / bug fix)                                    | 20    | € 1 440  |
+| Video Tutorial + Documentations (Docstring + Dashboard request)                        | 20    | € 1 440  |
 | First year support (up to 36 hours)                                                    | 36    | € 2 592  |
-| **Total Budget Requested**                                                             |       | **€ 12 816** |
+| **Total Budget Requested**                                                             |       | **€ 14 256** |
 |                                                                                        |       |          |
 | Option : Additionnal support per major update (start after included support consummed) | 10    | € 720    |
 
