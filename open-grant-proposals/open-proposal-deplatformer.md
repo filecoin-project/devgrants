@@ -11,11 +11,13 @@
 # Project Description
 **The problem we are trying to solve with this project:** Currently, people across the world are facing a dire choice: continue to buy-in to social media platforms, accepting their ever-changing, draconian terms, along with the secretive sale of your private data to advertisers, **or** lose all your photos, data, and curated content to walled garden lock-in. Our aim is to create a clear use case and application of the Filecoin storage network which will allow users to deplatform and divorce themselves from Facebook and other centralized social networks. 
 
-**What exactly are we planning to build:** Deplatformer will start with a modest goal, which will be to empower users to upload their Facebook content into Filecoin and regain control of their own curated data. Then they will be able to use a mobile application to share their images and videos using other messenger applications on their phone to reach their contacts and friends.
+**What exactly are we planning to build:** Deplatformer will start with a modest goal, which will be to empower users to upload their Facebook content into Filecoin and regain control of their own curated data. We will establish a Filecoin Management Service that will let users control their liberated data on the Filecoin network.
 
-This project will create the foundation for several other related initiatives including self-deplatforming from other silos such Instagram, Google Photos, and iCloud, as well as investigating the ability to apply AI image classification and other methods to enable users to create their own value from their content collections. 
+This project will create the foundation for several other related initiatives. Firstly, it is our goal to integrate the Phase 1 deliverables into a mobile application that will allow users to share the images and videos liberated with Deplaformer via other messenger applications on their phone. We also plan to add self-deplatforming from other silos such Instagram, Google Photos, and iCloud. Lastly,  we’ll investigate the ability to apply AI image classification and other methods to enable users to create their own value from their content collections.
 
-**How our solution is going to adequately solve this problem.** We will minimize risk by focusing on the Facebook export and “Filecoin to Mobile” use case in order to develop the critical Filecoin tooling and workflows. These will be portable beyond the scope of this current project as well as to other projects in the Filecoin ecosystem to establish proven practices for moving cloud and platform data onto Filecoin. Most importantly, this specific focus will help us explore the relative market demand for this class of product.
+
+**How our solution is going to adequately solve this problem.** We will minimize risk by focusing on the Facebook export and Filecoin Management Service use cases in order to develop the critical Filecoin tooling and workflows. These will be portable beyond the scope of this current project phase as well as to other projects in the Filecoin ecosystem to establish proven practices for moving cloud and platform data onto Filecoin. Most importantly, this specific focus will help us explore the relative market demand for this class of product.
+
 
 ## Value
 
@@ -34,15 +36,13 @@ Additionally the tools and practices we will develop and open-source as part of 
 All deliverables will be available for use, download, and use-case validation upon milestone completion.
 
 ### 1. Pygate gRPC python client for Textile Powergate
-- Continue maintenance of [Pygate](https://github.com/pygate/pygate-gRPC), the Python gRPC client, for the wider benefit of the Filecoin and Powergate community.  
+- Continue maintenance of [Pygate](https://github.com/pygate/pygate-gRPC), the Python gRPC client, for the wider benefit of the Filecoin and Powergate community. 
 - Make new Pygate enhancements to meet Deplatformer requirements.
+
 ### 2. End user Filecoin and content management Web Application
 - Provide automated parsing, extraction, and upload of profile information and content collection from social media export files to Filecoin network. 
 - Provide a web interface to manage uploaded Facebook content and view Filecoin CID, replication, deal and wallet information.
-### 3. Filecoin Management Service 
-- Manage Filecoin wallets, retrievals, hot cache layer management and pushing content to mobile apps, including a daily feed based on calendar date posts (e.g. “Your Memories”).  
-### 4. Mobile application
-- A thin client to receive and re-push content from the Filecoin Management Service.
+
 
 ### Use Case Demonstrations:
 1. Download the Facebook data backup.
@@ -53,16 +53,6 @@ All deliverables will be available for use, download, and use-case validation up
   * Web application encrypts uploaded content using local key.
   * Web application uploads content and index database to Filecoin.
   * Web application updates Filecoin service with metadata for use by mobile client.
-3. User will connect the mobile client to the Deplatformer Filecoin Management Service and fetch their metadata.
-  * The Filecoin Management Service will provide information based on a QR code or typed code which will “unlock” the metadata.
-  * The encryption keys will be cached on the mobile application in secure storage.
-4. User will receive files from the Filecoin network on their mobile client.
-  * Filecoin Management Service will set encrypted files for download to IPFS.
-  * Filecoin Management Service will pin files on behalf of the user.
-5. User will utilize the mobile application (iOS and Android) to share images to their existing social network (Whatsapp, iMessage, Facebook Groups, etc)
-  * Mobile client will download files and content metadata directly from IPFS.
-  * Mobile client will decrypt files using encryption keys.
-  * User will trigger sharing with their network via the mobile client.
 
 
 ## Development Roadmap
@@ -76,14 +66,14 @@ A. User will utilize the web application to migrate their platform data to Filec
 
 B. Deploy and maintain the web application servers.  
 
-Resources:  
+Resources:
 
-| Person                                                | Funding                 | Time               |
+
+| Expense                                               | Funding                 | Time               |
 |-------------------------------------------------------|-------------------------|--------------------|
-| Peter Van Garderen (Soft Dev, Sys Admin, Project Mgt) | 20 hours/week @ $75/hr  | 3 weeks duration   |
-| Art Richards (Soft Dev, Sys Admin, Project Mgt)       | 20 hours/week @ $75/hr  | 3 weeks duration   | 
-| Antreas Pogiatzis (Soft Dev, Sys Admin)               | 20 hours/week @ $75/hr  | 3 weeks duration   |  
-|                                                       | **$13,500**             | 3 weeks from start | 
+| Development                                           | $13,500                 | 3 weeks duration   |
+| Infrastruture                                         | $1,500                  | 3 weeks duration   | 
+|                                                       | **$15,000**             | 3 weeks from start | 
 
 ### Milestone 2:
 Software functionality:
@@ -91,109 +81,58 @@ Software functionality:
 A. User will utilize the web application to migrate their data to Filecoin.  
   * Encrypt information. 
   * Upload images, video and metadata to Filecoin.
-  * Update Filecoin Management Service with metadata for use by mobile client.  
   
-B. Develop Filecoin Management Service to: 
+B. Develop Filecoin Management Service - wallet functionality:
   * Create wallets for users.  
   * Receive wallet deposits. 
   * Report wallet balances.
-  * Maintain list of trusted, verified miners, regional preferences.
-  * Maintain market pricing information.
-  * Determine replication policy 
-  * Report on expiring storage deals and enable auto-renew.  
   
 C. Deploy and maintain Filecoin Management Service.
 
-Resources:  
+Resources: 
 
-| Person                                                | Funding                 | Time               |
+| Expense                                               | Funding                 | Time               |
 |-------------------------------------------------------|-------------------------|--------------------|
-| Peter Van Garderen (Soft Dev, Sys Admin, Project Mgt) | 20 hours/week @ $75/hr  | 6 weeks duration   |
-| Art Richards (Soft Dev, Sys Admin, Project Mgt)       | 20 hours/week @ $75/hr  | 6 weeks duration   | 
-| Antreas Pogiatzis (Soft Dev, Sys Admin)               | 20 hours/week @ $75/hr  | 6 weeks duration   |  
-| Developer X (Soft Dev)                                | 20 hours/week @ $75/hr  | 6 weeks duration   |  
-|                                                       | **$36,000**             | 9 weeks from start | 
+| Development                                           | $24,000                 | 4 weeks duration   |
+| Infrastructure                                        | $2,000                  | 4 weeks duration   | 
+|                                                       | **$26,0000**            | 7 weeks from start | 
 
 
 ### Milestone 3:
 Software functionality:
 
-A. UX / UI for mobile client application (iOS & Android)
+A.  Develop Filecoin Management Service - market functionality:  
+      * Maintain list of trusted, verified miners, regional preferences.  
+      * Maintain market pricing information.
+      * Determine replication policy
+      * Report on expiring storage deals and enable auto-renew.
 
-B. User will connect the mobile client to the Deplatformer Filecoin Management Service and fetch their metadata.  
-  * The service will provide information based on a QR code or typed code which will “unlock” the metadata.
-  * The encryption keys will be cached on the mobile application in secure storage.
+B. Product delivery and execution
+       * All project deliverables are completed and added to https://github.com/filecoin-shipyard or linked there via a new meta repo + README (code repository submission). 
+       * demo video
+       * public website
+       * tutorial / documentation
    
 Resources:  
 
-| Person                                                | Funding                 | Time                |
+| Expense                                               | Funding                 | Time                |
 |-------------------------------------------------------|-------------------------|---------------------|
-| Peter Van Garderen (Soft Dev, Sys Admin, Project Mgt) | 20 hours/week @ $75/hr  | 5 weeks duration    |
-| Art Richards (Soft Dev, Sys Admin, Project Mgt)       | 20 hours/week @ $75/hr  | 5 weeks duration    | 
-| Antreas Pogiatzis (Soft Dev, Sys Admin)               | 20 hours/week @ $75/hr  | 5 weeks duration    |
-| Developer X (Soft Dev)                                | 20 hours/week @ $75/hr  | 5 weeks duration    |  
-|                                                       | **$30,000**             | 14 weeks from start | 
-
-
-
-### Milestone 4:
-Software functionality:
-
-A. User will receive files from the Filecoin network on their mobile client application.
-  * The Filecoin Management Service will retrieve files from Filecoin using a location optimized retrieval strategy.
-  * The Filecoin Management Service will set encrypted files for download to IPFS.
-  * The Filecoin Management Service will pin files on behalf of the user.
-  * The Filecoin Management Service will push files to mobile phone gallery.
-   
-Resources:  
-
-| Person                                                | Funding                 | Time                |
-|-------------------------------------------------------|-------------------------|---------------------|
-| Peter Van Garderen (Soft Dev, Sys Admin, Project Mgt) | 20 hours/week @ $75/hr  | 5 weeks duration    |
-| Art Richards (Soft Dev, Sys Admin, Project Mgt)       | 20 hours/week @ $75/hr  | 5 weeks duration    | 
-| Antreas Pogiatzis (Soft Dev, Sys Admin)               | 20 hours/week @ $75/hr  | 5 weeks duration    |
-| Developer X (Soft Dev)                                | 20 hours/week @ $75/hr  | 5 weeks duration    | 
-| Developer Y (Soft Dev)                                | 20 hours/week @ $75/hr  | 5 weeks duration    | 
-|                                                       | **$37,500**             | 19 weeks from start | 
-
-
-
-### Milestone 5:
-Software functionality:
-
-A. User will utilize the mobile client application on iOS or Android to share images to their network using off channel tools.
-  * Mobile client application will receive files directly from IPFS.
-  * Mobile client application will decrypt files using encryption keys.
-  * Mobile client application will enable a "Share To" functionality.
-  * The Filecoin Management Service will push files to mobile phone gallery.
-  
-B. Mobile application distribution channels.
-   
-Resources:  
-
-| Person                                                | Funding                 | Time                |
-|-------------------------------------------------------|-------------------------|---------------------|
-| Peter Van Garderen (Soft Dev, Sys Admin, Project Mgt) | 20 hours/week @ $75/hr  | 7 weeks duration    |
-| Art Richards (Soft Dev, Sys Admin, Project Mgt)       | 20 hours/week @ $75/hr  | 7 weeks duration    | 
-| Antreas Pogiatzis (Soft Dev, Sys Admin)               | 20 hours/week @ $75/hr  | 7 weeks duration    |
-| Developer X (Soft Dev)                                | 20 hours/week @ $75/hr  | 7 weeks duration    | 
-| Developer Y (Soft Dev)                                | 20 hours/week @ $75/hr  | 7 weeks duration    | 
-|                                                       | **$52,500**             | 26 weeks from start | 
+| Development                                           | $12,000                 | 2 weeks duration    |
+| Infrastructure                                        | $1,000                  | 2 weeks duration    |
+| Project delivery & execution                          | n/a                     | 2 weeks duration    | 
+|                                                       | **$13,000**             | 11 weeks from start | 
 
 
 ## Total Budget Requested
 
-| Milestone   | Duration      | Participants | Personnel    | Servers     | Total        |
-|-------------|---------------|--------------|--------------|-------------|--------------|
-| Milestone 1 | 3 weeks       |  3           | $13,500      | $1,500      | $15,000      |
-| Milestone 2 | 6 weeks       |  4           | $36,000      | $3,000      | $39,000      |
-| Milestone 3 | 5 weeks       |  4           | $30,000      | $2,500      | $32,500      |
-| Milestone 4 | 5 weeks       |  5           | $37,500      | $2,500      | $40,000      |
-| Milestone 5 | 7 weeks       |  5           | $52,500      | $3,500      | $56,000      |
-|             |               |              |              |             |              |
-|             | **26 weeks**  |              | **$169,500** | **$13,000** | **$182,500** |
+| Milestone   | Duration      | Expense      |
+|-------------|---------------|--------------|
+| Milestone 1 | 3 weeks       |  $15,000     | 
+| Milestone 2 | 4 weeks       |  $26,000     | 
+| Milestone 3 | 4 weeks       |  $13,000     | 
+|             |               |              |   
+|             | **11 weeks**  |  **$54,000   |
 
-* Note that Personnel costs are inclusive of project management, administration, and public relations.
 
 ## Maintenance and Upgrade Plans
 Our goal is to transform into an open organization focused on providing the online world the ability to deplatform themselves from incumbent social media. Our plan is to use this amazing Filecoin open grant opportunity to launch and grow a free and  open sourced suite of Filecoin based tools and services. 
@@ -254,4 +193,4 @@ Our provisional developers **Hector Monsegur** and **Tony Wooster** are senior s
 # Additional Information
 Our project members have a long history with blockchain technology and are passionate about the decentralization movement. We've gelled into a cohesive, effective team over the course of HackFS, Gitcoin Apollo and the Slingshot Space Race. Our skills and personalities are very complementary and we enjoy each other's company. We balance technical expertise with strong organizational skills to achieve our goals on time and within scope. Breaking down complex problems and then executing on them is our strong point, which is why the milestones above are both ambitious as well as realistic.  
 
-As noted in the Development Roadmap, we plan on expanding our core team of three to include the help of two experienced developers who will help us push our project past the finish line. The wider Filecoin community stands to benefit from our project deliverables irrespective of the relative success of the Deplatformer vision. However, We are confident that we will see Deplatformer come out of this seed phase with a concrete FOSS product suite that we will successfully launch and evolve through active engagement with our user base and sponsors. We will deplatform social media captives and lead the exodus to Filecoin decentralized storage!
+The wider Filecoin community stands to benefit from our project deliverables irrespective of the relative success of the Deplatformer vision. However, We are confident that we will see Deplatformer come out of this seed phase with a concrete FOSS product suite that we will successfully launch and evolve through active engagement with our user base and sponsors. We will deplatform social media captives and lead the exodus to Filecoin decentralized storage!
