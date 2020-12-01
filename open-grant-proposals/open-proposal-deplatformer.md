@@ -101,18 +101,18 @@ Resources:
 ### Milestone 3:
 Software functionality:
 
-A.  Develop Filecoin Management Service - market functionality:  
-      * Maintain list of trusted, verified miners, regional preferences.  
-      * Maintain market pricing information.
-      * Determine replication policy
-      * Report on expiring storage deals and enable auto-renew.
+A. Develop Filecoin Management Service - market functionality:  
+  * Maintain list of trusted, verified miners, regional preferences. 
+  * Maintain market pricing information.
+  * Determine replication policy.
+  * Report on expiring storage deals and enable auto-renew
+  
+B. Develop Filecoin Management Service - wallet functionality:
+  * All project deliverables are completed and added to https://github.com/filecoin-shipyard or linked there via a new meta repo and README (code repository submission).  
+  * demo video 
+  * public website 
+  * tutorial / documentation
 
-B. Product delivery and execution
-       * All project deliverables are completed and added to https://github.com/filecoin-shipyard or linked there via a new meta repo + README (code repository submission). 
-       * demo video
-       * public website
-       * tutorial / documentation
-   
 Resources:  
 
 | Expense                                               | Funding                 | Time                |
@@ -125,13 +125,13 @@ Resources:
 
 ## Total Budget Requested
 
-| Milestone   | Duration      | Expense      |
+| Milestone   | Duration      | Funding      |
 |-------------|---------------|--------------|
 | Milestone 1 | 3 weeks       |  $15,000     | 
 | Milestone 2 | 4 weeks       |  $26,000     | 
 | Milestone 3 | 4 weeks       |  $13,000     | 
 |             |               |              |   
-|             | **11 weeks**  |  **$54,000   |
+|             | **11 weeks**  |  **$54,000** |
 
 
 ## Maintenance and Upgrade Plans
