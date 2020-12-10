@@ -1,6 +1,6 @@
 # Filecoin Devgrants
 
-> **The Wave 5 grant proposal priority deadline has passed however we continue to evaluate new proposals as capacity allows.**
+> **Wave 6 grant proposals are due January 15, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
