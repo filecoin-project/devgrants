@@ -1,7 +1,5 @@
 # Mining Tooling Ideas
 
-Filecoin will be launching mainnet soon. Here's the [current gantt chart](https://app.instagantt.com/shared/s/1152992274307505/latest).
-
 We are seeking proposals for the following RFPs for Mining Tools, Mining Tutorials and Miner Documentation improvements.
 
 &nbsp;
