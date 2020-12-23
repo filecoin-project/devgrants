@@ -11,10 +11,10 @@
 
 # Project Description
 Filecoin&IPFS focus on distributed storage, but there are many limitations when it comes to nowadays's popular applications like video streaming, gaming, etc.
-Because popular applications often require high bandwidth in file transmission besides the file storage capacitance. But Filecoin&IPFS only focus on storage capacitance. We are building a project called 'meson' which is a distributed file acceleration cache layer over Filecoin&IPFS. Meson is the layer2 that increases the whole bandwidth over Filecoin&IPFS, and it caches the hot files from Filecoin&IPFS globally. 
+Because popular applications often require high bandwidth in file transmission besides the file storage capacity. But Filecoin&IPFS only focus on storage capacity. We are building a project called 'meson' which is a distributed file acceleration cache layer over Filecoin&IPFS. Meson is the layer2 that increases the whole bandwidth over Filecoin&IPFS, and it caches the hot files from Filecoin&IPFS globally. 
 
 ## Value
-According to the market, a popular application called 'tiktok' spends billions on file transmission each year.[CDN] Currently, Filecoin&IPFS network has a lot of storage capacitance, but files stored on the network are not efficiently used. Meson will bring down the cost of file transmission while using Filecoin &IPFS and bring Filecoin & IPFS into real commercial applications.
+According to the market, a popular application called 'tiktok' spends billions on file transmission each year.[CDN] Currently, Filecoin&IPFS network has a lot of storage capacity, but files stored on the network are not efficiently used. Meson will bring down the cost of file transmission while using Filecoin &IPFS and bring Filecoin&IPFS into real commercial applications.
 
 
 ### What are the benefits to getting this right?
@@ -90,8 +90,3 @@ https://github.com/daqnext
 # Additional Information
 
 We are very confident that we can bring more real commercial value into Filecoin&IPFS ecosystem.
-
-
-
-
-
