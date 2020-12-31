@@ -126,7 +126,7 @@ If you would like to propose an RFP for the Filecoin ecosystem, you've come to t
 4. Create an issue with the appropriate Category tag and a link to the merged RFP doc. This is where community members will have discussions, ask you questions, and more, so please monitor this thread!
 5. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
 
-Please contact [@eshon](https://github.com/eshon) or email devgrants@filecoin.org for any questions.
+Please contact [@philippbanhardt](https://github.com/philippbanhardt) or email devgrants@filecoin.org for any questions.
 
 ## ℹ️ Help
 
