@@ -70,7 +70,7 @@ The roadmap timeline runs over a 3 month period from the date of the grant recei
 <tr>
 <td>QA & Use Case Modeling</td>
 <td>Weeks 8 - 12</td>
-<td>$5,000.00</td>
+<td>$5,000</td>
 </tr>
 </tbody>
 </table>
