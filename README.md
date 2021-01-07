@@ -2,6 +2,8 @@
 
 > **Wave 6 grant proposals are due January 15, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
 
+> Learn about Waves 4 & 5 projects and Gitcoin Grants for Filecoin here in this [Filecoin blogpost](https://filecoin.io/blog/filecoin-dev-grants-wave-4-5-gitcoin/).
+
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
 </p>
