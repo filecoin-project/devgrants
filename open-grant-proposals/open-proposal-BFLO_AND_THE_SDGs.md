@@ -38,7 +38,7 @@ We will migrate the existing BFLO Commons onto IPFS to include public attestatio
 Implement Filecoin via SDK as a mechanism to increase incentivization for users of BFLO who upload their public claims to the BFLO data commons to pin these claims. 
 
 3. BFLO Commons Explorer
-Develop a browser based explorer of BFLO Commons using REACT that connects the front end to the BFLO Data Commons
+Develop a browser based explorer of BFLO Commons using REACT that connects the front end to the BFLO Data Commons via REST API
 
 ## Roadmap, Timeline, Budget
 The roadmap timeline runs over a 3 month period from the date of the grant receipt. Milestones will be developed in parallel as follows:
@@ -63,7 +63,7 @@ The roadmap timeline runs over a 3 month period from the date of the grant recei
 <td>$5,000</td>
 </tr>
 <tr>
-<td>BFLO Commons Explorer & Payment Funnel MVP</td>
+<td>BFLO Commons Explorer V1</td>
 <td>Weeks 6 - 10</td>
 <td>$6,000</td>
 </tr>
@@ -86,13 +86,10 @@ Administration & Operations, Accounting: 5%.
 Phase 2 Plans are:
 
 • Build towards v2.0 of the BFLO Commons
-• Filecoin mainnet updates, incorporate new code, storage costs, and storage terms
-• Our intention is to continue use case modeling, leverage Layer 2 networks on Ethereum to cut down substantially on transaction fee costs.
-• Integrate UN SDG public and climate related attestations and verifications. 
-• Added functionality we envision including are indexing tools to access blockchain attestations, benchmarking tools, and digital identity.
+• Added functionality we envision including are indexing tools to access and interact with blockchain attestations.
 • Deepen engagement with W3C to promote the adoption of BFLO technology by verifiers and certifiers, and the technology by relevant ecosystem players.
 
-We anticipate with use there will be nuances and we will seek to refine as time and resources allow.
+We anticipate with use there will be nuances. We will seek to refine as time and resources allow.
 
 # Team
 
@@ -128,7 +125,6 @@ Tsotne Nakopia is a full stack developer who is versed in both front and backend
 
 Joshia Bijak is a full stack developer who is the CTO of Creol and has experience developing with IPFS, Ethereum and relevant W3 technologies.
 
-Other technologist are on our team and can be referenced if need be.
 
 ## Team code repositories
 
