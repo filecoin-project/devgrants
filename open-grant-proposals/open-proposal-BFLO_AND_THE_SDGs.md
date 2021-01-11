@@ -137,3 +137,4 @@ Other repos of team members are available.
 # Additional Information
 
 We have been Kernel Fellows, Apollo Fellows with top 20 projects where we created a POC using IPFS for the FREEFLO USA project.
+BFLO is a member of the Climate Chain Coalition and other impact and sustainability ecosystems. 
