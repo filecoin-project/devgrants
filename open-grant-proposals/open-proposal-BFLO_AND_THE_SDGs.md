@@ -111,7 +111,7 @@ We anticipate with use there will be nuances. We will seek to refine as time and
 
 ## Team Website
 
-http://blfo.io/company
+http://bflo.io/company
 
 ## Relevant Experience
 
