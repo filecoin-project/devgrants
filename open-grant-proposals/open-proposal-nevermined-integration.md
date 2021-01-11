@@ -22,7 +22,7 @@ Currently Nevermined integrated with the most popular centralized/cloud based st
 - Facilitate access control & data monetization of Filecoin existing data
 - Execution of models and algorithms on Filecoin miners infrastructure without moving the data
 
-[![Nevermined & Filecoin High Level integration](images/integration-high-level.png)]
+![Nevermined & Filecoin High Level integration](images/integration-high-level.png)
 
 ## Value
 
@@ -52,11 +52,11 @@ The integration of Filecoin as a storage provider fully supported would require 
 
 The final goal of the delivery is to have a fully functional end to end, allowing the registering of existing Filecoin assets into Nevermined network:
 
-[![Registering of Filecoin assets into Nevermined](images/nvm-integration-publishing-flow.png)]
+![Registering of Filecoin assets into Nevermined](images/nvm-integration-publishing-flow.png)
 
 After this publishing flow, it's intended to provide the downloading functionality (after access control) of Filecoin contents registered in the Nevermined network:
 
-[![Data Access of Filecoin assets existing into Nevermined](images/nvm-integration-downloading-flow.png)]
+![Data Access of Filecoin assets existing into Nevermined](images/nvm-integration-downloading-flow.png)
 
 The deliverables would be:
 
