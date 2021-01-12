@@ -26,13 +26,13 @@ As a proof of concept, I built and wrote a piece on how to create a multiplayer 
 
 ## Value
 
-Within a day, devepers was messaging me on where and how to use the tool. What's interesting is this demographic is unaware of the web3 ecosystem. If tools like libp2p are packaged right, it can be huge in the multiplayer gaming industry. I've spoken with Juan B, Colin Evran and Mike Goelzer about this idea and I truly believe there's potential.
+Within a day, developers was messaging me on where and how to use the tool. What's interesting is this demographic is unaware of the web3 ecosystem. If tools like libp2p are packaged right, it can be huge in the multiplayer gaming industry. I've spoken with Juan B, Colin Evran and Mike Goelzer about this idea and I truly believe there's potential.
 
 There is also a movement in lightweight games. Unity has created a toolkit called [project tiny](https://unity.com/solutions/instant-games) which is a gaming engine made specifically for light mobile and web games. But this is only one part of the equation. The engine only supports single player. No multiplayer support. This propsal will be the missing piece.
 
 ## Deliverables
 
-- Source code using libp2p - MIT Licence
+- Source code using libp2p - MIT License
 - A `uP2P.unitypackage` that bundles the source code. Double click to import into any project.
 - Video explaining setup (example below)
 [![](https://user-images.githubusercontent.com/19412160/104258887-57135880-544e-11eb-8be6-43fdcab81df0.png)](https://www.youtube.com/watch?v=be9VtUymNPs)
@@ -68,7 +68,7 @@ There is also a movement in lightweight games. Unity has created a toolkit calle
 | Milestone 3 | 60 hours  | 2 weeks  | $5,000  |
 | Total       | 240 hours | 12 weeks | $20,000 |
 
-If necessary, this budget will accomodate up to 2 additional developers.
+If necessary, this budget will accommodate up to 2 additional developers.
 
 ## Maintenance and Upgrade Plans
 
@@ -92,7 +92,7 @@ http://underscoredlabs.com/
 
 ## Relevant Experience
 
-Leon was a software enginner at ShapeShift, Binance and is an active contributor at IPFS. Having been a pure blockchain researcher, implementing cross chain atomic swaps, dexes and bitcoin lighting he decided to focus more on bridging web3 tech with the web2 world.
+Leon was a software engineer at ShapeShift, Binance and is an active contributor at IPFS. Having been a pure blockchain researcher, implementing cross chain atomic swaps, dexes and bitcoin lighting he decided to focus more on bridging web3 tech with the web2 world.
 
 ## Team code repositories
 
