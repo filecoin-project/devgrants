@@ -120,7 +120,8 @@ The deliverables would be:
 
 ## Total Budget Requested
 
-The total budget requested across all milestones is the equivalent to XXX USD in FIL token. These funds are expected to be used for paying the development effort required for this implementation, and the further maintenance of this feature during the next months.
+The total budget requested across all milestones is the equivalent to 30.000 USD or the equivalent in FIL token. 
+These funds are expected to be used for paying the development effort and operations required for this implementation, testing, and the further maintenance of this feature during the next months.
 
 
 ## Maintenance and Upgrade Plans
