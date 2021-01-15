@@ -4,9 +4,9 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Name of Project:**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**Proposal Category:**  `app-dev` 
 
-**Proposer:** `replace with your GitHub username`
+**Proposer:** `flyworker`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** 
 Yes
@@ -172,6 +172,13 @@ Please describe (in words) your team's relevant experience, and why you think yo
 
 We - NBFS Canada participated in SR1, SR2, and cooperation with starling and pinata project. In slingshot 2 we processed over 5000 deals and over 1000 offline deals, talked to 100 miners and actively working data transfer service between Asia and North American users.
 Prior to working on Filecoin project, we were working on a decentrilized AI computing platform which using smart contract for data/task transmission to different AI workers, we have in hand experience of handling encryption and data pipeline.
+
+We build the following product
+
+- https://nbai.io GPU cloud computing 
+- https://nbfspool.com One of the largest Filecoin mining node in North America
+- Https://swan.nbfspool.com A storage market for price decovering and offline trasfer
+
 The team get the following reward and honor.
 
 - The Natural Science and Engineering Research Council of Canada (NSERC) special fund supports research on the direction of video coding.
