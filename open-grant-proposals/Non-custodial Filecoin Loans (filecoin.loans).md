@@ -157,7 +157,7 @@ Our long-term plans to maintain this software and upgrade it over time include:
 - Rolando Andrade - Blockchain Developer - https://www.linkedin.com/in/rolando-andrade 
 - Jesús Castro - Blockchain Developer - https://www.linkedin.com/in/jcstr/ 
 - Gustavo Sánchez - Fullstack Developer - https://www.linkedin.com/in/gustavo-sanchez-b943a712b/ 
-- Roberto Cervantes - Block Architect
+- Roberto Cervantes - Blockchain Architect
 
 ## Team Website
 
