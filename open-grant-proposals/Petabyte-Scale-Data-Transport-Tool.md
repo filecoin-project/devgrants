@@ -25,7 +25,7 @@ However, the current way how client send create and send deals are very complica
 
 In order to commercialize the edge storage market as AWS snowball, we are going to build an integrated tool to automate the packaging process while provide more validation, error handling and analysis service. 
 
-In order to solve the problem, we will provide two tools in one software kit, client exporter and miner importer. The client exporter provides a command line interface to provider choices like, generate card file with specific size, batch proposal with selected miners, deal status checking panel. Encryption with AES and asymmetric encryption tools will also provide.
+In order to solve the problem, we will provide two tools in one software kit, client exporter and miner importer. The client exporter provides a command line interface to provider choices like, generate car file with specific size, batch proposal with selected miners, deal status checking panel. Encryption with AES and asymmetric encryption tools will also provide.
 
 Miners tool provides scheduling import to his node according to his sealing capability for achieve the maximum importing speed. If the car files are transferred from web server, miners build a pipeline from downloading to sealing. When import failed, miners can easily click reset button on a web UI to restart the import process. Decryption tool is also part of the tool set.
 
@@ -56,7 +56,7 @@ Please describe in detail what your final deliverable for this project will be. 
 The software suit has two components: Client-side tools and server-side tools
 
 On client side: 
-User can download the curated dataset using integrated downloading tool, it provides 
+User can manage export of PT level data files, it provides 
 -	A pragmatical way of defining input/output directory
 -	Batch split big files to small files
 -	MD5 file generation
