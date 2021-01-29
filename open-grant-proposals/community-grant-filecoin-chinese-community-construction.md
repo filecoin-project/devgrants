@@ -9,11 +9,11 @@
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 # Project Description
-Filecoin did not have a Chinese technology community from the DevNet, there are communication barriers for non-native English speakers. And chinese miners and developers are more accustomed to WeChat communication.
+Filecoin did not have a Chinese technology community from the DevNet, there are communication barriers for non-native English speakers. And Chinese miners and developers are more accustomed to WeChat communication.
 
-We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 1.4k users. There are tens of thoursands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
+We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 1.4k users. There are tens of thousands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
 
-We found that there are many duplicate questions after we created WeChat group, we also built an all in one [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) for Chinese commuity. Including common resource links, commonly node operations, common Storage Miner operations, Seal Worker operations, environment variables, debugging, frequently asked questions, etc.
+We found that there are many duplicate questions after we created WeChat group, we also built an all in one [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) for Chinese community. Including common resource links, commonly node operations, common Storage Miner operations, Seal Worker operations, environment variables, debugging, frequently asked questions, etc.
 
 ## Value
 We built a convenient and fast communication channel for Chinese miners and developers, help them to learn mining knowledge and skills in the fastest way. Further more, we believe that all these will make the Filecoin project and its representative web3.0 concept better spread in the Chinese community.
