@@ -11,12 +11,12 @@
 # Project Description
 Filecoin did not have a Chinese technology community from the DevNet, there are communication barriers for non-native English speakers. And chinese miners and developers are more accustomed to WeChat communication.
 
-We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 1.4k miners and developers. There are tens of thoursands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
+We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 1.4k users. There are tens of thoursands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
 
 We found that there are many duplicate questions after we created WeChat group, we also built an all in one [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) for Chinese commuity. Including common resource links, commonly node operations, common Storage Miner operations, Seal Worker operations, environment variables, debugging, frequently asked questions, etc.
 
 ## Value
-We built a convenient and fast communication channel for Chinese miners and developers, help them to learn mining knowledge and skills in the fastest way. Further, we believe that all these will make the Filecoin project and its representative web3.0 concept better spread in the Chinese community.
+We built a convenient and fast communication channel for Chinese miners and developers, help them to learn mining knowledge and skills in the fastest way. Further more, we believe that all these will make the Filecoin project and its representative web3.0 concept better spread in the Chinese community.
 
 ## Deliverables
 - [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) with 155 stars and 77 forks. 
@@ -28,7 +28,7 @@ We built a convenient and fast communication channel for Chinese miners and deve
 1000 FIL
 
 ## Maintenance and Upgrade Plans
-We are continue to maintenance and update the github repo, and will build more WeChat groups, regularly clean up inactive users in the group, and organize more technology, scripts, mining tutorials sharing, and also encourage open source.
+We are continue to maintain and update the github repo, and will create and manage more WeChat groups, regularly clean up inactive users in these groups, and organize more technology, scripts, mining tutorials sharing, and also encourage open source project.
 
 # Team
 
