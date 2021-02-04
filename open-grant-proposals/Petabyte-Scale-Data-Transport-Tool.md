@@ -68,7 +68,7 @@ User can manage export of PT level data files, it provides
 -	Price list of miners
 -	One key generates car file 
 -	Batch send deals to multiple miners
--	AWS/asymmetric tool
+-	AES/asymmetric tool
 -	Generated CSV for sending to miners, CSV for users. 
 -	Dashboard of reporting of daily usage, average price spent, average sealing time, highest success miners, past deals. 
 
@@ -77,7 +77,7 @@ Miner side:
 -	Current deal status. 
 -	Md5 validation
 -	File downloading manager for retry and transmission resume
--	AWS/asymmetric decryption tool
+-	AES/asymmetric decryption tool
 -	Deal Log tracking tool
 -	Auto import car file from directory with CSV provide by client.
 -	Csv exported for analyse.
