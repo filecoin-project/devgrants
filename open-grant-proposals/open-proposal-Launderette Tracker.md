@@ -37,10 +37,12 @@ Benafits
 4)File coin community will be benefited as we will keep our project as open source. The project can be used as a reference by the community in building future applications and use cases.
 
 Risks
+
 1)If the storage is not reliable Kirei Launderette Solutions would have to switch to costly servers provided by AWS or Azure for development and expansion of the application.
 2)The firm may lose valuable data if the storage miner or retrieval miners are reluctant to honor the deal. 
 
 Difficulties
+
 1)Beta testing of the application will depend on  when the collages will be reopening (currently closed due to covid-19 pandemic).
 
 ## Deliverables
@@ -58,9 +60,12 @@ Platforms to be used
 1)Flutter for User Interface
 2)Go for API development 
 3)Etcd for creating database
+
 Manpower to be consumed
+
 1)Flutter UI developer :  Vidhyanand CS (Front end developer)
-2)Go API and DB developer: Deepk S (Software Engineer and Backend Developer)
+
+2)Go APIs and DB developer: Deepk S (Software Engineer and Backend Developer)
 
 
 Development details
@@ -84,7 +89,7 @@ The application will have three type of users:
     Step3:  Student marks in the application that clothes are deposited 	in the facility.
     Step4:  Student comes back to take his clothes. He/she takes one more photo of the clothes using application and scans the QR code 	marking delivery of clothes.
 
-3) Campus Admin
+3)Campus Admin:
 
     Campus admin will be the account of the concerned person from the campus administration.
     The account will have access to the following:
@@ -94,11 +99,11 @@ The application will have three type of users:
 
 Funding Required:
 
-The projected funding requirement for milestone 1 will be 700 FIL 
+    The projected funding requirement for milestone 1 will be 700 FIL 
 
 Time taken:
 
-The estimated time taken for the development of application will be 45 days (01/05/2021 to 16/06/2021)
+    The estimated time taken for the development of application will be 45 days (01/05/2021 to 16/06/2021)
 
 Milestone 2: Deploy the application in filecoin storage.
 
@@ -158,6 +163,7 @@ The application will be maintained by the same team which is building it.
 ## Team Member LinkedIn Profiles
 
     https://www.linkedin.com/in/vidhyanand-c-s-57344672/
+
     https://www.linkedin.com/in/dpaks/
 
 ## Team Website
@@ -172,7 +178,9 @@ The team  has prior experience in building decentralized applications. SecureCer
 ## Team code repositories
 
 https://github.com/securecerts/scui 
+
 https://github.com/securecerts/dapp
+
 (Access to these private repositories can be given on request)
 
 # Additional Information
