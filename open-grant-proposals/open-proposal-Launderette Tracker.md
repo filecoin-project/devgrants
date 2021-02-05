@@ -6,7 +6,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Proposal Category:**  `app-dev`
 
-**Proposer:** `Vidhyanandcs`
+**Proposer:** @Vidhyanandcs
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?: Yes** 
 
@@ -14,11 +14,12 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 Introduction
 
-Kirei Launderette Solutions is a  campus laundry service provider based of India. We serve in 5 Universities across India.  We operate in self service model and full -service model as per the requirement of the university. Self-service model requires students to use machines by themselves. Full service model is where the clothes are washed and dried by the employees of the facility using the machines available. The payment for the services provided is done quarterly by universities based on the wash cycles used up by students. The estimated number of wash cycles for the year 2021 -22 will be around 200,000. As the wash cycles are increasing year on year, the firm is planning to introduce a mobile application for tracking wash cycles and quality control.
+Kirei Launderette Solutions is a  campus laundry service provider based out of India. We serve in 5 Universities across India.  We operate in self service model and full -service model as per the requirement of the university. Self-service model requires students to use machines by themselves. Full service model is where the clothes are washed and dried by the employees of the facility using the machines available. The payment for the services provided is done quarterly by universities based on the wash cycles used up by students. The estimated number of wash cycles for the year 2021 -22 will be around 200,000. As the wash cycles are increasing year on year, the firm is planning to introduce a mobile application for tracking wash cycles and quality control.
 
 Problem
 
 1)Kirei Launderette Solutions is looking for a storage of  data on a trusted, immutable  network which then can be verified by the university officials before disbursing the payment. 
+
 2)Damaged or lost clothes in case of full service model were  560 cases in the year 2018-19 and 723 cases in the year 2019-20. Resolving these issues amicably is time consuming as Kirei Launderette Solutions does not store any evidence of clothes brought into their store for washing  and taken out of their store after washing by the customers.
 
 Solution
@@ -53,7 +54,7 @@ Difficulties
 
 ## Development Roadmap
 
-Milestone 1 : Develop the android application UI , DB and APIs.
+**Milestone 1 : Develop the android application UI , DB and APIs.**
 
 Platforms to be used
 
@@ -74,20 +75,22 @@ The application will have three type of users:
 
 1)Administrator: 
 
-    The administrator account will be handled by the owners of the firm. This account will have the following capabilities.
+    The administrator account will be handled by the owners of the firm. This account will have the following capabilities:
     a)Adding a new campus to the app.
     b)Block or give access to a particular student’s account.
+
     The account will have access to following information:
     a)Campus wise total wash cycles consumed in the year.
     b)Student wise wash cycles consumed in the year(for each campus).
+    c)Student wise images taken for each wash cycle
 
 2)Students:
 
     Each student will have 20 wash cycles per year. Each time a student comes to the facility the following steps have to be followed.
     Step1:  Student takes images of the clothes using application.
     Step2:  Student handover the clothes to operator.
-    Step3:  Student marks in the application that clothes are deposited 	in the facility.
-    Step4:  Student comes back to take his clothes. He/she takes one more photo of the clothes using application and scans the QR code 	marking delivery of clothes.
+    Step3:  Student marks in the application that clothes are deposited in the facility.
+    Step4:  Student comes back to take his clothes. He/she takes one more photo of the clothes using application and scans the QR code marking delivery of clothes.
 
 3)Campus Admin:
 
@@ -95,58 +98,58 @@ The application will have three type of users:
     The account will have access to the following:
     1)Total number of students who used the facility.
     2)The total cycles each student have used.
-    3)Grand total number of wash cycles consumed per year.
+    3)Grand total number of wash cycles consumed per year for the campus.
 
 Funding Required:
 
-    The projected funding requirement for milestone 1 will be 700 FIL 
+    The projected funding requirement for milestone 1 will be 800 FIL 
 
 Time taken:
 
     The estimated time taken for the development of application will be 45 days (01/05/2021 to 16/06/2021)
 
-Milestone 2: Deploy the application in filecoin storage.
+**Milestone 2: Deploy the application in filecoin storage.**
 
 Platforms to be used: 
 
-1)Lotus for storage and retrieval of information. 
+    1)Lotus for storage and retrieval of information. 
 
 
 Manpower to be consumed:
 
-1) Deepk S (Software Engineer and Backend Developer)
+    1) Deepk S (Software Engineer and Backend Developer)
 
 Data stored and retrieved:
 
-The following data will be stored and retrieved from filecoin cloud.
-1)Campus account details and credentials.
-2)User details and credentials.
-3)Updated wash cycle balance each time user avail service.
-4)Photos of clothes before and after wash.
+    The following data will be stored and retrieved from filecoin cloud.
+    1)Campus account details and credentials.
+    2)User details and credentials.
+    3)Updated wash cycle balance each time user avail service.
+    4)Photos of clothes before and after wash.
 
 Funding Required:
 
-The projected funding requirement for milestone 2 will be 200 FIL 
+    The projected funding requirement for milestone 2 will be 200 FIL 
 
 Time taken:
 
-The estimated time taken for the development of application will be 5 days (17/06/2021 to 21/07/2021)
+    The estimated time taken for the development of application will be 5 days (17/06/2021 to 21/07/2021)
 
-Milestone 3: Use the application in one campus where laundrette operates.
+**Milestone 3: Use the application in one campus where laundrette operates.**
 
 Manpower to be consumed
 
-1)Prasad S (Facility Manager, Kirei Launderette Solutions, Hyderabad central University Campus)
+    1)Prasad S (Facility Manager, Kirei Launderette Solutions, Hyderabad central University Campus)
 
 The application will first used by students of Hyderabad central university where Kirei Launderette Solutions operates. The store manager will be given the task of asking students to install the application and use them. The data and performance from the application will be monitored for 10 days and necessary changes will be made. 
 
 Time taken
 
-The estimated time taken for the development of application will be 10 days (22/06/2021 to 31/08/2021)
+    The estimated time taken for the development of application will be 10 days (22/06/2021 to 31/08/2021)
 
 ## Total Budget Requested
 
-Total budget requested is 900 FIL.  This includes 700 FIL for application development and 200 FIL for deployment into filecoin storage.
+    Total budget requested is 1000 FIL.  This includes 800 FIL for application development and 200 FIL for deployment into filecoin storage and implementation in one facility.
 
 ## Maintenance and Upgrade Plans
 
@@ -171,9 +174,14 @@ The application will be maintained by the same team which is building it.
     https://launderetteindia.com/
 
 ## Relevant Experience
-Vidhyanand CS has been developing UI for web and mobile applications for past 5 years.
-Deepak S has completed his M.Tech in computer science and is working as senior software engineer 
-The team  has prior experience in building decentralized applications. SecureCerts ( https://securecerts.in/) has been built by the team on algorand blockchain network. This dApp is helping issuers in issuing and verifying immutable certificates.
+Vidhyanand CS has been developing UI for web and mobile applications for past 5 years. He has done projects in popular frameworks like vue.js. 
+Deepak S has completed his M.Tech in computer science. He graduated in
+2015 and joined One Convergence Devices Pvt Ltd. Currently he is a Senior Software Engineer
+there. He is passionate about contributing to open source projects. In the years 2015 & 2016,
+Deepak has actively contributed to various open source projects like Mozilla Balrog and
+Openstack. 
+
+The team  has prior experience in building decentralized applications. SecureCerts ( https://securecerts.in/) has been built by the team on algorand blockchain network. This dApp is helping issuers in issuing and verifying immutable digital certificates.
 
 ## Team code repositories
 
