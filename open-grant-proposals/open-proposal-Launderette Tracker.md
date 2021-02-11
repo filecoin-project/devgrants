@@ -26,7 +26,7 @@ Solution
 
 1)Kirei Launderette Solutions would like to use a decentralized cloud storage powered by filecoin to store the student details and wash cycles. As the details are stored in a decentralized storage, it increases the trust and security for the data. This will make sure that sensitive information like student data is not leaked by hackers (which can adversely effect the reputation of the firm). Also University officials can be sure that wash cycle data they are checking is not tampered with.
 
-2) The images of the clothes will be taken at the time of weighing(when customer brings in the soiled clothes) and also at the time of delivery.  This will be stored in filecoin decentralized storage. These images can be used as a reference when students claim lost or damaged clothes.
+2)The images of the clothes will be taken at the time of weighing(when customer brings in the soiled clothes) and also at the time of delivery.  This will be stored in filecoin decentralized storage. These images can be used as a reference when students claim lost or damaged clothes.
 
 
 ## Value
@@ -34,8 +34,11 @@ Solution
 Benafits 
 
 1)Kirei Launderette Solutions will be able to create a customer centric application which is stored in a decentralized and competitively priced storage system.
+
 2)The use of decentralized storage will increase the trust on the data stored .
+
 3)The competitive pricing of cloud storage will help to reduce the fixed cost associated with application maintenance.  
+
 4)File coin community will be benefited as we will keep our project as open source. The project can be used as a reference by the community in building future applications and use cases.
 
 Risks
@@ -49,7 +52,9 @@ Difficulties
 ## Deliverables
 
 1)Create a mobile application for tracking customer usage.
+
 2)Deploy it using filecoin storage.
+
 3)Implement the application in one of the  campuses were Kirei Launderette Solutions operates.
 
 ## Development Roadmap
@@ -59,7 +64,9 @@ Difficulties
 Platforms to be used
 
 1)Flutter for User Interface
+
 2)Go for API development 
+
 3)Etcd for creating database
 
 Manpower to be consumed
