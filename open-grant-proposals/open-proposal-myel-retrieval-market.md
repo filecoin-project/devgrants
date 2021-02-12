@@ -112,15 +112,14 @@ Each release will be usable and tested with the community allowing us to iterate
    - Analyze and detect any security flows in which bad actors could collude to take advantage of the system
    - Offer suggestions to the community as a FIP to unlock potential FIL rewards for providers to accelerate adoption
 - **1.0.0**: - Bug fixes and Documentation
-   - Release on Mainnet
    - Godocs, onboarding documentation and examples.
    - Roadmap update, define learnings and where to go from there.
 ## Total Budget Requested
 - Budget will cover 1 engineer living expenses for the duration of the project
-   - 4 months of sprint development - $25K
-- Infrastructure for running multiple Filecoin nodes: 
-   - 4 months of billings - $5K
-- Total: **$30K**
+   - 500FIL per phase
+- Also includes infrastructure for running multiple Filecoin test nodes
+   
+- Total: **1500FIL**
 ## Maintenance and Upgrade Plans
 - This interface will power the Myel CDN so we will be maintaining and improving it in the long term.
 # Team
