@@ -14,7 +14,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 lotus-farcaster V2 brings additionnal functionnalities to lotus farcaster (see tables below).
 
-**Lotus farcaster has 20 forks, was downloaded more than 200 times and get 20+ new users during the last 2 weeks. We want to keep farcaster has one of the main analitics companion of miners by continuously adding features supporting there new challenges. This new release includes enhanced deals view / Fil+ and much more**
+**Lotus farcaster has 20 forks, was downloaded more than 200 times and get 20+ new users during the last 2 weeks. We want to keep farcaster has one of the main analytics companion of miners by continuously adding features supporting their new challenges. This new release includes enhanced deals view / Fil+ and much more**
 
 Lotus farcaster is a Visualization and Analytics tool for Lotus Filecoin node It leverages Prometheus, Grafana and Python.
 
