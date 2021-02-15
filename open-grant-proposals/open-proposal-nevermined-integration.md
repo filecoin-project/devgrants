@@ -60,53 +60,40 @@ After this publishing flow, it's intended to provide the downloading functionali
 
 The deliverables would be:
 
-### Sprint 0. Research and Architecture
+### Milestone 1. Research and Architecture + Gateway support
 
-**Objectives:** Detail the technical architecture needed and document the elements to put in place
+**Objectives:**
+- Detail the technical architecture needed and document the elements to put in place
+- Deliver a version of the Nevermined gateway able to resolve Filecoin files
 
 **Tasks:**
 - Write the technical architecture
 - Investigate how the gateway can be integrated with Powergate or directly with a Lotus node
-
-**Duration:** 1 week
-
-### Sprint 1. Adding Filecoin support to Nevermined Gateway
-
-**Objectives:** Deliver a version of the Nevermined gateway able to resolve Filecoin files
-
-**Tasks:**
 - The Gateway needs to support the connectivity with the Filecoin network via Powergate or a Lotus node. This behavior needs to be able to be connected/disconnected from the Gateway via configuration.
 - The Gateway needs to support the usage of an existing Filecoin wallet.
 - When a Nevermined asset is resolved and includes a CID, the gateway need to be able of resolving that file and return to the final user
 - PR merged in the Gateway master branch including the Filecoin support. New release of the gateway shipping this functionality.
 
-**Duration:** 1 week
+**Duration:** 2 weeks
 
-### Sprint 2. Adding Filecoin support to SDKs
+### Miletone 2. Adding Filecoin support to SDKs and Marketplace
 
-**Objectives:** Deliver a version of the Nevermined SDKs (java, python, js) allowing the registering of Nevermined assets resolving to Filecoin files
+**Objectives:**
+- Deliver a version of the Nevermined SDKs (java, python, js) allowing the registering of Nevermined assets resolving to Filecoin files
+- Deliver a version of the Nevermined marketplace user interface allowing the registering of Nevermined assets stored in Filecoin network
 
 **Tasks:**
 - The publishing flow of Nevermined assets needs to allow to include CIDs as files
 - The consumption flow of Nevermined assets needs to integrate the gateway and work with assets including Filecoin files
 - PRs merged in the Java, Python and Javascript Nevermined SDKs. New releases of each SDK library.
-
-**Duration:** 1 week
-
-
-### Sprint 3. Adding Filecoin support to Marketplace
-
-**Objectives:** Deliver a version of the Nevermined marketplace user interface allowing the registering of Nevermined assets stored in Filecoin network
-
-**Tasks:**
 - The visual publishing flow of Nevermined assets needs to allow to include CIDs as files
 - The consumption flow of Nevermined assets needs to integrate the gateway and work with assets including Filecoin files
 - PR merged in the Marketplace master branch including the Filecoin support. New release of the application shipping this functionality.
 
-**Duration:** 2 week
+**Duration:** 3 weeks
 
 
-### Sprint 4. Communication
+### Milestone 3. Communication
 
 **Objectives:** Communicate to Nevermined and Filecoin communities the availability of the new integration
 
@@ -120,7 +107,7 @@ The deliverables would be:
 
 ## Total Budget Requested
 
-The total budget requested across all milestones is the equivalent to 30.000 USD or the equivalent in FIL token. 
+The total budget requested across all milestones is the equivalent to 30.000 USD or the equivalent in FIL token.
 These funds are expected to be used for paying the development effort and operations required for this implementation, testing, and the further maintenance of this feature during the next months.
 
 
