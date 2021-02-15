@@ -4,7 +4,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Name of Project:**  `lotus farcaster V2`
 
-**Proposal Category:** Choose one of `app-dev`
+**Proposal Category:** Choose one of `community`
 
 **Proposer:** `s0nik42`
 
