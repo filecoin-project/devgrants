@@ -92,8 +92,8 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 |Gas Fee      | V2          | Realtime gasfee and History (requested by Community) |
 |Sectors State| V2          | Identify faulty sectors in deadlines (requested by Community). Helping miners to quickly indentify which sectors to restore |
 |Fil+ Datacap | V2          | Fil+ Realtime and Historical view of Datacap allocated to the miner addresses |
-|Max Quality Adjusted Power| V2 | A new indicator, showing the maximum power that can be expected from a miner (it's a forecast of the power after the next deadline if th full capacity is proved) |
-|Sectors w/ Deals| V2       | Break down of sectors in 3 categories : CC / inc. deals / inc. Verified. Current and historical view, helping the miner to understand how he gets is power over time|
+|Max Quality Adjusted Power| V2 | A new indicator, showing the maximum power that can be expected from a miner (it's a forecast of the power after the next deadline if the full capacity is proved) |
+|Sectors w/ Deals| V2       | Breakdown of sectors in 3 categories : CC / inc. deals / inc. Verified. Current and historical view, helping the miner to understand how he gets is power over time|
 |Address lookup | V2        | Allow miners to provide a custom lookup file (Adress=Name/Label) to improve dashboard readability.. The lookup apply to any panels containing adresses (Wallet / Deals / Fil+ / etc...).|
 |Farcaster Status | V2      | Farcaster reports any problems when scraping data. Ensuring dashboard is accurate.|
 |Deployment toolset | V2    | Provide additional scripts to simplify farcaster deployment and troubleshooting.|
@@ -102,7 +102,7 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 
 ## Roadmap
 
-03 jan 2021: V2 scoping
+03 jan 2021 : V2 scoping
 10 jan 2021 : Design / Specifications / Mockup
 12 jan 2021 : Presentation during Filecoin Virtual Meetup 
 15 feb 2021 : First release open to beta tester
