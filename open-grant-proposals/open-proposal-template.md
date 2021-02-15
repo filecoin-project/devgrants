@@ -14,9 +14,9 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 lotus-farcaster V2 brings additionnal functionnalities to lotus farcaster (see tables below).
 
-Lotus farcaster is a Visualization and Analytics tool for Lotus Filecoin node It leverages Prometheus, Grafana and Python.
+**Lotus farcaster has 20 forks, was downloaded more than 200 times and get 20+ new users during the last 2 weeks. We want to keep farcaster has one of the main analitics companion of miners by continuously adding features supporting there new challenges. This new release includes enhanced deals view / Fil+ and much more **
 
-**Lotus farcaster as 20 forks, was downloaded by more than 200 times and get 20+ new users during the last 2 weeks.**
+Lotus farcaster is a Visualization and Analytics tool for Lotus Filecoin node It leverages Prometheus, Grafana and Python.
 
 We want it to be accessible and designed for any types of miners.
 It's designed to manage all type of architecture :
@@ -88,41 +88,37 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 |Wallets      | V1          |                   |
 |Chain        | V1          |Head + Sync Status |
 |Deadlines    | V1          |                   |
-
-**New Features :**
 |Deals        | V2          | View of current sealing deals (State/Price/Size/collaterals/From/Is Verified/etc... |
 |Gas Fee      | V2          | Realtime gasfee and History (requested by Community) |
-|Sectors State| V2          | Identify faulty sectors in deadlines (requested by Community) |
-|Fil+ Datacap | V2          | REaltime and Historical view of Datacap allocated to the miner addresses |
-|Max Quality Adjusted Power| V2 | Calculate the max power you can expect from the miner (it's a forcast of how much power you will get after the next deadline is the miner prove all its capacity) |
-[Sectors w/ Deals| V2       | Break down of sectors in 3 categories : CC / inc. deals / inc. Verified. Current and historical view |
-|Address lookup | V2        | Allow miners to provide a lookup file (Adress=Name/Label) allowing reports to be more readable. The lookup apply to any panels of grafana containing adresses (Wallet / Deals / Fil+ / etc...).
-|Farcaster Status | V2      | Farcaster reports any problems in scraping data. To ensure the dashboard is accurate
-|Deployment toolset | V2    | provide additionals scripts to simplify farecaster deployment and troubleshooting.
+|Sectors State| V2          | Identify faulty sectors in deadlines (requested by Community). Helping miners to quickly indentify which sectors to restore |
+|Fil+ Datacap | V2          | Fil+ Realtime and Historical view of Datacap allocated to the miner addresses |
+|Max Quality Adjusted Power| V2 | A new indicator, showing the maximum power that can be expected from a miner (it's a forecast of the power after the next deadline if th full capacity is proved) |
+|Sectors w/ Deals| V2       | Break down of sectors in 3 categories : CC / inc. deals / inc. Verified. Current and historical view, helping the miner to understand how he gets is power over time|
+|Address lookup | V2        | Allow miners to provide a custom lookup file (Adress=Name/Label) to improve dashboard readability.. The lookup apply to any panels containing adresses (Wallet / Deals / Fil+ / etc...).|
+|Farcaster Status | V2      | Farcaster reports any problems when scraping data. Ensuring dashboard is accurate.|
+|Deployment toolset | V2    | Provide additional scripts to simplify farcaster deployment and troubleshooting.|
+|Transition to a Python Library | V2 | Farecaster is under transition to provide all functionnalities as a Python library.|
 
 
 ## Roadmap
 
-01 oct 2020 : Project initiated
-15 oct 2020 : Design / Specifications / Mockup
-20 oct 2020 : Presentation during [Filecoin Liftoff Week](https://www.youtube.com/watch?v=cyer6_gSv78&ab_channel=Filecoin) 
-26 oct 2020 : First release open to beta tester
-27 oct 2020 : Private GitHub repo, open to beta tester from PL and the community : @benjaminh83, @flyworker, @hsanjuan, @jennijuju, @ribasushi, @RobQuistNL, @std, @stuberman, @whyrusleeping @Patrick - Factor8 Solutions @Phi-rjan 
-26 nov 2020 : Support lotus 1.2.1 + automatic installation script
-30 nov 2020 : first public release
+03 jan 2021: V2 scoping
+10 jan 2021 : Design / Specifications / Mockup
+12 jan 2021 : Presentation during Filecoin Virtual Meetup 
+15 feb 2021 : First release open to beta tester
+30 mar 2021 : Public release
 
 | Milestone                                                                              | Hours | Cost     |
 | -------------------------------------------------------------------------------------- | ----- | -------- |
-| Collect needs from the community, design, planning                                     | 16    | € 1 152  |
-| Upskill on the different systems                                                       | 16    | Offered  |
-| Studing Lotus API and reverse iengineering                                             | 24    | € 1 728  |
-| Exporter development (lotus V1.2.1)                                                    | 36    | € 2 592  |
-| Dashboard development (lotus V1.2.1)                                                   | 36    | € 2 592  |
+| Collect needs from the community, design, planning                                     | 8     | € 576    |
+| Studing Lotus API and reverse iengineering                                             | 8     | € 576    |
+| Exporter development (lotus V2.0)                                                      | 57    | € 4 104  |
+| Dashboard development (lotus V2.0)                                                     | 15    | € 1 080  |
 | Collect feedbacks from beta user / bug fix and UI                                      | 10    | € 720    |
 | Launch support (community support / comm / bug fix)                                    | 20    | € 1 440  |
 | Video Tutorial + Documentations (Docstring + Dashboard request)                        | 20    | € 1 440  |
-| First year support (up to 36 hours)                                                    | 36    | € 2 592  |
-| **Total Budget Requested**                                                             |       | **€ 14 256** |
+| First year support (up to 6 hours)                                                     | 6     | € 432    |
+| **Total Budget Requested**                                                             |       | **€ 10 368** |
 |                                                                                        |       |          |
 | Option : Additionnal support per major update (start after included support consummed) | 10    | € 720    |
 
@@ -136,7 +132,7 @@ Tools will be updated according to lotus release. Will be glad to work closer wi
 
 ## Team Members
 
-Julien NOEL - online@noelnoel.org
+Julien NOEL - julien.noel@twinquasar.io
 
 ## Team Website
 
@@ -144,6 +140,9 @@ Julien NOEL - online@noelnoel.org
 
 ## Relevant Experience
 
-Julien is a filecoin miner, actively helping the filecoin community on slack. 
+Julien is a :
+- Filecoin miner, actively helping the filecoin community on slack. 
+- Filecoin Notary
+- Part of MinerX program
 IPFS and Web3 enthousiast, starting being active around filecoin right before Space Race, 
 Julien is a computer science engineer, spending 15 years working for Top100 companies providing strategic advice to C-level around new technologies.
