@@ -116,10 +116,9 @@ Each release will be usable and tested with the community allowing us to iterate
    - Roadmap update, define learnings and where to go from there.
 ## Total Budget Requested
 - Budget will cover 1 engineer living expenses for the duration of the project
-   - 500FIL per phase
+   - $10K per phase
 - Also includes infrastructure for running multiple Filecoin test nodes
-   
-- Total: **1500FIL**
+- Total: **$30,000**
 ## Maintenance and Upgrade Plans
 - This interface will power the Myel CDN so we will be maintaining and improving it in the long term.
 # Team
