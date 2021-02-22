@@ -60,6 +60,7 @@ User can manage export of PT level data files, it provides
 -	A pragmatical way of defining input/output directory
 -	Batch split big files to small files
 -	MD5 file generation
+- IPLD based file trunk
 -	File uploading transfer server
 -	Merge small files to big file.
 -	Database for persistent sending history.
@@ -77,6 +78,7 @@ Miner side:
 -	Current deal status. 
 -	Md5 validation
 -	File downloading manager for retry and transmission resume
+-	IPLD-selectors support for retrieval of a subset of stored data,
 -	AES/asymmetric decryption tool
 -	Deal Log tracking tool
 -	Auto import car file from directory with CSV provide by client.
@@ -121,12 +123,14 @@ Milestone 2 – Filecoin Plus tool  10,000
 Client side
 -	File uploading transfer server
 -	Database for persistent sending history.
--	AWS/asymmetric tool
+-	IPLD based file trunk
+-	AES/asymmetric tool
 -	Dashboard of reporting of daily usage, average price spent, average sealing time, highest success miners, past deals. 
 
 Miner side: 
 -	AWS/asymmetric decryption tool
 -	Local file index for review
+-	IPLD-selectors support for retrieval of a subset of stored data,
 -	Database for persistent processing history.
 -	Dashboard of deal status success rate and log tracking tool
 
@@ -136,8 +140,6 @@ Miner side:
 * Milestone 1: $20,000
 
 * Milestone 2: $10,000
-
-
 
 
 Total: $30,000
