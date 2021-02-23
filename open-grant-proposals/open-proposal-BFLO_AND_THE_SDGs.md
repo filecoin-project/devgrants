@@ -2,7 +2,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Open Grant Proposal: `BFLO AND THE SDGs`
 
-**Name of Project:**
+**Name of Project: BFLO AND THE SDGs
 
 **Proposal Category:**  `app-dev`
 
