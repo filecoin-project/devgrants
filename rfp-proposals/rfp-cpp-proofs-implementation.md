@@ -93,8 +93,8 @@ operation. Quick and easy.
 
 # Development Roadmap
 
-Since this is a non-commercial thing for the team, open-sourcing and maintenance 
-work would require some financing.
+Since this is a non-profit thing for the team, open-sourcing and maintenance 
+work will require some financing.
 
 **Total Funding Amount:** \$80000
 
