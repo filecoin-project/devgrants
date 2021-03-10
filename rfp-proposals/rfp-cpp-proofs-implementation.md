@@ -12,7 +12,7 @@
 
 # Project Description
 
-=nil; Crypto3 team intends to introduce second Filecoin Proofs impelemtation
+=nil; Crypto3 team intends to introduce second Filecoin Proofs implementation
 written in C++, assembling it from existing (and working in production) 
 proprietary C++ Filecoin Distributed Prover parts, and integrate it with
 existing Filecoin protocol implementations (Venus, Lotus, Futhon and possibly
@@ -93,6 +93,9 @@ operation. Quick and easy.
 
 # Development Roadmap
 
+Since this is a non-commercial thing for the team, open-sourcing and maintenance 
+work would require some financing.
+
 **Total Funding Amount:** \$80000
 
 **Milestones:** 
@@ -165,6 +168,11 @@ provided. Since parts of the proofs implementation proposed for opensourcing
 are already a part of a proprietary commercial Filecoin mining software, all 
 the updates and and continious support are going to be provided for free with 
 no limiting timeframe.
+
+Many security and updates coordination questions were raised during the
+discussion in here: https://github.com/filecoin-project/rust-fil-proofs/discussions/1418. 
+Most of them luckily have their answers developed over time. Any other questions
+of similar kind can be discussed publicly or privately with email.
 
 ## Total Budget Requested
 
