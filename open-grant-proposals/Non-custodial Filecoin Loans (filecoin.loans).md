@@ -56,27 +56,27 @@ The UI/UX design files (Figma) and protocol documentation to enable other develo
 ## Development Roadmap
 
 #### Milestone #1
-- Time: 2 weeks 
+- Time: 1 week 
 - Objective: UI/UX Planning & Implementation
 - Technologies: Photoshop, Figma, React Native, ReactJS, Javascript, HTML, CSS.
 - Team: 4
    - UI/UX Designer
    - 2x Fullstack Developer
    - Mobile Developer
--  Funding: $5,000
+-  Funding: $2,000
 - Deliverables: 
    - UI/UX Web & Mobile
    - Web dApp Frontend Implementation
    - Mobile App Frontend Implementation
 
 #### Milestone #2
-- Time: 2 weeks
+- Time: 2-3 weeks
 - Objective: Lend FIL using ERC20 tokens as collateral
 - Technologies: Filecoin Javascript libraries, Solidity, Web3, ReactJS, Redux.
 - Team: 4
   - 2x Blockchain Developer
   - 2x Fullstack Developer
-- Funding: $10,000
+- Funding: $9,000
 - Deliverables:
   - Loan creation process using Filecoin Payment Channels (HTLCs).
   - Solidity Collateral Smart Contract.
@@ -90,7 +90,7 @@ The UI/UX design files (Figma) and protocol documentation to enable other develo
 - Team: 4
   - 2x Blockchain Developer
   - 2x Fullstack Developer 
-- Funding: $10,000
+- Funding: $9,000
 - Deliverables:
   - Loan creation process using ERC20 tokens.
   - Solidity Loans Smart Contracts.
@@ -99,7 +99,7 @@ The UI/UX design files (Figma) and protocol documentation to enable other develo
 
 #### Milestone #4
 - Time: 2 weeks
-- Objective: Filecoin Mobile Implementation in Blits Wallet
+- Objective: Filecoin Mobile Implementation in Blits Wallet & ETH/ERC20 Mobile Implementation
 - Technologies: React Native, Redux.
 - Team: 3
   - Mobile Developer
@@ -111,35 +111,26 @@ The UI/UX design files (Figma) and protocol documentation to enable other develo
     - Receive FIL
     - Fetch Balance
     - Fetch Tx Details  
+    - Send ETH/ERC20
+    - Receive ETH/ERC20
+    - Fetch ETH/ERC20 balances & txs
 
 #### Milestone #5
-- Time: 1 week
+- Time: 2 weeks
 - Objective: Filecoin Loans protocol mobile implementation in Blits Wallet
 - Team: 3
-- Funding: $10,000
+- Funding: $5,000
 - Deliverables:
    - Implement FIL -> ERC20 Lending process
    - Implement ERC20 -> Lending process
    
 
-#### Milestone #6
-- Time: 1 week
-- Objective: Audit, Marketing & Documentation
-- Team: 3
-- Funding: $10,000
-- Deliverables:   
-   - In-depth documentation of the protocol.
-   - External Source code audit.
-   - Marketing and giveaway campaign.
-   - 100 Loans Created
-
 
 ## Total Budget Requested
 
-Total: $50,000 
-- Salaries & Development Costs: $40,000
-- Marketing & Giveaway campaigns: $2,000
-- External Audit: $8,000
+Total: $30,000 
+- Salaries & Development Costs: $30,000
+
 
 ## Maintenance and Upgrade Plans
 
