@@ -67,11 +67,11 @@ Maintenance provided by FileDrive team will include:
 
 ## Team Members
 
-- Developer: Filex Li, Huanhuan Qian
+- Developer: Felix Li, Huanhuan Qian
 
 ## Team Member LinkedIn Profiles
 
-- Filex Li: https://www.linkedin.com/in/felixlee20190908/?locale=zh_CN
+- Felix Li: https://www.linkedin.com/in/felixlee20190908/?locale=zh_CN
 - Huanhuan Qian: https://www.linkedin.com/in/%E6%AC%A2%E6%AC%A2-%E9%92%B1-455141129/
 
 ## Team Website
