@@ -174,9 +174,9 @@ https://www.geoweb.network/
 
 ## Team code repositories
 
-https://github.com/Geo-Web-Project
-https://github.com/codynhat
-https://github.com/10dimensions
+* https://github.com/Geo-Web-Project
+* https://github.com/codynhat
+* https://github.com/10dimensions
 
 # Additional Information
 
