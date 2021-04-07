@@ -1,6 +1,3 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your
-file `open-proposal-title.md`, replacing `title` with the name of your project.
-
 Open Grant Proposal: `FS3 - A S3 compatible storage gateway to Filecoin`
 
 ** Name of Project: *FS3 for S3 compatible storage gateway to Filecoin network*
@@ -13,14 +10,6 @@ Open Grant Proposal: `FS3 - A S3 compatible storage gateway to Filecoin`
 Yes
 
 # Project Description
-
-Please describe exactly what you are planning to build. Make sure to include the following:
-
-- Start with the need or problem you are trying to solve with this project.
-- Describe why your solution is going to adequately solve this problem.
-
-This section should be 2-3 paragraphs long.
-
 S3 as a wildly used industry object storage technology is adopt by many clients nowadays. Most of the cloud user getting
 used to S3 SDK for providing service like, web site hosting, machine learning data storage, video content editing, from
 TB level to PB level.
@@ -33,15 +22,6 @@ files, artifacts, backups, container images, photos and videos. If we add the in
 easily adapt by industry users with minimal integration effort. We have previous integration experience integrate MinIO
 
 ## Value
-
-Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
-
-- What are the benefits to getting this right?
-- What are the risks if you don't get it right?
-- What are the risks that will make executing on this project difficult?
-
-This section should be 1-3 paragraphs long.
-
 Once the solution is built, the tool can be used in several scenarios.
 
 - Industry users: Industry users can migrate their code to Filecoin network without redesign their system
@@ -58,11 +38,7 @@ channel for the payment to the Filecoin miners. Several command line method need
 miners
 
 ## Deliverables
-
-Please describe in detail what your final deliverable for this project will be. Include a specification of the project
-and what functionality the software will deliver when it is finished.
-
-The software suit has two components: UI-side tools and command line tool
+The software kit has two components: UI-side tools and command line tool
 
 On UI side:
 User can manage upload/download files, share with others, choose the miner for storage the object as a deal, it provides
@@ -106,18 +82,6 @@ $> curl "http://localhost:8889/info?bucket=testbucket&object=file.txt"
 ```
 
 ## Development Roadmap
-
-Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary
-on the project but aim for around 2 pages for this section).
-
-For each milestone, please describe:
-
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough
-  that it can be used to ensure that the software meets the specification you outlined in the Deliverables.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
-
 | No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
 | 1 | FS3 functionality design and scope definition. | NA | 2 weeks |
