@@ -71,7 +71,6 @@ Estimated Effort: 56 hours, 1 person, 5600 USD
 - Updated deps for ts client
 - ability to configure the generated client allowing headers to be configured for filecoin api use
 - gh action for typescript client generation & deployment
- - result should be something that resembles https://github.com/filecoin-shipyard/js-lotus-client-schema#updating-the-schemas 
 - copy-pastable code to enable generating and releasing clients when the api changes.
 
 Estimated Effort: 48 hours, 1 person, 4800 USD
