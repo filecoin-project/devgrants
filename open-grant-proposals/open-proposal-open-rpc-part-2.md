@@ -10,7 +10,7 @@
 
 # Project Description
 
-OpenRPC is an API description language built for OpenRPC. This project is to improve OpenRPC tooling such that filecoin can more easily generate and deploy documentation. As part of a previous devgrant, OpenRPC document generation was added to lotus, and has since been merged and released. 
+OpenRPC is an API description language built for JSON-RPC. This project is to improve OpenRPC tooling such that filecoin can more easily generate and deploy documentation. As part of a previous devgrant, OpenRPC document generation was added to lotus, and has since been merged and released. 
 
 At the moment, the https://github.com/open-rpc/generator can build documentation, however the depencies it is using need to be updated (new inspector version). We also lack a quick and dirty way to start auto-generating and deploying docs alongside github releases. This has made it a little cumbersome to get open-rpc documentation deployed for lotus. 
 
