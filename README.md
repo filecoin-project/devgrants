@@ -136,7 +136,6 @@ Please contact [@philippbanhardt](https://github.com/philippbanhardt) or email d
 
 If you have any questions, please ask them!
 - File an issue in this repo
-- Ask on our [community forum](https://discuss.filecoin.io/c/devgrants)
 - Join our [community chat](https://github.com/filecoin-project/community#chat)
 
 Additionally, check out [these resources](https://filecoin.io/resources/) to learn more about Filecoin.
