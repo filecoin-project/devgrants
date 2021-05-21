@@ -13,6 +13,8 @@ The Lighthouse project provides a way for Ethereum smart contracts to request Fi
 
 Currently Lighthouse smart contract is deployed on Ethereum Testnet with which users can interact via Remix IDE, Truffle Box and a basic website frontend or by running and deploying smart contract and lighthouse node on their own. But still there are some important features like a dapp to interact with, paying for storage through ETH / wrapped FIL, publishing storage status back to ethereum chain that can be key features for a wider acceptance and usability of the project.
 
+Current Website: http://ec2-13-126-82-18.ap-south-1.compute.amazonaws.com/
+
 ## Value
 
 - What are the benefits to getting this right?
