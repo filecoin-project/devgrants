@@ -1,6 +1,6 @@
 # Filecoin Devgrants
 
-> **Wave 7 grant proposals are due March 31, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
+> **Wave 8 dev grant proposals are due June 30, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
 
 > Learn about Waves 4 & 5 projects and Gitcoin Grants for Filecoin here in this [Filecoin blogpost](https://filecoin.io/blog/filecoin-dev-grants-wave-4-5-gitcoin/).
 
@@ -77,8 +77,11 @@ We will start a new grants cycle, or `wave`, every quarter i.e. every 3 months. 
 
 | Wave No. | Wave Opens | Wave Deadline |
 | --- | --- | --- |
-| 5 | July 1, 2020 | October 1, 2020, 11:59PM PT |
-| 6 | October 1, 2020 | January 15, 2021, 11:59PM PT |
+| 7 | Jan 15, 2021 | March 31, 2021, 11:59PM PT |
+| 8 | April 1, 2021 | June 30, 2021, 11:59PM PT |
+| 9 | July 1, 2021 | Sep 30, 2021, 11:59PM PT |
+| 10 | Oct 1, 2021 | Jan 15, 2022, 11:59PM PT |
+                                                                                                                        
 
 After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within a few weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
 
@@ -130,7 +133,7 @@ If you would like to propose an RFP for the Filecoin ecosystem, you've come to t
 4. Create an issue with the appropriate Category tag and a link to the merged RFP doc. This is where community members will have discussions, ask you questions, and more, so please monitor this thread!
 5. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
 
-Please contact [@philippbanhardt](https://github.com/philippbanhardt) or email devgrants@filecoin.org for any questions.
+Please contact `@Sonia John` on Filecoin Slack ([invite](http://filecoin.io/slack)) or email devgrants@filecoin.org with any questions.
 
 ## ℹ️ Help
 
@@ -138,7 +141,7 @@ If you have any questions, please ask them!
 - File an issue in this repo
 - Join our [community chat](https://github.com/filecoin-project/community#chat)
 
-Additionally, check out [these resources](https://filecoin.io/resources/) to learn more about Filecoin.
+Additionally, check out [filecoin.io](https://filecoin.io) or the [Filecoin Docs](https://docs.filecoin.io) to learn more about Filecoin.
 
 ## License
 
@@ -147,3 +150,5 @@ The Filecoin Project is dual-licensed under Apache 2.0 and MIT terms:
 - Apache License, Version 2.0, ([LICENSE-APACHE](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-APACHE
 ) or http://www.apache.org/licenses/LICENSE-2.0)
 - MIT license ([LICENSE-MIT](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+All Filecoin dev grant projects are open sourced and also use these licenses.
