@@ -79,10 +79,9 @@ web API for native and web applications (as well as a web-only trial version of 
   
 Best in breed, high productivity developer APIS:
   
-    * simplified JPA annotations
-    * GraphQL like query API
-    * GraphQL/Firebase like hybrid
-solution for mutation & access rules.  
+* Simplified JPA annotations (no session concept, easier relations)
+* GraphQL like query API
+* GraphQL/Firebase like hybrid solution for mutation & access rules.  
   
 Shared virtual repositories (via independent transaction logs) based on IPFS DAG.
 
@@ -96,7 +95,7 @@ A local tensor based (or newer tech if available) advertisement engine.
 
 - [Brian Gill](https://www.linkedin.com/in/brian-gill-1353b21/)
 
-A seed application (Votecube)[https://github.com/votecube]  (votecube.com)[https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t]
+A seed application source: [Votecube](https://github.com/votecube), partial prototype: [votecube.com](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t)
 with a complex relational schema and a forward thinking opinion gathering
 engine & UI.
 
