@@ -301,4 +301,4 @@ https://github.com/votecube
 1. AIR technology and AIRport framework are absolutely necessary to accelerate
 development of distributed applications in general.
 
-2. The time for Votecube decentralized decision making system is at hand (or close to it).
+2. The time for Votecube decentralized decision making system is at hand.
