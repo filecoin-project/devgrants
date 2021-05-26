@@ -4,7 +4,7 @@
 
 **Proposal Category:** `devtools-libraries`
 
-**Proposer:** (artem-v-shamsutdinov)[]
+**Proposer:** (artem-v-shamsutdinov)[https://www.linkedin.com/in/artem-shamsutdinov-1b5910/]
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
