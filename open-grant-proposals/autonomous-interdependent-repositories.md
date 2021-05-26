@@ -18,7 +18,7 @@ Distributed Applications lack an easy-to-use database layer.
 
 AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
-![AIR across devices](/presentations/images/AIR-across-devices.jpg)
+![AIR across devices](./presentations/images/AIR-across-devices.jpg)
 
 Provides a net-like relational database of repositories.  A repository is a virtual database with it's own transaction log.
 It has globally unique identifier that helps to distinguish it from other repositories in the same relational
@@ -28,7 +28,7 @@ database (such as WebSql, or SqLite in a Cordova based App).
 
 ## Value
 
-![AIRport as Cordova application](/presentations/images/AIRport-in-Cordova.png)
+![AIRport as Cordova application](./presentations/images/AIRport-in-Cordova.png)
 
 - The benefits to getting this right
 
@@ -42,7 +42,7 @@ In it's final form AIRport could be used directly between devices to communicate
 changes in the state of repositories shared between their members (based on some form of
 [mobile device-to-device Web Access](https://patents.google.com/patent/WO2019036410A1)).
 
-![Autonomous Interdependent Repository sharing](/presentations/images/Figure02.png)
+![Autonomous Interdependent Repository sharing](./presentations/images/Figure02.png)
 
 
 - The risks:
