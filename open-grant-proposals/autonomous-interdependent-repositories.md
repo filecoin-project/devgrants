@@ -291,7 +291,9 @@ Dr. Andrei Belitski - extensive experience in AI, neural networks research and i
 Brian Gill - overwhelming experience in application development
 
 ## Team code repositories
+
 https://github.com/autonomous-interdependent-repositories
+
 https://github.com/votecube
 
 # Additional Information
