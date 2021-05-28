@@ -44,7 +44,9 @@ Each Repository has a globally unique identifier that allows to distinguish it f
 database (such as WebSql, or SqLite in a Cordova based App). For 2 Users to share a Repository it must be present on their devices and the
 schemas used by that repository must be installed in AIRport databases on those devices.
 
-
+What AIRport needs is a means of sharing data and blockchains fit that role well.  Especially if they support Directed Asyclical Graphs because each
+commit into a Repository transaction log is a block on a chain, with different sub-chains being resolved in AIRport software to build a complete picture
+of people modifying Repository data at different times and locations, potentially without online connectivity.
 
 ## Value
 
