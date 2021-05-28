@@ -23,7 +23,8 @@ AIRport is a reference implementation of [Autonomous Interdependent Repositories
 Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.  Each device/phone contains a single AIRport database that is shared by all applications on that device.  The composition of the applications on each devices can be different.  Also the composition of the schemas installed in each AIRport database on each device can be different as well.  Each database contains only the Repositories the user of that device desides to keep on it.  This:
 
 * Allows the Application End Users to seamlessly share the data only with selected Users.
-* Lowers the barrier to entry for new Applications as they can reuse existing schemas or write add-on functionality to existing Applications.
+* Lowers the barrier to entry for new Apps as they can reuse existing schemas or write add-on functionality to existing Apps.
+* Lowers the barrier to entry by providing exiting data to new Apps.
 * Allows hybrid applications where part of the data is centralized (for large scale sharing) and part is in private Repositories.
 
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
