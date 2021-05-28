@@ -14,13 +14,13 @@
 
 Distributed Applications (DApps) lack an easy-to-use database layer.
 
-Our target users are developers for Distributed Applications.  The new DApps are gaining more functionality, getting more complex and currently the number of applications devs is limited due to a steep learning curve.   For the majority of Software Engineers (who are used to working with relational databases) it is hard to write applications with complex data schemas.
+The new DApps are gaining more functionality, getting more complex and currently the number of applications devs is limited due to a steep learning curve.   For the majority of Software Engineers (who are used to working with relational databases) it is hard to write applications with complex data schemas.
 
 - Our solution:
 
 AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
-AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.
+Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.
 
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
 
