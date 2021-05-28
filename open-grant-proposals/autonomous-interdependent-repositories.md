@@ -20,6 +20,8 @@ Our target users are developers for Distributed Applications.  The new DApps are
 
 AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
+AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.
+
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
 
 Provides a net-like relational database of repositories.  A repository is a virtual database with it's own transaction log.
