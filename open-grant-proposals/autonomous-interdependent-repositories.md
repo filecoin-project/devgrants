@@ -20,7 +20,7 @@ The new DApps are gaining more functionality, getting more complex and currently
 
 AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
-Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.  Each device/phone contains a single AIRport database that is shared by all applications on that device.  The composition of the applications on each devices can be different.  Also the composition of the schemas installed in each AIRport database on each device can be different as well.
+Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.  Each device/phone contains a single AIRport database that is shared by all applications on that device.  The composition of the applications on each devices can be different.  Also the composition of the schemas installed in each AIRport database on each device can be different as well.  Each database contains only the Repositories the user of that device desides to keep on it.
 
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
 
