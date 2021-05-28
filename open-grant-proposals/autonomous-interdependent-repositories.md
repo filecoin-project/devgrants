@@ -27,7 +27,7 @@ Our target users are developers for Distributed Applications.  AIRport allows mu
 * Lowers the barrier to entry by providing exiting data to new Apps.
 * Allows hybrid applications where part of the data is centralized (for large scale sharing) and part is in private Repositories.
 
-For example in an event tracking App each event can be it's own Repository.  And there maybe addional Apps share the schema with this App and provide functionality such as event specific chat and attached docs.  The additional apps will still add data to the sare Repositories represeting the same event, with those Repositories now spanning schemas of different Apps.
+For example in an event tracking App each event can be it's own Repository.  And there maybe addional Apps share the schema with this App and provide functionality such as event specific chat and voting system.  The additional apps will still add data to the sare Repositories represeting the same event, with those Repositories now spanning schemas of different Apps.
 
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
 
