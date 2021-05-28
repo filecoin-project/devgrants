@@ -49,6 +49,9 @@ commit into a Repository transaction log is a block on a chain, with different s
 as "the longest chain" to build a complete picture
 of people modifying Repository data at different times and locations, potentially without online connectivity.
 
+The other thing blockchains add is the already figured out insentive system and thought out economics of the data storage.  AIRport can simply build
+on top of already researched and implemented work and now "reinvent the wheel".
+
 ## Value
 
 ![AIRport as Cordova application](presentations/images/AIRport-in-Cordova.png)
