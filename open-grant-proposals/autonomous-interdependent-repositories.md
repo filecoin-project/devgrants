@@ -24,8 +24,8 @@ Our target users are developers for Distributed Applications.  AIRport allows mu
 
 ![AIR across devices](presentations/images/AIR-across-devices.jpg)
 
-Provides a net-like relational database of repositories.  A repository is a virtual database with it's own transaction log.
-It has globally unique identifier that helps to distinguish it from other repositories in the same relational
+AIRport provides a net-like relational database of Repositories.  Repositories are virtual databases, each with it's own transaction log.
+Each Repository has a globally unique identifier that allows to distinguish it from other repositories in the same relational
 database (such as WebSql, or SqLite in a Cordova based App).
 
 
