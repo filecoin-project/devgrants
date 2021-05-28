@@ -10,9 +10,11 @@
 
 # Project Description
 
-- The problem:
-  
-Distributed Applications lack an easy-to-use database layer.
+- The problem: 
+
+Distributed Applications (DApps) lack an easy-to-use database layer.
+
+Our users are developers for Distributed Applications.  Currently the number of applications devs is limited due to a steep learning curve.  For the majority of Software Engineers it is hard to write applications with complex data schemas.
 
 - Our solution:
 
