@@ -22,7 +22,7 @@ AIRport is a reference implementation of [Autonomous Interdependent Repositories
 
 Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track different groups of data as Repositories.  Each device/phone contains a single AIRport database that is shared by all applications on that device.  The composition of the applications on each devices can be different.  Also the composition of the schemas installed in each AIRport database on each device can be different as well.  Each database contains only the Repositories the user of that device desides to keep on it.  This:
 
-* Allows the Application End Users to seamlessly share the data only with selected Users (For 2 Users to share a Repository it must be present on their devices and the schemas used by that repository must be installed in AIRport databases on those devices).
+* Allows the Application End Users to seamlessly share the data only with selected Users.
 * Lowers the barrier to entry for new Applications because they can reuse existing schemas or simply write add-on functionality to existing Applications.
 * Allows hybrid applications where part of the data is centralized (for large scale sharing) and part is in private Repositories.
 
@@ -36,9 +36,10 @@ The process of installing AIRport is:
 *  The consumer application creates the private Repository and prompts the user for who to share it with
 *  User shares the repository and the other users of that repository are notified
 
-AIRport provides a net-like relational database of Repositories.  Repositories are virtual databases, each with it's own transaction log.
+AIRport provides a net-like relational database of Repositories.  Repositories are virtual databases, each with it's own transaction log.  
 Each Repository has a globally unique identifier that allows to distinguish it from other repositories in the same relational
-database (such as WebSql, or SqLite in a Cordova based App).
+database (such as WebSql, or SqLite in a Cordova based App). For 2 Users to share a Repository it must be present on their devices and the
+schemas used by that repository must be installed in AIRport databases on those devices.
 
 
 
