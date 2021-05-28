@@ -14,7 +14,7 @@
 
 Distributed Applications (DApps) lack an easy-to-use database layer.
 
-Our target users are developers for Distributed Applications.  The new DApps are gaining more functionality getting more complex and currently the number of applications devs is limited due to a steep learning curve.   For the majority of Software Engineers (who are used to working with relational databases) it is hard to write applications with complex data schemas.
+Our target users are developers for Distributed Applications.  The new DApps are gaining more functionality, getting more complex and currently the number of applications devs is limited due to a steep learning curve.   For the majority of Software Engineers (who are used to working with relational databases) it is hard to write applications with complex data schemas.
 
 - Our solution:
 
