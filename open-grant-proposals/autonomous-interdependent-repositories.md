@@ -62,23 +62,28 @@ This:
   large scale sharing) and part is in private Repositories.
 
 For example in an event tracking App, where data for each event is a separate
-Repository.  There maybe additional Apps share the schema with this App and
-provide functionality such as event specific chat and voting system.  The
-Additional apps will still add data to the share Repositories representing
-the same event, with those Repositories now spanning schemas of different 
-Apps.
+Repository.  Additional Apps share the schema with this App and provide 
+functionality such as event specific chat and voting system in their own
+schemas.  With these Additional apps adding data to the same Repositories (for the
+the same events), those Repositories now span schemas of these new Apps.
 
 - The benefits to getting this right
 
-Each repository is completely autonomous and can be added to a host relational database and/or removed from it,
-at any time, without affecting other repositories.  Repositories can have references to each other thus depending
-on data that other repository contains, but must be usable without referenced repositories (thus being
-both interdependent and autonomous).
+Each repository is completely autonomous and can be added to a host relational
+database and/or removed from it, at any time, without affecting other
+repositories.  Repositories can have references to each other thus depending
+on data that other repository contains, but must be usable without referenced
+repositories (thus being both interdependent and autonomous).
 
-Initial AIRport deployments will have server components to enable communication between mobile devices.
-In it's final form AIRport could be used directly between devices to communicate
-changes in the state of repositories shared between their members (based on some form of
-[mobile device-to-device Web Access](https://patents.google.com/patent/WO2019036410A1)).
+AIRport Repositories have block-chain based transaction log storage to enable
+communication between devices.
+
+AIRport offers best-of-breed, high productivity developer APIS:
+  
+* Simplified JPA annotations (no session concept, easier relations)
+* GraphQL like query API
+* GraphQL/Firebase like hybrid solution for mutation & access rules.  
+* Automatic schema generation and installation
 
 - The risks:
 
@@ -90,12 +95,12 @@ schema and various persistence and validation needs.
 
 The seed project is completely thought out and its most complex part is coded,
   the need for automatic reviews of articles based on multiple dimensions is
-clear and present (there are already working solutions out there with manual reviews from
-multiple points of view, we are now just taking it to the next level with automatic,
-and thus large scale, processing 3D interfaces, and aggregate analysis).  The more basic break down
-interface will be based on the same (already thought out and implemented schemas)
-and will also be based on existing UI implementation (will add a simpler 3D axis
-based UI. for example: 
+clear and present (there are already working solutions out there with manual
+reviews from multiple points of view, we are now just taking it to the next
+level with automatic, and thus large scale, processing 3D interfaces, and
+aggregate analysis).  The more basic break down interface will be based on the
+same (already thought out and implemented schemas) and will also be based on
+existing UI implementation (will add a simpler 3D axis based UI. for example: 
 
 ```
 X-axis: Liberal - Conservative
@@ -118,14 +123,9 @@ The key risk is in figuring out how to monetize on the platform.
 
 - Artem Shamsutdinov
 
-A relation database central to the device (which it is running on) with a localhost-only
-web API for native and web applications (as well as a web-only trial version of the application).
-  
-Best in breed, high productivity developer APIS:
-  
-* Simplified JPA annotations (no session concept, easier relations)
-* GraphQL like query API
-* GraphQL/Firebase like hybrid solution for mutation & access rules.  
+A relation database central to the device (which it is running on) with a
+localhost-only web API for native and web applications (as well as a 
+web-only trial version of the application).
   
 Shared virtual repositories (via independent transaction logs) based on IPFS DAG.
 
