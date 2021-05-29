@@ -22,7 +22,8 @@ with complex data schemas.
 
 - Our solution:
 
-AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
+AIRport is a reference implementation of
+[Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
 AIRport provides a net-like relational database of Repositories.  Repositories
 are virtual databases, each with its own transaction log.  Each Repository has
@@ -81,8 +82,11 @@ changes in the state of repositories shared between their members (based on some
 
 - The risks:
 
-Project is completely thought out and largely coded with a granted patent, risks of getting it wrong
-  are minimal.
+Project is completely thought out and largely coded with a granted patent, risks of 
+getting it wrong mostly related to it being "developed in a vacuum".  In order to
+ensure that AIRport does not diverge from requirements of real applications we
+are developing a seed application - Votecube.  Votecube has a complex relational
+schema and various persistence and validation needs.
 
 The seed project is completely thought out and its most complex part is coded,
   the need for automatic reviews of articles based on multiple dimensions is
