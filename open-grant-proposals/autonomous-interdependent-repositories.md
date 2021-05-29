@@ -14,47 +14,58 @@
 
 Distributed Applications (DApps) lack an easy-to-use database layer.
 
-The new DApps are gaining more functionality, getting more complex and currently the number of applications devs is limited due to a steep learning curve.   For the majority of Software Engineers (who are used to working with relational databases) it is hard to write applications with complex data schemas.
+The new DApps are gaining more functionality, getting more complex and 
+currently the number of applications devs is limited due to a steep 
+learning curve.   For the majority of Software Engineers (who are used 
+to working with relational databases) it is hard to write applications 
+with complex data schemas.
 
 - Our solution:
 
 AIRport is a reference implementation of [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
-Our target users are developers for Distributed Applications.  AIRport allows multiple applications to share the same schemas.  It also allows to independently track data as Repositories.  A Repository is a virtual database tracked in a number of tables across any number of schemas.  At a high level, it's a "virtual interface" between applications and schemas.  Each device/phone contains a single AIRport database that is shared by all applications on that device.  The composition of the applications on each devices can be different.  Also the composition of the schemas installed in each AIRport database on each device can be different as well.  Each database contains only the Repositories the user of that device desides to keep on it.  This:
+AIRport provides a net-like relational database of Repositories.  Repositories
+are virtual databases, each with its own transaction log.  Each Repository has
+a globally unique identifier that allows to distinguish it from other 
+repositories in the same relational database (such as WebSql, or SqLite in 
+a Cordova based App). For two Users to share a Repository it must be present 
+on their devices, and the schemas used by that repository must be installed
+in AIRport databases on those devices.
 
-* Allows the Application End Users to seamlessly share the data only with selected Users.
-* Lowers the barrier to entry for new Apps as they can reuse existing schemas or write add-on functionality to existing Apps.
-* Lowers the barrier to entry by providing exiting data to new Apps.
-* Allows hybrid applications where part of the data is centralized (for large scale sharing) and part is in private Repositories.
+![AIR reposiories](presentations/images/AIRport_diagram_2.png)
 
-For example in an event tracking App, where data for each event is a separate Repository.  And there maybe addional Apps share the schema with this App and provide functionality such as event specific chat and voting system.  The Additional apps will still add data to the sare Repositories represeting the same event, with those Repositories now spanning schemas of different Apps.
+Each device/phone contains a single AIRport database that is shared by all
+applications on that device.  The composition of the applications on each
+device can be different.  The composition of the schemas installed in each
+AIRport database on each device can be different as well.  Each database
+contains only the Repositories the user of that device decides to keep on it.
 
-![AIR across devices](presentations/images/AIR-across-devices.jpg)
-
-The process of installing AIRport is:
-
-*  User navigates to a consumer Application that uses AIRport and creates a private Repository
-*  Application prompts the user to install AIRport database App (if it's not installed already)
-*  User installs AIRport App and navigates back to the application
-*  The consumer application creates the private Repository and prompts the user for who to share it with
-*  User shares the repository and the other users of that repository are notified
-
-AIRport provides a net-like relational database of Repositories.  Repositories are virtual databases, each with it's own transaction log.  
-Each Repository has a globally unique identifier that allows to distinguish it from other repositories in the same relational
-database (such as WebSql, or SqLite in a Cordova based App). For 2 Users to share a Repository it must be present on their devices and the
-schemas used by that repository must be installed in AIRport databases on those devices.
-
-What AIRport needs is a means of sharing data and blockchains fit that role well.  Especially if they support Directed Asyclical Graphs because each
-commit into a Repository transaction log is a block on a chain, with different sub-chains being resolved 
-as "the longest chain" to build a complete picture
-of people modifying Repository data at different times and locations, potentially without online connectivity.
-
-The other thing blockchains add is the already figured out insentive system and thought out economics of the data storage.  AIRport can simply build
-on top of already researched and implemented work and now "reinvent the wheel".
+![AIR across devices](presentations/images/AIRport_diagram_1.png)
 
 ## Value
 
-![AIRport as Cordova application](presentations/images/AIRport-in-Cordova.png)
+Our target users are developers for Distributed Applications.  AIRport allows
+multiple applications to share the same schemas.  It also allows to 
+independently track data as Repositories.  A Repository is a virtual database
+tracked in a number of tables across any number of schemas.  At a high level,
+it's a "virtual interface" between applications and schemas.
+
+This:
+
+* Allows the Application End Users to seamlessly share the data only with 
+  selected Users.
+* Lowers the barrier to entry for new Apps as they can reuse existing schemas 
+  or write add-on functionality to existing Apps.
+* Lowers the barrier to entry by providing exiting data to new Apps.
+* Allows hybrid applications where part of the data is centralized (for 
+  large scale sharing) and part is in private Repositories.
+
+For example in an event tracking App, where data for each event is a separate
+Repository.  There maybe additional Apps share the schema with this App and
+provide functionality such as event specific chat and voting system.  The
+Additional apps will still add data to the share Repositories representing
+the same event, with those Repositories now spanning schemas of different 
+Apps.
 
 - The benefits to getting this right
 
@@ -68,16 +79,13 @@ In it's final form AIRport could be used directly between devices to communicate
 changes in the state of repositories shared between their members (based on some form of
 [mobile device-to-device Web Access](https://patents.google.com/patent/WO2019036410A1)).
 
-![Autonomous Interdependent Repository sharing](presentations/images/Figure02.png)
-
-
 - The risks:
 
 Project is completely thought out and largely coded with a granted patent, risks of getting it wrong
   are minimal.
 
-The seed project is competely thought out and its most complex part is coded,
-  the need for automatic reviews of articles based on multiple dimentions is
+The seed project is completely thought out and its most complex part is coded,
+  the need for automatic reviews of articles based on multiple dimensions is
 clear and present (there are already working solutions out there with manual reviews from
 multiple points of view, we are now just taking it to the next level with automatic,
 and thus large scale, processing 3D interfaces, and aggregate analysis).  The more basic break down
@@ -119,7 +127,7 @@ Shared virtual repositories (via independent transaction logs) based on IPFS DAG
 
 - Nikolay Dobrinov
 
-A centralized (high precision) advertizement model based on anonymous user data.
+A centralized (high precision) advertisement model based on anonymous user data.
 
 - Andrei Belitski
 
@@ -127,7 +135,8 @@ A local tensor based (or newer tech if available) advertisement engine.
 
 - [Brian Gill](https://www.linkedin.com/in/brian-gill-1353b21/)
 
-A seed application source: [Votecube](https://github.com/votecube), partial prototype: [votecube.com](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t)
+A seed application source: [Votecube](https://github.com/votecube), partial prototype:
+[votecube.com](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t)
 with a complex relational schema and a forward thinking opinion gathering
 engine & UI.
 
@@ -333,6 +342,28 @@ https://github.com/votecube
 1. AIR technology and AIRport framework are absolutely necessary to accelerate
 development of distributed applications in general.
 
+The process of installing AIRport is:
+
+*  User navigates to a consumer Application that uses AIRport and creates a private Repository
+*  Application prompts the user to install AIRport database App (if it's not installed already)
+*  User installs AIRport App and navigates back to the application
+*  The consumer application creates the private Repository and prompts the user for who to share it with
+*  User shares the repository and the other users of that repository are notified
+
+![AIRport as Cordova application](presentations/images/AIRport-in-Cordova.png)
+
+What AIRport needs is a means of sharing data and blockchains fit that role
+well.  Especially if they support Directed Asyclical Graphs because each
+commit into a Repository transaction log is a block on a chain, with different
+sub-chains being resolved as "the longest chain" to build a complete picture
+of people modifying Repository data at different times and locations,
+potentially without online connectivity.
+
+The other thing blockchains add is the already figured out incentive system
+and thought out economics of the data storage.  AIRport can simply build
+on top of already researched and implemented work and now "reinvent the wheel".
+
+
 2. The time for Votecube decentralized decision-making system is at hand:
 
 Existing businesses are doing manual reviews of articles from multiple points
@@ -350,14 +381,14 @@ Y:  Left - Right
 Z:  Traditional - Progressive
 
 Each individual article will be automatically evaluated for its position 
-on these axes an a graph will be presented for this article.  An additional
+on these axes, and a graph will be presented for this article.  An additional
 aggregate 3-D graph across all evaluated articles on the issue will present
 the overall picture of the public opinion.
 
 The new UI will be largely based on the existing technology for the cube,
 with different look and feel.  It will also allow users to add their
 input on the article in terms of providing their own positioning of the
-article on the evaluated axis and allow to add comments on a forum
+article on the evaluated axis and allow adding comments on a forum
 (partially designed and implemented).
 
 Then based on the information from each article the current cube will 
