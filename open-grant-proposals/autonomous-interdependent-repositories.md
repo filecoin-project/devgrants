@@ -88,7 +88,7 @@ AIRport offers best-of-breed, high productivity developer APIS:
 - The risks:
 
 Project is completely thought out and largely coded with a granted patent, risks of 
-getting it wrong mostly related to it being "developed in a vacuum".  In order to
+getting it wrong mostly relate to it being "developed in a vacuum".  In order to
 ensure that AIRport does not diverge from requirements of real applications we
 are developing a seed application - Votecube.  Votecube has a complex relational
 schema and various persistence and validation needs.
