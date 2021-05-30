@@ -61,11 +61,15 @@ This:
 * Allows hybrid applications where part of the data is centralized (for 
   large scale sharing) and part is in private Repositories.
 
-For example in an event tracking App, where data for each event is a separate
-Repository.  Additional Apps share the schema with this App and provide 
-functionality such as event specific chat and voting system in their own
-schemas.  With these Additional apps adding data to the same Repositories (for the
-the same events), those Repositories now span schemas of these new Apps.
+
+For example in an event tracking App data for each event is a separate Repository.
+Other Applications can build upon this App's schema and provide functionality such
+as  event specific chat and voting system in their own schemas. Using all of these
+Apps the users add data to the same Repositories (for the the same events).  Thus
+the Repositories for the events span schemas of all the Apps that together provide
+better functionality than each one separately.  AIRport enables synergies between
+Apps where "the whole is greater than the sum its parts" thus reducing the overall
+costs.
 
 - The benefits to getting this right
 
