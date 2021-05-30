@@ -62,14 +62,15 @@ This:
   large scale sharing) and part is in private Repositories.
 
 
-For example in an event tracking App data for each event is a separate Repository.
-Other Applications can build upon this App's schema and provide functionality such
-as  event specific chat and voting system in their own schemas. Using all of these
-Apps the users add data to the same Repositories (for the the same events).  Thus
-the Repositories for the events span schemas of all the Apps that together provide
-better functionality than each one separately.  AIRport enables synergies between
-Apps where "the whole is greater than the sum its parts" thus reducing the overall
-costs.
+
+    For example in an event tracking App data for each event is a separate Repository.
+    Other Applications can build upon this App's schema and provide functionality
+    (such as  event specific chat and voting systems) in their own schemas. Using all
+    of these Apps the users add data to the same Repositories (for the the same
+    events).  Thus Repositories for events span schemas of all the Apps that together
+    provide better functionality than each one separately.  AIRport enables synergies
+    between Apps where "the whole is greater than the sum its parts" thus reducing the
+    overall costs.
 
 - The benefits to getting this right
 
@@ -82,7 +83,7 @@ repositories (thus being both interdependent and autonomous).
 AIRport Repositories have block-chain based transaction log storage to enable
 communication between devices.
 
-AIRport offers best-of-breed, high productivity developer APIS:
+AIRport offers refined, high productivity developer APIS:
   
 * Simplified JPA annotations (no session concept, easier relations)
 * GraphQL like query API
@@ -123,8 +124,8 @@ The key risk is in figuring out how to monetize on the platform.
   The monetization is the difficult part of the project, we have the experience
   to get it done [Nik Dobrinov](https://www.linkedin.com/in/nikolaydobrinov/) on
   central modeling and [Andrei Belitski](https://www.linkedin.com/in/dr-andrei-belitski-178b3a75/)
-  on AI but we are presently not sure exactly how we'll make data anonymous
-  for central model building (initial thought is to one way hash all of PI).
+  on AI and we are working on how we'll make data anonymous for high definition 
+  model building.
 
 ## Deliverables
 
