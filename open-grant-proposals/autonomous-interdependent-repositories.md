@@ -147,10 +147,8 @@ A local tensor based (or newer tech if available) advertisement engine.
 
 - [Brian Gill](https://www.linkedin.com/in/brian-gill-1353b21/)
 
-A seed application source: [Votecube](https://github.com/votecube), partial prototype:
-[votecube.com](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t)
-with a complex relational schema and a forward thinking opinion gathering
-engine & UI.
+A seed application source: Full implementation of the seed project
+[Votecube](https://github.com/votecube).  AIRport documentation.
 
 ## Development Roadmap
 
@@ -334,14 +332,14 @@ We will be seeking additional funding for the next year of operation to:
 
 ## Relevant Experience
 
-Artem Shamsutdinov - inventor of the technology and implementor of the
-core framework
-
 Dr. Nikolay Dobrinov - extensive experience in statistical model research and implementation
 
 Dr. Andrei Belitski - extensive experience in AI, neural networks research and impelentation
 
 Brian Gill - overwhelming experience in application development
+
+Artem Shamsutdinov - inventor of the technology and implementor of the
+core framework
 
 ## Team code repositories
 
@@ -364,16 +362,15 @@ The process of installing AIRport is:
 
 ![AIRport as Cordova application](presentations/images/AIRport-in-Cordova.png)
 
-What AIRport needs is a means of sharing data and blockchains fit that role
+AIRport needs the means of sharing data and blockchains fit that role
 well.  Especially if they support Directed Asyclical Graphs because each
 commit into a Repository transaction log is a block on a chain, with different
 sub-chains being resolved as "the longest chain" to build a complete picture
 of people modifying Repository data at different times and locations,
 potentially without online connectivity.
 
-The other thing blockchains add is the already figured out incentive system
-and thought out economics of the data storage.  AIRport can simply build
-on top of already researched and implemented work and now "reinvent the wheel".
+Blockchains add the incentive system and thought out economics of the data storage.  AIRport can 
+simply build on top of already researched and implemented work and not "reinvent the wheel".
 
 
 2. The time for Votecube decentralized decision-making system is at hand:
@@ -384,7 +381,7 @@ with automated processing of a much larger number of articles and
 statistical analysis on the aggregate information.  A new 3-Dimensional UI 
 in the Votecube project will display 3 dimensional positional graph for each
 article and for all articles in on the topic.  Dimensions could be many, but
-we'll be showing the most relevant once for the topic (as determined by AI
+we'll be showing the ones most relevant for the topic (as determined by AI
 algorithms and per article automated statistical analysis).  For example for
 political articles the dimensions could be:
 
@@ -397,14 +394,10 @@ on these axes, and a graph will be presented for this article.  An additional
 aggregate 3-D graph across all evaluated articles on the issue will present
 the overall picture of the public opinion.
 
-The new UI will be largely based on the existing technology for the cube,
-with different look and feel.  It will also allow users to add their
-input on the article in terms of providing their own positioning of the
-article on the evaluated axis and allow adding comments on a forum
-(partially designed and implemented).
+The new UI will allow users to add their input on the article in terms of 
+providing their own position of the article's position on the selected axis
+and allow adding comments on a forum.
 
-Then based on the information from each article the current cube will 
-be constructed with the default positioning of the automatic rating.
-This aggregate cube will be based on the dimensions with the "strongest"
-ratings.  It is the visualization that makes user voting on the topic
-easy (based on highly distilled information).
+Then based on distilled information from each article the "contrast cube" will 
+be constructed. This aggregate cube will be based on the dimensions with 
+the "strongest" ratings and will allow easy user voting on the topic.
