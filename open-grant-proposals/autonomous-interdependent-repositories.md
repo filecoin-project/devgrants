@@ -82,8 +82,11 @@ AIRport offers best-of-breed, high productivity developer APIS:
   
 * Simplified JPA annotations (no session concept, easier relations)
 * GraphQL like query API
-* GraphQL/Firebase like hybrid solution for mutation & access rules.  
+* GraphQL/Firebase like hybrid solution for mutation & access rules
 * Automatic schema generation and installation
+
+AIRport is fully functional off-line, commits are made locally and are added
+to the "longest chain" once device is back on-line.
 
 - The risks:
 
