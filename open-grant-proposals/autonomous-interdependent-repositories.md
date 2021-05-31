@@ -275,7 +275,7 @@ A seed application source: Full implementation of the seed project
       
         1 year
 
-- Brian Gill
+- Off-shore Block-chain development team
     * Functionality:
 
       High impact seed application
