@@ -60,8 +60,7 @@ This:
 * Lowers the barrier to entry by providing exiting data to new Apps.
 * Allows hybrid applications where part of the data is centralized (for 
   large scale sharing) and part is in private Repositories.
-
-
+  
 
     For example in an event tracking App data for each event is a separate Repository.
     Other Applications can build upon this App's schema and provide functionality
@@ -119,8 +118,8 @@ Z-axis: Traditional - Progressive
 The key risk is in figuring out how to monetize on the platform.
   Our current thinking is building a distributed advertisement engine that
   will solve the problem of big organizations retaining user data to provide
-  relevant ads.  This should be doable with a combination of personsalized tensor
-  based model and a anonomized data collection for a group of centralized models.
+  relevant ads.  This should be doable with a combination of personalized tensor
+  based model, and an anonymized data collection for a group of centralized models.
   The monetization is the difficult part of the project, we have the experience
   to get it done [Nik Dobrinov](https://www.linkedin.com/in/nikolaydobrinov/) on
   central modeling and [Andrei Belitski](https://www.linkedin.com/in/dr-andrei-belitski-178b3a75/)
@@ -261,19 +260,45 @@ A seed application source: Full implementation of the seed project
 
         1. Technology ramp up - 1 month
         
-        2. Finish Votecube seed project (thus demonstrating usage of framework with a complex schema) - 4 month
+        2. Finish Votecube seed project (thus demonstrating usage of framework with a complex schema) - 5 month
         
-        3. Integrate Votecube seed project with core framework and centralized segment (assist in API finalization and core testing and distirbuted/central hybrid solution) - 1 month  
+        3. Integrate Votecube seed project with core framework and centralized segment (assist in API finalization 
+           and core testing and distirbuted/central hybrid solution) - 1 month  
         
         4. Integrate final solution with IPFS DAG and central component - 1 month
         
-        5. Document core framework - 4 month  
+        5. Document core framework - 3 month  
         
         6. Integration test the app on the complete solution (with local and central Adds) - 1 month
 
         Total time:
       
         1 year
+
+- Brian Gill
+    * Functionality:
+
+      High impact seed application
+
+    * People:
+
+      Off-shore dev team
+
+    * Required organizational finding (contract fees/org expenses/taxes/cryto converson tax/fees):
+
+      $60000
+
+    * Timeline (starting 5 month into the project)
+
+        1. Project ramp up and prototyping - 1 month
+    
+        2. Bare-bones implementation & integration - 2 month
+    
+        3. Full featured implementation & integration - 4 month
+
+      Total time:
+
+      7 month
 
 - Totals
     * Project start date August 1st 2021
@@ -282,14 +307,15 @@ A seed application source: Full implementation of the seed project
 ## Total Budget Requested
 
     * Salary + Benefits
-        Artem Shamsutdinov:   $130000
-        Nikolay Dobrinov:     $140000
-        Andrei Belitski:      $150000
-        Brian Gill:           $130000
-    * Hardware rental (AWS):   $10000
-    * Operational Overhead:    $80000
+        Artem Shamsutdinov:               $130000
+        Nikolay Dobrinov:                 $140000
+        Andrei Belitski:                  $150000
+        Brian Gill:                       $130000
+        Off-shore Block Chain Dev Team     $60000
+    * Hardware rental (AWS):               $10000
+    * Operational Overhead:                $90000
 
-    * Total cost:             $640000
+    * Total cost:                         $710000
 
 
 ## Maintenance and Upgrade Plans
@@ -332,9 +358,11 @@ We will be seeking additional funding for the next year of operation to:
 
 ## Relevant Experience
 
-Dr. Nikolay Dobrinov - extensive experience in statistical model research and implementation
+Dr. Nikolay Dobrinov - extensive experience in statistical model research 
+and implementation
 
-Dr. Andrei Belitski - extensive experience in AI, neural networks research and impelentation
+Dr. Andrei Belitski - extensive experience in AI, neural networks research 
+and implementation
 
 Brian Gill - overwhelming experience in application development
 
@@ -349,29 +377,68 @@ https://github.com/votecube
 
 # Additional Information
 
-1. AIR technology and AIRport framework are absolutely necessary to accelerate
-development of distributed applications in general.
+1. AIRport framework greatly aids development acceleration of distributed
+   applications.
 
 The process of installing AIRport is:
 
-*  User navigates to a consumer Application that uses AIRport and creates a private Repository
-*  Application prompts the user to install AIRport database App (if it's not installed already)
-*  User installs AIRport App and navigates back to the application
-*  The consumer application creates the private Repository and prompts the user for who to share it with
-*  User shares the repository and the other users of that repository are notified
+*  User navigates to a consumer Application that uses AIRport and creates
+   a Repository
+*  Application prompts the user to install AIRport database App (if not
+   installed already)
+*  User installs AIRport App
+*  The consumer application creates the private Repository and prompts 
+   to add other participating users
+*  Creating user shares the Repository, and the App notifies new users
 
 ![AIRport as Cordova application](presentations/images/AIRport-in-Cordova.png)
 
-AIRport needs the means of sharing data and blockchains fit that role
-well.  Especially if they support Directed Asyclical Graphs because each
-commit into a Repository transaction log is a block on a chain, with different
-sub-chains being resolved as "the longest chain" to build a complete picture
-of people modifying Repository data at different times and locations,
-potentially without online connectivity.
+AIRport Repositories have blockchain based transaction log storage to enable
+communication between devices. AIRport is fully functional off-line, commits
+are made locally and are added to the "longest chain" once device is back on-line.
+Each Repository transaction log is a separate chain and itself can consist of
+sub-chains if devices go out of sync. Thus, the Repository transaction log is a
+Directed Acyclic Graph with each commit being a separate block and all
+sub-chains are resolved to the "longest chain" via timestamp based conflict
+resolution mechanism.
 
-Blockchains add the incentive system and thought out economics of the data storage.  AIRport can 
-simply build on top of already researched and implemented work and not "reinvent the wheel".
+    For examle if Alice modifies record 1 while being offline and Charlie
+    modifies the same record also offline but at a later time then both
+    with be notified of the conflict and automatic conflict resolution
+    will pick the latest column values while allowing for manual confict
+    resolution.
 
+Based on my current limited understanding of blockchains:
+
+A Repository chain can be integrated with IPFS since it supports DAG
+datastructure and is storage centric.  Integrations with other chains 
+are possible: A Repository chain can be tied to the chains of the
+individual chains of creators/participators in the Repository.  In
+turn, those can be integrated into any 3.0 blockchain.
+
+Core to AIRport is the idea is for multiple applications to collaborate 
+and re-use data.  The two key points here are:
+
+* User is in control of their data they allow applications to access 
+  their data (usually only a part of their data).
+* Applications are in control of sharing schemas with other applications 
+- they can allow or deny access to their schemas.
+
+This the applications only interact with the device-local database, making AIRport
+fully operational in offline-mode.  The database is in charge of maintaining the
+repositories contained in it.  It may occasionally prompt the user to purge
+infrequently used repositories (or may do so automatically if not configured),
+leaving them only in the cloud backup.  The applications however may request the
+user to load additional repositories from the cloud, for processing.
+
+AIRport aims to provide zero code deployments where a thin shim is provided
+for the framework and TypeScript interfaces are used to define the
+query+mutation API against the schemas used by the application.  The rest
+is defined in the schema configuration file, which is loaded into the
+device's AIRport database directly.  The config file is generated from
+the annotated Entities and the DAO code, which itself relies on
+auto-generated TIQL (Typescript Instrumented Query Language ) objects
+and interfaces as well as core framework code and generated Base DAO objects.
 
 2. The time for Votecube decentralized decision-making system is at hand:
 
