@@ -80,7 +80,7 @@ repositories.  Repositories can have references to each other thus depending
 on data that other repository contains, but must be usable without referenced
 repositories (thus being both interdependent and autonomous).
 
-AIRport Repositories have block-chain based transaction log storage to enable
+AIRport Repositories have blockchain based transaction log storage to enable
 communication between devices.
 
 AIRport offers refined, high productivity developer APIS:
