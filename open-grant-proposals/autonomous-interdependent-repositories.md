@@ -147,7 +147,9 @@ A local tensor based (or newer tech if available) advertisement engine.
 - [Brian Gill](https://www.linkedin.com/in/brian-gill-1353b21/)
 
 A seed application source: Full implementation of the seed project
-[Votecube](https://github.com/votecube).  AIRport documentation.
+[Votecube](https://github.com/votecube) 
+([Prototype](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t))).
+AIRport documentation.
 
 ## Development Roadmap
 
