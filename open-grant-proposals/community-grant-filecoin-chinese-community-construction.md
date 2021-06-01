@@ -4,24 +4,25 @@
 
 **Proposal Category:** `community`
 
-**Proposer:** [@CoinSummer](https://github.com/CoinSummer/filecoin)
+**Proposer:** [@CoinSummer](https://github.com/CoinSummer)
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** `Yes`
 
 # Project Description
 Filecoin did not have a Chinese technology community from the DevNet, there are communication barriers for non-native English speakers. And Chinese miners and developers are more accustomed to WeChat communication.
 
-We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 1.4k users. There are tens of thousands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
+We built Filecoin Chinese community for all the Chinese miners and developers. We created and maintaining Filecoin Chinese technology WeChat group with more than 2.6k users. There are tens of thousands of messages every day including hardware configuration, mining tutorial, troubleshooting, development sharing, bug trace and so on. We believe that these are the most active and useful technical community for Filecoin ecosystem.
 
-We found that there are many duplicate questions after we created WeChat group, we also built an all in one [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) for Chinese community. Including common resource links, commonly node operations, common Storage Miner operations, Seal Worker operations, environment variables, debugging, frequently asked questions, etc.
+We found that there are many duplicate questions after we created WeChat group, we also built an all in one [Filecoin Awesome resources Repo](https://github.com/filecoin-project/community-china) for Chinese community. Including common resource links, commonly node operations, common Storage Miner operations, Seal Worker operations, environment variables, debugging, frequently asked questions, etc.
 
 ## Value
 We built a convenient and fast communication channel for Chinese miners and developers, help them to learn mining knowledge and skills in the fastest way. Further more, we believe that all these will make the Filecoin project and its representative web3.0 concept better spread in the Chinese community.
 
 ## Deliverables
-- [Filecoin Awesome resources Repo](https://github.com/CoinSummer/filecoin) with 155 stars and 77 forks. 
-  [![GitHub Repo stars](https://img.shields.io/github/stars/CoinSummer/filecoin?style=social)](https://github.com/CoinSummer/filecoin)  [![GitHub Repo forks](https://img.shields.io/github/forks/CoinSummer/filecoin?style=social)](https://github.com/CoinSummer/filecoin)  [![GitHub Repo watchers](https://img.shields.io/github/watchers/CoinSummer/filecoin?style=social)](https://github.com/CoinSummer/filecoin)
-- 3 WeChat groups with more than 1.4k miners and developers.
+- [Filecoin Awesome resources Repo](https://github.com/filecoin-project/community-china) with 171 stars and 32 forks. 
+  [![GitHub Repo stars](https://img.shields.io/github/stars/CoinSummer/filecoin?style=social)](https://github.com/filecoin-project/community-china)  [![GitHub Repo forks](https://img.shields.io/github/forks/CoinSummer/filecoin?style=social)](https://github.com/filecoin-project/community-china)  [![GitHub Repo watchers](https://img.shields.io/github/watchers/CoinSummer/filecoin?style=social)](https://github.com/filecoin-project/community-china)
+- [Filecoin Community China Discussions](https://github.com/filecoin-project/community-china/discussions) with 50 topics and more than 300 comments and reply.
+- 6 WeChat groups with more than 2.6k miners and developers.
   ![Distributed Miner](../img/wechat-group.jpg)
 
 ## Total Budget Requested
