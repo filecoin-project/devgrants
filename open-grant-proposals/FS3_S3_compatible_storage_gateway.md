@@ -75,6 +75,9 @@ $> mc config host add fs3 http://127.0.0.1:9000 minio miniostorage
 $> mc mb fs3/testbucket
 # copy a local file called file.txt inside of testbucket
 $> mc cp file.txt fs3/testbucket
+$> mc car generate --car-dir=/tmp/guohao-car --slice-size=1073741824 --parallel=2 --parent-path=/tmp/test-mc /tmp/test-mc
+# sync/copy local file to minio remote
+$> mc mirror/cp 
 # send file.txt as a deal to filecoin miner id f019104
 $> mc send fs3/testbucket/file.txt f019104
 # get the cid of the object in the bucket on filecoin
