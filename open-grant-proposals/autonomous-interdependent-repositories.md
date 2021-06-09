@@ -280,11 +280,11 @@ AIRport documentation.
 - Off-shore Block-chain development team
     * Functionality:
 
-      High impact seed application
+      Integration with Filecoin infrastructure.
 
     * People:
 
-      Off-shore dev team
+      Off-shore dev team - will pick a veteran blockchain team that has relevant experience.
 
     * Required organizational finding (contract fees/org expenses/taxes/cryto converson tax/fees):
 
