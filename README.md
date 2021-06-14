@@ -12,7 +12,7 @@ Additional [Wave 8 RFPs](https://github.com/filecoin-project/devgrants/blob/mast
 
 > Hello and welcome to the home page of the Filecoin Dev Grants program! If you haven't already checked it out, you can read more about the motivations behind the program on [the Filecoin Foundation website](https://fil.org/grants/). 
 
-> **Note:** As of wave 5, the Dev Grants program is administrated by the newly formed [Filecoin Foundation](https://fil.org/), with ongoing assistance from Protocol Labs.
+> **Note:** The Dev Grants program is administrated by the [Filecoin Foundation](https://fil.org/).
 
 > You can see updates about major project milestones on [the Filecoin blog](https://filecoin.io/blog).
 
