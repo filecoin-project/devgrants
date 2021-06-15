@@ -410,8 +410,6 @@ resolution mechanism.
     will pick the latest column values while allowing for manual confict
     resolution.
 
-![AIR Transaction Log](presentations/images/AIRPort_Transaction_Log.png)
-
 Based on my current limited understanding of blockchains:
 
 A Repository chain can be integrated with IPFS since it supports DAG
