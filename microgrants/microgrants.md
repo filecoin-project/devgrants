@@ -4,8 +4,6 @@
 
 Filecoin Next Step Microgrants are available to support taking the _Next Step_ after building an initial prototype with Filecoin. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns. Next Step Microgrants seek to match the pace, breadth, and experimental nature of this work.
 
-From time-to-time, we may announce a [focus area](FOCUS.md) for priority consideration. However, all submissions will always be reviewed.
-
 ### Intended Audience
 These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
 
