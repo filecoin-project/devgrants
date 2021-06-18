@@ -49,10 +49,12 @@ We’re looking to fund talented and eager teams that want to work with us to bu
 
 ### Types of grants
 
-We currently offer 2 types of grants:
+We currently offer 3 types of grants:
 1. **Requests for Proposals (RFPs)**: RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped *deliverables, milestones, and funding limits*. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. See [RFP submission details](#submit-a-proposal-for-an-rfp) for more information on how to apply for RFPs. Relevant proposals will be labeled [`proposal-type:rfp`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Arfp).
 2. **Open grants**: If you have an idea for something that isn't covered by an open RFP, you can submit a proposal to our open grants category! This is where you get to be really creative; we can't wait to see what you propose! We will review these proposals on the same cadence as RFP proposals (i.e. once every quarter, read more about timing in [Timing and Deadlines](#timing-and-deadlines)). See [open grant submission details](#submit-a-proposal-for-open-grants) for more information on how to submit a proposal. Relevant proposals will be labeled [`proposal-type:open`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen).
-
+3. **Next step grants (Microgrants)**: Grants of $5,000 in FIL are available to support taking the next step after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.
+Acceptance criteria are very simple, and work is expected to be complete within 2 months. See [next step grant details](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) for more information on how to submit a proposal.
+                                                                                                                    
 ### Categories
 
 All of our RFPs and open grants fund work in a few core categories. Over time, these categories may change/expand, so please keep a watch on this space!
