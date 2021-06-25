@@ -36,7 +36,7 @@ In this proposal, we ask for funding to:
 
 The optimized Nitro virtual protocol will offer the following benefits, which we believe are important for a large scale retrieval market:
 
-- The number of blocking network messages required to set up a virtual payment channel is reduced to a theoretical minimum, without introducing trust assumptions. Our optimal construction achieves our minimum of 2 sequential messages: one payer-to-intermediary message followed by two concurrent intermediary-to-payer and intermediary-to-receiver messages.
+- The number of blocking network messages required to set up a virtual payment channel is reduced to a theoretical minimum, without introducing trust assumptions. Our optimal construction achieves our conjectured minimum of 2 sequential messages: one payer-to-intermediary message followed by two concurrent intermediary-to-payer and intermediary-to-receiver messages.
 - We minimize the load placed on the intermediary.
 - We minimize the on-chain costs for recovering funds during a dispute to ensure disputes are economically feasible.
 - We continue to support generalized state channels which can be programmed to support conditional payments or other arbitrary logic, enabling the community to innovate novel cryptoeconomic incentives for retrieval markets. The intermediary is application-agnostic and can support any application channel with no modification.
