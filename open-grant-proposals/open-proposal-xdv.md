@@ -2,7 +2,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Open Grant Proposal: `XDV`
 
-**Name of Project:** `XDV node`
+**Name of Project:** `XDV protocol and node`
 
 **Proposal Category:** `app-dev`
 
@@ -73,7 +73,14 @@ finding knowledgable IPLD engineers
 
 ## Deliverables
 
-Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.
+- Document Anchoring
+- Files with IPLD API
+- Support for XDV, IPFS, Swarm Storage
+- RSA Transaction validation / signing
+- "Smart Data Contracts": Code IPLD Schemas, merkle proof verifiable, which can be NFT tokenized, or any linked data format
+- Data Subscriptions: Subscribe IPLD Queries to oracles to execute jobs or actions
+- Supports DID and Verified Credentials
+
 
 ## Development Roadmap
 
@@ -85,42 +92,133 @@ For each milestone, please describe:
 - The amount of funding required for each milestone
 - How much time this milestone will take to achieve (using real dates)
 
+
+## Primitives
+
+### M1
+### File
+
+- XDV storage (IPLD+Cosmos PoC) - 100%
+- IPFS - 0%
+- Swarm Bee - 0%
+- XDV Node Provider (CosmJS Client integration with XDV Universal Wallet) - 0%
+
+Estimation: 5 weeks - 1 Aug - Sept
+
+Team: Rogelio Morrell, Fernando Romero
+
+### Document Anchoring / NFT
+
+> Note: Document model already done.
+
+- Simple Document Anchoring to File model, should support the three providers - 0%
+- NFT Tokenization with MetadataURI linked to File - 0%
+
+Estimation: 3 - 4 weeks   - Sept 30
+
+Team: Rogelio Morrell, Fernando Romero
+
+### Offchain Data Sources (Oracles)
+
+- Implement Cosmos Oracle module
+- Implement IPLD Schema integration with Oracle Module
+- Integration Tests with Document, NFT an File APIs
+- Research how to Proof / Validate offchain data feeds (in case Cosmos Oracle module doesn't have it)
+
+Estimation: 8 weeks
+
+Team: Edgar Sucre, Fernando Romero - Oct 15
+
+### Smart Data Contracts
+
+- Add integration between core primitives and CosmWasm smart contracts
+- Implement Test Use Cases: `NFT Metadata Query  Trigger`, `Electronic Invoicing Trigger`, `Legal Agreement Insurance Claim Trigger`
+- Implement Sample Smart Data Contracts using `Rust`, `Go`, `AssemblyScript`
+
+Estimation: 8 weeks
+
+Team: Rogelio Morrell, Edgar Sucre, Fernando Romero - Dec 15
+
+### Security
+
+- RBAC
+- ACL
+- RSA Signatures
+- Tests
+
+Estimation: 4 weeks                            - Dec 30
+
+Team: Rogelio Morrell
+
+#### Roles
+
+Rogelio Morrell: Lead Architect and Developer
+Edgar Sucre: Architect and Developer
+Fernando Romero: Architect and Developer
+
+Total = around 4 months 
+
+
 ## Total Budget Requested
 
-Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds.
+RM=7k / month
+ES=7k / month
+FR=7k / month
+
+4 months at 7,000 per three architect/developers  (seasoned engineers) = $84,000 
+
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+Yes, we will practically based our business around this open source blockchain and it will be maintain for the foreseeable future.
 
 # Team
 
 ## Team Members
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
-- ...
+### IFESA / IDAO / Fernando Romero 
+
+- Rogelio Morrell
+- Edgar Sucre
+- Fernando Romero
+
+### IFESA Support Team
+
+- Luis Sanchez
+- Kendall Kant
 
 ## Team Member LinkedIn Profiles
 
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
-- ...
+- [Rogelio Morrell](https://www.linkedin.com/in/rogelio-morrell-575aa51/)
+- [Edgar Sucre](https://www.linkedin.com/in/edgar-sucre-96308736/)
+- [Fernando Romero](https://www.linkedin.com/in/fernando-romero-miranda/)
+
+### IFESA Support Team
+
+- [Luis Sanchez](https://www.linkedin.com/in/lurisante/)
+- [Kendall Kant](https://www.linkedin.com/in/kendallkant/)
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+- https://ifesa.tech
+- https://docs.xdv.digital
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+**Rogelio Morrell**, PAID Network Lead Architect, KLIP NFT Lead Architect, XDV Inventor, created XDV Universal Wallet, XDV Workflow Contracts and `did-jwt-rsa`.
+
+**Edgar Sucre**, Crypto Exchange Alliance, renamed to Fluid Finance, Lead Architect.
+
+**Fernando Romero**, World Class Scala Architect Expert, working with Scala for the last 6 years in Europe.
 
 ## Team code repositories
 
-Please provide links to your team's prior code repos for similar or related projects.
+### IFESA Repos
+https://github.com/Electronic-Signatures-Industries/
+
+### XDV Node
+https://github.com/Electronic-Signatures-Industries/xdv-node
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
+None
