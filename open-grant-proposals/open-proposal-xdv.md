@@ -200,6 +200,7 @@ Yes, we will practically based our business around this open source blockchain a
 
 ## Team Website
 
+- https://industriasdao.com
 - https://ifesa.tech
 - https://docs.xdv.digital
 
