@@ -47,7 +47,7 @@ Thus, the current XDV Protocol Specification:
 - **Files**: Decentralized content storages
 - **Documents**: Document anchoring
 - **NFT**: NFT (Tokenized Metadata or Non Fungible Token)
-- **OffchainDataSources**: An ODBC inspired oracle based connection
+- **OffchainDataSources**: An ODBC inspired oracle based connection with BLS [Trusted Blockchain Oracle Scheme Based on Aggregate Signature](https://www.scirp.org/journal/paperinformation.aspx?paperid=108068)
 
 ### Smart Data Contracts 
 
