@@ -63,6 +63,38 @@ Please describe in more detail why this proposal is valuable for the Filecoin ec
 - What are the benefits to getting this right?
 it could replace oracles gen 1, where every data feed requires extensive development time
 
+### Use Cases
+
+#### Insurance Claims
+
+An `insurance policy` is created with automated legal tech and is connected or integrated with the issuer of the policy.
+Insurance brokers or directly via website, sells policies to end users. They can get the policy by mail or in digital form. The issuer has decided to use public blockchains to be more transparent, and the broker has decide to use the issuer company REST API to start moving the previous centralized.
+
+To listen and execute next flow, the claim will require additionally integration linked to brokers, issuer (insurance), policy holders agents (VC agent) and other offchain data sources. 
+
+- `Claim` is filed thru decentralized automated legal tech (`broker`) and sent to insurance company.
+- `Policy` is verified by back office and updated in centralized solution. `Broker` has one of 5 trusted XDV Node with offchain worker connected to centralized API.
+- After XDV Nodes come to a consensus, an event  triggers  a `smart data contract` and orchestrate trusted data which then is computed and notified to subscribers
+
+#### EDI Orders and Invoicing
+
+A XDV Node network of 7 peers is setup to integrate EDI orders with offchain workers. The grocery consortium each one has different types of data structures, they are looking for:
+
+- Verify EDI orders signed with RSA
+- Convert them to electronic invoice and cloned to XDV Node XDV Storage and configure with RBAC/ACL
+- Push invoice to government tax office with government mandated signature using `smart data contracts`
+
+#### COVID-19 verifiable data warehousing
+
+In this use case, you have a pharmaceutical company, government and patients. To keep the diverse data verifiable and able to be query and used for other, non transactional uses, and because cost savings is very important in these implementations, they decide to use XDV Node and implement XDV protocol as following:
+
+- Pharma company has their vaccine data in Ethereum private blockchain, because is private, decentralized chain, it can be thought as a sidechain. These transactions can be duplicated in XDV Node, and keep the data with selective disclosure or encrypted using XDV or IPFS Storage. 
+- Government keeps  its data in CSV Tabular format. They would like to keep these as usual, with XDV Node, because it uses IPLD Schemas, the government selects the codec format for JSON Table. Any request from the data will be render and store as JSON Table. For this to work, they'll need to add 3 or 5 oracle which will sync with XDV Node. Because each oracle will use BLS to sign for proof, it should be more secure than other providers.
+- Patients get mobile and desktop DApps to keep track of news and events.
+
+Pharma and Government, besides the transactional integration which keeps accountability of vaccine success, can also create `smart data contracts`. A `smart data contract` aggregates, orchestrate and maps linked, verifiable data from the chain transactions and connected. 
+
+
 - What are the risks if you don't get it right?
 none
 
