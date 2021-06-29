@@ -62,16 +62,17 @@ Specify your team's long-term plans to maintain this software and upgrade it ove
 - Shady El Damaty PhD
 - Sarah Hamburg PhD
 - Alexandra McCarroll MSc
-- Kinshuk Kashyap
+- Daniel Byington
 - Achintya Kumar
+- Kinshuk Kashyap
 
 ## Team Member LinkedIn Profiles
 
 - https://www.linkedin.com/in/seldamat/
 - https://www.linkedin.com/in/sarah-hamburg-phd-9510a910a/
 - https://www.linkedin.com/in/alexandra-mccarroll-469108133/
-- https://www.linkedin.com/in/kinshuk-kashyap-32a4747b/
 - https://www.linkedin.com/in/achintya-kumar1/
+- https://www.linkedin.com/in/kinshuk-kashyap-32a4747b/
 
 ## Team Website
 
@@ -83,15 +84,17 @@ Please describe (in words) your team's relevant experience, and why you think yo
 
 We are a highly educated, cross-functional team with 
 
-Shady El Damaty, PhD, was born in Egypt, immigrated to the U.S. for education, and is now founder and product manager for Opscientia's decentralised science stack. He has an extensive quantitative background contributing to methods development and digital infrastructure for neuroscience research.
+Shady El Damaty, PhD, is our founder and product manager. He has an extensive quantitative background contributing to methods development and digital infrastructure for neuroscience research.
 
-Sarah Hamburg, PhD, is a neuroscientist and product strategist from the U.K. with years of experience in human neuroimaging, user experience research, and product development.
+Sarah Hamburg, PhD, is our product strategist. She is a neuroscientist with years of experience in human neuroimaging, user experience research, and product development.
 
-Alexandra McCarroll, MSc, is a software engineer with a rich history in traditional finance. In her past she has worked with both big institutions an FinTech startups as both a full-stack developer and data engineer.
+Alexandra McCarroll, MSc, is our full-stack software engineer with experience as both a software and data engineer. In her past she has worked with both big institutions and FinTech startups.
 
-Achintya Kumar, is Opscientia's Open Web Fellow from India, who is applying his web development skills to build the DeSci Stack.
+Daniel Byington, MSc MBA, is our business development expert and is in charge of our non-technical communications. He has a rich background in market and scientific research for pharmaceutical drug development.
 
-Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow from India, who was awarded a competitive summer fellowship to contribute to the DeSci Stack.
+Achintya Kumar, is Opscientia's Open Web Fellow from India, who is applying his web development skills to build the decentralised science stack. He is our resident DID expert.
+
+Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow from India, who was awarded a competitive summer fellowship. He is our resident IPFS expert with a passion for decentralised neuroscience data.
 
 ## Team code repositories
 
