@@ -80,9 +80,7 @@ https://opscientia.com/
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
-
-We are a highly educated, cross-functional team with 
+We are a highly educated, cross-functional, global team with a clearly shared vision to develop a community-owned neuroscience ecosystem that unlocks data silos, reolutionises collaboration, and democratises funding.
 
 Shady El Damaty, PhD, is our founder and product manager. He has an extensive quantitative background contributing to methods development and digital infrastructure for neuroscience research.
 
