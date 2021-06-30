@@ -38,7 +38,7 @@ Scientific data requires many constraints to be satisfied for operational perfor
 
 ## Deliverables
 
-At the end of these 6 weeks we will have:
+At the end of these 7 weeks we will have:
 - Validated if decentralised storage is a viable option to store large amounts of scientific data
 - Designed the backend of our *open science data wallet*
 - Developed version 1 - *open science data wallet v1*
