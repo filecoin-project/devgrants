@@ -37,16 +37,25 @@ We are partnering with DANDI (Distributed Archives for Neurophysiology Data Inte
 
 This section should be 1-3 paragraphs long. -->
 
+We will carry out a thorough evaluation of IPFS for large volumes of scientific data. This design is grounded in research, ethics and the end user is at the heart of what we are building. If we get this right it will be the first and largest validation of scientific data being hosted on IPFS. This will provide proof that large amounts of sensitive data can be stored in a decentralised manner and will provide the validation needed for institutions such as MIT to start moving away from centralised storage systems.
 
+What are the risks if you don't get it right?
+
+What are the risks that will make executing on this project difficult?
+
+Mobile is especially important to the wider distribution of IPFS and user base growth. IPFS could, with focused study on use cases and behaviours of mobile users for instance with sharing content and media, be an easier jump to using P2P in their daily lives. For instance, a solid and enjoyable IPFS mobile experience might allow perhaps skipping the desktop experience altogether for users coming to the platform.
+
+The question of scope is constant in defining projects and areas of study. While the scope of this may initially be quite wide and shallow, this could be advantageous in setting up the groundwork for additional studies which would further refine thinking and recommendations as the field progresses. The value lies in making forays into the space, researching and designing that which has not been done to date, and creating a way to learn where to refine and redefine how IPFS is brought to more and more users.
 
 ## Deliverables
 
 <!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
 
-At the end of these 6 weeks we will have developeped version 1 
-
-- *open science data wallet v1* built & validated by users
-- Feature requirements and future product design
+At the end of these 6 weeks we will have:
+- Designed the backend of our *open science data wallet*
+- Developed version 1 - *open science data wallet v1*
+- Designed feature requirements for future product development
+- Validated our product with end-users
 
 ## Development Roadmap
 
@@ -89,7 +98,7 @@ User personas, current state user journey map, feature requirements for POC, use
 - Shady - user-researcher focusing on institutions
 - Sarah - user-researcher focusing on scientists
 
-### Milestone 2: Validate and design the backend of our data wallet to be able to host large datasets - 2 weeks (30 August - 10 September)
+### Milestone 2: Research and design the backend of *open science data wallet v1* (working group feasibility research) - 2 weeks (30 August - 10 September)
 
 **Team members:**
 - Shady - product owner
@@ -145,7 +154,7 @@ We are budgeting for 6 weeks of work to research, design, develop *open science 
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$2400** |
 
-#### Milestone 2: Validate and design the backend to be able to host large datasets - 2 weeks (30 August - 10 September)
+#### Milestone 2: Research and design the backend of *open science data wallet v1* (working group feasibility research) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
@@ -224,9 +233,13 @@ Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow, who was awarded a
 <!-- Daniel Byington, MSc MBA, is our business development expert and is in charge of our non-technical communications. He has a rich background in market and scientific research for pharmaceutical drug development. -->
 
 ## Team code repositories
-Opscientia GitHub organisation - https://github.com/opscientia
-
-Our Web3Weekend Hackathon showcase page - https://showcase.ethglobal.co/web3weekend/open-science-opsci-data-wallet
+- Opscientia GitHub organisation - https://github.com/opscientia
+- Shady - https://github.com/seldamat
+- Sarah - https://github.com/shamburgularara
+- Alexandra - https://github.com/XandraMcC
+- Achintya - https://github.com/Ackintya
+- Kinshuk - https://github.com/kinshukk
+- Our Web3Weekend Hackathon showcase page - https://showcase.ethglobal.co/web3weekend/open-science-opsci-data-wallet
 
 The data wallet code - https://github.com/opscientia/web3weekend-hackathon
 
