@@ -12,22 +12,23 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Project Description
 
-We recognized that there is right now no good solution to organize self soverign your NFTs in Galleries and present them anywhere, e.g. at home, at hotels, at offices etc.. 
+We recognized that there is right now no good solution to organize self soverign your NFTs in Galleries and present them to others or yourself anywhere you are, e.g. at home, at hotels, at offices etc.. 
 
-This project aims to bring **identity focussed NFTs to every screens**. In order to reach this goal we adopt **ceramic.network** and **idx.xyz** for Identities and **ipfs** and **filecoin** as communication and data layer for the galleries. Additionally it supports almost every NFT through the **did:NFT method**, which was proposed by Joel some month ago.
+This project aims to bring **identity related NFTs to your screens**. In order to reach this goal we adopt the open social protocol **idx.xyz** as decentralized identity solution which relies on the general open information platform **ceramic.network** which again relies on **ipfs** as Hot Storage.
 
-The user can login/register with **idx.xyz**. If he has no Profile, he can create one. Otherwise he will get redirected to the Manager. The Manager allows to CRUD Galleries and organize NFTs into those Galleries with Drag&Drop. The App and the galleries will be managed on IPFS and the user has the possibility to also store the gallery on filecoin for longterm.
+The User can login with its **idx.xyz** Profile and manage their galleries with NFTs. The Galleries are stored on IPFS as Hotwallet and can be stored on **Filecoin** as Cold Storage through Textile Powergate and a small Microservice.
 
 ## Value 
 
 With our solution we provide a DApp which tackles a NFT Owner in Meatspace and provide a nice solution entirely decentralized.
 **filecoin** could leverage through **idx.xyz** and **ceramic.network**, because they already both: a large user base from 3box and a lot of app integrations, e.g. zerion, gitcoin and co.
 
-Right now we can not identify any risks.
+Right now we can not identify any product oriented risks, except NFTs identifies itself as a totally scam.
 
 ## Deliverables
 
-The final product will be a fully functional web application hosted on IPFS, persisted on Filecoin 
+The final product will be a fully functional web application hosted on IPFS.
+Cold Storage will be provided through a Serverless function and a Textile Powergate.
 
 ## Development Roadmap
 
@@ -37,14 +38,15 @@ Good UX/UI takes time. In order to avoid pitfalls and get realworld customer fee
 
 When the App is started it loads the BaseLayout. 
 
-In case the user is already logged in it shows the Profile in the Header Menu of the BaseLayout and in the Body the OwnedNFTsComponent and the GalleryListComponent. Through Drag and Drop it should be possible to put NFTs in a gallery. Additionally a settings Buttons allows to edit specific settings of the gallery in the GalleryEditComponent. Each Gallery has also a directlink to a presentation mode GalleryShowComponent where the gallery is presented with the NFTs and the settings from the GalleryEditComponent.
+In case the user is already logged in it shows the Profile in the Header Menu of the BaseLayout and in the Body the OwnedNFTsComponent and the GalleryListComponent. Through Drag and Drop it should be possible to put NFTs in a gallery. Additionally a settings Buttons allows to edit specific settings of the gallery in the GalleryEditComponent. Each Gallery has also a directlink to a presentation mode GalleryShowComponent where the gallery is presented with the NFTs and the settings from the GalleryEditComponent, e.g. a specific slide show or specific stop intervals.
 
-In case the user is not logged in the BaseLayout shows a Login Button in the Body.
+In case the user is not logged in, the BaseLayout shows a Login Button in the Body instead of owned NFTs and identity related galleries.
+The functionality for the login button will be implemented in milestone 2
 
-Software:
-   - Setup Git Repository
-   - Building ReactApp based on Bootstrap and all required components
-   - Fetching owned NFTs through OpenSea API
+Stories:
+   - Setup Git Repository with ReactApp and Bootstrap
+   - Implement evaluated design in proposed components
+   - Display owned NFTs of specific ETH Address
 
 People: Frank (Design) + Rene (Dev)
 Timeline: 1 month, July 1st - August 1st
@@ -52,14 +54,16 @@ Funding: USD 10000
 
 ### 2. Ceramic Network Integration
 
-With this milestone we delivers the ability to login into the app (LoginComponent) with Metamask. After the login the app loads the Profile of this user in the ProfileComponent. In case he has no existung Profile ProfileEditComponent shows up, which allows to create and persist a Profile in ceramic on **ipfs**.
+With this milestone we delivers the ability to log into the app through the LoginComponent with executes the login method from the IDX Framework and use Metamask as Signing Provider. After the login the app loads the Basic Profile from IDX. In case the user has no existung Profile, the ProfileEditComponent shows up as Modal allows to create and persist a Profile on IPFS through IDX and ceramic.
 
-We rely on the SDKs of IDX and Ceramic and use the Web3 Provider of Metamask. This allows us to fetch the Ethereum Address of the user, which is required for the OwnedNFTsComponent in order to fetch user owned NFTs.
+We rely on the SDKs of IDX, Ceramic,IPFS and the Metamask Web3 Provider in order to archieve our Web3 DID Login. This allows us to fetch the Ethereum Address of the user. Thereby we can load the user owned NFTs from the OpenSea API.
 
-Software:
-   - IDX/ Ceramic Login Functionality with Metamask
-   - Extended NFT Gallery Schema, based on Ceramic Gallery Schema
-   - Storage of Galleries in Ceramic Network with Extended NFT Gallery Schema
+If a gallery is created or edited the gallery will be stored on IPFS through IDX and Ceramic. 
+
+Stories:
+   - Provide IDXLogin Functionality with Metamask, Ceramic and IPFS
+   - Provide Extended NFT Gallery Schema for Ceramic Network
+   - Store Galleries after creation or edit in IPFS 
 
 Dev Team (Pair): Frank + Rene
 Timeline: 2 weeks, August 2nd - August 14th
@@ -67,26 +71,29 @@ Funding:  USD 5000
 
 ### 3. Filecoin Integration 
 
-In order to provide long term storage for galleries we need to provide a feature which allow the user to persist entire galleries on Filecoin. 
+In order to provide long term storage or cold storage for galleries we need to provide a feature which allows the user to persist entire galleries on Filecoin. Right now almost every web3 user has a Metamask wallet, but not every user has FIL Wallet in the browser. Therefore we provide a Textile Powergate which creates for every NFT User an Account and provide some FIL to persist Galleries long term.
 
-Right now we just need an easy working solution. Therefore we setup an Powergate and provide a service where new Users of the NFT Galleries get an account with some Fil in order to  Store their galleries.
+Later on we want a more decentralized version of that where ideally the user comes with own FIL Provider.
 
-Software:
+The feature is for the user optional and is easy to trigger through a checkbox or a button.
+
+Stories:
    - Setup Powergate
-   - Small Microservice to create and fund Powergate Users with some FIL
-   - Implement Filecoin Storage for NFT Galleries
+   - Provide Serverless function to create and fund NFT Gallery Users with FIL
+   - Implement Cold Storage Feature for NFT Galleries in React App
 
-Dev Team (Pair): Frank + Rene
+Dev Team (Pair): Frank (Powergate, Frontend) + Rene (Backend)
 Timeline: 2 weeks, August 14th - August 31th
-Funding:  USD 5000
+Funding:  USD 10000
 
 ## Total Budget Requested
 
-We request USD 20000.
+We request USD 25000.
 
 ## Maintenance and Upgrade Plans
 
-After we launch, we will make a lot of changes based on users feedback, Ceramic network as well as Filecoin network upgrades. There will never be a final version, we will be do continuously updates to this product.
+After we launch, we will go on and build a product. Because of protocol changes we will probably never have a final version.
+Therefore at some time we'll plan an exit to community.
 
 # Team
 
@@ -124,3 +131,11 @@ Frank has also some relationships to the Ceramic Network Team and does Filecoin 
 # Additional Information
 
 Made with <3
+
+# Some References
+- https://idx.xyz/
+- https://ceramic.network
+- https://docs.textile.io/powergate/
+- https://www.w3.org/TR/did-core/ 
+- https://github.com/ceramicnetwork/nft-did-resolver 
+- https://docs.opensea.io/reference#getting-assets 
