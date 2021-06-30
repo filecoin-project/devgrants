@@ -144,7 +144,7 @@ Validation of whether each feature (and documentation) meets user's needs, ident
 
 **Total: USD$ 19,600**
 
-We are budgeting for 6 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
+We are budgeting for 7 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
 
 #### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
