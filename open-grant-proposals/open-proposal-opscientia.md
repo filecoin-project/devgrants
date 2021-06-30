@@ -75,14 +75,13 @@ For each milestone, please describe:
 5. How will it integrate and perform with *Neuroglancer* (WebGL-based visualisation tool)?
 6. How does data pinning work?
 
-
 ### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 
 **Aim:**
-User research with target audience (Distributed Archives for Neurophysiology Data Integration (DANDI) lab researchers) to understand data needs.
+User research with target audience (Distributed Archives for Neurophysiology Data Integration (DANDI) affiliated lab researchers) to understand data needs.
 
 **Method:**
-In dept 1:1 interviews with DANDI members (n=5)
+In dept 1:1 interviews with DANDI affiliated members (n=5)
 
 **User research protocol:**
 - Obtain info about researcher (e.g. career level, experience with Web3 tools, etc) - these will be used to build user personas
@@ -122,10 +121,10 @@ User personas, current state user journey map, feature requirements for POC, use
 ### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (27 September - 15 October)
 
 **Aim:** 
-User research with target audience (DANDI lab researchers) to gather feedback on POC.
+User research with target audience (DANDI affiliated lab researchers) to gather feedback on POC.
 
 **Method:** 
-1:1 user testing with DANDI members (n=5; recruit same group as before where possible)
+1:1 user testing with DANDI affiliated members (n=5; recruit same group as before where possible)
 
 **User-research protocol:**
 - Show solution to user and provide brief instructions
@@ -143,7 +142,7 @@ Validation of whether each feature (and documentation) meets user's needs, ident
 
 ## Total Budget Requested
 
-**Total: USD$ 17,600**
+**Total: USD$ 19,600**
 
 We are budgeting for 6 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
 
@@ -163,14 +162,14 @@ We are budgeting for 6 weeks of work to research, design, develop *open science 
 | Kinshuk | USD$15 | 80 | USD$1200 |
 | | | | **USD$4800** |
 
-#### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 24 September)
+#### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 1 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 80 | USD$1600 |
-| Alexandra | USD$20 | 80 | USD$1600 |
-| Achintya | USD$15 | 80 | USD$1200 |
-| Kinshuk | USD$15 | 80 | USD$1200 |
-|   |   |   | **USD$5600** |
+| Alexandra | USD$20 | 120 | USD$2400 |
+| Achintya | USD$15 | 120 | USD$1800 |
+| Kinshuk | USD$15 | 120 | USD$1800 |
+|   |   |   | **USD$7600** |
 
 #### Milestone 4: User-requirement design - 2 weeks (13 September - 24 September)
 |Team members required: | rate (per hour) | time (hours) | total |
@@ -178,7 +177,7 @@ We are budgeting for 6 weeks of work to research, design, develop *open science 
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$1600** |
 
-#### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (27 September - 15 October)
+#### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (4 October - 22 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
