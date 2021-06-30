@@ -1,8 +1,8 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
 
-# Open Grant Proposal: `Project Title`
+# Open Grant Proposal: `Decentralized deep learning for medical data`
 
-**Name of Project:**
+**Trustable deep learning**
 
 **Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
 
