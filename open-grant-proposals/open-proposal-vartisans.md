@@ -6,7 +6,7 @@
 
 **Proposer:** Shuo Pang
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?: Yes
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?: `Yes`
 
 # Project Description
 
@@ -32,14 +32,6 @@ As far as I am seeing right now, there's no technical challenages, maybe have so
 A VR applicaitoin which able run at Oculus Quset 1 and 2, will allow artists painting/sculpting/drawing in VR space with many brushes, colors, patterns, and store articles to a file which will be encryped by filecoin.
 
 ## Development Roadmap
-
-Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
-
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the specification you outlined in the Deliverables.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
 
 | Milestone No. | Milestone Description | How Many People Invovled | Funding Needs | Estimated Timeframe |
 | --- | --- | --- | --- | --- |
