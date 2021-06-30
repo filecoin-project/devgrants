@@ -11,9 +11,6 @@
 
 # Project Description
 
-<!-- - Start with the need or problem you are trying to solve with this project.
-- Describe why your solution is going to adequately solve this problem. -->
-
 Neuroimaging data is being generated more quickly than institutional infrastructure can keep up with in regards to storage and tools to sift through the deluge of scientific information. Decentralised file storage protocols offer solutions to these problems via content addressable data, programmable incentives for data storage, provenance tracking, censorship resistance, and bandwidth/speed that scales with global adoption. 
 
 Our team developed a proof-of-concept of our Open Science Data Wallet at the ETHGlobal Web3Weekend. We were chosen as finalists and also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea and research the backend of how we would handle large terabytes of data on IPFS and how we can integrate that into our data wallet. We also want to carry out in-depth user-research into what our scientific users want and from there develop feature requirements for future product development.
@@ -32,13 +29,6 @@ We are partnering with DANDI (Distributed Archives for Neurophysiology Data Inte
 
 ## Value
 
-<!-- Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
-- What are the benefits to getting this right?
-- What are the risks if you don't get it right?
-- What are the risks that will make executing on this project difficult?
-
-This section should be 1-3 paragraphs long. -->
-
 We will carry out a thorough evaluation of IPFS for large volumes of scientific data. This design is grounded in research, ethics and the end user is at the heart of what we are building. If we get this right it will be the first and largest validation of scientific data being hosted on IPFS. This will provide proof that large amounts of sensitive data can be stored in a decentralised manner and will provide the validation needed for institutions such as MIT to start moving away from centralised storage systems.
 
 What are the risks if you don't get it right?
@@ -47,8 +37,6 @@ What are the risks that will make executing on this project difficult?
 
 
 ## Deliverables
-
-<!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
 
 At the end of these 6 weeks we will have:
 - Designed the backend of our *open science data wallet*
@@ -95,18 +83,31 @@ In dept 1:1 interviews with DANDI affiliated members (n=5)
 User personas, current state user journey map, feature requirements for POC, user FAQs
 
 **Team members:**
-- Shady - user-researcher focusing on institutions
+- Shady (part-time) - user-researcher focusing on institutions
 - Sarah - user-researcher focusing on scientists
 
 ### Milestone 2: Research and design the backend of *open science data wallet v1* (working group feasibility research) - 2 weeks (30 August - 10 September)
 
+**Aims:**
+- Gather benchmarks on data ingress and egress speeds using Textile/Filecoin/IPFS
+- Test feasibility of storing a ~2.5TB brain image, and see if latency is low enough to view the image on Neuroglancer. Compare latency and costs with traditional AWS bucket storage.
+- Research methods for fine-tuning control on storage redundancy - ensure at least n=2 nodes are pinning the data at all times
+- Research methods to handle metadata and raw data relationship considering pros & cons of on-chain & off-chain designs
+
 **Team members:**
-- Shady - product owner
+- Shady (part-time) - product owner
 - Alexandra - technical architect
 - Achintya - technical researcher
 - Kinshuk - technical researcher
 
 ### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 24 September)
+
+**Aims:**
+- Build backend proof-of-concept and integrate with data wallet front-end
+- Have the ability to upload large datasets through wallet interface incl. metadata
+- Configure datasets as public, private with the ability to permission data
+- Integration with DID schemas (Ceramic/IDX)
+- Integration with neuroglancer as a protocol, by building an extension using IPFS as the remote
 
 **Team members:**
 - Shady - product owner
@@ -146,15 +147,17 @@ User research with target audience (DANDI affiliated lab researchers) to gather 
 Validation of whether each feature (and documentation) meets user's needs, identification of areas for further improvement/iteration
 
 **Team members:**
-- Shady - user-researcher focusing on institutions
+- Shady (part-time) - user-researcher focusing on institutions
 - Sarah - user-researcher focusing on scientists
-- Alexandra - technical researcher focusing on technical feedback from institutions & scientists
+- Alexandra (part-time) - technical researcher focusing on technical feedback from institutions & scientists
+
+![img](./timeline_ipfs.png)
 
 ## Total Budget Requested
 
 **Total: USD$ 19,600**
 
-We are budgeting for 7 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
+We are budgeting for 6 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
 
 #### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
@@ -172,7 +175,7 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 | Kinshuk | USD$15 | 80 | USD$1200 |
 | | | | **USD$4800** |
 
-#### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 1 October)
+#### Milestone 3: Build *open science data wallet v1* - 3 weeks (13 September - 1 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 80 | USD$1600 |
@@ -187,7 +190,7 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$1600** |
 
-#### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (4 October - 22 October)
+#### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (27 September - 8 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
@@ -197,12 +200,10 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 
 ## Maintenance and Upgrade Plans
 
-<!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
-
 - Scaling up to larger datasets
 - Continuous user-research / feedback
 - Documentation / tutorials
-- Integration with DID schemas (Ceramic/IDX)
+- Integration with our DeSci Stack
 
 # Team
 
@@ -213,7 +214,6 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 - Alexandra McCarroll MSc
 - Achintya Kumar
 - Kinshuk Kashyap
-<!-- - Daniel Byington MSc MBA -->
 
 ## Team Member LinkedIn Profiles
 
@@ -222,7 +222,6 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 - https://www.linkedin.com/in/alexandra-mccarroll-469108133/
 - https://www.linkedin.com/in/achintya-kumar1/
 - https://www.linkedin.com/in/kinshuk-kashyap-32a4747b/
-<!-- - https://www.linkedin.com/in/daniel-byington-964a35a4/ -->
 
 ## Team Website
 
@@ -242,8 +241,6 @@ Achintya Kumar, is Opscientia's Open Web Fellow, who is applying his web develop
 
 Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow, who was awarded a competitive summer fellowship. He is our resident IPFS expert with a passion for decentralised neuroscience data.
 
-<!-- Daniel Byington, MSc MBA, is our business development expert and is in charge of our non-technical communications. He has a rich background in market and scientific research for pharmaceutical drug development. -->
-
 ## Team code repositories
 - Opscientia GitHub organisation - https://github.com/opscientia
 - Shady - https://github.com/seldamat
@@ -254,7 +251,3 @@ Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow, who was awarded a
 - Our Web3Weekend Hackathon showcase page - https://showcase.ethglobal.co/web3weekend/open-science-opsci-data-wallet
 
 The data wallet code - https://github.com/opscientia/web3weekend-hackathon
-
-# Additional Information
-
-<!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
