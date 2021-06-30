@@ -18,15 +18,15 @@ Our team were ETHGlobal Web3Weekend finalists with our Open Science (Opsci) Data
 
 We are partnering with DANDI (Distributed Archives for Neurophysiology Data Integration) at MIT which is funded by the US government BRAIN initiative (set up by the Obama administration) to test if IPFS can successfully support 2.5 terabytes of brain data. This data is currently non-human and is stored centrally on AWS. However, when human brain data starts being collected by DANDI, and other neuroscience laboratories, there is an inherent ethical risk of storing human data with Big Tech companies. This is where decentralised data storage comes in and we would like to work with IPFS to help verify and build a solution that helps scientists to store their data in an ethical manner.
 
-Milestones for this project:
+#### Milestones for this project:
 1. Build on initial user-research with users (neuroscientists)
 2. Validate and design the backend of our data wallet to be able to host large datasets
-3. Build permission management v1
+3. Build *open science data wallet v1*
 4. User-requirement design
-5. Validate permission management v1 with users (neuroscientists)
+5. Validate *open science data wallet v1* with users (neuroscientists)
 
-Relevant links:
-DANDI - https://www.dandiarchive.org/
+#### Relevant links:
+- DANDI - https://www.dandiarchive.org/
 
 ## Value
 
@@ -37,13 +37,15 @@ DANDI - https://www.dandiarchive.org/
 
 This section should be 1-3 paragraphs long. -->
 
+
+
 ## Deliverables
 
 <!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
 
-At the end of these 6 weeks we will have a much clearer view on the technical design of 
+At the end of these 6 weeks we will have developeped version 1 
 
-- Permission management v1 built & validated by users
+- *open science data wallet v1* built & validated by users
 - Feature requirements and future product design
 
 ## Development Roadmap
@@ -56,36 +58,76 @@ For each milestone, please describe:
 - The amount of funding required for each milestone
 - How much time this milestone will take to achieve (using real dates) -->
 
-#### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
+### Key questions to address through the overall project:
+1. Can researchers upload data to our wallet?
+2. Can researchers access uploaded data?
+3. Can researchers "do science" on uploaded data?
+4. How do latencies compare to centralised storage (i.e. S3 buckets)?
+5. How will it integrate and perform with *Neuroglancer* (WebGL-based visualisation tool)?
+6. How does data pinning work?
 
-Team members:
+
+### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
+
+**Aim:**
+User research with target audience (Distributed Archives for Neurophysiology Data Integration (DANDI) lab researchers) to understand data needs.
+
+**Method:**
+In dept 1:1 interviews with DANDI members (n=5)
+
+**User research protocol:**
+- Obtain info about researcher (e.g. career level, experience with Web3 tools, etc) - these will be used to build user personas
+- Ask user to outline current journey for uploading and accessing DANDI data
+- Enquire about pain points in current process (including sources of friction, points of risk for error, latencies)
+- Ask user to explain needs once data is uploaded (e.g. cleaning/processing (including "pinning"), visualisation, analysis, sharing, and current tools for this)
+- Explain basic data wallet steps and identify initial thoughts, concerns and questions
+
+**Outputs:**
+User personas, current state user journey map, feature requirements for POC, user FAQs
+
+**Team members:**
 - Shady - user-researcher focusing on institutions
 - Sarah - user-researcher focusing on scientists
 
-#### Milestone 2: Validate and design the backend of our data wallet to be able to host large datasets - 2 weeks (30 August - 10 September)
+### Milestone 2: Validate and design the backend of our data wallet to be able to host large datasets - 2 weeks (30 August - 10 September)
 
-Team members:
+**Team members:**
 - Shady - product owner
 - Alexandra - technical architect
 - Achintya - technical researcher
 - Kinshuk - technical researcher
 
-#### Milestone 3: Build permission management v1 - 2 weeks (13 September - 24 September)
+### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 24 September)
 
-Team members:
+**Team members:**
 - Shady - product owner
 - Alexandra - full-stack engineer
 - Achintya - full-stack engineer
 - Kinshuk - full-stack engineer
 
-#### Milestone 4: User-requirement design - 2 weeks (13 September - 24 September)
+### Milestone 4: User-requirement design - 2 weeks (13 September - 24 September)
 
-Team members:
+**Team members:**
 - Sarah - technical designer
 
-#### Milestone 5: Validate permission management v1 with users (neuroscientists) - 2 weeks (27 September - 15 October)
+### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (27 September - 15 October)
 
-Team members:
+**Aim:** 
+User research with target audience (DANDI lab researchers) to gather feedback on POC.
+
+**Method:** 
+1:1 user testing with DANDI members (n=5; recruit same group as before where possible)
+
+**User-research protocol:**
+- Show solution to user and provide brief instructions
+- Provide a series of scenarios plus detailed documentation to the user: 1. upload dataset, 2. process/visualise/analyse uploaded data, 3. download data, 4.share/permission data
+- User completes each scenario while narrating thoughts to interviewer 
+- Ask user for thoughts, concerns and questions on the experiences
+
+**Outputs:**
+Validation of whether each feature (and documentation) meets user's needs, identification of areas for further improvement/iteration
+
+**Team members:**
 - Shady - user-researcher focusing on institutions
 - Sarah - user-researcher focusing on scientists
 - Alexandra - technical researcher focusing on technical feedback from institutions & scientists
@@ -94,7 +136,7 @@ Team members:
 
 **Total: USD$ 17,600**
 
-We are budgeting for 6 weeks of work to research, design, develop permission management v1, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
+We are budgeting for 6 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
 
 #### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
@@ -103,7 +145,7 @@ We are budgeting for 6 weeks of work to research, design, develop permission man
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$2400** |
 
-#### Milestone 2: Validate and design the backend of our data wallet to be able to host large datasets - 2 weeks (30 August - 10 September)
+#### Milestone 2: Validate and design the backend to be able to host large datasets - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
@@ -112,7 +154,7 @@ We are budgeting for 6 weeks of work to research, design, develop permission man
 | Kinshuk | USD$15 | 80 | USD$1200 |
 | | | | **USD$4800** |
 
-#### Milestone 3: Build permission management v1 - 2 weeks (13 September - 24 September)
+#### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 24 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 80 | USD$1600 |
@@ -127,7 +169,7 @@ We are budgeting for 6 weeks of work to research, design, develop permission man
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$1600** |
 
-#### Milestone 5: Validate permission management v1 with users (neuroscientists) - 2 weeks (27 September - 15 October)
+#### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (27 September - 15 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
