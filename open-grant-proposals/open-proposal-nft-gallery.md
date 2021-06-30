@@ -12,16 +12,18 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Project Description
 
-We recognized that there is right now no good solution to organize self soverign your NFTs in Galleries and present them to others or yourself anywhere you are, e.g. at home, at hotels, at offices etc.. 
+We recognized that there is right now no good solution to organize your NFTs in Galleries and display them whereever you want - in a self soverign way.
+Consider checking into a Hotel and your NFTs are already there or display specific NFT on your TV @ Home, at your  Meeting room or somewhere else.
 
-This project aims to bring **identity related NFTs to your screens**. In order to reach this goal we adopt the open social protocol **idx.xyz** as decentralized identity solution which relies on the general open information platform **ceramic.network** which again relies on **ipfs** as Hot Storage.
+This project aims to bring **your NFTs next to you**. In order to reach this goal we adopt the identity protocol for open applications **idx.xyz** which relies on the general open information protocol **ceramic.network** which again relies on **ipfs** as Hot Storage and Communication Layer.
 
-The User can login with its **idx.xyz** Profile and manage their galleries with NFTs. The Galleries are stored on IPFS as Hotwallet and can be stored on **Filecoin** as Cold Storage through Textile Powergate and a small Microservice.
+In our product the user can use its Social Login to enter our App sort its NFTs in Galleries and later display those in any screen with Internet Connection.
 
+Right now  we want to user Textile Powergate as Cold Storage solution. Alternativly Filswan could be an option.
 ## Value 
 
-With our solution we provide a DApp which tackles a NFT Owner in Meatspace and provide a nice solution entirely decentralized.
-**filecoin** could leverage through **idx.xyz** and **ceramic.network**, because they already both: a large user base from 3box and a lot of app integrations, e.g. zerion, gitcoin and co.
+With our solution we show how Web3 Dapps look and feel.
+Additionally it brings the already existing 50.000 Users vom IDX to Filecoin.
 
 Right now we can not identify any product oriented risks, except NFTs identifies itself as a totally scam.
 
@@ -103,7 +105,7 @@ frank.pfeift@protonmail.com
 ## Team Members
 
 - [Frank](https://github.com/froid1911): Tech lead, Filecoin & Ceramic expert
-- [Ree](https://github.com/froid1911): Frontend Developer
+- [René](https://github.com/dev-nes9): Backend Developer & Frontend Developer
 
 ## Team Member LinkedIn Profiles
 
