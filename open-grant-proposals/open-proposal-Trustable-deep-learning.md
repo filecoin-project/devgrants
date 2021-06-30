@@ -4,7 +4,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Trustable deep learning**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**Proposal Category:** Choose one of `app-dev`
 
 **Proposer:** `replace with your GitHub username`
 
