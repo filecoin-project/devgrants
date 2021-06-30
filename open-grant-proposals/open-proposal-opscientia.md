@@ -92,7 +92,7 @@ User personas, current state user journey map, feature requirements for POC, use
 - Achintya - technical researcher
 - Kinshuk - technical researcher
 
-### Milestone 3: Build *open science data wallet v1* - 2 weeks (13 September - 24 September)
+### Milestone 3: Build *open science data wallet v1* - 3 weeks (13 September - 24 September)
 
 **Aims:**
 - Build backend proof-of-concept and integrate with data wallet front-end
