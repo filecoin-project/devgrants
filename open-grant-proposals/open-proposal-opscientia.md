@@ -31,7 +31,7 @@ We are partnering with DANDI (Distributed Archives for Neurophysiology Data Inte
 
 We will carry out a thorough evaluation of IPFS for large volumes of scientific data. This design is grounded in research, ethics and the end user is at the heart of what we are building. If we get this right it will be the first and largest validation of scientific data being hosted on IPFS. This will provide proof that large amounts of sensitive data can be stored in a decentralised manner and will provide the validation needed for institutions such as MIT to start moving away from centralised storage systems.
 
-What are the risks if you don't get it right?
+The risks of not carrying out thorough research and validation and research are great. We want to do this now, before DANDI starts collecting human brain data so that we can be set up and ready to go when the time comes. It is important to note that the DANDI team looked at using IPFS a couple years back but did not have the time and resources at the time to explore it as an option. We believe that this will be highly valuble to them and 
 
 What are the risks that will make executing on this project difficult?
 
@@ -152,52 +152,53 @@ Validation of whether each feature (and documentation) meets user's needs, ident
 - Alexandra (part-time) - technical researcher focusing on technical feedback from institutions & scientists
 
 ### Overall timeline:
-<img src="./timeline_ipfs.png" alt="drawing" width="300"/>
+<img src="./timeline_ipfs.png" alt="drawing" width="350"/>
 
 ## Total Budget Requested
 
-**Total: USD$ 19,600**
+**Total: USD$ 26,800**
 
 We are budgeting for 7 weeks of work to research, design, develop *open science data wallet v1*, and validate with users. This will also enable us to carry out significant user-reseach to  develop a clear roadmap to further build on v1.
 
 #### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
-| Shady | USD$20 | 40 | USD$800 |
-| Sarah | USD$20 | 80 | USD$1600 |
-| | | | **USD$2400** |
+| Shady | USD$30 | 40 | USD$1200 |
+| Sarah | USD$30 | 80 | USD$2400 |
+| | | | **USD$3600** |
 
 #### Milestone 2: Research and design the backend of *open science data wallet v1* (working group feasibility research) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
-| Shady | USD$20 | 40 | USD$800 |
-| Alexandra | USD$20 | 80 | USD$1600 |
-| Achintya | USD$15 | 80 | USD$1200 |
-| Kinshuk | USD$15 | 80 | USD$1200 |
-| | | | **USD$4800** |
+| Shady | USD$30 | 40 | USD$1200 |
+| Alexandra | USD$30 | 80 | USD$2400 |
+| Achintya | USD$20 | 80 | USD$1600 |
+| Kinshuk | USD$20 | 80 | USD$1600 |
+| | | | **USD$6800** |
 
 #### Milestone 3: Build *open science data wallet v1* - 3 weeks (13 September - 1 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
-| Shady | USD$20 | 80 | USD$1600 |
-| Alexandra | USD$20 | 120 | USD$2400 |
-| Achintya | USD$15 | 120 | USD$1800 |
-| Kinshuk | USD$15 | 120 | USD$1800 |
-|   |   |   | **USD$7600** |
+| Shady | USD$30 | 80 | USD$2400 |
+| Alexandra | USD$30 | 120 | USD$3600 |
+| Achintya | USD$20 | 120 | USD$2400 |
+| Kinshuk | USD$20 | 120 | USD$2400 |
+| non-human costs |  |  | USD$2000 |
+|   |   |   | **USD$10400** |
 
 #### Milestone 4: User-requirement design - 2 weeks (20 September - 1 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
-| Sarah | USD$20 | 80 | USD$1600 |
-| | | | **USD$1600** |
+| Sarah | USD$30 | 40 | USD$1200 |
+| | | | **USD$1200** |
 
 #### Milestone 5: Validate *open science data wallet v1* with users (neuroscientists) - 2 weeks (4 October - 15 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
-| Shady | USD$20 | 40 | USD$800 |
-| Sarah | USD$20 | 80 | USD$1600 |
-| Alexandra | USD$20 | 40 | USD$800 |
-| | | | **USD$3200** |
+| Shady | USD$30 | 40 | USD$1200 |
+| Sarah | USD$30 | 80 | USD$2400 |
+| Alexandra | USD$30 | 40 | USD$1200 |
+| | | | **USD$4800** |
 
 ## Maintenance and Upgrade Plans
 
