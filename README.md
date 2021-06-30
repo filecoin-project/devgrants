@@ -4,7 +4,7 @@
 
 Additional [Wave 8 RFPs](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-8-rfps.md) will be published soon.
 
-> Learn about Waves 4 & 5 projects and Gitcoin Grants for Filecoin here in this [Filecoin blogpost](https://filecoin.io/blog/filecoin-dev-grants-wave-4-5-gitcoin/).
+> Learn about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
