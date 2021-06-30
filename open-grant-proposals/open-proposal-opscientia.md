@@ -151,7 +151,8 @@ Validation of whether each feature (and documentation) meets user's needs, ident
 - Sarah - user-researcher focusing on scientists
 - Alexandra (part-time) - technical researcher focusing on technical feedback from institutions & scientists
 
-<img src="./timeline_ipfs.png" alt="drawing" width="250"/>
+### Overall timeline:
+<img src="./timeline_ipfs.png" alt="drawing" width="300"/>
 
 ## Total Budget Requested
 
