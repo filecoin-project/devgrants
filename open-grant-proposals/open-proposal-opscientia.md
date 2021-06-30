@@ -13,48 +13,39 @@
 
 Neuroimaging data is being generated more quickly than institutional infrastructure can keep up with in regards to storage and tools to sift through the deluge of scientific information. Decentralised file storage protocols offer solutions to these problems via content addressable data, programmable incentives for data storage, provenance tracking, censorship resistance, and bandwidth/speed that scales with global adoption. 
 
-Our team developed a proof-of-concept of our Open Science Data Wallet at the ETHGlobal Web3Weekend. We were chosen as finalists and also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea and research the backend of how we would handle large terabytes of data on IPFS and how we can integrate that into our data wallet. We also want to carry out in-depth user-research into what our scientific users want and from there develop feature requirements for future product development.
+Our team developed a proof-of-concept of our Open Science Data Wallet at the ETHGlobal Web3Weekend. We were chosen as finalists and also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea of decentralised neuroscience data storage and research the backend of how we would handle large terabytes of data on IPFS and how we can integrate that into Neuroglancer and eventually link that with our data wallet. We also want to carry out in-depth user-research into what our scientific users want and from there develop feature requirements for future product development.
 
-We are partnering with DANDI (Distributed Archives for Neurophysiology Data Integration) at MIT which is funded by the US government BRAIN initiative (set up by the Obama administration) to test if IPFS can successfully support 2.5 terabytes of brain data. This data is currently non-human and is stored centrally on AWS. However, when human brain data starts being collected by DANDI, and other neuroscience laboratories, there is an inherent ethical risk of storing human data with Big Tech companies. This is where decentralised data storage comes in and we would like to work with IPFS to help verify and build a solution that helps scientists to store their data in an ethical manner.
+We are partnering with DANDI (Distributed Archives for Neurophysiology Data Integration) at MIT which is funded by the US government BRAIN initiative (set up by the Obama administration) to test if IPFS can successfully support ~2.5 terabytes of brain data. This data is currently non-human and is stored centrally on AWS. However, when human brain data starts being collected by DANDI, and other neuroscience laboratories, there is an inherent ethical risk of storing human data with centralised bodies. This is where decentralised data storage comes in and we would like to work with IPFS to help verify and build a solution that helps scientists to store their data in an ethical manner.
 
 **Milestones for this project:**
 1. Build on initial user-research with users (neuroscientists)
-2. Validate and design the backend of our data wallet to be able to host large datasets
+2. Research and design the backend of *open science data wallet v1* 
 3. Build *open science data wallet v1*
 4. User-requirement design
 5. Validate *open science data wallet v1* with users (neuroscientists)
 
 **Relevant links:**
 - DANDI - https://www.dandiarchive.org/
+- Neuroglacer - https://opensource.google/projects/neuroglancer
 
 ## Value
 
 We will carry out a thorough evaluation of IPFS for large volumes of scientific data. This design is grounded in research, ethics and the end user is at the heart of what we are building. If we get this right it will be the first and largest validation of scientific data being hosted on IPFS. This will provide proof that large amounts of sensitive data can be stored in a decentralised manner and will provide the validation needed for institutions such as MIT to start moving away from centralised storage systems.
 
-The risks of not carrying out thorough research and validation and research are great. We want to do this now, before DANDI starts collecting human brain data so that we can be set up and ready to go when the time comes. It is important to note that the DANDI team looked at using IPFS a couple years back but did not have the time and resources at the time to explore it as an option. We believe that this will be highly valuble to them and 
+The risks of not carrying out thorough research and validation are great. We want to do this now, before DANDI starts collecting human brain data so that we can be set up and ready to go when the time comes. It is important to note that the DANDI team looked at using IPFS a couple years back but did not have the time and resources to explore it as an option.
 
-What are the risks that will make executing on this project difficult?
-
+Scientific data requires many constraints to be satisfied for operational performance and it is not yet clear whether the current decentralised file storage ecosystem is mature enough to support such complex workflows. Secondly, we need to consider bandwidth limitations and speed of access for whole human brain histochemical images. We also need to validate if current solutions ensure data persistence and be able to guarantee a minimal level of redundancy for pinned datasets.
 
 ## Deliverables
 
 At the end of these 6 weeks we will have:
+- Validated if decentralised storage is a viable option to store large amounts of scientific data
 - Designed the backend of our *open science data wallet*
 - Developed version 1 - *open science data wallet v1*
 - Designed feature requirements for future product development
 - Validated our product with end-users
 
 ## Development Roadmap
-
-<!-- Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
-
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the specification you outlined in the Deliverables.
-- How many people will be working on each milestone and their roles
-- The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates) -->
-
-Opscientia will test the feasibility of loading a 2.5 TB Human Brain image using Neuroglancer with distributed storage running on the backend. We may also explore setting up redundant pinning nodes at the Pittsburgh Supercomputing Cluster/MIT Net to complement the IPFS/filecoin solution.
 
 ### Key questions to address through the overall project:
 1. Can researchers upload data to our wallet?
@@ -92,6 +83,7 @@ User personas, current state user journey map, feature requirements for POC, use
 - Gather benchmarks on data ingress and egress speeds using Textile/Filecoin/IPFS
 - Test feasibility of storing a ~2.5TB brain image, and see if latency is low enough to view the image on Neuroglancer. Compare latency and costs with traditional AWS bucket storage.
 - Research methods for fine-tuning control on storage redundancy - ensure at least n=2 nodes are pinning the data at all times
+- Explore setting up redundant pinning nodes at the Pittsburgh Supercomputing Cluster/MIT Net to complement the IPFS/filecoin solution
 - Research methods to handle metadata and raw data relationship considering pros & cons of on-chain & off-chain designs
 
 **Team members:**
