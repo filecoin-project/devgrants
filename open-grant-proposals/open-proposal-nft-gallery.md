@@ -14,7 +14,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 Since the Cryptokitties project in 2017 NFTs got more and more attention and the **market trippled every year** (\$40 million in 2018, \$141 million in 2019, \$338 million in 2020). 2021 is not yet over, an NFT called "Everydays: The First 5,000 Days" by an artist named Beeple was auctioned off for about \$69 million, but also other NFTs are sold for millions too, e.g. CryptoPunks.
 
-We recognized that right now there is no proper solution to organize your NFTs in galleries and display them whereever you want - at least not in a self soverign way. 
+We recognized that right now there is no proper solution to organize your NFTs in galleries and display them whereever you want - at least not in a self soverign way. The only requirement for the presentation mode of your NFTs are a web browser with internet connectivity.
 
 Consider checking into a hotel and your NFTs are already there or display specific NFT on your TV @ home, at your meeting room or somewhere else?
 (Was gibt es? Und was genau gibt es noch nicht? Warum genau braucht es das? Wer/welche Gruppe und wie viele können das Nutzen? Warum gibt es einen Bedarf und wie wird sich der in den nächsten entwicklen? Quellen hierzu wären sicher hilfreich)
