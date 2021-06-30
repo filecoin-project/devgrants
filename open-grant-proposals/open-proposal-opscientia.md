@@ -59,7 +59,7 @@ POC and feature requirements/product design
 
 We are budgeting for 2 months of work to research, design, develop a proof-of-concept, and validate with users.
 
-#### Milestone 1 - Build on initial user-research with users (neuroscientists) (2 weeks)
+#### Milestone 1: Build on initial user-research with users (neuroscientists) - 2 weeks (30 August - 10 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
@@ -68,7 +68,7 @@ We are budgeting for 2 months of work to research, design, develop a proof-of-co
 | Daniel | USD$15 | 20 | USD$300 |
 | | | | **USD$3100** |
 
-#### Milestone 2 - Validate and design the backend of our data wallet to be able to host large datasets &  (2 weeks)
+#### Milestone 2: Validate and design the backend of our data wallet to be able to host large datasets - 2 weeks (13 September - 24 September)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 80 | USD$1600 |
@@ -77,7 +77,7 @@ We are budgeting for 2 months of work to research, design, develop a proof-of-co
 | Kinshuk | USD$15 | 80 | USD$1200 |
 | | | | **USD$5600** |
 
-#### Milestone 3 - Build proof-of-concept (2 weeks)
+#### Milestone 3: Build proof-of-concept - 2 weeks (27 September - 8 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 80 | USD$1600 |
@@ -86,13 +86,13 @@ We are budgeting for 2 months of work to research, design, develop a proof-of-co
 | Kinshuk | USD$15 | 80 | USD$1200 |
 |   |   |   | **USD$5600** |
 
-#### Milestone 4 - User requirement design (2 weeks) concurrently
+#### Milestone 4: User requirement design - 4 weeks part-time (13 September - 8 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Sarah | USD$20 | 80 | USD$1600 |
 | | | | **USD$3100** |
 
-#### Milestone 5 - Validate proof-of-concept with users (neuroscientists) (2 weeks)
+#### Milestone 5: Validate proof-of-concept with users (neuroscientists) - 2 weeks (11 October - 22 October)
 |Team members required: | rate (per hour) | time (hours) | total |
 |-----------------------|-----------------|--------------|-------|
 | Shady | USD$20 | 40 | USD$800 |
