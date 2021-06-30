@@ -11,8 +11,8 @@
 
 # Project Description
 
-- Start with the need or problem you are trying to solve with this project.
-- Describe why your solution is going to adequately solve this problem.
+<!-- - Start with the need or problem you are trying to solve with this project.
+- Describe why your solution is going to adequately solve this problem. -->
 
 Our team were ETHGlobal Web3Weekend finalists with our Open Science (Opsci) Data Wallet. We also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea and research the backend of how we would handle large TB's of data on IPFS and how we can integrate that into our data wallet.
 
@@ -29,29 +29,28 @@ DANDI - https://www.dandiarchive.org/
 
 ## Value
 
-Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
+<!-- Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
 - What are the benefits to getting this right?
 - What are the risks if you don't get it right?
 - What are the risks that will make executing on this project difficult?
 
-This section should be 1-3 paragraphs long.
+This section should be 1-3 paragraphs long. -->
 
 ## Deliverables
 
-Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.
+<!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
+
+POC and feature requirements/product design
 
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
+<!-- Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
 
 For each milestone, please describe:
 - The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the specification you outlined in the Deliverables.
 - How many people will be working on each milestone and their roles
 - The amount of funding required for each milestone
-- How much time this milestone will take to achieve (using real dates)
-
-### Final outcome
-POC and feature requirements/product design
+- How much time this milestone will take to achieve (using real dates) -->
 
 ## Total Budget Requested
 
@@ -103,7 +102,7 @@ We are budgeting for 2 months of work to research, design, develop a proof-of-co
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+<!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
 
 # Team
 
@@ -146,9 +145,12 @@ Achintya Kumar, is Opscientia's Open Web Fellow, who is applying his web develop
 Kinshuk Kashyap, is Opscientia's Google Summer of Code Fellow, who was awarded a competitive summer fellowship. He is our resident IPFS expert with a passion for decentralised neuroscience data.
 
 ## Team code repositories
+Opscientia GitHub organisation - https://github.com/opscientia
 
-Please provide links to your team's prior code repos for similar or related projects.
+Our Web3Weekend Hackathon showcase page - https://showcase.ethglobal.co/web3weekend/open-science-opsci-data-wallet
+
+The data wallet code - https://github.com/opscientia/web3weekend-hackathon
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
+<!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
