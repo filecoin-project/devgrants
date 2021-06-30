@@ -36,7 +36,9 @@ Cold Storage will be provided through a Serverless function and a Textile Powerg
 
 ### 1. UI/UX Design and Implementation
 
-Good UX/UI takes time. In order to avoid pitfalls and get realworld customer feedback. We create a design in figma in one day and ask friends in the nft space for feedback. We iterate in one week over and over and afterwards come up with a good design, which needs to be implemented as react app. For the implementation we expect that it will take three weeks in order to finish the common components: BaseLayout, LoginComponent, ProfileComponent, ProfileEditComponent, OwnedNFTsComponent, CreateGalleryComponent, GalleryListComponent, GalleryEditComponent and GalleryShowComponent.
+Good UX/UI takes time. In order to avoid pitfalls and get realworld customer feedback. We create a design in one day and ask friends in the nft space for feedback. We iterate for one week over and over and come up with a good design at the end of the week.
+
+Afterwards it needs to implemented, which will take three weeks in order to finish the common components: BaseLayout, LoginComponent, ProfileComponent, ProfileEditComponent, OwnedNFTsComponent, CreateGalleryComponent, GalleryListComponent, GalleryEditComponent and GalleryShowComponent.
 
 When the App is started it loads the BaseLayout. 
 
@@ -46,17 +48,17 @@ In case the user is not logged in, the BaseLayout shows a Login Button in the Bo
 The functionality for the login button will be implemented in milestone 2
 
 Stories:
+   - Create Design in Figma
    - Setup Git Repository with ReactApp and Bootstrap
    - Implement evaluated design in proposed components
-   - Display owned NFTs of specific ETH Address
 
 People: Frank (Design) + Rene (Dev)
 Timeline: 1 month, July 1st - August 1st
 Funding: USD 10000
 
-### 2. Ceramic Network Integration
+### IDX, Ceramic and IPFS as Social Login
 
-With this milestone we delivers the ability to log into the app through the LoginComponent with executes the login method from the IDX Framework and use Metamask as Signing Provider. After the login the app loads the Basic Profile from IDX. In case the user has no existung Profile, the ProfileEditComponent shows up as Modal allows to create and persist a Profile on IPFS through IDX and ceramic.
+With this milestone we delivers the ability to log into the app through the LoginComponent which executes the login method from the IDX Framework and use Metamask as Signing Provider. After the login the app loads the Basic Profile from IDX. In case the user has no existung Profile, the ProfileEditComponent shows up as Modal allows to create and persist a Profile on IPFS through IDX and ceramic.
 
 We rely on the SDKs of IDX, Ceramic,IPFS and the Metamask Web3 Provider in order to archieve our Web3 DID Login. This allows us to fetch the Ethereum Address of the user. Thereby we can load the user owned NFTs from the OpenSea API.
 
@@ -67,11 +69,11 @@ Stories:
    - Provide Extended NFT Gallery Schema for Ceramic Network
    - Store Galleries after creation or edit in IPFS 
 
-Dev Team (Pair): Frank + Rene
-Timeline: 2 weeks, August 2nd - August 14th
+Dev Team (Pair): Frank
+Timeline: 2 weeks, July 14th - July 31th
 Funding:  USD 5000
 
-### 3. Filecoin Integration 
+### 3. Filecoin as Cold Storage 
 
 In order to provide long term storage or cold storage for galleries we need to provide a feature which allows the user to persist entire galleries on Filecoin. Right now almost every web3 user has a Metamask wallet, but not every user has FIL Wallet in the browser. Therefore we provide a Textile Powergate which creates for every NFT User an Account and provide some FIL to persist Galleries long term.
 
@@ -85,7 +87,7 @@ Stories:
    - Implement Cold Storage Feature for NFT Galleries in React App
 
 Dev Team (Pair): Frank (Powergate, Frontend) + Rene (Backend)
-Timeline: 2 weeks, August 14th - August 31th
+Timeline: 1 month, August 1st - August 31th
 Funding:  USD 10000
 
 ## Total Budget Requested
@@ -118,7 +120,7 @@ No Team Website right now. Its our first Grant.
 ## Relevant Experience
 
 We both have a Master of Science in Computer Engineering.
-We work since 2017/2019 for MaibornWolff as Software Engineers in the Web3 department. 
+We worked for five years until July 2021 for a german IT Consulting Company at the Web3 department. We had mainly large clients, e.g. BMW or Deutsche Bahn.
 We also attended on multiple Hackathons and Conferences e.g. annual EF DevCon, ETHCC, ETHDenver, ETHBerlin and ETHBerlinZwei
 
 Frank has also some relationships to the Ceramic Network Team and does Filecoin Mining.
@@ -127,7 +129,6 @@ Frank has also some relationships to the Ceramic Network Team and does Filecoin 
 
 - https://github.com/froid1911
 - https://github.com/ant1pattern
-- https://github.com/maibornwolff
 
 
 # Additional Information
