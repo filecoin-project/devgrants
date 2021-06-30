@@ -17,7 +17,6 @@ Since the Cryptokitties project in 2017 NFTs got more and more attention and the
 We recognized that right now there is no proper solution to organize your NFTs in galleries and display them whereever you want - at least not in a self soverign way. The only requirement for the presentation mode of your NFTs are a web browser with internet connectivity.
 
 Consider checking into a hotel and your NFTs are already there or display specific NFT on your TV @ home, at your meeting room or somewhere else?
-(Was gibt es? Und was genau gibt es noch nicht? Warum genau braucht es das? Wer/welche Gruppe und wie viele können das Nutzen? Warum gibt es einen Bedarf und wie wird sich der in den nächsten entwicklen? Quellen hierzu wären sicher hilfreich)
 
 This project aims to bring **your NFTs next to you**. In order to reach this goal we are going to adopt the identity protocol for open applications **idx.xyz** which relies on the general open information protocol **ceramic.network** which again relies on **ipfs** as hot storage and communication layer.
 
@@ -27,10 +26,11 @@ Right now we want to use textile powergate as cold storage solution. Alternativl
 
 ## Value 
 
-With our solution we show how Web3 Dapps look and feel. (Warum ist das gut/wichtig? und für wen?)
-Additionally it can bring 50.000 existing users vom IDX to Filecoin.
+With our solution we show how Web3 Dapps look and feel  without cloud server.
+Additionally it can bring 50.000 existing users from IDX to Filecoin.
 
-Right now we can not identify any product oriented risks, except NFTs identifies itself as a totally scam. (könnte die NFTs irgendwie manipuliert, kopiert oder verfälscht werden??!)
+Right now we can not identify any product oriented risks, except NFTs identifies itself as a totally scam. 
+An additional factor could be that NFTs are only stored in hot storage and disappear at some time if not  in cold storage and not used.
 
 ## Deliverables
 
@@ -41,11 +41,11 @@ On the user side an easy access to all types of NFCs is possible an almost any d
 
 ### 1. UI/UX design and implementation
 
-Good UX/UI take time. In order to avoid pitfalls and receive realworld customer feedback, we create a design in one day and ask friends in the nft space for their feedback. We iterate for one week over and over and come up with a good design at the end of the week. (würde es hier sinn machen auf eine Agile Arbeitsweise o.ä. anzusprechen oder interssiert das keinen?)
+Good UX/UI take time. In order to avoid pitfalls and receive realworld customer feedback, we create a design in one day and ask friends in the nft space for their feedback. We iterate for one week over and over and come up with a good design at the end of the week. 
 
 Afterwards the UX/UI needs to be implemented, which will take three weeks in order to finish the common components: BaseLayout, LoginComponent, ProfileComponent, ProfileEditComponent, OwnedNFTsComponent, CreateGalleryComponent, GalleryListComponent, GalleryEditComponent and GalleryShowComponent.
 
-When the App is started the BaseLayout will be loaded (displayed?). 
+When the App is started the BaseLayout will be displayed. 
 
 In case the user is already logged in, the profile in the header menu of the BaseLayout is shown. In the body the OwnedNFTsComponent and the GalleryListComponent is shown. Through drag and drop NFTs can be added to a gallery. Additionally a settings button allows to edit specific settings of the gallery in the GalleryEditComponent. Each gallery has also a direct link to a presentation mode GalleryShowComponent where the gallery is presented with the NFTs and the corresponding settings from the GalleryEditComponent, e.g. a specific slide show or specific stop intervals.
 
@@ -63,7 +63,7 @@ Funding: USD 10000
 
 ### IDX, Ceramic and IPFS as social login
 
-With this milestone we deliver the ability to log into the app through the LoginComponent. The LoginComponent executes the login method from the IDX framework and use Metamask as signing provider. After the login the app loads the basic profile from IDX. In case the user has no existing profile, the ProfileEditComponent shows up as Modal (????) allows to create and persist a profile on IPFS through IDX and Ceramic.
+With this milestone we deliver the ability to log into the app through the LoginComponent. The LoginComponent executes the login method from the IDX framework and use Metamask as signing provider. After the login the app loads the basic profile from IDX. In case the user has no existing profile, the ProfileEditComponent shows up as Modal and allows to create and persist a profile on IPFS through IDX and Ceramic.
 
 We rely on the SDKs of IDX, Ceramic, IPFS and the Metamask Web3 provider in order to archieve our Web3 DID login. This allows us to fetch the Ethereum address of the user. Thereby we can load the users owned NFTs from the OpenSea API.
 
@@ -74,7 +74,7 @@ Stories:
    - Provide extended NFT gallery scheme for the Ceramic network
    - Store galleries after creation or edit in IPFS 
 
-Dev team (pair): Frank
+Dev: Frank
 Timeline: 2 weeks, July 14th - July 31st
 Funding:  USD 5000
 
