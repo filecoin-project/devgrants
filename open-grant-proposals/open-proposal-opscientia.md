@@ -14,18 +14,20 @@
 <!-- - Start with the need or problem you are trying to solve with this project.
 - Describe why your solution is going to adequately solve this problem. -->
 
-Our team were ETHGlobal Web3Weekend finalists with our Open Science (Opsci) Data Wallet. We also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea and research the backend of how we would handle large terabytes of data on IPFS and how we can integrate that into our data wallet.
+Neuroimaging data is being generated more quickly than institutional infrastructure can keep up with in regards to storage and tools to sift through the deluge of scientific information. Decentralised file storage protocols offer solutions to these problems via content addressable data, programmable incentives for data storage, provenance tracking, censorship resistance, and bandwidth/speed that scales with global adoption. 
+
+Our team developed a proof-of-concept of our Open Science Data Wallet at the ETHGlobal Web3Weekend. We were chosen as finalists and also won the Textile.io prize and IPFS blog recognised us as a project that most inspired them. This proposal is to carry on with this idea and research the backend of how we would handle large terabytes of data on IPFS and how we can integrate that into our data wallet. We also want to carry out in-depth user-research into what our scientific users want and from there develop feature requirements for future product development.
 
 We are partnering with DANDI (Distributed Archives for Neurophysiology Data Integration) at MIT which is funded by the US government BRAIN initiative (set up by the Obama administration) to test if IPFS can successfully support 2.5 terabytes of brain data. This data is currently non-human and is stored centrally on AWS. However, when human brain data starts being collected by DANDI, and other neuroscience laboratories, there is an inherent ethical risk of storing human data with Big Tech companies. This is where decentralised data storage comes in and we would like to work with IPFS to help verify and build a solution that helps scientists to store their data in an ethical manner.
 
-#### Milestones for this project:
+**Milestones for this project:**
 1. Build on initial user-research with users (neuroscientists)
 2. Validate and design the backend of our data wallet to be able to host large datasets
 3. Build *open science data wallet v1*
 4. User-requirement design
 5. Validate *open science data wallet v1* with users (neuroscientists)
 
-#### Relevant links:
+**Relevant links:**
 - DANDI - https://www.dandiarchive.org/
 
 ## Value
@@ -43,9 +45,6 @@ What are the risks if you don't get it right?
 
 What are the risks that will make executing on this project difficult?
 
-Mobile is especially important to the wider distribution of IPFS and user base growth. IPFS could, with focused study on use cases and behaviours of mobile users for instance with sharing content and media, be an easier jump to using P2P in their daily lives. For instance, a solid and enjoyable IPFS mobile experience might allow perhaps skipping the desktop experience altogether for users coming to the platform.
-
-The question of scope is constant in defining projects and areas of study. While the scope of this may initially be quite wide and shallow, this could be advantageous in setting up the groundwork for additional studies which would further refine thinking and recommendations as the field progresses. The value lies in making forays into the space, researching and designing that which has not been done to date, and creating a way to learn where to refine and redefine how IPFS is brought to more and more users.
 
 ## Deliverables
 
@@ -66,6 +65,8 @@ For each milestone, please describe:
 - How many people will be working on each milestone and their roles
 - The amount of funding required for each milestone
 - How much time this milestone will take to achieve (using real dates) -->
+
+Opscientia will test the feasibility of loading a 2.5 TB Human Brain image using Neuroglancer with distributed storage running on the backend. We may also explore setting up redundant pinning nodes at the Pittsburgh Supercomputing Cluster/MIT Net to complement the IPFS/filecoin solution.
 
 ### Key questions to address through the overall project:
 1. Can researchers upload data to our wallet?
@@ -114,6 +115,15 @@ User personas, current state user journey map, feature requirements for POC, use
 - Kinshuk - full-stack engineer
 
 ### Milestone 4: User-requirement design - 2 weeks (13 September - 24 September)
+
+**Aim:** 
+Turn user needs (identified through user research) into requirements for the end state product
+
+**Method:** 
+Take each need, research tools available/current tools leveraged by users, investigate if and how these can be incorporated into the user journey for our end product, prioritise each for the product roadmap
+
+**Outcomes:** 
+Fully designed product that meets user needs, implementation roadmap 
 
 **Team members:**
 - Sarah - technical designer
@@ -189,7 +199,10 @@ We are budgeting for 7 weeks of work to research, design, develop *open science 
 
 <!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
 
-The long term plan is to 
+- Scaling up to larger datasets
+- Continuous user-research / feedback
+- Documentation / tutorials
+- Integration with DID schemas (Ceramic/IDX)
 
 # Team
 
