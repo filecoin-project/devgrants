@@ -1,7 +1,7 @@
-# Open Grant Proposal: `Machine Learning labled Dataset NFT storage and sharing via IPFS_Filecoin`
+# Open Grant Proposal: Machine Learning labled Dataset NFT storage and sharing via IPFS_Filecoin
 
 **Name of Project:**
-`Machine Learning labeled Dataset NFT storage and sharing via IPFS_Filecoin`
+Machine Learning labeled Dataset NFT storage and sharing via IPFS_Filecoin
 
 **Proposal Category:** `app-dev`
 
