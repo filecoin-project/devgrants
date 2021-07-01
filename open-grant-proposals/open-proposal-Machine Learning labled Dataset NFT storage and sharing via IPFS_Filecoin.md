@@ -86,5 +86,3 @@ Tuninsight AI is a Montreal based Artificial Intelligence solution provider that
 - https://github.com/pingaowang/yolo2-pytorch.git
 
 # Additional Information
-
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
