@@ -86,3 +86,4 @@ Tuninsight AI is a Montreal based Artificial Intelligence solution provider that
 - https://github.com/pingaowang/yolo2-pytorch.git
 
 # Additional Information
+Tuninsight AI has won 1st place of the 2018 Create @ Alibaba Cloud Startup Contest North America Final at Silicon Valley, award $50,000 from Alibaba Cloud. Tuninsight was invited to represent the Canadian delegation at the United Nations AI for Good Global Summit.
