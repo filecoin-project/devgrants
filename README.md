@@ -1,10 +1,6 @@
 # Filecoin Devgrants
 
-> **Wave 8 dev grant proposals are due June 30, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
-
-Additional [Wave 8 RFPs](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-8-rfps.md) will be published soon.
-
-> Learn about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
+> **As we evaluate wave 8 proposals learn more about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
