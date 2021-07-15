@@ -102,7 +102,7 @@ Here are the steps to submit a proposal for a microgrant!
 
 After you submit your proposal, you can expect the following to occur:
 
-- We will review all PRs. During our review, we will add comments, questions, change requests, etc, on your team's PR.
+- We will review your application. During review, we will add comments, questions, change requests, et cetera on your team's submission.
 - After a few round trips of discussion, our team will make a decision on which proposals to fund and which not to. <!--Accepted proposals will be merged into the appropriate directory, i.e. either [`open-grant-proposals`](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) or [`rfp-proposals`](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals).-->
 - During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
 - If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant (whether it's an RFP or open grant), we may stop funding your team for further development work.
