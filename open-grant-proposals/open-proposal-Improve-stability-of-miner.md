@@ -1,6 +1,6 @@
 # Open Grant Proposal: Improve the stability of the lotus miner
 
-**Name of Project:** Improve the stability of miner
+**Name of Project:** Improve the stability of lotus miner
 
 **Proposal Category:** `core-dev`
 
@@ -97,7 +97,11 @@ https://github.com/wusirdcenter
 
 ## Relevant Experience
 
+Since the release of the filecoin code, our team has been tracking and analyzing the filecoin code, and carrying out customized development;
 
+Our team have ever participated in testnet, slingshot, mainnet
+
+Our team have ever created and maintained several miners whose power over 50PB, however the miners are not assets in our team's name
 
 
 
