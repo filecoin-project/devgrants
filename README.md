@@ -2,7 +2,7 @@
 > We are continously reviewing applictions for [open grants](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md), [RFPS](https://github.com/filecoin-project/devgrants/tree/master/rfps), and [microgrants](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md). Submit your proposals now for priority consideration.
 
 
-> Learn more about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
+> Learn more about Wave 7 grantees in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
