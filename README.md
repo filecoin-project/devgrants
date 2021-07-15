@@ -1,10 +1,6 @@
 # Filecoin Devgrants
 
-> **Wave 8 dev grant proposals are due June 30, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
-
-Additional [Wave 8 RFPs](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-wave-8-rfps.md) will be published soon.
-
-> Learn about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
+> Learn more about Wave 7 grantees in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
@@ -75,22 +71,6 @@ All of our RFPs and open grants fund work in a few core categories. Over time, t
 
 ## 📋 How to apply
 
-### Timing and Deadlines
-
-We will start a new grants cycle, or `wave`, every quarter i.e. every 3 months. Therefore, the last day of each quarter is the deadline for all proposals in that wave. 
-
-| Wave No. | Wave Opens | Wave Deadline |
-| --- | --- | --- |
-| 7 | Jan 15, 2021 | March 31, 2021, 11:59PM PT |
-| 8 | April 1, 2021 | June 30, 2021, 11:59PM PT |
-| 9 | July 1, 2021 | Sep 30, 2021, 11:59PM PT |
-| 10 | Oct 1, 2021 | Jan 15, 2022, 11:59PM PT |
-                                                                                                                        
-
-After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within a few weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
-
-Note that there is a chance (but no guarantee) your proposal will be reviewed earlier than the wave deadline. Because grants are awarded on a rolling basis, strong proposals that are submitted early might have a slight advantage on the off-chance we review before the wave deadline. Of course, there is no guarantee that we will review proposals before the deadline, so it's up to you whether you want to submit well before the deadline or not!
-
 ### Eligibility
 
 - All projects must be open-sourced
@@ -104,24 +84,31 @@ All of our currently open RFPs are listed in the [`rfps` folder](rfps/).
 Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
-
-**Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (at which point, the RFP might be closed).**
+                                                                                                                        
+RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
 
 ### Submit a proposal for open grants
 
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+                                                                                                                        
+Open Grant proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
 
-
-**Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (which means a 3-month delay in review for your proposal).**
-
+### Submit a proposal for microgrants
+                                                                                                                        
+Here are the steps to submit a proposal for a microgrant!
+1. Submit an issue on this repo. Make sure to fill in all the categories of the proposal [template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E) (incomplete proposals will not be considered).
+                                                                                                                        
+Microgrant applications are reviewed every 2 weeks.                                                                                                                        
+                                                                                                                        
+                                                                                                                        
 ## ⌛ After you apply
 
-After you submit your proposal -- assuming you get it in by the deadline -- you can expect the following to occur:
+After you submit your proposal, you can expect the following to occur:
 
-- After the wave deadline, we will review all PRs. During our review, we will add comments, questions, change requests, etc, on your team's PR.
+- We will review your application. During review, we will add comments, questions, change requests, et cetera on your team's submission.
 - After a few round trips of discussion, our team will make a decision on which proposals to fund and which not to. <!--Accepted proposals will be merged into the appropriate directory, i.e. either [`open-grant-proposals`](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) or [`rfp-proposals`](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals).-->
-- During the discussion and review phase, our team will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
+- During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
 - If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant (whether it's an RFP or open grant), we may stop funding your team for further development work.
 - We aim to complete all review within a few weeks after the wave deadline, so please stay vigilant on GitHub. If we don't hear back from you when we ask you a question or request changes on your proposal, it's very unlikely that your proposal will be accepted!
 
