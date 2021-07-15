@@ -1,7 +1,6 @@
 # Filecoin Devgrants
 > We are continously reviewing applictions for [open grants](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md), [RFPS](https://github.com/filecoin-project/devgrants/tree/master/rfps), and [microgrants](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md). Submit your proposals now for priority consideration.
 
-We are also accepting RFPs built on Hedera and Filecoin. Read more about this grant category [here](https://github.com/filecoin-project/devgrants/blob/hedera-filecoin-joint-grant/rfps/hedera-and-filecoin.md). 
 
 > Learn more about Wave 7 projects in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
