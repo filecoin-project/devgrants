@@ -1,4 +1,4 @@
-# Open Grant Proposal: ` Improve the stability of miner`
+# Open Grant Proposal: Improve the stability of the lotus miner
 
 **Name of Project:** Improve the stability of miner
 
@@ -108,4 +108,3 @@ https://github.com/wusirdcenter
 
 
 # Additional Information
-
