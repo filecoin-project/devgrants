@@ -1,6 +1,4 @@
 # Filecoin Devgrants
-> We are continously reviewing applictions for [open grants](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md), [RFPS](https://github.com/filecoin-project/devgrants/tree/master/rfps), and [microgrants](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md). Submit your proposals now for priority consideration.
-
 
 > Learn more about Wave 7 grantees in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
@@ -86,16 +84,22 @@ All of our currently open RFPs are listed in the [`rfps` folder](rfps/).
 Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+                                                                                                                        
+RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
 
 ### Submit a proposal for open grants
 
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+                                                                                                                        
+Open Grant proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
 
 ### Submit a proposal for microgrants
                                                                                                                         
 Here are the steps to submit a proposal for a microgrant!
-1. Submit an issue on this repo. Make sure to fill in all the categories of the proposal [template](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) (incomplete proposals will not be considered). Rename your file `[MICROGRANT]project-title.md`, making sure to replace `project-title` with the name of your project. 
+1. Submit an issue on this repo. Make sure to fill in all the categories of the proposal [template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E) (incomplete proposals will not be considered).
+                                                                                                                        
+Microgrant applications are reviewed every 2 weeks.                                                                                                                        
                                                                                                                         
                                                                                                                         
 ## ⌛ After you apply
