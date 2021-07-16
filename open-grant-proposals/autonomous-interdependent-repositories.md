@@ -679,14 +679,14 @@ AIRport documentation.
 <pre>
                      Phase1  Phase2  Phase3  Phase4  Phase5  Phase6  Phase7    Total  Months
 Artem Shamsutdinov    65000                   32500   10833   10833   21667   140833      13
-Offshore Team	                   	60000						                                                     60000	              7
-Brian Gill			                               65000    	21667	                      		32500       	119167	             11
-Andrei Belitski				                                           	150000		                         	150000	             12
-Nikolay Dobrinov					                                       	            140000		                140000             	12
-Operational Overhead	   11250		             11250	     9375	    24375    	24375	     9375	        90000	
-Hardware Rental				                                             	5000	     5000		                 10000	
-Total	                  76250    	60000    	76250	    63542	   190208	   180208	    63542	       710000             	55
-Calendar Time (months)	     6	        7        	6	        3	       12	       12	        3	           49
+Offshore Team                 60000                                            60000       7
+Brian Gill                            65000   21667                   32500   119167      11
+Andrei Belitski                                      150000                   150000      12
+Nikolay Dobrinov                                             140000           140000      12
+Operational Overhead  11250           11250    9375   24375   24375    9375    90000	
+Hardware Rental                                        5000    5000            10000	
+Total                 76250   60000   76250   63542  190208  180208   63542   710000      55
+Calendar Months           6       7       6       3      12      12       3       49
 </pre>
 
 ### Total timeframe
