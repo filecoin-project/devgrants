@@ -8,7 +8,22 @@
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
-# Project Description
+* [Project Description](#description)
+* [Value](#value)
+  * [The risks](#risks)
+* [Economics](#economics)
+  * [Monetization](#monetization)
+    * [Decentralized advertisement with profit sharing](#advertisement)
+    * [Fee model](#fee-model)
+* [Deliverables](#deliverables)
+* [Development Roadmap](#roadmap)
+* [Maintenance and Upgrade Plans](#maintenance)
+* [Team](#team)
+* [Additional Information](#additional-info)
+
+
+
+# Project Description<a name="description"></a>
 
 - The problem: 
 
@@ -25,11 +40,11 @@ with complex data schemas.
 AIRport is a reference implementation of
 [Autonomous Interdependent Repositories](https://patents.google.com/patent/US10902016B2).
 
-AIRport provides a net-like relational database of Repositories.  Repositories
+AIRport is a decentralized relational database of Repositories.  Repositories
 are virtual databases, each with its own transaction log.  Each Repository has
-a globally unique identifier that allows to distinguish it from other 
-repositories in the same relational database (such as WebSql, or SqLite in 
-a Cordova based App). For two Users to share a Repository it must be present 
+a globally unique identifier that allows to distinguish it from other
+repositories in the same relational database (such as WebSql, or SqLite in
+a Cordova based App). For two Users to share a Repository it must be present
 on their devices, and the schemas used by that repository must be installed
 in AIRport databases on those devices.
 
@@ -43,7 +58,7 @@ contains only the Repositories the user of that device decides to keep on it.
 
 ![AIR across devices](presentations/images/AIRport_diagram_1.png)
 
-## Value
+## Value<a name="value"></a>
 
 Our target users are developers for Distributed Applications.  AIRport allows
 multiple applications to share the same schemas.  It also allows to 
@@ -62,14 +77,19 @@ This:
   large scale sharing) and part is in private Repositories.
   
 
-    For example in an event tracking App data for each event is a separate Repository.
-    Other Applications can build upon this App's schema and provide functionality
-    (such as  event specific chat and voting systems) in their own schemas. Using all
-    of these Apps the users add data to the same Repositories (for the the same
-    events).  Thus Repositories for events span schemas of all the Apps that together
-    provide better functionality than each one separately.  AIRport enables synergies
-    between Apps where "the whole is greater than the sum its parts" thus reducing the
-    overall costs.
+    For example, in an Event Tracking App, data for each event is a separate Repository.
+    Other Applications can build upon this App's schema, provide additional schemas 
+    for functionality that builds upon the first App.  So, another App can build
+    a Event Chat System for participants and use both the Event Tracking App schema
+    as well as it's own schema.  Yet another App can build in Event Voting and use
+    the schemas for both core Event Tracking and Event Chat and provide it's own
+    schema as well.  Even more Apps can built add-on functionality without providing
+    their own schemas.  The data used by all of these Apps (across all related 
+    schemas) is stored in Event specific Repositories, one repository per event.  Thus
+    a repository spans multiple Event Apps and Schemas.  The aggregate of specialized
+    Event Apps together provides better functionality than the sum of its part Apps.
+    Therefore, AIRport enables synergies between Apps where "the whole is greater than
+    the sum its parts", reducing the overall costs (and the costs of building each App).
 
 - The benefits to getting this right
 
@@ -92,7 +112,7 @@ AIRport offers refined, high productivity developer APIS:
 AIRport is fully functional off-line, commits are made locally and are added
 to the "longest chain" once device is back on-line.
 
-- The risks:
+- The risks:<a name="risks"></a>
 
 Project is completely thought out and largely coded with a granted patent, risks of 
 getting it wrong mostly relate to it being "developed in a vacuum".  In order to
@@ -116,17 +136,101 @@ Z-axis: Traditional - Progressive
 ```
 
 The key risk is in figuring out how to monetize on the platform.
-  Our current thinking is building a distributed advertisement engine that
-  will solve the problem of big organizations retaining user data to provide
-  relevant ads.  This should be doable with a combination of personalized tensor
-  based model, and an anonymized data collection for a group of centralized models.
-  The monetization is the difficult part of the project, we have the experience
-  to get it done [Nik Dobrinov](https://www.linkedin.com/in/nikolaydobrinov/) on
-  central modeling and [Andrei Belitski](https://www.linkedin.com/in/dr-andrei-belitski-178b3a75/)
-  on AI and we are working on how we'll make data anonymous for high definition 
-  model building.
+To solve this we'll be building a decentralized advertisement engine.
+It will solve the difficult monetization problem.  And, we have the experience
+to get it done [Nik Dobrinov](https://www.linkedin.com/in/nikolaydobrinov/) on
+central modeling and [Andrei Belitski](https://www.linkedin.com/in/dr-andrei-belitski-178b3a75/)
+on AI and we are working on how we'll make data anonymous for high definition 
+model building.
+  
+## Economics<a name="economics"></a>
 
-## Deliverables
+In order for AIRport to be successful all of the involved parties need to be
+incentivized to use it.  The three primary party types are:
+- App Users
+- App Creators
+- AIRport Team
+
+Users are generally interested in keeping their data private.  They are also
+interested in reducing data duplication and duplicate data entry.  Users may
+also be incentivized by profit sharing schemes from both App Creators and
+AIRport Team.
+
+App creators are incentivized by the profits that applications generate.  They
+are also incentivized  in acquiring large market share (to maximize profits)
+by enhancing and enlarging their offerings but are dis-incentivized by the costs
+of additional work and expansion.
+
+AIRport team incentives align closely with those application creators.  They
+have an additional incentive to attract application creators to write Apps
+on the platform.
+
+Airport naturally fulfils User data incentives though it's technology.  It
+also naturally solves the dilemma of large App monopolies by
+ promoting App specialization (via schema+data sharing).
+
+### Monetization<a name="monetization"></a>
+
+A profit sharing setup will be used to reward schema creators when Apps
+use them.  A nano-payment will be made the schema creator every time a CRUD
+operation is performed (by Apps that do not directly associate with that schema).
+Eventually the same logic will apply for BPMN logic providers.
+
+To fulfil the rest of the incentives two alternative mechanisms will be
+employed:
+
+#### Decentralized advertisement with profit sharing<a name="advertisement"></a>
+
+Airport (in combination with Arweave) will support a privacy-centric
+advertisement engine.  The Ad decision making engine will kept on user devices,
+thus solving data privacy issues.  Data will not be shared with any authority
+or intermediary or the advertisers and will remain solely on the Users device
+(inside the relational database, which is embedded in the locally installed
+AIRport App).  This keeps the User in full control of how much data
+is used for serving Ads.
+
+The AIRport advertisement model is flipped from traditional push to pull.
+In the push model a central authority decides what Ads get pushed to a user.
+In AIRport pull model the User device decides what Ads to pull to the User.
+Ads themselves will be stored on Arweave and tagged to allow pulling
+the most appropriate Ads.  Thus the advertisement platform becomes fully 
+decentralized and cannot be manipulated by a central authority.
+
+In the long term multiple incentive tiers will be employed for the Users,
+with increasing monetary rewards for all participants (because they provide
+increasingly accurate Ad placement):
+
+1.  Basic "content based" tier - users receive Ads based on the data that is
+(locally) sent to the Apps from AIRport (for any given rendered page).
+2.  Enhanced "content based" tier - Apps reinforces Ad choices by
+sending back to AIRport page metadata (and static content rendered on pages).
+3.  Demographic tier - user voluntarily stores their demographic data in
+AIRport.  Again, it's not shared with anyone, just used to pull more accurate
+Ads.
+4.  Geographic tier - users opt in to using their permanent and current
+location for serving Ads (again this information remains on the device
+only and is not shared with anyone).
+5.  Model tier - users opt in   anonymized Big Data model generation for
+optimal Ad placement.  This does require sharing data which is scrubbed
+of any PI (AIRport will provide annotations on per column basis to flag 
+PI data).
+
+Advertisement revenue will be split between the 3 parties (User, Apps,
+Airport) in a manner that best fits the market conditions at that time.
+
+#### Fee model<a name="fee-model"></a>
+Users can opt out (either wholesale, or per App, or per time period,
+or per repository) of advertisements by paying for usage of AIRport and
+applications.  This allows the Apps and AIRport to still fulfill their
+monetary incentives.  AIRport can act as either a central fee platform,
+where it shares User fee revenue with the Apps, or Apps can share
+their revenue with AIRport.
+
+The expectation is that only a small number of Users will op-in for
+the fee model and that the bulk of funds will come from the
+decentralized advertisement engine.
+
+## Deliverables<a name="deliverables"></a>
 
 - Artem Shamsutdinov
 
@@ -151,7 +255,7 @@ A seed application source: Full implementation of the seed project
 ([Prototype](https://votecube.com/#!/poll/info/Cube/vote/kBSVLFHn01lMtvPXYIzu/4vz9cPyZiMoaGG4JOh6t))).
 AIRport documentation.
 
-## Development Roadmap
+## Development Roadmap<a name="roadmap"></a>
 
 - Artem Shamsutdinov
     
@@ -320,7 +424,7 @@ AIRport documentation.
     * Total cost:                         $710000
 
 
-## Maintenance and Upgrade Plans
+## Maintenance and Upgrade Plans<a name="maintenance"></a>
 
 We will be seeking additional funding for the next year of operation to:
 
@@ -338,7 +442,7 @@ We will be seeking additional funding for the next year of operation to:
 
 7. Popularize the technology
 
-# Team
+# Team<a name="team"></a>
 
 ## Team Members
 
@@ -377,7 +481,7 @@ https://github.com/autonomous-interdependent-repositories
 
 https://github.com/votecube
 
-# Additional Information
+# Additional Information<a name="additional-info"></a>
 
 1. AIRport framework greatly aids development acceleration of distributed
    applications.
