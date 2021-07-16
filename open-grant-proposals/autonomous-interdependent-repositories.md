@@ -338,6 +338,7 @@ AIRport documentation.
 
 - Phase 2 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                    $0
         Nikolay Dobrinov:                      $0
@@ -347,7 +348,8 @@ AIRport documentation.
     * Operational Overhead:                    $0
 
     * Total cost:                          $60000
-        
+</pre>
+
 ### Phase 3: finish a seed app<a name="phase-3"></a>   
 
 - Brian Gill
@@ -379,6 +381,7 @@ AIRport documentation.
 
 - Phase 3 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                    $0
         Nikolay Dobrinov:                      $0
@@ -388,7 +391,8 @@ AIRport documentation.
     * Operational Overhead:                $11250
 
     * Total cost:                          $76250
-    
+</pre>
+
 ### Phase 4: integrate framework and seed App into a working solution<a name="phase-4"></a>   
 
 - Artem Shamsutdinov
@@ -448,6 +452,7 @@ AIRport documentation.
 
 - Phase 4 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                $32500
         Nikolay Dobrinov:                      $0
@@ -457,7 +462,8 @@ AIRport documentation.
     * Operational Overhead:                 $9375
 
     * Total cost:                          $63542
-    
+</pre>
+
 ### Phase 5 - local Advertisement Engine<a name="phase-5"></a>  
 
 - Andrei Belitski
@@ -515,6 +521,7 @@ AIRport documentation.
 
 - Phase 5 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                $10833
         Nikolay Dobrinov:                      $0
@@ -525,7 +532,7 @@ AIRport documentation.
     * Operational Overhead:                $24375
 
     * Total cost:                         $190208
-  
+</pre>  
   
  ### Phase 6 - High precision Advertisement engine<a name="phase-6"></a>  
  
@@ -586,9 +593,10 @@ AIRport documentation.
 - Phase 6 timeframe
     * Project start date July 1st 2024
     * Project completion date July 1st 2025
-    * 
+
 - Phase 6 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                $10833
         Nikolay Dobrinov:                 $140000
@@ -599,6 +607,7 @@ AIRport documentation.
     * Operational Overhead:                $24375
 
     * Total cost:                         $180208
+</pre>
 
 ### Phase 7 - final integration and documentation<a name="phase-7"></a>  
 
@@ -653,6 +662,7 @@ AIRport documentation.
     * 
 - Phase 7 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                $21667
         Nikolay Dobrinov:                      $0
@@ -662,9 +672,11 @@ AIRport documentation.
     * Operational Overhead:                 $9375
 
     * Total cost:                          $63542
+</pre>
 
 ### Totals Breakdown
 
+<pre>
                    	Phase 1	  Phase 2	  Phase 3	  Phase 4	  Phase 5	  Phase 6	  Phase 7	  Total	Total   Time (months)
 Artem Shamsutdinov   	65000			                      32500	    10833	    10833	    21667	       140833	             13
 Offshore Team	                 	60000						                                                     60000	              7
@@ -675,14 +687,16 @@ Operational Overhead	 11250		             11250	     9375	    24375    	24375	  
 Hardware Rental				                                           	5000	     5000		                 10000	
 Total	                76250    	60000    	76250	    63542	   190208	   180208	    63542	       710000             	55
 Calendar Time (months)	   6	        7        	6	        3	       12	       12	        3	           49
-
+</pre>
 
 ### Total timeframe
     * Project start date September 1st 2021
     * Project completion date October 1st 2026
 
 ## Total Budget Requested
+<pre>
     * Total cost:                         $710000
+</pre>
 
 ## Maintenance and Upgrade Plans<a name="maintenance"></a>
 
