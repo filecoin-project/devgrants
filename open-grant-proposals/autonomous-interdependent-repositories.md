@@ -677,8 +677,8 @@ AIRport documentation.
 ### Totals Breakdown
 
 <pre>
-                   	  Phase 1	  Phase 2	  Phase 3	  Phase 4	  Phase 5	  Phase 6	  Phase 7	  Total	Total   Time (months)
-Artem Shamsutdinov   	  65000			                      32500	    10833	    10833	    21667	       140833	             13
+                     Phase1  Phase2  Phase3  Phase4  Phase5  Phase6  Phase7    Total  Months
+Artem Shamsutdinov    65000                   32500   10833   10833   21667   140833      13
 Offshore Team	                   	60000						                                                     60000	              7
 Brian Gill			                               65000    	21667	                      		32500       	119167	             11
 Andrei Belitski				                                           	150000		                         	150000	             12
