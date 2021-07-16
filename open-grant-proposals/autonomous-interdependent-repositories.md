@@ -294,6 +294,7 @@ AIRport documentation.
 
 - Phase 1 Budget
 
+<pre>
     * Salary + Benefits
         Artem Shamsutdinov:                $65000
         Nikolay Dobrinov:                      $0
@@ -303,6 +304,7 @@ AIRport documentation.
     * Operational Overhead:                $11250
 
     * Total cost:                          $76250
+</pre>
 
 ### Phase 2: integrate core framework into IPFS<a name="phase-2"></a>        
 - Off-shore Block-chain development team
