@@ -145,12 +145,12 @@ Z-axis: Traditional - Progressive
 The key risk is in figuring out how to monetize on the platform.
 To solve this we'll be building a decentralized Advertisement Engine.
 Being decentralized it will allow full decentralized applications to be
-buit on top of AIRport.  Without it Apps will have to rely on centralized
+built on top of AIRport.  Without it Apps will have to rely on centralized
 advertisement platforms for their revenue.  It also makes long term success
 of the project possible, providing revenue to the AIRport team for bug fixes
 and improvements.
 
-We have the experience to get the decentralized Avertisement Engine done:
+We have the experience to get the decentralized Advertisement Engine done:
 
 * High definition model - [Nik Dobrinov](https://www.linkedin.com/in/nikolaydobrinov/) on
 * AI and tensor models - [Andrei Belitski](https://www.linkedin.com/in/dr-andrei-belitski-178b3a75/)
