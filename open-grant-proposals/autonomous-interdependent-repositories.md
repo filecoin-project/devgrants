@@ -10,6 +10,7 @@
 
 * [Project Description](#description)
 * [Value](#value)
+  * [The benefits to getting this right]<a name="benefits"></a>
   * [The risks](#risks)
 * [Economics](#economics)
   * [Monetization](#monetization)
@@ -101,7 +102,7 @@ This:
 * Allows hybrid applications where part of the data is centralized (for 
   large scale sharing) and part is in private Repositories.
   
-
+<pre>
     For example, in an Event Tracking App, data for each event is a separate Repository.
     Other Applications can build upon this App's schema, provide additional schemas 
     for functionality that builds upon the first App.  So, another App can build
@@ -115,8 +116,9 @@ This:
     Event Apps together provides better functionality than the sum of its part Apps.
     Therefore, AIRport enables synergies between Apps where "the whole is greater than
     the sum its parts", reducing the overall costs (and the costs of building each App).
+</pre>
 
-- The benefits to getting this right
+- The benefits to getting this right<a name="benefits"></a>
 
 Each repository is completely autonomous and can be added to a host relational
 database and/or removed from it, at any time, without affecting other
