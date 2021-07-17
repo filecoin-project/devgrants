@@ -17,13 +17,13 @@
     * [Fee model](#fee-model)
 * [Deliverables](#deliverables)
 * [Development Roadmap](#roadmap)
-    * [Phase 1](phase-1)
-    * [Phase 2](phase-2)
-    * [Phase 3](phase-3)
-    * [Phase 4](phase-4)
-    * [Phase 5](phase-5)
-    * [Phase 6](phase-6)
-    * [Phase 7](phase-7)
+    * [Phase 1](#phase-1)
+    * [Phase 2](#phase-2)
+    * [Phase 3](#phase-3)
+    * [Phase 4](#phase-4)
+    * [Phase 5](#phase-5)
+    * [Phase 6](#phase-6)
+    * [Phase 7](#phase-7)
 * [Maintenance and Upgrade Plans](#maintenance)
 * [Team](#team)
 * [Additional Information](#additional-info)
@@ -55,7 +55,25 @@ a Cordova based App). For two Users to share a Repository it must be present
 on their devices, and the schemas used by that repository must be installed
 in AIRport databases on those devices.
 
+    For example, in the below diagram AIRport database contains 2 schemas,
+    one from App A and one from App B.  App A Schema contains table A__TABLE_II
+    and App B Schema contains table B__TABLE_I.  3 repositories are pictured.
+    Repository B1 spans both tables (and thus both schemas).  Repository B2
+    is fully contained in B__TABLE_I.  Repository C1 spans only tables in App
+    B Schema (other tables are not pictured).
+
 ![AIR reposiories](presentations/images/AIRport_diagram_2.png)
+
+Records in AIRport tables are always identified by 3 columns:
+* REPOSITORY_ID - this column contains the Repository's unique identifier
+* REPOSITORY_ACTOR_ID - The id of an "Actor" that created or modified the record
+* ACTOR_RECORD_ID - The id of the record (unique to combination of Repository and Actor)
+
+Combination of these Ids allows for globally unique record identifiers within AIRport
+tables.  It also allows to quickly find all records for a given repository or for
+a given Repository Actor.  In practice, REPOSITORY_ACTOR_ID may also be unique while
+ACTOR_RECORD_ID will be unique to the device it was created on and may repeat in a
+given table because records may be created on different devices.
 
 Each device/phone contains a single AIRport database that is shared by all
 applications on that device.  The composition of the applications on each
