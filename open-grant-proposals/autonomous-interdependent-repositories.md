@@ -10,7 +10,7 @@
 
 * [Project Description](#description)
 * [Value](#value)
-  * [The benefits to getting this right]<a name="benefits"></a>
+  * [The benefits to getting this right](#benefits)
   * [The risks](#risks)
 * [Economics](#economics)
   * [Monetization](#monetization)
