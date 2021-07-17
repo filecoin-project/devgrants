@@ -154,7 +154,9 @@ reviews from multiple points of view, we are now just taking it to the next
 level with automatic, and thus large scale, processing 3D interfaces, and
 aggregate analysis).  The more basic break down interface will be based on the
 same (already thought out and implemented schemas) and will also be based on
-existing UI implementation (will add a simpler 3D axis based UI. for example: 
+existing UI implementation (will add a simpler 3D axis based UI).
+
+For example: 
 
 ```
 X-axis: Liberal - Conservative
