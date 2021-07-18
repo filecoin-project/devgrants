@@ -13,7 +13,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 # Project Description
 
 
-**XDV Protocol** objective is to make any document or metadata, linked data or linked tokens, verifiable within decentralized blockchain stores like Filecoin, decentralized content network like IPFS or hybrid decentralized content network with blockchain features like Swarm Bee. `Verifiable Documents` can be a verified credential as proposed by the Verifiable Credentials model, an ERC-721 standard NFT (Non Fungible Token), a PKCS#11 or PKCS#12 signed document verifiable with government mandated smart cards or as simple as any binary data signed with a DID that can be authenticated and verified with a `proof` (eg proof of residence from a `KYC Know Your Customer`).
+**XDV Protocol** objective is to make any document or metadata, linked data or linked tokens, verifiable within decentralized blockchain stores like Filecoin, decentralized content network like IPFS or hybrid decentralized content network with blockchain features like Swarm Bee. `Verifiable Documents` can be a verified credential as proposed by the Verifiable Credentials model, an ERC-721 standard NFT (Non Fungible Token), a PKCS#11 or PKCS#12 signed document verifiable with government mandated smart cards or as simple as any binary data signed with a DID that can be authenticated and verified with a `proof` (eg proof of residence from a `KYC Know Your Customer` or proof of humanity).
 
 ### Previous Work
 
@@ -32,11 +32,11 @@ Another previous work that we manage to create innovation around it is `did-jwt`
 
 And then we asked ourselves, **what if you could do a RSA Signature enabled blockchain**? We found out that there is actually one project, `NDID` blockchain from Thailand, which is developed with `Tendermint`. 
 
-## Enter XDV: The need for custom tailor made blockchain
+## Enter XDV: The need for custom tailor made protocol
 
-Initially, Substrate was the top pick, but after much research about market conditions (right now is pretty difficult to find Rust engineers) and current team knowledge, we went with Cosmos SDK and Starport. 
+Initially, Substrate was the top pick, but after much research about market conditions (right now is pretty difficult to find Rust engineers) and current team knowledge, we went with Cosmos SDK and Starport. By June 2021 we explored an initial IPLD Cosmos SDK PoC but after thinking about the infrastructure cost to deploy and operate a blockchain it was decided to keep using Tendermint/Cosmos but with a robust chain platform, for that `Secrets Network` fits most of the tech use cases and `supports WASM using CosmWasm and Rust`.
 
-Most of the APIs required to build XDV Protocol are in `Go`. A first protocol draft must contain the basic primitives, and further protocol versions must be able to build on previous work.
+Most of the APIs required to build XDV Protocol are in `Go` but also in `Rust`. A first protocol draft must contain the basic primitives, and further protocol versions must be able to build on previous work.
 
 Considering that signature is just one of the many use cases, and that disparate data sources and structures will be more common in the future, XDV Protocol `lingua franca` is based in `IPLD Schemas` from Protocol Labs.
 
@@ -44,9 +44,7 @@ Thus, the current XDV Protocol Specification:
 
 ### Primitives
 
-- **Files**: Decentralized content storages
-- **Documents**: Document anchoring
-- **NFT**: NFT (Tokenized Metadata or Non Fungible Token)
+- **Files**: Agnostic CID interface which uses `rust-ipld`
 - **OffchainDataSources**: An ODBC inspired oracle based connection with BLS [Trusted Blockchain Oracle Scheme Based on Aggregate Signature](https://www.scirp.org/journal/paperinformation.aspx?paperid=108068)
 
 ### Smart Data Contracts 
@@ -57,6 +55,10 @@ Thus, the current XDV Protocol Specification:
 
 Allows to configure access controls on data nodes and sources.
 
+### HTLC
+
+There are many NFT platform that need metadata decoupling and lack proper way to cross chain swap metadata. Here we'll try to use time lock contracts  to swap metadata uri betweens chains.
+
 ## Value
 
 Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
@@ -64,6 +66,10 @@ Please describe in more detail why this proposal is valuable for the Filecoin ec
 it could replace oracles gen 1, where every data feed requires extensive development time
 
 ### Use Cases
+
+#### Cross chain NFT metadata uri token swap
+
+A NFT chain has no EVM presence, but metadata uri is stored in XDV Protocol. They need to be able to peg the ERC-721 compatible token and swap metadata uri while keeping the merkle tree proof / CID in XDV Protocol.
 
 #### Insurance Claims
 
@@ -105,14 +111,13 @@ finding knowledgable IPLD engineers
 
 ## Deliverables
 
-- Document Anchoring
+
 - Files with IPLD API
 - Support for XDV, IPFS, Swarm Storage
 - RSA Transaction validation / signing
 - "Smart Data Contracts": Code IPLD Schemas, merkle proof verifiable, which can be NFT tokenized, or any linked data format
 - Data Subscriptions: Subscribe IPLD Queries to oracles to execute jobs or actions
-- Supports DID and Verified Credentials
-
+- Cross swap NFT metadata uri
 
 ## Development Roadmap
 
@@ -128,59 +133,62 @@ For each milestone, please describe:
 ## Primitives
 
 ### M1
-### File
+### Metadata / File storage rust-ipld
 
 - XDV storage (IPLD+Cosmos PoC) - 100%
-- IPFS - 0%
-- Swarm Bee - 0%
-- XDV Node Provider (CosmJS Client integration with XDV Universal Wallet) - 0%
+- XDV Node Provider (CosmJS Client integration with XDV Universal Wallet) - 100%
+- Migrate to Secrets Network
+- Unit tests
+- Documentation
+- Integration with XDV BSC Smart Contracts
+- MVP 1 Release
 
-Estimation: 5 weeks - 1 Aug - Sept
+Estimation: 8 weeks - 1 Aug - 30 Sept
 
+Take existing PoC, move it to Rust / Secrets Network, create unit tests and documentation, create sample apps. Then update
+client package and integrate with existing EVM Smart Contracts
+
+Expect: Metadata compatible with ipld/multiformats
+Funds: $28 000
 Team: Rogelio Morrell, Fernando Romero
 
-### Document Anchoring / NFT
 
-> Note: Document model already done.
+### M2
+### HTLC
 
-- Simple Document Anchoring to File model, should support the three providers - 0%
-- NFT Tokenization with MetadataURI linked to File - 0%
+- Implement HTLC
+- Create Adapter / Wrapper chain API
+- Implement Flow adapter
+- Implement EVM adapter
+- Unit tests
+- Documentation
+ - MVP 2 Release
 
-Estimation: 3 - 4 weeks   - Sept 30
+Estimation: 12 weeks - 1 Oct - 31 Dec
 
-Team: Rogelio Morrell, Fernando Romero
+Expect: Must be able  to swap NFT tokens using M1 metadata feature
 
-### Offchain Data Sources (Oracles)
+Funds: $62 000
+Team: Rogelio Morrell, Fernando Romero, Edgar Sucre
 
-- Implement Cosmos Oracle module
-- Implement IPLD Schema integration with Oracle Module
-- Integration Tests with Document, NFT an File APIs
-- Research how to Proof / Validate offchain data feeds (in case Cosmos Oracle module doesn't have it)
 
-Estimation: 8 weeks
+### M3
+### Compute Data Contracts
 
-Team: Edgar Sucre, Fernando Romero - Oct 15
+- Implement offchain worker
+- Implement IPLD / Serde Compute Data contracts v1
+- Unit tests
+- Documentation
+ - MVP 3 Release
 
-### Smart Data Contracts
+Estimation: 8 weeks - 1 Jan - 1 Mar
 
-- Add integration between core primitives and CosmWasm smart contracts
-- Implement Test Use Cases: `NFT Metadata Query  Trigger`, `Electronic Invoicing Trigger`, `Legal Agreement Insurance Claim Trigger`
-- Implement Sample Smart Data Contracts using `Rust`, `Go`, `AssemblyScript`
+Expect: Must be able  to compute linked  data sources using M1 metadata/files feature
 
-Estimation: 8 weeks
+Funds: $40 000
+Team: Rogelio Morrell, Fernando Romero, Edgar Sucre
 
-Team: Rogelio Morrell, Edgar Sucre, Fernando Romero - Dec 15
-
-### Security
-
-- RBAC
-- ACL
-- RSA Signatures
-- Tests
-
-Estimation: 4 weeks                            - Dec 30
-
-Team: Rogelio Morrell
+**Note**: Security and cryptographic features built in provided by Secrets Networks
 
 #### Roles
 
@@ -188,7 +196,7 @@ Rogelio Morrell: Lead Architect and Developer
 Edgar Sucre: Architect and Developer
 Fernando Romero: Architect and Developer
 
-Total = around 4 months 
+Total = around 7 months 
 
 
 ## Total Budget Requested
@@ -197,7 +205,7 @@ RM=7k / month
 ES=7k / month
 FR=7k / month
 
-4 months at 7,000 per three architect/developers  (seasoned engineers) = $84,000 
+3 deliverables = $130,000 
 
 
 ## Maintenance and Upgrade Plans
@@ -232,13 +240,14 @@ Yes, we will practically based our business around this open source blockchain a
 
 ## Team Website
 
+- https://testnet.xdv.digital
 - https://industriasdao.com
 - https://ifesa.tech
 - https://docs.xdv.digital
 
 ## Relevant Experience
 
-**Rogelio Morrell**, PAID Network Lead Architect, KLIP NFT Lead Architect, XDV Inventor, created XDV Universal Wallet, XDV Workflow Contracts and `did-jwt-rsa`.
+**Rogelio Morrell**, PAID Network Lead Architect, Ikonic.gg NFT Lead Architect, XDV Inventor, created XDV Universal Wallet, XDV Workflow Contracts and `did-jwt-rsa`.
 
 **Edgar Sucre**, Crypto Exchange Alliance, renamed to Fluid Finance, Lead Architect.
 
