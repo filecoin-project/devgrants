@@ -46,14 +46,12 @@ Thus, the current XDV Protocol Specification:
 
 - **Files**: Agnostic CID interface which uses `rust-ipld`
 - **OffchainDataSources**: An ODBC inspired oracle based connection with BLS [Trusted Blockchain Oracle Scheme Based on Aggregate Signature](https://www.scirp.org/journal/paperinformation.aspx?paperid=108068)
+- More references: https://medium.com/coinmonks/the-simple-price-oracle-verification-based-on-bls-key-aggregation-and-n-of-n-multisignature-902e4aa3c66
 
 ### Smart Data Contracts 
 
 - **Smart Data Contracts** uses the underlying primitives as API to build next generation ETL / Map Reduce like functions, where every data node is linkable and verifiable. 
 
-### RBAC And ACL  (Role Based Access and Access Control Lists)
-
-Allows to configure access controls on data nodes and sources.
 
 ### HTLC
 
@@ -129,7 +127,7 @@ Documentation for client and smart contracts integration for Secrets Network, Bi
 `Cross metadata swap` feature involves Flow <> EVM metadata uri swap between tokens. First, create a WASM built with Wasmer bindings for Flow Go SDK
 (https://github.com/onflow/flow-go-sdk) and add Rust web3 client (https://crates.io/crates/web3)
 
-Migrate Iris network Cosmos SDK HTLC Go implementation to Rust (https://github.com/irismod/htlc/tree/master/keeper).
+Use CosmWasm Atomic Swap implementation  (https://github.com/CosmWasm/cosmwasm-plus/tree/main/contracts/cw20-atomic-swap)
 
 Create an adapter design pattern similar to one used in REN Protocol, and create adapters for Flow and EVM (depending on Secrets Network BSC bridge API).
 The adapter interface similar to 
@@ -155,7 +153,22 @@ Documentation for client and smart contracts integration for Secrets Network, Bi
 
 ### Compute Data Contracts
 
-#### TODO WIP
+#### Spec
+
+By using `Secrets Network` vast open source tooling, we can then create a Smart Data Contract or Compute Data Contracts, to emphasis the use of Secrets Network Compute module.
+
+We plan to have a set of smart contracts:
+
+- Oracle contract to get real time data feeds from sources like Splunk, SIEMs, Databases. (https://github.com/enigmampc/secret-oracle/blob/master/src/contract.rs)
+- HSM signer contract (https://github.com/enigmampc/secret-vault)
+- Compute IPLD contract
+- Compute Serde contract
+- Offchain Worker 
+
+WIP --- not done
+
+
+
 
 ## Development Roadmap
 
