@@ -112,12 +112,50 @@ finding knowledgable IPLD engineers
 ## Deliverables
 
 
-- Files with IPLD API
-- Support for XDV, IPFS, Swarm Storage
-- RSA Transaction validation / signing
-- "Smart Data Contracts": Code IPLD Schemas, merkle proof verifiable, which can be NFT tokenized, or any linked data format
-- Data Subscriptions: Subscribe IPLD Queries to oracles to execute jobs or actions
-- Cross swap NFT metadata uri
+### Metadata / File storage rust-ipld
+
+#### Spec
+
+Create a multiformat `xdv` and implement Go PoC in Rust for Secrets Network chain. Besides smart contract, we'll need a JSON RPC gateway. The API must be 100% compatible with IPFS, ie `POST /add` and other relevant REST methods. It must have an interface with events to register `cross chain swaps` events.
+
+It won't be chunk like protocol, more like `microstorage` for usage with NFT, the protocol might have some rate limiting features.
+
+Documentation for client and smart contracts integration for Secrets Network, Binance Smart Chain and EVM must be documented with sample code.
+
+### HTLC
+
+#### Spec
+
+`Cross metadata swap` feature involves Flow <> EVM metadata uri swap between tokens. First, create a WASM built with Wasmer bindings for Flow Go SDK
+(https://github.com/onflow/flow-go-sdk) and add Rust web3 client (https://crates.io/crates/web3)
+
+Migrate Iris network Cosmos SDK HTLC Go implementation to Rust (https://github.com/irismod/htlc/tree/master/keeper).
+
+Create an adapter design pattern similar to one used in REN Protocol, and create adapters for Flow and EVM (depending on Secrets Network BSC bridge API).
+The adapter interface similar to 
+
+```
+interface MetadataSwapInterface {
+    swap(string from, string to, network toNetwork, string metadatauri)
+    Swap(event name, ...args)
+    supportsNetwork(type)
+}
+```
+
+The swap interface depending on the adapter, must be able to do HTLC based on the network `to` argument. This can be verified by calling `supportsNetwork`,
+
+The HTLC events must match any event sequence handle by each token implementation, ie `Mint` event in an BSC NFT token must match tx id in `MetadataSwapInterface` in `Swap` event.
+
+Besides the Flow and EVM implementation, a MockAdapter will be added as sample.
+
+Once tested and QA in testnet, launch in mainnet.
+
+Documentation for client and smart contracts integration for Secrets Network, Binance Smart Chain and EVM must be documented with sample code.
+
+
+### Compute Data Contracts
+
+#### TODO WIP
 
 ## Development Roadmap
 
