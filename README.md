@@ -85,8 +85,8 @@ Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
-RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
-
+RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                             
+                                                                                                               
 ### Submit a proposal for open grants
 
 Here are the steps to submit a proposal for the open grant category!
