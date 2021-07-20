@@ -57,7 +57,7 @@ L2 is required, as most of the SDKs for these use cases are in `Go`.
 - **Smart Data Contracts** uses the underlying primitives as API to build next generation ETL / Map Reduce like functions, where every data node is linkable and verifiable. 
 
 
-### HTLC / Atomic Swaos
+### HTLC / Atomic Swaps
 
 There are many NFT platform that need metadata decoupling and lack proper way to cross chain swap metadata. Here we'll try to use time lock contracts  to swap metadata uri betweens chains.
 
