@@ -42,9 +42,13 @@ Considering that signature is just one of the many use cases, and that disparate
 
 Thus, the current XDV Protocol Specification:
 
+### A Layer 2 Solution Approach
+
+L2 is required, as most of the SDKs for these use cases are in `Go`. 
+
 ### Primitives
 
-- **Files**: Agnostic CID interface which uses `rust-ipld`
+- **Files**: Agnostic CID interface which uses `rust-ipld` / CosmWasm Smart contracts or `go-prime-ipld`
 - **OffchainDataSources**: An ODBC inspired oracle based connection with BLS [Trusted Blockchain Oracle Scheme Based on Aggregate Signature](https://www.scirp.org/journal/paperinformation.aspx?paperid=108068)
 - More references: https://medium.com/coinmonks/the-simple-price-oracle-verification-based-on-bls-key-aggregation-and-n-of-n-multisignature-902e4aa3c66
 
@@ -53,7 +57,7 @@ Thus, the current XDV Protocol Specification:
 - **Smart Data Contracts** uses the underlying primitives as API to build next generation ETL / Map Reduce like functions, where every data node is linkable and verifiable. 
 
 
-### HTLC
+### HTLC / Atomic Swaos
 
 There are many NFT platform that need metadata decoupling and lack proper way to cross chain swap metadata. Here we'll try to use time lock contracts  to swap metadata uri betweens chains.
 
@@ -77,12 +81,12 @@ Insurance brokers or directly via website, sells policies to end users. They can
 To listen and execute next flow, the claim will require additionally integration linked to brokers, issuer (insurance), policy holders agents (VC agent) and other offchain data sources. 
 
 - `Claim` is filed thru decentralized automated legal tech (`broker`) and sent to insurance company.
-- `Policy` is verified by back office and updated in centralized solution. `Broker` has one of 5 trusted XDV Node with offchain worker connected to centralized API.
-- After XDV Nodes come to a consensus, an event  triggers  a `smart data contract` and orchestrate trusted data which then is computed and notified to subscribers
+- `Policy` is verified by back office and updated in centralized solution. `Broker` uses XDV Protocol oracle contracts
+- After oracle come to a consensus, an event  triggers  a `smart data contract` and orchestrate trusted data which then is computed and notified to subscribers
 
 #### EDI Orders and Invoicing
 
-A XDV Node network of 7 peers is setup to integrate EDI orders with offchain workers. The grocery consortium each one has different types of data structures, they are looking for:
+XDV protocol integrates EDI orders with offchain workers. The grocery consortium each one has different types of data structures, they are looking for:
 
 - Verify EDI orders signed with RSA
 - Convert them to electronic invoice and cloned to XDV Node XDV Storage and configure with RBAC/ACL
@@ -93,7 +97,7 @@ A XDV Node network of 7 peers is setup to integrate EDI orders with offchain wor
 In this use case, you have a pharmaceutical company, government and patients. To keep the diverse data verifiable and able to be query and used for other, non transactional uses, and because cost savings is very important in these implementations, they decide to use XDV Node and implement XDV protocol as following:
 
 - Pharma company has their vaccine data in Ethereum private blockchain, because is private, decentralized chain, it can be thought as a sidechain. These transactions can be duplicated in XDV Node, and keep the data with selective disclosure or encrypted using XDV or IPFS Storage. 
-- Government keeps  its data in CSV Tabular format. They would like to keep these as usual, with XDV Node, because it uses IPLD Schemas, the government selects the codec format for JSON Table. Any request from the data will be render and store as JSON Table. For this to work, they'll need to add 3 or 5 oracle which will sync with XDV Node. Because each oracle will use BLS to sign for proof, it should be more secure than other providers.
+- Government keeps  its data in CSV Tabular format. They would like to keep these as usual, with XDV Node, because it uses IPLD Schemas, the government selects the codec format for JSON Table. Any request from the data will be render and store as JSON Table. For this to work, they'll need to use oracle which will sync with XDV Node. Because each oracle will use BLS to sign for proof, it should be more secure than other providers.
 - Patients get mobile and desktop DApps to keep track of news and events.
 
 Pharma and Government, besides the transactional integration which keeps accountability of vaccine success, can also create `smart data contracts`. A `smart data contract` aggregates, orchestrate and maps linked, verifiable data from the chain transactions and connected. 
@@ -114,18 +118,19 @@ finding knowledgable IPLD engineers
 
 #### Spec
 
-Create a multiformat `xdv` and implement Go PoC in Rust for Secrets Network chain. Besides smart contract, we'll need a JSON RPC gateway. The API must be 100% compatible with IPFS, ie `POST /add` and other relevant REST methods. It must have an interface with events to register `cross chain swaps` events.
+Create a multiformat `xdv` and migrate PoC to XDV Node (Go) and/or Rust. The API must be 100% compatible with IPFS, ie `POST /add` and other relevant REST methods. It must have an interface with events to register `cross chain swaps` events.
 
 It won't be chunk like protocol, more like `microstorage` for usage with NFT, the protocol might have some rate limiting features.
 
-Documentation for client and smart contracts integration for Secrets Network, Binance Smart Chain and EVM must be documented with sample code.
+Documentation for client and smart contracts integration for XDV Node L2, Secrets Network, Binance Smart Chain and EVM must be documented with sample code.
 
 ### HTLC
 
 #### Spec
 
-`Cross metadata swap` feature involves Flow <> EVM metadata uri swap between tokens. First, create a WASM built with Wasmer bindings for Flow Go SDK
-(https://github.com/onflow/flow-go-sdk) and add Rust web3 client (https://crates.io/crates/web3)
+`Cross metadata swap` feature involves Flow <> EVM metadata uri swap between tokens. 
+
+XDV Node L2 will manage Flow, Ethereum or Swarm Go SDK integrations.
 
 Use CosmWasm Atomic Swap implementation  (https://github.com/CosmWasm/cosmwasm-plus/tree/main/contracts/cw20-atomic-swap)
 
@@ -161,12 +166,68 @@ We plan to have a set of smart contracts:
 
 - Oracle contract to get real time data feeds from sources like Splunk, SIEMs, Databases. (https://github.com/enigmampc/secret-oracle/blob/master/src/contract.rs)
 - HSM signer contract (https://github.com/enigmampc/secret-vault)
-- Compute IPLD contract
-- Compute Serde contract
-- Offchain Worker 
 
-WIP --- not done
 
+XDV Node L2 API is required here to be able to use the latest official Go SDKs for `go-ipld-prime`, `protobuf`, `go-ethereum`, `ethersphere\bee` and others. 
+
+XDV Node L2 must be able to:
+
+- PubSub data feeds from oracles
+- REST API  to run jobs, create smart data contracts, and any other CRUD operation
+- Output IPLD results to smart contract
+- ETL interface must accept either IPLD Schemas or Protobuf
+- Enable RSA Signing
+
+
+#### A sample XDV Smart Data Contract might look like
+
+```go
+func (xdv XDVDataContract) HelloWorldComputeContract(
+	ctx sdk.Context,
+	note Note,
+) NodeAssembler {
+    // Inputs
+    
+    // 1 - Runtime input
+    nodeRuntime, _ := xdv.contracts.Data.ReadDataFromCID(`bafy................`)
+    
+    // 2 - Args input    
+    nodeArgs, _ := xdv.contracts.Data.ReadDataFromCID(FromWhitelistedArgs(node.myCID))    
+    
+    // 3 - Oracle data feed
+    // XDV oracles MUST translate ANY data feed to multiformat CID to be compatible with Smart Data Contracts specification
+    nodeOracleFeed, _ := xdv.contracts.Data.ReadOracleDataFromCID(oracleID, itemCid)
+    
+    // =============================================================
+    // Compute or Map  Reduce
+    // =============================================================
+	np := basicnode.Prototype.Any // Pick a prototype: this is how we decide what implementation will store the in-memory data.
+	nb := np.NewBuilder()         // Create a builder.
+	ma, _ := nb.BeginMap(5)       // Begin assembling a map.
+	ma.AssembleKey().AssignString("hey")
+	ma.AssembleValue().AssignString("it works!")
+	ma.AssembleKey().AssignString("yes")
+	ma.AssembleValue().AssignBool(true)
+    
+    // Note: pseudocode
+    ma.AssembleEntry("runtimelink").AssembleLink(nodeRuntime.Link)
+    ma.AssembleEntry("argslink").AssembleLink(nodeArgs.Link)
+    ma.AssembleEntry("oraclefeedlink").AssembleLink(nodeOracleFeed.Link)
+	ma.Finish()     // Call 'Finish' on the map assembly to let it know no more data is coming.
+	n := nb.Build() // Call 'Build' to get the resulting Node.  (It's immutable!)
+
+    // ===================================================================================
+    // Output store in XDV Protocol smart contracts
+	res, _ := xdv.contracts.Storage.MarshalDagJson(n) // we can add a network/chain type to store it (eg Filecoin)
+    // res, _ := xdv.contracts.Storage.MarshalDagCbor(n)
+
+     return res;
+	// Render JSON Output:
+	// {"hey":"it works!","yes":true, "runtimelink": "bafy.....", argslink: "Qm.......", "oraclefeedlink": "xaadddd....." }
+}
+```
+
+We should be able to 1) Consume any `structure dataset` (eg CSV, JSON, XML, DB using oracle data feeds) by using multiformats compatible with IPLD and 2) Transform, query and output (also known as map reduce) computed data.
 
 
 
@@ -194,14 +255,14 @@ For each milestone, please describe:
 - Integration with XDV BSC Smart Contracts
 - MVP 1 Release
 
-Estimation: 8 weeks - 1 Aug - 30 Sept
+Estimation: 6 weeks - 1 Aug - 15 Sept
 
-Take existing PoC, move it to Rust / Secrets Network, create unit tests and documentation, create sample apps. Then update
+Take existing PoC, move it to L2 / Rust / Secrets Network, create unit tests and documentation, create sample apps. Then update
 client package and integrate with existing EVM Smart Contracts
 
 Expect: Metadata compatible with ipld/multiformats
-Funds: $28 000
-Team: Rogelio Morrell, Fernando Romero
+Funds: $12 000
+Team: Rogelio Morrell
 
 
 ### M2
@@ -215,11 +276,11 @@ Team: Rogelio Morrell, Fernando Romero
 - Documentation
  - MVP 2 Release
 
-Estimation: 12 weeks - 1 Oct - 31 Dec
+Estimation: 10 weeks - 1 Sept - 1 Dec
 
 Expect: Must be able  to swap NFT tokens using M1 metadata feature
 
-Funds: $62 000
+Funds: $52 000
 Team: Rogelio Morrell, Fernando Romero, Edgar Sucre
 
 
@@ -227,10 +288,10 @@ Team: Rogelio Morrell, Fernando Romero, Edgar Sucre
 ### Compute Data Contracts
 
 - Implement offchain worker
-- Implement IPLD / Serde Compute Data contracts v1
+- Implement IPLD / Protobuf Compute Data contracts v1
 - Unit tests
 - Documentation
- - MVP 3 Release
+- MVP 3 Release
 
 Estimation: 8 weeks - 1 Jan - 1 Mar
 
@@ -256,7 +317,7 @@ RM=7k / month
 ES=7k / month
 FR=7k / month
 
-3 deliverables = $130,000 
+3 deliverables = $104,000 
 
 
 ## Maintenance and Upgrade Plans
