@@ -16,3 +16,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | Team | Project | Link | Application Issue Link | 
 | :--- | :------ | :--- | :--------: | 
 |      |         |      |            |
+| @beeleelee | filplus.info | [Github](https://github.com/filedrive-team/filplus-info)| [#82](https://github.com/filecoin-project/devgrants/issues/270) |
