@@ -1,6 +1,6 @@
 # Open Grant Proposal: Improve the stability of the lotus miner
 
-**Name of Project:** Improve the stability of lotus miner
+**Name of Project:** Decoupling WinningPoSt and WindowPoSt from lotus-miner
 
 **Proposal Category:** `core-dev`
 
