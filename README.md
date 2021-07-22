@@ -1,8 +1,6 @@
 # Filecoin Devgrants
 
-> **Wave 6 grant proposals are due January 15, 2021 for priority consideration. We will continue to evaluate new proposals after that deadline as capacity allows.**
-
-> Learn about Waves 4 & 5 projects and Gitcoin Grants for Filecoin here in this [Filecoin blogpost](https://filecoin.io/blog/filecoin-dev-grants-wave-4-5-gitcoin/).
+> Learn more about Wave 7 grantees in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
   <img src="https://github.com/filecoin-project/devgrants/blob/master/img/Filecoin_Grants_illustrations.png" style="width:1300px;>
@@ -10,7 +8,7 @@
 
 > Hello and welcome to the home page of the Filecoin Dev Grants program! If you haven't already checked it out, you can read more about the motivations behind the program on [the Filecoin Foundation website](https://fil.org/grants/). 
 
-> **Note:** As of wave 5, the Dev Grants program is administrated by the newly formed [Filecoin Foundation](https://fil.org/), with ongoing assistance from Protocol Labs.
+> **Note:** The Dev Grants program is administrated by the [Filecoin Foundation](https://fil.org/).
 
 > You can see updates about major project milestones on [the Filecoin blog](https://filecoin.io/blog).
 
@@ -47,10 +45,12 @@ We’re looking to fund talented and eager teams that want to work with us to bu
 
 ### Types of grants
 
-We currently offer 2 types of grants:
+We currently offer 3 types of grants:
 1. **Requests for Proposals (RFPs)**: RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped *deliverables, milestones, and funding limits*. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. See [RFP submission details](#submit-a-proposal-for-an-rfp) for more information on how to apply for RFPs. Relevant proposals will be labeled [`proposal-type:rfp`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Arfp).
 2. **Open grants**: If you have an idea for something that isn't covered by an open RFP, you can submit a proposal to our open grants category! This is where you get to be really creative; we can't wait to see what you propose! We will review these proposals on the same cadence as RFP proposals (i.e. once every quarter, read more about timing in [Timing and Deadlines](#timing-and-deadlines)). See [open grant submission details](#submit-a-proposal-for-open-grants) for more information on how to submit a proposal. Relevant proposals will be labeled [`proposal-type:open`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen).
-
+3. **Next step grants (Microgrants)**: Grants of $5,000 in FIL are available to support taking the next step after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.
+Acceptance criteria are very simple, and work is expected to be complete within 2 months. See [next step grant details](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) for more information on how to submit a proposal.
+                                                                                                                    
 ### Categories
 
 All of our RFPs and open grants fund work in a few core categories. Over time, these categories may change/expand, so please keep a watch on this space!
@@ -71,19 +71,6 @@ All of our RFPs and open grants fund work in a few core categories. Over time, t
 
 ## 📋 How to apply
 
-### Timing and Deadlines
-
-We will start a new grants cycle, or `wave`, every quarter i.e. every 3 months. Therefore, the last day of each quarter is the deadline for all proposals in that wave. 
-
-| Wave No. | Wave Opens | Wave Deadline |
-| --- | --- | --- |
-| 5 | July 1, 2020 | October 1, 2020, 11:59PM PT |
-| 6 | October 1, 2020 | January 15, 2021, 11:59PM PT |
-
-After the wave deadline, we will spend a few weeks reviewing proposals on GitHub, leaving comments, asking questions, and requesting changes. Ultimately, we approve or reject each proposal that was submitted within each wave. Our aim is to do this within a few weeks after each wave deadline. Please note that if your team isn't responsive on GitHub, or doesn't provide the information requested in a timely fashion, your proposal likely will not be accepted. So pay attention to GitHub after you submit your proposal!
-
-Note that there is a chance (but no guarantee) your proposal will be reviewed earlier than the wave deadline. Because grants are awarded on a rolling basis, strong proposals that are submitted early might have a slight advantage on the off-chance we review before the wave deadline. Of course, there is no guarantee that we will review proposals before the deadline, so it's up to you whether you want to submit well before the deadline or not!
-
 ### Eligibility
 
 - All projects must be open-sourced
@@ -97,24 +84,31 @@ All of our currently open RFPs are listed in the [`rfps` folder](rfps/).
 Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
-
-**Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (at which point, the RFP might be closed).**
-
+                                                                                                                        
+RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                             
+                                                                                                               
 ### Submit a proposal for open grants
 
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+                                                                                                                        
+Open Grant proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
 
-
-**Remember to submit your PR before the wave deadline. PRs submitted after the deadline will be considered in the next wave (which means a 3-month delay in review for your proposal).**
-
+### Submit a proposal for microgrants
+                                                                                                                        
+Here are the steps to submit a proposal for a microgrant!
+1. Submit an issue on this repo. Make sure to fill in all the categories of the proposal [template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E) (incomplete proposals will not be considered).
+                                                                                                                        
+Microgrant applications are reviewed every 2 weeks.                                                                                                                        
+                                                                                                                        
+                                                                                                                        
 ## ⌛ After you apply
 
-After you submit your proposal -- assuming you get it in by the deadline -- you can expect the following to occur:
+After you submit your proposal, you can expect the following to occur:
 
-- After the wave deadline, we will review all PRs. During our review, we will add comments, questions, change requests, etc, on your team's PR.
+- We will review your application. During review, we will add comments, questions, change requests, et cetera on your team's submission.
 - After a few round trips of discussion, our team will make a decision on which proposals to fund and which not to. <!--Accepted proposals will be merged into the appropriate directory, i.e. either [`open-grant-proposals`](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) or [`rfp-proposals`](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals).-->
-- During the discussion and review phase, our team will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
+- During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
 - If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant (whether it's an RFP or open grant), we may stop funding your team for further development work.
 - We aim to complete all review within a few weeks after the wave deadline, so please stay vigilant on GitHub. If we don't hear back from you when we ask you a question or request changes on your proposal, it's very unlikely that your proposal will be accepted!
 
@@ -130,16 +124,15 @@ If you would like to propose an RFP for the Filecoin ecosystem, you've come to t
 4. Create an issue with the appropriate Category tag and a link to the merged RFP doc. This is where community members will have discussions, ask you questions, and more, so please monitor this thread!
 5. Once you have selected your grant winners, you may submit a PR to move the RFP into an `inactive-rfps` folder or keep the RFP open for further submissions.
 
-Please contact [@philippbanhardt](https://github.com/philippbanhardt) or email devgrants@filecoin.org for any questions.
+Please contact `@Sonia John` on Filecoin Slack ([invite](http://filecoin.io/slack)) or email grants@filecoin.org with any questions.
 
 ## ℹ️ Help
 
 If you have any questions, please ask them!
 - File an issue in this repo
-- Ask on our [community forum](https://discuss.filecoin.io/c/devgrants)
 - Join our [community chat](https://github.com/filecoin-project/community#chat)
 
-Additionally, check out [these resources](https://filecoin.io/resources/) to learn more about Filecoin.
+Additionally, check out [filecoin.io](https://filecoin.io) or the [Filecoin Docs](https://docs.filecoin.io) to learn more about Filecoin.
 
 ## License
 
@@ -148,3 +141,5 @@ The Filecoin Project is dual-licensed under Apache 2.0 and MIT terms:
 - Apache License, Version 2.0, ([LICENSE-APACHE](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-APACHE
 ) or http://www.apache.org/licenses/LICENSE-2.0)
 - MIT license ([LICENSE-MIT](https://github.com/filecoin-project/devgrants/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+All Filecoin dev grant projects are open sourced and also use these licenses.
