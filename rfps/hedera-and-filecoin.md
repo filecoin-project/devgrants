@@ -48,17 +48,17 @@ Proposals should include a value proposition about how it will benefit the Filec
 
 Proposals should include:
 
-Project Description
-Brief description
-Value to the Filecoin ecosystem
-Deliverables
-An explanation of your technical solution and architecture
-Imagine that an experienced software developer will evaluate your proposal
-Milestones & Funding requested
-Most projects have 2-4 milestones
-Budget and estimated timeframe for each milestone
-Team
-Roles and Experience
+* Project Description
+* Brief description
+* Value to the Filecoin and Hedera ecosystems
+* Deliverables
+* An explanation of your technical solution and architecture
+* Imagine that an experienced software developer will evaluate your proposal
+* Milestones & Funding requested (most projects have 2-4 milestones)
+* Budget and estimated timeframe for each milestone
+* Team
+* Roles and Experience
+
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
 To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by August 30, 2021 for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.
