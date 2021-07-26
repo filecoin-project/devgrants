@@ -2,34 +2,36 @@
 
 This is a Request for Proposals for projects that combine Hedera’s efficient, flexible public ledger technology with Filecoin’s large-scale verifiable storage capabilities.
 
-[Hedera](https://hedera.com/) is a decentralized public ledger designed for efficient, low-cost transactions, such as supply chain, verifiable proofs for data, payments, advertising, tokenization of assets, and more. However, it is not optimized for persistent storage of large files or object data (e.g. over TODO SIZE).
+[Hedera](https://hedera.com/) is a decentralized public ledger designed for efficient, low-cost transactions, such as supply chain, verifiable proofs for data, payments, advertising, tokenization of assets, and more. However, it is not optimized for persistent storage of large files or object data.
 
 [Filecoin](https://filecoin.io/) is a decentralized peer-to-peer storage network, allowing anyone to store and validate large-scale data as part of a global, 6-exabyte (and growing) network. Under the hood, all Filecoin nodes use the InterPlanetary File System (IPFS), a content-addressed protocol for storing and sharing data.
 
 Together, there are many possibilities to maximize trust for in-game assets, art, music, supply chain, financial applications, and more. The Hadera HTS demo (https://github.com/hashgraph/hedera-hts-demo/) shows how HTS metadata can be stored on the IPFS and Filecoin networks, via the NFT.storage API.
 
-To encourage new projects that make creative use of these possibilities, Hedera and Filecoin are jointly offering up to $XXX in grant funding for projects in the following areas:
+To encourage new projects that make creative use of these possibilities, Hedera and Filecoin are jointly offering **up to USD $200,000** in grant funding for projects in the following areas:
 
-1. **Decentralized Storage SDK for Hedera**
-SDK that allows Hedera users to seamlessly employ decentralized storage offered by miners in different regions of the world with a reference implementation.
-[First prize: X, Second prize: X]
+## 1. **Decentralized Storage SDK for Hedera & Demo Application**
+We want to make it easy for builders using Filecoin Storage and Hedera Token Service to integrate the two into their applications. This grant will be awarded for an SDK that seamlessly integrates existing Hedera and Filecoin toolchains. It should enable non-fungible tokenization and allow storage of larger files associated with Hedera Token Service tokens (such as digital art, music, JSON metadata, etc.) on the Filecoin network.
 
-2. **Database APIs**
-This request is for proposals for database overlays to make interacting with raw storage on Filecoin easier and more efficient.
-[First prize: X, Second prize: X]
+The accompanying demo application must use this SDK to build an open source end-to-end NFT marketplace demo application to 1) Showcase the functionality of the Decentralized Storage SDK and 2) Be used by other developers in the community as a reference architecture. The demo application should include:
+1. NFTs created on Hedera.
+2. Multimedia associated with the NFT stored on Filecoin.
+3. [JSON metadata schema](https://github.com/hashgraph/hedera-improvement-proposal/blob/master/HIP/hip-10.md) associated with those NFTs on Filecoin.
+4. Accepting HBAR and FIL (at a minimum) for payment of NFTs.
 
-3. **Smart Data Applications**
-TODO - what is intended here?
+[Prize: $75,000]
+
+## 2. **Real-world Applications**
+These grants will be awarded to proposals for real-world applications that utilize both [Hedera Token Service (HTS)](http://hedera.com/token-service) and Filecoin decentralized storage. Developers can be as creative as they’d like — there are no strict requirements as to the type of application or use case, but it must utilize both Hedera HTS and Filecoin.
+
+[First prize: $50,000; Second prize: $40,000; Third prize: $20,000; Fourth prize: $10,000; Fifth prize: $5,000]
 
 ---
 
-### Additional Notes
-* Proposals may build on Hedera and Filecoin directly, or use libraries or services that provide abstractions to simplify such as Textile Buckets, NFT.storage, Estuary, et cetera.
+#### Additional Notes
+
+* Proposals may build on Hedera and Filecoin directly, or use libraries or services that provide abstractions to simplify such as [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera.
 * Projects outside these listed areas are welcome and encouraged to apply for grant funding via the [Filecoin Dev Grants](https://github.com/filecoin-project/devgrants/) program.
-
----
-
-TODO Clean up next 2 sections
 
 #### Proposal Guidelines
 
@@ -59,4 +61,4 @@ Team
 Roles and Experience
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
-To submit a proposal, fork and make a PR to this repo by [DEADLINE] (For priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.).
+To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by August 30, 2021 for priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.
