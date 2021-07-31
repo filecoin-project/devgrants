@@ -1,14 +1,13 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+# Open Grant Proposal: `Computation based on IPFS/Filecoin Network`
 
-# Open Grant Proposal: `Project Title`
-
-**Name of Project:**
+**Name of Project:**  `Computation based on IPFS/Filecoin Network`
 
 **Proposal Category  `devtools-libraries`
 
 **Proposer:** `flyworker`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?: Yes
+
 # Project Description
 
 In this project we are creating a way using IPFS/Filecoin data as input for runing computing on filecoin networ. Use can submit tasks to the service provider, aske to provide runing the task for them and store the task result on IPFS.
