@@ -17,3 +17,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | :--- | :------ | :--- | :--------: | 
 |      |         |      |            |
 | @beeleelee | filplus.info | [Github](https://github.com/filedrive-team/filplus-info)| [#82](https://github.com/filecoin-project/devgrants/issues/270) |
+| @cgpiao | DatSphere | [Github](https://github.com/cgpiao/datsphere)| [#278](https://github.com/filecoin-project/devgrants/issues/278) |
