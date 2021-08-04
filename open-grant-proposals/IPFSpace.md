@@ -32,11 +32,9 @@ Based on the economic model of the native token Like, IPFSpace can bring power t
 
 ## Deliverables
 
-IPFS has three components: networkDisk and dataSharing and datauery
+IPFS has three components: networkDisk and dataSharing and dataQuery
 
 NetworkDisk: 
-Users can upload data, download data, edit data and other operations, it provides 
-
 -	Multiple user authentication methods
 -	Invalid login to upload data
 -	File encryption
@@ -49,17 +47,14 @@ Users can upload data, download data, edit data and other operations, it provide
 
 
 DataSharing: 
-User can add CC and metadata for each data and join data-share-pool 
 -	Authentication of user licenses / licensed agreement 
 -	File metadata can be customized and edited 
 -	Like coin account binding
 -	Data calibration price
 -	Query the content of the sharing pool
--	Pay with Like
+-	Pay the data with Like Coin
 
 DataQuery:
-Will provide a set of API for data query
-
 - Api for User client to search self data with metadata 
 - Api for Public data searched by User client and other search platform
 
