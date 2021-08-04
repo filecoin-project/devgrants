@@ -305,17 +305,16 @@ AIRport documentation.
   * IPFS integration with Javascript Client (for long term persistance) - 3 weeks
   * Integration test with IPFS - 1 week
 
-- Artem Shamsutdinov
-    
-    * Functionality:
+
+Functionality:
         
         Basic Functionality Prototype
     
-    * People:
+People:
       
-        1 person - framework developer
+        1 person - Artem Shamsutdinov (framework developer)
   
-    * Required organizational finding:
+Required organizational finding:
       
         $50000
   
