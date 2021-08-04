@@ -1,4 +1,4 @@
-# Open Grant Proposal: `Autonomous Interdependent Repositories`
+# Open Grant Proposal: `Autonomous Interdependent Repositories - Basic Functionality Prototype`
 
 **Name of Project:** Autonomous Interdependent Repositories
 
@@ -18,13 +18,6 @@
     * [Fee model](#fee-model)
 * [Deliverables](#deliverables)
 * [Development Roadmap](#roadmap)
-    * [Phase 1](#phase-1)
-    * [Phase 2](#phase-2)
-    * [Phase 3](#phase-3)
-    * [Phase 4](#phase-4)
-    * [Phase 5](#phase-5)
-    * [Phase 6](#phase-6)
-    * [Phase 7](#phase-7)
 * [Maintenance and Upgrade Plans](#maintenance)
 * [Team](#team)
 * [Additional Information](#additional-info)
@@ -291,457 +284,75 @@ AIRport documentation.
 
 ## Development Roadmap<a name="roadmap"></a>
 
-### Phase 1: finish core framework<a name="phase-1"></a>
+### Phase 1: Basic Functionality Prototype<a name="phase-1"></a>
+
+1. Month 1
+  * Finish Non-Sharing core framework code (Observables disabled, basic schema generation, no indexes) - 3 weeks
+  * Debug core framework - 1 week
+2. Month 2
+  * Finish basic repository creation & maintenance - 1 week
+  * Finish basic (semi-centralized) notification network - 2 weeks
+  * Debug and test all basic internal pieces to gether - 1 week
+4. Month 3
+  * Finish Basic Automated conflict resolution (timestamp based) - 1 week
+  * Write basic chat App - 1 week
+  * Write basic todo list App - 1 week
+  * Integration test applications with sharing - 1 weeks
+3. Month 4
+  * Write basic private blockchain implentation - 3 weeks
+  * Debug and integration test data blockchain protection - 1 week
+5. Month 5
+  * IPFS integration with Javascript Client (for long term persistance) - 3 weeks
+  * Integration test with IPFS - 1 week
+
 - Artem Shamsutdinov
     
     * Functionality:
         
-        Core framework
+        Basic Functionality Prototype
     
     * People:
       
         1 person - framework developer
   
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
+    * Required organizational finding:
       
-        $65000
+        $50000
   
-    * Timeline
-    
-        1. Finish core framework - 6 month
-  
-        Total time:
-      
-        6 month
-        
+
 
 - Phase 1 timeframe
     * Project start date September 1st 2021
-    * Project completion date March 1st 2022
+    * Project completion date February 1st 2022
+    
+    Total time: 5 months
 
 - Phase 1 Budget
 
 <pre>
     * Salary + Benefits
-        Artem Shamsutdinov:                $65000
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                       $0
-        Brian Gill:                            $0
-        Off-shore Block Chain Dev Team         $0
-    * Operational Overhead:                $11250
+        Artem Shamsutdinov:                $45000
+    * Operational Overhead:                $5000
 
-    * Total cost:                          $76250
+    * Total cost:                          $50000
 </pre>
 
-### Phase 2: integrate core framework into IPFS<a name="phase-2"></a>        
-- Off-shore Block-chain development team
-    * Functionality:
-
-      Integration with Filecoin infrastructure.
-
-    * People:
-
-      Off-shore dev team - will pick a veteran blockchain team that has relevant experience.
-
-    * Required organizational finding (contract fees/taxes/cryto converson tax/fees):
-
-      $60000
-
-    * Timeline (starting 5 month into the project)
-
-        1. Project ramp up and prototyping - 1 month
-    
-        2. Bare-bones implementation & integration - 2 month
-    
-        3. Full featured implementation & integration - 4 month
-
-      Total time:
-
-      7 month
-
-- Phase 2 timeframe
-    * Project start date March 1st 2022
-    * Project completion date October 1st 2022
-
-- Phase 2 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                    $0
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                       $0
-        Brian Gill:                            $0
-        Off-shore Block Chain Dev Team     $60000
-    * Operational Overhead:                    $0
-
-    * Total cost:                          $60000
-</pre>
-
-### Phase 3: finish a seed app<a name="phase-3"></a>   
-
-- Brian Gill
-    * Functionality:
-      
-      High impact seed application
-      
-    * People:
-        
-        1 person - application developer
-      
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-      
-        $65000
-      
-    * Timeline
-
-        1. Technology ramp up - 1 month
-        
-        2. Finish Votecube seed project (thus demonstrating usage of framework with a complex schema) - 5 month
-
-        Total time:
-      
-        6 month
-
-- Phase 3 timeframe
-    * Project start date October 1st 2022
-    * Project completion date April 1st 2023
-
-- Phase 3 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                    $0
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                       $0
-        Brian Gill:                        $65000
-        Off-shore Block Chain Dev Team         $0
-    * Operational Overhead:                $11250
-
-    * Total cost:                          $76250
-</pre>
-
-### Phase 4: integrate framework and seed App into a working solution<a name="phase-4"></a>   
-
-- Artem Shamsutdinov
-    
-    * Functionality:
-        
-        Final working framework
-    
-    * People:
-      
-        1 person - framework developer
-  
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-      
-        $32500
-  
-    * Timeline
-  
-        1. Finish device integration - 1 month
-  
-        2.  Integrate with IPFS DAG - 1 month
-  
-        3.  Integration test framework/device/DAG combination - 1 month  
-  
-        Total time:
-      
-        3 months
-        
-        
-- Brian Gill
-    * Functionality:
-      
-      Integrated seed application
-      
-    * People:
-        
-        1 person - application developer
-      
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-      
-        $21667
-      
-    * Timeline
-
-        1. Integrate Votecube seed project with core framework and centralized segment (assist in API finalization 
-           and core testing and distirbuted/central hybrid solution) - 1 month  
-           
-        2. Integrate final App solution with IPFS DAG - 1 month
-
-        Total time:
-      
-        2 month
-        
-- Phase 4 timeframe
-    * Project start date April 1st 2023
-    * Project completion date July 1st 2023
-
-- Phase 4 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                $32500
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                       $0
-        Brian Gill:                        $21667
-        Off-shore Block Chain Dev Team         $0
-    * Operational Overhead:                 $9375
-
-    * Total cost:                          $63542
-</pre>
-
-### Phase 5 - local Advertisement Engine<a name="phase-5"></a>  
-
-- Andrei Belitski
-  
-    * Functionality:
-      
-        Local personalized advertisement engine
-    
-    * People:
-      
-        1 person - researcher/implementer
-    
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-        
-        $150000
-      
-    * Timeline
-
-        1. Develop Votecube web article processing engine AI - 2 month
-        2. Implement core local ad AI solution - 4 month
-        3. Train/Tune/Tst core modeling solution - 3 month
-        4. Integrate with core framework and central modeling solution - 1 month  
-        5. Final modeling adjustments - 1 month
-
-        Total time:
-        
-        1 year
-
-
-- Artem Shamsutdinov
-    
-    * Functionality:
-        
-        Local Ad engine integration
-    
-    * People:
-      
-        1 person - framework developer
-  
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-      
-        $10833
-  
-    * Timeline
-  
-        1.  Integrate local tensor model - 1 month
-  
-        Total time:
-      
-        1 month
-          
-- Phase 5 timeframe
-    * Project start date July 1st 2023
-    * Project completion date July 1st 2024
-
-- Phase 5 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                $10833
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                  $150000
-        Brian Gill:                            $0
-        Off-shore Block Chain Dev Team         $0
-    * Hardware rental (AWS):                $5000
-    * Operational Overhead:                $24375
-
-    * Total cost:                         $190208
-</pre>  
-  
- ### Phase 6 - High precision Advertisement engine<a name="phase-6"></a>  
- 
-- Nikolay Dobrinov
-  
-    * Functionality:
-  
-        High precision advertisement engine
-    
-    * People:
-      
-        1 person - researcher/implementer
-      
-    * Required organizational finding (salary/taxes/cryto converson tax/fees):
-        
-        $140000
-      
-    * Timeline
-
-        1. Research Python & tools - 1 month
-    
-        2. Develop Votecube web article processing statistical model - 2 month
-  
-        3. Implement core Ad modeling code - 4 month
-  
-        4. Train/Tune/Test core modeling solution - 3 month
-  
-        5. Integrate with core framework and local AI solution - 1 month
-  
-        6. Final modeling adjustments - 1 month
-
-        Total time:
-      
-        1 year
-
-- Artem Shamsutdinov
-    
-    * Functionality:
-        
-        Integrate high precision Ad engine
-    
-    * People:
-      
-        1 person - framework developer
-  
-    * Required organizational finding (salary/org expenses/taxes/cryto converson tax/fees):
-      
-        $10833
-  
-    * Timeline
-        
-        1.  Integrate high precision ad models - 1 month  
-  
-        Total time:
-      
-        1 month
-
-- Phase 6 timeframe
-    * Project start date July 1st 2024
-    * Project completion date July 1st 2025
-
-- Phase 6 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                $10833
-        Nikolay Dobrinov:                 $140000
-        Andrei Belitski:                       $0
-        Brian Gill:                            $0
-        Off-shore Block Chain Dev Team         $0
-    * Hardware rental (AWS):                $5000
-    * Operational Overhead:                $24375
-
-    * Total cost:                         $180208
-</pre>
-
-### Phase 7 - final integration and documentation<a name="phase-7"></a>  
-
-- Artem Shamsutdinov
-    
-    * Functionality:
-        
-        Final integration
-    
-    * People:
-      
-        1 person - framework developer
-  
-    * Required organizational finding (salary/org expenses/taxes/cryto converson tax/fees):
-      
-        $21667
-  
-    * Timeline
-        
-        1.  Integration test complete solution - 1 month
-        
-        2. Integration test the App on the complete solution (with local and central Adds) - 1 month
-  
-        Total time:
-      
-        2 months
-
-- Brian Gill
-    * Functionality:
-      
-      High impact seed application
-      
-    * People:
-        
-        1 person - application developer
-      
-    * Required organizational finding (salary/org expenses/taxes/cryto converson tax/fees):
-      
-        $32500
-      
-    * Timeline
-        
-        5. Document core framework - 3 month  
-
-        Total time:
-      
-        3 month
-
-- Phase 7 timeframe
-    * Project start date July 1st 2025
-    * Project completion date October 1st 2026
-    * 
-- Phase 7 Budget
-
-<pre>
-    * Salary + Benefits
-        Artem Shamsutdinov:                $21667
-        Nikolay Dobrinov:                      $0
-        Andrei Belitski:                       $0
-        Brian Gill:                        $32500
-        Off-shore Block Chain Dev Team         $0
-    * Operational Overhead:                 $9375
-
-    * Total cost:                          $63542
-</pre>
-
-### Totals Breakdown
-
-<pre>
-                     Phase1  Phase2  Phase3  Phase4  Phase5  Phase6  Phase7    Total  Months
-Artem Shamsutdinov    65000                   32500   10833   10833   21667   140833      13
-Offshore Team                 60000                                            60000       7
-Brian Gill                            65000   21667                   32500   119167      11
-Andrei Belitski                                      150000                   150000      12
-Nikolay Dobrinov                                             140000           140000      12
-Operational Overhead  11250           11250    9375   24375   24375    9375    90000	
-Hardware Rental                                        5000    5000            10000	
-Total                 76250   60000   76250   63542  190208  180208   63542   710000      55
-Calendar Months           6       7       6       3      12      12       3       49
-</pre>
-
-### Total timeframe
-    * Project start date September 1st 2021
-    * Project completion date October 1st 2026
-
-## Total Budget Requested
-<pre>
-    * Total cost:                         $710000
-</pre>
 
 ## Maintenance and Upgrade Plans<a name="maintenance"></a>
 
-We will be seeking additional funding for the next year of operation to:
+This proposal builds a minimal functionality prototope.  Subsequent proposals will be submitted for:
 
-1. Fix bugs in core framework and develop new framework features
+* Mobile device integration (Go + V8 + SqLite)
+* Peer-to-peer notification network
+* Peer-to-peer node registration network
+* Repository joining and permissions maintenance
+* Observable data (local to device)
+* Fast notification mechanisms
+* Schema versioning
+* Advertisement engine
+* (Global) repository search functionality
 
-2. Improve centralized advertisement model
-
-3. Improve localized advertisement engine
-
-4. Fix bugs in Votecube & add new features
-
-5. Write an additional seed application
-
-6. Advertise seed applications
-
-7. Popularize the technology
+These will have to be completed in the following phases.
 
 # Team<a name="team"></a>
 
