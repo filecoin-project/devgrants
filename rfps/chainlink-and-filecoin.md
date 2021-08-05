@@ -44,7 +44,7 @@ All work funded via these grants must be open sourced via the MIT license.
 
 #### Proposal Requirements
 
-Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code, compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones. Here's a good sample proposal.
+Proposals should include a value proposition about how it will benefit the Filecoin ecosystem, technical detail about what your team intends to build and evidence your team is capable of creating good, re-usable open source code, compelling product demos and great documentation, and a reasonable technical development plan broken down into milestones. Here's a [good sample proposal](https://github.com/filecoin-project/devgrants/pull/254).
 
 Proposals should include:
 
