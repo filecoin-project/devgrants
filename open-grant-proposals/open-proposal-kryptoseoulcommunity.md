@@ -54,7 +54,7 @@ Potential risks that will make executing on this project difficult:
 
 Listing out a few deliverables as below:
 - Successful promotion of asia hackathon season to Korea, direction of korean developers towards tribe hackathon in Singapore
-- Filecoin profiled on The Erica Show (either Juan or Colin)
+- Filecoin profiled on The Erica Show (either Juan or Colin), with 4.35k YouTube subscribers
 - Introduction to 2 potential strategic partners in Korea and help with relationship building 
 - At least 1 meetup planned in Korea this year for developers
 - 5 monthly recap (or report) of completed activities and feedback from Korean community by KryptoSeoul 
