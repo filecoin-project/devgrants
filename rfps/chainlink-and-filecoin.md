@@ -6,7 +6,7 @@ Hybrid smart contacts leverage code running on the blockchain (on-chain) with da
 
 [Chainlink](https://chain.link/) is a decentralized oracle network that expands capabilities of smart contracts by enabling access to real-world data and off-chain computation while maintaining the security and reliability guarantees.
 
-[Filecoin](https://filecoin.io/) is a decentralized peer-to-peer storage network, allowing anyone to store and validate large-scale data as part of a global, 6-exabyte (and growing) network. Under the hood, all Filecoin nodes use the InterPlanetary File System (IPFS), a content-addressed protocol for storing and sharing data.
+[Filecoin](https://filecoin.io/) is a decentralized peer-to-peer storage network, allowing anyone to store and validate large-scale data as part of a global, 8-exabyte (and growing) network. Under the hood, all Filecoin nodes use the InterPlanetary File System (IPFS), a content-addressed protocol for storing and sharing data.
 
 This RFP is looking to deepen the integrations between Chainlink and Filecoin. In essence, the co-sponsored grants are for developers who are extending the Web3.0 stack beyond on-chain computation and into decentralized off-chain computation, data, and storage. 
 
@@ -62,4 +62,3 @@ Proposals should include:
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
 To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by September 30, 2021 for consideration. Up to five teams will be selected for a co-sponsored grant, which will go towards further development of their project. 
-
