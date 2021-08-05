@@ -61,4 +61,4 @@ Proposals should include:
 
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
-To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by Friday September 17, 2021 for consideration. Up to five teams will be selected for a co-sponsored grant, which will go towards further development of their project. 
+To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by **Friday September 17, 2021** for consideration. Up to five teams will be selected for a co-sponsored grant, which will go towards further development of their project. 
