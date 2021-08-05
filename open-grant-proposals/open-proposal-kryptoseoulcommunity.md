@@ -10,7 +10,7 @@
 
 # Project Description
 	
-Over the course of 5 months (Aug 2021 - Dec 2021), KryptoSeoul to provide Filecoin with the following services: 
+Over the course of 5 months (Aug 2021 - Dec 2021), KryptoSeoul to undertake the following community-building services for the Filecoin Project: 
 
 1. Community Partner for Filecoin Asia Hackathon Season 2021 
 Promote Filecoin Asia Hackathon Season to:
