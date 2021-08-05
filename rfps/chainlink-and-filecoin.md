@@ -30,7 +30,7 @@ Smart contracts can use Chainlink’s oracles to store extensive amounts of fina
 
 #### Additional Notes
 
-* Proposals may build on Chainlink and Filecoin directly, or use libraries or services that provide abstractions to simplify such as [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera.
+* Proposals may build on Chainlink and Filecoin directly, or use libraries or services that provide abstractions to simplify. For Filecoin, you may use tools and services such [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera. For Chainlink, you may find the [Chainlink developer resources](https://chain.link/developer-resources) and [docs](https://docs.chain.link/) useful.
 * Projects outside these listed areas are welcome and encouraged to apply for grant funding via the [Filecoin Dev Grants](https://github.com/filecoin-project/devgrants/) program.
 
 #### Proposal Guidelines
