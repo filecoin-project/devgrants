@@ -317,17 +317,26 @@ People:
 Required organizational finding:
 
 1. Month 1 - Core Framework
-        $10000
-2. Month 2 - Basic Internal Functionality
-        $10000
-3. Month 3 - Conflict Resolutiona and test Apps
-        $10000
-4. Month 4 - Blockchain
-        $10000
-5. Month 5 - IPFS integration
-        $10000
 
-        $50000
+        $10000 ($9000 Salary + Benefits, $1000 Operational Overhead)
+
+2. Month 2 - Basic Internal Functionality
+
+        $10000 ($9000 Salary + Benefits, $1000 Operational Overhead)
+
+3. Month 3 - Conflict Resolutiona and test Apps
+
+        $10000 ($9000 Salary + Benefits, $1000 Operational Overhead)
+
+4. Month 4 - Blockchain
+
+        $10000 ($9000 Salary + Benefits, $1000 Operational Overhead)
+
+5. Month 5 - IPFS integration
+
+        $10000 ($9000 Salary + Benefits, $1000 Operational Overhead)
+
+Total:        $50000
 
 
 - Phase 1 timeframe
