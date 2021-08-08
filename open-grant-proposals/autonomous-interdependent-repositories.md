@@ -286,22 +286,22 @@ AIRport documentation.
 
 ### Phase 1: Basic Functionality Prototype<a name="phase-1"></a>
 
-1. Month 1
+1. Month 1 - Core Framework
   * Finish Non-Sharing core framework code (Observables disabled, basic schema generation, no indexes) - 3 weeks
   * Debug core framework - 1 week
-2. Month 2
+2. Month 2 - Basic Internal Functionality
   * Finish basic repository creation & maintenance - 1 week
   * Finish basic (semi-centralized) notification network - 2 weeks
   * Debug and test all basic internal pieces to gether - 1 week
-4. Month 3
+3. Month 3 - Conflict Resolutiona and test Apps
   * Finish Basic Automated conflict resolution (timestamp based) - 1 week
   * Write basic chat App - 1 week
   * Write basic todo list App - 1 week
   * Integration test applications with sharing - 1 weeks
-3. Month 4
+4. Month 4 - Blockchain
   * Write basic private blockchain implentation - 3 weeks
   * Debug and integration test data blockchain protection - 1 week
-5. Month 5
+5. Month 5 - IPFS integration
   * IPFS integration with Javascript Client (for long term persistance) - 3 weeks
   * Integration test with IPFS - 1 week
 
@@ -315,9 +315,19 @@ People:
         1 person - Artem Shamsutdinov (framework developer)
   
 Required organizational finding:
-      
+
+1. Month 1 - Core Framework
+        $10000
+2. Month 2 - Basic Internal Functionality
+        $10000
+3. Month 3 - Conflict Resolutiona and test Apps
+        $10000
+4. Month 4 - Blockchain
+        $10000
+5. Month 5 - IPFS integration
+        $10000
+
         $50000
-  
 
 
 - Phase 1 timeframe
