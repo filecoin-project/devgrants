@@ -74,7 +74,7 @@ DataQuery:
 
 Milestone 1-$20,000
 
-NetwrokDisk
+DataStore 
 -	Multiple user authentication methods
 -	Invalid login to upload data
 -	File encryption
