@@ -30,28 +30,26 @@ Solution:
 
 - All data are built on the next protocols that power the web3 (IPFS,Filecoin,Textile,NFT.storage,Web3.storage)
 - Decentralized registration brought by blockchain
-- All data will store on decentralized storage
 - Decentralized Sharing based on Token Economy System
 - Decentralized Searching based on data's metadata （also rewards on Token Economy System）
 - Data generates NFT and on-chain transaction
 
-Our core is to build a database of human time. IPFS-based content addressing will be an index of data, and the metadata of data will be a secondary index of data. Everyone can obtain the data they want and share their existing data and obtain token economic rewards through sharing behaviors, and the data can be stored safely and stably for a long time.
-The human database will have its own economic reward model. Anyone can get benefits from sharing and data interaction, and can also act as a data verifier to determine the quality and weight of the data to obtain benefits, and at the same time to maintain the database data high quality.
+Our core is to store and share humanity's data . IPFS-based content addressing will be an index of data, and the metadata of data will be a secondary index of data. Everyone can obtain the data they want and share their existing data and obtain token economic rewards through sharing behaviors, and the data can be stored safely and stably for a long time.
+The humanity's data will have its own economic reward model. Anyone can get benefits from sharing,data interaction and can also act as a data verifier to determine the quality of the data to obtain benefits, and at the same time to maintain the data high quality.
 
 
 ## Value
 
 We know the correct strategy is to develop authentic power users.
-
 At present, the infrastructure of IPFS&FILECOIN continues to expand, which also promotes the rapid growth of user storage requirements. We start from being close to the storage needs of users, and attract users to our platform by establishing a selected data set based on IPFS&Filecoin.
 IPFS-based content addressing and the community’s validator system allow our database to store the most valuable piece of data. Introduce Token economic rewards, promote high-quality data storage, and promote data sharing behaviors to attract users from centralized storage to the IPFS&Filecoin decentralized storage system.
 
 ## Deliverables
 
-IPFS has four main architectures: Decentralized Registry,Decentralized storage,Decentralized Sharing and Decentralized Searching
+IPFS has four main compenets: 
 
- Decentralized Registry & Decentralized storage: 
--	User authentication protocol migrated to web3
+Decentralized Registry & Decentralized storage: 
+-	Use DID protocol to reimagined for a user-centric web
 -	Encrypt private data through decentralized user authentication
 -	Perfect cross-platform interactive experience
 -	Multiple reliable IPFS storage node options( NFT.storage, Web3.storage,Textile,Pinata)
@@ -75,33 +73,33 @@ Milestone 1-$20,000
 
 Decentralized Registry & Decentralized storage: 
 
--	User authentication protocol migrated to web3
+-	Use IDX to reimagined for a user-centric web
 -	Encrypt private data through decentralized user authentication
--	Perfect cross-platform interactive experience
--	Multiple reliable IPFS storage node options( NFT.storage, Web3.storage,Textile,Pinata)
--	Use Filecoin for safe, durable and reliable storage and retrieval of data
+-	Use web3.storage to provide  IPFS&Filecoin storage services (nft.storage added )
+-	Add Textile and Pinata to as another eliable paid IPFS storage node options 
+-	Cooperate with FileCoin miners to provide FileCoin storage solutions(In progress)
+ 
 
 Decentralized Sharing
+
 - Authentication of user licenses / licensed agreement 
-
-- The establishment of a data metadata world
-
-- Data sharing economy system is established
-
-- Data NFT trading system establishment
-
-- Data sharing platform established
+- Add metadata to each data 
+- Build sharing darhboard
+- Build data sharing platform
+- Build data sharing platform
+- Mint the NFT from data's metadata
+- Data NFT trading system establishment (opeansea)
+- Data sharing economy system design
 
   
-
 Milestone 2-$10,000
 
 Decentralized Searching:
 
-- Search by data metadata
-- The search weight of the data is weighed by the metadata and the weight of the record on the chain
-- Shared data can be accessed by search engines via ShareAPI
-- Private data is searched through private API interface
+- Search by data's metadata
+- Data is sorted by weight
+- Build ShareAPI 
+- Build PrivateAPI
 
 
 ## Total Budget Requested
