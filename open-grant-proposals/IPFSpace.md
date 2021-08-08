@@ -1,5 +1,5 @@
 
- 
+
 # Open Grant Proposal: `IPFSpace`
 
 **Name of Project:**`IPFSpace`
@@ -12,29 +12,43 @@
 
 # Project Description
 
-IPFSpace aims to provide a data sharing platform based on the network disk model. We are currently facing several problems with traditional online disks:
+IPFSpace aims to build Decentralized DataSharing Infrastructure. 
+
+IPFSpace‘s mission: “To store the world's data and share it to the world.
+
+We are currently facing several problems with traditional online disks:
 
 - The download speed is controlled by the service provider
-- Data link is easy to expire
 - Centralize storage of data brings insecurity
+- Data link is easy to expire
 - Data cannot be effectively shared
 - Identity authentication information is controlled by the service provider
+- Junk data and too much duplicate data make it too difficult to obtain value data
 
-We adopt a decentralized authentication scheme, use IPFS&FILECOIN as the storage layer, and provide transparent pay-as-you-go IPFS&FILECOIN node selection.The uploaded data will be filled in metadata and the CC protocol certification will be completed. The data signed by the CC protocol will enter the shared pool according to the metadata.The data added to the sharing pool will be introduced into the native token Likecoin, as long as the data points you share and download are liked, you can get Likecoin.Data providers can provide valuable data and use Like coin for fees. You can also use Like coin to buy data.
+Solution:
+
+- IPFS and Filecoin are used as our storage underlying protocol
+- Protocol Labs IPFS & Filecoin will be used for us to provide stable free storage nodes
+- Textile and pinata are also provided as data backup nodes
+- NFT is used as the value of data and supports on-chain transactions
+- Like chain reward economy is used for data download, like
+- Data can be searched by ipfs browser through CC protocol and metadata
+
+Our core is to build a database of human time, from which everyone can obtain the data they want, and the data can be stored safely for a long time.
+The data in the library can be valuable, allowing those who need it to pay. At the same time, you can also increase the ranking of the data through interactions such as likes, and you can get sharing rewards from it.
 
 
 ## Value
 
-At present, the infrastructure of IPFS&FILECOIN is continuously expanding, which has also promoted the rapid growth of users' storage requirements. Starting from the network disk model close to the user, guide users to use the IPFS&FILECOIN storage network.
+At present, the infrastructure of IPFS&FILECOIN continues to expand, which also promotes the rapid growth of user storage requirements. Starting from the storage needs close to users, guide users to use IPFS&FILECOIN storage network.
 
-Close to users, you can get more questions about the real storage of IPFS&FILECOIN, and optimize and improve them.
-Based on the economic model of the native token Like, IPFSpace can bring power to data sharing and promote the migration of high-quality content from traditional storage platforms to IPFS&FILECOIN. With the continuous production of data, the metadata of joint data is a big data sharing platform based on IPFS&FILECOIN.Of course, the data is not closed, and the data that accepts the CC agreement can be queried through the api. There are bound to be many difficulties in the generation and widespread use of new cross-age agreements. We want to promote the development of the entire ecosystem together with users as a leader.
+In the world of web2, data is often unavailable (http 404), value data cannot be effectively shared, and various platforms perform non-human processing of data. We want to build a human archive through IPFS&FILECOIN. Through the leadership of IPFS&FILECOIN, to achieve the goal that cannot be achieved in the http era.
 
 ## Deliverables
 
-IPFS has three components: networkDisk and dataSharing and dataQuery
+IPFS has three components: DataStore and DataSharing and DataQuery
 
-NetworkDisk: 
+DataStore : 
 -	Multiple user authentication methods
 -	Invalid login to upload data
 -	File encryption
@@ -45,14 +59,12 @@ NetworkDisk:
 -	Filecoin backup
 -	One-click automatic backup of the optimal node 
 
-
 DataSharing: 
 -	Authentication of user licenses / licensed agreement 
--	File metadata can be customized and edited 
--	Like coin account binding
--	Data calibration price
--	Query the content of the sharing pool
--	Pay the data with Like Coin
+-	The establishment of a data metadata world
+-	Data sharing economy system is established
+-	Data NFT trading system establishment
+-	Data sharing platform established
 
 DataQuery:
 - Api for User client to search self data with metadata 
@@ -74,12 +86,11 @@ NetwrokDisk
 -	One-click automatic backup of the optimal node 
 
 DataSharing
--	Authentication of user licenses / licensed agreement
--	File metadata can be customized and edited 
--	Like coin account binding
--	Data calibration price
--	Query the content of the sharing pool
--	Pay with Like
+-	Authentication of user licenses / licensed agreement 
+-	The establishment of a data metadata world
+-	Data sharing economy system is established
+-	Data NFT trading system establishment
+-	Data sharing platform established
 
 Milestone 2-$10,000
 
