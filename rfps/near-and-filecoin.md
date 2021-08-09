@@ -27,7 +27,7 @@ Novel Web3 interactions such as Data Bounties, DataDAOs, Verifiable Computation,
 
 #### Additional Notes
 
-* Proposals may build on NEAR and Filecoin directly, or use libraries or services that provide abstractions to simplify. For Filecoin, you may use tools and services such [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera. 
+* Proposals may build on NEAR and Filecoin directly, or use libraries or services that provide abstractions to simplify. For Filecoin, you may use tools and services such [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [web3.storage](https://web3.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera. 
 * On how to use the NEAR-Filecoin Bridge developed by Textile, please refer to the documentation [here](https://near.storage/docs/)
 
 #### Proposal Guidelines
