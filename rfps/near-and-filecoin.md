@@ -6,7 +6,7 @@ This is a Request for Proposals for projects interested in exploring new opportu
 
 [Filecoin](https://filecoin.io/) is a decentralized peer-to-peer storage network, allowing anyone to store and validate large-scale data as part of a global, 8-exabyte (and growing) network. Under the hood, all Filecoin nodes use the InterPlanetary File System (IPFS), a content-addressed protocol for storing and sharing data.
 
-In July 2021, the [Filecoin-NEAR bridge](https://blog.textile.io/native-filecoin-storage-for-blockchains/) developed by Textile was launched, taking the first step to provide simple, permissionless storage for smart contracts on NEAR. 
+In July 2021, the [Filecoin-NEAR bridge](https://blog.textile.io/native-filecoin-storage-for-blockchains/) developed by Textile was launched. The storage bridge creates a seamless way for NEAR applications, smart contracts, or NFTs to integrate Filecoin-based storage of any form of data. In addition, to encourage utilisation of the bridge, storage costs on Filecoin via the bridge will be provided free.
 
 This RFP is looking to deepen the integrations between NEAR and Filecoin, building on the successful launch of the bridge.
 
