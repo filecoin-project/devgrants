@@ -15,13 +15,16 @@ NEAR and Filecoin are jointly offering up to **USD $300,000** in grant funding f
 Below are a few examples of possible new applications, but all proposals combining NEAR and Filecoin are encouraged to apply:
 
 ## 1. **Decentralized Storage SDK + Demonstration app**
-An SDK for NEAR users to seamlessly employ Filecoin’s decentralized storage network, along with a demonstration app and excellent documentation
+An SDK for NEAR users to seamlessly employ Filecoin’s decentralized storage network, along with excellent documentation and a demonstration app. The accompanying demonstration application should showcase the functionality of the SDK, as well as serve as a reference architecture for other NEAR developers. 
 
 ## 2. **Database APIs**
 Database overlays to make interacting with raw storage on Filecoin easier and more efficient
 
 ## 3. **New Web3 Applications**
-Novel Web3 interactions such as Data Bounties, DataDAOs, Verifiable Computation, Perpetual Storage, Layer 2 Protocols, etc with Filecoin/IPFS
+Novel Web3 interactions such as Data Bounties, DataDAOs, Verifiable Computation, Perpetual Storage, Layer 2 Protocols, et cetera combining NEAR smart contracts with IPFS/Filecoin storage. DeFi Applications that interact with textile.io or other reputation indexes for Filecoin Storage Providers could be another angle. 
+
+## 4. **Exploratory**
+Applications written in assembly script using [web3.storage](https://web3.storage/). For example, applications that allow users to stored encrypted data on Filecoin that can only be decrypted by users with NEAR private keys, in that way keeping ownership of their data.
 
 ---
 
