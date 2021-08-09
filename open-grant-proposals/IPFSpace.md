@@ -25,6 +25,7 @@ We are currently facing several problems with traditional online disks:
 - Identity authentication information is controlled by the service provider
 - Junk data and too much duplicate data make it too difficult to obtain value data
 - Data sharing and data economy are difficult to combine
+- Centralized content creators, after the centralized platform account is cancelled, all content cannot be retrieved
 
 Solution:
 
