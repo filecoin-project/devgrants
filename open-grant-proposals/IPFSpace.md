@@ -16,16 +16,16 @@ IPFSpace aims to build Decentralized DataSharing Infrastructure.
 
 IPFSpace‘s mission: “To store the world's data and share it to the world.
 
-We are currently facing several problems with traditional online disks:
-
-- The download speed is controlled by the service provider
-- Centralize storage of data brings insecurity
-- Data link is easy to expire
-- Data cannot be effectively shared
-- Identity authentication information is controlled by the service provider
-- Junk data and too much duplicate data make it too difficult to obtain value data
-- Data sharing and data economy are difficult to combine
-- Centralized content creators, after the centralized platform account is cancelled, all content cannot be retrieved
+ Problems:
+ - Identity information is controlled by the service platform
+ - Centralized storage of data, controlled by centralized service providers, very insecure
+ - The data storage platform is too differentiated, and the life cycle may be short (burning money to death)
+ - The data storage platform charges fees by controlling download speed and other unreasonable behaviors
+ - The resource link of the data is easy to expire and lose, resulting in the data cannot be retrieved
+ - Data cannot be shared effectively (data is controlled centrally and cannot be shared)
+ - Duplicate data and excessive junk data make data acquisition difficult
+ - Content creators cannot transfer data to other platforms (data will be lost if the platform account is cancelled)
+ - Data sharing and reward economy are difficult to combine
 
 Solution:
 
@@ -40,10 +40,18 @@ The humanity's data will have its own economic reward model. Anyone can get bene
 
 
 ## Value
-
 We know the correct strategy is to develop authentic power users.
 At present, the infrastructure of IPFS&FILECOIN continues to expand, which also promotes the rapid growth of user storage requirements. We start from being close to the storage needs of users, and attract users to our platform by establishing a selected data set based on IPFS&Filecoin.
 IPFS-based content addressing and the community’s validator system allow our database to store the most valuable piece of data. Introduce Token economic rewards, promote high-quality data storage, and promote data sharing behaviors to attract users from centralized storage to the IPFS&Filecoin decentralized storage system.
+
+Achieved:
+
+- Use MetaMask, wallet mnemonics, and Magic to verify user identity and decentralize user information.
+- Use nft.storage (Filecoin Protocol Lab) for free storage of data and bring meta attributes
+- Use Textile for MFS implementation of user data
+- Simple and easy to use interactive page
+
+In the end, we rely on the data sharing economy system (Token+NFT) and the reliable and stable free storage of the nft.storage,web3.storage to establish a core user group, relying on the user group to improve the platform and obtain a data sharing technology facility platform,
 
 ## Deliverables
 
@@ -128,8 +136,19 @@ https://www.anipfs.space
 
 ## Relevant Experience
 
-I have 9 years of Internet development experience. All of my product IPFSpace aims to solve user pain points. In the just-concluded Filecoin Grant 1 Hackathon, IPFSpace and I won the third prize. We are very optimistic about IPFS&FILECOIN, and we also play our part in its ecological construction with biggest effort
+I have been engaged in Internet technology development for 8 years, and I have been looking for some directions that can change the current Internet. I am currently working on the direction of IPFS & FileCoin, which is also the route to focus on in the future.
 
+Here are some of our experiences:
+
+- Participate in the Filecoin Grant Hackathon and get the good results of the third prize (45 teams from the United States, China, India, Europe and Africa participated, 16 projects won the award). 
+Below are the relevant links:
+https://hidorahacks.medium.com/introducing-prize-winners-from-filecoin-grant-hackathon-e902db2fd63c
+
+
+- Invited to participate in the "[IPFS.CN](http://ipfs.cn/) AMA" interview held by the official IPFS community in China. 
+The following link(We have carried out in-depth thinking  and modification on the basis of this time period):
+https://mp.weixin.qq.com/s/CNFImDj0JkN1Zl87fwNENQ 
+ 
 ## Team code repositories
 
 https://github.com/ZhangPeibin/IPFSpace
