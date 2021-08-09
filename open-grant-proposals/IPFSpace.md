@@ -78,37 +78,31 @@ Decentralized Searching:
 
 ## Development Roadmap
 
-Milestone 1-$20,000
+Milestone 1-$20,000 
+| #    | Decentralized Registry & Decentralized storage        | Fund      | Est. time |
+| ---- | ----------------------------------------------------- | --------- | --------- |
+| 1    | Use IDX to reimagined for a user-centric web          | US$ 1,000 | 2 weeks   |
+| 2    | Encrypt private data through decentralized user authentication | US$ 1,000 | 3 weeks   |
+| 3    | Use web3.storage to provide  IPFS&Filecoin storage services (nft.storage added ) | US$ 1,000 | 2 weeks   |
+| 4    | Add Textile and Pinata to as another eliable paid IPFS storage node options| US$ 2,000 | 1 week    |
+| 5    | Cooperate with FileCoin miners to provide FileCoin storage solutions(In progress)| US$ 1,000 | 2 weeks   |
 
-Decentralized Registry & Decentralized storage: 
+| #    | Decentralized Sharing                                 | Fund      | Est. time |
+| ---- | ----------------------------------------------------- | --------- | --------- |
+| 1    | Authentication of user licenses / licensed agreement | US$ 1,000 | 1 weeks   |
+| 2    | Metadata interaction (upload for metadata settings and metadata modification functions)| US$ 2,000 | 3 weeks   |
+| 3    | Add data one-click sharing, like, and favorite functions  | US$ 2,000 | 1 weeks   |
+| 4    | Mint the NFT from data's metadata| US$ 3,000 | 3 weeks    |
+| 5    | Data NFT trading system establishment (opeansea)| US$ 3,000 | 3 weeks   |
+| 6    | Data sharing economy system design| US$ 3,000 | 2 weeks   |
 
--	Use IDX to reimagined for a user-centric web
--	Encrypt private data through decentralized user authentication
--	Use web3.storage to provide  IPFS&Filecoin storage services (nft.storage added )
--	Add Textile and Pinata to as another eliable paid IPFS storage node options 
--	Cooperate with FileCoin miners to provide FileCoin storage solutions(In progress)
- 
-
-Decentralized Sharing
-
-- Authentication of user licenses / licensed agreement 
-- Add metadata to each data 
-- Build sharing darhboard
-- Build data sharing platform
-- Build data sharing platform
-- Mint the NFT from data's metadata
-- Data NFT trading system establishment (opeansea)
-- Data sharing economy system design
-
-  
-Milestone 2-$10,000
-
-Decentralized Searching:
-
-- Search by data's metadata
-- Data is sorted by weight
-- Build ShareAPI 
-- Build PrivateAPI
+Milestone 2-$10,000 
+| #    | Decentralized Searching        | Fund      | Est. time |
+| ---- | ----------------------------------------------------- | --------- | --------- |
+| 1    | Search by data's metadata          | US$ 2,000 | 2 weeks   |
+| 2    | Data weight function development | US$ 3,000 | 3 weeks   |
+| 3    | Build ShareAPI  | US$ 2,500 | 2 weeks   |
+| 4    | Build PrivateAPI| US$ 2,500 | 2 weeks    |
 
 
 ## Total Budget Requested
