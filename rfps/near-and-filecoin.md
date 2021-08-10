@@ -21,7 +21,7 @@ An SDK for NEAR users to seamlessly employ Filecoin’s decentralized storage ne
 Database overlays to make interacting with raw storage on Filecoin easier and more efficient
 
 ## 3. **New Web3 Applications**
-Novel Web3 interactions such as Data Bounties, DataDAOs, Verifiable Computation, Perpetual Storage, Layer 2 Protocols, et cetera combining NEAR smart contracts with IPFS/Filecoin storage. DeFi Applications that interact with textile.io or other reputation indexes for Filecoin Storage Providers could be another angle. 
+Novel Web3 interactions such as Data Bounties, DataDAOs, Verifiable Computation, Perpetual Storage, Layer 2 Protocols, etc., leveraging verifiable storage on Filecoin, smart contract abilities on NEAR, and data bridge built by Textile. DeFi Applications that interact with textile.io or other reputation indexes for Filecoin Storage Providers could be another angle. 
 
 ## 4. **Exploratory**
 Applications written in assembly script using [web3.storage](https://web3.storage/). For example, applications that allow users to stored encrypted data on Filecoin that can only be decrypted by users with NEAR private keys, in that way keeping ownership of their data.
