@@ -31,7 +31,7 @@ Applications written in assembly script using [web3.storage](https://web3.storag
 #### Additional Notes
 
 * Proposals may build on NEAR and Filecoin directly, or use libraries or services that provide abstractions to simplify. For Filecoin, you may use tools and services such [Estuary](https://estuary.tech/), [Fleek Space Daemon](https://github.com/FleekHQ/space-daemon), [NFT.storage](https://nft.storage/), [web3.storage](https://web3.storage/), [Textile Powergate.](https://github.com/textileio/powergate/), et cetera. 
-* On how to use the NEAR-Filecoin Bridge developed by Textile, please refer to the documentation [here](https://near.storage/docs/)
+* On how to use the NEAR-Filecoin Bridge developed by Textile, please refer to the documentation [here](https://near.storage/docs/).
 
 #### Proposal Guidelines
 
@@ -61,5 +61,5 @@ Proposals should include:
 
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
-To submit a proposal, follow the steps to [submit a proposal for the RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by **October 31, 2021** for consideration. Submissions will be reviewed on a rolling basis, so early submissions are encouraged.
+To submit a proposal for this RFP, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by **October 31, 2021** for consideration. Submissions will be reviewed on a rolling basis, so early submissions are encouraged.
 
