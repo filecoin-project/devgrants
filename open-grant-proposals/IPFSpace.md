@@ -16,6 +16,8 @@ IPFSpace aims to build Decentralized DataSharing Infrastructure.
 
 IPFSpace‘s mission: “To store the world's data and share it to the world.
 
+IPFSpace's deck link: https://hub.textile.io/ipfs/bafybeicgdjsy77vg3ilg5c5he2kxjeogqx6t3oceockm5zdb4hinvbthyy
+
  Problems:
  - Identity information is controlled by the service platform
  - Centralized storage of data, controlled by centralized service providers, very insecure
