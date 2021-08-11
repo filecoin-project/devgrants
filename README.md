@@ -1,15 +1,5 @@
 # Filecoin Devgrants
 
-### Next Step Microgrants
-
-### Open Grants
-
-### Targeted Grants
-
-### Requests for Proposals (RFPs)
-
-
-
 > Learn more about Wave 7 grantees in this [Filecoin Foundation blogpost](https://filecoinfoundation.medium.com/introducing-the-wave-7-developer-grant-recipients-e302c44c35f6).
 
 <p align="center">
