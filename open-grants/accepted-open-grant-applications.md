@@ -33,5 +33,5 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | Team | Project | Link | Application Link | 
 | :--- | :------ | :--- | :--------: | 
 | Wrapped  |  Bidirectional FIL <=> WFIL Bridge to Ethereum   |  [Project](https://github.com/tokensoft/tokensoft_token) | [Application](https://github.com/filecoin-project/devgrants/pull/264/commits/cf708760798428775091d092fbde21437db48df8?short_path=0c04afe#diff-0c04afe96ddd40ad02ecbb4037387a5842f2afdc0a3aa40e773fc5e6d7595f9b) |
-| wusirdcenter |  Improve the stability of miner | [Project](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
+| wusirdcenter |  Decoupling WinningPoSt and WindowPoSt from lotus-miner | [Project](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
 |  |  |  |  |
