@@ -12,7 +12,8 @@
 	
 Over the course of 5 months (Aug 2021 - Dec 2021), KryptoSeoul to undertake the following community-building services for the Filecoin Project: 
 
-**1. Community Partner for Filecoin Asia Hackathon Season 2021 **
+**1. Community Partner for Filecoin Asia Hackathon Season 2021**
+
 Promote Filecoin Asia Hackathon Season to:
 - Korean developer communities 
 - Vietnam developer communities
@@ -22,10 +23,10 @@ Activities include (but not limited to - up to KryptoSeoul to craft):
 - Developers can join any track but one way could be to work closely with Tribe to bring developers in the KryptoSeoul community to the Tribe Hackathon 
 - Collect feedback from community
 
-**2. Collaboration on other existing hackathons where appropriate **
+**2. Collaboration on other existing hackathons where appropriate**
 - KryptoSeoul to see if there are existing hackathons in the schedule where Filecoin can join in, such as ETHVietnam, BUIDL series hackathons and conferences 
 
-**3. Amplification of Filecoin Presence in Korea **
+**3. Amplification of Filecoin Presence in Korea**
 - Help Filecoin on overall brand-building (not day to day operations) in Korea - look to KryptoSeoul to suggest activities here that may be suitable. Some potential activities:
 - Interviewing Juan Benet (Founder of Filecoin) on KryptoSeoul YouTube Channel (Erica Show) etc.
 - Explore 1-2 meetups in Korea for Filecoin, targeting developers (in Korean), conducted by Korean developer who understands the technicalities
@@ -33,6 +34,7 @@ Activities include (but not limited to - up to KryptoSeoul to craft):
 - Loop Filecoin in (where appropriate) into Blockchain or Crypto Summits or Conferences in Korea for speaking engagements 
 
 **4. Introduction to Strategic Partners and Enterprises in Korea** 
+
 Advise Filecoin on potential high leverage collaborations in Korea (and/or Southeast Asia), and make the introduction - such as Kakao (GroundX/Klaytn), LINE, Samsung, LG, universities; other blockchain projects
 
 ## Value
@@ -61,7 +63,7 @@ Listing out a few deliverables as below:
 
 ## Development Roadmap
 
-Here is a tentative timeline for some of the activities, where best effort is placed to conduct the activity or similar activities.
+Here is a tentative timeline for some of the activities, where best effort is placed to conduct the activity or similar activities either within the month or in another month.
 If there are additional events or conferences that Filecoin may benefit from, KryptoSeoul will add on.
  
 Aug ‘21
@@ -93,9 +95,9 @@ Dec ‘21
 (Disbursement in equiv FIL token is acceptable)
 
 Three payments to be made as such, assuming best effort completion of deliverables (or their equivalent) over the time frame of a few months each time:
-End August 2021: $4,000 
-End Oct 2021: $11,000
-End Dec 2021: $10,000
+- End August 2021: $4,000 
+- End Oct 2021: $11,000
+- End Dec 2021: $10,000
 
 ## Maintenance and Upgrade Plans
 
