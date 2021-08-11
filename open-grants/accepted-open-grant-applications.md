@@ -21,7 +21,7 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | Xops  | OpenRPC | [Project](https://github.com/open-rpc/generator) | [Application](https://github.com/filecoin-project/devgrants/blob/b55e88ea50ecee739744c3571dcc7cb4724d2be8/open-grant-proposals/open-proposal-open-rpc-part-2.md)|
 | Go-graphsplit | Go-graphsplit | [Project](https://github.com/filedrive-team/go-graphsplit)| [Application](https://github.com/filecoin-project/devgrants/blob/8451afe585320d8401b0c404304d7f7afd859864/open-grant-proposals/open-proposal-Go-graphsplit.md)|
 | nanditmehra | Lighthouse pt.2 | [Project](http://ec2-13-126-82-18.ap-south-1.compute.amazonaws.com/) | [Application](https://github.com/nandit123/devgrants/blob/master/open-grant-proposals/lighthouse.md) |
-| kernelogic | Music NFT Portal | Project | [Application](https://github.com/filecoin-project/devgrants/blob/4267d83cf06219aec464ea143090480a089733da/open-grant-proposals/open-proposal-music-nft-portal.md) |
+| kernelogic | Music NFT Portal | [Project](https://music-nft.kernelogic.ca/) | [Application](https://github.com/filecoin-project/devgrants/blob/4267d83cf06219aec464ea143090480a089733da/open-grant-proposals/open-proposal-music-nft-portal.md) |
 | baoruian | IPFS SRE Community | [Project](https://www.kdocs.cn/view/l/srXkNrCpZAn2) | [Application](https://github.com/taoshengshi/devgrants/blob/master/open-grant-proposals/ipfs-sre-community.md) |
 |  |  |  |  |
 
