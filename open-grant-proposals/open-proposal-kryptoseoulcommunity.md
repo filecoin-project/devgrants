@@ -61,36 +61,41 @@ Listing out a few deliverables as below:
 
 ## Development Roadmap
 
-Here is a tentative timeline for some of the activities, if there are additional events or conferences that Filecoin may benefit from, KryptoSeoul will add on:
+Here is a tentative timeline for some of the activities, where best effort is placed to conduct the activity or similar activities.
+If there are additional events or conferences that Filecoin may benefit from, KryptoSeoul will add on.
  
 Aug ‘21
 - [community] Promotion of Filecoin Asia Hackathon Season and Filecoin official korean channels through community
-- [meet up] Preparation of developer 101 materials in Korean, plan small meetup for Sept ‘21 
-- Monthly report 
+- [meet up] Preparation of developer 101 materials in Korean, plan small meetup for Sept ‘21. As there are some base materials for Filecoin in English that will be provided, KryptoSeoul may get them translated to Korean for the same purposes.
+- Monthly report covering a recap of what was completed as well as any insights from the Korean community 
 
 Sep ‘21
 - [meet up] Filecoin Meetup in Korea for developers before Tribe hackathon begins 
 - [community] Help Korean developers join Tribe Hackathon (likely dates ~20 Sep - 29 Oct)
 - [strategic partnership] Introduction to GroundX team
-- Monthly report
+- Monthly report covering a recap of what was completed as well as any insights from the Korean community
 
 Oct ‘21
 - [community] Assist Korean developer teams during Tribe Hackathon (likely dates ~20 Sep - 29 Oct)
 - [amplification of brand] The Erica Show
-- Monthly report 
+- Monthly report covering a recap of what was completed as well as any insights from the Korean community
 
 Nov ‘21
 - [strategic partnership] Introduction to another potential collaborator in Korea 
 - [meet up] plan for another meetup in Nov or Dec 
-- Monthly report
+- Monthly report covering a recap of what was completed as well as any insights from the Korean community
 
 Dec ‘21
-- Monthly report
+- Monthly report covering a recap of what was completed as well as any insights from the Korean community
 - Plan for 2022 - what worked, what didn’t, additional areas for Filecoin to work on with KryptoSeoul
 
 ## Total Budget Requested
+(Disbursement in equiv FIL token is acceptable)
 
-$4,000 per month x 5 months = $20,000 (Disbursement in equiv FIL token is acceptable)
+Three payments to be made as such, assuming best effort completion of deliverables (or their equivalent) over the time frame of a few months each time:
+End August 2021: $4,000 
+End Oct 2021: $11,000
+End Dec 2021: $10,000
 
 ## Maintenance and Upgrade Plans
 
