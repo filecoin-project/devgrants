@@ -12,9 +12,9 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Project Description
 
-Please describe exactly what you are planning to build. Make sure to include the following:
 During the long-term sector management and maintenance, sector errors may occur due to various reasons, such as disk problems, sector loss, and sector damage during migration. Therefore, the rework and repair function are required for wrong sectors. Sector redo generates the storage data of the sector by taking the key data of the sector as input (sector number, ticket, minerID) to complete the sector recovery target.
-
+The project mainly carries out the repair when the CC empty sector encounters uncontrollable problems. For example, the sector file is deleted by mistake; the file is corrupted and unreadable caused by abnormal storage power failure or internet failure; or the file is corrupted and unreadable caused by hard disk hardware damage error, etc. 
+The repair approach is to get sector ticket, sector common CID from the sector attribute data of the miner storage. Then, according to the sector number, we redo the process of data creation and generation from AP to P2 in the lotus miner, or we do the same process in the lotus-redo tool. Finally, the recovered sector data can be written into the storage. But if there is no original data for the deals, the data cannot be recovered.
 
 ## Value
 
@@ -34,21 +34,20 @@ We plan to create a sector repair tool, and the approaches will be one of the th
 3. Redo sector-independent program executables (binary), Lotus-redo (binary)
 
 ## Development Roadmap
-
-No.  ll                                                                                      Milestone                                                                                      ll                time                ll      budget     ll
-1         Lotus-Miner sector state machine adds redo state, the corresponding redo state flow rules and flow logic.                             2 persons/ per week             $3,700
-2         Lotus-Miner sector and storage relationship management (local) reworks the storage information of the redone sector.        2 persons/ per week              $3,750
-3         Compatible processing of Lotus-worker to redo sectors.                                                                                                         1 person/ per week                $1,500
-4         Lotus-redo independent redo tool.                                                                                                                                         1 person/ per week                $1,500
-5         32G/64G sector redo function test.                                                                                                                                         1 person/week                       $1,500
-
+No.     Milestone                                                                                                                time                budget    
+1       Lotus-Miner sector state machine adds redo state, the corresponding redo state flow rules and flow logic.                2 persons/ per week      $3,700
+2       Lotus-Miner sector and storage relationship management (local) reworks the storage information of the redone sector.     2 persons/ per week      $3,750
+3       Compatible processing of Lotus-worker to redo sectors.                                                                   1 person/ per week       $1,500
+4       Lotus-redo independent redo tool.                                                                                        1 person/ per week       $1,500
+5       32G/64G sector redo function test.                                                                                       1 person/ per week       $1,500
+One way to carry out the proposal is the sector repair tool being a part of the lotus miner. Another way is that it can be an external tool. Both are in the contents of this proposal and will be implemented in this proposal.  
 ## Total Budget Requested
 
 Total budget is about $12,000.
 
 ## Maintenance and Upgrade Plans
 
-We will keep an eye on Filecoin version updates, and we will provide corresponding maintenance and upgrades.
+We will track the lotus official version for updates and provide corresponding maintenance and upgrades, or the project can be incorporated directly into the official version update
 
 # Team
 
@@ -74,7 +73,26 @@ None.
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
+We have our own lotus version which has been maintaining all the time. Its features include:
+1.Refactoring the task distribution mechanism（Only on the same host, the task flows from AP to C1）
+2.A supplement to flow logic of sector state (sectors can enter removed state under any other state, which is convenient to maintain. )
+3.Sector data is written in the storage directly from the worker host server, instead of using HTTP network transmission between worker and miner. 
+These features have never been uploaded to the lotus official staff, and our version has not been uploaded on Github. 
+We have been following the IPFS project continuously from the beginning. As soon as the Filecoin mainnet went alive in October 2020, we started preparing to build nodes. On December 1st 2020, We ran our first node, F092887. Currently, the nodes we are building and operating are the ones below: 
+f0121810
+f0136808
+f092887
+f0110808
+f0704940
+f0704966
+f0728817
+f0811662
+f0705136
+f0500685
+f01040516
+f01043666
+f01074227
+We can modify the node labels as authentication if necessary.
 
 ## Team code repositories
 
