@@ -2,7 +2,7 @@
 
 ## About
 
-This grant type funds the creative use of Filecoin. Here, deliverables, milestones, and funding limits are generally clearly scoped. Deviations from the specified scope of an RFP must be approved between the team and the Foundation grants team. 
+This grant type funds the creative use of Filecoin. Here, deliverables, milestones, and funding limits are generally clearly scoped. Deviations from the specified scope of the project must be approved between the team and the Foundation grants team. 
 
 Open grants work within a few core categories.  
 
@@ -21,7 +21,7 @@ Open grants work within a few core categories.
 ## 📋 How to apply
                                     
 Here are the steps to submit a proposal for the open grant category!
-1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/tree/master/open-grants/open-proposal-template.md) in this [`open-grants` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grants). Make sure to fill in all the categories of the proposal template. Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
 Open Grant proposals are reviewed monthly. The deadline for the next wave is **August 31, 2021**                                                               
 
@@ -32,7 +32,7 @@ After you submit your proposal, you can expect the following to occur:
 - We will review your application. During review, we will add comments, questions, change requests, et cetera on your team's submission.
 - After a few round trips of discussion, our team will make a decision on which proposals to fund and which not to. <!--Accepted proposals will be merged into the appropriate directory, i.e. either [`open-grant`](https://github.com/filecoin-project/devgrants/tree/master/open-grant) or [`rfp-proposals`](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals).-->
 - During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
-- If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant (whether it's an RFP or open grant), we may stop funding your team for further development work.
+- If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. Note that if your team does not meet the acceptance criteria for the grant, we may stop funding your team for further development work.
 - We aim to complete all review within a few weeks after the wave deadline, so please stay vigilant on GitHub. If we don't hear back from you when we ask you a question or request changes on your proposal, it's very unlikely that your proposal will be accepted!
 
 
