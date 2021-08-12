@@ -1,16 +1,18 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+# Open Grant Proposal: Project Metatron
 
-# Open Grant Proposal: `Project Title`
+**Name of Project: Metatron**
 
-**Name of Project:**
+**Proposal Category: app-dev**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**Proposer: flaxscrip & macterra**
 
-**Proposer:** `replace with your GitHub username`
-
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?: yes**
 
 # Project Description
+
+Metatron is a generic blockchain-agnostic metadata versioning system. It provides the ability to trace the history and ownership of a digital document on a blockchain. 
+
+One of our first use-case is in support of the EDEN Protocol project (see separate open-proposal-EDEN.md) which provides supply-chain data and product history traceability. Metatron provides the "cursor" system that aggregates data signatures as a product travels through its life-cycle towards an end-customer.
 
 Please describe exactly what you are planning to build. Make sure to include the following:
 - Start with the need or problem you are trying to solve with this project.
