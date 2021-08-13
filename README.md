@@ -48,8 +48,8 @@ We’re looking to fund talented and eager teams that want to work with us to bu
 We currently offer 3 types of grants:
 1. **Requests for Proposals (RFPs)**: RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped *deliverables, milestones, and funding limits*. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. See [RFP submission details](#submit-a-proposal-for-an-rfp) for more information on how to apply for RFPs. Relevant proposals will be labeled [`proposal-type:rfp`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Arfp).
 2. **Open grants**: If you have an idea for something that isn't covered by an open RFP, you can submit a proposal to our open grants category! This is where you get to be really creative; we can't wait to see what you propose! We will review these proposals on the same cadence as RFP proposals (i.e. once every quarter, read more about timing in [Timing and Deadlines](#timing-and-deadlines)). See [open grant submission details](#submit-a-proposal-for-open-grants) for more information on how to submit a proposal. Relevant proposals will be labeled [`proposal-type:open`](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen).
-3. **Next step grants (Microgrants)**: Grants of $5,000 in FIL are available to support taking the next step after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.
-Acceptance criteria are very simple, and work is expected to be complete within 2 months. See [next step grant details](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) for more information on how to submit a proposal.
+3. **Next step grants (Microgrants)**: Grants of $5,000 in FIL are available to support taking the next step after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.  The microgrants are intended for early stage projects.  If your project has already received more than $30,000 USD from any source, please apply to for an open grant (details above) rather than a microgrant.  
+Acceptance criteria are very simple, and work is expected to be complete within 3 months. See [next step grant details](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) for more information on how to submit a proposal.
                                                                                                                     
 ### Categories
 
@@ -85,21 +85,21 @@ Here are the steps to submit a proposal against one of the listed RFPs!
 1. Select an RFP you would like to apply for.
 2. Submit a PR against the [`rfp-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/rfp-proposals/rfp-proposal-template.md) in the [`rfp-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals) of this repo. Make sure to fill in all the categories of the RFP proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
-RFPs proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                             
+RFPs proposals are reviewed monthly. The deadline for the next wave is **August 31, 2021**                                                                                                                             
                                                                                                                
 ### Submit a proposal for open grants
 
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md) in the [`open-grant-proposals` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grant-proposals) of this repo. Make sure to fill in all the categories of the proposal template (incomplete proposals will not be considered). Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
-Open Grant proposals are reviewed monthly. The deadline for the next wave is **July 30, 2021**                                                                                                                        
+Open Grant proposals are reviewed monthly. The deadline for the next wave is **August 31, 2021**                                                                                                                        
 
 ### Submit a proposal for microgrants
                                                                                                                         
 Here are the steps to submit a proposal for a microgrant!
 1. Submit an issue on this repo. Make sure to fill in all the categories of the proposal [template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E) (incomplete proposals will not be considered).
                                                                                                                         
-Microgrant applications are reviewed every 2 weeks.                                                                                                                        
+Microgrant applications are reviewed every week.                                                                                                                        
                                                                                                                         
                                                                                                                         
 ## ⌛ After you apply
