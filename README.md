@@ -19,6 +19,8 @@ Acceptance criteria are very simple, and work is expected to be complete within 
 ### Open Grant
 Do you have an idea for pushing the Filecoin ecosystem forward? Grants of up to $30,000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
+ Wave 10 proposal submissions are due **August 31, 2021 at 23:59 PDT** for priority consideration.
+
 [**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-open-grants) • [**See Open Grant Proposals**](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen)
 
 
@@ -29,11 +31,11 @@ RFPs are grants for specific development work. As the name suggests, we are requ
 
 OPEN RFPs:
 
-[**Hedera**](https://github.com/filecoin-project/devgrants/blob/master/rfps/hedera-and-filecoin.md) -- Deadline August 30
+[**Hedera x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/hedera-and-filecoin.md) -- Deadline August 30
 
-[**Chainlink**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Deadline September 17
+[**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Deadline September 17
 
-[**Near**](https://github.com/filecoin-project/devgrants/blob/master/rfps/near-and-filecoin.md) -- Deadline October 30 
+[**Near Protocol x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/near-and-filecoin.md) -- Deadline October 30 
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
