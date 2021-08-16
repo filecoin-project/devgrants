@@ -38,7 +38,7 @@ A: The credit rating of financiers is not comprehansive or accurate enough, and 
 No.       Milestone                                                                                                           time                         budget   
 1         Implement the creation of the financing plan and release basic features.                                            3 persons/ per week          $4,800
 2         Implement the financing plan explorer, provide the user portal for the whole network's investor financing plan      3 persons / per week         $4,800
-3         Implement the lotus-miner's financing plan execution guarantee logic, financing fund freeze, and income will be automatically repayed as scheduled promised repayment plan of the financing plan.      15 persons / per week               $24,000
+3         Implement the lotus-miner's financing plan execution guarantee logic, financing fund freeze, and income will be automatically repayed as scheduled promised repayment plan of the financing plan.                                                                                                   15 persons / per week        $24,000
 
 ## Total Budget Requested
 
