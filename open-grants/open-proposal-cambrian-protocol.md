@@ -77,18 +77,18 @@ $5000/mo developer pay, x2 developers, x2 months = $20,000
 $20,000 total.
 
 ### Minimum Viable "Human-Friendly" Stage ###
-This milestone represents a functional and enjoyable user interface for non-developers to utilize the software developed in Stage 1. Development will run mostly concurrently with the latter half of Stage 1.
- 
+This milestone represents a functional and enjoyable user interface for non-developers to utilize the software developed in Stage 1. Development will run mostly concurrently with the latter half of Stage 1.  
+
 **Buidlers:**  
 Future Front-End Hire  
  
 **Timeline:**  
 October 15th 2021.  
- 
+  
 **Funding Breakdown:**  
 $5000/mo front-end developer pay for future hire  
 $5,000 total  
- 
+  
 ### Improved Utility Stage ###
 This milestone represents modular additions to Stage 1 and Stage 2, allowing greater utility than the minimally viable "lump-sum" payment scheme. Following this milestone, the interoperability of Solvers should be proven and entities procuring work can opt for more flexible schemes.
   
