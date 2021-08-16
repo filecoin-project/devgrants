@@ -50,44 +50,16 @@ Please describe in details what your final deliverable for this project will be.
 
 ## Development Roadmap
 
-No.
-Milestone Description
-Funding
-Estimated Timeframe
-1
-Project functionality design and scope definition.
-NA
-2 weeks
-2
-Project user interface design
-NA
-1 weeks
-3
-Infrastructure architecture design and implementation plan readiness.
-NA
-1 weeks
-4
-Command line tool coding
-5,000
-4 weeks
-5
-User interface coding
-10,000
-3 weeks
-6
-Dataset uploads, open ML algorithms development
-10,000
-4 weeks
-7
-Document and tutorial
-TBD
-1 weeks
-8
-Product release go marketing
-10,000
-1 weeks
-
-
+|No. |Milestone Description                                                | Funding|Estimated Timeframe|
+|----|:-------------------------------------------------------------------:|:------:|------------------:|
+|1   |Project functionality design and scope definition.                   |NA      | 2 weeks           |
+|2   |Project user interface design                                        |NA      | 1 weeks           |
+|3   |Infrastructure architecture design and implementation plan readiness.|NA      | 1 weeks           |
+|4   |Command line tool coding                                             |5,000   | 4 weeks           |
+|5   |User interface coding                                                |10,000  | 3 weeks           |
+|6   |Dataset uploads, open ML algorithms development                      |10,000  | 4 weeks           |
+|7   |Document and tutorial                                                |TBD     | 1 weeks           |
+|8   |Product release go marketing                                         | 5,000  | 1 weeks           |
 
 
 ## Total Budget Requested
