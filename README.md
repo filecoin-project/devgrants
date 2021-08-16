@@ -19,16 +19,21 @@ Acceptance criteria are very simple, and work is expected to be complete within 
 ### Open Grant
 Do you have an idea for pushing the Filecoin ecosystem forward? Grants of up to $30,000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
-[**LEARN MORE AND APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-open-grants) • [**See Open Grant Proposals**](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen)
+[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-open-grants) • [**See Open Grant Proposals**](https://github.com/filecoin-project/devgrants/labels/proposal-type%3Aopen)
 
 
 ---
 
-|⚠️ on hold ⚠️|
-|---|
-
 ### Requests for Proposals (RFPs)
 RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
+
+OPEN RFPs:
+
+[**Hedera**](https://github.com/filecoin-project/devgrants/blob/master/rfps/hedera-and-filecoin.md) -- Deadline August 30
+
+[**Chainlink**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Deadline September 17
+
+[**Near**](https://github.com/filecoin-project/devgrants/blob/master/rfps/near-and-filecoin.md) -- Deadline October 30 
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
