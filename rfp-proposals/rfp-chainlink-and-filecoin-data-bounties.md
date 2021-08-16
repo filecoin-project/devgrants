@@ -89,16 +89,14 @@ https://filswan.com
 
 ## Relevant Experience
 
-Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc.
-
-We - NBFS Canada participated in SR1, SR2, and cooperation with starling and pinata project. In slingshot 2 we processed over 10,000 deals and over 500 offline deals, talked to 100 miners and actively working data transfer service between Asia and North American users.
+We - FilSwan Canada participated in SR1, SR2, and cooperation with starling and pinata project. In slingshot 2 we processed over 10,000 deals and over 500 offline deals, talked to 100 miners and actively working data transfer service between Asia and North American users.
 Prior to working on Filecoin project, we were working on a decentrilized AI computing platform which using smart contract for data/task transmission to different AI workers, we have in hand experience of handling encryption and data pipeline.
 
 We build the following product
 
 - https://nbai.io GPU cloud computing 
 - https://nbfspool.com One of the largest Filecoin mining node in North America
-- Https://swan.nbfspool.com A storage market for price decovering and offline trasfer
+- Https://filswan.com A storage market for price decovering and offline trasfer
 
 The team get the following reward and honor.
 
