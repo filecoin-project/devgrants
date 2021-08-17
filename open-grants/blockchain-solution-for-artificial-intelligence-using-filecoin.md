@@ -1,5 +1,7 @@
 
-# Open Grant Proposal: `Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin`
+Open Grant Proposal: 
+
+##Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin##
 
 **Name of Project: Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin**
 
@@ -93,7 +95,9 @@ WillTechMusing (William Li) in an active member of MinerX and X2 program of File
 
 AI Paper Published:
 - https://arxiv.org/abs/1907.03715
+
 AI Articule Published:
 - https://www.destinationcrm.com/Articles/Web-Exclusives/Viewpoints/How-AI-Can-Bridge-the-Gaps-Between-CRM-Marketing-and-Sales-146140.aspx
+
 AI Conference Speaker:
 - http://aisea20.xnextcon.com/
