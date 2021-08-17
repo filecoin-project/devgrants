@@ -28,7 +28,7 @@ Filecoin is a de-facto ideal economic token to facilitate and incentivize conten
 
 ## Deliverables
 
-A grant would provide the resources needed to properly launch an initial version of the protocol. Additionally, funding would allow us to design and add an economic layer (ie: filecoin) to the protocol.
+A grant would provide the resources needed to support the launch of the protocol. Additionally, funding would allow us to design and add an economic layer (ie: filecoin) to the protocol.
 
 - Working reference implementation: https://github.com/macterra/metatron.
 - Docker container for easy setup: https://github.com/macterra/metatron-node
@@ -43,9 +43,7 @@ The project already has an active community of users who are demanding and needi
 
 **Weeks 8-12:** Define & pilot incentive layer for data sharing and exchange.
 
-In general, we are requesting funding for ~100 hrs/week of work with a small core team of 3 individuals (1 tbd) at a rate of $60/hr for a period of 3 months. This is our minimal team.
-
-The 1 TBD python programmer is important so we can do proper knowledge transfer from David, who can only commit to the project on a part-time basis.
+We are requesting funding to put together a small team of 3 individuals at a blended rate of $50/hr for a period of 3 months. This would allow us to transfer key knowledge from macterra, who can't commit to the project at this time, but has agreed to be available as a technical advisor.
 
 The Metatron protocol will require ongoing support and funding beyond this 3 months roadmap. We would welcome the opportunity to become a closer part of the Filecoin/IPFS ecosystem. These discussions and/or the identification of a sustainable home for the project would occur in parallel to the roadmap below.
 
@@ -53,56 +51,56 @@ The Metatron protocol will require ongoing support and funding beyond this 3 mon
 
 **Week 1:** Finalize v.1 protocol requirements and specifications
 - flaxscrip (40hrs): requirements
-- macterra (20hrs): specifications
-- python tbd (40hrs): design updates
+- python1 (40hrs): specifications
+- python2 (40hrs): design updates
 
 **Week 2-3:** Finalize v.1 protocol python reference implementation
 - flaxscrip (40hrs): documentation
-- macterra (20hrs): development & code review
-- python tbd (40hrs): development & code review
+- python1 (40hrs): development & code review
+- python2 (40hrs): development & code review
 
 **Week 4:** Finalize UI and initial data types
 - flaxscrip (40hrs): documentation
-- macterra (20hrs): configure data types
-- python tbd (40hrs): configure user interfaces
+- python1 (40hrs): configure data types
+- python2 (40hrs): configure user interfaces
 
 **Week 5:** Define and run test suite
 - flaxscrip (40hrs): test cases and test data
-- macterra (20hrs): test scripts and development
-- python tbd (40hrs): test scripts and development
+- python1 (40hrs): test scripts and development
+- python2 (40hrs): test scripts and development
 
 **Week 6:** Finalize v.1 release candidate
 - flaxscrip (40hrs): documentation
-- macterra (20hrs): quality assurance
-- python tbd (40hrs): bug fixes
+- python1 (40hrs): quality assurance
+- python2 (40hrs): bug fixes
 
 **Week 7:** Containers and release support
 - flaxscrip (40hrs): release support
-- macterra (20hrs): package git & docker release
-- python tbd (40hrs): release support
+- python1 (40hrs): package git & docker release
+- python2 (40hrs): release support
 
 **Week 8+:** Implement first use (EDEN/EDA) use cases
 
 EDA and EDEN will need separate ongoing funding for their efforts. This simply allocates time for our core team to get the EDA started in using the protocol.
 - flaxscrip (40hrs): server deployment & configuration
-- python tbd (40hrs): support
+- python1 (40hrs): support
 
 **Weeks 8-12:** Implement Economic / Incentive Layer
 
 We haven't yet defined this next functionality sprint, which would include initial support and integration with Filecoin.
 - flaxscrip: requirements
-- macterra: architecture & engineering
-- python tbd: development
+- macterra: technical advisor
+- python2: development
 
 
 ## Total Budget Requested
 
 Total budget for roadmap: $72,000
 
-This budget is allocated to a small core team:
-- flaxscrip (full-time): requirements, documentation, and user support
-- macterra (part-time): architecture, engineering, and development
-- python tbd (full-time): development and user support
+This budget is allocated to a small technical core team:
+- flaxscrip (full-time): requirements, documentation, QA, and user support
+- 2 python developers (full-time): protocol development, bug-fixes, support.
+- macterra (voluntary): technical advisor
 
 ## Maintenance and Upgrade Plans
 
@@ -116,14 +114,15 @@ Note that the EDA is currently also in a fund-raising campaign.
 
 ## Team Members
 
-- [flaxscrip](https://flaxscrip.github.io/flaxscrip-space/)
-- [macterra](https://macterra.github.io/macterra-space/)
-- Team Member 3: Python developer TBD
+- [flaxscrip](https://flaxscrip.github.io/flaxscrip-space/) as full-time lead
+- [macterra](https://macterra.github.io/macterra-space/) as voluntary technical advisor
+- 2x python developers to launch and support the protocol
 
 ## Team Member LinkedIn Profiles
 
 - [Christian Saucier](https://www.linkedin.com/in/csaucier/)
 - [David McFadzean](https://www.linkedin.com/in/davidmc/)
+- TBD
 - TBD
 
 ## Team Website
