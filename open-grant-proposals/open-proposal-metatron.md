@@ -39,9 +39,9 @@ The project has a community of users who are familiar with the technology and de
 ## Development Roadmap
 
 ### Summary:
-**Weeks 1-8:** Release v.1 and support initial EDA users.
+**Weeks 1-8:** Release and support v.1.
 
-**Weeks 8-12:** Define & pilot incentive layer for data sharing and exchange.
+**Weeks 8-12:** Support EDA Use Cases and define incentive layer opportunity.
 
 We are requesting funding to put together a small team of 3 individuals at a blended rate of $50/hr for a period of 3 months. This would allow us to transfer key knowledge from macterra, who can't commit to the project at this time, but has agreed to be available as a technical advisor.
 
