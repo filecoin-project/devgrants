@@ -34,7 +34,7 @@ A grant would provide the resources needed to support the launch of the protocol
 - Docker container for easy setup: https://github.com/macterra/metatron-node
 - Try it out yourself: http://btc.metagamer.org:5000/
 
-The project already has an active community of users who are demanding and needing functionality provided by Metatron. The [Ethical Data Alliance](https://ethicaldata.net/what-we-are-doing/) has defined its needs in the form of the [EDEN Protocol](https://edenprotocol.io). Metatron provides the foundation system needed to implement the EDEN Protocol.
+The project has a community of users who are familiar with the technology and demanding the  functionality provided by Metatron. The [Ethical Data Alliance](https://ethicaldata.net/what-we-are-doing/) has defined its needs in the form of the [EDEN Protocol](https://edenprotocol.io). Metatron provides the foundation system needed to implement the EDEN Protocol.
 
 ## Development Roadmap
 
