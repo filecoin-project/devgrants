@@ -16,7 +16,7 @@ Metatron solves the problem of *proving prior art* by using an xid to track (on 
 
 **Content creators** can use Metatron to *maintain control* of their *rights of ownership* and future *revision publishing privileges*. Content owners have the unique key that is used to authoritatively publish the original and any future content edition(s). Authorship rights can be transferred or shared using the functionality of the author(s) preferred P2P ledger.
 
-**Content consumers** can use Metatron to *certify authenticity* and confirm they are accessing or purchasing the *latest version* of a piece of digital content. Knowledge of the xid provides a full history of the digital content as published by the original author(s).
+**Content consumers** can use Metatron to *certify authenticity* and confirm they are accessing or purchasing the *latest authorized version* of a piece of digital content. Knowledge of the xid provides a full history of the digital content as published by the original author(s).
 
 ## Value
 
@@ -79,19 +79,14 @@ The Metatron protocol will require ongoing support and funding beyond this 3 mon
 - python1 (40hrs): package git & docker release
 - python2 (40hrs): release support
 
-**Week 8+:** Implement first use (EDEN/EDA) use cases
+**Week 8-12:** Implement initial (EDEN/EDA) use cases
+- Use-case1: Data notarization (IPFS cid)
+- Use-case2: Data catalog (Metatron xid)
+- Use-case3: Data versioning and transfer on blockchain using Metatron
 
-EDA and EDEN will need separate ongoing funding for their efforts. This simply allocates time for our core team to get the EDA started in using the protocol.
-- flaxscrip (40hrs): server deployment & configuration
-- python1 (40hrs): support
+The same team would be engaged in weeks 8-12 in support of the first community of users for the protocol.
 
-**Weeks 8-12:** Implement Economic / Incentive Layer
-
-We haven't yet defined this next functionality sprint, which would include initial support and integration with Filecoin.
-- flaxscrip: requirements
-- macterra: technical advisor
-- python2: development
-
+The EDA community is already discussing needs for monetization of the protocol. Although at the moment, the protocol only requires IPFS, Filecoin would be a welcome addition to help with numerous incentivization and monetisation needs being discussed by the EDA community.
 
 ## Total Budget Requested
 
