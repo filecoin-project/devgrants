@@ -1,7 +1,7 @@
 
 Open Grant Proposal: 
 
-##Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin##
+# Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin #
 
 **Name of Project: Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin**
 
@@ -14,13 +14,13 @@ Open Grant Proposal:
 
 # Project Description
 
-Machine Learning (ML) has grown significantly in various industries in recent years. ML practitioners from businesses AI teams to inndividual data scientists face multiple data storage related challenges: finding proven and good dataset, storing and maintaining them with ground truth labels, and keeping track of variances of different ML modeling files that are produced by data scientists during the experiment and production lifecycle. These data files typically are stored internally, or through AWS / Azure / GCP cloud by many individuals or teams but not organized properly, difficult to version, reference or share. 
+Machine Learning (ML) has grown significantly in various industries in recent years. ML practitioners from businesses Artificial Intelligent (AI) teams to individual data scientists face multiple data storage related challenges: finding proven and good dataset, storing and maintaining them with ground truth labels, and keeping track of variances of different ML modeling files that are generated during the experiment and production lifecycle. These data files typically are stored internally, or through AWS / Azure / GCP cloud by many individuals or teams but not organized properly, difficult to version, hard to reference or share. 
 
-In particular, Deep Learning, a type of machine learning and artificial intelligence (AI), requires data scientists to use large datasets to train models that imitates the way humans gain certain types of knowledge. These large dataset (in NLP) can have billions of words or sentences in hundreds of GBs or TBs in size which post challenges in storage and management.
+In particular, Deep Learning, a type of machine learning, requires data scientists to use much larger datasets to train models that imitates the way humans gain certain types of knowledge. These large datasets (for example, in NLP) can have billions of words or sentences in hundreds of GBs or TBs in size which post challenges in storage and management. Further more, these larges datasets are stored dozens or thousands of copies around the world - a big waste yet none of them are reliable.
 
-This project aims to use Filecoin storage network as data storage foundation to simplify the AI/ML tasks so that scentists can focus on collect, edit, publish and share Natural Language Processing (NLP) domain open datasets, open algorithms and ML models for AI researchers and various industry applications. 
+This project aims to use Filecoin storage network as data foundation to simplify the AI/ML tasks so that scentists can focus on collect, edit, publish and share Natural Language Processing (NLP) domain open datasets, open algorithms and ML models for AI researchers and various industry applications. 
 
-- Identify, edit and manage open datasets in NLP space for machine learning
+- Identify, edit and manage open datasets in NLP space for machine learning and deep learning
 - Leverage IPFS to store and manage list of datasets, models as well as versioning
 - Filecoin is ideal solution to store these datasets and models in consistent, verifiable, decentralizing way
 - Integrate with multiple Filecoin-based partners (FileSwan, Estuary etc) on storage deals making and distribution
@@ -35,9 +35,11 @@ As Artificial Intelligence (AI) continues to proliferate, more and more organiza
 - ***Trustable and Safe Storage*** - Filecoin storage provides trustable and safe data to prevent accidental costly damages or deletion of valuable data
 - ***Extend Filecoin Ecosystem with AI Applications*** - Extend Filecon ecosystem with AI / ML communities to build applications around Fileconi and IPFS to further improve values of the Filecoin in long run.
 
+
 Risks
 one of the risks is that this project requires Filecoin network storage to reliable in storing ML datasets, and be responsive with retrieval capability. This can be migrated by working closely with Filecoin community since the storage deals and retrieval capability are core values for the Filecoin network.
- 
+
+
 
 ## Deliverables
 
@@ -65,13 +67,17 @@ Please describe in details what your final deliverable for this project will be.
 |8   |Product release go marketing                                         | 5,000  | 1 weeks           |
 
 
+
 ## Total Budget Requested
 
 $30,000 for total. Please see the development roadmap for details.
 
+
+
 ## Maintenance and Upgrade Plans
 
 Will continuously take comments from the community and make improvements. There will be future enhancement and upgrade to expand more datasets, more ML algorithms, and potentially work on solutions that bring AI computing into Filecoin network.
+
 
 
 # Team
