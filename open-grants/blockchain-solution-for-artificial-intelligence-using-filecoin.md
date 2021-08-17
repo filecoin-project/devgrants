@@ -23,7 +23,7 @@ This project aims to use Filecoin storage network as data foundation to simplify
 - Identify, edit and manage open datasets in NLP space for machine learning and deep learning
 - Leverage IPFS to store and manage list of datasets, models as well as versioning
 - Filecoin is ideal solution to store these datasets and models in consistent, verifiable, decentralizing way
-- Integrate with multiple Filecoin-based partners (FileSwan, Estuary etc) on storage deals making and distribution
+- Integrate with multiple Filecoin-based partners (FileSwan, Estuary, BidBot etc) on storage deals making and distribution
 
 
 
