@@ -1,7 +1,5 @@
 
-Open Grant Proposal: 
-
-# Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin #
+#Open Grant Proposal: `Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin`
 
 **Name of Project: Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin**
 
