@@ -36,7 +36,8 @@ As Artificial Intelligence (AI) continues to proliferate, more and more organiza
 - ***Extend Filecoin Ecosystem with AI Applications*** - Extend Filecon ecosystem with AI / ML communities to build applications around Fileconi and IPFS to further improve values of the Filecoin in long run.
 
 
-Risks
+Risks:
+
 one of the risks is that this project requires Filecoin network storage to reliable in storing ML datasets, and be responsive with retrieval capability. This can be migrated by working closely with Filecoin community since the storage deals and retrieval capability are core values for the Filecoin network.
 
 
