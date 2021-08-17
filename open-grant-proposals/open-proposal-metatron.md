@@ -151,5 +151,5 @@ Please do not hesitate to reach out to christian@cryptotech.guru if you have any
 
 Peace!
 
-Christian Saucier, Walhalla SC
+Christian Saucier, Walhalla SC \  
 David McFadzean, Toronto Canada
