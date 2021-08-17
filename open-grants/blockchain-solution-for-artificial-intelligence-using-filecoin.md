@@ -1,18 +1,18 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
 
 # Open Grant Proposal: `Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin`
 
-**Name of Project:Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin**
+**Name of Project: Blockchain Solution for Artificial Intelligence: Machine Learning Dataset and Modeling Storage Using Filecoin**
 
 **Proposal Category:** `app-dev`
 
-**Proposer:** `RiveringAI`
+**Proposer:** `RiveringAI (WillTechMusing)`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
+
 # Project Description
 
-Machine Learning (ML) has grown significantly in various industries in recent years. ML practitioners from businesses AI teams to inndividual data scientists face multiple data storage related challenges: storing and maintaining good datasets with ground truth labels, and keeping track of variances of different ML modeling files that are produced by data scientists during the production lifecycle. These data files typically are stored internally, or through AWS / Azure / GCP cloud by many individuals or teams but not organized properly, difficult to version, reference or share. 
+Machine Learning (ML) has grown significantly in various industries in recent years. ML practitioners from businesses AI teams to inndividual data scientists face multiple data storage related challenges: finding proven and good dataset, storing and maintaining them with ground truth labels, and keeping track of variances of different ML modeling files that are produced by data scientists during the experiment and production lifecycle. These data files typically are stored internally, or through AWS / Azure / GCP cloud by many individuals or teams but not organized properly, difficult to version, reference or share. 
 
 In particular, Deep Learning, a type of machine learning and artificial intelligence (AI), requires data scientists to use large datasets to train models that imitates the way humans gain certain types of knowledge. These large dataset (in NLP) can have billions of words or sentences in hundreds of GBs or TBs in size which post challenges in storage and management.
 
@@ -22,6 +22,7 @@ This project aims to use Filecoin storage network as data storage foundation to 
 - Leverage IPFS to store and manage list of datasets, models as well as versioning
 - Filecoin is ideal solution to store these datasets and models in consistent, verifiable, decentralizing way
 - Integrate with multiple Filecoin-based partners (FileSwan, Estuary etc) on storage deals making and distribution
+
 
 
 ## Value
@@ -75,7 +76,7 @@ Will continuously take comments from the community and make improvements. There 
 
 ## Team Members
 
-- WillTechMusing (Main Developer Lead)
+- William Li (Main Developer Lead, github name: william8work, and Slack handle: WillTechMusing)
 - Lucia Zheng (Data Scientist)
 - Web Developer (To be hired) 
 - Charles Cao (FilSwan Support)
@@ -88,6 +89,11 @@ Will continuously take comments from the community and make improvements. There 
 
 ## Relevant Experience
 
-WillTechMusing in an active member of MinerX and X2 program of Filecoin mining community. In addition, he has rich experience manage and deliver cutting edge technical projects in data analytics and AI/machine learning. He is also an active conference speaker in multiple AI and technology conferences.
+WillTechMusing (William Li) in an active member of MinerX and X2 program of Filecoin mining community. In addition, he is a leader in the AI community, has rich experience manage and deliver cutting edge technical projects in data analytics and AI/machine learning. He is also an active conference speaker in multiple AI and technology conferences.
 
-
+AI Paper Published:
+- https://arxiv.org/abs/1907.03715
+AI Articule Published:
+- https://www.destinationcrm.com/Articles/Web-Exclusives/Viewpoints/How-AI-Can-Bridge-the-Gaps-Between-CRM-Marketing-and-Sales-146140.aspx
+AI Conference Speaker:
+- http://aisea20.xnextcon.com/
