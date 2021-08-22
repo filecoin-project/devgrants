@@ -2,19 +2,19 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 # Open Grant Proposal: `Lotus Farcaster`
 
-**Name of Project:**  `lotus farcaster V2`
+**Name of Project:**  `lotus farcaster V3`
 
 **Proposal Category:** Choose one of `app-dev`
 
-**Proposer:** `s0nik42`
+**Proposer:** `s0nik42 - Twin Quasar`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
-lotus-farcaster V2 brings additionnal functionnalities to lotus farcaster (see tables below).
+lotus-farcaster V3 brings additionnal functionnalities to lotus farcaster (see tables below).
 
-**Lotus farcaster has 20 forks, was downloaded more than 200 times and get 20+ new users during the last 2 weeks. We want to keep farcaster has one of the main analytics companion of miners by continuously adding features supporting their new challenges. This new release includes enhanced deals view / Fil+ and much more**
+**Lotus farcaster is used by 400+ miners, was downloaded more than 200 times and get 30+ new users during the last 2 weeks. We want to keep farcaster has one of the main analytics companion of miners by continuously adding features supporting their new challenges. This new release follow Filecoin roadmap and bring storage markets features, bring support to the new lotus split mode architecture and made it reusable for other project by providing all the functions are a python module. This tool is build for the community and we really want to keep it opensource**
 
 Lotus farcaster is a Visualization and Analytics tool for Lotus Filecoin node It leverages Prometheus, Grafana and Python.
 
@@ -22,6 +22,7 @@ We want it to be accessible and designed for any types of miners.
 It's designed to manage all type of architecture :
 * single miner, 
 * single miner with workers
+* monolitic and split store architecture (markets node)
 * multiple miners farm.
 
 We want to move from console based monitoring to a proactive professional monitoring grade. Compared to the existing console tools, users will benefits :
@@ -39,14 +40,23 @@ We want to move from console based monitoring to a proactive professional monito
 ### Architecture
 ```
  --------------------------            ------------            ---------------------            ------------
-| Lotus Miner              | <------- | Prometheus | <------- | Grafana             | <------- | Web Client |
-| lotus-exporter-farcaster |           ------------           | farcaster-dashboard |           ------------
- --------------------------                                    ---------------------
+| Lotus Miner              |          |            |          | Grafana             |          | Web Client |   
+| lotus-exporter-farcaster | <------- | Prometheus | <------- | farcaster-dashboard | <------- |            |
+ --------------------------            ------------            ---------------------            ------------  
+   |        
+   |    -------------------------   
+   |-> | Lotus Daemon            | 
+   |     -------------------------  
+   | 
+   |    -------------------------  
+   |-> | Lotus Markets           | 
+        -------------------------  
+ 
 ```
 
 ### lotus farcaster comes with 2 Components :
 * A Grafana dashboard
-* lotus-exporter-farcaster a standalone and configuration-less python script executed every minute by the crontab.
+* lotus-exporter-farcaster a standalone python script executed every minute by the crontab.
 It generates metrics that are exposed by node-exporter to prometheus.
 
 ### Security
@@ -59,15 +69,13 @@ The design and choice of these components, was made to keep a high level of secu
 lotus-exporter-farcaster is running locally on the miner without any specific privilege nor access to other servers. 
 
 ### It will follow [prometheus guidelines](https://prometheus.io/docs/instrumenting/writing_exporters/) :
-* configuration-less
 * ressources inexpensive
 * standard prometheus metrics naming
 * compatible with 3rd parties dashboards and exporters
 
 ## Benefits
-
+* Support any type of lotus architecture
 * Easy to deploy
-* Configuration less
 * Small footprint
 * Collect lotus node and miner data
 * Only rely on API
@@ -96,29 +104,35 @@ lotus-exporter-farcaster is running locally on the miner without any specific pr
 |Sectors w/ Deals| V2       | Breakdown of sectors in 3 categories : CC / inc. deals / inc. Verified. Current and historical view, helping the miner to understand how he gets is power over time|
 |Address lookup | V2        | Allow miners to provide a custom lookup file (Adress=Name/Label) to improve dashboard readability.. The lookup apply to any panels containing adresses (Wallet / Deals / Fil+ / etc...).|
 |Farcaster Status | V2      | Farcaster reports any problems when scraping data. Ensuring dashboard is accurate.|
-|Deployment toolset | V2    | Provide additional scripts to simplify farcaster deployment and troubleshooting.|
-|Transition to a Python Library | V2 | Farecaster is under transition to provide all functionnalities as a Python library.|
+|Deployment toolset | V3    | Provide a deployement script supporting and autodetecting any type of lotus architecture + Docker|
+|Full Python Library | V3 | Provides all functionnalities as a Python library.|
+|Storage market Proposal | V3 | Provides on-going downloads, pending publishing deals, etc...|
+|Sectors lifecycle | V3 | Dashboards helping miners to identify expired sectors correlated with errors to help fast troubleshooting.|
 
 
 ## Roadmap
 
-03 jan 2021 : V2 scoping
-10 jan 2021 : Design / Specifications / Mockup
-12 jan 2021 : Presentation during Filecoin Virtual Meetup 
-15 feb 2021 : First release open to beta tester
-30 mar 2021 : Public release
+The planning could be shorted if Protocol Labs for any reasons decide to force miners to switch to splitstore.   
+
+01 sep 2021 : V3 scoping
+07 sep 2021 : V3 Development of Design / Specifications / Mockup
+30 sep 2021 : First release open to beta tester
+15 oct 2021 : Public release of the new farcaster (without the python lib)
+15 nov 2021 : Public release of the python lib
 
 | Milestone                                                                              | Hours | Cost     |
 | -------------------------------------------------------------------------------------- | ----- | -------- |
-| Collect needs from the community, design, planning                                     | 8     | € 576    |
-| Studing Lotus API and reverse iengineering                                             | 8     | € 576    |
-| Exporter development (lotus V2.0)                                                      | 57    | € 4 104  |
-| Dashboard development (lotus V2.0)                                                     | 15    | € 1 080  |
-| Collect feedbacks from beta user / bug fix and UI                                      | 10    | € 720    |
+| Collect needs from the community, design, planning                                     | 8     | €   576  |
+| Studing the new Lotus API and reverse iengineering                                     | 8     | €   576  |
+| Exporter development (lotus V3.0)                                                      | 40    | € 2 880  |
+| Dashboard development (lotus V3.0)                                                     | 40    | € 2 880  |
+| Collect feedbacks from beta user / bug fix and UI                                      | 10    | €   720  |
+| Automatic Deployment process + Docker                                                  | 20    | € 1 440  |
+| Python library                                                                         | 50    | € 3 600  |
 | Launch support (community support / comm / bug fix)                                    | 20    | € 1 440  |
-| Video Tutorial + Documentations (Docstring + Dashboard request)                        | 20    | € 1 440  |
-| First year support (up to 6 hours)                                                     | 6     | € 432    |
-| **Total Budget Requested**                                                             |       | **€ 10 368** |
+| New Video Tutorial + Documentations (Docstring + Dashboard request)                    | 20    | € 1 440  |
+| First year support (up to 8 hours)                                                     | 8     | €   576  |
+| **Total Budget Requested**                                                             |       | **€ 16 128** |
 |                                                                                        |       |          |
 | Option : Additionnal support per major update (start after included support consummed) | 10    | € 720    |
 
@@ -136,7 +150,7 @@ Julien NOEL - julien.noel@twinquasar.io
 
 ## Team Website
 
-`https://github.com/s0nik42/lotus-farcaster`
+`https://twinquasar.io`
 
 ## Relevant Experience
 
