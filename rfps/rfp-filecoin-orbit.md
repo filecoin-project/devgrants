@@ -22,7 +22,7 @@ To be eligible for the grant, your event should be:
 * Events must be publicly posted
 * If held in person, compliant with all local COVID-19 restrictions and guidance
 * Not focused on investment, price, or token sales
-* Abide by the Filecoin community code of conduct
+* Abide by the Filecoin community [code of conduct](https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md)
 
 ### How to apply
 Fill out this [form](https://filecoin-community.typeform.com/to/B9XpG9ep) to request funding for your event. Grants range from $500-1500 USD; you will need to submit a budget detailing how funds will be used.
