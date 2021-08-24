@@ -25,7 +25,7 @@ To be eligible for the grant, your event should be:
 * Abide by the Filecoin community code of conduct
 
 ### How to apply
-Fill out the form below to request funding for your event. Grants range from $500-1500 USD; you will need to submit a budget detailing how funds will be used.
+Fill out this [form](https://filecoin-community.typeform.com/to/B9XpG9ep) to request funding for your event. Grants range from $500-1500 USD; you will need to submit a budget detailing how funds will be used.
 
 If your event doesn't require a grant, get in touch anyway! We'd love to list it on the Filecoin Orbit events page and share announcements and recordings with the community. We may also be able to help with other things like sourcing speakers or access to virtual meetup tools.
 
