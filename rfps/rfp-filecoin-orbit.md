@@ -35,6 +35,6 @@ If your event doesn't require a grant, get in touch anyway! We'd love to list it
 * Purpose and impact of funding
 * Event promotion strategy
 
-###Submission deadline
+### Submission deadline
 
 The deadline for proposals is 11:59 pm PT on  September 10th, 2021 and successful applicants will be notified by September 17th. The events will then be added to the Filecoin Orbit website and shared with the community.
