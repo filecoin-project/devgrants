@@ -39,6 +39,12 @@ FileCoin has no standard library like aws s3, so it hard to implement
 
 ## Development Roadmap
 
+### Architecture
+
+Substrate and Filecoin/S3 are the only required parts of the Phu Quoc Dog protocol.
+
+![Architecture-PhuQuocDoge](https://user-images.githubusercontent.com/1762691/130725974-db59d7fa-dae9-4a76-aec6-24f550e31af9.png)
+
 
 ### Milestone 1: Implement Filecoin API to own blockchain
 
