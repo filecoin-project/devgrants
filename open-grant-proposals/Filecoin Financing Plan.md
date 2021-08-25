@@ -32,13 +32,29 @@ A: The credit rating of financiers is not comprehansive or accurate enough, and 
 
 1. deliver the lotus-miner implementation code for financing plan
 2. deliver the web browing portal (financing plan explorer) code for financing plan and access services.
+3. Filecoin financing plan detailed process:
+1）Add two control address types for miner, which means on the basis of the worker/owner address, we add the financing address and the repayment freeze address.
+2）A sealing sector first determines whether the financing address has some balance, If the address has, the sector will use the balance; if not, the sealing sector will follow the original logic to process.
+3）A financing plan includes features below:
+Financing address
+Financing start time
+Financing end time
+Financing total amount (At the financing end time, if financing total amount has not yet met, the financing plan will be canceled automatically.)
+Repayment total amount
+Repayment start time
+Repayment end time
+Repayment period
+Repayment period option (3 options: month, week, day)
+4)During the repayment time, the miner balance is frozen to pay for the current repayment. When the added-up balance meets the repayment limit, the balance will be automatically transferred to the repayment freeze address.
+5)Only when the balance in the freeze repayment address has met the repayment amount, the miner’s balance can be withdrew and used. 
+6)When repayment time is about to end, repayment freeze address will automatically transfer the scheduled repayment amount into the financing investment address.
 
 ## Development Roadmap
 
-No.       Milestone                                                                                                           time                         budget   
-1         Implement the creation of the financing plan and release basic features.                                            3 persons/ per week          $4,800
-2         Implement the financing plan explorer, provide the user portal for the whole network's investor financing plan      3 persons / per week         $4,800
-3         Implement the lotus-miner's financing plan execution guarantee logic, financing fund freeze, and income will be automatically repayed as scheduled promised repayment plan of the financing plan.                                                                                                   15 persons / per week        $24,000
+No.     Milestone                                                                                                           time                         budget   
+1       Implement the creation of the financing plan and release basic features.                                            3 persons/ per week          $4,800
+2       Implement the financing plan explorer, provide the user portal for the whole network's investor financing plan      3 persons / per week         $4,800
+3       Implement the lotus-miner's financing plan execution guarantee logic, financing fund freeze, and income will be automatically repayed as scheduled promised repayment plan of the financing plan.                                                                                                      15 persons / per week        $24,000
 
 ## Total Budget Requested
 
