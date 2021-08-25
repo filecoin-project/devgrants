@@ -32,10 +32,13 @@ A: The credit rating of financiers is not comprehansive or accurate enough, and 
 
 1. deliver the lotus-miner implementation code for financing plan
 2. deliver the web browing portal (financing plan explorer) code for financing plan and access services.
-3. Filecoin financing plan detailed process:
-1）Add two control address types for miner, which means on the basis of the worker/owner address, we add the financing address and the repayment freeze address.
-2）A sealing sector first determines whether the financing address has some balance, If the address has, the sector will use the balance; if not, the sealing sector will follow the original logic to process.
-3）A financing plan includes features below:
+
+## Technical Breakdown
+
+Filecoin financing plan detailed process:
+1. Add two control address types for miner, which means on the basis of the worker/owner address, we add the financing address and the repayment freeze address.
+2. A sealing sector first determines whether the financing address has some balance, If the address has, the sector will use the balance; if not, the sealing sector will follow the original logic to process.
+3. A financing plan includes features below:
 Financing address
 Financing start time
 Financing end time
@@ -45,9 +48,9 @@ Repayment start time
 Repayment end time
 Repayment period
 Repayment period option (3 options: month, week, day)
-4)During the repayment time, the miner balance is frozen to pay for the current repayment. When the added-up balance meets the repayment limit, the balance will be automatically transferred to the repayment freeze address.
-5)Only when the balance in the freeze repayment address has met the repayment amount, the miner’s balance can be withdrew and used. 
-6)When repayment time is about to end, repayment freeze address will automatically transfer the scheduled repayment amount into the financing investment address.
+4. During the repayment time, the miner balance is frozen to pay for the current repayment. When the added-up balance meets the repayment limit, the balance will be automatically transferred to the repayment freeze address.
+5. Only when the balance in the freeze repayment address has met the repayment amount, the miner’s balance can be withdrew and used. 
+6. When repayment time is about to end, repayment freeze address will automatically transfer the scheduled repayment amount into the financing investment address.
 
 ## Development Roadmap
 
