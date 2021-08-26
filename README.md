@@ -12,7 +12,7 @@ Grants of $5,000 in FIL are available to support taking the _next step_ after yo
 
 Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
 
-[**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Microgrant Proposals**](https://github.com/filecoin-project/devgrants/issues) 
+[**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Accepted Microgrant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) 
 
 ---
 
