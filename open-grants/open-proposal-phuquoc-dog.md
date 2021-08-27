@@ -34,8 +34,9 @@ FileCoin has no standard library like aws s3, so it hard to implement and It is 
 
 ## Deliverables
 
-1. v1 Phu Quoc Dog API
-2. v2 Phu Quoc Dog Mobile app
+1. v1 Phu Quoc Dog Blockchain
+2. v2 Phu Quoc Dog API
+3. v3 Phu Quoc Dog Mobile app
 
 ## Development Roadmap
 
@@ -59,18 +60,28 @@ Substrate and Filecoin/S3 are the only required parts of the Phu Quoc Dog protoc
 | 3 | Unit Tests | We will add unit tests to cover mint, burn, transfer, getBalance, getTotalBalance for the basic token. |
 | 4 | Testnet | Running the testnet |
 
-### Milestone 2: Implement Mobile app and Blockchain Operating System
+### Milestone 2: Implement API and Blockchain Operating System
 
-* **Estimated duration:** 6 month
+* **Estimated duration:** 2 month
 * **FTE:**  3
-* **Costs:** 14,000 DAI
+* **Costs:** 6000 DAI
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 1 | Build API |  Back-end developed in PHP, running on MySQL, Elastic and using Web3js|
-| 2 | Mobile app | UI and Mobile app developed in React.js and React native.|
-| 3 | Web3.storage | Storage protocol layer supports distributed storage of dApp data. |
-| 4 | Wallets | Wallets supports blockchain Phu Quoc Dog and Filecoin. And swap FIlecoin with PQD |
+| 1 | Build API app|  Back-end developed in PHP, running on MySQL, Elastic and using Web3js|
+| 2 | Web3.storage | Storage protocol layer supports distributed storage of dApp data. |
+| 3 | Build API Blockchain | Integration api app with Filecoin store and blochain network |
+
+### Milestone 3: Implement Mobile app
+
+* **Estimated duration:** 4 month
+* **FTE:**  3
+* **Costs:** 8,000 DAI
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1 | Mobile app | UI and Mobile app developed in React.js and React native.|
+| 2 | Wallets | Wallets supports blockchain Phu Quoc Dog and Filecoin. And swap FIlecoin with PQD |
 
 ## Total Budget Requested
 
