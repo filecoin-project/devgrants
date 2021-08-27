@@ -18,7 +18,7 @@ Phu Quoc Dog is a Substrate-based. Phu Quoc Dog is committed to providing easy-t
 
 
 ## Value
-Phu Quoc Dog use Filecoin for raw images and blob storage, introducing structured meta-data marketplace protocols to the total number of general users.
+Phu Quoc Dog use Filecoin for raw images and blob storage, introducing structured meta-data marketplace protocols to the total number of general users. And use Storage for NFTs
 
 ### What are the benefits to getting this right?
 The storage space of smart contracts is limited and costly. As the gas limit per block is limited, so is the execution of a transaction, and FileCoin is a decentralized storage network that is frequently cheaper, faster, and more secure than centralized cloud data storage peers such as Amazon AWS, Microsoft Azure, and Google Cloud.
@@ -30,7 +30,7 @@ own system have effect to Filecoin yet.
 
 ### What are the risks that will make executing on this project difficult?
 
-FileCoin has no standard library like aws s3, so it hard to implement 
+FileCoin has no standard library like aws s3, so it hard to implement and It is difficult to provide highly reliable benchmarks for Filecoin network performance today.
 
 ## Deliverables
 
@@ -70,7 +70,7 @@ Substrate and Filecoin/S3 are the only required parts of the Phu Quoc Dog protoc
 | 1 | Build API |  Back-end developed in PHP, running on MySQL, Elastic and using Web3js|
 | 2 | Mobile app | UI and Mobile app developed in React.js and React native.|
 | 3 | Web3.storage | Storage protocol layer supports distributed storage of dApp data. |
-| 4 | Wallets | Wallets supports blockchain Phu Quoc Dog and Filecoin. |
+| 4 | Wallets | Wallets supports blockchain Phu Quoc Dog and Filecoin. And swap FIlecoin with PQD |
 
 ## Total Budget Requested
 
