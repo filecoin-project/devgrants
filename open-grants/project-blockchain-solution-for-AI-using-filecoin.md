@@ -27,14 +27,19 @@ This project aims to use Filecoin storage network as data foundation to simplify
 
 ## Value
 
-As Artificial Intelligence (AI) continues to proliferate, more and more organizations and businesses are investing heavily into machine learning and data scientists as competitive advantages. Providing a place to share creditable open datasets, open algorithms and ML models will contribute significantly to this growing technology revolution. Levering Filecoin and IPFS as the foundation layers will not only greatly benefit the overall Filecoin ecosystem but also contribute tremendously in preserving valuable human datasets for future AI development.
+As Artificial Intelligence (AI) continues to proliferate, more and more organizations and businesses are investing heavily into machine learning and data scientists as competitive advantages. Providing a place to share creditable open datasets, open algorithms and ML models will contribute significantly to this growing technology revolution. Levering Filecoin (and IPFS as cache) as the foundation layers will not only greatly benefit the overall Filecoin ecosystem but also contribute tremendously in preserving valuable human datasets for future AI development.
 - ***Drive Rapid ML Development*** - provides a list of NLP databases to all ML scientists. Open algorithms will dramatically speed up applications around these datasets
 - ***Reduce Cost*** - makes these datasets and algorithms shared to everyone will simplify the storage needs by individuals and teams hence reduce the overall redundant copies of these data storing hundreds of copies of them in the cloud
 - ***Trustable and Safe Storage*** - Filecoin storage provides trustable and safe data to prevent accidental costly damages or deletion of valuable data
 - ***Extend Filecoin Ecosystem with AI Applications*** - Extend Filecon ecosystem with AI / ML communities to build applications around Fileconi and IPFS to further improve values of the Filecoin in long run.
 
 
-Risks:
+### Additional Beneifts of Storaging Open Algorithms
+
+In addtion to storing ML datasets, this tool allow users upload and store open algorithms as well. The ML algorithms (can be one or more than one) are to demonstrate how these open ML datasets are used in training and ML model development. The combination of ML datasets and algorithms can greatly simplify other users and application data scientists to rapidly use them as references to develop further or improved ML models.
+
+
+### Risks:
 
 one of the risks is that this project requires Filecoin network storage to reliable in storing ML datasets, and be responsive with retrieval capability. This can be migrated by working closely with Filecoin community since the storage deals and retrieval capability are core values for the Filecoin network.
 
@@ -44,11 +49,11 @@ one of the risks is that this project requires Filecoin network storage to relia
 
 Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.
 
-* User can see list of creditable NLP datasets from website
+* User can upload, store, and search list of creditable NLP datasets from website
 * User can review the sources, references and rating of each dataset
-* User can download a selected open database for ML training
-* User can review and the open algorithms of machine learning codes that use the specific database as part of the training 
-* User can download the corresponding ML model produced by the open algorithms to run prediction
+* User can download a selected open dataset for ML training
+* User can upload, review and download the open algorithms of machine learning codes that use the specific dataset as part of the training 
+* User can upload, and download the corresponding ML model produced by the open algorithms to run prediction
 
 
 
