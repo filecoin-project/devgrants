@@ -32,9 +32,24 @@ This project requires building on Ethereum as well as other web 3 solutions whic
 
 Cambrian Protocol employs the conditional tokens framework (CTF) to allow complex, secure interactions between participants. CTF is an ERC1155-compliant, powerful event-based digital asset class developed by Gnosis. Through enabling conditional logic ("If this, then that") for digital assets, fungible conditional tokens can be minted with value contingent on arbitrarily complex logic derived from real-world and on-chain information. Originally conceived to power prediction markets and futarchic governance, the CTF allows us to conditionalize remuneration of service providers and thus hold them accountable to their benefactors.
 
-Conditional tokens (CTs) are minted when a proposal meets its funding goal to represent the escrowed funds. These CTs are distributed to participants according to the Proposal's Solution and gain their value at its conclusion, after which they can be redeemed for the escrowed collateral. A Solution is concluded when all of its component Solvers have reported outcomes, and these outcomes have been confirmed without dispute or settled after dispute.
+Conditional tokens (CTs) are minted when a proposal meets its funding goal to represent the escrowed funds. These CTs are distributed to participants according to the Proposal's Solution and gain their value at its conclusion, after which they can be redeemed for the escrowed collateral. A Solution is concluded when all of its component "Solver" smart contracts have reported outcomes, and these outcomes have been confirmed without dispute or settled after dispute.
 
-Our MVP will be a set of re-useable smart contracts that Filecoin will be able to leverage to coordinate the funding of grants.
+Our MVP will be a set of re-useable smart contracts that Filecoin will be able to leverage to coordinate the funding of grants. Following the MVP and this grant, we will be extending the tech to support a wider range of use cases.
+
+## Filecoin / IPFS
+
+An immutable data layer is a critical piece of this infrastructure, now and in the future. Our MVP intends to use IPFS in 2 ways:
+1. Committing verbose descriptions for Proposals and their associated Conditions to IPFS.
+2. Committing atomic elements of front-end code used to interact with our smart contracts to IPFS.
+
+Regarding point 1, it is important that the terms of a Proposal being funded are known to be the same for all participants. By utilizing IPFS, we can ensure immutability and consistency. We can store the IPFS hash of the details of a Proposal on-chain to inexorably link a configuration of smart contract code to human-readable agreements.
+
+Regarding point 2, we are developing various "Solvers", user-interfaced smart contracts with unique functions for aiding the execution of Proposals. The UI of a Solver must be known and immutable to ensure predictable behaviour. IPFS is the best way to do this in a decentralized fashion. By loading front-end code from IPFS, or checking it against IPFS, users can be confident that what worked yesterday will work the same today as they configure a Proposal in a "no-code" environment.
+
+In our roadmap beyond the scope of this grant, the development of Solvers will be open source and will include additional functionality such as reputation tracking and fraud detection. These functions too will depend on a reliable data layer, and we believe Filecoin is the best solution in the ecosystem to support this. Further, as the development of these smart contracts becomes decentralized, it is crucial in our view that their interfaces are immutably decentralized as well.
+
+To summarize, we believe that IPFS/Filecoin is not only useful for the exchange of large corpuses of text, but critical for the functionality of data-dependant smart contracts and the secure decentralization of their associated UIs. We intend to leverage this in our modular architecture for conditional transactions.
+
 
 
 ## Development Roadmap
