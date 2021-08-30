@@ -26,9 +26,11 @@ The application is a product that can help web3 developers and meta creators to 
 
 ## Deliverables
 
-* A JavaScript SDK that enables builders to upload files to IPFS/Filecoin and mint NFTs to Hedera.
+* A JavaScript SDK that enables web3 builders to upload files to IPFS/Filecoin and mint NFTs to Hedera.
 
 * A real world application that empowers the creators manage media assets and metadata, mint NFTs, and create a light weight storefront all-in-one place, it also shows how developers can use the JS SDK to create and mint NFTs with ease.
+
+* A gateway enables collectors to use HBAR and FIL to buy arts and collectables.
 
 ## Development Roadmap
 
@@ -44,6 +46,7 @@ Milestone 1 (Week 1 to 7):
 Milestone 2 (Week 8 to 12):
 
 - Application implementation - fully functional interactive UI according to the UX design
+- Payment gateway enables collectors to use HBAR and FIL to buy arts and collectables from the creators storefront
 - Testnet deployment, feedback collection, and bug fixes
 - Improvements and maintenance
 
@@ -68,19 +71,28 @@ nftvictor@gmail.com
 ## Team Members
 
 - Victor Feng: Certified blockchain solution architect and Ethereum developer. He has around 15 years experience in the IT industry, and have extensive hands-on experience in IPFS/Filecoin apps development. Led several DeFi and NFT related projects in both front-end and smart contract design and development for several companies and projects. Beyond those, he also participated and led several large-scale distributed and decentralized systems design and development in banking, blockchain, telecom, and media industries.
-- 2 frontend developers
-- 1 UX designer to design the application
+- Nikki Ng: over 10 year frontend development and product management experience, participated several DeFi projects development during last 2 years.
+- 1 frontend developers
+- Bart Wong: well-versed UX designer designed several big e-commerce websites that used by hundreds of thousands or/even millions of consumers daily world-wide.
 
 ## Team Member LinkedIn Profiles
 
-- [Victor Feng]([https://www.linkedin.com/in/imrfeng/](https://www.linkedin.com/in/imrfeng/))
-- TBD
-- TBD
+- [Victor Feng](https://www.linkedin.com/in/imrfeng/)
+- Bart
+- Nikki
 - TBD
 
 ## Team code repositories
 
 https://github.com/metaworth
+
+## Relevant Experience
+
+The team has many years of blockchain-related project management and has extensive experience in the dApps development that built on top of Ethereum, IPFS and Filecoin. Furthermore, this product is the upgrade version of [Meta Manager](https://github.com/0xatm/meta-manager) developed by Victor. We want to promote the services to be production and customer-ready via the support of this grant.
+
+Maintainer of the [web3-uploader](https://www.npmjs.com/package/web3-uploader), a React library to help developers add files upload feature to IPFS/Filecoin easily.
+
+Victor is one of Hedera community members since early 2019, and he has the fundamental Hedera Token Service knowledge. It is an excellent chance to dive into the Hedera ecosystem. Learn more, contribute more.
 
 # Additional Information
 
