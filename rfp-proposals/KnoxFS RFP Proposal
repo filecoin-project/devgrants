@@ -1,0 +1,127 @@
+Project Title: KnoxFS
+Link to RFP: https://github.com/KnoxFS
+RFP Category: core-dev
+Proposer: KnoxFS    
+Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:  Yes
+Project Description
+KnoxFS is a Bitcoin-based cryptocurrency with a focus on decentralized data storage, distribution, privacy, and security. It aims to provide an innovative, secure and private storage application to the non-blockchain and cryptocurrency-based world for both consumers and companies around the globe. 
+
+KnoxFS utilizes existing third-party opensource storage networks, which enables scalability, flexibility, and redundancy.  Our long-term goal of KnoxFS is to offer a range of applications (‘products’) that are commercially viable, all centered around decentralized storage with a broad userbase.  Additionally, the self-developed software solutions will have the KFX currency as a payment option and therefore drive demand for the coin.
+
+Our goal is to develop a files storage product similar to Dropbox with multiple storage back-ends/networks.  Our product will offer a range of applications (‘products’) that are commercially viable, all centered around decentralized storage with a broad userbase. Additionally, the self-developed software solutions will have the KFX currency as a payment option and therefore drive demand for the coin.
+
+The unique feature of KnoxFS product is the unique hybrid solution that offers the possibility to use storage resources on multiple networks, without having to own all these different coins as a payment.
+
+
+Deliverables
+
+By Block 200,000, which is estimated to be early October 2021, KnoxFS will have a working beta version which will contain a Progressive Web Application with authentication and end-to-end encryption that in  turn will contain the gateway to interact with Filecoin, Sia Network (as the first network to be implemented), and Storj.  Furthermore, next phases are to include Bittorent and other third-party decentralized storage applications.
+
+The intent is to manage a distributed ledger that will keep user’s public keys, public user information, the hashes of the files and its ownership tree.  The following products to be coded, and to the right the technologies used in them:
+⦁	Web application (ReactJS along with NextJS)
+⦁	Core API that will help in the communication and management of third-party partners (Golang)
+⦁	Distributed Ledger (Hyperledger Fabric with Golang)
+⦁	Wrapped KFX (This will include Solidity contracts but also Custodians verifying in Golang with Web3)
+
+The documentation for the web application will be written in a digital paper, for the Core API it will be automatically generated with go-swagger, the distributed ledger will also have a digital paper, and the wrapped KFX will remain in a Gitbook.
+
+Below are some samples of our development:
+
+Sample 1:
+(image)
+
+
+
+Sample 2:
+(image)
+
+
+Development Roadmap
+
+Without going into too much detail, we want to offer a helicopter view on what can be expected from KnoxFS in 2021 for development.
+Q2 – 2021
+- Release first beta version of file storage application
+- Update PivX codebase for KFX wallet, to enhance security and introduce new features
+
+Q3 – 2021
+- Connect two additional storage networks to our beta product
+- Expand core team and development team
+- Release subscription-based model for beta product
+- Release Android app
+- Release iOS app on Apple TestFlight
+
+Q4 – 2021
+- Onboard first corporate customers for commercial pilot phase
+- Organize public voting to decide on next product
+- Release 1.0 version of storage application
+
+
+Total Budget Requested
+
+We estimate 200 hours of development to integrate into the Filecoin network at an hourly rate of $25/hour.  The total requested funding is $5,000.  This money will mainly be used to pay our developers so that we quickly integrate your filecoin technical solution into our product. And the objective for the following months will be to develop services above, to monetize the solution according to user needs (type of files: video, photos or by needs of performance, redundancy, security, "proof" of deposits ...) The goal is to make filecoin the preferred solution for our users.
+
+Q3 – Approximately $2000
+
+Q4 – Approximately $1500
+
+2022 Q1 – Approximately $1500
+
+
+Maintenance and Upgrade Plans
+
+Maintenance will cover all major bugs (functional and security issues) via hotfixes made to our github.
+We will be rolling releases periodically with new features in all of our products, start a DAO in the wrapped version of our tokens to update the token parameters.
+
+
+TEAM
+
+Contact Info
+
+Discord:	https://discord.gg/bTtgmMf
+(primary communication channel):      
+Email:		contact@knoxfs.com
+Telegram:	https://t.me/knoxFSOfficial
+Twitter:		https://twitter.com/OKnoxfs
+LinkedIn:	https://www.linkedin.com/company/knoxfs
+
+Team Members
+
+Robin Kuipers (The Netherlands) – Project Lead
+Laurent Fanise (France) – Development Manager
+Nicolas Meienberger (Switzerland) - Developer
+Luis Leon (Mexico) – Developer
+Ethan Snajder (France) Developer
+Cesar Minato
+Spencer Pickett (United States) Business Development
+Quoc Pham (United States) – Community Manager
+Yasman Montilla (Venezuela) – Community Manager
+
+
+Team Member LinkedIn Profiles
+KnoxFS:			https://www.linkedin.com/company/knoxfs
+
+Robin Kuipers: 		https://www.linkedin.com/in/robin-kuipers/
+Laurent Fanise:	 	https://www.linkedin.com/in/laurent-fanise-2b17904/
+Luis Leon:		https://www.linkedin.com/in/luisul/
+Quoc Pham:		https://www.linkedin.com/in/quoc-pham-pe-cem-cxa-64aa87132/
+Spencer Pickett :	https://www.linkedin.com/in/spencer-pickett-scp/
+
+
+
+
+Team Website
+https://knoxfs.com/
+
+Relevant Experience
+Please see LinkedIn Profiles for relevant experience
+
+Team Code Repositories
+Github: https://github.com/KnoxFS
+
+
+Additional Information
+Whitepaper 	http://knoxfs.com/KnoxFS_Whitepaper_0.4.pdf 
+Wallets: 	https://github.com/KnoxFS/KFX-wallet-V2/releases/tag/v1.0.0 
+Bitcointalk: 	https://bitcointalk.org/index.php?topic=5305162.msg55979254#msg55979254 
+Explorer: 	https://explorer.knoxfs.com/ 
+Explorer2: 	https://explorer.trittium.net/KFX/blocks
