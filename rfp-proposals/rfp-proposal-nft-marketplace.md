@@ -12,30 +12,38 @@
 
 # Project Description
 
-We designed an SDK that integrates existing Filecoin storage service and Hedera
-Token Service (HTS). It allows users to create non-fungible tokens (NFTs) and allow
-storage of larger files associated with HTS tokens (images, videos, JSON metadata,
-etc.) on the Filecoin network.
+We've designed an SDK that integrates the Filecoin storage service and Hedera Token
+Service (HTS). This allows users to create non-fungible tokens (NFTs) with the ability to
+store larger files (images, videos, JSON metadata, etc.) associated with HTS tokens on
+the Filecoin network.
 
-The project makes it easier for developers to create Dapps without having to do a dive
-deep into the concepts of Filecoin and Hedera. Hedera’s native file service(HFS) is
-inefficient for storing large files. The maximum file size in HFS is only 1,024 kB and the
-overall limit of a transaction is only 6 kB. So Files had to be broken into smaller chunks
-and multiple append calls had to be made to store it on chain. This limitation made the
-process of creating NFTs using HTS and HFS time consuming and exorbitant.
+The proposed project will make it easier for developers to create Dapps without having
+to do a deep-dive into the concepts of Filecoin and Hedera services, in-turn increasing
+uptake and making implementation easier and efficient.
 
-To overcome this, the project integrates Hedera Token Service(HTS) and NFT.storage,
-a service backed by Protocol Labs and Pinata specifically for storing NFT data.
+Hedera’s native file service (HFS) is inefficient for storing large files. The maximum file
+size in HFS is only 1,024 KB and the overall limit of a transaction is only 6 KB, files
+have to be broken into smaller chunks and multiple append calls have to be made to
+store it on chain. This limitation made the process of creating NFTs using Hedera's HTS
+and HFS time consuming and exorbitant.
+
+To solve and overcome this, the project integrates Hedera Token Service(HTS) and
+NFT.storage, which is a service backed by Protocol Labs and Pinata specifically for
+storing NFT data.
+
 NFT.storage provides an abstraction to simplify Filecoin integration. It can store NFT’s
-upto 32GB in size and the process is a lot faster than using HFS. So with this approach
-we get more storage space and less time to upload files.
+up to 32GB in size and the process is naturally a lot faster than using HFS. Therefore in
+using this approach we get more storage space and less time to upload files.
+We believe that this will provide a fantastic user experience for creating NFTs on
+hashgraph network, and due to this, once it becomes available, become a leading
+provider in this technology space within a short period of time.
 
 ## Deliverables
 
-We created a demo application that uses this SDK to build an open source end-to-end
+We create a demo application that uses this SDK to build an open source end-to-end
 NFT marketplace demo application that
-1. Showcases the functionality of the Decentralized Storage SDK and
-2. Is used by other developers in the community as a reference architecture.
+1. Showcases the functionality of the Decentralized Storage SDK.
+2. Can be used by other developers in the community as a reference architecture.
 The demo application includes:
 * NFTs created on Hedera.
 * Multimedia associated with the NFT stored on Filecoin.
@@ -89,8 +97,10 @@ rely on them.
 Once a year the HEX team will produce a major release, characterized by a well defined
 interface and behavior for each of its components. Interface and behavior are allowed to
 change within a major release only in a backwards-compatible way.
+
 Component releases are classified in major, minor, revision and emergency, based on
 the impact of the changes on the component interface and behavior.
+
 Requests for Change will be managed adopting a priority-driven approach, so that the
 risk to compromise the stability of the software deployed in a production environment is
 minimized. Requests for Change will also be properly monitored across the different
@@ -111,6 +121,9 @@ response to your issues within 1 business day, and usually much faster than that
 * Special promotions and discounts.
 
 # Team
+
+## Contact Info
+jim@myhex.net
 
 ## Team Members
 
