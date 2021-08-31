@@ -99,7 +99,7 @@ Total = $13,500 x 2 = $27,000
 
 ### Milestone 3
 
-We will build subgraph that will track the metadata of the project and course NFTs. This will serve as a project registry and will also store the details of the projects. Our front-end will use the nft.storage URIs to display the details about the projects and courses. We will build a smart contract for the quests that users will complete within the courses. The UI will be built for presenting these quests. The smart contract will call a Chainlink External Adapter which will check the ceramic streamID for proof that user completed quest and will also pass metadata to NFT.storage and return URI to contract. This will also utilize the Chainlink VRF contract for randomness according to pre-set thresholds within the smart contract.
+We will build a subgraph that will track the metadata of the project and course NFTs. This will serve as a project registry and will also store the details of the projects. Our front-end will use the nft.storage URIs to display the details about the projects and courses. We will build a smart contract for the quests that users will complete within the courses. The UI will be built for presenting these quests. The smart contract will call a Chainlink External Adapter which will check the ceramic streamID for proof that user completed quest and will also pass metadata to NFT.storage and return URI to contract. This will also utilize the Chainlink VRF contract for randomness according to pre-set thresholds within the smart contract.
 
 - Giovanni - UI/UX Designer and Front-End Developer (Figma/next.js/chakra-ui)
 - Cali - Full Stack Developer (Ceramic/IDX/web3.storage/nft.storage/subgraphs)
