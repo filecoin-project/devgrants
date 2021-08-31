@@ -13,7 +13,7 @@ Tokenized Research seeks to utilize distributed ledger technology to open up new
 Currently the meta processes that govern how research is conducted and incentivized are highly centralized and have not yet taken advantage of the potential improvements that can be made in this industry by using distributed ledger technology.
 Our project focuses on 2 primary use cases of DLT
  1. Ensuring research data integrity via trustless file version management
- 2. Providing new kinds of incentives using NFT's and cryptocurrencies to help encourage more research 
+ 2. Providing new kinds of incentives using NFT's and cryptocurrencies to help encourage more participation in research 
 ## Value
 This table is an overview of our value proposition for each involved party
 ![ValuePropositionTable](https://tokenizedresearch.com/wp-content/uploads/2021/08/Value-proposition.png)
@@ -38,9 +38,6 @@ The biggest hurdles in executing this project are mostly surrounding the existin
 Research data is also often sensitive information, and HIPAA requires that data to be stored in a very specific way so that personally identifiable information is not public.
 As director of University of California Institute for Predictive Technology, Dr. Sean Young plays a key role in guiding our efforts based on his knowledge from past research experience. Additionally, his connections in academia are crucial to onboarding 
 our initial Researchers and Universities. 
-
-## Development Roadmap
-This section should be 1-3 paragraphs long.
 
 ## Deliverables
 
@@ -86,11 +83,11 @@ For each milestone, please describe:
 ## Total Budget Requested
 
 Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds.
-Total: 30,000 
- - 16,000 paying developers
- - 10,000 paying contractors
- - 3,500 advertising
- - 300 Operations (Hosting, Filecoin storage, etc)
+Total: $30,000 
+ - 16,000 paying developers (53.3%)
+ - 10,000 paying contractors (33.3%)
+ - 3,500 advertising/promotions (11.6%)
+ - 300 Operations (1%) (Hosting, Filecoin storage, etc)
 
 ## Maintenance and Upgrade Plans
 
