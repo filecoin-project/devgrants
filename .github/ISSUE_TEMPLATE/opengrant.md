@@ -16,20 +16,7 @@ Our project focuses on 2 primary use cases of DLT
  2. Providing new kinds of incentives using NFT's and cryptocurrencies to help encourage more research 
 ## Value
 This table is an overview of our value proposition for each involved party
-| Universities | Researchers | Research Participants | Filecoin & Hedera Ecosystem |
-| --- | --- | --- | --- |
-| - Save money by giving out a percentage of participant rewards in Research coin, and reducing transaction fees from fewer gift card purchases
-- Verifiably trustworthy data from researchers
- | - Access to a larger pool of research participants
-- Able to prove their data has not been manipulated
-- Enhanced study funding from Recerca grants
- | - Cryptocurrency based incentives to participate in research
-- Social / Gamified NFT based incentives to participate in research
-| - Proof of concept for trustless file version management of research data/documents
-- Proof of concept for preventing data manipulation in research
-- Proof of concept for Social NFTs used to promote a common good(research)
-- UCIPT expansion of services to universities nationwide
-|
+![ValuePropositionTable](https://tokenizedresearch.com/wp-content/uploads/2021/08/Value-proposition.png)
 
 Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
 "What are the benefits to getting this right?"
