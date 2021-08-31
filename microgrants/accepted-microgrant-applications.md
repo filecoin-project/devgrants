@@ -24,3 +24,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | :--- | :------ | :--- | :--------: | 
 |      |         |      |            |
 | @Jc0803kevin | Filecoin Java sdk| [Github](https://github.com/jc0803kevin/FilecoinJ)| [#296](https://github.com/filecoin-project/devgrants/issues/296) |
+| @nornagon | FILterBot | [Github](https://github.com/galen-mcandrew/FILterBot)| [#296](https://github.com/filecoin-project/devgrants/issues/303) |
