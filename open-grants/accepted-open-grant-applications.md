@@ -34,4 +34,13 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | :--- | :------ | :--- | :--------: | 
 | Wrapped  |  Bidirectional FIL <=> WFIL Bridge to Ethereum   |  [Project](https://github.com/tokensoft/tokensoft_token) | [Application](https://github.com/filecoin-project/devgrants/pull/264/commits/cf708760798428775091d092fbde21437db48df8?short_path=0c04afe#diff-0c04afe96ddd40ad02ecbb4037387a5842f2afdc0a3aa40e773fc5e6d7595f9b) |
 | wusirdcenter |  Decoupling WinningPoSt and WindowPoSt from lotus-miner | [Project](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
+| glitter |  Glitter RSS Reader Desktop | [Project](https://github.com/tedl-1990/glitter)| [Application](https://github.com/tedl-1990/devgrants/blob/glitter-desktop/open-grant-proposals/glitter-desktop.md)  |
+| opscentia |  Data Hosting Research | [Project](https://opscientia.com/)| [Application](https://github.com/XandraMcC/devgrants/blob/master/open-grant-proposals/open-proposal-opscientia.md)  |
+| shuo pang |  vArtisans | [Project](https://github.com/aldenpang/vartisans)| [Application](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
+| ariel klevecz |  Yaytso | [Project](https://yaytso.art/)| [Application](https://github.com/aklevecz/devgrants/blob/patch-1/open-grant-proposals/open-proposal-template.md)  |
+| TuninsightBlockchain |  NFT Data Labelling | [Project](https://www.tuninsight.com/)| [Application](https://github.com/TuninsightBlockchain/devgrants/blob/master/open-grant-proposals/open-proposal-Machine%20Learning%20labled%20Dataset%20NFT%20storage%20and%20sharing%20via%20IPFS_Filecoin.md)  |
+| molekilla |  XDV (Ancon) Protocol | [Project](https://ifesa.tech/)| [Application](https://github.com/molekilla/devgrants/blob/patch-3/open-grant-proposals/open-proposal-xdv.md)  |
+| dokterbob |  IPFS Search | [Project](https://github.com/ipfs-search)| [Application](https://github.com/ipfs-search/devgrants/blob/rfp-ipfs-search-scale-out/open-grant-proposals/ipfs-search-scale-out.md)  |
+| froid1911 |  NFT Gallery Manager | [Project](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
+| artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Project](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
 |  |  |  |  |
