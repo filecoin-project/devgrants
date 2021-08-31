@@ -96,23 +96,13 @@ The maintenance of this software is planned to be maintained by Vincent Schneide
 
 Our team is independant but, website of Baptiste Hediard company is https://www.sylleb.io
 
-## Relevant Experience
+## Relevant Experience 
 
-We work together for years in the development area. And for 10 months on Hedera Hashgraph network. More precisely on NFT area with Hedera Token Service. Very quickly, Hedera Token Service appeared to us to be powerful, inexpensive, and very well thought out. But when it comes to files, the solutions offered by Filecoin appeared to us to be the best. The combination of both networks is meaningful and participating to this RFP was obvious to us.
+We worked together for years in the development area. And for 10 months on the Hedera Hashgraph network. More precisely on the NFT area with Hedera Token Service. Very quickly, Hedera Token Service appeared to us to be powerful, inexpensive, and very well thought out. But when it comes to files, the solutions offered by Filecoin appeared to us to be the best. The combination of both networks is meaningful and participating in this RFP was obvious to us. We believe we can bring our creativity, our sense of design and UX to the service of both networks. With our RFP submissions, we want to bring sustainable and practical solutions to developers and users. 
 
-We believe we can bring our creativity, our sense of design and UX to the service of both networks. With our RFP submissions, we want to bring sustainable and practical solutions to developers and users.
+Baptiste Hediard is a web designer working at Sylleb, CEO of this company based in France and established in 2016. With Sylleb, he worked on several App projects like Getsign.io (a e-signature SaaS), livemockups.com (a mockup generator SaaS), Yarea.io (a client portal creator SaaS). Recently, he designed the Xact Wallet App ([https://wallet.xact.ac](https://wallet.xact.ac)). The first Hedera Hashgraph wallet that allows users to preview their NFTs media (including the NFTs media stored on nft.storage/Filecoin storage IFPS) and to safely connect your Hedera Hashgraph account to dApps. This wallet is available on iOS and Android for free. In addition of these works, Baptiste Hediard works on crypto projects for 2 years, including NFT collection minted on Hedera Hashgraph, known as [https://www.hashgraph.cards](https://www.hashgraph.cards) and a NFT marketplace based on Zilliqa network, with NFT media stored also on IPFS, WafuSafu.com project. 
 
-Baptiste Hediard is a web designer working at Sylleb, CEO of this company based in France and established in 2016.
-
-With Sylleb, he worked on several App projects like Getsign.io (a e-signature SaaS), livemockups.com (a mockup generator SaaS), Yarea.io (a client portal creator SaaS).
-
-Recently, he designed the Xact Wallet App ([https://wallet.xact.ac](https://wallet.xact.ac)). The first Hedera Hashgraph wallet allowing you to preview your NFTs medias (including the NFTs media stored on nft.storage/Filecoin storage IFPS) and to safely connect your Hedera Hashgraph account to dApps. This wallet is available on iOS and Android for free.
-
-In addition of these works, Baptiste Hediard works on crypto projects for 2 years, including NFT collection minted on Hedera Hashgraph, known as [https://www.hashgraph.cards](https://www.hashgraph.cards) and a NFT marketplace based on Zilliqa network, with NFT media stored also on IPFS, WafuSafu.com project.
-
-Vincent Schneider is a fullstack developer for X years, mainly working with NodeJS and Y.
-
-He worked on many projects, including mobile applications XYZ, and on Vefa.io project, a progressive web application. He develops Xact Wallet, and its opensource SDK, available for developers willing to integrate securely the Xact Wallet to their apps to accomplish actions such as Login, pay,.. This SDK has been enriched especially for this RFP, by adding the possibility of creating an NFT on Hedera Token Service with media on IPFS, transfering a NFT with scheduled transaction, associating NFT… A documentation is available at [https://docs.xact.ac](https://docs.xact.ac) and a dev center is available at [https://dev.xact.ac](https://dev.xact.ac) for this SDK.
+Vincent Schneider is a Freelance Fullstack developer for 7 years, mainly working with NodeJS and JS Frameworks. He worked on many projects, including mobile applications, backend and progressive web applications. He develops Xact Wallet, and it's open source SDK, available for developers willing to securely integrate the Xact Wallet to their dApps in order to accomplish actions such as Login, pay,.. T![image](https://user-images.githubusercontent.com/35454969/131567191-21b635ec-6476-4bfd-a29c-fed4e0caaa82.png)
 
 ## Team code repositories
 
