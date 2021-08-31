@@ -6,7 +6,8 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 - [2021](#2021)
 
-  - [:surfing_woman: Wave 7](#surfing_woman---wave-8)
+  - [:surfing_woman: Wave 7](#surfing_woman---wave-7)
+  - [:surfing_woman: Wave 8](#surfing_woman---wave-8)
   
 ---
 
