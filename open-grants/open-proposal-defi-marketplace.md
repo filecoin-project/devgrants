@@ -158,6 +158,20 @@ For us the project described fits into the `Application Development` category wi
 * Marketing & communications
 
 
+### Budget breakdown
+
+| Milestone              | Duration| FTE       | Cost  |
+|------------------------|---------|-----------|-------|
+| #0. Architecture       | 1 week  | 1.5 FTE   | 7.5k  |
+| #1. Product Definition | 1 week  | 1.5 FTE   | 7.5k  |
+| #2. Marketplace design | 2 weeks | 2   FTE   | 20k   |
+| #3. Back-office        | 3 weeks | 2   FTE   | 30k   |
+| #4. Integration        | 3 weeks | 2 FTE     | 30k   |
+| #5. Deployment & Comms | 1 week  | 1 FTE     | 5k    |
+|------------------------|---------|-----------|-------|
+| Total                  | 11 weeks| 10 FTE    | 100k  |
+
+
 ## Maintenance and Upgrade Plans
 
 All the implementations resulted from this development will be Open Source and merged as part of the Nevermined upstream code. As a result of that, the code and functionality will be supported as long the Nevermined components are being used by the community.
