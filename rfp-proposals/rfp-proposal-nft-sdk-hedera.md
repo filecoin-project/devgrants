@@ -110,4 +110,4 @@ Vincent Schneider is a Freelance Fullstack developer for 7 years, mainly working
 
 # Additional Information
 
-We deployed a version of demo marketplace app at [demo-marketplace.dev.xact.ac](http://demo-marketplace.dev.xact.ac/)
+We deployed a version of demo marketplace app at [demo-marketplace.xactnft.io](https://demo-marketplace.xactnft.io/)
