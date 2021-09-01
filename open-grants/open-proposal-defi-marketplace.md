@@ -168,8 +168,8 @@ For us the project described fits into the `Application Development` category wi
 | #3. Back-office        | 3 weeks | 2   FTE   | 30k   |
 | #4. Integration        | 3 weeks | 2 FTE     | 30k   |
 | #5. Deployment & Comms | 1 week  | 1 FTE     | 5k    |
-|------------------------|---------|-----------|-------|
-| Total                  | 11 weeks| 10 FTE    | 100k  |
+|                        |         |           |       |
+| **Total**              | 11 weeks| 10 FTE    | 100k  |
 
 
 ## Maintenance and Upgrade Plans
