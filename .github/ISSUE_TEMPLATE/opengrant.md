@@ -24,6 +24,7 @@ There a number of benefits to both the Filecoin and Hedera ecosystems from this 
 1) Real world proof of concept for using Filecoin and Hedera technologies to provide distributed (trustless) version management of research documents to mitigate data fraud.
 2) Proof of concept utilizing social NFT incentives for participating in research, in the form of collectible game-like NFTs, in addition to cryptocurrency incentives.
 3) Introduces researchers, Universities, and research participants to the value of distributed ledgers and establish Hedera and Filecoin branding
+
 "What are the risks if you don't get it right?"
 If we fail to execute quickly and effectively, competitors may eventually arise with a similar vision for how distributed ledgers can evolve scientific and academic research.
 Another risk lies in the regulatory hurdles in research and cryptocurrency. 
@@ -102,19 +103,23 @@ Target date: End of October 2021
 - First research study examining interest in receiving cryptocurrencies as payment in comparison to traditional incentives (gift cards, cash) led by Dr Sean Young
 - Provide participants with instructional material for setting up and using the crypto wallet
 - App mockups finalized and development underway
+
 Phase 2 - MVP goes live
 Target date: Early December 2021
 - MVP of tokenized research app goes live
 - Use the Tokenized Research app to distribute our native cryptocurrency within the app
 - Utilize Filecoin and Hedera for distributed file version management of research documents within the app
+
 Phase 3 - Scaling and Polishing MVP
 - Begin promoting to researchers for use in IRB exempt research
 - Begin social media marketing efforts
 - First Research Advisory Council meeting (Council is in charge of determining what studies qualify to earn Recerca grants)
+
 Phase 4 - Expansion of incentive features and scaling up 
 - Roll out initial social / game like NFT incentives as described in the [Proposal Slides] (https://docs.google.com/presentation/d/1zq0RlIAg3asJZ6MYFpMUpAHaezFOZFVuwKkL8djo1uM/)
 - Expand Advisor Council
 - Expand rewards to existing major cryptocurrencies
+
 Phase 5 - Tokensale and data integrity
 - Add feature for researchers to provide end to end data integrity utilizing provenDB
 - Public tokensale
