@@ -50,6 +50,16 @@ The demo application includes:
 * JSON metadata schema associated with those NFTs on Filecoin.
 * Accepting HBAR and FIL (at a minimum) for payment of NFTs.
 
+Demo link: https://chrome.google.com/webstore/detail/hex/kiaflfdgfekdlghbhkimfmgdkmccoekm/related?hl=en
+
+Instructions to Create NFT using Demo: 
+1. `Create/Import` your Wallet
+2. Click `Token` and select `Create Token` from the drop down
+3. Select `Non Fungible Token` from the drop down
+4. Select the necessary file and fill in the fields
+5. Click `Create` and check the details in the dialog shown and Click `Confirm`
+6. The file will be uploaded to the selected storage type.
+7. The symbol for the Token will be FileId for Hedera or CID for Filecoin and you will be provided with a Hedera Token Id.
 ## Development Roadmap
 
 Milestones:
