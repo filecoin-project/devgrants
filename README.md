@@ -21,7 +21,7 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants of up to 
 
  Wave 11 proposal submissions are due **September 30, 2021 at 23:59 PDT** for priority consideration.
 
-[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/blob/master/open-grants/open-proposal-template.md) • [**See Open Grant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/open-grants/accepted-open-grant-applications.md)
+[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/blob/master/.github/ISSUE_TEMPLATE/opengrant.md) • [**See Open Grant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/open-grants/accepted-open-grant-applications.md)
 
 
 ---
