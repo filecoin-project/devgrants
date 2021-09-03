@@ -97,7 +97,7 @@ $50,000
 ## Team Members
 
 - Mark Paul (Blockchain Lead)
-- Mridul Khanal (Cryptograph Lead)
+- Mridul Khanal (Cryptography Lead)
 - Dineish Nathan (Data Security Lead)
 
 ## Team Member LinkedIn Profiles
