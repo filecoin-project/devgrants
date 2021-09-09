@@ -185,4 +185,14 @@ Please provide links to your team's prior code repos for similar or related proj
 
 Please include any additional information that you think would be useful in helping us to evaluate your proposal.
 
+## How will you identify and engage potential learners in the community?
+
+We will collaborate with the content teams of the protocols to create co-marketing campaigns. 
+We will ask the projects to add a link to their Discovery pathway on their (doc) website.
+We will collaborate with the well know content creators in the Web3 space.
+We will have a discord, a discourse, and we will have a presence on many social medias.
+We will publish blog articles that relate to content in Discovery.
+We will create a Web2 to Web3 pathway and target Web2 developers with ads.
+Later on we could even ask celebrities to become ambassadors.
+
 [HackFS 2021 Finalists - Live Demo](https://www.youtube.com/watch?v=UGJA6eahQBg)
