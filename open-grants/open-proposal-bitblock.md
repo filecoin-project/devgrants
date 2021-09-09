@@ -85,7 +85,13 @@ In total, I request $8,750 to complete this project until I can fundraise furthe
 
 ## Maintenance and Upgrade Plans
 
+I plan to reach out to current popular content creators on TikTok and YouTube and give a pitch on how they could dramatically increase their income by posting on BitBlock. I would start with cryptocurrency content creators, as they would be most likely to understand and adopt BitBlock's economics and technology, and expand to other content creators over time. The idea is that bringing creators to the app will initially bring their biggest fans to the app first, and then word of mouth will continue to grow the user-base.
+
 Directly after release of the Cardano token, I would begin working on smart contracts to create a creator/viewer/advertiser economy. The advertisers would pay the DAO to advertise videos on the application. In turn, the DAO would pay viewers for watching advertisements (similar to the Brave browser). Creators would be paid for each view of their content.
+
+After the hypothetical initial sale(s) of the related token, the DAO would automatically start depositing tokens into creators' wallets (perhaps before advertisers are even onboarded, as the DAO would have its own initial treasury) based on viewership. Either directly before or after this, advertisers would be onboarded and able to pay the DAO to promote their content. Next, the DAO would pay viewers for each advertisement they view. As each component of the economic cycle is completed, the incentives for users to join the platform will continue to grow.
+
+We could even explore using the DAO's treasury to buy advertisements or to pay content creators (who are already on BitBlock) to post about the application on their other platforms.
 
 My long-term plan includes drastically improving the recommendation algorithm to rival mainstream competitors' abilities to personalize content for each viewer. Furthermore, a mobile application is necessary to reach broader audiences who wouldn't typically download unknown applications to their computer, much less to watch videos.
 
