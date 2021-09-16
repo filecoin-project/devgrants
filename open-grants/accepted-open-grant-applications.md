@@ -6,12 +6,33 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 - [2021](#2021)
 
+  - [:surfing_woman: Wave 6](#surfing_woman---wave-6)
   - [:surfing_woman: Wave 7](#surfing_woman---wave-7)
   - [:surfing_woman: Wave 8](#surfing_woman---wave-8)
   
 ---
 
 # 2021
+
+## :surfing_woman: Wave 6
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+|    Moran     | Open Source Lotus Scheduler    |   [GitHub](https://github.com/filecoin-project/devgrants/blob/0cc88ce3ee6a10879370131bd8714ab08b186c53/open-grant-proposals/open-source-lotus-scheduler.md)   |  [Application](https://github.com/moran666666/lotus-1.4.0)          |
+| Secondary Retrival Market | Hop Exchange | [Website](https://myel.network)  | [Application](https://github.com/filecoin-project/devgrants/blob/59e0c8be8ace7ab049b6b5d9399910e3f7162215/open-grant-proposals/open-proposal-myel-retrieval-market.md)|
+| Keyko  | Nevermined Integration | [Website](https://Nevermined.io) | [Application](https://github.com/filecoin-project/devgrants/blob/523c863a48a25c81c24ef44efce7d41783d81621/open-grant-proposals/open-proposal-nevermined-integration.md)|
+| Digital MOB | Filecoin Plus Notary Dashboard | [Website](https://whimsical.com/notaries-MYTDFcDbe6J281snkFt7bX)| [Application](https://github.com/filecoin-project/devgrants/blob/969ee4d1b1f605b7f025b408433824f715a2c988/open-grant-proposals/open-proposal-filecoin-plus-notary-dashboard.md)|
+| _dLabs | uP2P | [Website](https://ipfs-fps.com/) | [Application](https://github.com/filecoin-project/devgrants/blob/1d386d4c385f0d2d915f1622fa44fafabfdb3071/open-grant-proposals/open-proposal-ipfs-fps.md) |
+| Glitter RSS | Glitter RSS | [Website](https://download.glitter.link/glitter.apk) | [Application](https://github.com/filecoin-project/devgrants/blob/17064473bc679de9eef99c1c56bf6f7f01f4a90e/open-grant-proposals/glitter_rss.md) |
+| Kotal | Kotal | [Website](https://kotal.co) | [Application](https://github.com/filecoin-project/devgrants/blob/b45882e4b32de9b477b258d915165f4deb6d5618/open-grant-proposals/kotal.md) |
+| Lotus Farcaster | Lotus Farcaster V2 | [Website](https://github.com/s0nik42/lotus-farcaster) | [Application](https://github.com/filecoin-project/devgrants/blob/c77e3ab6eac67d69e828e05c6e3978a92db247f6/open-grant-proposals/lotus-farcaster-v2.md) |
+| Blitslabs | Non-custodial Filecoin Loans | [Website](https://blits.net) | [Application](https://github.com/filecoin-project/devgrants/blob/5c2b34e3ccf09c8ea38c1a95832bc64888117855/open-grant-proposals/Non-custodial%20Filecoin%20Loans%20(filecoin.loans).md) |
+| P2P Validator | FILGas | [GitHub](https://github.com/p2p-org) | [Application](https://github.com/filecoin-project/devgrants/blob/48a0f59b64e9c04823ff4b872d229b0ade7e8957/rfp-proposals/rfp-gas-tools-and-guide.md) |
+| Anwen | Retrieval Metainfo System with Incentive Mechanism | [Website](https://anwen.cc/) | [Application](https://github.com/filecoin-project/devgrants/blob/a9c431592b7d71b445ffc3a5c2c81a165e21f56f/rfp-proposals/rfp-proposal-retrieval-metainfo-system-with-incentive-mechanism.md) |
+|  |  |  |  |
+
+
+
 
 ## :surfing_woman: Wave 7
 
