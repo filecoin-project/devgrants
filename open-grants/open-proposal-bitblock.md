@@ -75,9 +75,19 @@ Use local computation to decide which CIDs from the global database to present t
 _Unknown -- $0_
 
 1. Create a relevant token on Cardano.
-2. Create a Plutus smart contract for funding: receives ADA and returns the new token
+2. Create a Plutus smart contract for seed funding: receives ADA and returns the new token
 3. Implement smart contracts which allow advertisers to use tokens promote their content
 4. Implement smart contracts which pay viewers and creators.
+
+The y-th video shown to a viewer will be randomly selected from a global database of “promoted” videos, rather than the global database of “user” videos. y will be a random integer between, say, 5 and 15. This will keep advertisements from monotonously becoming a story of “every y videos I’ll see an ad”. The y range can actually be set individually by each viewer, so they could choose to not see any advertisements at all (and thus forego any income).
+
+Advertisers will be able to upload and promote content through the application. In fact, users themselves will be able to promote their own content through the application, blurring the line between advertisers and users (although a “[Sponsored]” flag will always be displayed when a viewer is shown promoted content). After uploading a normal video, advertisers/users will be able to sign a smart contract promoting their video a certain number of times. This will cost a certain amount “per-view”.
+
+For example, let’s say Company X wants to show their advertisement to 1000 people, and it costs 0.01 tokens per view. After uploading their video, they will sign a smart contract transaction which sends 10 BitBlock tokens (name TBD) to the BitBlock DAO along with “CID: xyz” and “numPromotedViews: 1000”. Every time a viewer is shown the promoted video, they sign a smart contract which decrements the numPromotedViews on that video and awards them some BitBlock tokens for watching an advertisement. When numPromotedViews reaches 0, the advertisement is no longer displayed to viewers.
+
+This is a clear target for malicious actors and botnets, which is why using smart contracts seems to be the best option rather than allowing users access to the global database. Additional security decisions may be necessary such as daily limits on ads watched per user and/or a minimum required balance for a user to be able to participate in these smart contracts. Furthermore, the economics of viewers receiving payments from DAOs and sending payments for gas fees must be automatically balanced to ensure that viewers are always net positive for having watched an advertisement.
+
+As a reminder, the above outlined technical plan for advertising may not come to fruition. It is certainly possible that unforeseen technical or economic difficulties arise that make this system infeasible or impossible. For example, if no smart contract platform has fees that are inexpensive enough to result in viewers and creators being net positive for every interaction. As a result of this uncertainty, I have requested $0 for this milestone and assigned a timeframe of “Unknown”. Even without this economy, BitBlock would still be a competitive application for the likes of TikTok, YouTube, etc. and would provide huge value to the Filecoin ecosystem by having users indirectly use Filecoin to store their content.
 
 ## Total Budget Requested
 
