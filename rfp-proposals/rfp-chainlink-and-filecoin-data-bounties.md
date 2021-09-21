@@ -35,10 +35,10 @@ This project is aiming at providing Smart contracts can pool together funds for 
 - The reward is paid to the storage provider and collateral refund to user 
 
 ### Milestone 2
-**Timeline: 3 weeks**
+**Timeline: 4 weeks**
 - Build the Chainlink DAO
 - UI improvement
-- Metamask integration
+- Wallet integration
 - Load testing
 - Eth, BSC and other blockchain integration 
 
@@ -48,19 +48,36 @@ In this project, we need :
 - 2 IPFS/Filecoin Developers: Uploading, trunk/ merger file and batch file to filecoin network
 - 1 Blockchain developer: metamask, UI and system integration
 
-Milestone 1 tasks about 3 weeks and milestone 3 
+Milestone 1 tasks about 3 weeks and milestone 2 is 4 weeks. 
 Some pre-work can be found here: https://www.youtube.com/watch?v=c4Dvidz3plU
 
 
 ## Total Budget Requested
 
-* Milestone 1: $20,000
+* Milestone 1: $25,000
 
-* Milestone 2: $15,000
+| Function | Description | Time | Developer | Budget | 
+| :--- | :------ | :--- | :--- | :--------: | 
+| Polygon payment Contact | Cross chain payment from polygoin network      |  3 Weeks    |  Yiming Liu    |   10,000         |
+| UI Design and implementation| Upload,pin file to IPFS and retrieval     |  2 Weeks    |  Yiming Liu   |   5,000         |
+| Backend support| browser sync and payment gateway    |  2 Weeks    |  Rick Zhang	   |   5,000         |
+| File upload to IPFS/Filecoin &CID management | File management and testing |  2 Week    |  Boqian Zhang&Guohao Ma    |   5,000         
 
-* Smart contract auditiong: $5000
 
-Total: $30,000
+* Milestone 2: $35,000
+
+| Function | Description | Time | Developer | Budget | 
+| :--- | :------ | :--- | :--- | :--------: | 
+| Chainlink DAO Contact |  Voting Dao For the data online proof      |  4 Weeks    |  Yiming Liu    |   10,000         |
+| UI and wallet integration| Wallet for voting      |  2 Weeks    |  Yiming Liu    |   5,000         |
+| Backend support| browser sync and payment gateway    |  3 Weeks    |  Boqian Zhang&Rick Zhao	   |   15,000         |
+| Muilti chain integration | Deployed the small contract on multi-chain and testing |  1 Week    |  Baoyuan Sun    |   2,500        
+| UX and testing   | Performance testing |  1 Week    |  Baoyuan Sun    |   2,500          
+
+
+* Smart contract auditing: $5000
+
+Total: $60,000
 .
 
 ## Maintenance and Upgrade Plans
@@ -119,6 +136,5 @@ Charles Cao, Founder of Filecoin node NBFS Canada, CEO of Nebule AI inc, previou
 https://github.com/filswan/payment-bridge
 
 # Additional Information
-
-HackFS participant
-
+- HackFS participant
+- Chainlink HackFS chainlink pool Grant award
