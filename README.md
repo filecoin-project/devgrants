@@ -31,9 +31,10 @@ RFPs are grants for specific development work. As the name suggests, we are requ
 
 OPEN RFPs:
 
-[**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Deadline September 17
 
 [**Near Protocol x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/near-and-filecoin.md) -- Deadline October 30 
+
+[**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Open until December 2021
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
