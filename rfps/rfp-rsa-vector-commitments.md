@@ -1,3 +1,5 @@
+> This Wave 1 RFP is open to additional proposals.
+
 # RFP: RSA-based Vector Commitments
 
 **Name of Project:** RSA-based Vector Commitments
