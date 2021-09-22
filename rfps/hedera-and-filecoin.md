@@ -1,3 +1,8 @@
+NOTE (09/20/2021): The following RFP has now been closed. 
+If you wish to apply for a grant to fund your work, please apply instead via the [Filecoin Dev Grants Program](https://github.com/filecoin-project/devgrants). 
+
+
+
 # Hedera x Filecoin
 
 This is a Request for Proposals for projects that combine Hedera’s efficient, flexible public ledger technology with Filecoin’s large-scale verifiable storage capabilities.
