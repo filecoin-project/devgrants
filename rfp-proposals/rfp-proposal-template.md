@@ -6,7 +6,7 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Link to RFP:** Please link to the RFP that you are submitting a proposal for.
 
-**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`
 
 **Proposer:** `replace with your GitHub username`
 
@@ -41,6 +41,10 @@ Sum up the total requested budget across all milestones, and include that figure
 Specify your team's long-term plans to maintain this software and upgrade it over time.
 
 # Team
+
+## Contact Info
+
+Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
 
 ## Team Members
 
