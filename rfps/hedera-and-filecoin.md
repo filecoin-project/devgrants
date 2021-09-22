@@ -1,5 +1,5 @@
 NOTE (09/20/2021): The following RFP has now been closed. 
-If you wish to apply for a Grant to fund your work, please apply instead under the [Filecoin Grant Program](https://github.com/filecoin-project/devgrants). There are a variety of grants to fulfil the development stage you are at. 
+If you wish to apply for a grant to fund your work, please apply instead via the [Filecoin Dev Grants Program](https://github.com/filecoin-project/devgrants). 
 
 
 
