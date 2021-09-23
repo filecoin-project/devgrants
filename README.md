@@ -34,7 +34,7 @@ OPEN RFPs:
 
 [**Near Protocol x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/near-and-filecoin.md) -- Deadline October 30 
 
-[**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Open until December 2021
+[**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Rolling submissions, open until December 2021
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
