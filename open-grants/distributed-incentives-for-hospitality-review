@@ -1,0 +1,44 @@
+To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+
+# Open Grant Proposal: `Distributed Incentives for Hospitality Review`
+
+**Distributed Incentives for Hospitality Review**
+
+**Proposal Category:** `app-dev`
+
+**Proposer:** `3Labs`
+
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes" 
+
+# Project Description
+
+A web app for hospitality reviews in which customer would be incentivized for their honest review. It would be using Filecoin to create a distributed trusted system. Hedera would be used for incentives.
+
+## Value
+
+Customers will be incentivized for giving an honest and trusted review. Hedera 
+
+## Deliverables
+
+A web app with reviews on hospitality. 
+
+## Development Roadmap
+
+Sep - Dec 2021: Review incentive module development - 3 developers (~ USD 9.000)
+Jan - Jun 2022: Web app integration - 7 developers (~ USD 21.000)
+
+## Total Budget Requested
+
+USD 30.000. + $ 5000 FIL
+
+## Maintenance and Upgrade Plans
+
+API development so that relevant industries may utilize the app.
+
+# Team
+
+## Team Members
+
+- Tri
+- 7 devs
+
