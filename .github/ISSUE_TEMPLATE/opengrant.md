@@ -6,7 +6,7 @@
 
 **Proposer:** `replace with your GitHub username`
 
-**Administrator:** `replace with pre-selected admin for targeted grants`
+**(Optional) Technical Sponsor:** `If you have previously discussed this project with a member of the IPFS or Filecoin project teams, include their name and/or github handle here`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
