@@ -1,4 +1,4 @@
-UPDATE 9/23/2021: We have extended the deadline of this RFP till **17 December, 2021**. Applications will be evaluated on a rolling basis.
+UPDATE 9/23/2021: We have extended the deadline of this RFP to **17 December, 2021**. Applications will be evaluated on a rolling basis.
 
 # Chainlink x Filecoin
 
