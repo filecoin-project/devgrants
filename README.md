@@ -17,7 +17,7 @@ Acceptance criteria are very simple, and work is expected to be complete within 
 ---
 
 ### Open Grant
-Do you have an idea for pushing the Filecoin ecosystem forward? Grants of up to $30,000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
+Do you have an idea for pushing the Filecoin ecosystem forward? Grants of over $5000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
  Wave 11 proposal submissions are due **September 30, 2021 at 23:59 PDT** for priority consideration.
 
