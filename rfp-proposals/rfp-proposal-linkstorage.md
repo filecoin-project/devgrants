@@ -12,13 +12,15 @@
 
 # Project Description
 
-The Linkstorage protocol provides the ability to web3 builders to sync data between blockchains and IPFS/Filecoin through Chainlink External Adapter. The web3 developers can use this protocol to save huge amount of tamper-proof data onto Filecoin in a cost effective approach and the protocol will also provide a unified dashboard for the web3 builders to track their cross-chain dApps data all in one place in a manageable way.
+With the arrival of the era of multi-chain and the use of smart contracts growing in popularity, the current dApps architecture is obstructing the development of cross-chain dApps. As we all know, dApps in Ethereum can only query the corresponding data through event logs, but event logs have many restrictions: a maximum of 3 indexed parameters and the maximum number of parameters cannot exceed 17, etc. In addition, some other blockchains do not even have the function of event logs like Ethereum provides, so developers can only store some critical data by themselves, mostly in centralized servers through other alternatives.
+
+That's why we come in. The Linkstorage - a unified data storage protocol that provides the ability to enable web3 builders to sync data between blockchains and IPFS/Filecoin through Chainlink External Adapter. The web3 developers can use this protocol to save a massive amount of tamper-proof data onto Filecoin in a cost-effective approach, and the protocol will also provide a unified dashboard for the web3 builders to track and monitor their cross-chain dApps data all in one place in a manageable way.
 
 ## Deliverables
 
-1. Chainlink External Adapter with demo
+1. Chainlink External Adapter to sync data into IPFS/Filecoin with demo
 
-2. Unified dashboard to track data
+2. Unified dashboard to track and monitor data
 
 ## Development Roadmap
 
@@ -73,9 +75,13 @@ The team has many years of blockchain-related project management and has extensi
 
 Victor Feng: Certified blockchain solution architect and Ethereum developer. He has around 15 years of experience in the IT industry and has extensive hands-on experience in IPFS/Filecoin apps development. He Led several DeFi and NFT related projects in front-end and smart contract design and development for several companies and projects. Beyond those, he also participated in and led several large-scale distributed and decentralized systems design and development in the banking, blockchain, telecom, and media industries.
 
+## Website
+
+https://linkstorage.io/
+
 ## Team code repositories
 
-https://github.com/0xatm
+All source code and docs of this product will be published on GitHub (https://github.com/linkstorage)
 
 # Additional Information
 
