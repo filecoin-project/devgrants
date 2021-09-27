@@ -6,6 +6,7 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 - [2021](#2021)
 
+  - [:surfing_woman: Wave 5](#surfing_woman---wave-5)
   - [:surfing_woman: Wave 6](#surfing_woman---wave-6)
   - [:surfing_woman: Wave 7](#surfing_woman---wave-7)
   - [:surfing_woman: Wave 8](#surfing_woman---wave-8)
@@ -13,6 +14,25 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 ---
 
 # 2021
+
+## :surfing_woman: Wave 5
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+|    Justin Hunter     | Nelumbo    |   [Website](https://nelumbo.dev)   |  [Application](https://github.com/polluterofminds/devgrants/blob/nelumbo-filecoin-devnet-desktop-app/open-grant-proposals/open-proposal-nelumbo-desktop-client-for-devnet.md)          |
+| Infinite Scroll | Glif | [Website](https://www.glif.io)  | [Application](https://github.com/filecoin-project/devgrants/blob/6c2edd7f841c9360e9f3c8abcd782f5a05bb72eb/open-grant-proposals/open-proposal-glif-module-automation.md)|
+| AstralDAO  | Astral Protocol | [Website](https://astraldao.org/) | [Application](https://github.com/filecoin-project/devgrants/blob/efaac115b71df7b373354c72600aa9818fc6710a/open-grant-proposals/open-proposal-astral-protocol.md)|
+| Kontext | Social Bookmarking Standard | [Website](https://kontext.app)| [Application](https://github.com/filecoin-project/devgrants/blob/d132f28f111f18bd21bf65c1eb66047c79dad89e/open-grant-proposals/open-proposal-social-bookmarking.md)|
+| BuildLabs | Miner Marketplace | [Website](https://buidllabs.io/)| [Application](https://github.com/filecoin-project/devgrants/blob/8d801d378e4dc7231792f958e7b077a8519452ad/open-grant-proposals/open-miner-marketplace.md)|
+| Deplatformer | Deplatformer | [Website](https://deplatformer.io/) | [Website](https://deplatformer.io/) |
+| Ceramic Portable User Storage for Dapps | Ceramic Portable User Storage for Dapps | [Google Doc](https://docs.google.com/document/d/1KbsQvJ7UlUtg2HQpBAsuhhMsFu1EoycijI_fS4psNmU/edit#heading=h.rszx62fgejnl) | [Application](https://docs.google.com/document/d/1KbsQvJ7UlUtg2HQpBAsuhhMsFu1EoycijI_fS4psNmU/edit#heading=h.rszx62fgejnl) |
+| Filbox | Filbox | [Website](https://filbox.keystore.com/home/) | [Application](https://github.com/filecoin-project/devgrants/pull/182/commits/fe2d4207b1d09e1f81c390985ec633d3b24d5e95) |
+| QuorumControl | Backup your blockchain on Filecoin | [Website](https://quorumcontrol.com) | [Application](https://github.com/filecoin-project/devgrants/blob/dcb30e454b20ab4674511b66ebd5a38e2fcb0b3b/rfp-proposals/rfp-proposal-backup-ethereum.md) |
+| Mitchelpkt | Filecoin Video Archiver | [GitHub](https://github.com/insight-infrastructure) | [Application](https://github.com/filecoin-project/devgrants/blob/e3e60e6f71571dd6f4d88034127186129e146345/open-grant-proposals/filecoin-video-archiver.md) |
+| BonoTechnologies | Filecoin-Mobile-Wallets | [Website](https://bono.tech) | [Application](https://github.com/filecoin-project/devgrants/pull/176/files) |
+| DecentralTech | Archive Website to Filecoin | [Website](https://dianduidian.tech/) | [Application](https://github.com/filecoin-project/devgrants/blob/1794562367d14655f9a4b47874e982bba7804983/rfp-proposals/Archive%20Website%20to%20Filecoin%20for%20Wave%205.md) |
+|  |  |  |  |
+
 
 ## :surfing_woman: Wave 6
 
