@@ -39,6 +39,23 @@ What we want to build is providing a gateway with native image processing and op
 
 ## Development Roadmap
 
+### Gateway network architecture
+
+![image](https://user-images.githubusercontent.com/79720925/134916319-a829f0dc-8919-4412-adad-27a894a00228.png)
+
+The initial purpose of the Img8 protocol is for images retrieving/read only, and we'll see how things go and what the community needs then decide whether the upload files feature is required to be implemented.
+
+Behind the scenes, the gateway will be mainly doing the below steps: 
+
+- Whitelist based rating limit to avoid malicious cyber attacks .
+- Retrieve images from IPFS and Filecoin using the client's requested cid with a timeout mechanism.
+  - If the loaded file type is not image then return that file to client directly.
+- Process and optimize the loaded image based on the query parameters like `w`, `h`, and `c` etc.
+- Return either the processed and optimized image to the client or a detailed error message.
+
+We'll consider to use nodejs as the programming language to develop the gateway for speeding up the development purpose, but we're open to use Golang if the reviewing team think that's required.
+
+
 Milestone 1 (4 weeks):
 
 - Finalize the requirements, architecture and specifications
