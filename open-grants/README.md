@@ -18,12 +18,14 @@ Open grants work within a few core categories.
 
 - **Community**: We would like to support community initiatives throughout the global Filecoin ecosystem. We have a standing RFP for hosting community meetups, and are generally excited to hear about all sorts of community initiatives. Relevant proposals should be labeled [`category:community`](https://github.com/filecoin-project/devgrants/labels/category%3Acommunity).
 
+- **Research**: We are keen on receiving proposals that explore the meta processes and incentives of decentralized storage. Relevant proposals should be labeled  [`category:research`](https://github.com/filecoin-project/devgrants/labels/category%3research).
+
 ## 📋 How to apply
                                     
 Here are the steps to submit a proposal for the open grant category!
 1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/tree/master/open-grants/open-proposal-template.md) in this [`open-grants` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grants). Make sure to fill in all the categories of the proposal template. Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
-Open Grant proposals are reviewed monthly. The deadline for the next wave is **August 31, 2021**                                                               
+Open Grant proposals are reviewed monthly. The deadline for the next wave is **October 31, 2021**                                                               
 
 ## ⌛ After you apply
 
