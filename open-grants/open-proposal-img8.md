@@ -18,11 +18,11 @@ What we want to build is providing a gateway with native image processing and op
 
 - What are the benefits to getting this right?
 
-> All users can retrive optimised and resized images directly via the IPFS CID, it'll make the design and development of the responsive web3 applications e.g. NFT marketplaces, Metaverse, and web3 dApps etc. with ease.
+> All users can retrive optimised and resized images directly via the IPFS CID, it'll make the design and development of the responsive web3 applications e.g. NFT marketplaces, Metaverse, Gamings, and web3 dApps etc. much easier.
 
 - What are the risks if you don't get it right?
 
-> The users need to backup or sync images stored on IPFS or Filecoin to centralized servers to enhance the end-users experience.
+> The users need to backup or sync images stored on IPFS or Filecoin to centralized servers to enhance the end-users experience. It'll damage the end-users experience once these centralized servers go down。
 
 - What are the risks that will make executing on this project difficult?
 
@@ -35,13 +35,13 @@ What we want to build is providing a gateway with native image processing and op
 
 - Features like images resizing, compression, watermark, compositable, and more.
 
-- A website with WYSIWYG image processor to let users check images.
+- A website with WYSIWYG image processor to let users check images by CID.
 
 ## Development Roadmap
 
-### Gateway network architecture
+### Gateway Overview
 
-![image](https://user-images.githubusercontent.com/79720925/134916319-a829f0dc-8919-4412-adad-27a894a00228.png)
+![image](https://user-images.githubusercontent.com/79720925/134988034-ce9e23ff-3d22-4c21-bd6d-879cc1b4f44c.png)
 
 The initial purpose of the Img8 protocol is for images retrieving/read only, and we'll see how things go and what the community needs then decide whether the upload files feature is required to be implemented.
 
