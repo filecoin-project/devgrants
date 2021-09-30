@@ -374,13 +374,19 @@ We considered moving the code repositories to GitHub for Itera and future projec
 
 <!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
 
-Dear Filecoin Review Team,
+POC Demo
 
-We've made a POC demo of Itera at 2019, the first demo is about how backers(Itera users) can mining creator's video, how consumers can using metamask to watch paid-for-view video, how backers can get incentive for video mining(receive token rewards) after consumer paid to creator.
+Video publishing with paid-for-view by metamask
+https://drive.google.com/file/d/1k0MC4xHYLpQHRVSDw_abU1a39Eyjss7D/view?usp=sharing
+
+Joint content mining by support storage with metamask 
+https://drive.google.com/file/d/1PIXQXAB3j0LKU6LeihCPTKqVTYYrf6Gu/view?usp=sharing
+
+How backers(Itera users) can mining creator's video, how consumers can using metamask to watch paid-for-view video, how backers can get incentive for video mining(receive token rewards) after consumer paid to creator.
 
 https://www.youtube.com/watch?v=J4GtYsaeLrc
 
-The second video show how ads agency can do the online advisting through the Itera software, consumers can watch free-for-view-with-ads video. 
+How ads agency can do the online advisting through the Itera software, consumers can watch free-for-view-with-ads video. 
 
 https://www.youtube.com/watch?v=eY58uBxd-CQ
 
