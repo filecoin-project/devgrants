@@ -27,3 +27,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @nornagon | FILterBot | [Github](https://github.com/galen-mcandrew/FILterBot)| [#296](https://github.com/filecoin-project/devgrants/issues/303) |
 | @iamvon | Thrust | [Github](https://github.com/iamvon/thrust-vscode-extension)| [#335](https://github.com/filecoin-project/devgrants/issues/335) |
 | @Islandersfan2016 | KharmaDAO | [ETHGlobal](https://showcase.ethglobal.com/hackfs2021/kharma)| [#329](https://github.com/filecoin-project/devgrants/issues/329) |
+| @NguyenIvan | MyWorld | [Github](https://github.com/NguyenIvan/MyWorld)| [#342](https://github.com/filecoin-project/devgrants/issues/342) |
