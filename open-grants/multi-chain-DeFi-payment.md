@@ -1,6 +1,6 @@
 # Open Grant Proposal: `Multi-chain DeFi payment for Filecoin`
 
-**Name of Project:**
+**Name of Project:** Multi-chain DeFi payment for Filecoin`
 
 **Proposal Category:** `devtools-libraries`
 
@@ -111,7 +111,7 @@ compatible file importer service, enhancement of key management, connect to swan
 
 - Charles Cao | Development Manager (worked previously in Filecoin grant 6,7,8,9)
 - Baoyuan Sun | Project Manager (worked previously in Filecoin grant 6,7,8,9)
-- Yiming Liu | Smart Contract Developer
+- Yiming Liu | Smart Contract Developer ((worked previously in HackFS 2021)
 - Rick Zhao | Blockchain Developer (worked previously in Filecoin grant 7)
 - Dora Chen | Backend Developer
 - Boqian Zhang | Filecoin Developer(worked previously in Filecoin grant 6,7,8,9)
@@ -124,6 +124,7 @@ compatible file importer service, enhancement of key management, connect to swan
 - [Baoyuan Sun](https://www.linkedin.com/in/sun-baoyuan-50026637/)
 - [Yiming Liu](https://www.linkedin.com/in/yiming-liu-0aa1a516/)
 - [Guohao Ma](https://www.linkedin.com/in/guohaoma/)
+- [Dora Chen](https://www.linkedin.com/in/dora-chen-b52b8680/)
 - [Zhiqiang Zhao](https://www.linkedin.com/in/zhiqiang-zhao-9ba555199/)
 
 ## Team Website
@@ -164,7 +165,7 @@ The team get the following reward and honor.
 - HP Enterprise Supplier Partner, Dell Enterprise Supplier Partner, ASUS Enterprise Service Partner, Amazon Enterprise
   Partner, NVIDIA Canadian Cloud Computing Supplier
 
-Charles Cao, Founder of FilSwan, CEO of Nebule AI inc, previous working for IBM, Autodesk, Exepida and
+Charles Cao, Founder of FilSwan, CEO of Nebula AI inc, previous working for IBM, Autodesk, Exepida and
 Paysafe. FilSwan is working on building an edge cloud computing platform (Project Swan) integrated with Filecoin
 decentralized storage solution. Project Swan integrates computing, online/offline deal management and storage price
 discovering in one platform to bring enterprise applications closer to where the data located.
@@ -175,5 +176,5 @@ https://github.com/filswan/payment-bridge
 
 # Additional Information
 
-- HackFS participant
-- Chainlink HackFS chainlink pool Grant award
+- HackFS participant 
+- HackFS Chainlink pool Grant award
