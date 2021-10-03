@@ -44,46 +44,33 @@ This project has been split up into a number of milestones. It can be problemati
 ), a user may just sit at a place moving their arm and hence dupe the app. Additionally, we have proposed to create our own token compatible with the app. Now as the blockchain space has grown, so has the regulations. There is risk involved in usage of these custom tokens based on policies of different jurisdictions. We may need to get legal counsel for the same.
 
 
-
 ## Deliverables and Development Roadmap
 
 Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.
 
-This is a pilot project that will help decentralize the deep learning process. We plan to complete the entire project in about 12 months. We will have 2 developers working on each milestone We aim to deliver the following functionalities with our tool: 
+This is a pilot project that will help decentralize the deep learning process. We plan to complete the entire project in about 12 months. We will have 2 developers working on each milestone We aim to deliver the following functionalities with our tool:
 <br>
-A. Prototype of the tool: The prototype for the tool will contain the following deliverables:
-1.	Milestone 1- Docker Image: The docker image will contain the code for the deep learning model. The user/ data providers run this docker file to download the model on their local system. The image will also contain the code for the user to provide path to their images on IPFS. Additionally, the stage will also contain the code for onboarding new users. Deep learning model will be coded using Python libraries.
-####  This milestone should take about 2 months to complete
+Prototype of the tool: The prototype for the tool will contain the following deliverables:
+1.	Milestone 1- Code for users to store their files on IPFS: The data can be in the form of images or text files. These files need to be stored on the IPFS and their hash codes can be used for training the neural network. We can also compare the hash codes for images that improve the model performances for different models. We also need to implement this to prevent redundancy. IPFS hash code system would help prevent the user from uploading the same data multiple times. 
+####  This milestone would take about 1.5 month to complete.
 
-2. 	Milestone 2 - Code for users to store their files on IPFS: The data can be in the form of images or text files. These files need to be stored on the IPFS and their hash codes can be used for training the neural network. We can also compare the hash codes for images that improve the model performances for different models. We also need to implement this to prevent redundancy. IPFS hash code system would help prevent the user from uploading the same data multiple times. 
-####  This milestone would take about 2 months to complete
+2. 	Milestone 2 - - Code to store the neural network weights on IPFS: Our current tool stores neural network weights in the smart contract. However, this limits the number of weights that can be stored and is also computationally heavy. The prototype will contain code to store the weights on the IPFS itself, thus allowing scalability and computation efficiency. Each node in the tree can store the weights and accuracy metrics.
+####  This milestone should take about 1.5 months to implement.
 
-3. 	Milestone 3 - Code to store the neural network weights on IPFS: Our current tool stores neural network weights in the smart contract. However, this limits the number of weights that can be stored and is also computationally heavy. The prototype will contain code to store the weights on the IPFS itself, thus allowing scalability and computation efficiency. Each node in the tree can store the weights and accuracy metrics.
-####  This milestone should take about 2 months to implement.
-
-4. 	Milestone 4 - Code for users to provide data storage on their local system: For users who wish to contribute their storage from their local systems on IPFS. 
-####  This milestone should take a month to implement.
-5.	Milestone 5 - Payment mechanism for local storage providers: The proposers of the deep learning model shall pay the local storage providers in Filecoin.
-6.	Milestone 6 - ERC20 token: We plan to launch our own ERC20 token. All the data providers shall be paid in this new token by the model proposer. 
-####  Milestone 5 and 6 should take about 2 months to implement.
-7.	Milestone 7 - Option for user to choose whichever training path they want: Code to leverage the Merkel tree structure and give user the option of choose the node from where they want to start the training.
-####  This should take about 2 months to implement.
-B.	Milestone 8 - Dashboard for the Users: We will be providing each user with a dashboard where they can view and track the tokens collected, amount of data provided for training and the impact of their contribution in comparison to public validation set. We intend to make this using front end technologies, python’s data visualization libraries and dashboarding tools. 
-####  It should be completed within a month.
+3. 	Milestone 3 - ERC20 token: We plan to launch our own ERC20 token. We shall introduce a verifier who would provide off chain verification if a user’s data has improved the model. ER20 tokens shall be given to people who contribute positively to the improvement of the network. 
+####  We plan to complete this in 2 months.
 
 ### Overview
-![Image of Yaktocat](https://github.com/Garima5/Federated-Learning-for-Transfer-Learning/blob/main/Screen%20Shot%202021-08-20%20at%209.53.03%20PM.png)
+![Image of Yaktocat](https://github.com/Garima5/Federated-Learning-for-Transfer-Learning/blob/main/Screen%20Shot%202021-10-03%20at%204.13.32%20PM.png)
 
 ## Total Budget Requested
 
 Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds.
 #### We require the budget for following:
 1. Development Team
-  * 2 Developers –> $5000 * 2 * 12
-  * Total: $$120000
-2. Legal Counsel for Customized tokens
-  * $20,000 to $50,000
-3. Validation set and server
+  * 2 Developers –> $8000 * 2 * 5
+  * Total: $80000
+2. Validation set and server
   * 2000$
   
 ## Maintenance and Upgrade Plans
