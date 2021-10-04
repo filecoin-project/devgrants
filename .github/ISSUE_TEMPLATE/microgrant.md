@@ -1,9 +1,10 @@
 ---
-name: Next Step Microgrant Application 
+name: Next Step Microgrant Application
 about: Submit this issue to apply for a Next Step Microgrant
 title: 'Next Step Microgrant: <Your Title Here>'
-labels: type:microgrant
-assignees: seedingtrees
+labels: ''
+assignees: SeedingTrees
+
 ---
 
 ### 1. What is your project? (max 100 words)
