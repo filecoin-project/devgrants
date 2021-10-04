@@ -23,7 +23,7 @@ Open grants work within a few core categories.
 ## 📋 How to apply
                                     
 Here are the steps to submit a proposal for the open grant category!
-1. Submit a PR against the [`open-proposal-template.md` file](https://github.com/filecoin-project/devgrants/tree/master/open-grants/open-proposal-template.md) in this [`open-grants` folder](https://github.com/filecoin-project/devgrants/tree/master/open-grants). Make sure to fill in all the categories of the proposal template. Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+1. Submit an Open Grants Proposal [`issue`](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=). Make sure to fill in all the categories of the proposal template. Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
                                                                                                                         
 Open Grant proposals are reviewed monthly. The deadline for the next wave is **October 31, 2021**                                                               
 
@@ -37,7 +37,7 @@ After you submit your proposal, you can expect the following to occur:
 - If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. 
 - We aim to complete all review within a few weeks after the wave deadline, so please stay vigilant on GitHub.
 
-Please contact `@Sonia John` on Filecoin Slack ([invite](http://filecoin.io/slack)) or email grants@filecoin.org with any questions.
+Please reach out #grants-questions on Filecoin Slack ([invite](http://filecoin.io/slack)) or email grants@filecoin.org with any questions.
 
 ## ℹ️ Help
 
