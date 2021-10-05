@@ -116,7 +116,7 @@ This is an open source product, we are welcome any others contribute their talen
 
 We're a squad of 4 with many years of blockchain-related products development built on top of EVM compatible chains, IPFS/Filecoin, also have hands-on experience in the image processing area. All of the team members have more than ten years of work experience in UX design, software design, and development.
 
-We've done the MVP of this product, and you can check on https://github.com/0xatm/img8-core.
+We've done the MVP of this product, and you can check on https://github.com/img8io/img8-core.
 
 ## Team code repositories
 
