@@ -58,11 +58,11 @@ We'll consider to use nodejs as the programming language to develop the gateway 
 
 Milestone 1 (4 weeks):
 
-- Finalize the requirements, architecture and specifications
+- Finalize the requirements, documentation
 
 > 2 weeks
 
-- Website UX design & HTML/CSS
+- Website implementation - with a working feature that the user can preview and interactive with via a CID
 
 > 2 weeks
 
@@ -72,36 +72,28 @@ Milestone 2 (6 weeks):
 
 > 4 weeks
 
-- Website implementation - fully functional interactive UI according to the UX design and int
+- Deploy and setup gateway onto cloud infrastructure
+
+- Bug fixes according to the feedback
 
 > 2 weeks
 
-Milestone 3 (2 weeks):
-
-- Deploy and setup gateway onto cloud infrastructure
-
-- Marketing, community & partnership building
-
-- Improvements based on the feedback, and bug fixes
-
 ## Total Budget Requested
 
-We're requesting total funding $113,000 to complete all above milestones, and the fund will be split into:
+We're requesting total funding $49,640 to complete all above milestones, and the fund will be split into:
 
 - Architecture and product design
 - Development
 - infrastructure cost
-- Marketing and community building
 
-| Milestone  | Duration| Cost   |
-|------------|---------|--------|
-|   #1       | 4 weeks | $28k   |
-|   #2       | 6 weeks | $55k   |
-|   #3       | 2 weeks | $30k   |
-|            |         |        |
-| **Total**  | 12 weeks| $113k  |
+| Milestone  | Duration| Cost    |
+|------------|---------|---------|
+|   #1       | 4 weeks | $19,200 |
+|   #2       | 6 weeks | $30,440 |
+|            |         |         |
+| **Total**  | 10 weeks| $49,640 |
 
-> NOTE: The cost of Milestone 3 includes cloud infrastructure and CDN cost around $15,000.
+> NOTE: The cost of Milestone 2 includes cloud infrastructure cost around $3,240.
 
 
 ## Maintenance and Upgrade Plans
@@ -115,14 +107,11 @@ This is an open source product, we are welcome any others contribute their talen
 - Victor Feng (Github: [https://github.com/0xatm](@0xatm))
 - Nikki Ng
 - Samdanae Imran
-- Bart Wong
-- Harry Chu
 
 ## Team Member LinkedIn Profiles
 
 - [Victor Feng](https://www.linkedin.com/in/imrfeng/)
 - [Samdanae Imran](https://www.linkedin.com/in/samdanae/)
-- [Harry Chu](https://www.linkedin.com/in/harry-chu-39999792/)
 
 ## Team Website
 
