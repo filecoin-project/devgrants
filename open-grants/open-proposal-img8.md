@@ -18,11 +18,11 @@ What we want to build is providing a gateway with native image processing and op
 
 - What are the benefits to getting this right?
 
-> All users can retrive optimised and resized images directly via the IPFS CID, it'll make the design and development of the responsive web3 applications e.g. NFT marketplaces, Metaverse, and web3 dApps etc. with ease.
+> All users can retrive optimised and resized images directly via the IPFS CID, it'll make the design and development of the responsive web3 applications e.g. NFT marketplaces, Metaverse, Gamings, and web3 dApps etc. much easier.
 
 - What are the risks if you don't get it right?
 
-> The users need to backup or sync images stored on IPFS or Filecoin to centralized servers to enhance the end-users experience.
+> The users need to backup or sync images stored on IPFS or Filecoin to centralized servers to enhance the end-users experience. It'll damage the end-users experience once these centralized servers go down。
 
 - What are the risks that will make executing on this project difficult?
 
@@ -35,9 +35,26 @@ What we want to build is providing a gateway with native image processing and op
 
 - Features like images resizing, compression, watermark, compositable, and more.
 
-- A website with WYSIWYG image processor to let users check images.
+- A website with WYSIWYG image processor to let users check images by CID.
 
 ## Development Roadmap
+
+### Gateway Overview
+
+![image](https://user-images.githubusercontent.com/79720925/134988034-ce9e23ff-3d22-4c21-bd6d-879cc1b4f44c.png)
+
+The initial purpose of the Img8 protocol is for images retrieving/read only, and we'll see how things go and what the community needs then decide whether the upload files feature is required to be implemented.
+
+Behind the scenes, the gateway will be mainly doing the below steps: 
+
+- Whitelist based rating limit to avoid malicious cyber attacks .
+- Retrieve images from IPFS and Filecoin using the client's requested cid with a timeout mechanism.
+  - If the loaded file type is not image then return that file to client directly.
+- Process and optimize the loaded image based on the query parameters like `w`, `h`, and `c` etc.
+- Return either the processed and optimized image to the client or a detailed error message.
+
+We'll consider to use nodejs as the programming language to develop the gateway for speeding up the development purpose, but we're open to use Golang if the reviewing team think that's required.
+
 
 Milestone 1 (4 weeks):
 
