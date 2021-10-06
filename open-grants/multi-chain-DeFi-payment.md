@@ -63,22 +63,22 @@ The delivered product contains the following component:
 * user pay to a smart contract for a file in metamask
 * The price is defined in Defi Module
 
-### Milestone 3 Payment DAO for the token fund maintenance
-
-* Define root key holders
-* Init members sign keys
-* define the policy of adding and remove member from the board
-
-### Milestone 4. Payment frontend UI/Backend
+### Milestone 3 Payment frontend UI/Backend
 
 * User can connect to his metamask wallet from UI
 * He can choose a file to pay for backup to filecoin network
 * His fund is locked until the storage is online, then it will be released to the client
 
-### Milestone 5. SDKs for project integration
+### Milestone 4 SDKs for project integration
 
 * Devs can use golang sdk for making payment
 * JS will be in Phase 2, since we believe this will be a multi phases project
+
+### Milestone 5 Payment DAO for the token fund maintenance
+
+* Define root key holders
+* Init members sign keys
+* define the policy of adding and remove member from the board
 
 ### Milestone 6. Release document and marketing
 
@@ -92,9 +92,9 @@ The delivered product contains the following component:
 | :--- | :------ | :--- | :--- |
 | #1| Project setup with scope and architecture    | 1 Weeks    |   5,000
 | #2| Meta mask based token payment    |  2 Weeks    |   20,000
-| #3| Payment DAO for the token fund maintenance |  2 Weeks    |   20,000
-| #4| Payment frontend UI/Backend    |  4 Weeks    |   30,000
-| #5| SDKs for project integration    |  3 Weeks    |   10,000
+| #3| Payment frontend UI/Backend    |  4 Weeks    |   30,000
+| #4| SDKs for project integration    |  3 Weeks    |   10,000
+| #5| Payment DAO for the token fund maintenance |  2 Weeks    |   20,000
 | #6| Release document and marketing    |  2 Weeks    |   15,000
 
 Total: $100,000
