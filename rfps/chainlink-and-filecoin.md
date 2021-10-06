@@ -1,3 +1,5 @@
+UPDATE 9/23/2021: We have extended the deadline of this RFP to **17 December, 2021**. Applications will be evaluated on a rolling basis.
+
 # Chainlink x Filecoin
 
 This is a Request for Proposals for projects that accelerate development of [hybrid smart contracts](https://blog.chain.link/hybrid-smart-contracts-explained/) combining Chainlink’s decentralized oracles and Filecoin’s decentralized storage within a single application.
@@ -61,4 +63,4 @@ Proposals should include:
 
 Teams with a history of high-quality open source software, with live applications and products, are preferred.
 
-To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by **Friday September 17, 2021** for consideration. Up to five teams will be selected for a co-sponsored grant, which will go towards further development of their project. 
+To submit a proposal, follow the steps to [submit a proposal for an RFP](https://github.com/filecoin-project/devgrants/#submit-a-proposal-for-an-rfp) by **Friday December 17, 2021** for consideration. Applications will be evaluated on a rolling basis and early applications are encouraged. 
