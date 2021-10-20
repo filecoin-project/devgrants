@@ -11,11 +11,11 @@ Machine Learning labeled Dataset NFT storage and sharing via IPFS_Filecoin
 
 # Project Description
 
-Data labeling or annotation is the process of adding metadata to a dataset. This metadata usually takes the form of tags, which can be added to any type of data, including text, images, and video. Adding comprehensive and consistent tags is a key part of developing a training dataset for machine learning. Deep learning data annotation is a 100Billion dollar market, it is a pretty mature market in China and india. Machine learning giants like AWS and other companies hired lots of people to annotate the dataset from clients but they cannot guarantee the dataset delivered to the client is unique and non-transferable to other clients without permission. 
+Data labeling or annotation is the process of adding metadata to a dataset. This metadata usually takes the form of tags, which can be added to any type of data, including text, images, and video. Adding comprehensive and consistent tags is a key part of developing a training dataset for machine learning. Deep learning data annotation is the next 100Billion dollar market, it is a pretty mature market in China and india. Machine learning giants like AWS and other companies hired lots of people to annotate the dataset from clients but they cannot guarantee the dataset delivered to the client is unique and non-transferable to other clients without permission. 
 
 With our solution we can forge the dataset to NFT and save to filecoin network to make the dataset unique, permission based transferable and profit shared by the original author.
 
-- IPFS enable a low cost transmission of dataset cross continence
+- IPFS enable a low cost transmission of dataset cross continent
 NFT makes sure the original dataset owner has the right to choose how many copies to sell and sell to which Decentralized ID owner  so he can share the profit from usage. The NFT attribute is also a certificate of the owner's quality of service and brand.
 - Filecoin makes the important annotated dataset saved safely on the network, it also gives the owner the choice to discontinue the storage after the contract expires.
 - Integration with our business partner FilSwan, we can future move the dataset close to the computing resource required, saving both bandwidth and cost as a turnkey solution for machine learning developers.
