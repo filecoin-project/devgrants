@@ -2,20 +2,39 @@
 
 We are seeking proposals for the following RFPs for various developer tools.
 
+  - [WebRTC Direct libp2p transport productionization and standardization](#webrtc-direct-libp2p-transport-productionization-and-standardization)
   - [Shared Blocklists / Wantlist of content CIDs](#shared-blocklists--wantlists-of-content-cids)
-  - [CID Indexing Tool for Miners and Storage Clients](#)
-  - [Auto-Add New Sectors based on Capacity](#auto-add-new-sectors-based-on-capacity)
-  - [Miner Hardware Profitability Calculator](#miner-hardware-profitability-calculator)
-  - [Miner Transaction History and Earnings Predictor](#miner-transaction-history-and-earnings-predictor)
-  - [Gas Tool and Guide](#gas-tool-and-guide)
-  - [Mining Task Pool for Smaller Miners](#mining-task-pool-for-smaller-miners)
-  - [CID Indexing Tool for Miners](#cid-indexing-tool-for-miners)
-  - [Miner Docs and Community Guides](#miner-docs-and-community-guides)
+  - [CID Indexing Tool for Miners and Storage Clients](#cid-indexing-tool-for-miners-storage-clients)
 
 &nbsp;
 
-*Thanks to @ribasushi, @charles, @RobQuistNL, @stuberman, @jennijuju and @hsanjuan for suggesting and giving feedback on all these initial ideas.*
+*Thanks to @willscott, @daviddias, and @mishmosh for suggesting and giving feedback on all these initial ideas.*
 
+&nbsp;
+
+### WebRTC Direct libp2p transport productionization and standardization
+
+Libp2p has a number of transports, including QUIC, WebSockets, TLS/TCP, and noise/TCP. There have been a couple attempts towards including a WebRTC transport in this category, but thus far these have only yielded limited success. Since the last attempt, there has been maturation both of the libp2p standardization process, and of the quality of WebRTC libraries, especially for golang. We are interested in helping bring a solid, network-ready webrtc transport to fruition, as it can play an important role in libp2p networking going forward.
+
+In particular, WebRTC holds a unique position in its ability to support bridging between long-lived daemons running in a p2p network with more transient browser clients. Browsers are significantly limited in the types of connections they can initiate. Today, the WebSocket transport is the only common libp2p transport that allows browser clients to connect to a node, and unfortunately it cannot be automatically configured since it requires the addition of a dnsname, and a manually acquired TLS certificate for the node operating the WebSocket server to meet the security requirements imposed by web browsers. In contrast, WebRTC is designed as a p2p protocol between two web clients. As such, a WebRTC listener would be able to automatically accept connections from web users without further operator configuration. In cases where devices have globally public IPs, or where operators configure port forwarding on their firewalls, so that the socket listening for inbound connections can be reached globally without NAT hole punching, the WebRTC connection process can be short circuited to match the efficiency of existing transports. This is done by the client creating a synthetic SIP record (“churn”)  to communicate to the transport layer that they have learned from an external signaling source the host and port at which their counterparts are listening. Since this host and port will be communicated through multiaddrs in the libp2p ecosystem, it will already be known at the point of connection, and can allow for efficient connections when the remote party is globally reachable.
+
+The WebRTC transport protocol shares many of the same characteristics as the recently implemented QUIC protocol. Both use UDP at a base layer, and both natively multiplex multiple streams over that UDP connection. In the case of WebRTC this is done by opening data channels over the peer connection. Note that there are situations where creating a WebRTC data channel can trigger renegotiation of the transport. As such, there should be care taken to always keep a data channel open, and either to use an existing libp2p mux for streams within one rtc data channel, or to use the negotiated property on creation to agree on additional stream IDs without potentially re-initiation connection negotiation.
+
+#### Deliverables
+
+- A direct webRTC transport specification for libp2p
+- A go-libp2p-webrtc-direct transport, which supports connection establishment and transport of libp2p streams over WebRTC and which:
+  - allows connection based on a multiaddr, without the need for a signaling server when the remote address is not behind a NAT
+  - Makes use of libp2p-relay as a signaling channel when optimistic direct connection fails
+  - Advertises a multiaddr either directly or behind a relay based on local determination of NAT status
+
+#### Additional Resources
+
+- https://github.com/libp2p/js-libp2p-webrtc-direct
+- https://github.com/libp2p/go-libp2p-webrtc-direct
+
+&nbsp;
+-----
 &nbsp;
 
 ### Shared Blocklists / Wantlists of Content CIDs
@@ -30,6 +49,7 @@ Related projects in IPFS have proposed a [content-decider framework](https://git
 &nbsp;
 -----
 &nbsp;
+
 
 ### CID Indexing Tool for Miners and Storage Clients
 
@@ -53,26 +73,11 @@ Sectors that miners have can also be observed at https://spacegap.github.io.
 
 Optionally this tool could also map Filecoin pieceCIDs to payload / data CIDs (as used in IPFS) to support Retrieval Miners and Clients. https://github.com/mgoelzer/cid_oracle is another tool that scans the Filecoin blockchain for pieceCID to payload CID mappings.
 
-
-&nbsp;
------
-&nbsp;
-
-### Auto-Add New Sectors based on Capacity
-
-A tool to help miners automatically pledge new sectors or manage new storage deals as their machine capacity allows.
-
-#### Description
-
-Adding new sectors is currently managed manually. The tool could evaluate at regular intervals how many jobs have accumulated in each phase of a miner’s pipeline and how much extra capacity is available. New sectors via storage deals or auto-pledging could be added as resources allow.
-
-This tool can be external to Lotus.
-
 -----
 
 To apply for any RFPs see our [Proposal Guidelines](#proposal-guidelines) below for how to apply.
 
-*Have a question about any of these RFPs? Email devgrants@filecoin.org*
+*Have a question about any of these RFPs? Email grants@filecoin.org*
 
 
 -----
@@ -100,20 +105,17 @@ Proposals should include:
    - Value to the Filecoin ecosystem
 2. Deliverables
    - An explanation of your technical solution and architecture
-      - Imagine that an experienced software developer will evaluate your proposal
 3. Milestones & Funding requested
-   - Most projects have at least 4 milestones
    - Budget and estimated timeframe for each milestone
 4. Team
    - Roles and Experience
-       - Teams with a history of high-quality open source code repos and live applications and products are preferred.
 
-We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/blob/master/open-grant-proposals/open-proposal-template.md)
+We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/tree/master/open-grants)
 
-To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by the next wave deadline - Oct 1st 23:59 PDT (For priority consideration. We will evaluate later proposals submitted after the deadline as capacity allows.)
+To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by the next wave deadline - Oct 31st 23:59 PDT (For priority consideration.)
 
 &nbsp;
 
 ---
 
-*Have a question about any of these RFPs? Email devgrants@filecoin.org*
+*Have a question about any of these RFPs? Email grants@filecoin.org*
