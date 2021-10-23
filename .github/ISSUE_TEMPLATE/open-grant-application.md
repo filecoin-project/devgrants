@@ -3,7 +3,7 @@ name: Open Grant Application
 about: Submit an open grant application
 title: ''
 labels: ''
-assignees: ''
+assignees: realChainLife
 
 ---
 
