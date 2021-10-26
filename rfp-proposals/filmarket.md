@@ -30,7 +30,7 @@ CrossChain Labs team is experienced enough to accomplish this project and to mai
 ## Deliverables
 
 ### Dashboard Overview
-![image](https://github.com/CrossChainLabs/fil-proposals/blob/92608003dc1e93ad52234b9ca204a8a8768e9ec0/filmarket/FilMarketDesignV3.png)
+![image](https://github.com/CrossChainLabs/devgrants/blob/3c196deef27028874538a96ad66fa0ce31ce33a9/rfp-proposals/filMarketDashboard.png)
 ---
 - FilMarket Dashboard that will include:
   - average storage price of 1 TB per year
