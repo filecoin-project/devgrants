@@ -4,7 +4,7 @@ We are seeking proposals for the following RFPs for various developer tools.
 
   - [WebRTC Direct libp2p transport productionization and standardization](#webrtc-direct-libp2p-transport-productionization-and-standardization)
   - [Shared Blocklists / Wantlist of content CIDs](#shared-blocklists--wantlists-of-content-cids)
-  - [CID Indexing Tool for Miners and Storage Clients](#cid-indexing-tool-for-miners-storage-clients)
+  - [CID Indexing Tool for Miners and Storage Clients](#cid-indexing-tool-for-miners-and-storage-clients)
 
 &nbsp;
 
@@ -112,7 +112,7 @@ Proposals should include:
 
 We also accept **Open Grant Proposals** where you can suggest your own Filecoin project idea. [More info](https://github.com/filecoin-project/devgrants/tree/master/open-grants)
 
-To submit a proposal, fork and make [a PR](https://github.com/filecoin-project/devgrants/pulls) to this repo by the next wave deadline - Oct 31st 23:59 PDT (For priority consideration.)
+To submit a proposal, submit an issue using this [RFP Proposal Template](https://github.com/filecoin-project/devgrants/issues/new?assignees=realChainLife&labels=&template=rfp-proposal.md&title=RFP+Application).
 
 &nbsp;
 
