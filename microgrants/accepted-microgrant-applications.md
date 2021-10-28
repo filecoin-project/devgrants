@@ -30,3 +30,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @NguyenIvan | MyWorld | [Github](https://github.com/NguyenIvan/MyWorld)| [#342](https://github.com/filecoin-project/devgrants/issues/342) |
 | @cryptotwilight | JobCrypt | [Github](https://github.com/cryptotwilight/jobcrypt)| [#340](https://github.com/filecoin-project/devgrants/issues/340) |
 | @gawainb  | Creative | [Github](https://github.com/g2entgroup/creative-ui-2.2)| [#346](https://github.com/filecoin-project/devgrants/issues/346) |
+| @luluup777  | Miner Tools | [Github](https://github.com/luluup777)| [#360](https://github.com/filecoin-project/devgrants/issues/360) |
