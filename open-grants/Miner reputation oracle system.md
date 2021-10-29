@@ -63,11 +63,11 @@ Stability testing and problem feedback modification,  conduct public testing.
 
 #### Roles
 
-Melvin:       Lead Architect and Developer
+xuesong Zhang:       Lead Architect and Developer
 
-Lee Jin:      Architect and Developer
+jinyu LI:      Smart Contract Developer
 
-Cherry:       Architect and Developer
+cherry:       Front-end Developer
 
 Total = around 3.5 months
 
@@ -89,11 +89,11 @@ Yes, we will practically based our business around this open source blockchain a
 
 ## Team Members
 
-Melvin
+xuesong Zhang
 
-Lee Jin
+jinyu Li
 
-Cherry
+cherry
 
 ## Team Website
 
@@ -101,8 +101,9 @@ TBD
 
 ## Relevant Experience
 
-* **Melvin**10 years experience in software development，Entered the blockchain industry in 2018,  Engaged in public chain related development work,  Developed wallet and exchange system. In 2020, he started filecoin mining software system development. 
-* **Lee Jin**
+* **xuesong Zhang**10 years experience in software development，Entered the blockchain industry in 2018,  Engaged in public chain related development work,  Developed wallet and exchange system. In 2020, he started filecoin mining software system development. 
+* **Lee Jin** Smart Contract Developer
+* **Cherry** Front-end Developer
 ## Team code repositories
 
 TBD
