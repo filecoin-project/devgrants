@@ -101,9 +101,9 @@ TBD
 
 ## Relevant Experience
 
-* **xuesong Zhang**10 years experience in software development，Entered the blockchain industry in 2018,  Engaged in public chain related development work,  Developed wallet and exchange system. In 2020, he started filecoin mining software system development. 
-* **Lee Jin** Smart Contract Developer
-* **Cherry** Front-end Developer
+* **xuesong Zhang**  10 years experience in software development，Entered the blockchain industry in 2018,  Engaged in public chain related development work,  Developed wallet and exchange system. In 2020, he started filecoin mining software system development. 
+* **Lee Jin**  Smart Contract Developer
+* **Cherry**  Front-end Developer
 ## Team code repositories
 
 TBD
