@@ -1,5 +1,3 @@
-To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
-
 # Open Grant Proposal: `filecoin-near-digital-market`
 
 **Name of Project:** `fn-digital-market`
