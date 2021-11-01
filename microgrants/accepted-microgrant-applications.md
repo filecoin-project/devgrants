@@ -32,3 +32,5 @@ This page provides an overview of accepted applications and a link to their GitH
 | @gawainb  | Creative | [Github](https://github.com/g2entgroup/creative-ui-2.2)| [#346](https://github.com/filecoin-project/devgrants/issues/346) |
 | @ErvinDimitri  | Jinkocast | [Github](https://github.com/ErvinDimitri/Jinkocast)| [#356](https://github.com/filecoin-project/devgrants/issues/356) |
 | @luluup777  | Miner Tools | [Github](https://github.com/luluup777)| [#360](https://github.com/filecoin-project/devgrants/issues/360) |
+| @Jeffonemore | UniFile | [Github](https://github.com/StorerOS/UniFile)| [#364](https://github.com/filecoin-project/devgrants/issues/364) |
+| @Jeffonemore | IPOS | [Github](https://github.com/StorerOS/IPOS)| [#365](https://github.com/filecoin-project/devgrants/issues/365) |
