@@ -104,6 +104,8 @@ Completed By: 15th of February, 2022
 
 Budgetary Needs: This milestone will last 2 weeks = $11,000
 
+> NOTE: The cost of Milestone 3 includes NEAR transactions fees and cloud infrastructure cost estimated $4,000.
+
 ## Total Budget Requested
 
 We're requesting a total funding of $50,000 to complete all the above milestones, and the fund will be split into:
