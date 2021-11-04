@@ -101,10 +101,10 @@ Our team has been developing this project for almost a month, and will continue 
 ## Team Members
 
 * Manh Nguyen Van
-  * Email: manhnvworkspace@gmail.com
+  * Email: manhnv@giong.network
   * Github: https://github.com/manhnvan
 * Tuan Pham Minh
-  * Email: tuanpmhd@gmail.com
+  * Email: tuanpm@giong.network
   * Github: https://github.com/iamvon
 
 ## Team Member LinkedIn Profiles
