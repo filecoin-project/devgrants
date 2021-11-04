@@ -1,3 +1,6 @@
+NOTE (11/04/2021): The following RFP has now been closed. If you wish to apply for a grant to fund your work, please apply instead via the [Filecoin Dev Grants Program](https://github.com/filecoin-project/devgrants).
+
+
 # NEAR x Filecoin
 
 This is a Request for Proposals for projects interested in exploring new opportunities at the intersection of NEAR and Filecoin.
