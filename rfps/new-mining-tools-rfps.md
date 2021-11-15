@@ -74,7 +74,7 @@ Improve the Lotus Sector CLI to help miners more intuitively find failed sectors
 
 #### Description
 
-Miners need to monitor their sectors and respond to sector health issues. Lotus supports a Sector CLI ([code here](https://github.com/filecoin-project/lotus/blob/master/cmd/lotus-storage-miner/sectors.go)). However it needs to be run separately and then sector logs scanned to address issues.
+Miners need to monitor their sectors and respond to sector health issues. Lotus supports a Sector CLI ([code here](https://github.com/filecoin-project/lotus/blob/master/cmd/lotus-miner/sectors.go)). However it needs to be run separately and then sector logs scanned to address issues.
 
 The CLI tool could be enhanced to check for failed sectors then list them and their recent logs or messages.
 
