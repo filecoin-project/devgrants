@@ -1,20 +1,7 @@
-# Storage Provider Tooling Ideas
+# Storage Provider (SP) Tooling Ideas
 
-We are seeking proposals for the following RFPs for Mining Tools, Mining Tutorials and Miner Documentation improvements.
+We are seeking proposals for the following RFPs for SP Tools, SP Tutorials and SP improvements.
 
-&nbsp;
-
-**Gitcoin CLR Grant Funding**
-
-These proposals are posted to the **[Gitcoin (Filecoin) Liftoff category](https://gitcoin.co/grants/liftoff?)** where community members can show their support and signal it's a valuable idea.
-
-Your **Open Grant Proposals** can also be posted to Gitcoin Grants. Suggest your own Filecoin Mining Tool project idea and the mining community can give feedback and help crowdfund it.
-
-👉 Protocol Labs will match ALL community contributions by a **quadratic funding** formula used by Gitcoin CLR Grants.
-
------
-
-If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our regular [Proposal Guidelines](#proposal-guidelines) below about how to apply.
 
 *Have a question about any of these RFPs? Email devgrants@filecoin.org*
 
@@ -22,7 +9,7 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
 
 &nbsp;
 
-## *Miner Tooling Ideas*
+## *Storage Provider Tooling Ideas*
 
 
 
@@ -43,7 +30,7 @@ If you'd prefer to apply via Filecoin Dev Grants instead of Gitcoin CLR, see our
 
 &nbsp;
 
-### Monitoring Tool for Miners
+### Monitoring Tool for Storage Providers
 
 #### Overview
 
@@ -60,7 +47,7 @@ Metrics could also include average time to process sectors, baselines for each s
 
 Options:
 
-1) *Lightweight monitoring for smaller miners* - to support smaller miners we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
+1) *Lightweight monitoring for smaller storage providers* - to support smaller SPs we’d really like to see a simple monitoring setup that could be run on a single machine already running a miner.
 
 2) Dedicated server - miners with more mining machines may also want to add a database to keep track of incoming datasources and potentially query historical data (e.g. PostgresDB or InfluxDB could also be used - Influx also has a plugin for `nvidia_smi`).
 
@@ -70,11 +57,11 @@ Options:
 
 ### Sector Checker
 
-Improve the Lotus Sector CLI to help miners more intuitively find failed sectors and fix or remove them.
+Improve the Lotus Sector CLI to help SPs more intuitively find failed sectors and fix or remove them.
 
 #### Description
 
-Miners need to monitor their sectors and respond to sector health issues. Lotus supports a Sector CLI ([code here](https://github.com/filecoin-project/lotus/blob/master/cmd/lotus-miner/sectors.go)). However it needs to be run separately and then sector logs scanned to address issues.
+Storage Providers need to monitor their sectors and respond to sector health issues. Lotus supports a Sector CLI ([code here](https://github.com/filecoin-project/lotus/blob/master/cmd/lotus-miner/sectors.go)). However it needs to be run separately and then sector logs scanned to address issues.
 
 The CLI tool could be enhanced to check for failed sectors then list them and their recent logs or messages.
 
@@ -96,11 +83,11 @@ Example enhanced sector menu:
 
 ### Auto-Add New Sectors based on Capacity
 
-A tool to help miners automatically pledge new sectors or manage new storage deals as their machine capacity allows.
+A tool to help SPs automatically pledge new sectors or manage new storage deals as their machine capacity allows.
 
 #### Description
 
-Adding new sectors is currently managed manually. The tool could evaluate at regular intervals how many jobs have accumulated in each phase of a miner’s pipeline and how much extra capacity is available. New sectors via storage deals or auto-pledging could be added as resources allow.
+Adding new sectors is currently managed manually. The tool could evaluate at regular intervals how many jobs have accumulated in each phase of a SP’s pipeline and how much extra capacity is available. New sectors via storage deals or auto-pledging could be added as resources allow.
 
 This tool can be external to Lotus.
 
@@ -109,27 +96,27 @@ This tool can be external to Lotus.
 -----
 &nbsp;
 
-### Miner Hardware Profitability Calculator
+### SP Hardware Profitability Calculator
 
 A general calculator for *hardware* setup costs and how that impacts Sealing Rates.
 
 #### Description
 
-Many miners consider their sector Sealing Rate when analyzing their hardware configurations. Suggestions for additional important and measurable parameters to consider are welcome.
+Many SPs consider their sector Sealing Rate when analyzing their hardware configurations. Suggestions for additional important and measurable parameters to consider are welcome.
 
 A complete Mining Profitability Calculator for Filecoin would consider investment in both hardware and capital. For this grant we are interested mainly in the hardware component. (A basic calculator analyzing the amount of collateral a miner needs over time per unit of storage is in progress separately by another team.)
 
 For all calculations, specific parameters may change but it helps to have the formulas in place and network variables can be filled in later.
 
-An [example Reference Architecture](https://filecoin.io/vintage/mining-hardware-config-testnet-v3.pdf) for a medium-sized miner is also available (from the [Filecoin Guide to Storage Mining](https://filecoin.io/blog/filecoin-guide-to-storage-mining/) blog post).
+An [example Reference Architecture](https://filecoin.io/vintage/mining-hardware-config-testnet-v3.pdf) for a medium-sized SP is also available (from the [Filecoin Guide to Storage Mining](https://filecoin.io/blog/filecoin-guide-to-storage-mining/) blog post).
 
 &nbsp;
 -----
 &nbsp;
 
-### Miner Transaction History and Earnings Predictor
+### SP Transaction History and Earnings Predictor
 
-Miners need to make sure they have enough funds in their wallets to support their storage mining and growth. They also want to understand their overall profits and losses over time. Tools to support this are of interest in this grant.
+SPs need to make sure they have enough funds in their wallets to support their storage mining and growth. They also want to understand their overall profits and losses over time. Tools to support this are of interest in this grant.
 
 1) **Miner Transaction History** - Aggregate and explain the transaction history of a miner's earnings and fees.
 
@@ -171,7 +158,7 @@ Before and after reaching the 10 TiB minimum consensus power should be considere
 
 Rewards are also based on dynamic network conditions, baseline assumptions could be made, such as assuming the network will grow linearly which impacts how many blocks you can mine in the future (or you can try using different growth trajectories). Also currently there is only testnet data available.
 
-A scaffold of an earnings prediction calculator based on past performance could be useful to other miners. A spreadsheet model, Observable notebook or CLI tool or similar could be used and plotting could be kept in FIL.
+A scaffold of an earnings prediction calculator based on past performance could be useful to other SPs. A spreadsheet model, Observable notebook or CLI tool or similar could be used and plotting could be kept in FIL.
 
 
 <small>
@@ -197,27 +184,27 @@ A tool to explain and analyze Gas including base fees, fee cap (for each Tipset)
 
 [Eth Gas Station](https://ethgasstation.info/) is one example resource but what specific tool is built to explain gas calculations is open.
 
-Modeling current average gas costs can help miners and developers better understand the current MPool and why their transactions are not being mined, especially if their gas is too low compared to the network average.
+Modeling current average gas costs can help SPs and developers better understand the current MPool and why their transactions are not being mined, especially if their gas is too low compared to the network average.
 
 The EIP-1559 Gas Model was implemented in Filecoin (relevant [Changelog](https://github.com/filecoin-project/lotus/blob/efd2dff0cac40934ec5b4472e48887ecbb2efe44/CHANGELOG.md#gas-changes)). A Lotus JSON RPC API call to estimate gas in Lotus is a TODO in [Issue 3326](https://github.com/filecoin-project/lotus/issues/3326) and there is a [Gas Estimation function here](https://github.com/filecoin-project/lotus/blob/18c025f10e99b35cf7cd2eebe10de5163280378e/node/impl/full/gas.go#L189).
 
 &nbsp;
 
-### Mining Task Pool for Smaller Miners
+### Mining Task Pool for Smaller Storage Providers
 
-> NOTE: Creating a mining pool in Filecoin is not easy to do and cannot be implemented in a fully decentralized way at this time.
+> NOTE: Creating a SP pool in Filecoin is not easy to do and cannot be implemented in a fully decentralized way at this time.
 
-A way to pool resources and tasks to smaller miners behind a single node. One goal is to attain the 10 TiB minimum consensus storage power collaboratively as a group sooner to have a chance to earn a % of block rewards earlier on.
+A way to pool resources and tasks to smaller SPs behind a single node. One goal is to attain the 10 TiB minimum consensus storage power collaboratively as a group sooner to have a chance to earn a % of block rewards earlier on.
 
 #### Description
 
-Miners regularly ask whether a mining pool is possible in Filecoin.
+SPs regularly ask whether a mining pool is possible in Filecoin.
 
 1. Collateral is difficult to pool in a trustless, decentralized way without a spec-actor update which can be proposed as a future FIP. 
 
-    Some groups have also proposed a centralized service provider external to Filecoin for pooling collateral that miners would have to trust, or a staking system.
+    Some groups have also proposed a centralized service provider external to Filecoin for pooling collateral that SPs would have to trust, or a staking system.
 
-2. Another area of research is to target the FSM scheduler to support farming tasks to smaller remote miners in the same geographic region as a worker pool, all behind a single node and miner id. Smaller miners could work together in this way to earn block rewards as a collective.
+2. Another area of research is to target the FSM scheduler to support farming tasks to smaller remote SPs in the same geographic region as a worker pool, all behind a single node and SP id. Smaller SPs could work together in this way to earn block rewards as a collective.
 
 We are particularly interested in Option 2. A discussion thread for this topic is also on Github is at https://github.com/filecoin-project/lotus/discussions/4005. 
 	
@@ -228,15 +215,15 @@ This grant could support a good FIP proposal or a proposed architecture + schedu
 -----
 &nbsp;
 
-### CID Indexing Tool for Miners
+### CID Indexing Tool for SPs
 
-A CID indexing tool for all sectors that a storage miner has, as software that sits on top of a Filecoin node and sends data to a community aggregator.
+A CID indexing tool for all sectors that a storage provider has, as software that sits on top of a Filecoin node and sends data to a community aggregator.
 
 #### Description
 
-Storage miners who offer more information about data and sector status are likely to be more attractive to storage clients.
+Storage providers who offer more information about data and sector status are likely to be more attractive to storage clients.
 
-A CID indexer could be run as a sidecar to Lotus to keep track of all sectors a miner has:
+A CID indexer could be run as a sidecar to Lotus to keep track of all sectors a SP has:
 
 - Grabs all the IPLD data structures of the client data
 - Understands every CID
@@ -244,7 +231,7 @@ A CID indexer could be run as a sidecar to Lotus to keep track of all sectors a 
 - Creates a local CID index
 - Then storage miners could share their CID index with a aggregator for community visibility
 
-Sectors that miners have can also be observed at https://spacegap.github.io.
+Sectors that SPs have can also be observed at https://spacegap.github.io.
 
 Optionally this tool could also map pieceCIDs to payload / data CIDs (as used in IPFS) to support Retrieval Miners and Clients. https://github.com/mgoelzer/cid_oracle is another tool that scans the Filecoin blockchain for pieceCID to payload CID mappings.
 
@@ -254,13 +241,13 @@ Optionally this tool could also map pieceCIDs to payload / data CIDs (as used in
 -----
 &nbsp;
 
-### Miner Docs and Community Guides
+### Storage Provider Docs and Community Guides
 
 Community members are welcome to contribute to the following:
 
-1. The **Filecoin Mining Docs** are currently being improved and we welcome community members to contribute PRs especially on topics below.
+1. The **Filecoin Storage Provider Docs** are currently being improved and we welcome community members to contribute PRs especially on topics below.
 
-2. **Real-world community guides** ranging from *blog posts, notes, videos and tutorials* with additional tips and analysis on why you made certain choices to help other storage miners.
+2. **Real-world community guides** ranging from *blog posts, notes, videos and tutorials* with additional tips and analysis on why you made certain choices to help other storage providers.
 
 All contributions will be judged based on quality and grant award amounts determined afterwards.
 
@@ -268,7 +255,7 @@ All contributions will be judged based on quality and grant award amounts determ
 
 *(Not all submissions may be eligible - if you're not sure about a topic, ask us!)*
 
-#### Description - 1. Filecoin Miner Docs
+#### Description - 1. Filecoin Storage Provider Docs
 
 The mining docs at [docs.filecoin.io/mine](https://docs.filecoin.io/mine/) aim to be a canonical guide to mining that is growing. They include a guides like the  [example architectures](https://docs.filecoin.io/mine/mining-architectures/#protocol-labs-example-architecture), the [troubleshooting page](https://docs.filecoin.io/mine/lotus/miner-troubleshooting/) or any other that will benefit from contributions and feedback.
 
