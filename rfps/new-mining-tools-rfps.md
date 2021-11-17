@@ -1,4 +1,4 @@
-# Mining Tooling Ideas
+# Storage Provider Tooling Ideas
 
 We are seeking proposals for the following RFPs for Mining Tools, Mining Tutorials and Miner Documentation improvements.
 
