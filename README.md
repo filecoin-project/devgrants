@@ -34,7 +34,7 @@ OPEN RFPs:
 
 * [**Chainlink x Filecoin**](https://github.com/filecoin-project/devgrants/blob/master/rfps/chainlink-and-filecoin.md) -- Rolling submissions, open until December 2021
 * [**Developer Tooling**](https://github.com/filecoin-project/devgrants/blob/master/rfps/developer-tooling.md) -- Rolling submissions, open until December 2021
-* [**Storage Provider Tools**](https://github.com/filecoin-project/devgrants/blob/master/rfps/new-storage-provider-tools-rfps.md) -- Rolling submissions, open until December 2021
+* [**Storage Provider Tools**](https://github.com/filecoin-project/devgrants/blob/master/rfps/storage-provider-tools-rfps.md) -- Rolling submissions, open until December 2021
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
