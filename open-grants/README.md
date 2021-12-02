@@ -18,6 +18,8 @@ Open grants work within a few core categories.
 
 - **Community**: We would like to support community initiatives throughout the global Filecoin ecosystem. We have a standing RFP for hosting community meetups, and are generally excited to hear about all sorts of community initiatives. Relevant proposals should be labeled [`category:community`](https://github.com/filecoin-project/devgrants/labels/category%3Acommunity).
 
+- **Metaverse**: We are keen to support work to advance interconnectivity, interoperability, and openness at any layer in the growing tide of virtual, immersive worlds (experiences, applications, communities, tooling, standards, infrastructure, et cetera).
+
 - **Research**: We are keen on receiving proposals that explore the meta processes and incentives of decentralized storage. Relevant proposals should be labeled  [`category:research`](https://github.com/filecoin-project/devgrants/labels/category%3research).
 
 ## 📋 How to apply
