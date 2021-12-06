@@ -35,3 +35,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @Jeffonemore | UniFile | [Github](https://github.com/StorerOS/UniFile)| [#364](https://github.com/filecoin-project/devgrants/issues/364) |
 | @Jeffonemore | IPOS | [Github](https://github.com/StorerOS/IPOS)| [#365](https://github.com/filecoin-project/devgrants/issues/365) |
 | @XandraMcC | LYNX | [Github](https://github.com/LYNX-Technologies)| [#390](https://github.com/filecoin-project/devgrants/issues/390) |
+| @eth-limo  | LIMO | [Github](https://github.com/eth-limo/eth.limo)| [#392](https://github.com/filecoin-project/devgrants/issues/392) |
