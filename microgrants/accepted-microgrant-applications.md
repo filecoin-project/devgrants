@@ -37,3 +37,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @XandraMcC | LYNX | [Github](https://github.com/LYNX-Technologies)| [#390](https://github.com/filecoin-project/devgrants/issues/390) |
 | @eth-limo  | LIMO | [Github](https://github.com/eth-limo/eth.limo)| [#392](https://github.com/filecoin-project/devgrants/issues/392) |
 | @HEATDAO  | HEATDAO | [Github](https://github.com/HEATDAO/HEATDAO)| [#393](https://github.com/filecoin-project/devgrants/issues/393) |
+| @jimpick  | Provider.Quest | [Github](https://github.com/jimpick/provider-quest-spark)| [#397](https://github.com/filecoin-project/devgrants/issues/397) |
