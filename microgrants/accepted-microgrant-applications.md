@@ -34,6 +34,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @luluup777  | Miner Tools | [Github](https://github.com/luluup777)| [#360](https://github.com/filecoin-project/devgrants/issues/360) |
 | @Jeffonemore | UniFile | [Github](https://github.com/StorerOS/UniFile)| [#364](https://github.com/filecoin-project/devgrants/issues/364) |
 | @Jeffonemore | IPOS | [Github](https://github.com/StorerOS/IPOS)| [#365](https://github.com/filecoin-project/devgrants/issues/365) |
+| @sanketjain123 | Gateway | [Demo](https://drive.google.com/file/d/1pUqQN-z3W8Vq6__U-skYkcpEohYK3GcZ/view)| [#389](https://github.com/filecoin-project/devgrants/issues/389) |
 | @XandraMcC | LYNX | [Github](https://github.com/LYNX-Technologies)| [#390](https://github.com/filecoin-project/devgrants/issues/390) |
 | @eth-limo  | LIMO | [Github](https://github.com/eth-limo/eth.limo)| [#392](https://github.com/filecoin-project/devgrants/issues/392) |
 | @HEATDAO  | HEATDAO | [Github](https://github.com/HEATDAO/HEATDAO)| [#393](https://github.com/filecoin-project/devgrants/issues/393) |
