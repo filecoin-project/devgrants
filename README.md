@@ -19,7 +19,6 @@ Acceptance criteria are very simple, and work is expected to be complete within 
 ### Open Grant
 Do you have an idea for pushing the Filecoin ecosystem forward? Grants of over $5000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
- Wave 12 proposal submissions are due **November 30, 2021 at 23:59 PDT** for priority consideration.
 
 [**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=) • [**See Accepted Open Grant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/open-grants/accepted-open-grant-applications.md)
 
