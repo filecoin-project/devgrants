@@ -102,15 +102,17 @@ Each release will be usable and tested with the community allowing us to iterate
    - Add observability and benchmarks to retrieval operations.
    - Test the architecture with a large amount of node to find performance bottlenecks.
    - Address any potential issues in the assumptions we made designing this architecture.
-### 04/20/2021 - Economics
-> This milestones aims at unlocking further incentives for providers to increase the number of providers
-- **0.8.0**: Pricing mechanism
-   - Providers and Clients can set price ceilings and floors between which they are willing to exchange blocks
-   - Dynamic pricing based on local demand per epoch for a given block.
-   - Observability for tuning the pricing model.
-- **0.9.0**: Incentives and security
-   - Analyze and detect any security flows in which bad actors could collude to take advantage of the system
-   - Offer suggestions to the community as a FIP to unlock potential FIL rewards for providers to accelerate adoption
+### 04/20/2021 - ~~Economics~~ Stability and usability
+> ~~This milestones aims at unlocking further incentives for providers to increase the number of providers~~
+> In order to provide more value to the community I decided to focus on making data transfers more robust before moving to economic incentives. This milestone improves stability and usability of nodes for real world applications.
+- **0.8.0**: Node CLI and HTTP Gateway
+   - Implements CLI convenience methods for managing the node and provider business logic.
+   - Expose HTTP GET and POST endpoints for uploading and loading content from Web applications.
+   - Implements smart garbage collection mechanism to maintain optimal local storage usage.
+- **0.9.0**: Testing with real world content
+   - Support UnixFS DAG chunking and importing.
+   - Support import from CAR files.
+   - Deploy geographically distributed nodes and test transfer of NFT files.
 - **1.0.0**: - Bug fixes and Documentation
    - Godocs, onboarding documentation and examples.
    - Roadmap update, define learnings and where to go from there.
