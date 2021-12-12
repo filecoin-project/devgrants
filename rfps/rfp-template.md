@@ -4,7 +4,7 @@ To propose an RFP, please create a PR against this template in this repo. Please
 
 **Name of Project:**
 
-**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`
+**RFP Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`, `community`,`metaverse`
 
 **Proposer:** `replace with your GitHub username`
 
