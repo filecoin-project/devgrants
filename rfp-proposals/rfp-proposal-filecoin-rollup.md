@@ -21,7 +21,7 @@ This project is to explore the technical designs for it. The goal is to enable a
 In summary, we want to check if the external adapter would be sufficient, or needs changes, for proving Filecoin storage inside zkSNARK.
 
 ## Examples of technical challenges:
-The CIDv1 uses multihash to compute the digest of the file. By looking at the existing standards, it seems that `poseidon-bls12_381-a2-fc1` would be suitable to make the file zkSNARK-friendly. We may want to see if there are ways to check file consistency with a lower cost (e.g., by the use of Reed-Soloman code), and how `poseidon-bls12_381-a2-fc1` is supported in current platforms.
+The CIDv1 uses multihash to compute the digest of the file. By looking at the existing standards, it seems that `poseidon-bls12_381-a2-fc1` would be suitable to make the file zkSNARK-friendly. We may want to see if there are ways to check file consistency with a lower cost (e.g., by the use of Reed-Solomon code), and how `poseidon-bls12_381-a2-fc1` is supported in current platforms.
 
 The curve used for zkSNARK proofs in Filecoin, BLS12-381, is notorious for the difficulty to verify its proof inside zkSNARK, because BLS12-381's Fq has a two-arity of 1, prohibiting a large number of proof systems based on FFT.
 - Needs to check whether it is possible to not verify any proof while having the security guarantees, assuming Chainlink's oracle is perfectly secure.
