@@ -1,4 +1,4 @@
-UPDATE 9/23/2021: We have extended the deadline of this RFP to **17 December, 2021**. Applications will be evaluated on a rolling basis.
+NOTE (12/18/2021): The following RFP has now been closed. If you wish to apply for a grant to fund your work, please apply instead via the [Filecoin Dev Grants Program](https://github.com/filecoin-project/devgrants).
 
 # Chainlink x Filecoin
 
