@@ -41,3 +41,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @jimpick  | Provider.Quest | [Github](https://github.com/jimpick/provider-quest-spark)| [#397](https://github.com/filecoin-project/devgrants/issues/397) |
 | @PluskitOfficial | Pluskit | [Github](https://github.com/PluskitOfficial/Pluskit)| [#398](https://github.com/filecoin-project/devgrants/issues/398) |
 | @ZhangPeibin  | Avatar Metaverse | [Github](https://github.com/ZhangPeibin/AvatarMetaverse)| [#402](https://github.com/filecoin-project/devgrants/issues/402) |
+| @msanket9  | PaperHouse | [Github](https://github.com/CIDgravity/CIDgravity-X)| [#409](https://github.com/filecoin-project/devgrants/issues/409) |
