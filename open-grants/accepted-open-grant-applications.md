@@ -99,18 +99,22 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 | Team | Project | Project Link | Application Link | 
 | :--- | :------ | :--- | :--------: | 
-| wusirdcenter |  Cambrian Protocol | [Github](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
-| glitter |  IPFSpace | [Project](https://github.com/tedl-1990/glitter)| [Github](https://github.com/tedl-1990/devgrants/blob/glitter-desktop/open-grant-proposals/glitter-desktop.md)  |
-| opscentia |  CryptoDocs - a private Google Docs Alternative | [Project](https://opscientia.com/)| [Github](https://github.com/XandraMcC/devgrants/blob/master/open-grant-proposals/open-proposal-opscientia.md)  |
-| shuo pang |  IPFS Support in FFmpeg-based media players | [Project](https://github.com/aldenpang/vartisans)| [Github](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
-| ariel klevecz |  Enterprise preprocessor layer for IPFS Client | [Project](https://yaytso.art/)| [Github](https://github.com/aklevecz/devgrants/blob/patch-1/open-grant-proposals/open-proposal-template.md)  |
-| TuninsightBlockchain |  Blockchain Solution for AI Using Filecoin | [Website](https://www.tuninsight.com/)| [Application](https://github.com/TuninsightBlockchain/devgrants/blob/master/open-grant-proposals/open-proposal-Machine%20Learning%20labled%20Dataset%20NFT%20storage%20and%20sharing%20via%20IPFS_Filecoin.md)  |
-| molekilla |  Computation based on IPFS/Filecoin Network | [Website](https://ifesa.tech/)| [Application](https://github.com/molekilla/devgrants/blob/patch-3/open-grant-proposals/open-proposal-xdv.md)  |
-| dokterbob |  Identity | [Github](https://github.com/ipfs-search)| [Application](https://github.com/ipfs-search/devgrants/blob/rfp-ipfs-search-scale-out/open-grant-proposals/ipfs-search-scale-out.md)  |
-| froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
-| artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
-|  |  |  |  |
-
+| NicWickman |  Cambrian Protocol | [Website](https://cambrianprotocol.com/)| [Application](https://github.com/NicWickman/devgrants/blob/master/open-grants/open-proposal-cambrian-protocol.md)  |
+| ZhangPeibin |  IPFSpace | [Project](https://github.com/ZhangPeibin/IPFSpace)| [Github](https://github.com/ZhangPeibin/devgrants/blob/master/open-grant-proposals/IPFSpace.md)  |
+| polluterofminds & zherring |  CryptoDocs - a private Google Docs Alternative | [Github](https://github.com/polluterofminds)| [Application](https://github.com/polluterofminds/devgrants/blob/crypto-docs-proposal/open-grants/open-proposal-crypto-docs.md)  |
+| mark gaiser |  IPFS Support in FFmpeg-based media players | [Github](https://github.com/markg85/FFmpeg/tree/ipfs)| [Application](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
+| andy zhou |  Enterprise preprocessor layer for IPFS Client | [Project](https://www.eidledger.com/)| [Github](https://github.com/codyddd/devgrants/blob/master/open-grant-proposals/enterprise-preprocessor-layer-for-IPFS-client.md)  |
+| RiveringAI |  Blockchain Solution for AI Using Filecoin | [Github](https://github.com/WillTechMusing)| [Application](https://github.com/RiveringAI/devgrants/blob/master/open-grants/project-blockchain-solution-for-AI-using-filecoin.md)  |
+| flyworker |  Computation based on IPFS/Filecoin Network | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/pull/277/files?short_path=456660d#diff-456660d1dff0aa1e8b8692c817832fea0f81aefe0e15f6aaf1af0a6b4594b505)  |
+| ekang426 |  KryptoSeoul Community Development | [Website](http://kryptoseoul.com/)| [Application](https://github.com/filecoin-project/devgrants/blob/kryptoseoul-patch-2/open-grant-proposals/open-proposal-kryptoseoulcommunity.md)  |
+| s0nik42 |  Lotus Farcaster v3 | [Website](http://twinquasar.io/index.html#home)| [Application](https://github.com/s0nik42/devgrants/blob/master/open-grants/lotus-farcaster-v3.md)  |
+| flaxscrip & macterra | Metatron Protocol | [Github](https://github.com/macterra/metatron/blob/main/docs/README.md) | [Application](https://github.com/Flaxscrip/devgrants/blob/Flaxscrip-patch-1/open-grant-proposals/open-proposal-metatron.md) |
+| phuquocdog | Phu Quoc Dog | [Website](https://phuquoc.dog/) | [Application](https://github.com/gsviec/devgrants/blob/master/open-grants/open-proposal-phuquoc-dog.md) |
+| catthehunter | Sector Repair Tool | Github | [Application](https://github.com/catthehunter/devgrants/blob/patch-1/open-grant-proposals/Sector%20Repair%20Tool.md) |
+| aaitor | DeFi Marketplace | [Website](https://www.nevermined.io/) | [Application](https://github.com/aaitor/devgrants/blob/defi-marketplace/open-grants/open-proposal-defi-marketplace.md) |
+| PatrickNercessian | BitBlock | [Project](https://github.com/PatrickNercessian/BitBlock) | [Application](https://github.com/PatrickNercessian/devgrants/blob/patch-2/open-grants/open-proposal-bitblock.md) |
+| macro-ss | Multi-Sector Memory Pool Support | [Website](https://storswift.com/) | [Application](https://github.com/storswiftlabs/devgrants/blob/p1-mem-pool/open-grants/open-proposal-p1-mem-pool.md) |
+| ikreymer, webrecorder | Browser Based Web Archiving | [Website](https://webrecorder.net/) | [Application](https://github.com/webrecorder/archiveweb.page) |
 
 
 
