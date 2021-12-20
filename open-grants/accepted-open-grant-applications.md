@@ -58,7 +58,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 
 
-
 ## :surfing_woman: Wave 7
 
 | Team | Project | Project Link | Application Link | 
@@ -71,7 +70,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | kernelogic | Music NFT Portal | [Website](https://music-nft.kernelogic.ca/) | [Application](https://github.com/filecoin-project/devgrants/blob/4267d83cf06219aec464ea143090480a089733da/open-grant-proposals/open-proposal-music-nft-portal.md) |
 | baoruian | IPFS SRE Community | [Website](https://www.kdocs.cn/view/l/srXkNrCpZAn2) | [Application](https://github.com/taoshengshi/devgrants/blob/master/open-grant-proposals/ipfs-sre-community.md) |
 |  |  |  |  |
-
 
 
 
@@ -91,7 +89,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
 | artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
 |  |  |  |  |
-
 
 
 
@@ -119,8 +116,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 
 
-
-
 ## :surfing_woman: Wave 10
 
 | Team | Project | Project Link | Application Link | 
@@ -138,26 +133,25 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 
 
-
-
 ## :surfing_woman: Wave 11
 
 | Team | Project | Project Link | Application Link | 
 | :--- | :------ | :--- | :--------: | 
-| Wrapped  |  Bidirectional FIL <=> WFIL Bridge to Ethereum   |  [Github](https://github.com/tokensoft/tokensoft_token) | [Application](https://github.com/filecoin-project/devgrants/pull/264/commits/cf708760798428775091d092fbde21437db48df8?short_path=0c04afe#diff-0c04afe96ddd40ad02ecbb4037387a5842f2afdc0a3aa40e773fc5e6d7595f9b) |
-| wusirdcenter |  Decoupling WinningPoSt and WindowPoSt from lotus-miner | [Github](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
-| glitter |  Glitter RSS Reader Desktop | [Project](https://github.com/tedl-1990/glitter)| [Github](https://github.com/tedl-1990/devgrants/blob/glitter-desktop/open-grant-proposals/glitter-desktop.md)  |
-| opscentia |  Data Hosting Research | [Project](https://opscientia.com/)| [Github](https://github.com/XandraMcC/devgrants/blob/master/open-grant-proposals/open-proposal-opscientia.md)  |
-| shuo pang |  vArtisans | [Project](https://github.com/aldenpang/vartisans)| [Github](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
-| ariel klevecz |  Yaytso | [Project](https://yaytso.art/)| [Github](https://github.com/aklevecz/devgrants/blob/patch-1/open-grant-proposals/open-proposal-template.md)  |
-| TuninsightBlockchain |  NFT Data Labelling | [Website](https://www.tuninsight.com/)| [Application](https://github.com/TuninsightBlockchain/devgrants/blob/master/open-grant-proposals/open-proposal-Machine%20Learning%20labled%20Dataset%20NFT%20storage%20and%20sharing%20via%20IPFS_Filecoin.md)  |
-| molekilla |  XDV (Ancon) Protocol | [Website](https://ifesa.tech/)| [Application](https://github.com/molekilla/devgrants/blob/patch-3/open-grant-proposals/open-proposal-xdv.md)  |
-| dokterbob |  IPFS Search | [Github](https://github.com/ipfs-search)| [Application](https://github.com/ipfs-search/devgrants/blob/rfp-ipfs-search-scale-out/open-grant-proposals/ipfs-search-scale-out.md)  |
-| froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
-| artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
+| sanity  |  Freenet II   |  [Github](https://github.com/sanity/) | [Application](https://github.com/filecoin-project/devgrants/issues/345) |
+| andrew.gord.stewart |  Optimized multi-hop payments | [Github](https://github.com/statechannels/statechannels/)| [Application](https://github.com/filecoin-project/devgrants/issues/348)  |
+| kelsien |  Resilience in IPFS | [Website](https://rmit.academia.edu/KelsieNabben/Papers)| [Application](https://github.com/filecoin-project/devgrants/issues/353)  |
+| ryanshahine, giliamverheide |  Blockforge | [Project](https://blockforge.app/)| [Application](https://github.com/filecoin-project/devgrants/issues/354)  |
+| eyal ron |  Esteriods | [Website](https://esteroids.eth.limo/#/)| [Application](https://github.com/filecoin-project/devgrants/issues/357)  |
+| sionois |  Defluencer | [Github](https://github.com/Defluencer)| [Application](https://github.com/SionoiS/devgrants/blob/defluencer/open-grants/open-proposal-defluencer.md)  |
+| 0xatm |  Linkstorage | [Website](https://linkstorage.io/)| [Application](https://github.com/filecoin-project/devgrants/pull/328)  |
+| flyworker |  Data Bounties | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/pull/290/files#diff-8d38aff13029ee32eab6c67ba2f940f9af844e9ecb203c62385d6533da9b5d63)  |
+| flyworker |  FS3 v2.0 - S3 Compatible Gateway | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/issues/363)  |
+| crypticentertainments |  Filecoin Community Anthem | [Website](https://crypticentertainments.com/)| [Application](https://github.com/filecoin-project/devgrants/issues/366)  |
+| manhnvan | Pristorage | [Github](https://github.com/manhnvan/Pristorage) | [Application](https://github.com/manhnvan/devgrants/blob/master/rfp-proposals/Pristorage.md) |
+| arctic-ash | FilMarket | [Github](https://github.com/CrossChainLabs) | [Application](https://github.com/filecoin-project/devgrants/pull/367/files?short_path=3b85656#diff-3b856567ccaad81cfdaf78280813d112e2ab8cc4e886d033c498aeb916eb36de) |
+| awantoch | Valist on NEAR | [Website](https://valist.io/) | [Application](https://github.com/valist-io/devgrants/blob/master/rfp-proposals/rfp-valist-on-near.md) |
+| johnchandlerburnham | Yatima | [Github](https://github.com/yatima-inc/yatima) | [Application](https://github.com/filecoin-project/devgrants/issues/369) |
 |  |  |  |  |
-
-
 
 
 
@@ -180,23 +174,4 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 |  |  |  |  |
 
 
-
-
-
-## :surfing_woman: Wave 13
-
-| Team | Project | Project Link | Application Link | 
-| :--- | :------ | :--- | :--------: | 
-| Wrapped  |  Bidirectional FIL <=> WFIL Bridge to Ethereum   |  [Github](https://github.com/tokensoft/tokensoft_token) | [Application](https://github.com/filecoin-project/devgrants/pull/264/commits/cf708760798428775091d092fbde21437db48df8?short_path=0c04afe#diff-0c04afe96ddd40ad02ecbb4037387a5842f2afdc0a3aa40e773fc5e6d7595f9b) |
-| wusirdcenter |  Decoupling WinningPoSt and WindowPoSt from lotus-miner | [Github](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
-| glitter |  Glitter RSS Reader Desktop | [Project](https://github.com/tedl-1990/glitter)| [Github](https://github.com/tedl-1990/devgrants/blob/glitter-desktop/open-grant-proposals/glitter-desktop.md)  |
-| opscentia |  Data Hosting Research | [Project](https://opscientia.com/)| [Github](https://github.com/XandraMcC/devgrants/blob/master/open-grant-proposals/open-proposal-opscientia.md)  |
-| shuo pang |  vArtisans | [Project](https://github.com/aldenpang/vartisans)| [Github](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
-| ariel klevecz |  Yaytso | [Project](https://yaytso.art/)| [Github](https://github.com/aklevecz/devgrants/blob/patch-1/open-grant-proposals/open-proposal-template.md)  |
-| TuninsightBlockchain |  NFT Data Labelling | [Website](https://www.tuninsight.com/)| [Application](https://github.com/TuninsightBlockchain/devgrants/blob/master/open-grant-proposals/open-proposal-Machine%20Learning%20labled%20Dataset%20NFT%20storage%20and%20sharing%20via%20IPFS_Filecoin.md)  |
-| molekilla |  XDV (Ancon) Protocol | [Website](https://ifesa.tech/)| [Application](https://github.com/molekilla/devgrants/blob/patch-3/open-grant-proposals/open-proposal-xdv.md)  |
-| dokterbob |  IPFS Search | [Github](https://github.com/ipfs-search)| [Application](https://github.com/ipfs-search/devgrants/blob/rfp-ipfs-search-scale-out/open-grant-proposals/ipfs-search-scale-out.md)  |
-| froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
-| artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
-|  |  |  |  |
 
