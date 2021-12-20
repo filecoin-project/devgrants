@@ -115,6 +115,7 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | PatrickNercessian | BitBlock | [Project](https://github.com/PatrickNercessian/BitBlock) | [Application](https://github.com/PatrickNercessian/devgrants/blob/patch-2/open-grants/open-proposal-bitblock.md) |
 | macro-ss | Multi-Sector Memory Pool Support | [Website](https://storswift.com/) | [Application](https://github.com/storswiftlabs/devgrants/blob/p1-mem-pool/open-grants/open-proposal-p1-mem-pool.md) |
 | ikreymer, webrecorder | Browser Based Web Archiving | [Website](https://webrecorder.net/) | [Application](https://github.com/webrecorder/archiveweb.page) |
+|  |  |  |  |
 
 
 
@@ -124,17 +125,15 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 | Team | Project | Project Link | Application Link | 
 | :--- | :------ | :--- | :--------: | 
-| Wrapped  |  Bidirectional FIL <=> WFIL Bridge to Ethereum   |  [Github](https://github.com/tokensoft/tokensoft_token) | [Application](https://github.com/filecoin-project/devgrants/pull/264/commits/cf708760798428775091d092fbde21437db48df8?short_path=0c04afe#diff-0c04afe96ddd40ad02ecbb4037387a5842f2afdc0a3aa40e773fc5e6d7595f9b) |
-| wusirdcenter |  Decoupling WinningPoSt and WindowPoSt from lotus-miner | [Github](https://github.com/wusirdcenter)| [Application](https://github.com/filecoin-project/devgrants/pull/265/commits/93cac70de6e86021c06d1dadbcf03b7cab52b6be?short_path=e07ae8c#diff-e07ae8c83fac6e5d5b0acc35f8d9e61798b8b0c7c70ca0f97372b1cb1f3dc341)  |
-| glitter |  Glitter RSS Reader Desktop | [Project](https://github.com/tedl-1990/glitter)| [Github](https://github.com/tedl-1990/devgrants/blob/glitter-desktop/open-grant-proposals/glitter-desktop.md)  |
-| opscentia |  Data Hosting Research | [Project](https://opscientia.com/)| [Github](https://github.com/XandraMcC/devgrants/blob/master/open-grant-proposals/open-proposal-opscientia.md)  |
-| shuo pang |  vArtisans | [Project](https://github.com/aldenpang/vartisans)| [Github](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
-| ariel klevecz |  Yaytso | [Project](https://yaytso.art/)| [Github](https://github.com/aklevecz/devgrants/blob/patch-1/open-grant-proposals/open-proposal-template.md)  |
-| TuninsightBlockchain |  NFT Data Labelling | [Website](https://www.tuninsight.com/)| [Application](https://github.com/TuninsightBlockchain/devgrants/blob/master/open-grant-proposals/open-proposal-Machine%20Learning%20labled%20Dataset%20NFT%20storage%20and%20sharing%20via%20IPFS_Filecoin.md)  |
-| molekilla |  XDV (Ancon) Protocol | [Website](https://ifesa.tech/)| [Application](https://github.com/molekilla/devgrants/blob/patch-3/open-grant-proposals/open-proposal-xdv.md)  |
-| dokterbob |  IPFS Search | [Github](https://github.com/ipfs-search)| [Application](https://github.com/ipfs-search/devgrants/blob/rfp-ipfs-search-scale-out/open-grant-proposals/ipfs-search-scale-out.md)  |
-| froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
-| artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
+| xact-team  |  NFT SDK Creation and Xact Checkout  |  [Website](https://wallet.xact.ac/) | [Application](https://github.com/bhed/devgrants/blob/master/rfp-proposals/rfp-proposal-nft-sdk-hedera.md) |
+| niallroche |  Smart Legal Contracts | [Github](https://github.com/niallroche/covidhack-oracle-provable)| [Application](https://github.com/niallroche/devgrants/blob/master/rfp-proposal-smart-legal-contracts.md)  |
+| itheum |  Itheum Decentralised Data Brokerage  | [Website](https://itheum.com/)| [Application](https://github.com/Itheum/devgrants/blob/master/rfp-proposals/rfp-proposal-itheum-decentralised-data-brokerage-service.md)  |
+| dabhunt |  Tokenized Research | [Website](https://recerca.io/)| [Application](https://github.com/dabhunt/devgrants/blob/opengrant-template/.github/ISSUE_TEMPLATE/opengrant.md)  |
+| victorholo |  Taskbar | [Website](https://www.mytaskbar.com/)| [Application](https://github.com/victorholo/devgrants/blob/master/rfp-proposals/rfp-proposal-taskbar.md)  |
+| cali93 |  Discovery | [Project](https://github.com/Discovery-Labs/Discovery)| [Application](https://github.com/Cali93/devgrants/blob/patch-1/open-grants/open-proposal-discovery.md)  |
+| jacob blair |  Itera Content Mining Machine | [Website](https://dtco.co/)| [Application](https://github.com/jacobleegithub/devgrants/blob/patch-1/.github/ISSUE_TEMPLATE/Itera_content_mining_machine.md)  |
+| 0xatm |  Img8 | [Website](https://www.img8.io/)| [Application](https://github.com/0xatm/devgrants/blob/img8/open-grants/open-proposal-img8.md)  |
+| marco-swift |  Offline Signature Commands of Owner Wallet | [Website](https://storswift.com/)| [Application](https://github.com/storswiftlabs/devgrants/blob/offlinesignature/open-grants/open-proposal-offline-signature.md)  |
 |  |  |  |  |
 
 
