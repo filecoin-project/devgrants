@@ -58,7 +58,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 
 
-
 ## :surfing_woman: Wave 7
 
 | Team | Project | Project Link | Application Link | 
@@ -71,7 +70,6 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | kernelogic | Music NFT Portal | [Website](https://music-nft.kernelogic.ca/) | [Application](https://github.com/filecoin-project/devgrants/blob/4267d83cf06219aec464ea143090480a089733da/open-grant-proposals/open-proposal-music-nft-portal.md) |
 | baoruian | IPFS SRE Community | [Website](https://www.kdocs.cn/view/l/srXkNrCpZAn2) | [Application](https://github.com/taoshengshi/devgrants/blob/master/open-grant-proposals/ipfs-sre-community.md) |
 |  |  |  |  |
-
 
 
 
@@ -91,3 +89,85 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | froid1911 |  NFT Gallery Manager | [Github](https://github.com/froid1911)| [Application](https://github.com/froid1911/devgrants/blob/master/open-grant-proposals/open-proposal-nft-gallery.md)  |
 | artem-v-shamsutdinov |  Autonomous Interdependent Repositories | [Website](https://dataindependence.net/)| [Application](https://github.com/Data-Independence-Network/devgrants/blob/master/open-grant-proposals/autonomous-interdependent-repositories.md)  |
 |  |  |  |  |
+
+
+
+## :surfing_woman: Wave 9
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| NicWickman |  Cambrian Protocol | [Website](https://cambrianprotocol.com/)| [Application](https://github.com/NicWickman/devgrants/blob/master/open-grants/open-proposal-cambrian-protocol.md)  |
+| ZhangPeibin |  IPFSpace | [Project](https://github.com/ZhangPeibin/IPFSpace)| [Github](https://github.com/ZhangPeibin/devgrants/blob/master/open-grant-proposals/IPFSpace.md)  |
+| polluterofminds & zherring |  CryptoDocs - a private Google Docs Alternative | [Github](https://github.com/polluterofminds)| [Application](https://github.com/polluterofminds/devgrants/blob/crypto-docs-proposal/open-grants/open-proposal-crypto-docs.md)  |
+| mark gaiser |  IPFS Support in FFmpeg-based media players | [Github](https://github.com/markg85/FFmpeg/tree/ipfs)| [Application](https://github.com/aldenpang/devgrants/blob/master/open-grant-proposals/open-proposal-vartisans.md)  |
+| andy zhou |  Enterprise preprocessor layer for IPFS Client | [Project](https://www.eidledger.com/)| [Github](https://github.com/codyddd/devgrants/blob/master/open-grant-proposals/enterprise-preprocessor-layer-for-IPFS-client.md)  |
+| RiveringAI |  Blockchain Solution for AI Using Filecoin | [Github](https://github.com/WillTechMusing)| [Application](https://github.com/RiveringAI/devgrants/blob/master/open-grants/project-blockchain-solution-for-AI-using-filecoin.md)  |
+| flyworker |  Computation based on IPFS/Filecoin Network | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/pull/277/files?short_path=456660d#diff-456660d1dff0aa1e8b8692c817832fea0f81aefe0e15f6aaf1af0a6b4594b505)  |
+| ekang426 |  KryptoSeoul Community Development | [Website](http://kryptoseoul.com/)| [Application](https://github.com/filecoin-project/devgrants/blob/kryptoseoul-patch-2/open-grant-proposals/open-proposal-kryptoseoulcommunity.md)  |
+| s0nik42 |  Lotus Farcaster v3 | [Website](http://twinquasar.io/index.html#home)| [Application](https://github.com/s0nik42/devgrants/blob/master/open-grants/lotus-farcaster-v3.md)  |
+| flaxscrip & macterra | Metatron Protocol | [Github](https://github.com/macterra/metatron/blob/main/docs/README.md) | [Application](https://github.com/Flaxscrip/devgrants/blob/Flaxscrip-patch-1/open-grant-proposals/open-proposal-metatron.md) |
+| phuquocdog | Phu Quoc Dog | [Website](https://phuquoc.dog/) | [Application](https://github.com/gsviec/devgrants/blob/master/open-grants/open-proposal-phuquoc-dog.md) |
+| catthehunter | Sector Repair Tool | Github | [Application](https://github.com/catthehunter/devgrants/blob/patch-1/open-grant-proposals/Sector%20Repair%20Tool.md) |
+| aaitor | DeFi Marketplace | [Website](https://www.nevermined.io/) | [Application](https://github.com/aaitor/devgrants/blob/defi-marketplace/open-grants/open-proposal-defi-marketplace.md) |
+| PatrickNercessian | BitBlock | [Project](https://github.com/PatrickNercessian/BitBlock) | [Application](https://github.com/PatrickNercessian/devgrants/blob/patch-2/open-grants/open-proposal-bitblock.md) |
+| macro-ss | Multi-Sector Memory Pool Support | [Website](https://storswift.com/) | [Application](https://github.com/storswiftlabs/devgrants/blob/p1-mem-pool/open-grants/open-proposal-p1-mem-pool.md) |
+| ikreymer, webrecorder | Browser Based Web Archiving | [Website](https://webrecorder.net/) | [Application](https://github.com/webrecorder/archiveweb.page) |
+|  |  |  |  |
+
+
+
+## :surfing_woman: Wave 10
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| xact-team  |  NFT SDK Creation and Xact Checkout  |  [Website](https://wallet.xact.ac/) | [Application](https://github.com/bhed/devgrants/blob/master/rfp-proposals/rfp-proposal-nft-sdk-hedera.md) |
+| niallroche |  Smart Legal Contracts | [Github](https://github.com/niallroche/covidhack-oracle-provable)| [Application](https://github.com/niallroche/devgrants/blob/master/rfp-proposal-smart-legal-contracts.md)  |
+| itheum |  Itheum Decentralised Data Brokerage  | [Website](https://itheum.com/)| [Application](https://github.com/Itheum/devgrants/blob/master/rfp-proposals/rfp-proposal-itheum-decentralised-data-brokerage-service.md)  |
+| dabhunt |  Tokenized Research | [Website](https://recerca.io/)| [Application](https://github.com/dabhunt/devgrants/blob/opengrant-template/.github/ISSUE_TEMPLATE/opengrant.md)  |
+| victorholo |  Taskbar | [Website](https://www.mytaskbar.com/)| [Application](https://github.com/victorholo/devgrants/blob/master/rfp-proposals/rfp-proposal-taskbar.md)  |
+| cali93 |  Discovery | [Project](https://github.com/Discovery-Labs/Discovery)| [Application](https://github.com/Cali93/devgrants/blob/patch-1/open-grants/open-proposal-discovery.md)  |
+| jacob blair |  Itera Content Mining Machine | [Website](https://dtco.co/)| [Application](https://github.com/jacobleegithub/devgrants/blob/patch-1/.github/ISSUE_TEMPLATE/Itera_content_mining_machine.md)  |
+| 0xatm |  Img8 | [Website](https://www.img8.io/)| [Application](https://github.com/0xatm/devgrants/blob/img8/open-grants/open-proposal-img8.md)  |
+| marco-swift |  Offline Signature Commands of Owner Wallet | [Website](https://storswift.com/)| [Application](https://github.com/storswiftlabs/devgrants/blob/offlinesignature/open-grants/open-proposal-offline-signature.md)  |
+|  |  |  |  |
+
+
+
+## :surfing_woman: Wave 11
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| sanity  |  Freenet II   |  [Github](https://github.com/sanity/) | [Application](https://github.com/filecoin-project/devgrants/issues/345) |
+| andrew.gord.stewart |  Optimized multi-hop payments | [Github](https://github.com/statechannels/statechannels/)| [Application](https://github.com/filecoin-project/devgrants/issues/348)  |
+| kelsien |  Resilience in IPFS | [Website](https://rmit.academia.edu/KelsieNabben/Papers)| [Application](https://github.com/filecoin-project/devgrants/issues/353)  |
+| ryanshahine, giliamverheide |  Blockforge | [Project](https://blockforge.app/)| [Application](https://github.com/filecoin-project/devgrants/issues/354)  |
+| eyal ron |  Esteriods | [Website](https://esteroids.eth.limo/#/)| [Application](https://github.com/filecoin-project/devgrants/issues/357)  |
+| sionois |  Defluencer | [Github](https://github.com/Defluencer)| [Application](https://github.com/SionoiS/devgrants/blob/defluencer/open-grants/open-proposal-defluencer.md)  |
+| 0xatm |  Linkstorage | [Website](https://linkstorage.io/)| [Application](https://github.com/filecoin-project/devgrants/pull/328)  |
+| flyworker |  Data Bounties | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/pull/290/files#diff-8d38aff13029ee32eab6c67ba2f940f9af844e9ecb203c62385d6533da9b5d63)  |
+| flyworker |  FS3 v2.0 - S3 Compatible Gateway | [Website](https://filswan.com/)| [Application](https://github.com/filecoin-project/devgrants/issues/363)  |
+| crypticentertainments |  Filecoin Community Anthem | [Website](https://crypticentertainments.com/)| [Application](https://github.com/filecoin-project/devgrants/issues/366)  |
+| manhnvan | Pristorage | [Github](https://github.com/manhnvan/Pristorage) | [Application](https://github.com/manhnvan/devgrants/blob/master/rfp-proposals/Pristorage.md) |
+| arctic-ash | FilMarket | [Github](https://github.com/CrossChainLabs) | [Application](https://github.com/filecoin-project/devgrants/pull/367/files?short_path=3b85656#diff-3b856567ccaad81cfdaf78280813d112e2ab8cc4e886d033c498aeb916eb36de) |
+| awantoch | Valist on NEAR | [Website](https://valist.io/) | [Application](https://github.com/valist-io/devgrants/blob/master/rfp-proposals/rfp-valist-on-near.md) |
+| johnchandlerburnham | Yatima | [Github](https://github.com/yatima-inc/yatima) | [Application](https://github.com/filecoin-project/devgrants/issues/369) |
+|  |  |  |  |
+
+
+
+
+## :surfing_woman: Wave 12
+
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| fnbellomo  |  SQL-Like DB over Filecoin   |  [Github](https://github.com/pewen/chest) | [Application](https://github.com/filecoin-project/devgrants/issues/382) |
+| MurageKibicho |  Cosines For Everyone | [Github](https://github.com/MurageKibicho/Filecoin-RFP)| [Application](https://github.com/filecoin-project/devgrants/issues/383)  |
+| Evan Powlowsky |  Defi for Sustainable Supply Chains | [Website](https://adaptiveresources.io/)| [Github](https://github.com/PowVT/adaptive-smart-contracts)  |
+| lukemarsden |  Adapt IPFS to ML and Data Pipelines | Project| [Application](https://github.com/aronchick/devgrants/blob/master/open-grant-proposals/open-grant-proposal-adapt-ipfs-to-ml-and-data-pipelines)  |
+| aletheiadata |  Aletheia Data | [Github](https://github.com/Aletheia-Data)| [Application](https://github.com/filecoin-project/devgrants/issues/394)  |
+| James Tunningley - whiteflamingo |  21M: The Nakamoto Collection | [Website](https://21mxxi.com/)| [Application](https://github.com/filecoin-project/devgrants/issues/395)  |
+| juntao |  WasmEdge-based FVM | [Github](https://github.com/wasmedge)| [Application](https://github.com/filecoin-project/devgrants/issues/396)  |
+
+
+
+
