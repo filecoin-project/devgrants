@@ -42,3 +42,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @PluskitOfficial | Pluskit | [Github](https://github.com/PluskitOfficial/Pluskit)| [#398](https://github.com/filecoin-project/devgrants/issues/398) |
 | @ZhangPeibin  | Avatar Metaverse | [Github](https://github.com/ZhangPeibin/AvatarMetaverse)| [#402](https://github.com/filecoin-project/devgrants/issues/402) |
 | @s0nik42  | CID gravity | [Github](https://github.com/CIDgravity/CIDgravity-X)| [#409](https://github.com/filecoin-project/devgrants/issues/409) |
+| @luluup777  | Miner-tools 2 | [Github](https://github.com/filecoin-box)| [#414](https://github.com/filecoin-project/devgrants/issues/414) |
