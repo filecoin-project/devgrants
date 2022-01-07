@@ -44,3 +44,12 @@ This page provides an overview of accepted applications and a link to their GitH
 | @s0nik42  | CID gravity | [Github](https://github.com/CIDgravity/CIDgravity-X)| [#409](https://github.com/filecoin-project/devgrants/issues/409) |
 | @luluup777  | Miner-tools 2 | [Github](https://github.com/filecoin-box)| [#414](https://github.com/filecoin-project/devgrants/issues/414) |
 | @haiphenAI  | Haiphen AI | [Github](https://github.com/judesafo/digital-copyright)| [#416](https://github.com/filecoin-project/devgrants/issues/416) |
+
+# 2022
+
+## :surfing_woman: First Half 2022
+
+| Team | Project | Link | Application Issue Link | 
+| :--- | :------ | :--- | :--------: | 
+| @BaranBayden  | Laravel2IPFS | [Github](https://github.com/BaranBayden/Laravel2IPFS)| [#428](https://github.com/filecoin-project/devgrants/issues/428) |
+|      |         |      |            |
