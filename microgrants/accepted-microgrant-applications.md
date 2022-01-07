@@ -6,7 +6,9 @@ This page provides an overview of accepted applications and a link to their GitH
 
 - [2021](#2021)
   - [:surfing_woman: First Half 2021](#surfing_woman---first-half-2021)
-  
+  - [:surfing_woman: First Half 2021](#surfing_woman---second-half-2021)
+- [2022](#2022)
+  - [:surfing_woman: First Half 2022](#surfing_woman---first-half-2022)
 ---
 
 # 2021
