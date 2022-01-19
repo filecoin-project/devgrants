@@ -54,4 +54,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | Team | Project | Link | Application Issue Link | 
 | :--- | :------ | :--- | :--------: | 
 | @BaranBayden  | Laravel2IPFS | [Github](https://github.com/BaranBayden/Laravel2IPFS)| [#428](https://github.com/filecoin-project/devgrants/issues/428) |
-|      |         |      |            |
+| @AkhileshThite  | DScan | [Github](https://github.com/AkhileshThite/dscan)| [#433](https://github.com/filecoin-project/devgrants/issues/433) |
