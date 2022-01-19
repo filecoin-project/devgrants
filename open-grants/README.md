@@ -1,16 +1,17 @@
 # Open Grants
 
 ## About
+Do you have an idea for pushing the Filecoin ecosystem forward? Open grants are intended to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement. Proposals should include deliverables, milestones, and funding requests. Deviations from the specified scope of the project must be approved between the team and the Foundation grants team. 
 
-This grant type funds the creative use of Filecoin. Here, deliverables, milestones, and funding limits are generally clearly scoped. Deviations from the specified scope of the project must be approved between the team and the Foundation grants team. 
-
-Open grants work within a few core categories.  
+Here are the priority focus areas, but we welcome proposals from all categories.
 
 - **Core development**: With this track, we will fund collaborators with proposals tackling core protocol research, specification, and implementation work. Relevant proposals should be labeled [`category:core-dev`](https://github.com/filecoin-project/devgrants/labels/category%3Acore-dev).
 
 - **Application development**: We’re seeking talented application developers to build useful and delightful applications that utilize Filecoin as the decentralized storage layer. Relevant proposals should be labeled [`category:app-dev`](https://github.com/filecoin-project/devgrants/labels/category%3Aapp-dev).
 
 - **Developer tools and libraries**: We are always looking for proposals for the development of developer tools and libraries for both core protocol developers and application developers. Dev tools at all layers of the stack are invaluable! Relevant proposals should be labeled [`category:devtools-libraries`](https://github.com/filecoin-project/devgrants/labels/category%3Adevtools-libraries).
+
+- **Integration and adoption**: We are interested in supporting the growth of Filecoin and related technologies via integration into existing app or projects with significant usage. Technical assistance is also available.
 
 - **Technical design**: We want ideas that will improve on the Filecoin protocol technical design, for example improvement proposals on the core storage protocol, cryptoeconomics design, or on other planned network upgrades. Relevant proposals should be labeled [`category:technical-design`](https://github.com/filecoin-project/devgrants/labels/category%3Atechnical-design).
 
@@ -24,10 +25,9 @@ Open grants work within a few core categories.
 
 ## 📋 How to apply
                                     
-Here are the steps to submit a proposal for the open grant category!
-1. Submit an Open Grants Proposal [`issue`](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=). Make sure to fill in all the categories of the proposal template. Rename your file `project-title.md`, making sure to replace `project-title` with the name of your project.
+To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=) using the Open Grants Proposal template.
                                                                                                                         
-Open Grant proposals are reviewed monthly. The deadline for the next wave is **October 31, 2021**                                                               
+Open Grant proposals are reviewed monthly.                                                          
 
 ## ⌛ After you apply
 
