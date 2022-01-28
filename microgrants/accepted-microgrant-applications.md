@@ -55,4 +55,8 @@ This page provides an overview of accepted applications and a link to their GitH
 | :--- | :------ | :--- | :--------: | 
 | @vigneshc  | Oppanda offline proposals | [Github](https://github.com/vigneshc/Oppanda)| [#425](https://github.com/filecoin-project/devgrants/issues/425) |
 | @BaranBayden  | Laravel2IPFS | [Github](https://github.com/BaranBayden/Laravel2IPFS)| [#428](https://github.com/filecoin-project/devgrants/issues/428) |
+| @PatelMeet05  | Image Sharing as NFT | [Github](https://github.com/PatelMeet05/Image-sharing)| [#432](https://github.com/filecoin-project/devgrants/issues/432) |
 | @AkhileshThite  | DScan | [Github](https://github.com/AkhileshThite/dscan)| [#433](https://github.com/filecoin-project/devgrants/issues/433) |
+| @AthenaExplorer  | Athena Explorer | [Github](https://github.com/AthenaExplorer/AthenaExplorer)| [#434](https://github.com/filecoin-project/devgrants/issues/434)|
+| @cryptoladygang  | Crypto Lady Gang | [website](https://www.cryptoladygang.io)| [#436](https://github.com/filecoin-project/devgrants/issues/436)|
+| @surajsingla333  | DeStore | [Github](https://github.com/De-store/De-Store)| [#437](https://github.com/filecoin-project/devgrants/issues/437)|
