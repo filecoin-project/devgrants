@@ -60,3 +60,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @AthenaExplorer  | Athena Explorer | [Github](https://github.com/AthenaExplorer/AthenaExplorer)| [#434](https://github.com/filecoin-project/devgrants/issues/434)|
 | @cryptoladygang  | Crypto Lady Gang | [website](https://www.cryptoladygang.io)| [#436](https://github.com/filecoin-project/devgrants/issues/436)|
 | @surajsingla333  | DeStore | [Github](https://github.com/De-store/De-Store)| [#437](https://github.com/filecoin-project/devgrants/issues/437)|
+| @ufkhan97  | Braid Science | [Github](https://github.com/ufkhan97/braid)| [#444](https://github.com/filecoin-project/devgrants/issues/444)|
