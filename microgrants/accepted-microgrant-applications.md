@@ -61,3 +61,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @cryptoladygang  | Crypto Lady Gang | [website](https://www.cryptoladygang.io)| [#436](https://github.com/filecoin-project/devgrants/issues/436)|
 | @surajsingla333  | DeStore | [Github](https://github.com/De-store/De-Store)| [#437](https://github.com/filecoin-project/devgrants/issues/437)|
 | @ufkhan97  | Braid Science | [Github](https://github.com/ufkhan97/braid)| [#444](https://github.com/filecoin-project/devgrants/issues/444)|
+| @holyaustin  | Decentralized Library | [Github](https://github.com/holyaustin/decentralized-library)| [#452](https://github.com/filecoin-project/devgrants/issues/452)|
