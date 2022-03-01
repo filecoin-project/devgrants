@@ -4,7 +4,7 @@ about: Apply for a $5,000 grant to continue work on projects you've started eith
   at a hackathon or independently.
 title: 'Next Step Microgrant: <Your Title Here>'
 labels: ''
-assignees: SeedingTrees
+assignees: ErinOCon
 
 ---
 
@@ -28,14 +28,6 @@ assignees: SeedingTrees
 <!-- Please read the [Filecoin Code of Conduct](https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md) and make sure your project is in compliance -->
 
 ### 6. Links and submissions
-<!-- Complete each step, and include the link of the published submission (or "Yes" if there is no URL) -->
-  
-* Have you submitted to the Filecoin Community Showcase ([instructions](https://github.com/filecoin-project/community#showcase-your-project))?
-  <!-- Once your PR is merged, include the link here -->
-
-* Have you created a thread introducing your project in the community discussion board's [ Project Showcase category](https://github.com/filecoin-project/community/discussions/categories/project-showcase)?
-  <!-- The first post can be the same contents as your Community Showcase submission. Your weekly updates and final report should also go in this thread. -->
-  <!-- Include the link here -->
 
 * If your project began at a hackathon, have you submitted it for the relevant Protocol Labs prizes? Include links here if available:
   
