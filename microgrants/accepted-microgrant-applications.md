@@ -63,3 +63,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @ufkhan97  | Braid Science | [Github](https://github.com/ufkhan97/braid)| [#444](https://github.com/filecoin-project/devgrants/issues/444)|
 | @holyaustin  | Decentralized Library | [Github](https://github.com/holyaustin/decentralized-library)| [#452](https://github.com/filecoin-project/devgrants/issues/452)|
 | @Mistrymm7  | DO-OR-DAON'T | [Github](https://github.com/Mistrymm7/eth-denver-do-or-daont)| [#455](https://github.com/filecoin-project/devgrants/issues/455)|
+| @jilt  | NFT sync gaming API for NEAR ecosystem | [Github](https://github.com/jilt/varda-vault)| [#460](https://github.com/filecoin-project/devgrants/issues/460)|
