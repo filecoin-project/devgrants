@@ -2,7 +2,7 @@
 name: RFP Application
 about: Submit a proposal for our open RFPs (Request For Proposals)
 title: RFP Application
-labels: ''
+labels: RFP
 assignees: realChainLife
 
 ---
