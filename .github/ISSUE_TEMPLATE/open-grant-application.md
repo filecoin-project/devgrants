@@ -2,7 +2,7 @@
 name: Open Grant Application
 about: Submit an open grant application
 title: ''
-labels: open-grant
+labels: Open Grant, open-grant
 assignees: realChainLife
 
 ---
