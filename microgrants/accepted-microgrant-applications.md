@@ -58,6 +58,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @PatelMeet05  | Image Sharing as NFT | [Github](https://github.com/PatelMeet05/Image-sharing)| [#432](https://github.com/filecoin-project/devgrants/issues/432) |
 | @AkhileshThite  | DScan | [Github](https://github.com/AkhileshThite/dscan)| [#433](https://github.com/filecoin-project/devgrants/issues/433) |
 | @AthenaExplorer  | Athena Explorer | [Github](https://github.com/AthenaExplorer/AthenaExplorer)| [#434](https://github.com/filecoin-project/devgrants/issues/434)|
+| @Meyanis95  | NFTIZ | [Github](https://github.com/Meyanis95/NFTIZ)| [#435](https://github.com/filecoin-project/devgrants/issues/435)|
 | @cryptoladygang  | Crypto Lady Gang | [website](https://www.cryptoladygang.io)| [#436](https://github.com/filecoin-project/devgrants/issues/436)|
 | @surajsingla333  | DeStore | [Github](https://github.com/De-store/De-Store)| [#437](https://github.com/filecoin-project/devgrants/issues/437)|
 | @sepandhaghighi  | Samila | [Github](https://github.com/sepandhaghighi/samila)| [#442](https://github.com/filecoin-project/devgrants/issues/442)|
