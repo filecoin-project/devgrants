@@ -23,7 +23,7 @@ Here are the priority focus areas, but we welcome proposals from all categories.
 
 - **Research**: We are keen on receiving proposals that explore the meta processes and incentives of decentralized storage. Relevant proposals should be labeled  [`category:research`](https://github.com/filecoin-project/devgrants/labels/category%3research).
 
--**Green Grants**: We are interested in proposals for tools, applications, libraries or models for optimizing energy use on the Filecoin network, allowing dApps to assess their environmental impacts, or using Web3 to make reporting more transparent and verifiable. ['category: green grants']
+- **Green Grants**: We are interested in proposals for tools, applications, libraries or models for optimizing energy use on the Filecoin network, allowing dApps to assess their environmental impacts, or using Web3 to make reporting more transparent and verifiable. 
 
 ## 📋 How to apply
                                     
