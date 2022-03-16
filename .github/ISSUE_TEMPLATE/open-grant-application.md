@@ -2,7 +2,7 @@
 name: Open Grant Application
 about: Submit an open grant application
 title: ''
-labels: Open Grant, open-grant
+labels: Open Grant
 assignees: realChainLife
 
 ---
@@ -11,7 +11,7 @@ assignees: realChainLife
 
 **Name of Project:**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `technical-design`, `docs`
+**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `integration-adoption` , `technical-design`, `docs` , `community` , `metaverse` , `research` , `green`  Learn what these categories are here: {https://github.com/filecoin-project/devgrants/tree/master/open-grants}"
 
 **Proposer:** `replace with your GitHub username`
 
