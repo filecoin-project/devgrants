@@ -25,7 +25,7 @@ We may also contact you about promoting the resulting work, including coverage o
 Grant applications are typically reviewed every 2 weeks.
 
 ### Apply
-Apply for a grant using our Next Step Microgrant [**template**] (https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)
+Apply for a grant using our [Next Step Microgrant template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)
 
 ## FAQ
 
