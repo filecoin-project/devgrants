@@ -24,10 +24,8 @@ We may also contact you about promoting the resulting work, including coverage o
 ### Timelines
 Grant applications are typically reviewed every 2 weeks.
 
-## Apply
-
-1. Add your project to the Filecoin Community Showcase by following the instructions in [filecoin-project/community](https://github.com/filecoin-project/community/#showcase-your-project).
-2. ONLY once your filecoin-project/community PR has been merged, [**APPLY HERE**](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)
+### Apply
+Apply for a grant using our Next Step Microgrant [**template**] (https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)
 
 ## FAQ
 
