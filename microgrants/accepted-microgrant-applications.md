@@ -71,3 +71,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @flyworker  | Flink SDK | [Github](https://github.com/filswan/flink)| [#463](https://github.com/filecoin-project/devgrants/issues/463)
 | @ottpeter  | FonoRoot | [Github](https://github.com/ottpeter/FonoRoot)| [#477](https://github.com/filecoin-project/devgrants/issues/477)
 | @therealharpaljadeja  | NiftyGuilds | [Github](https://github.com/therealharpaljadeja/niftyguilds)| [#483](https://github.com/filecoin-project/devgrants/issues/483)
+| @dev-ddid  | DBookMarket | [Website](https://dbookmarket.com/#/)| [#485](https://github.com/filecoin-project/devgrants/issues/485)
