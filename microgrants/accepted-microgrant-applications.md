@@ -76,3 +76,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @llifezou   | FIL HD wallet| [Github](https://github.com/llifezou/fil-wallet) | [#489](https://github.com/filecoin-project/devgrants/issues/489)
 | @lakshh07  | DeBooki | [Github](https://github.com/lakshh07/DeBooki) | [#496](https://github.com/filecoin-project/devgrants/issues/496)
 | @grmkris   | NFT-LINK | [Github](https://github.com/Seth-McKilla/nfty-links) | [#502](https://github.com/filecoin-project/devgrants/issues/502)
+| @nftgeek   | NFTmall | [Github](https://github.com/nftmall) | [#503](https://github.com/filecoin-project/devgrants/issues/503)
