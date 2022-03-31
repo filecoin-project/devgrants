@@ -74,3 +74,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @dev-ddid  | DBookMarket | [Website](https://dbookmarket.com/#/)| [#485](https://github.com/filecoin-project/devgrants/issues/485)
 | @mikegrushin  | Ukraine Art Collective | [Website](https://UkraineArtCo.org) | [#488](https://github.com/filecoin-project/devgrants/issues/488)
 | @llifezou   | FIL HD wallet| [Website](https://github.com/llifezou/fil-wallet) | [#489](https://github.com/filecoin-project/devgrants/issues/489)
+| @lakshh07  | DeBooki | [Website](https://github.com/lakshh07/DeBooki) | [#496](https://github.com/filecoin-project/devgrants/issues/496)
