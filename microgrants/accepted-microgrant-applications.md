@@ -73,3 +73,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @therealharpaljadeja  | NiftyGuilds | [Github](https://github.com/therealharpaljadeja/niftyguilds)| [#483](https://github.com/filecoin-project/devgrants/issues/483)
 | @dev-ddid  | DBookMarket | [Website](https://dbookmarket.com/#/)| [#485](https://github.com/filecoin-project/devgrants/issues/485)
 | @mikegrushin  | Ukraine Art Collective | [Website](https://UkraineArtCo.org) | [#488](https://github.com/filecoin-project/devgrants/issues/488)
+| @llifezou   | FIL HD wallet| [Website](https://github.com/llifezou/fil-wallet) | [#489](https://github.com/filecoin-project/devgrants/issues/489)
