@@ -74,6 +74,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @dev-ddid  | DBookMarket | [Website](https://dbookmarket.com/#/)| [#485](https://github.com/filecoin-project/devgrants/issues/485)
 | @mikegrushin  | Ukraine Art Collective | [Website](https://UkraineArtCo.org) | [#488](https://github.com/filecoin-project/devgrants/issues/488)
 | @llifezou   | FIL HD wallet| [Github](https://github.com/llifezou/fil-wallet) | [#489](https://github.com/filecoin-project/devgrants/issues/489)
+| @whtjdals016  | beoble| [Website](https://www.beoble.io/) | [#493](https://github.com/filecoin-project/devgrants/issues/493)
 | @lakshh07  | DeBooki | [Github](https://github.com/lakshh07/DeBooki) | [#496](https://github.com/filecoin-project/devgrants/issues/496)
 | @grmkris   | NFT-LINK | [Github](https://github.com/Seth-McKilla/nfty-links) | [#502](https://github.com/filecoin-project/devgrants/issues/502)
 | @nftgeek   | NFTmall | [Github](https://github.com/nftmall) | [#503](https://github.com/filecoin-project/devgrants/issues/503)
