@@ -81,3 +81,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @carrabre   | Imbue | [Github](https://github.com/imbueworld/influence-create) | [#501](https://github.com/filecoin-project/devgrants/issues/501)
 | @nftgeek   | NFTmall | [Github](https://github.com/nftmall) | [#503](https://github.com/filecoin-project/devgrants/issues/503)
 | @drewcook   | Polyecho| [Github](https://github.com/polyecho) | [#512](https://github.com/filecoin-project/devgrants/issues/512)
+| @Pushpit07  | Musomatic| [Github](https://github.com/Pushpit07/Musomatic) | [#515](https://github.com/filecoin-project/devgrants/issues/515)
