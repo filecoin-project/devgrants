@@ -87,3 +87,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @rkgudboy  | React file upload wrapper on NFT.Storage| [Github](https://github.com/rkgudboy/the-mango-jelly-ipfs) | [#519](https://github.com/filecoin-project/devgrants/issues/519)
 | @IKalonji   | NFTickets| [Github](https://github.com/IKalonji/NFTickets) | [#520](https://github.com/filecoin-project/devgrants/issues/520)
 | @ari4325  | AstterEd| [Github](https://github.com/sushmitgh2/AstterEd) | [#530](https://github.com/filecoin-project/devgrants/issues/530)
+| @AkhileshThite  | DHost VS Code Extension| [Github](https://github.com/buidltools/vscode-dhost) | [#532](https://github.com/filecoin-project/devgrants/issues/532)
