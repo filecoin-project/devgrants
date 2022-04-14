@@ -86,3 +86,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @Pushpit07  | Musomatic| [Github](https://github.com/Pushpit07/Musomatic) | [#515](https://github.com/filecoin-project/devgrants/issues/515)
 | @rkgudboy  | React file upload wrapper on NFT.Storage| [Github](https://github.com/rkgudboy/the-mango-jelly-ipfs) | [#519](https://github.com/filecoin-project/devgrants/issues/519)
 | @IKalonji   | NFTickets| [Github](https://github.com/IKalonji/NFTickets) | [#520](https://github.com/filecoin-project/devgrants/issues/520)
+| @ari4325  | AstterEd| [Github](https://github.com/sushmitgh2/AstterEd) | [#530](https://github.com/filecoin-project/devgrants/issues/530)
