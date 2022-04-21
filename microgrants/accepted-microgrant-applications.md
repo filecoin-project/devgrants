@@ -90,6 +90,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @ari4325  | AstterEd| [Github](https://github.com/sushmitgh2/AstterEd) | [#530](https://github.com/filecoin-project/devgrants/issues/530)
 | @AkhileshThite  | DHost VS Code Extension| [Github](https://github.com/buidltools/vscode-dhost) | [#532](https://github.com/filecoin-project/devgrants/issues/532)
 | @xx014939   | NFT Teleporter| [Github](https://github.com/xx014939/nft-teleporter-faber-hackathon) | [#533](https://github.com/filecoin-project/devgrants/issues/533)
+| @iangriggs  | Fantribal| [Github](https://github.com/kasperdoggames/fantribal) | [#541](https://github.com/filecoin-project/devgrants/issues/541)
 | @vinzvinci | DevNFT| [Website](https://devnft.xyz/) | [#543](https://github.com/filecoin-project/devgrants/issues/543)
 | @sunosuporno    | Firma| [Github](https://github.com/sunosuporno/metacoffee) | [#544](https://github.com/filecoin-project/devgrants/issues/544)
 | @HabacucMX    | Punk-Cities| [Github](https://github.com/zenbitETH/Punk-Cities) | [#545](https://github.com/filecoin-project/devgrants/issues/545)
