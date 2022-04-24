@@ -16,7 +16,9 @@ This page provides an overview of accepted applications after July 1, 2021 and a
   - [:surfing_woman: Wave 12](#surfing_woman---wave-12)
   - [:surfing_woman: Wave 13](#surfing_woman---wave-13)
   
----
+- [2022](#2022)
+  
+  - [:surfing_woman: Wave 4](#surfing_woman---wave-4)
 
 # 2021
 
@@ -169,5 +171,10 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | juntao |  WasmEdge-based FVM | [Github](https://github.com/wasmedge)| [Application](https://github.com/filecoin-project/devgrants/issues/396)  |
 
 
+# 2022
 
+## :surfing_woman: Wave 4
 
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| richardblythman|  Decentralised Storage for Data Science Communities | N/A | [Application](https://github.com/filecoin-project/devgrants/issues/517)  |
