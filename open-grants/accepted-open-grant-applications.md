@@ -180,3 +180,4 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 | richardblythman|  Decentralised Storage for Data Science Communities | N/A | [Application](https://github.com/filecoin-project/devgrants/issues/517)  |
 | mltan4|  Odyssey DAO | [Website](https://www.odysseydao.com/) | [Application](https://github.com/filecoin-project/devgrants/issues/516)  |
 | hackyguru |  Third Storage | [Github](https://github.com/thirdstorage) | [Application](https://github.com/filecoin-project/devgrants/issues/518)  |
+| arctic-ash |  FilPulse  | N/A | [Application](https://github.com/filecoin-project/devgrants/issues/522)  |
