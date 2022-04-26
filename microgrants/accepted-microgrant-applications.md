@@ -33,6 +33,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @cryptotwilight | JobCrypt | [Github](https://github.com/cryptotwilight/jobcrypt)| [#340](https://github.com/filecoin-project/devgrants/issues/340) |
 | @gawainb  | Creative | [Github](https://github.com/g2entgroup/creative-ui-2.2)| [#346](https://github.com/filecoin-project/devgrants/issues/346) |
 | @ErvinDimitri  | Jinkocast | [Github](https://github.com/ErvinDimitri/Jinkocast)| [#356](https://github.com/filecoin-project/devgrants/issues/356) |
+| @dev-blockchain   | JBuy me a Coffee | [Github](https://github.com/dev-blockchain/buy-me-a-coffee)| [#358](https://github.com/filecoin-project/devgrants/issues/358) |
 | @xem  | 3D puzzle game (LOSSST) | [Github](https://github.com/xem/js13k21)| [#359](https://github.com/filecoin-project/devgrants/issues/359) |
 | @luluup777  | Miner Tools | [Github](https://github.com/luluup777)| [#360](https://github.com/filecoin-project/devgrants/issues/360) |
 | @Jeffonemore | UniFile | [Github](https://github.com/StorerOS/UniFile)| [#364](https://github.com/filecoin-project/devgrants/issues/364) |
