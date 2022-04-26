@@ -92,6 +92,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @IKalonji  | pyMoralis| [Github](https://github.com/IKalonji/pyMoralis) | [#531](https://github.com/filecoin-project/devgrants/issues/531)
 | @AkhileshThite  | DHost VS Code Extension| [Github](https://github.com/buidltools/vscode-dhost) | [#532](https://github.com/filecoin-project/devgrants/issues/532)
 | @xx014939   | NFT Teleporter| [Github](https://github.com/xx014939/nft-teleporter-faber-hackathon) | [#533](https://github.com/filecoin-project/devgrants/issues/533)
+| @george-shammar  | INSIGNIA| [Github](https://github.com/george-shammar/Insignia) | [#537](https://github.com/filecoin-project/devgrants/issues/537)
 | @lakshh07     | DeBox | [Github](https://github.com/lakshh07/DeBox) | [#540](https://github.com/filecoin-project/devgrants/issues/540)
 | @iangriggs  | Fantribal| [Github](https://github.com/kasperdoggames/fantribal) | [#541](https://github.com/filecoin-project/devgrants/issues/541)
 | @vinzvinci | DevNFT| [Website](https://devnft.xyz/) | [#543](https://github.com/filecoin-project/devgrants/issues/543)
