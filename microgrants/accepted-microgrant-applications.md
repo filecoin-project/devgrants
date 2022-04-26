@@ -98,4 +98,5 @@ This page provides an overview of accepted applications and a link to their GitH
 | @sunosuporno    | Firma| [Github](https://github.com/sunosuporno/metacoffee) | [#544](https://github.com/filecoin-project/devgrants/issues/544)
 | @HabacucMX    | Punk-Cities| [Github](https://github.com/zenbitETH/Punk-Cities) | [#545](https://github.com/filecoin-project/devgrants/issues/545)
 | @molekilla    | Ancon Protocol and du. data. universal| [Github](https://github.com/anconprotocol) | [#547](https://github.com/filecoin-project/devgrants/issues/547)
+| @TerratekMusic    | Katreena NFT's| [Github](https://github.com/TerratekMusic/katreena) | [#548](https://github.com/filecoin-project/devgrants/issues/548)
 | @skidrow8852    | Cratch| [Github](https://github.com/skidrow8852/Cratch_Beta) | [#550](https://github.com/filecoin-project/devgrants/issues/550)
