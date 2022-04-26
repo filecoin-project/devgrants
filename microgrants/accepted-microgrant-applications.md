@@ -100,3 +100,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @molekilla    | Ancon Protocol and du. data. universal| [Github](https://github.com/anconprotocol) | [#547](https://github.com/filecoin-project/devgrants/issues/547)
 | @TerratekMusic    | Katreena NFT's| [Github](https://github.com/TerratekMusic/katreena) | [#548](https://github.com/filecoin-project/devgrants/issues/548)
 | @skidrow8852    | Cratch| [Github](https://github.com/skidrow8852/Cratch_Beta) | [#550](https://github.com/filecoin-project/devgrants/issues/550)
+| @cryptotwilight   | Evidence DAO | [Github](https://github.com/cryptotwilight/evidenceDAO) | [#555](https://github.com/filecoin-project/devgrants/issues/555)
