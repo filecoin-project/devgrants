@@ -173,6 +173,11 @@ This page provides an overview of accepted applications after July 1, 2021 and a
 
 # 2022
 
+## :surfing_woman: Wave 3
+| Team | Project | Project Link | Application Link | 
+| :--- | :------ | :--- | :--------: | 
+| laurarenpanda|  FileDAG Storage | [Github](https://github.com/filedrive-team) | [Application](https://github.com/filecoin-project/devgrants/issues/470)  |
+
 ## :surfing_woman: Wave 4
 
 | Team | Project | Project Link | Application Link | 
