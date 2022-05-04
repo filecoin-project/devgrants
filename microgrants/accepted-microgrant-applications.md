@@ -106,3 +106,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @skidrow8852    | Cratch| [Github](https://github.com/skidrow8852/Cratch_Beta) | [#550](https://github.com/filecoin-project/devgrants/issues/550)
 | @akp111    | Chainwhiz| [Github](https://github.com/ChainWhiZ) | [#552](https://github.com/filecoin-project/devgrants/issues/552)
 | @cryptotwilight   | Evidence DAO | [Github](https://github.com/cryptotwilight/evidenceDAO) | [#555](https://github.com/filecoin-project/devgrants/issues/555)
+| @handeabhishek111 | Web3-Arcade  | [Github](https://github.com/handeabhishek111/Web3-Arcade) | [#558](https://github.com/filecoin-project/devgrants/issues/558)
