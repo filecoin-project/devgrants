@@ -107,3 +107,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @akp111    | Chainwhiz| [Github](https://github.com/ChainWhiZ) | [#552](https://github.com/filecoin-project/devgrants/issues/552)
 | @cryptotwilight   | Evidence DAO | [Github](https://github.com/cryptotwilight/evidenceDAO) | [#555](https://github.com/filecoin-project/devgrants/issues/555)
 | @handeabhishek111 | Web3-Arcade  | [Github](https://github.com/handeabhishek111/Web3-Arcade) | [#558](https://github.com/filecoin-project/devgrants/issues/558)
+| @devcloning |Storage³ lightweight consumer-focused UI drag and drop Build package  | [Github](https://github.com/devcloning) | [#560](https://github.com/filecoin-project/devgrants/issues/560)
