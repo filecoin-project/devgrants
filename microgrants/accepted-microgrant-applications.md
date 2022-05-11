@@ -110,3 +110,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @handeabhishek111 | Web3-Arcade  | [Github](https://github.com/handeabhishek111/Web3-Arcade) | [#558](https://github.com/filecoin-project/devgrants/issues/558)
 | @devcloning |Storage³ lightweight consumer-focused UI drag and drop Build package  | [Github](https://github.com/devcloning) | [#560](https://github.com/filecoin-project/devgrants/issues/560)
 | @mbcse  |MerkleWrite | [Github](https://github.com/mbcse/eth-eternals) | [#568](https://github.com/filecoin-project/devgrants/issues/568)
+| @seldamat  |DeSci Berlin Conference Sponsorship| [Github](https://github.com/opscientia) | [#569](https://github.com/filecoin-project/devgrants/issues/569)
