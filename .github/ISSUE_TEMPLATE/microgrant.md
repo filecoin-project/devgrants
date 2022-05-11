@@ -1,10 +1,10 @@
 ---
-Name: Next Step Microgrant Application
-About: Apply for a $5,000 grant to continue work on projects you've started either
+name: Next Step Microgrant Application
+about: Apply for a $5,000 grant to continue work on projects you've started either
   at a hackathon or independently.
-Title: <Your Title Here>'
-Labels: Micro Grant
-Assignees: ErinOCon
+title: <Your Title Here>'
+labels: Micro Grant
+assignees: ErinOCon
 
 ---
 
