@@ -109,3 +109,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @cryptotwilight   | Evidence DAO | [Github](https://github.com/cryptotwilight/evidenceDAO) | [#555](https://github.com/filecoin-project/devgrants/issues/555)
 | @handeabhishek111 | Web3-Arcade  | [Github](https://github.com/handeabhishek111/Web3-Arcade) | [#558](https://github.com/filecoin-project/devgrants/issues/558)
 | @devcloning |Storage³ lightweight consumer-focused UI drag and drop Build package  | [Github](https://github.com/devcloning) | [#560](https://github.com/filecoin-project/devgrants/issues/560)
+| @mbcse  |MerkleWrite | [Github](https://github.com/mbcse/eth-eternals) | [#568](https://github.com/filecoin-project/devgrants/issues/568)
