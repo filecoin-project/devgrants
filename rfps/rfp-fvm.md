@@ -1,24 +1,32 @@
 # FVM Tooling & Infrastructure RFP
 
-We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the [Filecoin Virtual Machine](https://github.com/filecoin-project/ref-fvm) (FVM).
-
 ## Overview
+
+We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the [Filecoin Virtual Machine](https://fvm.filecoin.io) (FVM).
 
 The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-location of storage and compute capabilities.
 
 The FVM is a WASM-based polyglot execution environment for IPLD data. It is designed to support native Filecoin actors written in languages that compile to WASM, as well as smart contracts written for foreign runtimes including the Ethereum Virtual Machine (EVM), Secure EcmaScript (SES), and eBPF.
 
-Refer to [FVM Website](https://fvm.filecoin.io/) for more details on the possibilities FVM will unlock, the current roadmap and links to the current [reference FVM and SDK](https://github.com/filecoin-project/ref-fvm) written in Rust.
+Refer to the resources section for more information on the FVM reference and specification, details on the possibilities FVM will unlock and the current roadmap.
+
+## Description
+
+The FVM is an integral and high-priority project for extending the functionality of Filecoin by bringing storage solutions to the blockchain and executing computation jobs or data pipelines on globally distributed data by pushing compute to the edges and coordinating its execution.
+
+Examples of future ideas include: async programming via continuations/futures, capability-orientation, time-locked transactions (using external beacons), parallel execution, native primitives for cross-chain interoperability, computation correctness proofs, and more.
 
 We want to build the best tech and tooling available to help enable future developers to build the use cases they envision on the FVM easily and seamlessly.
 
 We are therefore seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the FVM.
 
-These projects are critical to build the set of tools that we would need to provide in order to have an end-to-end builders process for people who are deploying smart contracts on FVM.
+These projects are essential to build the minimum set of tools that we would need to provide in order to have an end-to-end builders process for people who are deploying smart contracts on FVM.
+
+## Project Types
 
 The projects needed include (but are not limited to):
 
-- SDK's
+- SDKs
 
   - High-level Rust
   - Go
@@ -27,7 +35,7 @@ The projects needed include (but are not limited to):
   - Swift
   - Others
 
-- Native Tooling & Developer Tooling
+- Native Tooling & Developer Tooling (see resources for a more extensive list)
   - Local runtime tools and developer environments (like ethereum's Hardhat)
   - Debugging & Testing tools
   - Deployment flow tooling
@@ -36,14 +44,6 @@ The projects needed include (but are not limited to):
   - Foreign Runtime Bridges (including EVM) & Oracles
   - Wallets and wallet integrations
 
-## Description
-
-The FVM is an integral and high-priority project for extending the functionality of Filecoin by bringing storage solutions to the blockchain and executing computation jobs or data pipelines on globally distributed data by pushing compute to the edges and coordinating its execution.
-
-Examples of future ideas include: async programming via continuations/futures, capability-orientation, time-locked transactions (using external beacons), parallel execution, native primitives for cross-chain interoperability, computation correctness proofs, and more.
-
-These projects are essential to build the minimum set of tools that we would need to provide in order to have an end-to-end builders process for people who are deploying smart contracts on FVM.
-
 ## Deliverables
 
 Teams should provide a clear outline of the scope of the work and milestones along with a time-frame for completing these with a monetary funding amount requested for each. These can be in the form of a research project and associated reporting, a prototype project or MVP map and associated outcomes and specifications.
@@ -51,7 +51,9 @@ Teams should provide a clear outline of the scope of the work and milestones alo
 Example on Milestones & Funding:
 **Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
 
-**Milestones:** Make sure that the values in the Funding column add up to the Total Funding Amount listed above.
+**Milestones:**
+Please limit milestones to **2-3 only** to simplify administration and payment overheads.
+Make sure that the values in the Funding column add up to the Total Funding Amount listed above.
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | ------------- | --------------------- | ------- | ------------------- |
@@ -59,7 +61,7 @@ Example on Milestones & Funding:
 | 2             | Example milestone     | $X      | Y weeks             |
 | 3             | Example milestone     | $X      | Y weeks             |
 
-## Recommended Team
+## Team Experience
 
 We are looking for teams and individuals with in-depth knowledge on blockchain infrastructure and high technical skill that want to be deeply involved in the Filecoin ecosystem.
 
@@ -72,8 +74,6 @@ Proposal Applications for FVM Tooling and infrastructure will be overseen by a c
 - Alison Haire [@developerally](https://github.com/DeveloperAlly)
 
 ### Proposal Guidelines
-
-### Filecoin Dev Grants
 
 We evaluate proposals based on:
 
