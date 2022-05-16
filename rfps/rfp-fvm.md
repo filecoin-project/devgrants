@@ -67,9 +67,9 @@ We are looking for teams and individuals with in-depth knowledge on blockchain i
 
 Proposal Applications for FVM Tooling and infrastructure will be overseen by a committee consisting of 3 [technical sponsors](https://github.com/filecoin-project/devgrants/blob/master/technical-sponsors.md).
 
-- Raúl Kripalani (@raulk)
-- Dragan Zurzin (@blocksonachain)
-- Alison Haire (@developerally)
+- Raúl Kripalani [@raulk](https://github.com/raulk)
+- Dragan Zurzin [@blocksonachain](https://github.com/BlocksOnAChain)
+- Alison Haire [@developerally](https://github.com/DeveloperAlly)
 
 ### Proposal Guidelines
 
