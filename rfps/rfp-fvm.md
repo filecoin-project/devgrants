@@ -1,6 +1,6 @@
 # FVM Tooling & Infrastructure
 
-We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the (Filecoin Virtual Machine)[https://github.com/filecoin-project/ref-fvm] (FVM).
+We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the [Filecoin Virtual Machine](https://github.com/filecoin-project/ref-fvm) (FVM).
 
 ## Overview
 
