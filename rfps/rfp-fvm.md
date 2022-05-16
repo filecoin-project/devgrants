@@ -8,7 +8,7 @@ The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-locat
 
 The FVM is a WASM-based polyglot execution environment for IPLD data. It is designed to support native Filecoin actors written in languages that compile to WASM, as well as smart contracts written for foreign runtimes including the Ethereum Virtual Machine (EVM), Secure EcmaScript (SES), and eBPF.
 
-Refer to (https://fvm.filecoin.io/)[FVM Website] for more details on the possibilities FVM will unlock, the current roadmap and links to the current (https://github.com/filecoin-project/ref-fvm)[reference FVM and SDK] written in Rust.
+Refer to [https://fvm.filecoin.io/](FVM Website) for more details on the possibilities FVM will unlock, the current roadmap and links to the current [https://github.com/filecoin-project/ref-fvm](reference FVM and SDK) written in Rust.
 
 We want to build the best tech and tooling available to help enable future developers to build the use cases they envision on the FVM easily and seamlessly.
 
@@ -65,7 +65,7 @@ We are looking for teams and individuals with in-depth knowledge on blockchain i
 
 ## Acceptance Criteria
 
-Proposal Applications for FVM Tooling and infrastructure will be overseen by a committee consisting of 3 (technical sponsors)[https://github.com/filecoin-project/devgrants/blob/master/technical-sponsors.md].
+Proposal Applications for FVM Tooling and infrastructure will be overseen by a committee consisting of 3 [technical sponsors](https://github.com/filecoin-project/devgrants/blob/master/technical-sponsors.md).
 
 - Raúl Kripalani (@raulk)
 - Dragan Zurzin (@blocksonachain)
@@ -89,18 +89,18 @@ The following resources may be helpful:
 
 #### General FVM Resources
 
-- (FVM Website with Roadmap)[https://fvm.filecoin.io]
-- (FVM Reference Implementation)[https://github.com/filecoin-project/ref-fvm]
-- (FVM Specification)[https://github.com/filecoin-project/fvm-specs]
-- (FIP Proposal)[https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0031.md#coordinated-testnets]
-- (FVM Early Builders Program Information & Meeting Recordings)[https://pl-strflt.notion.site/Welcome-to-the-FVM-Foundry-Early-Builders-Program-0c21aa082a3a48b5b9262d122204d141]
-- (Filecoin Project FVM Slack Channel)[https://filecoinproject.slack.com/archives/C029MT4PQB1]
+- [FVM Website with Roadmap](https://fvm.filecoin.io)
+- [FVM Reference Implementation](https://github.com/filecoin-project/ref-fvm)
+- [FVM Specification](https://github.com/filecoin-project/fvm-specs)
+- [FIP Proposal](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0031.md#coordinated-testnets)
+- [FVM Early Builders Program Information & Meeting Recordings](https://pl-strflt.notion.site/Welcome-to-the-FVM-Foundry-Early-Builders-Program-0c21aa082a3a48b5b9262d122204d141)
+- [Filecoin Project FVM Slack Channel](https://filecoinproject.slack.com/archives/C029MT4PQB1)
 
 #### Application Examples
 
-- Example proposoal from Polyphene: (High-level Rust SDK)[https://github.com/filecoin-project/devgrants/issues/562]
-- Example proposal from Zondax: (AssemblyScript SDK)[https://github.com/filecoin-project/devgrants/issues/582]
+- Example proposoal from Polyphene: [High-level Rust SDK](https://github.com/filecoin-project/devgrants/issues/562)
+- Example proposal from Zondax: [AssemblyScript SDK](https://github.com/filecoin-project/devgrants/issues/582)
 
 #### Tooling ideas
 
-- (FVM Tooling Landscape Thoughts)[https://pl-strflt.notion.site/58253a87924e405d84c225d5735db059?v=84dd5cfeb7444512b362139ab6129a11]
+- [FVM Tooling Landscape Thoughts](https://pl-strflt.notion.site/58253a87924e405d84c225d5735db059?v=84dd5cfeb7444512b362139ab6129a11)
