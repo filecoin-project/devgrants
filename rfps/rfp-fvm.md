@@ -1,4 +1,4 @@
-# FVM Tooling & Infrastructure
+# FVM Tooling & Infrastructure RFP
 
 We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the [Filecoin Virtual Machine](https://github.com/filecoin-project/ref-fvm) (FVM).
 
@@ -8,7 +8,7 @@ The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-locat
 
 The FVM is a WASM-based polyglot execution environment for IPLD data. It is designed to support native Filecoin actors written in languages that compile to WASM, as well as smart contracts written for foreign runtimes including the Ethereum Virtual Machine (EVM), Secure EcmaScript (SES), and eBPF.
 
-Refer to [https://fvm.filecoin.io/](FVM Website) for more details on the possibilities FVM will unlock, the current roadmap and links to the current [https://github.com/filecoin-project/ref-fvm](reference FVM and SDK) written in Rust.
+Refer to [FVM Website](https://fvm.filecoin.io/) for more details on the possibilities FVM will unlock, the current roadmap and links to the current [reference FVM and SDK](https://github.com/filecoin-project/ref-fvm) written in Rust.
 
 We want to build the best tech and tooling available to help enable future developers to build the use cases they envision on the FVM easily and seamlessly.
 
@@ -67,9 +67,9 @@ We are looking for teams and individuals with in-depth knowledge on blockchain i
 
 Proposal Applications for FVM Tooling and infrastructure will be overseen by a committee consisting of 3 [technical sponsors](https://github.com/filecoin-project/devgrants/blob/master/technical-sponsors.md).
 
-- Raúl Kripalani (@raulk)
-- Dragan Zurzin (@blocksonachain)
-- Alison Haire (@developerally)
+- Raúl Kripalani [@raulk](https://github.com/raulk)
+- Dragan Zurzin [@blocksonachain](https://github.com/BlocksOnAChain)
+- Alison Haire [@developerally](https://github.com/DeveloperAlly)
 
 ### Proposal Guidelines
 
