@@ -110,6 +110,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @cryptotwilight   | Evidence DAO | [Github](https://github.com/cryptotwilight/evidenceDAO) | [#555](https://github.com/filecoin-project/devgrants/issues/555)
 | @handeabhishek111 | Web3-Arcade  | [Github](https://github.com/handeabhishek111/Web3-Arcade) | [#558](https://github.com/filecoin-project/devgrants/issues/558)
 | @devcloning |Storage³ lightweight consumer-focused UI drag and drop Build package  | [Github](https://github.com/devcloning) | [#560](https://github.com/filecoin-project/devgrants/issues/560)
+| @Brilliant497705 |MyDonate | [Github](https://github.com/mendsalbert/myDonate) | [#565](https://github.com/filecoin-project/devgrants/issues/565)
 | @mbcse  |MerkleWrite | [Github](https://github.com/mbcse/eth-eternals) | [#568](https://github.com/filecoin-project/devgrants/issues/568)
 | @seldamat  |DeSci Berlin Conference Sponsorship| [Github](https://github.com/opscientia) | [#569](https://github.com/filecoin-project/devgrants/issues/569)
 | @Jds-23 |Decentralised Bounty Hunting platform for Hunters controlled by Hunters| [Github](https://github.com/Bounty-Hunt-2022/bounty-hunt) | [#577](https://github.com/filecoin-project/devgrants/issues/577)
