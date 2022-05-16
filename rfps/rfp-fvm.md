@@ -104,3 +104,4 @@ The following resources may be helpful:
 #### Tooling ideas
 
 - [FVM Tooling Landscape Thoughts](https://pl-strflt.notion.site/58253a87924e405d84c225d5735db059?v=84dd5cfeb7444512b362139ab6129a11)
+- [Use Case Thoughts - Alpha](https://pl-strflt.notion.site/Use-Case-Ideas-119d64e9ec294704a56952424fb7afb7)
