@@ -115,3 +115,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @seldamat  |DeSci Berlin Conference Sponsorship| [Github](https://github.com/opscientia) | [#569](https://github.com/filecoin-project/devgrants/issues/569)
 | @Jds-23 |Decentralised Bounty Hunting platform for Hunters controlled by Hunters| [Github](https://github.com/Bounty-Hunt-2022/bounty-hunt) | [#577](https://github.com/filecoin-project/devgrants/issues/577)
 | @shashanka2a |DokuMint | [Github](https://github.com/dokumintapp/ETHernals) | [#578](https://github.com/filecoin-project/devgrants/issues/578)
+| @Pedro1703 |Futuria DAO | [Github](https://github.com/ladiaria/) | [#586](https://github.com/filecoin-project/devgrants/issues/586)
