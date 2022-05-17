@@ -38,9 +38,11 @@ The projects needed include (but are not limited to):
   - Debugging & Testing tools
   - Deployment flow tooling
   - Testnets, Faucets, RPC Endpoints & local nodes
+  - Smart contract research & prototyping examples
   - Smart contract playgrounds and standards (for example OpenZeppelin and Remix type applications)
   - Foreign Runtime Bridges (including EVM) & Oracles
-  - Wallets and wallet integrations
+  - Wallets and wallet integrations - including innovative new Data Wallets
+  - Block explorers
 
 ## Deliverables
 
