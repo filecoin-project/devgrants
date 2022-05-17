@@ -26,9 +26,8 @@ These projects are essential to build the minimum set of tools that we would nee
 
 The projects needed include (but are not limited to):
 
-- SDKs
-
-  - High-level Rust
+- SDK's
+  - High-level Rust (abstraction layer on the current FVM Rust reference code)
   - Go
   - AssemblyScript
   - Kotlin
