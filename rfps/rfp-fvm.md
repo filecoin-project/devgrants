@@ -71,6 +71,7 @@ Proposal Applications for FVM Tooling and infrastructure will be overseen by a c
 
 - Raúl Kripalani [@raulk](https://github.com/raulk)
 - Dragan Zurzin [@blocksonachain](https://github.com/BlocksOnAChain)
+- Eva Shon [@eshon](https://github.com/eshon)
 - Alison Haire [@developerally](https://github.com/DeveloperAlly)
 
 ### Proposal Guidelines
