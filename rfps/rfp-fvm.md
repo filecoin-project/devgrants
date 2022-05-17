@@ -10,7 +10,7 @@ The FVM is a WASM-based polyglot execution environment for IPLD data. It is desi
 
 Refer to the resources section for more information on the FVM reference and specification, details on the possibilities FVM will unlock and the current roadmap.
 
-You can also consider contributing via the open FVM Bug Bounties [page here](https://immunefi.com/bounty/filecoin/)
+You can also consider contributing via the open [FVM Bug Bounties page here](https://immunefi.com/bounty/filecoin/)
 
 ## Description
 
