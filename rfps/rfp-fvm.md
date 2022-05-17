@@ -14,10 +14,6 @@ You can also consider contributing via the open [FVM Bug Bounties page here](htt
 
 ## Description
 
-The FVM is an integral and high-priority project for extending the functionality of Filecoin by bringing storage solutions to the blockchain and executing computation jobs or data pipelines on globally distributed data by pushing compute to the edges and coordinating its execution.
-
-Examples of future ideas include: async programming via continuations/futures, capability-orientation, time-locked transactions (using external beacons), parallel execution, native primitives for cross-chain interoperability, computation correctness proofs, and more.
-
 We want to build the best tech and tooling available to help enable future developers to build the use cases they envision on the FVM easily and seamlessly.
 
 We are therefore seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the FVM.
@@ -29,6 +25,7 @@ These projects are essential to build the minimum set of tools that we would nee
 The projects needed include (but are not limited to):
 
 - SDK's
+
   - High-level Rust (abstraction layer on the current FVM Rust reference code)
   - Go
   - AssemblyScript
@@ -109,4 +106,3 @@ The following resources may be helpful:
 - [Use Case Thoughts - Alpha](https://pl-strflt.notion.site/Use-Case-Ideas-119d64e9ec294704a56952424fb7afb7)
 
 See also open FVM Bug Bounties [here](https://immunefi.com/bounty/filecoin/)
-
