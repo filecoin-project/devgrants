@@ -10,6 +10,8 @@ The FVM is a WASM-based polyglot execution environment for IPLD data. It is desi
 
 Refer to the resources section for more information on the FVM reference and specification, details on the possibilities FVM will unlock and the current roadmap.
 
+You can also consider contributing via the open FVM Bug Bounties [page here](https://immunefi.com/bounty/filecoin/)
+
 ## Description
 
 The FVM is an integral and high-priority project for extending the functionality of Filecoin by bringing storage solutions to the blockchain and executing computation jobs or data pipelines on globally distributed data by pushing compute to the edges and coordinating its execution.
