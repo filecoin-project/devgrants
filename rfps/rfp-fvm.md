@@ -9,7 +9,7 @@ The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-locat
 The FVM is a WASM-based polyglot execution environment for IPLD data. It is designed to support native Filecoin actors written in languages that compile to WASM, as well as smart contracts written for foreign runtimes including the Ethereum Virtual Machine (EVM), Secure EcmaScript (SES), and eBPF.
 
 
-You can also consider contributing via the open [FVM Bug Bounties page here](https://immunefi.com/bounty/filecoin/)
+You can also consider contributing via the [FVM Bug Bounties](https://immunefi.com/bounty/filecoin/) program.
 
 ## Description
 
