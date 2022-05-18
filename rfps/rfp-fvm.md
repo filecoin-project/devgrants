@@ -2,7 +2,7 @@
 
 ## Overview
 
-We are seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the [Filecoin Virtual Machine](https://fvm.filecoin.io) (FVM).
+We are seeking proposals for developer and infrastructure tooling to extend the functionality and usability of the forthcoming [Filecoin Virtual Machine](https://fvm.filecoin.io) (FVM).
 
 The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-location of storage and compute capabilities.
 
