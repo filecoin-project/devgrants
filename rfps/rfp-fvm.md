@@ -4,7 +4,7 @@
 
 We are seeking proposals for developer and infrastructure tooling to extend the functionality and usability of the forthcoming [Filecoin Virtual Machine](https://fvm.filecoin.io) (FVM).
 
-The Filecoin Virtual Machine (FVM) aims to combine smart contracts with co-location of storage and compute capabilities.
+The Filecoin Virtual Machine (FVM) combines smart contracts with co-location of storage and compute capabilities.
 
 The FVM is a WASM-based polyglot execution environment for IPLD data. It is designed to support native Filecoin actors written in languages that compile to WASM, as well as smart contracts written for foreign runtimes including the Ethereum Virtual Machine (EVM), Secure EcmaScript (SES), and eBPF.
 
