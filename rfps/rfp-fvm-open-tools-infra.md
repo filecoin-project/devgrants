@@ -76,11 +76,11 @@ Proposal Applications for FVM Tooling and infrastructure will be overseen by a c
 
 We evaluate proposals based on:
 
-- The quality of the proposal and near-term value to the Filecoin ecosystem
-- Your team’s technical experience, open source contributions and interest in diving into how Filecoin works
+- The quality of the proposal and value to the Filecoin ecosystem
+- Your team’s technical experience, open source contributions, and interest in diving into the FVM
 - Likelihood that your team will continue to support the Filecoin ecosystem long-term and commitment to maintaining your project for one year
 
-Note that all proposals must be open sourced via MIT and Apache2 licenses.
+Note that all work funded through this RFP must be open sourced via MIT and Apache2 licenses.
 
 ## Resources
 
