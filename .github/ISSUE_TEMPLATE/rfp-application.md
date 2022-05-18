@@ -7,8 +7,6 @@ assignees: realChainLife
 
 ---
 
-To submit a proposal, please create a PR against this template in this repo. Please title your file `rfp-proposal-title.md`, replacing `title` with the name of your project.
-
 # RFP Proposal: `Project Title`
 
 **Name of Project:**
@@ -19,59 +17,68 @@ To submit a proposal, please create a PR against this template in this repo. Ple
 
 **Proposer:** `replace with your GitHub username`
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT, GPL, and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
 # Project Description
 
-Please describe exactly what you are planning to build. Since this is a response to an RFP, make sure to address the request directly. If the RFP asked for new ideas, please describe those novel ideas. If the RFP provided a clear scope of work, please make sure to acknowledge that you will be addressing that scope of work with this project.
+Please describe what problem or need your project addresses, why it's important, and your technical approach. Since this is a response to an RFP, make sure to address the request directly. 
 
 This section should be 2-3 paragraphs long.
 
-## Deliverables
-
-Please describe in details what your final deliverable for this project will be.
-
 ## Development Roadmap
 
-Please break up your development work into a clear set of milestones. You can use the milestones suggested in the RFP or create your own. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section).
+Please break up your research or development work into a clear set of 2-3 milestones.
 
-For each milestone, please describe:
-- The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
+For each milestone, please describe the software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the RFP scope.
+
+This section should be approximately 1 page long.
+
+## Documentation, Education, and Community
+
+Specify your plans for any documentation, education, and/or community-building that will be essential to your project's success.
+
+## Other Deliverables
+
+Specify any other deliverables proposed as part of this project.
+
+## Milestone Summary
+
+This table should summarize all of the efforts above. For each milestone, please describe:
+- Summary of milestone
 - How many people will be working on each milestone and their roles
 - The amount of funding required for each milestone
 - How much time this milestone will take to achieve (using real dates)
 
+| Milestone No. | Milestone Summary & Staffing | Funding | Estimated Timeframe |
+| ------------- | --------------------- | ------- | ------------------- |
+| 1             | Example milestone     | $X      | Y weeks             |
+| 2             | Example milestone     | $X      | Y weeks             |
+| 3             | Example milestone     | $X      | Y weeks             |
+
 ## Total Budget Requested
 
-Sum up the total requested budget across all milestones, and include that figure here. Ensure that it does not exceed the total funding limit on the RFP.
+Sum up the total requested budget across all milestones.
 
 ## Maintenance and Upgrade Plans
 
-Specify your team's long-term plans to maintain this software and upgrade it over time.
+Specify your team's long-term plans to maintain and improve this project over time.
 
 # Team
 
 ## Contact Info
 
-Provide us with a way to contact you (email is probably easiest) so we can communicate our selection decision to you directly. You can also email devgrants@filecoin.org with your GH username and link to your public proposal.
+Provide us with a way to contact you (email is probably easiest). You can also email grants@filecoin.org with your GH username and link to your public proposal.
 
 ## Team Members
 
-- Team Member 1
-- Team Member 2
-- Team Member 3
-- ...
-
-## Team Member LinkedIn Profiles
-
-- Team Member 1 LinkedIn profile
-- Team Member 2 LinkedIn profile
-- Team Member 3 LinkedIn profile
+- Team Member 1 - Github and/or LinkedIn profiles
+- Team Member 2 - Github and/or LinkedIn profiles
+- Team Member 3 - Github and/or LinkedIn profiles
 - ...
 
 ## Team Website
 
-Please link to your team's website here (make sure it's `https`)
+Please link to your team's website here.
 
 ## Relevant Experience
 
