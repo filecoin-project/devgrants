@@ -97,7 +97,7 @@ The following resources may be helpful:
 
 #### Application Examples
 
-- Example proposoal from Polyphene: [High-level Rust SDK](https://github.com/filecoin-project/devgrants/issues/562)
+- Example proposal from Polyphene: [High-level Rust SDK](https://github.com/filecoin-project/devgrants/issues/562)
 - Example proposal from Zondax: [AssemblyScript SDK](https://github.com/filecoin-project/devgrants/issues/582)
 
 #### Tooling ideas
