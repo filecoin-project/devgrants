@@ -45,7 +45,7 @@ The projects needed include (but are not limited to):
 
 ## Deliverables
 
-Teams should provide a clear outline of the scope of the work and milestones along with a time-frame for completing these with a monetary funding amount requested for each. These can be in the form of a research project and associated reporting, a prototype project or MVP map and associated outcomes and specifications.
+Teams should provide a clear outline of the scope of the work, milestones, timeframe, and funding requested. These can be in the form of a research project and associated reporting, or a prototype project or MVP map and associated outcomes and specifications.
 
 Example on Milestones & Funding:
 **Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
