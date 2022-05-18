@@ -13,7 +13,7 @@ You can also consider contributing via the [FVM Bug Bounties](https://immunefi.c
 
 ## Description
 
-We want to build the best tech and tooling available to help enable future developers to build the use cases they envision on the FVM easily and seamlessly.
+We seek to fund the creation of world-class tools that enable future developers to build on the FVM easily and seamlessly.
 
 We are therefore seeking proposals for various developer and infrastructure tooling to extend the functionality and usability of the FVM.
 
