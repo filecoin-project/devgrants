@@ -52,7 +52,6 @@ Example on Milestones & Funding:
 
 **Milestones:**
 Please limit milestones to **2-3 only** to simplify administration and payment overheads.
-Make sure that the values in the Funding column add up to the Total Funding Amount listed above.
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | ------------- | --------------------- | ------- | ------------------- |
