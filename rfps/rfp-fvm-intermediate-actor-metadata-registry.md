@@ -20,6 +20,8 @@ Note that even though IPLD supports a number of codecs, in reality all of Fileco
 
 This project will attempt to create early developer interfaces today using CBOR serialization / de-serialization for early usage and requirements feedback. An FVM Actor Interface Definition Language in IPLD RFP is also upcoming for the longer-term future and will replace this early work when it is complete.
 
+&nbsp;
+
 #### About the FVM
 
 The Filecoin Virtual Machine is a new and exciting addition to the Filecoin protocol to support user-programmability and EVM-compatibility. ***It is currently in active development.***
@@ -33,8 +35,6 @@ The FVM will be added to the live Filecoin network in several milestones.
 **Milestone 2** will introduce user-programmable actors and EVM-compatibility in a phased manner. The first phase of Milestone 2 will likely be available for bounties in June / July before it is deployed to mainnet in Summer 2022 (estimated).
 
 For more information, visit https://fvm.filecoin.io
-
-
 
 ## Technical Sponsors
 
