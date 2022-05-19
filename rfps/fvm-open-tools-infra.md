@@ -55,7 +55,7 @@ Example on Milestones & Funding:
 **Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
 
 **Milestones:**
-Please specify 2-3 milestones for your project, with associated funding amounts.
+Please specify 2-3 milestones for your project, with associated funding amounts. 
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | ------------- | --------------------- | ------- | ------------------- |
