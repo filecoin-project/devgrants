@@ -19,6 +19,9 @@ Nowadays, there are two SDKs for FVM smart contracts: Go and Rust. However, none
 To contribute to the growth of the ecosystem, it would be valuable for FVM to allow users to write smart contracts using this language. 
 
 ## Development Roadmap and Deliverables
+
+## Phase 1 
+
 ### Milestone 1  - Deep dive into the FVM  /  Growing the filbuilders community 
 
 **Assumptions/Pre-Requirements**
@@ -59,7 +62,7 @@ A tentative list of functions would be the following ones.
 - Document FVM functions and minimal API 
 
 **Funding for this Milestone**
-tbd- $ 
+36.000,00- $ 
 
 **Estimated Milestone Delivery**
  End of June 22 
@@ -94,10 +97,19 @@ Both data structures and utilities packages:
   - Simple Bank example
 
 **Funding for this Milestone**
-tbd- $  
+42.000,00- $  
 
 **Estimated Milestone Delivery** 
  End of August 22 
+
+## Total Budget Requested for Phase 1
+- M1  36.000,00- $ 
+- M2  42.000,00- $ 
+Total: 78.000,00- $   
+
+## Phase 2 (Draft)
+
+This phase is subject to be updated based on the experience encountered during Phase 1. 
 
 ### Milestone 3   - Entering the Custom Types
 
@@ -116,6 +128,7 @@ Completion of Milestone 2
 - Advanced tutorials and applications
   - Simple Storage
   - Advanced storage concepts
+  - Decentralized funds governance
 
 **Funding for this Milestone**
 tbd- $ 
@@ -144,11 +157,7 @@ tbd- $
 **Estimated Milestone Delivery**
 End of November 22
 
-
-## Total Budget Requested
-
-- M1  tbd- $ 
-- M2  tbd- $    
+## Total Budget Requested for Phase 2
 - M3  tbd- $ 
 - M4  tbd - $ 
 
@@ -169,7 +178,6 @@ This should be agreed either at a later time or in the frame of another program.
 # Team
 
 ## Contact Info and Team Members
-
 
 * Emmanuel Murano
   * Role: lead development
@@ -205,7 +213,6 @@ We have been collaborating with PL for several years and have/or are currently c
 ## Team code repositories
 
 `https://github.com/Zondax`
-
 
 ## Additional information
 
