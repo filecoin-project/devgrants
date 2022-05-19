@@ -43,6 +43,10 @@ The projects needed include (but are not limited to):
   - Wallets and wallet integrations - including innovative new Data Wallets
   - Block explorers
 
+
+
+- Additional RFP ideas with detailed scope from the FVM team are also listed in [FVM Project Ideas](fvm-rfp-ideas.md).
+
 ## Deliverables
 
 Teams should provide a clear outline of the scope of the work, milestones, timeframe, and funding requested. These can be in the form of a research project and associated reporting, or a prototype project or MVP map and associated outcomes and specifications.
