@@ -89,6 +89,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @rkgudboy  | React file upload wrapper on NFT.Storage| [Github](https://github.com/rkgudboy/the-mango-jelly-ipfs) | [#519](https://github.com/filecoin-project/devgrants/issues/519)
 | @IKalonji   | NFTickets| [Github](https://github.com/IKalonji/NFTickets) | [#520](https://github.com/filecoin-project/devgrants/issues/520)
 | @irwingtello   | DEFI For Humanity| [Github](https://github.com/irwingtello/dfh) | [#524](https://github.com/filecoin-project/devgrants/issues/524)
+| @hiekxel | ThreeIPFS| [Github](https://github.com/hiekxel/ThreeIPFS) | [#525](https://github.com/filecoin-project/devgrants/issues/525)
 | @Jonkrua    | 3WebDAO| [Github](https://github.com/3WebDAO) | [#526](https://github.com/filecoin-project/devgrants/issues/526)
 | @ari4325  | AstterEd| [Github](https://github.com/sushmitgh2/AstterEd) | [#530](https://github.com/filecoin-project/devgrants/issues/530)
 | @IKalonji  | pyMoralis| [Github](https://github.com/IKalonji/pyMoralis) | [#531](https://github.com/filecoin-project/devgrants/issues/531)
