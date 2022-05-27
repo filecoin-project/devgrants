@@ -13,7 +13,7 @@ Next Step Microgrants are awarded in the amount of **$5,000**, paid in FIL token
 ### Program Qualifications
 Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet these 5 criteria:
 
-1. You've already built something with Filecoin (or closely related technologies such as IPLD, libp2p, or frameworks or services such as NFT.storage, Textile Powergate, etc.), independently or as part of a course or hackathon.
+1. You've already built something with Filecoin (or closely related technologies such as IPFS, IPLD, libp2p, or frameworks or services such as NFT.storage, Textile Powergate, etc.), independently or as part of a course or hackathon.
 1. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
 1. You can complete this work within 3 months. 
 1. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
