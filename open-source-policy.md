@@ -20,7 +20,7 @@ must have significant, industry-leading prior usage.
 
 If an exception is granted, you must substitute a technical writeup ([example](https://blog.ipfs.io/2021-12-17-omnilingo/)) 
 describing your project, integration choices, and IPFS/Filecoin/libp2p usage to serve as a publicly 
-available learning resource, and a different contract format will be used.
+available learning resource. A different contract format will be used.
 
 
 ## Permissive License Stack
