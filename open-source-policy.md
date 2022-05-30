@@ -1,7 +1,8 @@
 # Open Source Policy for Developer Grants
 
 By default, all grant-funded work must be open sourced under dual [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) 
-and [MIT](http://opensource.org/licenses/MIT) licenses. Projects should aim to adopt the open source 
+and [MIT](http://opensource.org/licenses/MIT)  for code/software, and all non-code/non-software grant-funded work should be under 
+[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) licenses. Projects should aim to adopt the open source 
 licenses of existing repos to which they are contributing upstream rather than making exceptions. 
 
 ## Other Open Source Licenses  
