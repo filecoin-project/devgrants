@@ -31,8 +31,8 @@ RFPs are grants for specific development work. As the name suggests, we are requ
 OPEN RFPs:
 
 
-* [**Developer Tooling**](https://github.com/filecoin-project/devgrants/blob/master/rfps/developer-tooling.md) RFPs
-* [**Storage Provider Tools**](https://github.com/filecoin-project/devgrants/blob/master/rfps/storage-provider-tools-rfps.md) RFPs
+* [**FVM Project Ideas**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-rfp-ideas.md) RFPs
+* [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) RFPs
 
 [**LEARN MORE AND APPLY FOR AN RFP**](https://github.com/filecoin-project/devgrants/blob/master/README.md#submit-a-proposal-for-an-rfp)
 
