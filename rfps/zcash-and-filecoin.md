@@ -6,7 +6,7 @@ Filecoin Foundation and Electric Coin Co. (ECC) are working together to empower 
 
 This grants pool follows an announcement from September, when Filecoin Foundation and ECC, along with Protocol Labs and the Ethereum Foundation, revealed a multi-faceted collaboration focused on Halo 2, the first trustless and recursive zero-knowledge-proof cryptography, discovered by ECC’s Sean Bowe.
 
-The grant program includes a base pool of $5M, provided by Filecoin Foundation, plus additional matching funds for any ECC contributions up to $2M, for a total potential pool size of $9M. Funds will be jointly administered by Filecoin Foundation and ECC.
+The grant program includes over 300,000 FIL, provided by Filecoin Foundation, and may ultimately include additional funds provided by ECC and Filecoin Foundation. Funds will be jointly administered by Filecoin Foundation and ECC.
 
 ## Project Opportunities
 
