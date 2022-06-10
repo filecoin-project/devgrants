@@ -26,7 +26,7 @@ The Filecoin Virtual Machine project will be released in milestones across 2022,
 Teams should provide a clear outline of the scope of the work, milestones, timeframe, and funding requested. These can be in the form of a research project and associated reporting, or a project roadmap with associated outcomes and specifications.
 
 Example of Milestones & Funding:
-**Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
+**Total Funding Amount:** List the total proposed funding amount in USD. We may consider requests for funding in FIL if desired by grantee.
 
 **Milestones:**
 Please specify 2-3 milestones for your project, with associated funding amounts. 
