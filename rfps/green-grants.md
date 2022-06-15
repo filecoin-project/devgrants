@@ -17,7 +17,7 @@ These projects are important as we aim to build open-source tools that quantifia
 Teams should provide a clear outline of the scope of the work, milestones, timeframe, and funding requested. 
 
 Example of Milestones & Funding:
-**Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
+**Total Funding Amount:** List the total proposed funding amount in USD, eventually can be a distribution between USD/FIL
 
 **Milestones:**
 Please specify 2-3 milestones for your project, with associated funding amounts. 
@@ -41,7 +41,7 @@ Proposals for this RFP will be overseen by a committee led by Alan Ransil [@redr
 
 To submit a proposal, create an issue in this repository using the RFP issue template. Draft proposals for discussion are welcome and encouraged.
 
-Proposals will be evaluated on a rolling basis until December 2022 and proposers will receive a final determination within 2 weeks. 
+Proposals will be evaluated on a rolling basis until September 2022 and proposers will receive a final determination within 2 weeks. 
 
 Note that all work funded through this RFP must be open sourced via MIT and Apache2 licenses.
 
