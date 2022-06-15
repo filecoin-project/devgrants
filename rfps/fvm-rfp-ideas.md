@@ -58,8 +58,8 @@ Note that even though IPLD supports a number of codecs, in reality all of Fileco
 
 #### Resources
 
-https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0030.md#namespace-actor
-https://github.com/filecoin-project/builtin-actors
+- https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0030.md#namespace-actor
+- https://github.com/filecoin-project/builtin-actors
 
 
 &nbsp;
