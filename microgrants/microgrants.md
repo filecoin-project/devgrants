@@ -54,7 +54,7 @@ Apply for a grant using our [Next Step Microgrant Template](https://github.com/f
   * A: Yes! All team permutations are ok as long as there is only one submission per original hackathon project.
 
 * Q: What if my "next step" is significantly different from the original project? Can I apply for multiple "next step" grants?
-  * A: Next Step Microgrants are intended to build upon prior work. If you're unsure, go ahead and [apply](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E), but add a section explaining the situation with links to any prior grant applications or code. We will review on a case-by-case basis. In some cases, we will recommend that you apply for an [Open Grant](open-grants/) instead.
+  * A: Next Step Microgrants are intended to build upon prior work. If you're unsure, go ahead and [apply](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E), but add a section explaining the situation with links to any prior grant applications or code. We will review on a case-by-case basis. In some cases, we will recommend that you apply for an [Open Grant](/open-grants/) instead.
 
 * Q: I'm not a coding participant; I coordinated or made videos or helped in other ways. Am I eligible?
   * A: YES! In real life, successful products are the result of many roles, skills, backgrounds and disciplines... not just coding. You are an INSTRUMENTAL part of your team, and are eligible to receive the grant as well.
