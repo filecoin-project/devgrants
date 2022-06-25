@@ -11,7 +11,7 @@ assignees: realChainLife
 
 **Name of Project:**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `integration-adoption` , `technical-design`, `docs` , `community` , `metaverse` , `research` , `green`  Learn what these categories are here: {https://github.com/filecoin-project/devgrants/tree/master/open-grants}"
+**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `integration-adoption` , `technical-design`, `docs` , `community` , `metaverse` , `research` , `green`  Learn what these categories are here: https://github.com/filecoin-project/devgrants/tree/master/open-grants#readme
 
 **Proposer:** `replace with your GitHub username`
 
