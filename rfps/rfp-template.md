@@ -40,6 +40,8 @@ Impact DAOs space is a young but a fast growing space. Changemakers are building
  
 We’d love Filecoin’s support to grow this young but ambitious regenerative side of crypto. Our goal is to be a media house for Impact DAOs. We'll create awareness about the work of Filecoin and its distributed storage infrastructure. We see a great potential in Impact DAOs using Filecoin to preserve truth and facts. This project will provide great documentation to newcomers on how to build and make impact using crypto and web3 tools.
 
+Also we are a value aligned team and would love to work with value aligned partners like Filecoin. We love the Filecoin Green initiative and the conscious effort to build carbon neutral infrastructure. We also love the approach towards radical transparency on energy consumption through Filecoin energy dashboard. We also believe Impact DAOs such as the Ukraine DAO and in the ReFi space will benefit from decentralized storage in preserving truth and facts. 
+
 
 ## Deliverables
 
