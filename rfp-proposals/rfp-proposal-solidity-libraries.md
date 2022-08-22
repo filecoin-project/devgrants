@@ -2,7 +2,7 @@
 
 **Name of Project:** Solidity libraries and pre-compiles for FEVM Smart Contracts
 
-**Link to RFP:** 
+**Link to RFP:**  https://github.com/filecoin-project/devgrants/pull/898
 
 **RFP Category:** `devtools-libraries`
 
@@ -36,22 +36,14 @@ During the first week we will go through the existing tutorials and documentatio
 - Investigate how to deploy a Solidity Smart Contract in the FVM environment.
 
 #### Weeks 2-3 The deep dive into Solidity 
-- Implementation of a smart-contract in solidity that serialises and deserializes data in CBOR.
+- Implementation of a smart-contract in solidity that serialises and deserializes data in CBOR including complex types like structs and lists. 
 - Benchmarking of gas efficiency.
-
-#### Week 4: Wrap up and show time
-
-During the last  week we will write documentation, prepare a demo, get feedback and make corrections. 
-
-- Write Documentation
-- Prepare Demo
-- Feedback and corrections. 
+- Short documentation and preparation of the results for the demo
 
 ##  Deliverables
 
 - Smart Contract of the PoC capable of serialising and deserializing data in CBOR.
-- Testing CI workflows.
-- Documentation.
+- Short Documentation (Readme file). 
 - Results of the Benchmark.
 
 ## Team Members
@@ -65,17 +57,17 @@ During the last  week we will write documentation, prepare a demo, get feedback 
 ## Estimated Milestone Delivery
 
 4 weeks from kickoff
-Assumption: Late September 
+Assumption: Mid-Late September 
 
 ## Milestone Summary
 
 | Milestone No. | Milestone Summary & Staffing | Funding | Estimated Timeframe |
 | ------------- | --------------------- | ------- | ------------------- |
-| 1             | Results of feasibility analysis for the use of CBOR in Solidity in terms of FVM gas usage  | 33.600,00 $  | 4 weeks, Late September 2022             |
+| 1             | Results of feasibility analysis for the use of CBOR in Solidity in terms of FVM gas usage  |  28.400,00 $  | Delivery Mid-Late September 2022             |
 
 ## Total Budget Requested
 
-Total: 33.600,00- $
+Total: 28.400,00- $
 
 ## Maintenance and Upgrade Plans
 
@@ -85,7 +77,7 @@ If the research analysis from Milestone 1 provides good results in terms of feas
 
 ## Contact Info
 
-Provide us with a way to contact you (email is probably easiest). You can also email grants@filecoin.org with your GH username and link to your public proposal.
+This has been shared per Email.
 
 ## Team Members
 
