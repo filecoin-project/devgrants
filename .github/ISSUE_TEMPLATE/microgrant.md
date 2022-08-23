@@ -15,7 +15,7 @@ assignees: ErinOCon
   
 Link to Github repo:
 Link to demo or website, if applicable:
-License (MIT, APACHE2, or GPL license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u):
+License:
 
 <!-- This grant type is intended to support projects that have a working prototype and wish to take the next steps. MIT, APACHE2, or GPL license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content must be applied to the current project and all work funded via this microgrant. -->
   
