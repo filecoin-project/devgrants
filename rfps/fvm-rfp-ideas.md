@@ -4,7 +4,7 @@ We are seeking proposals for the following RFPs for the Filecoin VM.
 
 #### About the FVM
 
-The Filecoin Virtual Machine is a new and exciting addition to the Filecoin protocol to support user-programmability and EVM-compatibility. ***It is currently in active development.***
+The Filecoin Virtual Machine is a new and exciting addition to the Filecoin protocol to support user-programmable smart contracts with both EVM-compatible as well as native capabilities. ***It is currently in active development.***
 
 For the current roadmap and timeline, visit [https://fvm.filecoin.io/#roadmap-4](https://fvm.filecoin.io/#roadmap-4)
 
