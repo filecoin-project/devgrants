@@ -40,5 +40,5 @@ OPEN RFPs:
 ---
 
 ### Don't see your grant type?
-Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](grants@filecoin.org) with your idea.
+Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](mailto:grants@filecoin.org) with your idea.
 
