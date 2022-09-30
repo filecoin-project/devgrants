@@ -105,6 +105,18 @@ Other nice to have features to support developers might include:
 &nbsp;
 
 NOTE: These are suggestions. We would like teams to be very thoughtful about the work they are doing, and will prefer teams that are thoughtfully choosing what to include in their product as opposed to doing just what we suggest.
+.
+### Note about Backend Infrastructure
+
+**Relaxed historical scope.** As this may be a new generation explorer the initial goal here is to support FEVM deployment and onwards. It is acceptable for teams to focus on new data ingest at first and start backfilling processes for historical chain data later on. In this interim, deep links to existing explorers could also be used for prior transactions.
+
+There are several existing backends that have performed Filecoin chain ETL since genesis:
+
+- [Lily](https://lilium.sh/) - a TimeScale DB maintained by the Sentinel team at PL but is also intended for network-wide analysis.
+- [Filecoin Chain DB](https://docs.zondax.ch/) - also a TimeScale DB maintained by the Filecoin ecosystem collaborator, Zondax. They will be releasing a public self-serve API soon.
+
+While we are open to proposals for improved backend infrastructure from expert teams, re-use of existing infrastructure is recommended to reduce costs and accelerate your project's development timeline. Please talk to us about the above potential options.
+
 
 &nbsp;
 
