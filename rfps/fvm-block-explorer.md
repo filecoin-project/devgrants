@@ -229,7 +229,7 @@ Please provide links to your team members' Githubs or LinkedIn profiles.
 
 ## How to apply
 
-To submit a grant proposal please create a PR to the Filecoin dev grants repo.
+To submit a grant proposal, please open a <a href="https://github.com/filecoin-project/devgrants/issues/new?assignees=realChainLife&labels=RFP&template=rfp-application.md&title=RFP+Application">new RFP issue</a> in the `filecoin-project/devgrants` repo.
 For questions or to submit a private proposal you can also email eva [at] protocol.ai.
 
 You can also contact us via [Filecoin Slack](https://filecoin.io/slack) via the [#fvm channel](https://filecoinproject.slack.com/archives/C029MT4PQB1) or DM @eshon.
