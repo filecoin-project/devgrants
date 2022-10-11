@@ -2,14 +2,14 @@
 
 ## Project Description
 
-FVM 2.1 which introduces the support for Ethereum smart contracts in the Filecoin network (FEVM) will be the biggest network upgrade since the mainnet launch. At the same time, it immensly widens the area of possible problems. That’s why it must be tested thoroughly.
+FVM 2.1 which introduces support for Ethereum smart contracts in the Filecoin network (FEVM) will be the biggest network upgrade since mainnet launch. At the same time, it immensely widens the area of possible problems. That’s why it must be tested thoroughly.
 One of possibilities to test FEVM is to run already existing and proven smart contracts from Ethereum and compare the state it produces on Ethereum vs Filecoin.
 
 We are seeking proposals from teams that can build such a testing tool. This tool is expected to be in the form of a CLI.
 It should be able to:
 
-1. Fetch and store on the order of hundreds of contracts from Ethereum mainnet. These should be widely used contracts covering various use-case. 
-2. Deploy these contracts to the Filecoin testnet (called Butteflynet).
+1. Fetch and store on the order of hundreds of contracts from Ethereum mainnet. These should be widely used contracts covering various use-cases. 
+2. Deploy these contracts to a Filecoin testnet (Butterflynet).
 3. Fetch thousands of transactions sent to these contracts on Ethereum in the past. 
 4. Replay these transactions to contracts deployed on Filecoin. 
 5. Compare the Ethereum state before and after these transactions with the results on Filecoin. We expect the team to research the ideas of how to do state comparison reliably.
@@ -22,13 +22,13 @@ This tool can be written in either Go or Rust.
 We expect the team to provide a Github repository containing
 * Source code of the tool
 * Guides on how to use it
-* Fetched smart contracts and transactions so the same data doesn’t have to be re fetched multiple times
+* Fetched smart contracts and transactions so the same data doesn’t have to be re-fetched multiple times
 
 We also expect a demo of running all steps against the Wallaby (TBD) testnet to prove it works.
 
 ## Timeline
 
-We expect this work to be done till 7th of November. We want to be able to use this tool after we deploy FVM M2.1 to Butterflynet. This is scheduled for 14th of November 2022.
+We expect this work to be done until the 7th of November. We would like to be able to use this tool after we deploy FVM M2.1 to Butterflynet, which is scheduled for the 14th of November 2022.
 
 ## Milestones & Funding
 
@@ -89,13 +89,13 @@ We expect this work to be done till 7th of November. We want to be able to use t
 
 Please provide links to your team members' Githubs or LinkedIn profiles.
 
-* A team with strong design and web development skills (please show evidence of this in your proposal) and experience creating production blockchain applications
+* A team with strong Ethereum development skills
 * Experience extracting metadata from a blockchain or a complex tech back-end
 * Solid knowledge of Filecoin chain data structures
 
 ## How to apply
 
 To submit a grant proposal, please open a <a href="https://github.com/filecoin-project/devgrants/issues/new?assignees=realChainLife&labels=RFP&template=rfp-application.md&title=RFP+Application">new RFP issue</a> in the `filecoin-project/devgrants` repo.
-For questions or to submit a private proposal you can also email eva [at] protocol.ai.
+For questions or to submit a private proposal you can also email maciej [dot] witowski [at] protocol.ai.
 
-You can also contact us via [Filecoin Slack](https://filecoin.io/slack) via the [#fvm channel](https://filecoinproject.slack.com/archives/C029MT4PQB1) or DM @eshon.
+You can also contact us via [Filecoin Slack](https://filecoin.io/slack) via the [#fvm channel](https://filecoinproject.slack.com/archives/C029MT4PQB1) or DM @maciej.
