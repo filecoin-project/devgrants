@@ -23,7 +23,7 @@ Interested in applying for an RFP below or have a project idea not listed here? 
 ## *FVM Project Ideas*
 
 - [Reproducible / Verifiable Builds for Native FVM](#reproducible--verifiable-builds-for-native-fvm)
-- [Collections / Libraries of common example actors](#collections--libraries-of-common-example-actors)
+- [Collections / Libraries of common example actors for Native FVM](#collections--libraries-of-common-example-actors-for-native-fvm)
 - [Tool for applying test vectors from Ethereum on FEVM](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-ethereum-test-vectors.md)
 - [Block Explorer with FVM / FEVM support](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-block-explorer.md)
 
@@ -98,7 +98,7 @@ Filecoin Built-in Actors
 -----
 &nbsp;
   
-### Collections / Libraries of common example actors
+### Collections / Libraries of common example actors for Native FVM
 
 **Category:**
 
