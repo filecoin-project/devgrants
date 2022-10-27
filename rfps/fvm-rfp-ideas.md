@@ -124,9 +124,9 @@ Some example actors in this library might include:
 
   - [ERC20 example actor by @raulk](https://github.com/filecoin-project/ref-fvm/pull/290)
 
-  - [Fungible token standard discussion by @anorth](https://github.com/filecoin-project/FIPs/discussions/277)
+  - [FRC-0046 Fungible token standard](https://github.com/filecoin-project/FIPs/blob/master/FRCs/frc-0046.md)
 
-  - [Helix’s fungible token implementation](https://github.com/helix-onchain/filecoin/tree/main/fil_fungible_token)
+  - [Helix’s FRC-0046 fungible token implementation](https://github.com/helix-onchain/filecoin/tree/main/frc46_token)
   
   - [Zondax's ERC 20 token example for their AssemblyScript SDK](https://github.com/Zondax/fil-erc20-actor-as)
 
