@@ -26,6 +26,23 @@ We expect the team to provide a Github repository containing
 
 We also expect a demo of running all steps against the Wallaby (TBD) testnet to prove it works.
 
+You may propose a small Proof of Concept first to validate the feasibility of this whole idea, with an explicit checkpoint to decide to proceed or explore other options to achieve the desired testing coverage, based on the discoveries.
+
+## Known complexities
+
+We are aware of the following complexities in building this tool:
+1. State. We will need to migrate any existing state for a contract to Filecoin before we run a message extracted from Ethereum's mainnet, or results will vary.
+2. Cross-contract calls. These calls will use Ethereum addresses, whose corresponding actors may not be present in the Filecoin chain. We may need to extract and migrate the state of callees too.
+3. Modified opcodes. Some opcodes in Filecoin respond differently to in Ethereum, e.g. GAS returns available Filecoin gas, NUMBER returns the epoch, DIFFICULTY is zero, etc. Such differences may lead to changes in execution paths and outcomes.
+4. Environmental information. Things like the BLOCKHASH, NUMBER (height/epoch), will need to be part of the test vector and be fed to the Filecoin EVM so the relevant opcodes return the appropriate information.
+5. Gas. Some Ethereum contracts may take decisions based on Ethereum gas, which is not metered or used in FEVM.
+
+## Reference: Filecoin test vectors and Lotus `tvx`
+
+Filecoin has a tool to extract [test vectors](https://github.com/filecoin-project/test-vectors) from live networks. It lives in the Lotus codebase and it's called [`tvx`](https://github.com/filecoin-project/lotus/blob/master/cmd/tvx/main.go). When extracting a message, this tool identifies precursor messages that could've affected the precondition state, extracts those, and extracts the specified message. It then plays the message against a special blockstore that records all the state that was accessed and modified. It extracts those state items too and places them in the vector.
+
+Unfortunately, we have not been able to identify such a tool for Ethereum, and we think that it could be a common good for EVM-compatible chains if it existed. This RFP focuses on meeting the testing needs of the FVM, but a future RFP might be released to productise that tool so it can be used with other ecosystems.
+
 ## Timeline
 
 We expect this work to be done until the 7th of November. We would like to be able to use this tool after we deploy FVM M2.1 to Butterflynet, which is scheduled for the 14th of November 2022.
