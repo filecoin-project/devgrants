@@ -25,7 +25,7 @@ Interested in applying for an RFP below or have a project idea not listed here? 
 - [Reproducible / Verifiable Builds for Native FVM](#reproducible--verifiable-builds-for-native-fvm)
 - [Collections / Libraries of common example actors for Native FVM](#collections--libraries-of-common-example-actors-for-native-fvm)
 - [Tool for applying test vectors from Ethereum on FEVM](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-ethereum-test-vectors.md)
-- [Block Explorer with FVM / FEVM support](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-block-explorer.md)
+- [Block Explorer with FVM / FEVM support](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-block-explorer.md) [Now Closed]
 
 *Stay tuned! More RFPs will be posted soon:*
 
