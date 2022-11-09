@@ -8,7 +8,7 @@ The Filecoin Virtual Machine is a new and exciting addition to the Filecoin prot
 
 For the current roadmap and timeline, visit [https://fvm.filecoin.io/#roadmap-4](https://fvm.filecoin.io/#roadmap-4)
 
- &nbsp; 👾 &nbsp; In late Nov. 2022, a preview **Buildernet** testnet with the Filecoin EVM runtime is slated to go live.
+ &nbsp; 👾 &nbsp; In early Dec. 2022, a preview **Buildernet** testnet with the Filecoin EVM runtime is slated to go live.
  - The community is invited to participate in heavy functional, technical, and security testing.
  - Incentives and bounties may be available for developers and security researchers.
 
