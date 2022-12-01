@@ -8,7 +8,7 @@ assignees: ErinOCon
 
 ---
 
-### 1. What is your project? (max 100 words)
+### 1. What is your project, and what problem does it solve? (max 100 words)
 <!-- Description of your project built with Filecoin or closely related technologies (libp2p, ipfs, ipld, OrbitDB, Textile, NFT.storage, Web3.storage, Estuary, etc.) -->
 
 ### 2. Project links
@@ -19,7 +19,8 @@ License:
 
 <!-- This grant type is intended to support projects that have a working prototype and wish to take the next steps. MIT, APACHE2, or GPL license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content must be applied to the current project and all work funded via this microgrant. -->
   
-### 3. How is IPFS, Filecoin, or related technology used in this project? (max 100 words)
+### 3. How is IPFS, Filecoin, or related technology used in this project? (max 200 words)
+<!-- Outline your project's technical design, including details of how it uses IPFS, Filecoin, or related technologies include any APIs, services, or tools -->
   
 ### 4. How will you improve your project with this grant? What steps will you take to meet this objective? (max 200 words)
 <!-- Clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
