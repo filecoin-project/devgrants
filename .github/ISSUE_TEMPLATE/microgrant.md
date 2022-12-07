@@ -21,7 +21,7 @@ License:
   
 ### 3. a) How is IPFS, Filecoin, or related technology used in this project? (max 200 words)
 <!-- Outline your project's technical design, including details of how it uses IPFS, Filecoin, or related technologies include any APIs, services, or tools -->
-###    b) Is this project contributing to the upcoming FVM launch?
+       ### b) Is this project contributing to the upcoming FVM launch?
   
 ### 4. How will you improve your project with this grant? What steps will you take to meet this objective? (max 200 words)
 <!-- Clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
