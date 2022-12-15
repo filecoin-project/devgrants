@@ -1,4 +1,4 @@
-# Green Grants RFP
+# Green Grants RFP - This RFP is currently closed. 
 
 ## Overview
 Filecoin Green is seeking proposals in support of ReFi projects aiming to bring the economic system into a healthier alignment with the natural world. 
