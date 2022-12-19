@@ -17,7 +17,7 @@ assignees: realChainLife
 
 **(Optional) Technical Sponsor:** `If you have previously discussed this project with a member of the IPFS or Filecoin project teams and they have agreed to be a technical sponsor, include their name and/or github handle here`
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT, APACHE2, or GPL licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT or APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
 # Project Description
 
