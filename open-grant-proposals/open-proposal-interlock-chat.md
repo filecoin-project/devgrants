@@ -162,13 +162,13 @@ Prepare for unanticipated issues and features post soft launch
 ## Team
 
 ### Team Members
-+ Jen Fong-Adwent
-+ Tracy Hinds
-+ Leo Stratus
++ Jen Fong-Adwent @operatorjen
++ Tracy Hinds @hackygolucky
++ Leo Stratus @leostratus
 
 ### Relevant Experience
 
-**Jen Fong-Adwent** @operatorjen is the creator of Meatspace Chat, an open source chat platform that “differentiates itself from other chat systems by eschewing usernames, user registration and chat channels, and instead embracing ephemerality by limiting the exposure of a single message to a limited number of minutes, after which it does not appear again.” [^1]
+**Jen Fong-Adwent** is the creator of Meatspace Chat, an open source chat platform that “differentiates itself from other chat systems by eschewing usernames, user registration and chat channels, and instead embracing ephemerality by limiting the exposure of a single message to a limited number of minutes, after which it does not appear again.” [^1]
 
 Additionally, “Meatspace shifts the conversation into a different space than a conventional chat service, news feed or shared video stream. Instead, it’s an ephemeral app, similar to Snapchat.” [^2]
 
@@ -178,6 +178,6 @@ Additionally, “Meatspace shifts the conversation into a different space than a
 
 The Meatspace Chat project was one of the earlier implementations of real-time, web-based ephemeral chat communities, encouraging a global community of users to interact in a single channel without identity and with ephemeral WebRTC interactions. She has also worked on projects in the past decade involving encryption, federation and decentralization. Her previous professional experiences include engineering and leadership positions at Mozilla, Begin, Nike and Kickstarter. Currently she is the lead developer and architect for Crow & Pitcher.
 
-**Tracy Hinds** @hackygolucky is the creator of Crow & Pitcher, a substance misuse activity tracker service, and is an experienced leader in building and managing communities in open source. She is the product and UI designer of Emerge, the native iOS and Android app for Crow & Pitcher.
+**Tracy Hinds** is the creator of Crow & Pitcher, a substance misuse activity tracker service, and is an experienced leader in building and managing communities in open source. She is the product and UI designer of Emerge, the native iOS and Android app for Crow & Pitcher.
 
-**Leo Stratus** @leostratus is an award-winning cognitive scientist and software engineer, with over fifteen years of professional experience shipping polished products. They have a background in machine learning and artificial intelligence, as well as cross-platform mobile application development. Most recently, Leo was a Director of Engineering for multiple production engineering teams at Splice and previously worked at Mozilla, Begin, and Digital Ocean. Leo lives in Brooklyn where they also work on end consumer applications for EEG hardware using neural networks to detect ‘mental commands’.
+**Leo Stratus** is an award-winning cognitive scientist and software engineer, with over fifteen years of professional experience shipping polished products. They have a background in machine learning and artificial intelligence, as well as cross-platform mobile application development. Most recently, Leo was a Director of Engineering for multiple production engineering teams at Splice and previously worked at Mozilla, Begin, and Digital Ocean. Leo lives in Brooklyn where they also work on end consumer applications for EEG hardware using neural networks to detect ‘mental commands’.
