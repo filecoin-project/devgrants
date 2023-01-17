@@ -1,3 +1,5 @@
+Thank you for your interest in our grants program! We are currently reviewing a high volume of proposals. Please wait 30 days before checking in on the status of your grant request.
+
 # Filecoin Grants
 
 
