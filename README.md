@@ -10,9 +10,11 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 ---
 
 ### Next Step Microgrants
-Grants of $5,000 in FIL are available to support taking the _next step_ after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon. The microgrants are intended for early stage projects.  If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
+Starting <INSERT DATE HERE>, our microgrants program will be available specifically for pre-identified work within our ecosystem - starting with the upcoming FVM launch! If you are 1) building with FVM in a current project, 2) looking for ways to fund the next steps of your work, and 3) have a working prototype to showcase to our team, consider applying for a microgrant! Grants are valued at $5,000 USD and are paid in FIL.
 
-Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
+These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently or continuing with work started at a course or hackathon. 
+
+The microgrants are intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
 [**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Accepted Microgrant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) 
 
