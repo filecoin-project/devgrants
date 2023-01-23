@@ -2,30 +2,29 @@
 
 ## About
 
-Next Step Microgrants are available to support the next steps of specific development work that is building with Filecoin, IPFS, or related technology. Starting <<INSERT DATE HERE>> we will be accepting applications for projects that are building on FVM and have a working prototype to showcase their progress. 
+Starting <<INSTER DATE HERE>>, Next Step Microgrants are available for early stage projects that support pre-identified work within our ecosystem. The next round of microgrants will be awarded to projects building with FVM! If you are 1) building with FVM in a current project, 2) looking for ways to fund the next steps of your work, and 3) have a working prototype to showcase to our team, consider applying for a microgrant!
 
 ### Intended Audience
 These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
 
 ### Award
-After a microgrant is approved, Protocol Labs will make an initial payment valued at $1,000 USD to one single Filecoin wallet address. The second tranche (valuded at $4,000 USD) will be paid out after you have successfully deployed a functional version of your FVM project to Filecoin mainnet or the latest testnet. 
+After a microgrant is approved, Protocol Labs will make an initial payment valued at $1,000 USD to one single Filecoin wallet address. The second tranche (valued at $4,000 USD) will be paid out after you have successfully deployed a functional version of your FVM project to Filecoin mainnet or the latest testnet. 
  
-The entire grant amount will be pad in FIL and shoulud be used to support work related to integrating or improving Filecoin (developer time, hosting services, relevant hardware, etc.)
+_The entire grant amount will be paid in FIL_ and should be used to support work related to integrating or improving Filecoin, IPFS, or related technology (i.e. developer time, hosting services, relevant hardware, etc.)
  
 ### Program Qualifications
 Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet the following criteria:
 
-1. You've already built a working prototype with Filecoin (or closely related technologies such as IPFS, IPLD, libp2p, or frameworks or services such as NFT.storage, Textile Powergate, etc.), independently or as part of a course or hackathon.
-2. Your project is contributing to the upcoming FVM launch.
-3. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
-4. You can complete this work within 3 months. 
-5. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
-6. You agree to complete weekly updates and a grant report upon conclusion, with the results of your microgrant-funded work as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
+1. You are building with FVM and have already built a working prototype with Filecoin (or closely related technologies such as IPFS, IPLD, libp2p, or frameworks or services such as NFT.storage, Textile Powergate, etc.), independently or as part of a course or hackathon.
+2. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
+3. You can complete this work within 3 months. 
+4. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
+5. You agree to complete a final grant report after the three month time period. The report will speak to the results of your microgrant-funded work, as well as a description of your experience building on Filecoin, IPFS, and related technology. 
 
-When evaluating your proposal, we will consider creatitivty, potential impact, technical accomplishment, feasibility, and design. Applicants with quality submissions may also be contacted about promoting their work results (i.e. being featured on [the Filecoin Blog](https://blog.filecoin.io/) or social media).
+When evaluating your proposal, we will consider creatitivity, potential impact, technical accomplishment, feasibility, and design. Applicants with quality submissions may also be contacted about promoting their work results on [the Filecoin Blog](https://blog.filecoin.io/) or social media.
 
 ### Timelines
-Your microgrant application may be open until all proposals are received and considered. Typically, you can expect a response from our team after 2-4 weeks. 
+Your microgrant application may be open until all proposals are received and considered for the current grant round. Typically, you can expect a response from our team after 2-4 weeks. 
  
 ### Apply
 Apply for a grant using our ➡️[Next Step Microgrant Template](https://github.com/filecoin-project/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)⬅️.
@@ -50,8 +49,8 @@ Apply for a grant using our ➡️[Next Step Microgrant Template](https://github
 * Q: Which Filecoin wallet should I use?
   * A: Any valid Filecoin address can be used. You can read more about Filecoin wallets [in the documentation](https://docs.filecoin.io/reference/#wallets). We are not responsible for any use of the FIL once the deposit has been made to the wallet address you provided.
 
-* Q: When is the Filecoin payment made, at what price, and will I be notified?
-  * A: Protocol Labs processes Filecoin payments twice monthly, and there is a short validation period for transactions. Typically you will not have to wait longer than three weeks once your application has been submitted. The Filecoin price at the end of the prior day is used to determine the amount; however, this may vary based on market conditions. You will receive an email notifying you that your deposit has been made.
+* Q: When is the Filecoin payment made?
+  * A: Protocol Labs processes Filecoin payments twice a month and there is a short validation period for transactions. An estimated delivery date can be found in the portal used to submit your payment request. Please feel welcome to contact us at grants@filecoin.org if your payment is not received within 30 days. 
 
 * Q: Can someone join the team who was not part of the original hackathon? Or can I switch with someone? Or can only a subset of the original team still participate?
   * A: Yes! All team permutations are ok as long as there is only one submission per original hackathon project.
