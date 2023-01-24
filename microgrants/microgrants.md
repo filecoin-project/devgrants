@@ -27,7 +27,7 @@ Next Step Microgrants are intended to be easy to apply for, evaluate, and admini
 When evaluating your proposal, we will consider creativity, potential impact, technical accomplishment, feasibility, and design. Selected applicants may also be contacted about promoting their work results on [the Filecoin Blog](https://blog.filecoin.io/) or social media.
 
  ### Focus Areas
-| Focus Area | Applications Open | Notification Date |
+| Focus Area | Applications Open | Applications Closed |
 |---|---|---|
 | Filecoin Virtual Machine | December 12, 2022 | January 19, 2023 |
  
