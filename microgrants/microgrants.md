@@ -15,7 +15,7 @@ After a microgrant is approved, Protocol Labs will make an initial payment value
  _The entire grant amount will be paid in FIL_ and should be used to support work related to integrating or improving Filecoin, IPFS, or related technology (i.e. developer time, hosting services, relevant hardware, etc.)
 
 ### Program Qualifications
-Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meets the following criteria:
+Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet the following criteria:
 
 1. You've already built a working prototype with Filecoin (or closely related technologies such as IPFS, IPLD, libp2p, or frameworks or services such as NFT.storage, Textile Powergate, etc.), independently or as part of a course or hackathon.
 2. Your project fits the current [focus area](#focus-areas).
