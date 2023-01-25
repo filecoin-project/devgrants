@@ -10,7 +10,7 @@ Starting January 27, 2023, microgrants will exclusively be awarded for projects 
 These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
 
 ### Award
-After a microgrant is approved, Protocol Labs will make an initial payment valued at $1,000 USD to one single Filecoin wallet address. The second tranche (valued at $4,000 USD) will be paid out after you have successfully deployed a functional version of your FVM project to Filecoin mainnet or the latest testnet. 
+After a microgrant is approved, Protocol Labs will make an initial payment valued at $1,000 USD to one single Filecoin wallet address. The second tranche (valued at $4,000 USD) will be paid out after you have successfully deployed a functional version of your project to Filecoin mainnet or the latest testnet. 
  
  _The entire grant amount will be paid in FIL_ and should be used to support work related to integrating or improving Filecoin, IPFS, or related technology (i.e. developer time, hosting services, relevant hardware, etc.)
 
@@ -32,7 +32,7 @@ When evaluating your proposal, we will consider creativity, potential impact, te
 | Filecoin Virtual Machine | December 12, 2022 | January 19, 2023 |
  
 ### Timelines
-Your microgrant application may be open until all proposals are received and considered for the current grant round. Typically, you can expect a response from our team after 2-4 weeks. 
+Your microgrant application may be open until all proposals are received and considered for the current grant round. Typically, you can expect an update from our team after 2-4 weeks. 
 
 ### Apply
 Apply for a grant using our ➡️[Next Step Microgrant Template](https://github.com/filecoin-project/devgrants/issues/new?assignees=erinocon&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E)⬅️.
