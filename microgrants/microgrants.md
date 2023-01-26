@@ -73,7 +73,7 @@ Apply for a grant using our ➡️[Next Step Microgrant Template](https://github
   * A: Please contact our team immediately. We may be able to help with certain project hurdles and can discuss an updated timeline. 
 
 ## Support
-Support for Next Step Microgrants is contributed by [Protocol Labs](https://protocol.ai/) on a quarterly basis.
+Support for Next Step Microgrants is contributed by [Protocol Labs](https://protocol.ai/).
 
 
 _For more information on the Filecoin project's overall grant program, including other grant types, check out http://github.com/filecoin-project/devgrants._
