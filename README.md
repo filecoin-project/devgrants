@@ -10,9 +10,17 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 ---
 
 ### Next Step Microgrants
-Grants of $5,000 in FIL are available to support taking the _next step_ after you have created an initial prototype with Filecoin. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon. The microgrants are intended for early stage projects.  If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
+Grants of $5,000 in FIL are available to support taking the _next step_ after you have created an initial prototype with Filecoin, IPFS, or related technologies.
 
-Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
+Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. Stay tuned for more information on the next round of focused microgrants!
+
+<!-- KEEP THIS BLURB FOR RE-OPENING -->
+<!-- If you have (1) a working prototype that (2) matches the current focus area and (3) concrete _next steps_ for your project, consider applying for a microgrant! -->
+
+
+These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently or continuing with work started at a course or hackathon. 
+
+The microgrants are intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
 [**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Accepted Microgrant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) 
 
