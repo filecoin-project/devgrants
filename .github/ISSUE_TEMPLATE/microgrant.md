@@ -19,7 +19,7 @@ License:
 
 <!-- This grant type is intended to support projects that have a working prototype and wish to take the next steps. MIT or APACHE2 license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content must be applied to the current project and all work funded via this microgrant. -->
   
-### 3. a) How is IPFS, Filecoin, or related technology used in this project? (max 200 words)
+### 3. a) How is IPFS, Filecoin, or related technology used in this project?
 <!-- Outline your project's technical design, including details of how it uses IPFS, Filecoin, or related technologies include any APIs, services, or tools -->
 ###    b) Is this project building with the current microgrants focus area (FVM)? (Yes or No)
   
