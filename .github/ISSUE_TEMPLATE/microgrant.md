@@ -1,7 +1,7 @@
 ---
 name: Next Step Microgrant Application
 about: Apply for a $5,000 grant to continue work on projects you've started either
-  at a hackathon or independently, and fall within the current focus area. ### Please note: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
+  at a hackathon or independently, and fall within the current focus area. Please note: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
 title: <Your Title Here>
 labels: Micro Grant
 assignees: ErinOCon
