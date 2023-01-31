@@ -11,7 +11,7 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 
 ### Next Step Microgrants
 
-#### We are not accepting new applications at this time, but be sure to check back in! The next round of microgrant applications will be accepted shortly. 
+#### **We are not accepting new applications at this time, but be sure to check back in! The next round of microgrant applications will be accepted shortly.**
 
 Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
 
