@@ -27,10 +27,12 @@ Next Step Microgrants are intended to be easy to apply for, evaluate, and admini
 When evaluating your proposal, we will consider creativity, potential impact, technical accomplishment, feasibility, and design. Selected applicants may also be contacted about promoting their work results on [the Filecoin Blog](https://blog.filecoin.io/) or social media.
 
  ### Focus Areas
-| Focus Area | Applications Open | Applications Closed |
-|---|---|---|
-| Filecoin Virtual Machine - Wave 1 | December 12, 2022 | January 19, 2023 |
-| Filecoin Virtual Machine - Wave 2 | Coming Soon | TBD |
+| Focus Area | Applications Open | Applications Closed | Requirements |
+|---|---|---|---|
+| Filecoin Virtual Machine - Wave 1 | December 12, 2022 | January 19, 2023 | Deploy to testnet / mainnet |
+| Filecoin Virtual Machine - Wave 2 | Now <sup> *</sup> | TBD | Deploy to mainnet |
+
+<sup>*</sup> <sub>Applications waitlisted in Wave 1 will be considered in Wave 2.</sub>
  
 ### Timelines
 Your microgrant application may be open until all proposals are received and considered for the current grant round. Typically, you can expect an update from our team after 2-4 weeks. 
