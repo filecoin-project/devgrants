@@ -29,7 +29,8 @@ When evaluating your proposal, we will consider creativity, potential impact, te
  ### Focus Areas
 | Focus Area | Applications Open | Applications Closed |
 |---|---|---|
-| Filecoin Virtual Machine | December 12, 2022 | January 19, 2023 |
+| Filecoin Virtual Machine - Wave 1 | December 12, 2022 | January 19, 2023 |
+| Filecoin Virtual Machine - Wave 2 | Coming Soon | TBD |
  
 ### Timelines
 Your microgrant application may be open until all proposals are received and considered for the current grant round. Typically, you can expect an update from our team after 2-4 weeks. 
