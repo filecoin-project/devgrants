@@ -30,7 +30,7 @@ When evaluating your proposal, we will consider creativity, potential impact, te
 | Focus Area | Applications Open | Applications Closed | Requirements |
 |---|---|---|---|
 | Filecoin Virtual Machine - Wave 1 | December 12, 2022 | January 19, 2023 | Deploy to testnet / mainnet |
-| Filecoin Virtual Machine - Wave 2 | Now <sup> *</sup> | TBD | Deploy to mainnet |
+| Filecoin Virtual Machine - Wave 2 | Now <sup> *</sup> | March 20, 2023 | Deploy to mainnet |
 
 <sup>*</sup> <sub>Applications waitlisted in Wave 1 will be considered in Wave 2.</sub>
  
