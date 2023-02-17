@@ -4,7 +4,7 @@
 
 Next Step Microgrants are available to support the next steps of software projects building with Filecoin, IPFS, or related technology. If you have a working prototype and a clear idea of what comes next, consider applying for a microgrant!
 
-Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. Stay tuned for more information on the next round of focused microgrants!
+Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
 
 ### Intended Audience
 These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
