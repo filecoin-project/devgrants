@@ -1,3 +1,4 @@
+---
 name: Next Step Microgrant Application
 about: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
 title: <Your Title Here>
