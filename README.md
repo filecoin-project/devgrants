@@ -11,14 +11,11 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 
 ### Next Step Microgrants
 
-### Please note: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
-
 Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
 
-Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. Stay tuned for more information on the next round of focused microgrants!
+Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
 
-<!-- KEEP THIS BLURB FOR RE-OPENING -->
-<!-- If you have (1) a working prototype that (2) matches the current focus area and (3) concrete _next steps_ for your project, consider applying for a microgrant! -->
+If you have (1) a working prototype that matches the current focus area and (2) concrete _next steps_ for your project, consider applying for a microgrant!
 
 This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
