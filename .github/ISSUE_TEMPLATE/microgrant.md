@@ -1,6 +1,3 @@
-## Thank you for your interst in the microgrant program! We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
-
----
 name: Next Step Microgrant Application
 about: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
 title: <Your Title Here>
@@ -24,8 +21,15 @@ License:
 <!-- Outline your project's technical design, including details of how it uses IPFS, Filecoin, or related technologies include any APIs, services, or tools -->
 ###    b) Is this project building with the current microgrants focus area (FVM)? (Yes or No)
   
-### 4. How will you improve your project with this grant? What steps will you take to meet this objective? (max 200 words)
-<!-- Clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
+### 4. How will you improve your project with this grant? What steps will you take to meet this objective? 
+<!-- Using the table below, provide a clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
+  
+| Number | Grant Deliverable       | Briefly describe how you will meet deliverable objectives  | Timeframe (within 3 months)|
+| :---   | :------                 | :---                                                       | :---                       | 
+| 1.     |                         |                                                            |                            | 
+| 2.     |                         |                                                            |                            | 
+| 3.     |                         |                                                            |                            | 
+| 4.     |                         |                                                            |                            | 
 
 ### 5. If accepted, do you agree to share monthly project updates in this Github issue for 3 months or until the project described here is complete?
 <!-- Report content may include progress or results of your microgrant-funded work, any Filecoin technical or usage guidance requests, and a description of your experience building on Filecoin, including any challenges or shortcomings encountered. -->
