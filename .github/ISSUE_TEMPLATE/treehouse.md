@@ -24,7 +24,7 @@ Join the Treehouse community today and experience the future of online photo alb
 
 ## Market Problems
 
-Limited options for baby photo album apps. While there are many photo album apps on the market, it is designed for children and their unique needs.
+Limited options for baby photo album apps. While there are tech giant offer photo album apps on the mobile phone, it is not designed for children and their unique needs.
 
 Privacy concerns with centralized platforms. Current market leaders in Asia and other regions are operated by centralized platforms, leaving user data vulnerable to exploitation.
 
