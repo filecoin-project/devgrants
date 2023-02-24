@@ -1,6 +1,6 @@
 # Open Grant Proposal: `Treehouse`
 
-**Name of Project:**
+**Name of Project: Treehouse**
 
 **Proposal Category:** Choose one of `app-dev`
 
@@ -14,49 +14,54 @@
 
 ## Introduction of Treehouse
 
-Treehouse is a convenient and secure online photo album app for baby journeys. Parents can store the baby's daily life with precious living experience in the family's own Web3 world.
+Treehouse is the ultimate all-in-one online photo album app designed for modern families. Treehouse app seamlessly combines advanced features like milestone tracking and secure family member sharing with the latest technologies like NFTs and Filecoin storage - all within a convenient and private Web3 world.
 
-Traditional online photo album services are operated by a single platform company, all album content is under the management of the platform operator. Web3 is de-platformed and uses distributed storage technology. These storage spaces are provided by storage space providers around the world as marketplace There is no storage operator that can access your secure album content, ensuring user’s privacy and security.
+As a unique addition, Treehouse now also offers a dynamic Learning Diary function that allows parents, teachers, and students to connect, learn, and track progress in real time. In the Learning Diary, students receive learning hours certificates from their teachers, share photo and video works, and view progress with parents. This feature is perfect for developing new skills and documenting academic portfolios in a safe and secure way.
+
+We believe that preserving your family's memories should be both simple and secure, which is why our app is portable and allows for easy batch photo and video backups, all while saving valuable mobile device storage space.
+
+Join the Treehouse community today and experience the future of online photo album apps - an elegant and streamlined way to document your family's journey.
 
 ## Market Problems
 
-The existing Google Photos and Apple Photos are not designed for children. Currently, the baby journey photo album platform with the highest market share in Asia is operated by China based companies and used by tens of millions of people and more.
+Limited options for baby photo album apps. While there are many photo album apps on the market, it is designed for children and their unique needs.
 
-After analyzing photos and journey diaries of young children, we can understand the health status, life pattern and geographical distribution of young children, as well as family members and their composition, family background, nannies or schools, teachers and other networks. Platform operators are seriously affecting personal privacy, the most worrying of these is most users are unaware of this.
-Solutions
+Privacy concerns with centralized platforms. Current market leaders in Asia and other regions are operated by centralized platforms, leaving user data vulnerable to exploitation.
 
-## Distributed Storage
+Limited storage on portable devices. The demand for photo and video storage is high, and limited storage on mobile devices can quickly become an issue for families trying to document their child's journey.
 
-Treehouse uses Web3 content storage technology to ensure the account owner(photo uploader) and authorized family members are the only one who can view the content of the album files. The storage space of the album files is controlled by the user themself. Through the file encryption technology, no company or organization can access content without being authorized by the user. If the Treehouse operator cannot continue the service due to some situations, it will not impact user content or damage the user's content retrieval.
+## Solutions
 
-## Security & Privacy Protection
+### Filecoin Storage
 
-Treehouse uses a Public-key cryptography, or asymmetric cryptography service to protect the user's content, and only the user can decrypt the data. Suppose you want to upload your own photo album to Treehouse, the upload tool will help you to perform the AES-256 encryption process when saving the photo file, so the uploaded file is actually encrypted, and only users are able to retrieve and decrypt files. AES-256 is an encryption standard widely used in industry, finance and military. Treehouse does not host the user's password, so there is no possibility of any password leakage.
+Treehouse uses filecoin decentralized storage technology to ensure the account owner(photo uploader) and authorized family members are the only one who can view the content of the album files. The storage space of the album files is controlled by the user themself. Through the file encryption technology, no company or organization can access content without being authorized by the user. If the Treehouse operator cannot continue the service due to some situations, it will not impact user content or damage the user's content retrieval.
 
-When you share photos with family members, the system uses p2p encryption to individually transmit the shared decryption key, and does not disclose the user's public key information to avoid the risk of quantum computers doing brute force cracking.
-Persistence of file storage
+### Security & Privacy Protection
+Treehouse uses public-key cryptography with asymmetric encryption to protect user content. When a user uploads a photo album to Treehouse, the upload tool will perform the AES-256 encryption process to encrypt the photo files, ensuring that the uploaded file is encrypted and only the user is able to retrieve and decrypt the files.
 
-Completely different from platform operators, Treehouse uses Web3 storage technology - IPFS, and these storage spaces are provided by operators of the IPFS protocol all around the world. These services cannot be closed, if the Treehouse App is out of service for some reason, you can still retrieve the album yourself through IPFS protocol.
+When sharing photos with family members, Treehouse uses Elliptic Curve Integrated Encryption Scheme (ECIES) encryption to individually transmit the shared decryption key of AES-256, and does not disclose the user's public key information to avoid the risk of brute force cracking. This ensures that only the intended recipients are able to view the shared photos.
 
 ## Treehouse Technology Overview
 
-The Treehouse service is composed of three major elements.
-The first is DID - identity, which creates a representation of users. The second is an integrated API service, which includes internal cloud service for applications and blockchain with decentralized storage service for users.
+Treehouse is a secure and privacy-focused online photo album app with learning diary for modern families that combines advanced features like milestone tracking and learning portfolio with the latest technologies such as Filecoin storage & Dapps. The app uses Flutter framework for the frontend, Rust for the backend, and smart contracts to manage NFT creation and learning hours certificate. The system utilizes AES-256 ECM encryption technology and public-key cryptography with asymmetric encryption to ensure the security and privacy of user data.
 
 ## Treehouse software stack
+![treehouse_software_stack](https://user-images.githubusercontent.com/14127551/221176851-6cfddf43-29d9-449d-a66a-e78b724b7a82.png)
 
-![treehouse_software_stack](https://user-images.githubusercontent.com/14127551/209586900-6e045740-ce71-418c-aa96-5ea4cb744f11.png)
 
 ## Treehouse architecture
-
-![treehouse_architecture](https://user-images.githubusercontent.com/14127551/209587164-108a1f1d-d5ae-485f-aa8c-90dd04e1fadc.png)
+![treeHouse_architecture](https://user-images.githubusercontent.com/14127551/221176890-740fde87-a711-4064-a5ac-867986a9d9d3.png)
 
 
 ## Value
 
-Increased security: Provide greater security for users owned photos compared to traditional centralized storage solutions.
+The value of Treehouse lies in its ability to help parents, teachers, and students capture and preserve the precious moments of a child's journey in a secure and private way. It allows users to create a comprehensive learning diary that tracks a child's academic progress and provides a safe platform for parents and teachers to connect and collaborate.
 
-Lower costs: Because Filecoin utilizes a decentralized network of storage providers, it can often offer lower storage costs compared to centralized solutions. This could make it more cost-effective for users to store their photos on Filecoin.
+By using advanced encryption technology and Filecoin storage, Treehouse ensures that user data is kept private and secure. This provides peace of mind for parents and helps build trust in a world where data breaches and privacy violations are becoming increasingly common.
+
+In addition to the practical benefits, Treehouse also provides a meaningful way for families to celebrate and share special moments through the creation of NFTs. This feature allows users to easily mint their own NFTs to commemorate important milestones in a child's life, creating a unique and lasting digital memory.
+
+The social impact of Treehouse is significant, as it helps promote and support a culture of lifelong learning. By making it easy to document and track progress, parents and educators can better understand a child's learning journey, identify areas of improvement, and celebrate their achievements. This has the potential to positively impact a child's academic success and overall well-being, helping to build a brighter future for generations to come..
 
 <!-- - What are the risks that will make executing on this project difficult? -->
 
@@ -76,24 +81,20 @@ User adoption: Finally, there is a risk that users may not be interested in usin
 
 ## Treehouse App Features
 
-Secure key online photo/video album
-Use AES-256 encryption technology to ensure privacy and security. All uploaded photos and videos are protected by encryption technology.
+- Secure Online Album
+Protect your family's memories with AES-256 ECM encryption technology, ensuring your photos and videos are always kept private and secure.
 
-Photo/video file management
-Original image quality storage, extending the space of mobile phone albums to the unlimited cloud.
+- Batch Management
+Store your original quality photos and videos in unlimited filecoin storage, extending the storage space of your mobile device.
 
-Add family members account
-Add sub account and share photo with family members
+- Easy Family Sharing
+Easily share your photos with family members by adding sub-accounts and assigning photo permissions.
 
-Baby diary
-Combine photo and diary functions to keep every precious moment
+- Learning Diary
+Combine photo and diary functions to create a comprehensive learning diary that captures every precious moment and records progress.
 
-Reminder cards
-Write down what you have to do, automatically remind you, and use points to keep progress
-
-Make photos or blessing into NFTs
-Easy to mint your own NFT in every special moments, and give it to family or friends
-
+- NFT Creation
+Easily mint your own NFTs to commemorate special moments, making it easy to share and cherish those memories with family and friends.
 
 ## Development Roadmap
 
@@ -105,97 +106,92 @@ Easy to mint your own NFT in every special moments, and give it to family or fri
 <!-- - The amount of funding required for each milestone -->
 <!-- - How much time this milestone will take to achieve (using real dates) -->
 
-## Milestone 1 Treehouse Prototyping
+## Milestone 1 - Treehouse Prototyping & Photo/Video Batch Management
 Estimated Duration: 2 month
-UX/Product Designer x 1, UI/ART Designer x 1
-Costs: 8,000 USD
+FTE x 4
+- UX/Product Designer x 1
+- UI/ART Designer x 1
+- Flutters Engineer x 1
+- System Engineer x 1
+Costs: 16,000 USD
+Item of Deliverable
+
+|Item|Deliverable                            |Specification                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |Verification                     |
+|----|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|1   |License                                |Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                                                                                                                                                                                                                              |Statement                        |
+|2   |Design document                        |We will provide UI Wireframe and a basic tutorial that explains how a user can play, which will show how the functionality works.                                                                                                                                                                                                                                                                                                                                                         |Document                         |
+|3   |Functional Requirements with Test guide|Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                                                                                                                                           |Document                         |
+|4   |Docker                                 |We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                                                                                                                                                                                                                                                             |Docker                           |
+|5   |Photo/Video Batch Management module    |This milestone will focus on implementing the batch management feature for photo and video upload/download. The deliverables for this milestone include:  Frontend development with Flutter Framework:  Implement a batch upload/download feature in the Treehouse app to allow users to upload/download multiple photos and videos simultaneously.   Backend API Service:  Develop the backend API service using Java(or Rust) programming language to handle batch uploads and download.|Proof of design on android or ios|
+
+
+## Milestone 2 Secure data sharing
+Estimated Duration: 2 month
+FTE x 5
+- UX/Product Designer x 1
+- QA/QC x 1
+- Flutters Engineer x 1
+- System Engineer x 2
+
+Costs: 24,000 USD
 
 Item of Deliverable
 
-01 Treehouse app wireframe (Design Document)
-02 Treehouse app use cases sequence diagram (Design Document)
-03 Treehouse functional requirements Document (Design Document)
+|Item|Deliverable                            |Specification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |Verification                     |
+|----|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|1   |License                                |Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |Statement                        |
+|2   |Functional Requirements with Test guide|Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |Document                         |
+|3   |Docker                                 |We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |Docker                           |
+|4   |Photo management module                |Implementing the photo album management, include:  Frontend development with Flutter Framework: Add photos/videos  - Add albums - List albums - Delete albums - Query photos/videos - Delete photos/videos - Browsing photo/videos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |Proof of design on android or ios|
+|5   |Secure photo sharing module            |Implementing the easy family sharing feature, allowing users to easily share their photos with family members. <br></brThe>The deliverables for this milestone include:<br>  Frontend development with Flutter Framework:<br>  - Implement a family sharing feature in the Treehouse app, allowing users to add sub-accounts and assign photo permissions to specific family members. <br> - Develop the UI and UX of the family sharing feature to be intuitive and user-friendly. <br> - Implement Elliptic Curve Integrated Encryption Scheme (ECIES) encryption technology to ensure secure and private transmission of shared photos. <br>  Backend API Service: <br> - Develop the backend API service using Java programming language to handle family sharing requests. <br> Smart Contract: <br> - Develop a smart contract using Solidity to handle family sharing requests.<br>  - Implement smart contract functionality to verify user identity and provide access to sharing privileges.|Proof of design on android or ios|
 
-## Milestone 2 Wallet & NFT
+
+
+## Milestone 3 Learning Diary
 Estimated Duration: 2 month
-FullTimeEngineer x 2, QA/QC x 1, UX/Product Designer x 1
+FTE x 5
+- UX/Product Designer x 1
+- QA/QC x 1
+- Flutters Engineer x 1
+- System Engineer x 1
+
+Costs: 16,000 USD
+
+|Item|Deliverable          |Specification                                                                                                                                                                                                                                                                                                                          |Verification                     |
+|----|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|1   |License              |Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                                                                           |Statement                        |
+|2   |Test guide           |Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                      |Document                         |
+|3   |Docker               |We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                                                                                                          |Docker                           |
+|4   |Learning Diary Module|Frontend:<br>  Allow users to create learning cards, tagging photos, videos, and inviting Issuers to issue hours certificates.<br>   Dapps: <br> We will implement a smart contract for users to create learning cards and receive certificate hours from Issuers.<br>   Frontend developed by Flutter framework. Smart contract developed by Solidity.|Proof of design on android or ios|
+
+
+
+## Milestone 4 Precious moment with NFT
+Estimated Duration: 2 month
+FTE x 4
+- UX/Product Designer x 1
+- QA/QC x 1
+- Flutters Engineer x 1
+- System Engineer x 1
+
 Costs: 16,000 USD
 
 Item of Deliverable
 
-01 User wallet module
- - Generate user wallet
- - Receive tokens
- - Query transactions
- - Send tokens
+|Item|Deliverable               |Specification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |Verification                     |
+|----|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|1   |License                   |Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |Statement                        |
+|2   |Test guide                |Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |Document                         |
+|3   |Docker                    |We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |Docker                           |
+|4   |Precious moment NFT Module|Frontend development with Flutter Framework:  Implement the NFT Creation feature in the Treehouse app, allowing users to easily mint their own NFTs.   Backend API Service:  Develop the backend API service using Java programming language to handle the NFT Creation feature.    Implement a storage system that can store NFTs using Filecoin technology.   Implement file encryption using AES-256 ECM encryption technology to ensure user privacy and security.   Smart Contract:  Develop a smart contract using Solidity to handle NFT minting requests. Implement smart contract functionality to verify user identity and provide access to the NFT Creation feature.|Proof of design on android or ios|
 
-02 NFT mining module
- - Select type of NFT to mint
- - Mint NFT
- - Select users who can receive NFT
- - Generate secret code for receive NFT
-
-03 Test guide
- - Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-Document
-
-## Milestone 3 API & Security & Photo
-Estimated Duration: 2 month
-FullTimeEngineer x 3, QA/QC x 1, UX/Product Designer x 1
-Costs: 20,000 USD
-
-Item of Deliverable
-
-01 API Document
-02 API Service
-03 Security module
- - Generate User ID on web client
- - Add family members on web client
- - Encrypted photo files and upload to ipfs storage
- - Retrieve encrypted photo files from ipfs storage
- - Photo file decryption
- - Encrypted Photo files sharing with family members
- - Family members view shared photo
-04 Photo module
- - Add photos/videos
- - Add albums
- - List albums
- - Delete albums
- - Query photos/videos
- - Delete photos/videos
- - Browsing photo/videos
-05 Test guide
- - Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-
-## Milestone 4 Treehouse Diary & Reminders modules
-Estimated Duration: 2 month
-FullTimeEngineer x 2, QA/QC x 1, UX/Product Designer x 1
-Costs: 16,000 USD
-
-Item of Deliverable
-
-01 Diary module
- - Add records
- - Query records
- - Modify records
- - Delete records
- - Security module integration
-02 Reminder cards module
- - Add reminder card
- - Query reminder cards
- - Add point to cards
- - Delete card of point
- - Delete reminder card
- - Security module integration
-03 Test guide
- - Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
 
 
 ## Total Budget Requested
 
 <!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
 
-Total requested budget across all milestones: 60,000 USD
+Total requested budget across all milestones: 72,000 USD
 Our budget is entirely made up of salary and labor costs, with no additional expenses
 
 ## Maintenance and Upgrade Plans
@@ -206,7 +202,7 @@ Treehouse charges account users subscription fee and baby goods suppliers accoun
 
 1. Business model to support long-term plan & maintainess
  - Storage space subscription fee per account. According to market surveys to online photo album storage service providers, parents are willing to pay for the online storage space of a baby photo album, it’s around US$30 to US$60 annual fee.
- - NFT Mining fee. Treehouse charges NFT mining fees to users to support business
+ - Subscription model that includes access to different levels of features, including the learning diary and NFT creation.
 
 2. Promotion Strategy
  - Treehouse will be corporate with baby goods suppliers and care service providers to maximize market penetration. Develop with a local agency, referral program with community.
@@ -260,3 +256,9 @@ All prior project code can be verified on gitlab. Treehouse will be on github.
 # Additional Information
 
 <!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
+
+## Future consideration
+
+Filecoin Virtual Machine (FVM) Perpetual storage integration.
+Automate renewal of photo storage deals in perpetuity, without having to run infrastructure to manage repair or renewal of deals.
+
