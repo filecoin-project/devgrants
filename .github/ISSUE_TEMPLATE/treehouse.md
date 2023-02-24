@@ -125,7 +125,7 @@ Item of Deliverable
 |5   |Photo/Video Batch Management module    |This milestone will focus on implementing the batch management feature for photo and video upload/download. The deliverables for this milestone include:  Frontend development with Flutter Framework:  Implement a batch upload/download feature in the Treehouse app to allow users to upload/download multiple photos and videos simultaneously.   Backend API Service:  Develop the backend API service using Java(or Rust) programming language to handle batch uploads and download.|Proof of design on android or ios|
 
 
-## Milestone 2 Secure data sharing
+## Milestone 2 - Secure data sharing
 Estimated Duration: 2 month
 FTE x 5
 - UX/Product Designer x 1
@@ -147,7 +147,7 @@ Item of Deliverable
 
 
 
-## Milestone 3 Learning Diary
+## Milestone 3 - Learning Diary
 Estimated Duration: 2 month
 FTE x 5
 - UX/Product Designer x 1
@@ -166,7 +166,7 @@ Costs: 16,000 USD
 
 
 
-## Milestone 4 Precious moment with NFT
+## Milestone 4 - Precious moment with NFT
 Estimated Duration: 2 month
 FTE x 4
 - UX/Product Designer x 1
@@ -191,8 +191,9 @@ Item of Deliverable
 
 <!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
 
-Total requested budget across all milestones: 72,000 USD
-Our budget is entirely made up of salary and labor costs, with no additional expenses
+Total requested budget across all milestones: 72,000 USD.
+
+Our budget is entirely made up of salary and labor costs, with no additional expenses.
 
 ## Maintenance and Upgrade Plans
 
@@ -201,10 +202,13 @@ Our budget is entirely made up of salary and labor costs, with no additional exp
 Treehouse charges account users subscription fee and baby goods suppliers account sponsors to support business in the long term.
 
 1. Business model to support long-term plan & maintainess
+
  - Storage space subscription fee per account. According to market surveys to online photo album storage service providers, parents are willing to pay for the online storage space of a baby photo album, it’s around US$30 to US$60 annual fee.
+ 
  - Subscription model that includes access to different levels of features, including the learning diary and NFT creation.
 
 2. Promotion Strategy
+
  - Treehouse will be corporate with baby goods suppliers and care service providers to maximize market penetration. Develop with a local agency, referral program with community.
 
 
@@ -212,7 +216,7 @@ Treehouse charges account users subscription fee and baby goods suppliers accoun
 
 ## Team Members
 
-Jacob Lee, Project Team Lead 
+Jacob Lee, Project Team Lead <br>
 Brady Liu, Project Tech Lead
 
 ## Team Member LinkedIn Profiles
