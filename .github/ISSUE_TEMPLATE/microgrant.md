@@ -1,6 +1,6 @@
 ---
 name: Next Step Microgrant Application
-about: We are not accepting new applications at this time, but be sure to check back in! The next round will be open shortly.
+about: Submit this issue to apply for a Next Step Microgrant
 title: <Your Title Here>
 labels: Micro Grant
 assignees: ErinOCon
