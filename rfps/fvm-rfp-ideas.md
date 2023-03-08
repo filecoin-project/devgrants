@@ -1,6 +1,6 @@
 # FVM Project Ideas
 
-We are seeking proposals for the following RFPs for the Filecoin VM.
+Currently all FVM RFPs have been filled.
 
 #### About the FVM
 
@@ -22,16 +22,16 @@ Interested in applying for an RFP below or have a project idea not listed here? 
 
 ## *FVM Project Ideas*
 
-- [Reproducible / Verifiable Builds for Native FVM](#reproducible--verifiable-builds-for-native-fvm)
-- [Collections / Libraries of common example actors for Native FVM](#collections--libraries-of-common-example-actors-for-native-fvm)
-- [Tool for applying test vectors from Ethereum on FEVM](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-ethereum-test-vectors.md)
+- [Reproducible / Verifiable Builds for Native FVM](#reproducible--verifiable-builds-for-native-fvm) [Now Closed]
+- [Collections / Libraries of common example actors for Native FVM](#collections--libraries-of-common-example-actors-for-native-fvm) [Now Closed]
+- [Tool for applying test vectors from Ethereum on FEVM](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-ethereum-test-vectors.md) [Now Closed]
 - [Block Explorer with FVM / FEVM support](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-block-explorer.md) [Now Closed]
+- FVM Native developer toolbox [Now Closed]
 
-*Stay tuned! More RFPs will be posted soon:*
+*Stay tuned! More RFPs may be posted soon:*
 
-- Local Simulated Filecoin Network Sandbox (RFP coming soon)
-- FVM Native developer toolbox (RFP coming soon)
-- FVM Actor Interface Definition Language (RFP coming soon)
+- Local Simulated Filecoin Network Sandbox 
+- FVM Actor Interface Definition Language 
 
 &nbsp;
 -----
