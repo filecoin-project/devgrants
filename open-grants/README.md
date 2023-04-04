@@ -25,11 +25,12 @@ Open Grant proposals are reviewed monthly. We aim to notify applicants of a deci
 ## ⌛ After you apply
 
 After you submit your proposal, you can expect the following to occur:
-We will review your application. During review, we will add comments, questions, change requests, etcetera on your team's submission. Please look for comments on your Github issue.
-After a few round trips of discussion, our team will make a decision on which proposals to recommend funding and which not to.
-During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
-If your proposal is accepted, we will ask you to review and sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones.
-Grants should not be treated as final, or the funding as fully approved, until after the Grant Agreement is signed by both sides. 
+- We will review your application. During review, we will add comments, questions, change requests, etcetera on your team's submission. Please look for comments on your Github issue.
+- After a few round trips of discussion, our team will make a decision on which proposals to recommend funding and which not to.
+- During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
+- If your proposal is accepted, we will ask you to review and sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones.
+- Grants should not be treated as final, or the funding as fully approved, until after the Grant Agreement is signed by both sides. 
+
 Please reach out to #grants-help on Filecoin Slack or email grants@filecoin.org with any questions.
 
 
