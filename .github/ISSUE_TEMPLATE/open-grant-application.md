@@ -9,54 +9,62 @@ assignees: realChainLife
 
 # Open Grant Proposal: `Project Title`
 
-**Name of Project:**
+**Project Name:**
 
-**Proposal Category:** Choose one of `core-dev`, `app-dev`, `devtools-libraries`, `integration-adoption` , `technical-design`, `docs` , `community` , `metaverse` , `research` , `green`  Learn what these categories are here: https://github.com/filecoin-project/devgrants/tree/master/open-grants#readme
+**Proposal Category:** Choose one of `Developer and data tooling`, `Applications`, `Integrations`, `Research & protocols`, `Other`. Learn what these categories are here: https://github.com/filecoin-project/devgrants/tree/master/open-grants#readme
+
+**Individual or Entity Name:** Is the proposal on behalf of an individual, or an entity/organization? Please note that the agreement and any payments must be completed by the same entity, either individual or organization.
 
 **Proposer:** `replace with your GitHub username`
 
+**(Optional) Filecoin ecosystem affiliations:** `Please disclose any existing work relationships with organizations in the Protocol Labs Network, including Protocol Labs, Filecoin Foundation, Filecoin Foundation for the Decentralized Web, and any others.` 
+
 **(Optional) Technical Sponsor:** `If you have previously discussed this project with a member of the IPFS or Filecoin project teams and they have agreed to be a technical sponsor, include their name and/or github handle here`
 
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT or APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP under the MIT/Apache-2 dual-license?:** Please respond with "Yes" or "No".
 
-# Project Description
+# Project Summary
 
-<!-- Please describe exactly what you are planning to build. Make sure to include the following: -->
-<!-- - Start with the need or problem you are trying to solve with this project. -->
-<!-- - Describe why your solution is going to adequately solve this problem. -->
+<!-- Describe the nature and scope of the problem you are addressing, and how this project will address that need. This section should be 2-3 paragraphs long. -->
 
-<!-- This section should be 2-3 paragraphs long. -->
+## Impact 
 
-## Value
+<!-- This section should be 2-3 paragraphs long. Please describe in more detail why this proposal is valuable for the Filecoin, IPFS, or related ecosystems.
+- What pain points does this project seek to address? 
+- What are the benefits to getting this right? What are the risks of not getting this right?
+- What impact will this project have in a specific vertical, market, or ecosystem? What does success look like? -->
 
-<!-- Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions: -->
-<!-- - What are the benefits to getting this right? -->
-<!-- - What are the risks if you don't get it right? -->
-<!-- - What are the risks that will make executing on this project difficult? -->
+## Outcomes
 
-<!-- This section should be 1-3 paragraphs long. -->
+<!-- Please describe in detail what your final outcomes & deliverable(s) for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.-->
+<!-- Please describe how your team is measuring the success of your project and define the metrics being used.-->
 
-## Deliverables
+## Adoption, Reach, and Growth Strategies
 
-<!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
+<!-- Who is the target audience for your project? How large is this audience and how are you currently engaging with them?
+
+<!-- If applicable, how do you intend to onboard new users? If you are just starting to interact with your target audience, how will you onboard your first 10 users? Your first 100? -->
 
 ## Development Roadmap
 
-<!-- Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section). -->
+<!-- Please break up your development work into a clear set of 2-4 milestones. This section should be detailed (will vary by project, but aim for 1-2 pages for this section). -->
 
-<!-- For each milestone, please describe: -->
-<!-- - The software functionality that we can expect after the completion of each milestone. This should be detailed enough that it can be used to ensure that the software meets the specification you outlined in the Deliverables. -->
-<!-- - How many people will be working on each milestone and their roles -->
-<!-- - The amount of funding required for each milestone -->
-<!-- - How much time this milestone will take to achieve (using real dates) -->
+<!-- For each milestone, please describe:
+- The functionality that is expected after the completion of each milestone.
+- How many people will be working on each milestone and their roles
+- The amount of funding required for each milestone
+- How much time this milestone will take to achieve (using real dates) -->
+
 
 ## Total Budget Requested
 
-<!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
+| Milestone # | Description | Deliverables | Completion Date | Funding |
+|===|===|===|===|===|
 
 ## Maintenance and Upgrade Plans
 
-<!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
+<!-- Specify your team's long-term plans to maintain this project and improve it over time. -->
+
 
 # Team
 
