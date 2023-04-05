@@ -13,7 +13,7 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 
 Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
 
-Starting January 27, 2023, microgrants will exclusively be awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
+Since January 27, 2023, microgrants are exclusively awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
 
 If you have (1) a working prototype that matches the current focus area and (2) concrete _next steps_ for your project, consider applying for a microgrant!
 
