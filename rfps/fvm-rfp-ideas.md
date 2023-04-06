@@ -32,6 +32,7 @@ Interested in applying for an RFP below or have a project idea not listed here? 
 
 - Local Simulated Filecoin Network Sandbox 
 - FVM Actor Interface Definition Language 
+- Filecoin-Solidity - Scalability and Hardening of the current library [coming soon]
 
 &nbsp;
 -----
