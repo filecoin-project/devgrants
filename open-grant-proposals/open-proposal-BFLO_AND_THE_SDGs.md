@@ -29,10 +29,9 @@ Since Filecoin stands for new paradigms of truth through information, value to F
 
 ## Deliverables
 
-This project proposal includes connecting IPFS and Filecoin's SDK to the BFLO technology stack. In sum, the roadmap will consider designing the architecture and implementing the information on IPFS so we have a standard way of representing information provided in Web3 for sustainable attestations over the decentralized web.
+This project proposal includes creating accessible open data of current SDG committments available to ensure access for benchmarking by everyone seeking to solve climate and sustainability challenges. By connecting IPFS and Filecoin's SDK to the BFLO technology stack we are able to provide an open data commons for public good. In sum, the roadmap will consider designing the architecture and implementing the information on IPFS so we have a standard way of representing information provided in Web3 for sustainable attestations over the decentralized web.
 
 1. Connect IPFS to BFLO's technology stack for public attestations
-We will migrate the existing BFLO Commons onto IPFS to include public attestation and SDG reporting currently in the BFLO system and enable users to push their public claims to the BFLO Commons onn IPFS. 
 
 2. Connect Filecoin SDK to BFLO's technology stack 
 Implement Filecoin via SDK as a mechanism to increase incentivization for users of BFLO who upload their public claims to the BFLO data commons to pin these claims. 
