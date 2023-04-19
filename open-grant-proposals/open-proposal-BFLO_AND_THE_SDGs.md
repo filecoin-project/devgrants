@@ -92,25 +92,15 @@ We anticipate with use there will be nuances. We will seek to refine as time and
 
 # Team
 
-## Team Members
+## Team Members With Profiles
 
-- Amy Seidman, producer, designer, technology systems thinker
-- Gary Fitts, technologist and mathematician, W3 explorer
-- Miranda Baghashvilli, technical project management and hacker
-- Tsotne Nakopia, REACT and full stack developer
-- Joshua Bijak, full stack and W3 developer
-
-## Team Member LinkedIn Profiles
-
-- Team Member 1 https://www.linkedin.com/in/amyseidman/
-- Team Member 2 https://www.linkedin.com/in/garyfitts/
-- Team Member 3 https://www.linkedin.com/in/miranda-baghashvili-944b077/
-- Team Member 4 https://www.linkedin.com/in/tsotne-nakopia-5634a51b1/
-- Team Member 5 https://www.linkedin.com/in/ghsdsdafasdfgh/
+- Amy Seidman, producer, designer, technology systems thinker, blockchain innovator, https://www.linkedin.com/in/amyseidman/
+- Gary Fitts, technologist and mathematician, Web3 explorer, legacy systems expert, https://www.linkedin.com/in/garyfitts/
+- Davit Akobia, REACT, full stack developerand W3 developer, https://github.com/DM41131
 
 ## Team Website
 
-http://bflo.io/company
+https://bflo.io
 
 ## Relevant Experience
 
@@ -118,12 +108,9 @@ Amy is an innovator and early adoptor of new technologies whose main skills are 
 
 Gary brings experience of projects with large user networks and the first peer to peer networks, plus his work with academic data modeling offer unique perspectives on implementation and building across different systems.
 
-Miranda is supporting the project as a technical project manager and has experience in coding and systems integration including javascript, Salesforce and other skills.
+Davit has been working as a fullstack and blockchain developer.
 
-Tsotne Nakopia is a full stack developer who is versed in both front and backend, and will work with REACT and BFLO integration.
-
-Joshia Bijak is a full stack developer who is the CTO of Creol and has experience developing with IPFS, Ethereum and relevant W3 technologies.
-
+Amy and Davit won a Filecoin notable project award at The Graph Hack 2022 and Amy has been a Gitcoin Kernel and an Apollo Fellow (the Filecoin fellowship track)
 
 ## Team code repositories
 
