@@ -4,6 +4,7 @@ Category: devtools-libraries for FEVM
 
 Project priority: P0
 
+RFP content:
 - Overview and goals
 - Epic: Compatibility with compiler optimizers 
 - Epic: Implementing backlog items 
@@ -14,6 +15,7 @@ Project priority: P0
 - Epic: Bytecode and gas reduction 
 - Epic: Improving testing 
 - Epic: Network upgrade evolution, OSS stewardship/maintenance
+
 
 ### Overview and goals
 The purpose of this proposal is to outline additional work that should be done in order to improve and optimize the current state of our [filecoin-solidity libraries](https://github.com/Zondax/filecoin-solidity), as well as establish continued maintenance and OSS stewardship for this common good.
