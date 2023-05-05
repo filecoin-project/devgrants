@@ -37,7 +37,9 @@ RFPs are grants for specific development work. As the name suggests, we are requ
 
 OPEN RFPs:
 
-* [**FVM Project Ideas**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-rfp-ideas.md) RFP **New! 2023-0505 **
+* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) RFP **New! 2023-05-05 **
+ 
+* [**FVM Project Ideas**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-rfp-ideas.md) 
 
 CLOSED RFPs:
 
