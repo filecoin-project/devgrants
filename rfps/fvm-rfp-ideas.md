@@ -27,7 +27,7 @@ Interested in applying for an RFP below or have a project idea not listed here? 
 - [Tool for applying test vectors from Ethereum on FEVM](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-ethereum-test-vectors.md) [Now Closed]
 - [Block Explorer with FVM / FEVM support](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-block-explorer.md) [Now Closed]
 - FVM Native developer toolbox [Now Closed]
-- Filecoin-solidity Phase II: Optimization, improvements and maintenance
+- [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md)
 
 *Stay tuned! More RFPs may be posted soon:*
 
