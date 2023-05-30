@@ -45,7 +45,7 @@ Success Criteria: If a smart contract utilizes read-only actor methods, the publ
 #### Propagate exit codes
 See [this issue](https://github.com/Zondax/filecoin-solidity/issues/363). Protocol methods convey information through exit codes. However, the library currently swallows the exit code and unconditionally reverts, making it impossible for developers to handle errors. This needs to be fixed.
 #### Unblock other backlog items
-Besides the above issue, view the current state of the [backlog](https://github.com/Zondax/filecoin-solidity/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) and take actions to unblock it (implement, 
+Besides the above issue, view the current state of the [backlog](https://github.com/Zondax/filecoin-solidity/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) and take actions to unblock it (implement it)
 
 ### Epic: Developer ergonomics
 You should assess developer ergonomics of the current library versus other popular libraries.
