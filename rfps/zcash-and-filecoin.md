@@ -1,3 +1,5 @@
+NOTE (07/20/2023): The following RFP has now been closed. If you wish to apply for a grant to fund your work, please apply instead via [Open Grants](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon&labels=Open+Grant&projects=&template=open-grant-application.md&title=)
+
 # Zcash and Filecoin RFP
 
 ## Overview
