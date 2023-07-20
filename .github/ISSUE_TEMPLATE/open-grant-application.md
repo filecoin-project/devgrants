@@ -3,7 +3,7 @@ name: Open Grant Application
 about: Submit an open grant application
 title: ''
 labels: Open Grant
-assignees: smagdali, ErinOCon
+assignees: smagdali, ErinOCon, realChainLife
 
 ---
 
