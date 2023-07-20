@@ -43,6 +43,7 @@ OPEN RFPs:
 
 CLOSED RFPs:
 
+* [**Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) **This RFP is currently closed.**
 * [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) **This RFP is currently closed.**
 * [**Green Grants**](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md) RFP - **The RFP is currently closed.**
 
@@ -51,5 +52,5 @@ CLOSED RFPs:
 ---
 
 ### Don't see your grant type?
-Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](mailto:grants@filecoin.org) with your idea.
+Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](mailto:grants@fil.org) with your idea.
 
