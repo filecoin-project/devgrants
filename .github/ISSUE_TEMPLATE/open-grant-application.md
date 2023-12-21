@@ -17,6 +17,8 @@ assignees: smagdali, ErinOCon, realChainLife
 
 **Proposer:** `replace with your GitHub username`
 
+**Project Repo(s)** Please list Github repos used for this project work. 
+
 **(Optional) Filecoin ecosystem affiliations:** `Please disclose any existing work relationships with organizations in the Protocol Labs Network, including Protocol Labs, Filecoin Foundation, Filecoin Foundation for the Decentralized Web, and any others.` 
 
 **(Optional) Technical Sponsor:** `If you have previously discussed this project with a member of the IPFS or Filecoin project teams and they have agreed to be a technical sponsor, include their name and/or github handle here`
