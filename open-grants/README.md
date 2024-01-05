@@ -17,7 +17,7 @@ We welcome proposals in the following categories:
 
 - **FVM**: Projects may include rollups, staking protocols, and other strategic integrations of Filecoin with both new and existing tools or protocols.
 
-Note: The Devgrants program will prioritize funding that enhances functionality for Filecoin Network while de-emphasizing funding for projects that are exclusively IPFS, libp2p, and other stacks we may have previously supported. Look out for opportunities to apply for IPFS-focused grants at ipfs/devgrants.
+Note: The Devgrants program will prioritize funding that enhances functionality for Filecoin Network while de-emphasizing funding for projects that are exclusively IPFS, libp2p, and other stacks we may have previously supported. Look out for opportunities to apply for IPFS-focused grants at [ipfs/devgrants](https://github.com/ipfs/devgrants).
 
 ## 📋 How to apply
                                     
