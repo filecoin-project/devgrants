@@ -24,7 +24,7 @@ This program is intended for early stage projects. If your project has already r
 ---
 
 ### Open Grant
-Do you have an idea for pushing the Filecoin ecosystem forward? Grants of upt $50,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
+Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
 
 [**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=)
