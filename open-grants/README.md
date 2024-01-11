@@ -3,7 +3,7 @@
 ## About
 Do you have an idea for pushing the Filecoin ecosystem forward? Open grants are intended to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement. 
 
-We welcome proposals in the following categories:
+Open Grants applications for funding up to $50,000 are welcome in the following categories:
 
 - **Developer and Data Tooling**: For projects that close important experience gaps for developers or large dataset users. This might include improvements to command line or visual UX, API improvements, data preparation and ingest tools, developer tools and infrastructure, and more.
   
@@ -33,11 +33,8 @@ For shortlisted projects, we aim to notify all applicants of the final review de
 
 Note:
 - We aim to process applications faster than this timeline where possible.
-- It is important that no work begins without a signed contract.
-
-                                                                                                                        
+- It is important that no work begins without a signed contract.                                                                                                                    
                                                
-
 ## ⌛ After you apply
 
 After you submit your proposal, you can expect the following to occur:
