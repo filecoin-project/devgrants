@@ -42,7 +42,13 @@ Apply for a grant using our ➡️[Next Step Microgrant Template](https://github
 
 ## FAQ
 
-* Q: My project publishes data or files to IPFS, does it qualify?
+<details>
+  <summary>My project publishes data or files to IPFS, does it qualify?</summary>
+ 
+Yes, so long as your project aligns with the current [Microgrant focus areas](#focus-areas)
+</details>
+  
+* Q: My project publishes data or files to IPFS, does it qualify?**
   * A: Yes, so long as your project aligns with the current [Microgrant focus areas](#focus-areas)
 
 * Q: My project uses OrbitDB, Textile, nft.storage, or other framework or service, not IPFS directly. Does it qualify?
