@@ -1,0 +1,99 @@
+# Open Grant Proposal: `Adapt IPFS to Machine Learning & Data Pipelines`
+**Name of Project:** IPFS for ML/Data
+**Proposal Category:** `app-dev`, `devtools-libraries`
+**Proposer:** david.aronchick@protocol.ai
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
+
+# Project description
+One of the top use case opportunities for IPFS will involve enabling big data and ML pipelines. However, the existing platforms where people consume these large datastores today (Jupyter, Kubeflow, Spark, Pachyderm, etc), have no easy ways to integrate IPFS as an "initial" data store. A standard pattern will be copying from the relatively low performance storage of IPFS to higher performance local disk or memory for processing. Our goal will be to build adapters into multiple projects as both initial implementations and inspiration for more projects to support IPFS. 
+
+To start, we will begin with two projects already open sourced:
+- The SAME project: A project dedicated to making it easy to move from Jupyter notebooks to production ML/data pipelines
+- Pachyderm: A popular open source data pipeline.
+
+We've chosen these two because we both can get started very quickly, know the dynamics of their communities (making contribution easier), and are not controlled by enormous companies (like Spark and Hadoop). Once we explore these two, we will evalute further options for integrations.
+
+The SAME work will also enable Protocol Labs to establish a "founding" presence in a community that is likely to grow and cross pollinate with many other open source projects, which will be a further benefit.
+
+# Value to the Ecosystem
+- What are the benefits to getting this right?
+While IPFS has grown enormously, and has many valuable datasets already hosted, the consumption of these datasets still has a lot of room to grow. By tying the content hosted in IPFS to detailed use cases in data and ML, we will show the value of IPFSs well as provide inspiration for further exploration by the community.
+
+Further, because we will have a core position in a new and interesting open source project, we will have an opportunity to advance PL's name with a new audience, and a landing place for new technologies.
+
+- What are the risks if you don't get it right?
+
+There is limited downside to the project if we do not get it to work properly. We will have explored a new domain on how to use IPFS (data and machine learning), and bridged to a new community that we would like to embrace IPFS more (the data science community). As long as we are open and transparent about what we're doing, we should minimize any risk.
+
+- What are the risks that will make executing on this project difficult?
+
+The data science community can be quite insular, so we should make sure to meet them where they are, asking them to pick up as few new tools as possible. This means building Jupyter and Python (almost exclusively) at the start. We will also have to understand how to these folks build platforms at scale, since only then will teams see differential value in consuming large data sets. Building a strong community around our efforts should address both.
+
+## Deliverables
+- Cross platform binary for converting a Jupyter notebook into backend code
+- Cross platform Python SDK for enriching notebooks with IPFS
+- Automated testing for all of the above, including provisioning of backends
+- Documentation and Demos
+- Source code for all of the above
+- Vibrant community
+    - Weekly meetings
+    - Slack channel
+    - Email list
+    - Governance rules
+
+## Development Roadmap
+
+**Milestone 0: Build out the community - and regular activity for 6 months**
+This project is a long-term undertaking, and we plan to continue it every year as IPFS evolves to ensure that we are meeting the needs of this critical audience. However, we will only know exactly how to engage after a six-month exploration.
+
+- Placeholder repo with SDK & CLI
+- Builds for multiple platforms
+- Social tools (Twitter, Email list, Slack channel, Weekly meetups)
+- "Hello world" - converts notebook to backend platform (Kubeflow) that community members can clone and build themselves
+- Minimum of 26 weekly meetings held
+
+Estimated time: 6 person-months ($5000/mo) (to run continuously with all other steps, ending on May 1)
+
+**Milestone 1: Extend to IPFS**
+
+- Datasets portion of configuration file can automatically detect and read datasets from IPFS
+- Local development experience works even when you don't have Retrieval node installed?
+- Documentation, video demo and example in repo
+
+Estimated Time - 1 person month ($5000)
+
+**Milestone 2: Partnership with cloud providers**
+
+- Extend platform to test running on AWS + 1 other cloud provider
+- Support not just IPFS but S3 and S3 compatible block (as an intermediary or as a primary source)
+- Support writing finished artifacts back to IPFS
+
+Estimated Time - 1 person month ($5000)
+
+**Milestone 4: Documentation and Demos**
+- Proper Documentation for deploying against n + 2 backends
+- Articles explaining the project
+- Youtube video to explain and demonstrate the project 
+- Properly documented Github README
+
+Estimated Time - 1 person month ($5000)
+
+**Milestone 5-6: TBD**
+- We expect during the initial milestones, we will discover the next steps for building a vibrant community. These will be developed during the process.
+
+Estimated Time - 2 person months ($5000/mo)
+
+## Total Budget Requested
+We are asking for a $60000USD funding support from Filecoin Dev Grant. This will fund an engineer spending 8 hrs/week on the project for 6 months.
+
+# Team
+
+## Contact Info
+Luke Marsden: Luke Marsden <luke.marsden@gmail.com>
+
+## Relevant Experience
+
+Luke has been a long time contributor to the Kubernetes community, and previously worked on a startup focusing on data scientists and data. He also works closely with Pachyderm, one of the top platform providers in the ML data space.
+
+## Code repositories
+TBD
