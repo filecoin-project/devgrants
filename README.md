@@ -13,7 +13,7 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
 
-[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=)
+[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
 
 ---
 
@@ -41,7 +41,7 @@ If you have (1) a working prototype that matches the current focus area and (2) 
 
 This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
-[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
+[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
 
 ---
 
