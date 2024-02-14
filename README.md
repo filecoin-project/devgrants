@@ -35,13 +35,13 @@ CLOSED RFPs:
 
 Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
 
-Since January 27, 2023, microgrants are exclusively awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/Archive/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
+Since January 27, 2023, microgrants are exclusively awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md#focusareas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
 
 If you have (1) a working prototype that matches the current focus area and (2) concrete _next steps_ for your project, consider applying for a microgrant!
 
 This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
-[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Archive/microgrants/microgrants.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
+[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md)) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
 
 ---
 
