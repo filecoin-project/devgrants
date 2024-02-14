@@ -41,7 +41,7 @@ If you have (1) a working prototype that matches the current focus area and (2) 
 
 This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
-[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md)) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
+[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
 
 ---
 
