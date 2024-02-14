@@ -13,7 +13,7 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
 
-[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=)
+[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Details/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=)
 
 ---
 
@@ -24,10 +24,10 @@ OPEN RFPs: Keep an eye out for future RFPs!
 
 CLOSED RFPs:
 
-* [Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) 
-* [FVM Tooling & Infrastructure](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) 
-* [Green Grants](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md)  
-* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) 
+* [Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/zcash-and-filecoin.md)
+* [FVM Tooling & Infrastructure](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/fvm-open-tools-infra.md)
+* [Green Grants](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/green-grants.md)
+* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/Filecoin-solidity-Optimization.md) 
 
 ---
 
@@ -41,7 +41,7 @@ If you have (1) a working prototype that matches the current focus area and (2) 
 
 This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
 
-[**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Accepted Microgrant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) 
+[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Archive/microgrants/microgrants.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=ErinOCon&labels=Micro+Grant&projects=&template=microgrant.md&title=%3CYour+Title+Here%3E)
 
 ---
 
