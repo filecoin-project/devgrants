@@ -1,7 +1,7 @@
 ---
 name: Next Step Microgrant Application
 about: Submit this issue to apply for a Next Step Microgrant
-title: <Your Title Here>
+title: "<Your Title Here>"
 labels: Micro Grant
 assignees: ErinOCon
 
