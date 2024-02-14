@@ -24,9 +24,9 @@ OPEN RFPs: Keep an eye out for future RFPs!
 
 CLOSED RFPs:
 
-* [**Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) 
-* [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) 
-* [**Green Grants**](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md) RFP 
+* [Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) 
+* [FVM Tooling & Infrastructure](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) 
+* [Green Grants](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md)  
 * [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) 
 
 ---
