@@ -20,17 +20,14 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50
 ### Requests for Proposals (RFPs)
 RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
 
-OPEN RFPs:
-
-* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) RFP **New! 2023-05-05 **
- 
-* [**FVM Project Ideas**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-rfp-ideas.md) 
+OPEN RFPs: Keep an eye out for future RFPs!
 
 CLOSED RFPs:
 
-* [**Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) **This RFP is currently closed.**
-* [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) **This RFP is currently closed.**
-* [**Green Grants**](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md) RFP - **The RFP is currently closed.**
+* [**Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/rfps/zcash-and-filecoin.md) 
+* [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) 
+* [**Green Grants**](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md) RFP 
+* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) 
 
 ---
 
