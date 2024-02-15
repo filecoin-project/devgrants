@@ -10,7 +10,7 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 ---
 
 ### Open Grant
-Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
+Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
 
 
 [**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
