@@ -15,7 +15,7 @@ Today, we are quickly racing toward the 6th mass global extinction with rapid de
 
 BFlo technology helps track, verify and manage sustainability claims for proof of reputation around business investment leveraging the Sustainable Development Goals (SDGs). 
 
-"BFlo AND THE SDGs" is our project to leverage BFlo technology, Filecoin and IPFS storage. Our grand vision is to store and map the world's SDG claims to public attestations and verification that these claims meet one or more the 17 United Nations Sustainable Development Goals (SDGs). Filecoin as an incentivization mechanism to the community, shall facilitate the processing and indexing for users to leverage our tools for reporting and verification of their SDG claims.
+"BFlo AND THE SDGs" is our project to leverage BFlo technology, Filecoin and IPFS storage. Our grand vision is to store and map the world's SDG claims to public attestations and verification that these claims meet one or more the 17 United Nations Sustainable Development Goals (SDGs). Filecoin as an incentivization mechanism to the community, shall facilitate the processing and indexing for users to leverage tools for reporting and verification of their SDG claims with the archival and transparency benefits of web3 and decentralization.
 
 ## Value
 
@@ -23,18 +23,18 @@ The United Nations adopted the SDGs as the framework to solve our greatest chall
 
 While Nature will survive and reset, the risks of us not solving climate change points towards the suffering of future generations and countless species we rely on in our delicate web of life.  At present, humanity's added pressure of crumbling global democracies require we have anchors of truth amid a landscape of ever shifting information and "fake news", where pundits provide 35-65% of the false information, and our leaders are removing vast libraries of environmental information. 
 
-By creating a global repository for public attestations, both positive and negative, we can begin to see the truth behind the flow of respources, tanglible and intangible. We need entitites to be held accountable for their committments versus using these as a lever for branding. 
+By creating a data commons and global repository for public attestations, both positive and negative, we can begin to see the truth behind the flow of respources, tanglible and intangible. We need entitites and individuals to be held accountable for their committments versus using these as leverage for branding. 
 
-Since Filecoin stands for new paradigms of truth through information, value to Filecoin is to meet the organization's mission, and to provide meaningful collective intelligence that can help guide us toward the world we want to be, while we rapidly scale solutions by providing the landscape map and transparency. 
+Since Filecoin stands for new paradigms of truth through information, value to Filecoin is to meet the organization's mission, and to provide meaningful collective intelligence that can help guide us toward the world we want to be, while we rapidly scale solutions we need to a map to see the landscape to begin to intelligently provide solutions. 
 
 ## Deliverables
 
-This project proposal includes creating accessible open data of current SDG committments available to ensure access for benchmarking by everyone seeking to solve climate and sustainability challenges. By connecting IPFS and Filecoin's SDK to the BFlo technology stack we are able to provide an open data commons for public good. In sum, the roadmap will consider designing the architecture and implementing the information on IPFS so we have a standard way of representing information provided in Web3 for sustainable attestations over the decentralized web.
+This project proposal includes creating accessible open data of current SDG committments (as available by country) visible via a browser to everyone seeking to solve climate and sustainability challenges and seed the data commons. By connecting IPFS and Filecoin's SDK to the BFlo technology stack we are able to provide an open data commons for public good leveraging web3. In sum, the roadmap considers designing the architecture and implementing the information on IPFS so we have a standard way of representing information provided in Web3 for sustainable attestations over the decentralized web.
 
 1. Connect IPFS to BFlo's technology stack for public attestations
 
 2. Connect Filecoin SDK to BFlo's technology stack 
-Implement Filecoin via SDK as a mechanism to increase incentivization for users of BFlo who upload their public claims to the BFlo data commons to pin these claims. 
+Implement Filecoin via SDK as a mechanism to increase incentivization to pin these public claims within the BFlo data commons. 
 
 3. BFlo Commons Explorer
 Develop a browser based explorer of BFlo Commons using REACT that connects the front end to the BFlo Data Commons via REST API
