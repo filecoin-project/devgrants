@@ -38,6 +38,7 @@ Implement Filecoin via SDK as a mechanism to increase incentivization to pin the
 
 3. BFlo Commons Explorer
 Develop a browser based explorer of BFlo Commons using REACT that connects the front end to the BFlo Data Commons via REST API
+![BFlo_SDG_DataCommons_Filecoin](https://github.com/AmySeidman/devgrants/assets/33657782/4b33e91e-8774-471b-b8b6-ff015698267a)
 
 ## Roadmap, Timeline, Budget
 The roadmap timeline runs over a 3 month period from the date of the grant receipt. Milestones will be developed in parallel as follows:
@@ -52,24 +53,35 @@ The roadmap timeline runs over a 3 month period from the date of the grant recei
 </thead>
 <tbody>
 <tr>
-<td>IPFS Integration & BFlo Commons Migration</td>
-<td>Weeks 1 - 10</td>
-<td>$9,000</td>
+<td>BFlo Commons Architecture</td>
+<td>Weeks 1 - 8</td>
+<td>$18,000</td>
 </tr>
 <tr>
-<td>FileCoin SDK Integration</td>
-<td>Weeks 4 - 8</td>
-<td>$5,000</td>
+<td>FileCoin SDK & Smart Contract Integration</td>
+<td>Weeks 9 - 11</td>
+<td>$25,000</td>
 </tr>
 <tr>
-<td>BFlo Commons Explorer V1</td>
+<td>BFlo Commons Explorer V1 Front and BFlo API Integration</td>
 <td>Weeks 6 - 10</td>
-<td>$6,000</td>
+<td>$18,000</td>
 </tr>
 <tr>
-<td>QA & Use Case Modeling</td>
-<td>Weeks 8 - 12</td>
-<td>$5,000</td>
+<td>QA & Continued Modeling/Data Refining</td>
+<td>Weeks 12-14</td>
+<td>$10,000</td>
+</tr>
+<td>Contingency, </td>
+<td>Flat</td>
+<td>$4,000</td>
+</tr>
+<tr><td></td>td>__________<td>
+</tr>
+<tr>
+<td>Total Budget</td>
+<td>Entire Project</td>
+<td>$75,000</td>
 </tr>
 </tbody>
 </table>
@@ -78,17 +90,20 @@ The roadmap timeline runs over a 3 month period from the date of the grant recei
 
 Professional Fees: 85%.
 Project Management: 10%
-Administration & Operations, Accounting: 5%.
+Administration & Operations, Accounting, Network Fees for Data Commons Seeding: 5%
+Contingency: 2.5%
 
 ## Maintenance and Upgrade Plans
 
 Phase 2 Plans are:
 
-• Build towards v2.0 of the BFlo Commons
-• Added functionality we envision including are indexing tools to access and interact with blockchain attestations.
-• Deepen engagement with W3C to promote the adoption of BFlo technology by verifiers and certifiers, and the technology by relevant ecosystem players.
+• Build towards v2.0 of the BFlo Commons with additional frameworks in our roadmap 
+• Index data knowlede graphs for Web3 access including DIDs
+• Educate around web3 tools implemented to deepen understanding of the benefits of decentralization and broaded awareness of the tools we use, as well as promote adoption by relevant ecosystem players 
+• Other goodies for greater scaling of solutions to more swiftly meet SDGs and climate crisis
+• Set up a dedicated node to secure data on behalf of people and organizations who can not afford to participate in the system yet need to be represented such as underserved communities, NGOs, workers and individuals in emerging nation. We would be grateful for Filecoin to consider a multi-year lockup grant for the collateral for this purpose.
 
-We anticipate with use there will be nuances. We will seek to refine as time and resources allow.
+We anticipate with use there will be nuances and we are looking forward to battle testing and shall continue to refine as time and resources allow.
 
 # Team
 
@@ -96,28 +111,45 @@ We anticipate with use there will be nuances. We will seek to refine as time and
 
 - Amy Seidman, producer, designer, technology systems thinker, blockchain innovator, https://www.linkedin.com/in/amyseidman/
 - Gary Fitts, technologist and mathematician, Web3 explorer, legacy systems expert, https://www.linkedin.com/in/garyfitts/
-- Davit Akobia, REACT, full stack developerand W3 developer, https://github.com/DM41131
+- Davit Akobia, REACT, full stack developerand W3 developer,
+https://github.com/DM41131
+- Gurpreet Singh, financial analyst, https://www.linkedin.com/in/gurpreet-singh2504
+- Tony Winders, communications and public education, https://www.linkedin.com/in/twinders
+
+Other developers and team mates who work with us shall be credited according to participation according to availability, timing and budget allowances
 
 ## Team Website
 
 https://BFlo.io
+https://twitter.com/bflotech
 
 ## Relevant Experience
 
-Amy is an innovator and early adoptor of new technologies whose main skills are systems thinking and design, with deep experience in both media and technology development, as well as a sustainability background as founder of Noble Profit to inform the work. 
+Amy is an innovator and early adoptor of new technologies whose main skills are systems thinking and design, with deep experience in both media and technology development, as well as a sustainability background as founder of Noble Profit to inform the work. As an early adoptor of Web1 through Web3, Amy began building websites and interactive media and tech for entertainment studios, global companies and NGOs since the beginning of the web. A systems thinker, environmental activist and educator, Amy's work is led by deep conviction and a creative mind.
 
-Gary brings experience of projects with large user networks and the first peer to peer networks, plus his work with academic data modeling offer unique perspectives on implementation and building across different systems.
+Gary brings experience of projects with large user networks and the first peer to peer networks, plus his work with academic data modeling offer unique perspectives on implementation and building across different systems. He has been a participant in modeling climate change with Lawrence Berkely Labs and most recently Rand Corporation, was a part of the team that created TOPs and built the first microprocessing website. Gary spends time with horses and is committed to community and his family.
 
-Davit has been working as a fullstack and blockchain developer.
+Davit has been working as a fullstack and blockchain developer. His background includes networks and bringing hardware and software together. He has also been a University professor and has a deep passion file 
 
-Amy and Davit won a Filecoin notable project award at The Graph Hack 2022 and Amy has been a Gitcoin Kernel and an Apollo Fellow (the Filecoin fellowship track)
+Tony will help lead the eduation and communications around the project. Tony has deep experience in communications programs proven to build awareness around digital media and blockchain projects. He is an avid enthusiast around nature and the outdoors, and he and his partner are known as the Pepper Bandits for their red pepper spice blend. 
+
+GP has been providing robust financial modeling providing and operational support to the company. Bringing with him his MBA and experience working on structured finance and loan administration at BNY Mellon, and Motilal Oswal Securities Ltd.
+
+_A little Bit of History_
+Amy and Davit won a Filecoin notable project award at The Graph Hack 2022. They also both contributed as commenters to the recent smart cities sustainability framwework with IEEE.
+
+Amy and Tony have worked together for decades on numerous interactive media projects and Tony is an active contributer to the project.
+
+Gurpreet supports product development with an eye of the financial analyst and helps on financial modeling with the project since the early days.
+
+Amy has been a Gitcoin Kernel Fellow and an Apollo Fellow (the Filecoin fellowship track), advised UNEP on blockchain in 2018, a speaker at COP, UNGA, Davos, YLP, Earthx and other venues as a subject matter expert for sustainability, SDGs and Web3 
 
 ## Team code repositories
 
 https://github.com/BFloio
-The data and code developed as deliverable of this grant shall be open sourced. We have not open sourced much on our project as we are still building and some of our code involves other IP we are not able to open source. 
+The data and code developed as deliverable of this grant shall be open sourced. 
 
-Other repos of team members are available.
+Note: We have not open sourced much on our project as we are still actively building and it has been too early in the project to open source. This will be a seed for the tools we wish to share now that we have completed some of the core features required to address an authentic resource for sustainability solutions.
 
 
 # Additional Information
