@@ -1,6 +1,6 @@
 To submit a proposal, please create a PR against this template in this repo. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
 
-# Open Grant Proposal: `BFlo AND THE SDGs`
+# Open Grant Proposal: `BFLO AND THE SDGs`
 
 **Name of Project: BFlo AND THE SDGs
 
