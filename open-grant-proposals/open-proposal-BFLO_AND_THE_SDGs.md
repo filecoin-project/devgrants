@@ -44,48 +44,50 @@ Develop a browser based explorer of BFlo Commons using REACT that connects the f
 The roadmap timeline runs over a 3 month period from the date of the grant receipt. Milestones will be developed in parallel as follows:
 
 <table>
-<thead>
-<tr>
-<th>Milestone</th>
-<th>Time</th>
-<th>Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BFlo Commons Architecture</td>
-<td>Weeks 1 - 6</td>
-<td>$18,000</td>
-</tr>
-<tr>
-<td>FileCoin SDK & Smart Contract Integration</td>
-<td>Weeks 6 - 11</td>
-<td>$25,000</td>
-</tr>
-<tr>
-<td>BFlo Commons Explorer V1 Front and BFlo API Integration</td>
-<td>Weeks 12 - 14</td>
-<td>$18,000</td>
-</tr>
-<tr>
-<td>QA & Continued Modeling/Data Refining</td>
-<td>Weeks 14 - 16</td>
-<td>$10,000</td>
-</tr>
-<td>Contingency</td>
-<td>Flat</td>
-<td>$4,000</td>
-</tr>
-<tr><td></td>
-<td></td>
-<td>__________<td>
-</tr>
-<tr>
-<td>Total Budget</td>
-<td>Entire Project</td>
-<td>$75,000</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Time</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BFlo Commons Architecture</td>
+      <td>Weeks 1 - 6</td>
+      <td>$18,000</td>
+    </tr>
+    <tr>
+      <td>FileCoin SDK & Smart Contract Integration</td>
+      <td>Weeks 6 - 11</td>
+      <td>$25,000</td>
+    </tr>
+    <tr>
+      <td>BFlo Commons Explorer V1 Front and BFlo API Integration</td>
+      <td>Weeks 12 - 14</td>
+      <td>$18,000</td>
+    </tr>
+    <tr>
+      <td>QA & Continued Modeling/Data Refining</td>
+      <td>Weeks 14 - 16</td>
+      <td>$10,000</td>
+    </tr>
+    <tr>
+      <td>Contingency</td>
+      <td>Flat</td>
+      <td>$4,000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>__________</td>
+    </tr>
+    <tr>
+      <td>Total Budget</td>
+      <td>Entire Project</td>
+      <td>$75,000</td>
+    </tr>
+  </tbody>
 </table>
 
 ## Breakdown of Budget
