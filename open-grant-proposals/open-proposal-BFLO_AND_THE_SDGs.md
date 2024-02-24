@@ -54,29 +54,31 @@ The roadmap timeline runs over a 3 month period from the date of the grant recei
 <tbody>
 <tr>
 <td>BFlo Commons Architecture</td>
-<td>Weeks 1 - 8</td>
+<td>Weeks 1 - 6</td>
 <td>$18,000</td>
 </tr>
 <tr>
 <td>FileCoin SDK & Smart Contract Integration</td>
-<td>Weeks 9 - 11</td>
+<td>Weeks 6 - 11</td>
 <td>$25,000</td>
 </tr>
 <tr>
 <td>BFlo Commons Explorer V1 Front and BFlo API Integration</td>
-<td>Weeks 6 - 10</td>
+<td>Weeks 12 - 14</td>
 <td>$18,000</td>
 </tr>
 <tr>
 <td>QA & Continued Modeling/Data Refining</td>
-<td>Weeks 12-14</td>
+<td>Weeks 14 - 16</td>
 <td>$10,000</td>
 </tr>
-<td>Contingency, </td>
+<td>Contingency</td>
 <td>Flat</td>
 <td>$4,000</td>
 </tr>
-<tr><td></td>td>__________<td>
+<tr><td></td>
+<td></td>
+<td>__________<td>
 </tr>
 <tr>
 <td>Total Budget</td>
