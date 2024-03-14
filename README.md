@@ -29,19 +29,6 @@ CLOSED RFPs:
 * [Green Grants](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/green-grants.md)
 * [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/Filecoin-solidity-Optimization.md) 
 
----
-
-### Next Step Microgrants
-
-Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
-
-Since January 27, 2023, microgrants are exclusively awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md#focusareas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
-
-If you have (1) a working prototype that matches the current focus area and (2) concrete _next steps_ for your project, consider applying for a microgrant!
-
-This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
-
-[**LEARN MORE ABOUT MICROGRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Microgrants%20README.md) **AND** [**APPLY FOR A MICROGRANT GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
 
 ---
 
