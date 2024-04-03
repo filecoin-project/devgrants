@@ -21,7 +21,7 @@ Note: The Devgrants program will prioritize funding that enhances functionality 
 
 ## 📋 How to apply
                                     
-To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=) using the Open Grants Proposal template.
+To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon%2C+realChainLife&labels=Open+Grant&projects=&template=open-grant-appolication.md&title=) using the Open Grants Proposal template.
 
 Open Grant proposals are reviewed on a rolling three-month cycle over two review periods, a preliminary and final review. We aim to notify applicants of the preliminary review decision by the end of the month following the application submission date. 
 
