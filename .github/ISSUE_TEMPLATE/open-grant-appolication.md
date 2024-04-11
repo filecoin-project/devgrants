@@ -11,7 +11,7 @@ assignees: smagdali, ErinOCon, realChainLife
 
 **Project Name:**
 
-**Proposal Category:** Choose one of `Developer and data tooling`, `Integrations`, `Research & protocols`, `Storage`, `Retrieval`, `FVM`, or `Other`. Learn what these categories are here: https://github.com/filecoin-project/devgrants/tree/master/open-grants#readme
+**Proposal Category:** Choose one of `Developer and data tooling`, `Integrations`, `Research & protocols`, `Storage`, `Retrieval`, `FVM`, or `Other`. Learn what these categories are [here](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md). 
 
 **Individual or Entity Name:** Is the proposal on behalf of an individual, or an entity/organization? Please note that the agreement and any payments must be completed by the same entity, either individual or organization.
 
