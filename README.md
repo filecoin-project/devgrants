@@ -17,6 +17,13 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50
 
 ---
 
+### Documentation Enhancement Grant
+Do you have a great idea to enhance existing Filecoin documentation or to create new resources? Consider applying for a Documentation Enhancement Grant! Grants up to $5,000 are available to those interested in contributing to the enhancement of Filecoin documentation.
+
+[**LEARN MORE ABOUT OPEN GRANTS**](LINK HERE) **AND** [**APPLY FOR AN OPEN GRANT**](LINK HERE)
+
+---
+
 ### Requests for Proposals (RFPs)
 RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
 
