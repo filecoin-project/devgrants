@@ -20,7 +20,7 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50
 ### Documentation Enhancement Grant
 Do you have a great idea to enhance existing Filecoin documentation or to create new resources? Consider applying for a Documentation Enhancement Grant! Grants up to $5,000 are available to those interested in contributing to the enhancement of Filecoin documentation.
 
-[**LEARN MORE ABOUT DOCUMENTATION ENHANCEMENT GRANTS**] **AND** [**APPLY FOR AN DOCUMENTATION ENHANCEMENT GRANT**]
+[**LEARN MORE ABOUT DOCUMENTATION ENHANCEMENT GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Documentation%20Enhancement%20Grants%20README.md) **AND** [**APPLY FOR AN DOCUMENTATION ENHANCEMENT GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
 
 ---
 
