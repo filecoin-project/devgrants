@@ -35,7 +35,7 @@ Our team may be in touch with questions in the proposal comment section in Githu
 Grants will be paid out once the following steps are completed:  
 - A grant agreement is signed by both parties
 - The outlined project work is complete
-  - As part of their final submission, all grantees should demonstrate successful usage by members of their intended audience with the intended audience as part of the project completion report.
+  - As part of the final submission, all grantees should demonstrate successful usage by members of their intended audience with the intended audience as part of the project completion report.
       - For example, for a tutorial, it should be tested by three to five developers who are not part of the creation team.
 - The project work has been reviewed and approved by Filecoin Foundation
 - Once a completed project has been reviewed and approved, Filecoin Foundation will make a single payment of up to $5,000 USD or USDC within 30 days.
@@ -44,4 +44,4 @@ Grants will be paid out once the following steps are completed:
 For more information regarding our grant program, including other grant types, check out [Filecoin DevGrants](https://github.com/filecoin-project/devgrants). For specific questions, you can reach our team directly by:
 - Email at grants@fil.org
 - Slack at [#grants-help](https://filecoinproject.slack.com/archives/C02A48BJ1SQ)
-- Joining our [Office Hours](https://calendly.com/filecoin-grants/office-hours-ama?month=2024-05).
+- Joining our [Office Hours](https://calendly.com/filecoin-grants/office-hours-ama).
