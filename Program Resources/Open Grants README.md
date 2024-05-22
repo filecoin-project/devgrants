@@ -15,7 +15,7 @@ Open Grants applications for funding up to $50,000 are welcome in the following 
 
 - **Retrieval**: For projects focused on retrieval solutions for Filecoin. Such as tools that optimize retrieval services, and enhance user experiences in the wider retrieval ecosystem.
 
-- **FVM**: Projects may include rollups, staking protocols, and other strategic integrations of Filecoin with both new and existing tools or protocols.
+- **FVM**: Projects may include rollups, leasing protocols, and other strategic integrations of Filecoin with both new and existing tools or protocols.
 
 Note: The Devgrants program will prioritize funding that enhances functionality for Filecoin Network while de-emphasizing funding for projects that are exclusively IPFS, libp2p, and other stacks we may have previously supported. Look out for opportunities to apply for IPFS-focused grants at [ipfs/devgrants](https://github.com/ipfs/devgrants).
 
