@@ -15,7 +15,7 @@ Ultimately, this grant program aims to award teams who:
 2) bring more **high-visibility, high-impact use-cases** to the Filecoin Network
 
 ## Applications, Deadlines and Deliverables 
-**Teams should submit applications via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeS089zv_4umhrNwZg3lrDUbSMhJW7ghwqHxSAvyZ42PPY5hQ/viewform) by Jun 21, 2024**. Please note that while we have previously utilized GitHub submissions for grant programs, given the potentially sensitive nature of client agreements and engagements, we will be accepting direct applications via this form. While the final list of awardees will be public, we’ll respect commercial confidentiality.
+**Teams should submit applications via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeS089zv_4umhrNwZg3lrDUbSMhJW7ghwqHxSAvyZ42PPY5hQ/viewform) by July 5th, 2024**. Please note that while we have previously utilized GitHub submissions for grant programs, given the potentially sensitive nature of client agreements and engagements, we will be accepting direct applications via this form. While the final list of awardees will be public, we’ll respect commercial confidentiality.
 
 In your application, you should provide a clear outline of the scope of work, milestones, timeframe, and funding requested. We’re looking for teams to convey how these funds will directly **accelerate technical roadmaps to close customers and enable paid data onboarding and retrievals** on the Filecoin network. 
 
@@ -53,4 +53,4 @@ The review period will take place during the first two weeks of July 2024 and th
 
 During this time, the review committee can reach out to teams to clarify goals, ask additional questions, and pressure-test grant applications. 
 
-All applicants made via the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeS089zv_4umhrNwZg3lrDUbSMhJW7ghwqHxSAvyZ42PPY5hQ/viewform) by the deadline of **June 21, 2024** should receive status updates before the end of July 2024.
+All applicants made via the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeS089zv_4umhrNwZg3lrDUbSMhJW7ghwqHxSAvyZ42PPY5hQ/viewform) by the deadline of **Ju1y 5th, 2024** should receive status updates before the end of July 2024.
