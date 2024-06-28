@@ -21,7 +21,7 @@ assignees: smagdali, ErinOCon, realChainLife
 
 
 ### 1. What is your project and what existing gap will your project address? 
-<!-- What specific area of Filecoin documentation do you intend to enhance or create? How will this improve the state of Filecoin Documentation. -->
+<!-- What specific area of Filecoin documentation do you intend to enhance or create? How will this improve the state of Filecoin Documentation. Will you be contributing to documentation resource(s) already available in the Filecoin ecosystem or will you be creating a platform from scratch? -->
 
 ### 2. How does your project align with our program focus areas? 
 <!-- Refer to the README for detailed descriptions of each of these areas: tutorial creation, developer guides, and learning resources.  -->
@@ -47,5 +47,6 @@ assignees: smagdali, ErinOCon, realChainLife
 
 ### Additional questions: 
 For each team member(s), please list name, email, Github account, and role in the project.
+Please share a link to your portfolio or your previous examples of work. 
 How did you learn about this program?
 
