@@ -21,10 +21,12 @@ assignees: smagdali, ErinOCon, realChainLife
 
 
 ### 1. What is your project and what existing gap will your project address? 
-<!-- What specific area of Filecoin documentation do you intend to enhance or create? How will this improve the state of Filecoin Documentation. -->
+<!-- What specific area of Filecoin documentation do you intend to enhance or create? How will you achieve this? Please link where the documentation is or will be located. -->
 
 ### 2. How does your project align with our program focus areas? 
 <!-- Refer to the README for detailed descriptions of each of these areas: tutorial creation, developer guides, and learning resources.  -->
+
+### 3. Please link previous examples of your work.
 
 ### 3. What are the expected outcomes of the project? What steps will you take to meet this objective? 
 <!-- Using the table below, please outline the major deliverables, timeframes, and how you will meet the deliverable objectives. 
