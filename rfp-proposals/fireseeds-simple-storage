@@ -1,0 +1,56 @@
+# Project Description
+
+We would like to develop a file storage application by using Filecoin capability. The application would allow the end-user to drag and drop a file to the application directly and use the Filecoin native token for payment. With that, we could start to see more applications being build on top of the Filecoin network.
+
+Then we will introduce a simple DAO to imitate the file sharing inside a team/company. If anyone want to create a storage organization, he/she can deploy a smart contract instance on ethereum to control the membership, storage accesibility and sharing behaviors.
+
+Generally, it is a simplified and decentralized google drive.
+
+
+## Deliverables
+
+
+* Milestone 1 (M1)
+  - UX Design
+  - Implement the application (Upload, Download, Payment)
+  - 4 weeks
+
+* Milestone 2 (M2)
+  - create smart contract boilerplate
+  - UX design and front-end integration
+  - 2 weeks
+
+* Milestone 3 (M3)
+  - User guide (Documentation, Video)
+  - Testing
+  - 2.5 weeks
+
+
+
+
+
+* Resources:
+
+1 x Front-End
+1 x Back-End
+1 x smart-contracter
+
+Total Budget: $12,000.00
+
+
+
+# Team
+
+# Team Members
+
+- [Anson Lau](lautszhinganson@gmail.com)
+- [Maggie Dong](hammewang@gmail.com)
+
+# Relevant Experience
+
+Unchained Labs has a wide range of blockchain and full-stack development experience. Maggie first worked as the core dev in [EvolutionLand](https://www.github.com/evolutionlandorg), a virtual management game on Ethereum that comprises about 100 contracts. Then as the lead dev of [Darwinia network](https://www.darwinia.network) focused on the fundamental cross-chain framework, implemented eth-bridge on [Substrate](http://parity.io/substrate/). Now, is an engineer at [Parity Technologies](https://parity.io), aiming at dev education around Asia. While Anson is work for technical education at [Web3 Foundation](https://web3.foundation/), which responsible for content creation such as [writing tutorials](https://wiki.polkadot.network/), sample applications, and hosting different workshops about Polkadot. And he worked as a Hyperledger fabic blockchain developer at IBM Hong Kong ltd to deliver [enterprise solutions](https://www.fintechfutures.com/2017/11/first-blockchain-based-bancassurance-network-launched-in-hong-kong/) previously.
+
+# Team code repositories
+
+- [Maggie Dong](https://github.com/hammeWang)
+- [Anson Lau](https://github.com/ansonla3)
