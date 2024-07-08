@@ -29,7 +29,7 @@ RFPs are grants for specific development work. As the name suggests, we are requ
 
 OPEN RFPs: 
 
-* [Data Onboarding](https://github.com/filecoin-project/devgrants/blob/master/Archive/Data-Onboarding.md)
+* [Data Onboarding](https://github.com/filecoin-project/devgrants/blob/master/Archive/Data-Onboarding.md) - Application deadline has passed. Review of submitted applications in progress. 
 
 CLOSED RFPs:
 
