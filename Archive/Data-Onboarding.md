@@ -53,4 +53,4 @@ The review period will take place during the first two weeks of July 2024 and th
 
 During this time, the review committee can reach out to teams to clarify goals, ask additional questions, and pressure-test grant applications. 
 
-All applicants made via the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeS089zv_4umhrNwZg3lrDUbSMhJW7ghwqHxSAvyZ42PPY5hQ/viewform) by the deadline of **July 5th, 2024** should receive status updates before the end of July 2024.
+All applicants that submit by the deadline of **July 5th, 2024** should receive status updates before the end of July 2024.
