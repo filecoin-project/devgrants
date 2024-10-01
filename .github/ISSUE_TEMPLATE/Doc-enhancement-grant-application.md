@@ -3,7 +3,8 @@ name: Documentation Enhancement Application
 about: Submit a Documentation Enhancement Application
 title: ''
 labels: ''
-assignees: ErinOCon, realChainLife, smagdali
+assignees: smagdali, ErinOCon
+
 
 ---
 
