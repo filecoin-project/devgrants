@@ -1,9 +1,9 @@
 ---
-name:  Documentation Enhancement Application
+name: Documentation Enhancement Application
 about: Submit a Documentation Enhancement Application
 title: ''
-labels: Doc Enhancement Grant
-assignees: smagdali, ErinOCon, realChainLife
+labels: ''
+assignees: ErinOCon, realChainLife, smagdali
 
 ---
 
@@ -50,4 +50,3 @@ assignees: smagdali, ErinOCon, realChainLife
 ### Additional questions: 
 For each team member(s), please list name, email, Github account, and role in the project.
 How did you learn about this program?
-
