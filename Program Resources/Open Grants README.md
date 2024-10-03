@@ -23,17 +23,14 @@ Note: The Devgrants program will prioritize funding that enhances functionality 
                                     
 To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon%2C+realChainLife&labels=Open+Grant&projects=&template=open-grant-appolication.md&title=) using the Open Grants Proposal template.
 
-Open Grant proposals are reviewed on a rolling three-month cycle over two review periods, a preliminary and final review. We aim to notify applicants of the preliminary review decision by the end of the month following the application submission date. 
+Applicants can generally expect to receive notice of a final grant decision within 30 days of submitting the application. We aim to notify applicants of our preliminary review decision within two weeks of the proposal submission date. A final decision is generally available two weeks from the preliminary review date.
 
-- For example, for applications submitted between March 1 and March 31, applicants will be notified by April 30.
-
-For shortlisted projects, we aim to notify all applicants of the final review decision by the end of the second month following the application submission date. 
-
-- For example, if your March application is shortlisted at the end of April, you will receive final confirmation by the end of May).
+For example, applicants that have submitted a proposal on March 1st can expect to receive an preliminary review update by March 15th. The target date for the final decision would be two weeks later on March 30th.  
 
 Note:
-- We aim to process applications faster than this timeline where possible.
-- It is important that no work begins without a signed contract.                                                                                                                    
+- Timeline details above are applicable for proposals submitted on or after October 1, 2024. 
+- It is important that no work begins without a signed contract.
+                                                                                                                 
                                                
 ## ⌛ After you apply
 
