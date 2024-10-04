@@ -23,9 +23,8 @@ Note: The Devgrants program will prioritize funding that enhances functionality 
                                     
 To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon%2C+realChainLife&labels=Open+Grant&projects=&template=open-grant-appolication.md&title=) using the Open Grants Proposal template.
 
-Applicants can generally expect to receive notice of a final grant decision within 30 days of submitting the application. We aim to notify applicants of our preliminary review decision within two weeks of the proposal submission date. A final decision is generally available two weeks from the preliminary review date.
+We review grant proposals continuously. We aim to notify applicants of our preliminary decision within two weeks of the proposal submission date. A final decision is generally given within 4 weeks from the submission date, but often sooner.
 
-For example, applicants that have submitted a proposal on March 1st can expect to receive an preliminary review update by March 15th. The target date for the final decision would be two weeks later on March 30th.  
 
 Note:
 - Timeline details above are applicable for proposals submitted on or after October 1, 2024. 
