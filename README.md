@@ -17,10 +17,10 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50
 
 ---
 
-### Documentation Enhancement Grant
-Do you have a great idea to enhance existing Filecoin documentation or to create new resources? Consider applying for a Documentation Enhancement Grant! Grants up to $5,000 are available to those interested in contributing to the enhancement of Filecoin documentation.
+### FIL Builder Next Steps Grant
+Filecoin Foundation is working with FIL-B to provide $5k to $10k support for builders taking their Filecoin projects to the next level! Eager to take the next step? Check out our criteria and get started!
 
-[**LEARN MORE ABOUT DOCUMENTATION ENHANCEMENT GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Documentation%20Enhancement%20Grants%20README.md) **AND** [**APPLY FOR AN DOCUMENTATION ENHANCEMENT GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
+[**LEARN MORE ABOUT FIL BUILDER NEXT STEPS GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Builder%20Next%20Step%20Grants.md) **AND** [**APPLY FOR A FIL BUILDER NEXT STEP GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
 
 ---
 
