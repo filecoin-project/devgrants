@@ -5,7 +5,6 @@ title: ''
 labels: ''
 assignees: smagdali, ErinOCon
 
-
 ---
 
 # Grant Proposal: `Project Title`
