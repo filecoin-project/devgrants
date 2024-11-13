@@ -1,4 +1,4 @@
-# Builder Next Step Grants
+# FIL Builder Next Step Grants
 Presented by FIL-B and Filecoin Foundation
 
 ## About
