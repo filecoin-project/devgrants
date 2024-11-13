@@ -49,7 +49,7 @@ Once your proposal is submitted, you can expect to receive a final review decisi
 If additional timing is needed for your specific proposal, we will reach out to your team with more information. We know maintaining momentum is important to you and your team!
 
 ## 📋 How to apply and what to expect along the way
-Applying is as simple as creating a Github Issue here! After you submit your proposal, you can expect the following to occur:
+Applying is as simple as creating a Github Issue [here](https://github.com/filecoin-project/devgrants/issues/new/choose)! After you submit your proposal, you can expect the following to occur:
 - We will review your application. During review, we may add comments, questions, and/or change requests on your team's submission. Please look for comments on your Github issue.
 - After the preliminary phase, our team will make a decision on which proposals to recommend for final review.
 - If your proposal is accepted, we will ask you to review and sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones.
