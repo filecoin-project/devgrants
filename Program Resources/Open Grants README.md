@@ -20,25 +20,35 @@ Open Grants applications for funding up to $50,000 are welcome in the following 
 Note: The Devgrants program will prioritize funding that enhances functionality for Filecoin Network while de-emphasizing funding for projects that are exclusively IPFS, libp2p, and other stacks we may have previously supported. Look out for opportunities to apply for IPFS-focused grants at [ipfs/devgrants](https://github.com/ipfs/devgrants).
 
 ## 📋 How to apply and review timeline
+
+**Applies for proposals submitted after December 1, 2024**
                                     
-To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon%2C+realChainLife&labels=Open+Grant&projects=&template=open-grant-appolication.md&title=) using the Open Grants Proposal template.
+To submit an Open Grant proposal, [create a new issue](https://github.com/filecoin-project/devgrants/issues/new?assignees=smagdali%2C+ErinOCon%2C+realChainLife&labels=Open+Grant&projects=&template=open-grant-appolication.md&title=) using the Open Grants Proposal template. After you submit your proposal, you can expect the following to occur:
 
-Open Grant proposals are reviewed on a rolling three-month cycle over two review periods, a preliminary and final review. We aim to notify applicants of the preliminary review decision by the end of the month following the application submission date. 
-  - For example, for applications submitted between March 1 and March 31, applicants will be notified by April 30.
 
-For shortlisted projects, we aim to notify all applicants of the final review decision by the end of the second month following the application submission date. 
-  - For example, if your March application is shortlisted at the end of April, you will receive final confirmation by the end of May).
+- We review grant proposals continuously. During review, we may add comments, questions, or change requests on your team's submission. Please look for comments on your Github issue.
+- We aim to provide applicants of a preliminary review update within two weeks of the proposal submission date. A final decision will generally be given within 4 weeks from the submission date.
+- If your proposal is accepted, we will ask you to review and sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. ***NO WORK SHOULD BEGIN UNTIL CONTRACT IS SIGNED BY BOTH PARTIES.***
 
-Note:
-- We aim to process applications faster than this timeline where possible.
-- It is important that no work begins without a signed contract.                                                                                                                                                                                                               
+
+## Process Overview
+```mermaid
+graph TD;
+    A[Applicant Submits Open Grant proposal] --> B;
+    B[Committee completes preliminary review] --> C;
+    C[Preliminary review results generally provided within 2 weeks of submission date] --> D;
+    D[Applicable proposals proceed to final review round] --> E;
+    E[Final review results generally provided within a month from submission date] --> F;
+    F[Proceed to contract review and signature]
+```                                                                                                              
                                                
-## ⌛ After you apply
-After you submit your proposal, you can expect the following to occur:
-- We will review your application. During review, we may add comments, questions, and/or change requests on your team's submission. Please look for comments on your Github issue.
-- After the preliminary phase, our team will make a decision on which proposals to recommend for final review.
-- If your proposal is accepted, we will ask you to review and sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones.
+**Note:** 
 - Grants should not be treated as final, or the funding as fully approved, until the Grant Agreement is signed by both parties. NO WORK SHOULD BEGIN UNTIL CONTRACT IS SIGNED BY BOTH PARTIES.
+- Please reach out to #grants-help on Filecoin Slack or email grants@fil.org with any questions.
+
+
+
+    
 
 
 
