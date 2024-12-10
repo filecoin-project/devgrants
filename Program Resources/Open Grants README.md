@@ -19,7 +19,7 @@ Open Grants applications for funding up to $50,000 are welcome in the following 
 
 Note: The Devgrants program will prioritize funding that enhances functionality for Filecoin Network while de-emphasizing funding for projects that are exclusively IPFS, libp2p, and other stacks we may have previously supported. Look out for opportunities to apply for IPFS-focused grants at [ipfs/devgrants](https://github.com/ipfs/devgrants).
 
-## 📋 How to apply and review timeline
+## How to apply and review timeline
 
 **Applies for proposals submitted after December 1, 2024**
                                     
