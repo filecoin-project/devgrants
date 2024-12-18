@@ -31,12 +31,13 @@ assignees: smagdali, ErinOCon
 
 <!-- Project website or additional links. -->
   
-### 2. a) How is Filecoin used in this project?
-<!-- Outline your project's technical design, including details of how it uses Filecoin and related technologies. Please include any APIs, services, or tools →
+### 2. How is Filecoin used in this project? 
+<!-- Outline your project's technical design, including details of how it uses Filecoin and related technologies. Please include any APIs, services, or tools. 
 
-(proposed) b) How does this project grow on-chain activity on Filecoin?
+**If applicable, please describe how this project grows on-chain activity on Filecoin.** -->
   
-### 3. How will you improve your project with this grant? What steps will you take to meet this objective? 
+### 3. How will you improve your project with this grant? What steps will you take to meet this objective?
+
 <!-- Using the table below, provide a clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
   
 | Number | Grant Deliverable       | Briefly describe how you will meet deliverable objectives  | Timeframe (within 3 months)|
@@ -47,7 +48,10 @@ assignees: smagdali, ErinOCon
 | 4.     |                         |                                                            |                            | 
 
 
-### 4. Adoption, Reach, and Growth Strategies
+### 4. What is the total amount of this grant request? 
+<!-- Please note the standard amount for this grant type is $5k, $7k, or $10K -->
+
+### 5. Adoption, Reach, and Growth Strategies
 
 <!-- Who is the target audience for your project? How large is this audience and how are you currently engaging with them?
 
@@ -55,13 +59,13 @@ assignees: smagdali, ErinOCon
 
 <!-- If applicable, how do you intend to onboard new users? If you are just starting to interact with your target audience, how will you onboard your first 10 users? Your first 100? -->
 
-### 5. If accepted, do you agree to share monthly project updates in this Github Issue until the project described here is complete?
+### 6. If accepted, do you agree to share monthly project updates in this Github Issue until the project described here is complete?
 <!-- Report content may include progress or results of your grant-funded work, any Filecoin technical or usage guidance requests, and a description of your experience building on Filecoin, including any challenges or shortcomings encountered. -->
   
-### 6. Does your proposal comply with our Community Code of Conduct?
+### 7. Does your proposal comply with our Community Code of Conduct?
 <!-- Please read the [Filecoin Code of Conduct](https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md) and make sure your project is in compliance -->
 
-### 7. Links and submissions
+### 8. Links and submissions
 * If your project began at an event or hackathon, have you submitted it for relevant prizes in the ecosystem? If so, please share the event name and a link to your hackathon submission(s) 
   
 ### Additional questions:
