@@ -41,6 +41,17 @@ assignees: smagdali, ErinOCon
 <!-- Please describe in detail what your final outcomes & deliverable(s) for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished.-->
 <!-- Please describe how your team is measuring the success of your project and define the metrics being used.-->
 
+## Data Onboarding
+
+<!-- If you will be onboarding data to the Filecoin network, please share the projected amount of data that will be onboarded as a result of this project. 
+
+- Month #1: 
+- Month #3: 
+- Month #6: 
+- Month #12:
+
+If question is not applicable, please disregard and proceed to "Adoption, Reach, and Growth Strategies"
+
 ## Adoption, Reach, and Growth Strategies
 
 <!-- Who is the target audience for your project? How large is this audience and how are you currently engaging with them?
