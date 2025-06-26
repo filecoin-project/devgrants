@@ -42,8 +42,6 @@ Filecoin Foundation is working with FIL-B to provide $5k to $10k support for bui
 - Clear problem statement to solve with the project
 
 ## ⌛ Review timeline
-This grant type is open for applications starting November 13th, 2024. Please note that the official review process will kick off December 1, 2024 and will be open until April 30, 2025. 
-
 Once your proposal is submitted, you can expect to receive a final review decision or update from our team within 2 weeks. We generally aim to complete all proposal decisions within a month of the submission date.
 
 If additional timing is needed for your specific proposal, we will reach out to your team with more information. We know maintaining momentum is important to you and your team!
