@@ -9,8 +9,10 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 
 ---
 
-### Open Grant
-Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50,000 are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
+### Open Grants
+For the moment, funding requests are being reviewed through [ProPGF](https://filpgf.io/propgf), the Filecoin network's public goods funding program, which is funded in part by Filecoin Foundation. Upcoming ProPGF programs, dates and criteria are posted at https://filpgf.io/propgf.
+
+Filecoin Foundation uses this repository when specific priorities or needs arise.
 
 
 [**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
@@ -19,9 +21,6 @@ Do you have an idea for pushing the Filecoin ecosystem forward? Grants up to $50
 
 ### Requests for Proposals (RFPs)
 RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
-
-OPEN RFPs: 
-* Stay tuned!
 
 CLOSED RFPs:
 * [Data Onboarding](https://github.com/filecoin-project/devgrants/blob/master/Archive/Data-Onboarding.md)
