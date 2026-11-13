@@ -14,8 +14,7 @@ For the moment, funding requests are being reviewed through [ProPGF](https://fil
 
 Filecoin Foundation uses this repository when specific priorities or needs arise.
 
-
-[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new/choose)
+   [**APPLY FOR FUNDING THROUGH PROPGF**](https://filpgf.io/propgf)
 
 ---
 
