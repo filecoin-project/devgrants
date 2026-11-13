@@ -13,24 +13,3 @@ Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects gra
 For the moment, funding requests are being reviewed through [ProPGF](https://filpgf.io/propgf), the Filecoin network's public goods funding program, which is funded in part by Filecoin Foundation. Upcoming ProPGF programs, dates and criteria are posted at https://filpgf.io/propgf.
 
 Filecoin Foundation uses this repository when specific priorities or needs arise.
-
-   [**APPLY FOR FUNDING THROUGH PROPGF**](https://filpgf.io/propgf)
-
----
-
-### Requests for Proposals (RFPs)
-RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
-
-CLOSED RFPs:
-* [Data Onboarding](https://github.com/filecoin-project/devgrants/blob/master/Archive/Data-Onboarding.md)
-* [Zcash x Filecoin](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/zcash-and-filecoin.md)
-* [FVM Tooling & Infrastructure](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/fvm-open-tools-infra.md)
-* [Green Grants](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/green-grants.md)
-* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/Archive/rfps/Filecoin-solidity-Optimization.md) 
-
-
----
-
-### Don't see your grant type?
-Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](mailto:grants@fil.org) with your idea.
-
