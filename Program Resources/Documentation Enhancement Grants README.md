@@ -1,5 +1,7 @@
 
 # Documentation Enhancement Grants
+> **Archived:** This program is closed and no longer accepts applications. For the moment, funding requests are being reviewed through [ProPGF](https://filpgf.io/propgf). The information below is kept for reference only.
+
 
 ## About
 Do you have a great idea to enhance existing Filecoin documentation or to create new resources? Consider applying for a Documentation Enhancement Grant! These grants are intended for anyone interested in contributing to the enhancement of Filecoin documentation. 
